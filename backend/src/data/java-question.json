@@ -1,0 +1,1197 @@
+[
+    {
+        "id": 1,
+        "subjectKey": "java",
+        "text": "Java'da 'Platform Independence' (platformaga bog'liqlikning yo'qligi) qanday ta'minlanadi?",
+        "options": [
+            "Faqat Windows operatsion tizimida ishlash orqali",
+            "Java kodi Bytecode'ga o'girilishi va JVM orqali har qanday tizimda bajarilishi orqali",
+            "Kodning har doim bitta protsessor turiga moslanishi orqali",
+            "C++ kutubxonalaridan foydalanish orqali"
+        ],
+        "correctAnswer": "Java kodi Bytecode'ga o'girilishi va JVM orqali har qanday tizimda bajarilishi orqali"
+    },
+    {
+        "id": 2,
+        "subjectKey": "java",
+        "text": "JDK, JRE va JVM o'rtasidagi asosiy farq nima?",
+        "options": [
+            "Hech qanday farqi yo'q",
+            "JDK - dasturchilar uchun asboblar to'plami, JRE - dasturni ishlatish uchun muhit, JVM - kodni bajaruvchi qism",
+            "JVM faqat mobil qurilmalarda ishlaydi",
+            "JRE tarkibida kompilyator mavjud, JDK'da esa yo'q"
+        ],
+        "correctAnswer": "JDK - dasturchilar uchun asboblar to'plami, JRE - dasturni ishlatish uchun muhit, JVM - kodni bajaruvchi qism"
+    },
+    {
+        "id": 3,
+        "subjectKey": "java",
+        "text": "Java'da 'String' obyektlari nima uchun 'immutable' (o'zgarmas) hisoblanadi?",
+        "options": [
+            "Xotira tejash (String Pool), xavfsizlik va multithreading'da barqarorlikni ta'minlash uchun",
+            "Chunki String butun sonlarni saqlay olmaydi",
+            "Xotira hajmini oshirish uchun",
+            "Faqat Java 8 versiyasidan keyin shunday bo'lgan"
+        ],
+        "correctAnswer": "Xotira tejash (String Pool), xavfsizlik va multithreading'da barqarorlikni ta'minlash uchun"
+    },
+    {
+        "id": 4,
+        "subjectKey": "java",
+        "text": "Java'da 'Abstract Class' va 'Interface' o'rtasidagi asosiy farq nimada?",
+        "options": [
+            "Farqi yo'q, ikkalasi ham bir xil",
+            "Interface'da bir nechta vorislik mumkin, Abstract class'da esa faqat bitta",
+            "Abstract class faqat metodlarni saqlaydi",
+            "Interface'da konstruktor bo'lishi mumkin"
+        ],
+        "correctAnswer": "Interface'da bir nechta vorislik mumkin, Abstract class'da esa faqat bitta"
+    },
+    {
+        "id": 5,
+        "subjectKey": "java",
+        "text": "Java'da 'Method Overloading' nima?",
+        "options": [
+            "Ota klassdagi metodni bola klassda qayta yozish",
+            "Bir xil nomli, lekin argumentlar soni yoki turi har xil bo'lgan metodlar yaratish",
+            "Metodni butunlay o'chirib tashlash",
+            "Metodni faqat 'static' qilish"
+        ],
+        "correctAnswer": "Bir xil nomli, lekin argumentlar soni yoki turi har xil bo'lgan metodlar yaratish"
+    },
+    {
+        "id": 6,
+        "subjectKey": "java",
+        "text": "Java'da 'static' kalit so'zi nima uchun ishlatiladi?",
+        "options": [
+            "O'zgaruvchi yoki metodni obyektga emas, balki klassning o'ziga tegishli qilish uchun",
+            "Dasturni tezroq to'xtatish uchun",
+            "Faqat xatolarni ushlash uchun",
+            "Ma'lumotlar bazasiga ulanish uchun"
+        ],
+        "correctAnswer": "O'zgaruvchi yoki metodni obyektga emas, balki klassning o'ziga tegishli qilish uchun"
+    },
+    {
+        "id": 7,
+        "subjectKey": "java",
+        "text": "Garbage Collector (GC) vazifasi nima?",
+        "options": [
+            "Kompyuterdagi ortiqcha fayllarni o'chirish",
+            "Xotirada (Heap) foydalanilmayotgan (hech qanday havola yo'q) obyektlarni avtomatik tozalash",
+            "Sintaktik xatolarni topish",
+            "Dasturning grafik qismini yangilash"
+        ],
+        "correctAnswer": "Xotirada (Heap) foydalanilmayotgan (hech qanday havola yo'q) obyektlarni avtomatik tozalash"
+    },
+    {
+        "id": 8,
+        "subjectKey": "java",
+        "text": "Java'da 'final' kalit so'zi o'zgaruvchi bilan ishlatilganda nima sodir bo'ladi?",
+        "options": [
+            "O'zgaruvchini faqat bir marta e'lon qilish mumkin va uning qiymatini o'zgartirib bo'lmaydi",
+            "O'zgaruvchi global bo'ladi",
+            "O'zgaruvchi avtomatik ravishda 0 ga teng bo'ladi",
+            "O'zgaruvchi faqat 'static' metodlarda ishlatiladi"
+        ],
+        "correctAnswer": "O'zgaruvchini faqat bir marta e'lon qilish mumkin va uning qiymatini o'zgartirib bo'lmaydi"
+    },
+    {
+        "id": 9,
+        "subjectKey": "java",
+        "text": "Java'da 'Checked' va 'Unchecked' Exception'lar farqi nimada?",
+        "options": [
+            "Checked exception'lar kompilyatsiya vaqtida tekshiriladi, Unchecked esa runtime'da yuzaga keladi",
+            "Unchecked exception'larni ushlash majburiy",
+            "Checked exception faqat matematik xatolar uchun",
+            "Hech qanday farqi yo'q"
+        ],
+        "correctAnswer": "Checked exception'lar kompilyatsiya vaqtida tekshiriladi, Unchecked esa runtime'da yuzaga keladi"
+    },
+    {
+        "id": 10,
+        "subjectKey": "java",
+        "text": "ArrayList va LinkedList o'rtasidagi asosiy farq nima?",
+        "options": [
+            "LinkedList har doim tezroq",
+            "ArrayList massivga asoslangan, LinkedList esa tugunlar (node) bog'liqligiga asoslangan",
+            "ArrayList faqat Stringlar uchun ishlatiladi",
+            "LinkedList xotiradan kam joy oladi"
+        ],
+        "correctAnswer": "ArrayList massivga asoslangan, LinkedList esa tugunlar (node) bog'liqligiga asoslangan"
+    },
+    {
+        "id": 11,
+        "subjectKey": "java",
+        "text": "Java'da 'super' kalit so'zi nima uchun ishlatiladi?",
+        "options": [
+            "Dasturni to'xtatish uchun",
+            "Ota klassning konstruktori yoki metodlariga murojaat qilish uchun",
+            "Klassni o'chirish uchun",
+            "Faqat main metodda ishlatish uchun"
+        ],
+        "correctAnswer": "Ota klassning konstruktori yoki metodlariga murojaat qilish uchun"
+    },
+    {
+        "id": 12,
+        "subjectKey": "java",
+        "text": "HashMap qanday ishlaydi?",
+        "options": [
+            "Elementlarni tartib bilan saqlaydi",
+            "Kalit-qiymat (Key-Value) juftligi va Hashing mexanizmi asosida ishlaydi",
+            "Faqat bir xil turdagi ma'lumotlarni saqlaydi",
+            "Faqat sonli kalitlarni qabul qiladi"
+        ],
+        "correctAnswer": "Kalit-qiymat (Key-Value) juftligi va Hashing mexanizmi asosida ishlaydi"
+    },
+    {
+        "id": 13,
+        "subjectKey": "java",
+        "text": "Java'da 'Wrapper classes' nima?",
+        "options": [
+            "Klasslarni o'rab turuvchi ramkalar",
+            "Primitiv tiplarni (int, double va h.k.) obyekt ko'rinishida ishlatish uchun mo'ljallangan klasslar",
+            "Faqat grafik interfeys uchun klasslar",
+            "Kodni shifrlash uchun klasslar"
+        ],
+        "correctAnswer": "Primitiv tiplarni (int, double va h.k.) obyekt ko'rinishida ishlatish uchun mo'ljallangan klasslar"
+    },
+    {
+        "id": 14,
+        "subjectKey": "java",
+        "text": "Java'da 'Thread' yaratishning ikki yo'li qaysi?",
+        "options": [
+            "Thread klassidan vorislik olish va Runnable interfeysini amalga oshirish",
+            "Faqat 'for' sikli orqali",
+            "Faqat main metodni qayta yozish orqali",
+            "Dasturni ikki marta ishga tushirish orqali"
+        ],
+        "correctAnswer": "Thread klassidan vorislik olish va Runnable interfeysini amalga oshirish"
+    },
+    {
+        "id": 15,
+        "subjectKey": "java",
+        "text": "Java'da 'Encapsulation' nima?",
+        "options": [
+            "Klass ichidagi ma'lumotlarni (field) yashirish va ularga faqat metodlar (getter/setter) orqali kirish",
+            "Kodni internetga joylash",
+            "Klasslardan nusxa olish",
+            "Bir klassni bir necha marta import qilish"
+        ],
+        "correctAnswer": "Klass ichidagi ma'lumotlarni (field) yashirish va ularga faqat metodlar (getter/setter) orqali kirish"
+    },
+    {
+        "id": 16,
+        "subjectKey": "java",
+        "text": "Java'da 'Polymorphism' nima?",
+        "options": [
+            "Faqat bitta turdagi obyekt bilan ishlash",
+            "Bitta interfeys yoki klass orqali har xil turdagi obyektlar bilan ishlash imkoniyati",
+            "Ma'lumotlarni xotiradan o'chirish",
+            "Faqat 'static' o'zgaruvchilarni ishlatish"
+        ],
+        "correctAnswer": "Bitta interfeys yoki klass orqali har xil turdagi obyektlar bilan ishlash imkoniyati"
+    },
+    {
+        "id": 17,
+        "subjectKey": "java",
+        "text": "Java'da 'this' kalit so'zi nimani anglatadi?",
+        "options": [
+            "Ota klassning obyektini",
+            "Joriy klassning joriy obyektiga ishorani",
+            "Global o'zgaruvchini",
+            "Faqat static metodni"
+        ],
+        "correctAnswer": "Joriy klassning joriy obyektiga ishorani"
+    },
+    {
+        "id": 18,
+        "subjectKey": "java",
+        "text": "Java'da 'Constructor' nima?",
+        "options": [
+            "Dasturni quruvchi dasturchi",
+            "Obyekt yaratilganda avtomatik chaqiriladigan va obyektni initsializatsiya qiladigan maxsus metod",
+            "Klassni o'chiruvchi metod",
+            "Xatolarni qidiruvchi tizim"
+        ],
+        "correctAnswer": "Obyekt yaratilganda avtomatik chaqiriladigan va obyektni initsializatsiya qiladigan maxsus metod"
+    },
+    {
+        "id": 19,
+        "subjectKey": "java",
+        "text": "Java'da 'equals()' va '==' o'rtasidagi farq nima?",
+        "options": [
+            "Farqi yo'q",
+            "'==' havolalarni (reference) solishtiradi, 'equals()' esa obyektning ichidagi qiymatlarni solishtiradi",
+            "'equals()' faqat sonlar uchun",
+            "'==' faqat Boolean qiymatlar uchun"
+        ],
+        "correctAnswer": "'==' havolalarni (reference) solishtiradi, 'equals()' esa obyektning ichidagi qiymatlarni solishtiradi"
+    },
+    {
+        "id": 20,
+        "subjectKey": "java",
+        "text": "Java'da 'Default' metodlar nima uchun interfeyslarga qo'shilgan (Java 8)?",
+        "options": [
+            "Interfeyslarni qiyinlashtirish uchun",
+            "Mavjud interfeyslarga yangi metod qo'shganda, ularni amalga oshirgan barcha klasslarni o'zgartirmaslik uchun",
+            "Faqat xavfsizlik uchun",
+            "Interface'larni butunlay o'rnini bosish uchun"
+        ],
+        "correctAnswer": "Mavjud interfeyslarga yangi metod qo'shganda, ularni amalga oshirgan barcha klasslarni o'zgartirmaslik uchun"
+    },
+    {
+        "id": 21,
+        "subjectKey": "java",
+        "text": "Java'da 'Volatile' kalit so'zi nima vazifani bajaradi?",
+        "options": [
+            "O'zgaruvchini xotiradan o'chiradi",
+            "O'zgaruvchi qiymatini CPU keshida emas, asosiy xotirada (Main Memory) saqlashni ta'minlaydi",
+            "Metodni faqat bitta thread ishlatishini ta'minlaydi",
+            "O'zgaruvchini o'zgarmas (final) qiladi"
+        ],
+        "correctAnswer": "O'zgaruvchi qiymatini CPU keshida emas, asosiy xotirada (Main Memory) saqlashni ta'minlaydi"
+    },
+    {
+        "id": 22,
+        "subjectKey": "java",
+        "text": "JVM xotira tuzilishida 'Stack' va 'Heap'ning asosiy farqi nimada?",
+        "options": [
+            "Stack'da obyektlar saqlanadi, Heap'da metodlar",
+            "Stack'da metod chaqiruvi va lokal o'zgaruvchilar, Heap'da esa barcha obyektlar saqlanadi",
+            "Heap faqat static o'zgaruvchilar uchun",
+            "Farqi yo'q, ikkalasi ham bir xil xotira"
+        ],
+        "correctAnswer": "Stack'da metod chaqiruvi va lokal o'zgaruvchilar, Heap'da esa barcha obyektlar saqlanadi"
+    },
+    {
+        "id": 23,
+        "subjectKey": "java",
+        "text": "Java'da 'Fail-fast' iterator nima?",
+        "options": [
+            "Kodni tezroq ishlatuvchi iterator",
+            "Kolleksiya ustida iteratsiya ketayotganda struktura o'zgarsa (modify), darhol ConcurrentModificationException tashlaydigan iterator",
+            "Xatolarni e'tiborsiz qoldiradigan iterator",
+            "Faqat ArrayList uchun ishlaydigan iterator"
+        ],
+        "correctAnswer": "Kolleksiya ustida iteratsiya ketayotganda struktura o'zgarsa (modify), darhol ConcurrentModificationException tashlaydigan iterator"
+    },
+    {
+        "id": 24,
+        "subjectKey": "java",
+        "text": "Java'da 'Marker Interface' nima?",
+        "options": [
+            "Ichida faqat bitta metod bo'lgan interfeys",
+            "Hech qanday metodi bo'lmagan, faqat klassga ma'lum bir xususiyat berish uchun ishlatiladigan interfeys (masalan, Serializable)",
+            "Grafik chizish uchun ishlatiladigan interfeys",
+            "Faqat xatolarni belgilaydigan interfeys"
+        ],
+        "correctAnswer": "Hech qanday metodi bo'lmagan, faqat klassga ma'lum bir xususiyat berish uchun ishlatiladigan interfeys (masalan, Serializable)"
+    },
+    {
+        "id": 25,
+        "subjectKey": "java",
+        "text": "Java'da 'Functional Interface' nima?",
+        "options": [
+            "Faqat bitta abstract metodi bor bo'lgan interfeys",
+            "Faqat static metodlari bor bo'lgan interfeys",
+            "Barcha metodlari default bo'lgan interfeys",
+            "Faqat Lambda ifodalarni o'chirish uchun ishlatiladi"
+        ],
+        "correctAnswer": "Faqat bitta abstract metodi bor bo'lgan interfeys"
+    },
+    {
+        "id": 26,
+        "subjectKey": "java",
+        "text": "Java'da 'Synchronized' bloki nima uchun kerak?",
+        "options": [
+            "Dasturni tezlashtirish uchun",
+            "Bir vaqtning o'zida faqat bitta thread ma'lum bir resursga kirishini ta'minlash (Race condition oldini olish) uchun",
+            "O'zgaruvchilarni klonlash uchun",
+            "Faqat fayllarni o'qish uchun"
+        ],
+        "correctAnswer": "Bir vaqtning o'zida faqat bitta thread ma'lum bir resursga kirishini ta'minlash (Race condition oldini olish) uchun"
+    },
+    {
+        "id": 27,
+        "subjectKey": "java",
+        "text": "Java'da 'Reflection API' nima?",
+        "options": [
+            "Kodni avtomatik formatlash tizimi",
+            "Runtime (ishlash) vaqtida klasslar, metodlar va fieldlar haqida ma'lumot olish va ularni o'zgartirish imkoniyati",
+            "Ma'lumotlar bazasini nusxalash",
+            "Faqat Stringlarni teskari aylantirish"
+        ],
+        "correctAnswer": "Runtime (ishlash) vaqtida klasslar, metodlar va fieldlar haqida ma'lumot olish va ularni o'zgartirish imkoniyati"
+    },
+    {
+        "id": 28,
+        "subjectKey": "java",
+        "text": "Java'da 'Deadlock' nima?",
+        "options": [
+            "Dasturning muvaffaqiyatli tugashi",
+            "Ikki yoki undan ortiq threadlar bir-birini cheksiz kutib qolishi natijasida dasturning to'xtab qolishi",
+            "Xotira to'lib qolishi",
+            "Protsessorning qizib ketishi"
+        ],
+        "correctAnswer": "Ikki yoki undan ortiq threadlar bir-birini cheksiz kutib qolishi natijasida dasturning to'xtab qolishi"
+    },
+    {
+        "id": 29,
+        "subjectKey": "java",
+        "text": "Java'da 'CopyOnWriteArrayList' qachon ishlatiladi?",
+        "options": [
+            "Faqat ma'lumotlarni o'chirishda",
+            "Thread-safe list kerak bo'lganda va o'qish (read) operatsiyalari yozish (write) operatsiyalaridan ancha ko'p bo'lganda",
+            "Faqat bitta thread ishlatilganda",
+            "Xotirani tejash uchun"
+        ],
+        "correctAnswer": "Thread-safe list kerak bo'lganda va o'qish (read) operatsiyalari yozish (write) operatsiyalaridan ancha ko'p bo'lganda"
+    },
+    {
+        "id": 30,
+        "subjectKey": "java",
+        "text": "Java'da 'Stream API' (Java 8) nima?",
+        "options": [
+            "Faqat video oqimlarini ko'rish uchun kutubxona",
+            "Ma'lumotlar to'plami (collections) ustida deklarativ uslubda (filtrlash, saralash) ishlash imkoniyati",
+            "Faqat fayllarni yuklash tizimi",
+            "Yangi turdagi ma'lumotlar bazasi"
+        ],
+        "correctAnswer": "Ma'lumotlar to'plami (collections) ustida deklarativ uslubda (filtrlash, saralash) ishlash imkoniyati"
+    },
+    {
+        "id": 31,
+        "subjectKey": "java",
+        "text": "Java'da 'Optional' klassi (Java 8) nima uchun kerak?",
+        "options": [
+            "Dasturni tezroq qilish uchun",
+            "NullPointerException'dan qochish va qiymat mavjud emasligini xavfsiz ifodalash uchun",
+            "Faqat sonlarni saqlash uchun",
+            "O'zgaruvchilarni global qilish uchun"
+        ],
+        "correctAnswer": "NullPointerException'dan qochish va qiymat mavjud emasligini xavfsiz ifodalash uchun"
+    },
+    {
+        "id": 32,
+        "subjectKey": "java",
+        "text": "Java'da 'Composition' va 'Inheritance' o'rtasidagi farq nima?",
+        "options": [
+            "Inheritance - 'is-a' munosabati (vorislik), Composition - 'has-a' munosabati (obyektni ichida ishlatish)",
+            "Composition faqat static metodlar uchun",
+            "Inheritance xotirani tejaydi",
+            "Ular bir xil narsa"
+        ],
+        "correctAnswer": "Inheritance - 'is-a' munosabati (vorislik), Composition - 'has-a' munosabati (obyektni ichida ishlatish)"
+    },
+    {
+        "id": 33,
+        "subjectKey": "java",
+        "text": "Java'da 'JIT' (Just-In-Time) kompilyator nima?",
+        "options": [
+            "Kodni har safar noldan yozuvchi dastur",
+            "Bytecode'ning ko'p ishlatiladigan qismlarini ishlash vaqtida (runtime) bevosita mashina kodiga o'giruvchi mexanizm",
+            "Faqat xatolarni tahrirlovchi vosita",
+            "Java versiyasini yangilovchi tizim"
+        ],
+        "correctAnswer": "Bytecode'ning ko'p ishlatiladigan qismlarini ishlash vaqtida (runtime) bevosita mashina kodiga o'giruvchi mexanizm"
+    },
+    {
+        "id": 34,
+        "subjectKey": "java",
+        "text": "Java'da 'Constructor Chaining' nima?",
+        "options": [
+            "Bir konstruktordan boshqa konstruktorni (shu klassdagi yoki ota klassdagi) chaqirish jarayoni",
+            "Konstruktorlarni o'chirib tashlash",
+            "Faqat bitta konstruktor yaratish majburiyati",
+            "Konstruktorni static qilish"
+        ],
+        "correctAnswer": "Bir konstruktordan boshqa konstruktorni (shu klassdagi yoki ota klassdagi) chaqirish jarayoni"
+    },
+    {
+        "id": 35,
+        "subjectKey": "java",
+        "text": "Java'da 'Wrapper class'larni keshlashtirish (Caching) qaysi diapazonda ishlaydi?",
+        "options": [
+            "0 dan 100 gacha",
+            "-128 dan 127 gacha (masalan, Integer uchun)",
+            "Faqat musbat sonlar uchun",
+            "Cheksiz"
+        ],
+        "correctAnswer": "-128 dan 127 gacha (masalan, Integer uchun)"
+    },
+    {
+        "id": 36,
+        "subjectKey": "java",
+        "text": "Java'da 'Inner Class' va 'Static Nested Class' farqi nimada?",
+        "options": [
+            "Farqi yo'q",
+            "Inner class tashqi klass obyektiga bog'langan bo'ladi, Static nested class esa yo'q",
+            "Static nested class faqat private bo'lishi mumkin",
+            "Inner class faqat metod ichida bo'ladi"
+        ],
+        "correctAnswer": "Inner class tashqi klass obyektiga bog'langan bo'ladi, Static nested class esa yo'q"
+    },
+    {
+        "id": 37,
+        "subjectKey": "java",
+        "text": "Java'da 'System.gc()' chaqirilsa nima sodir bo'ladi?",
+        "options": [
+            "Garbage Collector darhol barcha xotirani tozalaydi",
+            "JVM'ga xotirani tozalash bo'yicha maslahat (taklif) beriladi, lekin u darhol ishlashi kafolatlanmaydi",
+            "Kompyuter o'chib qoladi",
+            "Dastur xatolik beradi"
+        ],
+        "correctAnswer": "JVM'ga xotirani tozalash bo'yicha maslahat (taklif) beriladi, lekin u darhol ishlashi kafolatlanmaydi"
+    },
+    {
+        "id": 38,
+        "subjectKey": "java",
+        "text": "Java'da 'Enum' nima uchun ishlatiladi?",
+        "options": [
+            "O'zgarmas qiymatlar to'plamini (masalan, haftalik kunlar) ifodalash uchun",
+            "Faqat sonli o'zgaruvchilar yaratish uchun",
+            "Klasslarni import qilishning boshqa yo'li",
+            "Xatolarni qayta ishlash moduli"
+        ],
+        "correctAnswer": "O'zgarmas qiymatlar to'plamini (masalan, haftalik kunlar) ifodalash uchun"
+    },
+    {
+        "id": 39,
+        "subjectKey": "java",
+        "text": "Java'da 'Transient' kalit so'zi nima qiladi?",
+        "options": [
+            "O'zgaruvchini static qiladi",
+            "Serializatsiya paytida o'zgaruvchi qiymati saqlanmasligini ta'minlaydi",
+            "O'zgaruvchini xotiradan o'chiradi",
+            "O'zgaruvchini faqat bir marta o'qishga ruxsat beradi"
+        ],
+        "correctAnswer": "Serializatsiya paytida o'zgaruvchi qiymati saqlanmasligini ta'minlaydi"
+    },
+    {
+        "id": 40,
+        "subjectKey": "java",
+        "text": "Java'da 'Comparable' va 'Comparator' farqi nimada?",
+        "options": [
+            "Ular bir xil narsa",
+            "Comparable klassning ichida 'natural ordering' uchun, Comparator esa tashqarida har xil saralash mantiqlari uchun ishlatiladi",
+            "Comparator faqat Stringlar uchun",
+            "Comparable faqat Java 11 da qo'shilgan"
+        ],
+        "correctAnswer": "Comparable klassning ichida 'natural ordering' uchun, Comparator esa tashqarida har xil saralash mantiqlari uchun ishlatiladi"
+    },
+    {
+        "id": 41,
+        "subjectKey": "java",
+        "text": "Java'da 'Strong', 'Soft', 'Weak' va 'Phantom' references o'rtasidagi farq nima?",
+        "options": [
+            "Ular xotira hajmini belgilaydi",
+            "Ular obyektning Garbage Collector tomonidan o'chirilish ustuvorligini belgilaydi",
+            "Ular faqat primitiv tiplar uchun ishlatiladi",
+            "Ular xavfsizlik darajasini belgilaydi"
+        ],
+        "correctAnswer": "Ular obyektning Garbage Collector tomonidan o'chirilish ustuvorligini belgilaydi"
+    },
+    {
+        "id": 42,
+        "subjectKey": "java",
+        "text": "Java'da 'String Pool' xotiraning qaysi qismida joylashgan (Java 7 dan boshlab)?",
+        "options": ["Stack", "Heap", "Metaspace", "Code Cache"],
+        "correctAnswer": "Heap"
+    },
+    {
+        "id": 43,
+        "subjectKey": "java",
+        "text": "Java'da 'Liskov Substitution Principle' (SOLID) nimani anglatadi?",
+        "options": [
+            "Metodlarni doim private qilish",
+            "Bola klass ota klass o'rnida hech qanday xatolarsiz ishlay olishi kerak",
+            "Bitta klass faqat bitta vazifani bajarishi kerak",
+            "Interfeyslarni iloji boricha kichik qilish"
+        ],
+        "correctAnswer": "Bola klass ota klass o'rnida hech qanday xatolarsiz ishlay olishi kerak"
+    },
+    {
+        "id": 44,
+        "subjectKey": "java",
+        "text": "Java'da 'Metaspace' nima uchun ishlatiladi (Java 8+)?",
+        "options": [
+            "Obyektlarni saqlash uchun",
+            "Klass metodlari va metama'lumotlarini (Class Metadata) saqlash uchun",
+            "Faqat threadlarni boshqarish uchun",
+            "Xatolarni saqlash uchun"
+        ],
+        "correctAnswer": "Klass metodlari va metama'lumotlarini (Class Metadata) saqlash uchun"
+    },
+    {
+        "id": 45,
+        "subjectKey": "java",
+        "text": "Java'da 'CompletableFuture' nima uchun ishlatiladi?",
+        "options": [
+            "Dasturni to'xtatish uchun",
+            "Asinxron dasturlash va murakkab callback zanjirlarini boshqarish uchun",
+            "Faqat massivlarni saralash uchun",
+            "Ma'lumotlar bazasini klonlash uchun"
+        ],
+        "correctAnswer": "Asinxron dasturlash va murakkab callback zanjirlarini boshqarish uchun"
+    },
+    {
+        "id": 46,
+        "subjectKey": "java",
+        "text": "Java'da 'Singleton Design Pattern' maqsadi nima?",
+        "options": [
+            "Har safar yangi obyekt yaratish",
+            "Butun dastur davomida klassdan faqat bitta obyekt yaratilishini kafolatlash",
+            "Klassni bir nechta qismlarga bo'lish",
+            "Metodlarni bir-biriga bog'lash"
+        ],
+        "correctAnswer": "Butun dastur davomida klassdan faqat bitta obyekt yaratilishini kafolatlash"
+    },
+    {
+        "id": 47,
+        "subjectKey": "java",
+        "text": "Java'da 'var' kalit so'zi (Java 10+) qachon ishlatilishi mumkin?",
+        "options": [
+            "Klass o'zgaruvchisi (field) sifatida",
+            "Lokal o'zgaruvchilarni e'lon qilishda (tipi avtomatik aniqlanadi)",
+            "Metod parametri sifatida",
+            "Global o'zgaruvchi sifatida"
+        ],
+        "correctAnswer": "Lokal o'zgaruvchilarni e'lon qilishda (tipi avtomatik aniqlanadi)"
+    },
+    {
+        "id": 48,
+        "subjectKey": "java",
+        "text": "Java'da 'G1 (Garbage First)' kollektori nima?",
+        "options": [
+            "Eng birinchi yaratilgan kollektor",
+            "Katta xotira maydonlarini (Heap) kichik hududlarga bo'lib, eng ko'p axlat bor joyni birinchi tozalaydigan kollektor",
+            "Faqat kichik dasturlar uchun mo'ljallangan kollektor",
+            "Faqat bitta thread'da ishlaydigan kollektor"
+        ],
+        "correctAnswer": "Katta xotira maydonlarini (Heap) kichik hududlarga bo'lib, eng ko'p axlat bor joyni birinchi tozalaydigan kollektor"
+    },
+    {
+        "id": 49,
+        "subjectKey": "java",
+        "text": "Java'da 'CountDownLatch' nima uchun ishlatiladi?",
+        "options": [
+            "Elementlarni sanash uchun",
+            "Bir yoki bir nechta threadlar boshqa threadlar bajarilishini kutishi uchun mo'ljallangan sinxronizator",
+            "Massivlarni birlashtirish uchun",
+            "Parollarni shifrlash uchun"
+        ],
+        "correctAnswer": "Bir yoki bir nechta threadlar boshqa threadlar bajarilishini kutishi uchun mo'ljallangan sinxronizator"
+    },
+    {
+        "id": 50,
+        "subjectKey": "java",
+        "text": "Java'da 'Diamond Problem' nima?",
+        "options": [
+            "Kodni chiroyli yozish muammosi",
+            "Ko'p merosxo'rlikda (multiple inheritance) qaysi metodni tanlashda yuzaga keladigan tushunmovchilik",
+            "Xotira yetishmovchiligi",
+            "Ma'lumotlar bazasi xatosi"
+        ],
+        "correctAnswer": "Ko'p merosxo'rlikda (multiple inheritance) qaysi metodni tanlashda yuzaga keladigan tushunmovchilik"
+    },
+    {
+        "id": 51,
+        "subjectKey": "java",
+        "text": "Java'da 'Record' klasslari (Java 14+) maqsadi nima?",
+        "options": [
+            "Video yozish uchun",
+            "Faqat ma'lumot saqlash (Data Transfer Object) uchun mo'ljallangan qisqa va o'zgarmas klasslar yaratish",
+            "Xatolarni log qilish",
+            "Sikl operatorlarini boshqarish"
+        ],
+        "correctAnswer": "Faqat ma'lumot saqlash (Data Transfer Object) uchun mo'ljallangan qisqa va o'zgarmas klasslar yaratish"
+    },
+    {
+        "id": 52,
+        "subjectKey": "java",
+        "text": "Java'da 'Sealed Classes' (Java 15+) nima?",
+        "options": [
+            "Shifrlangan klasslar",
+            "Qaysi klasslar undan vorislik olishi mumkinligini cheklab qo'yuvchi klasslar",
+            "Hech kim kirishi mumkin bo'lmagan klasslar",
+            "Faqat bitta metodli klasslar"
+        ],
+        "correctAnswer": "Qaysi klasslar undan vorislik olishi mumkinligini cheklab qo'yuvchi klasslar"
+    },
+    {
+        "id": 53,
+        "subjectKey": "java",
+        "text": "Java'da 'CyclicBarrier' va 'CountDownLatch' o'rtasidagi asosiy farq nima?",
+        "options": [
+            "Farqi yo'q",
+            "CyclicBarrier qayta ishlatilishi mumkin, CountDownLatch esa faqat bir marta ishlaydi",
+            "CountDownLatch tezroq ishlaydi",
+            "CyclicBarrier faqat bitta thread uchun"
+        ],
+        "correctAnswer": "CyclicBarrier qayta ishlatilishi mumkin, CountDownLatch esa faqat bir marta ishlaydi"
+    },
+    {
+        "id": 54,
+        "subjectKey": "java",
+        "text": "Java'da 'Dependency Injection' tamoyili nima?",
+        "options": [
+            "Klass o'ziga kerakli obyektlarni o'zi yaratishi",
+            "Klassga kerakli bog'liqliklarni tashqaridan (masalan, Spring orqali) taqdim etish",
+            "Kutubxonalarni o'chirib tashlash",
+            "Faqat internet orqali ulanish"
+        ],
+        "correctAnswer": "Klassga kerakli bog'liqliklarni tashqaridan (masalan, Spring orqali) taqdim etish"
+    },
+    {
+        "id": 55,
+        "subjectKey": "java",
+        "text": "Java'da 'ExecutorService' nima uchun ishlatiladi?",
+        "options": [
+            "Dasturni o'chirish uchun",
+            "Threadlar havzasini (thread pool) boshqarish va vazifalarni navbat bilan bajarish uchun",
+            "Faqat matematik amallar uchun",
+            "Rasm formatini o'zgartirish uchun"
+        ],
+        "correctAnswer": "Threadlar havzasini (thread pool) boshqarish va vazifalarni navbat bilan bajarish uchun"
+    },
+    {
+        "id": 56,
+        "subjectKey": "java",
+        "text": "Java'da 'Race Condition' nima?",
+        "options": [
+            "Dasturning eng tez ishlashi",
+            "Bir nechta threadlar bir vaqtda bitta o'zgaruvchini o'zgartirishga harakat qilishi natijasida yuzaga keladigan xatolik",
+            "Kompyuter protsessori o'rtasidagi musobaqa",
+            "Fayl yuklash tezligi"
+        ],
+        "correctAnswer": "Bir nechta threadlar bir vaqtda bitta o'zgaruvchini o'zgartirishga harakat qilishi natijasida yuzaga keladigan xatolik"
+    },
+    {
+        "id": 57,
+        "subjectKey": "java",
+        "text": "Java'da 'Type Erasure' nima?",
+        "options": [
+            "Xatolarni o'chirish",
+            "Generics ma'lumotlarini kompilyatsiya vaqtida o'chirilishi va obyektga keltirilishi",
+            "Ma'lumotlar turini butunlay yo'q qilish",
+            "Kodni shifrlash"
+        ],
+        "correctAnswer": "Generics ma'lumotlarini kompilyatsiya vaqtida o'chirilishi va obyektga keltirilishi"
+    },
+    {
+        "id": 58,
+        "subjectKey": "java",
+        "text": "Java'da 'Optional.flatMap()' va 'Optional.map()' farqi nimada?",
+        "options": [
+            "Farqi yo'q",
+            "flatMap ichma-ich o'ralgan (nested) Optional'larni bitta darajaga tushiradi, map esa shunchaki o'zgartiradi",
+            "map faqat sonlar uchun",
+            "flatMap faqat Java 17 da bor"
+        ],
+        "correctAnswer": "flatMap ichma-ich o'ralgan (nested) Optional'larni bitta darajaga tushiradi, map esa shunchaki o'zgartiradi"
+    },
+    {
+        "id": 59,
+        "subjectKey": "java",
+        "text": "Java'da 'Semaphore' nima?",
+        "options": [
+            "Svetofor belgisi",
+            "Resursga bir vaqtning o'zida kirishi mumkin bo'lgan threadlar sonini cheklash uchun ishlatiladigan vosita",
+            "Faqat xatolarni ushlovchi blok",
+            "Internet protokoli"
+        ],
+        "correctAnswer": "Resursga bir vaqtning o'zida kirishi mumkin bo'lgan threadlar sonini cheklash uchun ishlatiladigan vosita"
+    },
+    {
+        "id": 60,
+        "subjectKey": "java",
+        "text": "Java'da 'Yield' metodi (Thread klassida) nima qiladi?",
+        "options": [
+            "Threadni butunlay to'xtatadi",
+            "Joriy threadni 'Running' holatidan 'Runnable' holatiga o'tkazib, boshqa threadlarga imkoniyat beradi",
+            "Threadni o'chiradi",
+            "Thread tezligini oshiradi"
+        ],
+        "correctAnswer": "Joriy threadni 'Running' holatidan 'Runnable' holatiga o'tkazib, boshqa threadlarga imkoniyat beradi"
+    },
+    {
+        "id": 61,
+        "subjectKey": "java",
+        "text": "Java'da 'WeakHashMap' qanday ishlaydi?",
+        "options": [
+            "Elementlarni har doim xotirada saqlaydi",
+            "Kalitlarga (keys) kuchsiz havola (weak reference) orqali bog'lanadi, kalit boshqa joyda ishlatilmasa, u Garbage Collector tomonidan o'chiriladi",
+            "Faqat kichik hajmdagi lug'atlar uchun ishlatiladi",
+            "Faqat 'static' o'zgaruvchilarni saqlaydi"
+        ],
+        "correctAnswer": "Kalitlarga (keys) kuchsiz havola (weak reference) orqali bog'lanadi, kalit boshqa joyda ishlatilmasa, u Garbage Collector tomonidan o'chiriladi"
+    },
+    {
+        "id": 62,
+        "subjectKey": "java",
+        "text": "Java'da 'Parallel Stream' qachon kutilmagan natijalarga (side effects) olib kelishi mumkin?",
+        "options": [
+            "Faqat sonli amallar bajarilganda",
+            "Agar oqim (stream) tashqi o'zgaruvchan (mutable) holatga bog'liq bo'lsa yoki uni o'zgartirsa",
+            "Faqat bitta thread ishlatilganda",
+            "Hech qachon xato bermaydi"
+        ],
+        "correctAnswer": "Agar oqim (stream) tashqi o'zgaruvchan (mutable) holatga bog'liq bo'lsa yoki uni o'zgartirsa"
+    },
+    {
+        "id": 63,
+        "subjectKey": "java",
+        "text": "Java'da 'ThreadLocal' nima uchun ishlatiladi?",
+        "options": [
+            "Global o'zgaruvchini barcha threadlarga ulashish uchun",
+            "Har bir thread uchun o'zining alohida o'zgaruvchi nusxasini yaratish va saqlash uchun",
+            "Threadlarni o'chirish uchun",
+            "Threadlarni guruhlash uchun"
+        ],
+        "correctAnswer": "Har bir thread uchun o'zining alohida o'zgaruvchi nusxasini yaratish va saqlash uchun"
+    },
+    {
+        "id": 64,
+        "subjectKey": "java",
+        "text": "JVM'da 'Survivor Space' (S0, S1) nima?",
+        "options": [
+            "Faqat xatolar saqlanadigan joy",
+            "Young Generation xotira qismi bo'lib, Garbage Collection'dan omon qolgan obyektlarni vaqtincha saqlaydi",
+            "Dastur kodi saqlanadigan joy",
+            "Faqat static o'zgaruvchilar uchun"
+        ],
+        "correctAnswer": "Young Generation xotira qismi bo'lib, Garbage Collection'dan omon qolgan obyektlarni vaqtincha saqlaydi"
+    },
+    {
+        "id": 65,
+        "subjectKey": "java",
+        "text": "Java'da 'Externalizable' va 'Serializable' o'rtasidagi farq nima?",
+        "options": [
+            "Serializable'da jarayon avtomatik, Externalizable'da esa dasturchi yozish va o'qish mantiqini qo'lda yozishi kerak",
+            "Farqi yo'q",
+            "Externalizable faqat Java 17 da qo'shilgan",
+            "Serializable faqat fayllar uchun"
+        ],
+        "correctAnswer": "Serializable'da jarayon avtomatik, Externalizable'da esa dasturchi yozish va o'qish mantiqini qo'lda yozishi kerak"
+    },
+    {
+        "id": 66,
+        "subjectKey": "java",
+        "text": "Java'da 'Atomic' klasslar (masalan, AtomicInteger) nima uchun kerak?",
+        "options": [
+            "Faqat matematik amallarni tezlashtirish uchun",
+            "Lock'larsiz (lock-free) thread-safe operatsiyalarni bajarish uchun",
+            "Kodni shifrlash uchun",
+            "Faqat static metodlar ichida ishlash uchun"
+        ],
+        "correctAnswer": "Lock'larsiz (lock-free) thread-safe operatsiyalarni bajarish uchun"
+    },
+    {
+        "id": 67,
+        "subjectKey": "java",
+        "text": "Java'da 'Flyweight Design Pattern' maqsadi nima?",
+        "options": [
+            "Dasturni tezroq o'chirish",
+            "Ko'p sonli o'xshash obyektlarni xotirada saqlashda resurslarni tejash",
+            "Klasslarni bir-biridan mustaqil qilish",
+            "Faqat bitta obyekt yaratish"
+        ],
+        "correctAnswer": "Ko'p sonli o'xshash obyektlarni xotirada saqlashda resurslarni tejash"
+    },
+    {
+        "id": 68,
+        "subjectKey": "java",
+        "text": "Java'da 'ReentrantLock' va 'synchronized' o'rtasidagi farq nima?",
+        "options": [
+            "ReentrantLock ko'proq moslashuvchanlik (tryLock, fair lock) beradi, synchronized esa soddaroq",
+            "Synchronized har doim tezroq",
+            "ReentrantLock faqat Java 5 gacha ishlatilgan",
+            "Ular bir xil narsa"
+        ],
+        "correctAnswer": "ReentrantLock ko'proq moslashuvchanlik (tryLock, fair lock) beradi, synchronized esa soddaroq"
+    },
+    {
+        "id": 69,
+        "subjectKey": "java",
+        "text": "Java'da 'Fork/Join Framework' nima uchun mo'ljallangan?",
+        "options": [
+            "Internetga ulanishni boshqarish uchun",
+            "Katta vazifalarni kichik qismlarga bo'lib, parallel ravishda samarali bajarish uchun",
+            "Faqat massivlarni birlashtirish uchun",
+            "Xatolarni qayta ishlash uchun"
+        ],
+        "correctAnswer": "Katta vazifalarni kichik qismlarga bo'lib, parallel ravishda samarali bajarish uchun"
+    },
+    {
+        "id": 70,
+        "subjectKey": "java",
+        "text": "JVM'da 'PermGen' va 'Metaspace' o'rtasidagi asosiy farq nima?",
+        "options": [
+            "Farqi yo'q",
+            "PermGen Heap xotirada bo'lgan (cheklangan), Metaspace esa Native xotiradan foydalanadi (dinamik kengayadi)",
+            "Metaspace faqat Java 7 da bo'lgan",
+            "PermGen tezroq ishlaydi"
+        ],
+        "correctAnswer": "PermGen Heap xotirada bo'lgan (cheklangan), Metaspace esa Native xotiradan foydalanadi (dinamik kengayadi)"
+    },
+    {
+        "id": 71,
+        "subjectKey": "java",
+        "text": "Java'da 'Constructor Reference' (String::new) nima?",
+        "options": [
+            "Konstruktorni o'chirish usuli",
+            "Lambda ifoda o'rnida konstruktorni qisqa ko'rinishda chaqirish usuli",
+            "Klass nomini o'zgartirish",
+            "Faqat String klassi uchun xos xususiyat"
+        ],
+        "correctAnswer": "Lambda ifoda o'rnida konstruktorni qisqa ko'rinishda chaqirish usuli"
+    },
+    {
+        "id": 72,
+        "subjectKey": "java",
+        "text": "Java'da 'BlockingQueue' nima uchun ishlatiladi?",
+        "options": [
+            "Ma'lumotlar bazasini qulflash uchun",
+            "Producer-Consumer modelida threadlar o'rtasida ma'lumot almashish va navbatni boshqarish uchun",
+            "Faqat xatolarni navbatga qo'yish uchun",
+            "Internet tezligini cheklash uchun"
+        ],
+        "correctAnswer": "Producer-Consumer modelida threadlar o'rtasida ma'lumot almashish va navbatni boshqarish uchun"
+    },
+    {
+        "id": 73,
+        "subjectKey": "java",
+        "text": "Java'da 'Phaser' sinxronizatori nima?",
+        "options": [
+            "Faqat grafik o'yinlarda ishlatiladi",
+            "CountDownLatch va CyclicBarrier'ga o'xshash, lekin threadlar soni dinamik ravishda o'zgarishi mumkin bo'lgan sinxronizator",
+            "Xotirani qismlarga bo'luvchi asbob",
+            "Ma'lumotlarni shifrlash vositasi"
+        ],
+        "correctAnswer": "CountDownLatch va CyclicBarrier'ga o'xshash, lekin threadlar soni dinamik ravishda o'zgarishi mumkin bo'lgan sinxronizator"
+    },
+    {
+        "id": 74,
+        "subjectKey": "java",
+        "text": "Java'da 'Object.finalize()' metodi nega deprecated (eskirgan) bo'ldi?",
+        "options": [
+            "U juda tez ishlagani uchun",
+            "Uning chaqirilishi kafolatlanmaganligi va xotira boshqaruvida muammolar keltirib chiqarganligi sababli",
+            "Faqat Java 11 da ishlamagani uchun",
+            "Xavfsizlik talablariga javob bermagani uchun"
+        ],
+        "correctAnswer": "Uning chaqirilishi kafolatlanmaganligi va xotira boshqaruvida muammolar keltirib chiqarganligi sababli"
+    },
+    {
+        "id": 75,
+        "subjectKey": "java",
+        "text": "Java'da 'Deep Copy' va 'Shallow Copy' farqi nimada?",
+        "options": [
+            "Shallow copy faqat obyekt manzilini nusxalaydi, Deep copy esa ichki obyektlarni ham noldan nusxalaydi",
+            "Deep copy faqat listlar uchun ishlaydi",
+            "Shallow copy xotirani ko'proq egallaydi",
+            "Ular bir xil narsa"
+        ],
+        "correctAnswer": "Shallow copy faqat obyekt manzilini nusxalaydi, Deep copy esa ichki obyektlarni ham noldan nusxalaydi"
+    },
+    {
+        "id": 76,
+        "subjectKey": "java",
+        "text": "Java'da 'Double-Checked Locking' nima uchun Singleton yaratishda ishlatiladi?",
+        "options": [
+            "Dasturni ikki marta tekshirish uchun",
+            "Sinxronizatsiyani faqat obyekt yaratilmagan holatda qo'llab, dastur unumdorligini oshirish uchun",
+            "Xatolarni ikki marta ushlash uchun",
+            "Faqat static o'zgaruvchilar uchun"
+        ],
+        "correctAnswer": "Sinxronizatsiyani faqat obyekt yaratilmagan holatda qo'llab, dastur unumdorligini oshirish uchun"
+    },
+    {
+        "id": 77,
+        "subjectKey": "java",
+        "text": "Java'da 'Bridge Method' nima?",
+        "options": [
+            "Ikki kompyuterni bog'laydigan metod",
+            "Generics ishlatilganda tip mosligini ta'minlash uchun kompilyator tomonidan avtomatik yaratiladigan metod",
+            "Faqat interfeyslarda bo'ladi",
+            "Dastur xatosini tuzatuvchi metod"
+        ],
+        "correctAnswer": "Generics ishlatilganda tip mosligini ta'minlash uchun kompilyator tomonidan avtomatik yaratiladigan metod"
+    },
+    {
+        "id": 78,
+        "subjectKey": "java",
+        "text": "Java'da 'IdentityHashMap' oddiy 'HashMap'dan nimasi bilan farq qiladi?",
+        "options": [
+            "U tezroq ishlaydi",
+            "Kalitlarni solishtirishda 'equals()' emas, balki '==' (havola manzili) dan foydalanadi",
+            "Faqat sonlarni saqlaydi",
+            "Elementlarni tartib bilan saqlaydi"
+        ],
+        "correctAnswer": "Kalitlarni solishtirishda 'equals()' emas, balki '==' (havola manzili) dan foydalanadi"
+    },
+    {
+        "id": 79,
+        "subjectKey": "java",
+        "text": "Java'da 'Thread.interrupt()' chaqirilganda nima sodir bo'ladi?",
+        "options": [
+            "Thread darhol o'ladi",
+            "Threadda 'interrupted status' bayrog'i o'rnatiladi, thread buni tekshirib o'z ishini tugatishi kerak",
+            "Kompyuter kutish rejimiga o'tadi",
+            "Thread tezligi pasayadi"
+        ],
+        "correctAnswer": "Threadda 'interrupted status' bayrog'i o'rnatiladi, thread buni tekshirib o'z ishini tugatishi kerak"
+    },
+    {
+        "id": 80,
+        "subjectKey": "java",
+        "text": "JVM parametrlarida '-Xmx' va '-Xms' nimani anglatadi?",
+        "options": [
+            "Ekran o'lchamini",
+            "Heap xotirasining maksimal (-Xmx) va boshlang'ich (-Xms) hajmini",
+            "Threadlar sonini",
+            "Dastur versiyasini"
+        ],
+        "correctAnswer": "Heap xotirasining maksimal (-Xmx) va boshlang'ich (-Xms) hajmini"
+    },
+    {
+        "id": 81,
+        "subjectKey": "java",
+        "text": "Java'da 'Virtual Threads' (Java 21) nima uchun kiritilgan?",
+        "options": [
+            "Video o'yinlar tezligini oshirish uchun",
+            "Platforma threadlariga qaraganda ancha yengil (lightweight) va millionlab threadlarni samarali boshqarish uchun",
+            "Faqat virtual mashinalarni boshqarish uchun",
+            "Threadlarni butunlay yo'q qilish uchun"
+        ],
+        "correctAnswer": "Platforma threadlariga qaraganda ancha yengil (lightweight) va millionlab threadlarni samarali boshqarish uchun"
+    },
+    {
+        "id": 82,
+        "subjectKey": "java",
+        "text": "Java'da 'ClassCastException' qachon yuzaga keladi?",
+        "options": [
+            "O'zgaruvchi e'lon qilinmaganda",
+            "Obyektni unga mos kelmaydigan boshqa bir klass turiga (type) o'tkazishga (cast) harakat qilinganda",
+            "Fayl topilmaganda",
+            "Xotira to'lib qolganda"
+        ],
+        "correctAnswer": "Obyektni unga mos kelmaydigan boshqa bir klass turiga (type) o'tkazishga (cast) harakat qilinganda"
+    },
+    {
+        "id": 83,
+        "subjectKey": "java",
+        "text": "Java'da 'Bootstrap Class Loader' nima?",
+        "options": [
+            "Dasturchi yaratgan klasslarni yuklovchi tizim",
+            "JVM'ning asosiy qismi bo'lib, eng fundamental Java klasslarini (rt.jar, java.lang.*) yuklovchi yuklagich",
+            "Faqat tashqi kutubxonalarni yuklovchi vosita",
+            "Xatolarni tekshiruvchi modul"
+        ],
+        "correctAnswer": "JVM'ning asosiy qismi bo'lib, eng fundamental Java klasslarini (rt.jar, java.lang.*) yuklovchi yuklagich"
+    },
+    {
+        "id": 84,
+        "subjectKey": "java",
+        "text": "Java'da 'Pattern Matching for switch' (Java 17/21) nimaga yordam beradi?",
+        "options": [
+            "Faqat sonlarni solishtirishga",
+            "Obyekt turini tekshirish (instanceof) va casting jarayonini switch ichida qisqaroq yozishga",
+            "Switch operatorini o'chirib tashlashga",
+            "Dasturni sekinlashtirishga"
+        ],
+        "correctAnswer": "Obyekt turini tekshirish (instanceof) va casting jarayonini switch ichida qisqaroq yozishga"
+    },
+    {
+        "id": 85,
+        "subjectKey": "java",
+        "text": "Java'da 'StringJoiner' klassi nima uchun kerak?",
+        "options": [
+            "Stringlarni teskari aylantirish uchun",
+            "Belgilangan ajratuvchi (delimiter) bilan Stringlar ketma-ketligini (masalan, vergul bilan ajratilgan ro'yxat) yaratish uchun",
+            "String ichidan so'z qidirish uchun",
+            "Faqat sonlarni Stringga o'tkazish uchun"
+        ],
+        "correctAnswer": "Belgilangan ajratuvchi (delimiter) bilan Stringlar ketma-ketligini (masalan, vergul bilan ajratilgan ro'yxat) yaratish uchun"
+    },
+    {
+        "id": 86,
+        "subjectKey": "java",
+        "text": "Java'da 'Happens-Before' prinsipi nimani tushuntiradi?",
+        "options": [
+            "Dastur qachon tugashini",
+            "Xotirada bir amalning natijasi boshqa bir amalga ko'rinishi kafolatlanishini (Visibility)",
+            "Kodni qachon yozish kerakligini",
+            "Faqat xatolarni tartiblashni"
+        ],
+        "correctAnswer": "Xotirada bir amalning natijasi boshqa bir amalga ko'rinishi kafolatlanishini (Visibility)"
+    },
+    {
+        "id": 87,
+        "subjectKey": "java",
+        "text": "Java'da 'Spliterator' nima?",
+        "options": [
+            "Stringlarni bo'luvchi asbob",
+            "Ma'lumotlar manbasini (Collection) parallel ravishda qayta ishlash uchun qismlarga bo'lish imkonini beruvchi iterator",
+            "Faqat massivlarni birlashtiruvchi vosita",
+            "Xatolarni bo'laklarga bo'luvchi tizim"
+        ],
+        "correctAnswer": "Ma'lumotlar manbasini (Collection) parallel ravishda qayta ishlash uchun qismlarga bo'lish imkonini beruvchi iterator"
+    },
+    {
+        "id": 88,
+        "subjectKey": "java",
+        "text": "Java'da 'Staged Event-Driven Architecture' (SEDA) nima?",
+        "options": [
+            "Dasturni bosqichma-bosqich o'chirish",
+            "Murakkab tizimlarni navbatlar orqali bog'langan mustaqil bosqichlarga (stages) bo'lib boshqarish usuli",
+            "Faqat grafik interfeyslar uchun dizayn",
+            "Ma'lumotlar bazasi sxemasi"
+        ],
+        "correctAnswer": "Murakkab tizimlarni navbatlar orqali bog'langan mustaqil bosqichlarga (stages) bo'lib boshqarish usuli"
+    },
+    {
+        "id": 89,
+        "subjectKey": "java",
+        "text": "Java'da 'ReferenceQueue' nima uchun ishlatiladi?",
+        "options": [
+            "Obyektlarni navbatga qo'yish uchun",
+            "Garbage Collector tomonidan o'chirilgan (yoki o'chirilishga tayyor) obyektlar haqida bildirishnoma olish uchun",
+            "Internet paketlarini navbatga qo'yish uchun",
+            "Faqat static metodlar uchun"
+        ],
+        "correctAnswer": "Garbage Collector tomonidan o'chirilgan (yoki o'chirilishga tayyor) obyektlar haqida bildirishnoma olish uchun"
+    },
+    {
+        "id": 90,
+        "subjectKey": "java",
+        "text": "Java'da 'Foreign Function & Memory API' (Java 21) maqsadi nima?",
+        "options": [
+            "Boshqa tillardagi (masalan, C) kodlarni va JVM tashqarisidagi xotirani xavfsiz va samarali ishlatish",
+            "Faqat xorijiy tillarni tarjima qilish",
+            "Internet orqali boshqa kompyuter xotirasiga ulanish",
+            "Java versiyasini avtomatik yangilash"
+        ],
+        "correctAnswer": "Boshqa tillardagi (masalan, C) kodlarni va JVM tashqarisidagi xotirani xavfsiz va samarali ishlatish"
+    },
+    {
+        "id": 91,
+        "subjectKey": "java",
+        "text": "Java'da 'False Sharing' muammosi nima?",
+        "options": [
+            "Ma'lumotlarni noto'g'ri ulashish",
+            "Ikki xil thread bir kesh liniyasida (Cache Line) joylashgan turli o'zgaruvchilarni o'zgartirganda yuzaga keladigan unumdorlik pasayishi",
+            "Faqat xato ma'lumot berish",
+            "Xotira yetishmovchiligi"
+        ],
+        "correctAnswer": "Ikki xil thread bir kesh liniyasida (Cache Line) joylashgan turli o'zgaruvchilarni o'zgartirganda yuzaga keladigan unumdorlik pasayishi"
+    },
+    {
+        "id": 92,
+        "subjectKey": "java",
+        "text": "Java'da '@Contended' annotatsiyasi nima uchun kerak?",
+        "options": [
+            "Metodlarni tezlashtirish uchun",
+            "False Sharing muammosini oldini olish uchun o'zgaruvchilar orasiga bo'sh joy (padding) qo'shish",
+            "Klassni himoya qilish uchun",
+            "Faqat testlar uchun"
+        ],
+        "correctAnswer": "False Sharing muammosini oldini olish uchun o'zgaruvchilar orasiga bo'sh joy (padding) qo'shish"
+    },
+    {
+        "id": 93,
+        "subjectKey": "java",
+        "text": "Java'da 'CompletableFuture.anyOf()' nima qiladi?",
+        "options": [
+            "Barcha vazifalar tugashini kutadi",
+            "Berilgan vazifalardan qaysi biri birinchi bo'lib tugasa, o'shaning natijasini qaytaradi",
+            "Barcha vazifalarni bekor qiladi",
+            "Vazifalarni tasodifiy tartibda bajaradi"
+        ],
+        "correctAnswer": "Berilgan vazifalardan qaysi biri birinchi bo'lib tugasa, o'shaning natijasini qaytaradi"
+    },
+    {
+        "id": 94,
+        "subjectKey": "java",
+        "text": "Java'da 'Unsafe' klassi (sun.misc.Unsafe) nima?",
+        "options": [
+            "Faqat viruslardan himoya qiluvchi klass",
+            "Past darajali (low-level) operatsiyalarni (xotirani bevosita boshqarish va h.k.) bajarish imkonini beruvchi, lekin foydalanish tavsiya etilmaydigan klass",
+            "Dasturni xavfsiz rejimga o'tkazuvchi klass",
+            "Faqat xatolarni log qiluvchi klass"
+        ],
+        "correctAnswer": "Past darajali (low-level) operatsiyalarni (xotirani bevosita boshqarish va h.k.) bajarish imkonini beruvchi, lekin foydalanish tavsiya etilmaydigan klass"
+    },
+    {
+        "id": 95,
+        "subjectKey": "java",
+        "text": "Java'da 'Thread.join()' metodining vazifasi nima?",
+        "options": [
+            "Ikki threadni birlashtirish",
+            "Joriy thread ma'lum bir threadning ishi tugashini kutib turishini ta'minlash",
+            "Threadni o'chirib yuborish",
+            "Threadni to'xtatib qo'yish"
+        ],
+        "correctAnswer": "Joriy thread ma'lum bir threadning ishi tugashini kutib turishini ta'minlash"
+    },
+    {
+        "id": 96,
+        "subjectKey": "java",
+        "text": "Java'da 'ServiceLoader' mexanizmi nima uchun kerak?",
+        "options": [
+            "Faqat internet servislariga ulanish uchun",
+            "Interfeyslarni ularning realizatsiyalaridan ajratish va implementatsiyalarni dinamik yuklash (SPI) uchun",
+            "Dasturni serverga yuklash uchun",
+            "Xotirani tozalash xizmati"
+        ],
+        "correctAnswer": "Interfeyslarni ularning realizatsiyalaridan ajratish va implementatsiyalarni dinamik yuklash (SPI) uchun"
+    },
+    {
+        "id": 97,
+        "subjectKey": "java",
+        "text": "Java'da 'Garbage Collection Roots' (GC Roots) nima?",
+        "options": [
+            "Axlat yig'uvchi mashinalar",
+            "Xotirada hamon ishlatilayotgan va o'chirilishi mumkin bo'lmagan obyektlarning boshlang'ich nuqtalari (masalan, Stack variables, Static fields)",
+            "Dasturning eng oxirgi qatorlari",
+            "Faqat fayl tizimi ildizlari"
+        ],
+        "correctAnswer": "Xotirada hamon ishlatilayotgan va o'chirilishi mumkin bo'lmagan obyektlarning boshlang'ich nuqtalari (masalan, Stack variables, Static fields)"
+    },
+    {
+        "id": 98,
+        "subjectKey": "java",
+        "text": "Java'da 'Thread-safe Singleton' yaratishning eng xavfsiz va tavsiya etilgan usuli qaysi?",
+        "options": [
+            "Faqat private konstruktor ishlatish",
+            "Enum ishlatish yoki Initialization-on-demand holder idiomasi",
+            "Dasturni har doim restart qilish",
+            "Obyektni static blok ichida yaratish"
+        ],
+        "correctAnswer": "Enum ishlatish yoki Initialization-on-demand holder idiomasi"
+    },
+    {
+        "id": 99,
+        "subjectKey": "java",
+        "text": "Java'da 'StackOverflowError' qachon yuzaga keladi?",
+        "options": [
+            "Heap xotira to'lganda",
+            "Rekursiv metod chaqiruvi juda chuqur ketib, Stack xotirasi to'lib qolganda",
+            "Faqat cheksiz sikllarda",
+            "Dastur kodi juda uzun bo'lganda"
+        ],
+        "correctAnswer": "Rekursiv metod chaqiruvi juda chuqur ketib, Stack xotirasi to'lib qolganda"
+    },
+    {
+        "id": 100,
+        "subjectKey": "java",
+        "text": "Java'da 'VarHandle' (Java 9+) nima?",
+        "options": [
+            "O'zgaruvchilarni ushlab turuvchi tayanch",
+            "O'zgaruvchilarga nisbatan atomic va past darajali operatsiyalarni xavfsiz bajarish uchun Reflection'dan ko'ra tezroq bo'lgan muqobil",
+            "Faqat o'zgarmaslar uchun ishlatiladi",
+            "Xatolarni boshqaruvchi yangi interfeys"
+        ],
+        "correctAnswer": "O'zgaruvchilarga nisbatan atomic va past darajali operatsiyalarni xavfsiz bajarish uchun Reflection'dan ko'ra tezroq bo'lgan muqobil"
+    }
+]

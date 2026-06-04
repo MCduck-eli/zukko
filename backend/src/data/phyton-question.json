@@ -1,0 +1,1188 @@
+[
+    {
+        "id": 1,
+        "subjectKey": "python",
+        "text": "Python qanday turdagi dasturlash tili hisoblanadi?",
+        "options": [
+            "Faqat kompilyatsiya qilinadigan",
+            "Interpretatsiya qilinadigan va kuchli tiplangan",
+            "Past darajali (Low-level) til",
+            "Statik tiplangan til"
+        ],
+        "correctAnswer": "Interpretatsiya qilinadigan va kuchli tiplangan"
+    },
+    {
+        "id": 2,
+        "subjectKey": "python",
+        "text": "Python'da 'List' va 'Tuple' o'rtasidagi asosiy farq nima?",
+        "options": [
+            "List o'zgarmas (immutable), Tuple esa o'zgaruvchan (mutable)",
+            "Tuple o'zgarmas (immutable), List esa o'zgaruvchan (mutable)",
+            "Hech qanday farqi yo'q",
+            "List faqat sonlarni, Tuple esa faqat satrlarni saqlaydi"
+        ],
+        "correctAnswer": "Tuple o'zgarmas (immutable), List esa o'zgaruvchan (mutable)"
+    },
+    {
+        "id": 3,
+        "subjectKey": "python",
+        "text": "Python'da xotirani boshqarish (Memory management) qanday amalga oshiriladi?",
+        "options": [
+            "Faqat qo'lda boshqariladi",
+            "Garbage Collector va Reference Counting orqali",
+            "Xotira avtomatik ravishda hech qachon tozalanmaydi",
+            "Faqat C++ kutubxonalari orqali"
+        ],
+        "correctAnswer": "Garbage Collector va Reference Counting orqali"
+    },
+    {
+        "id": 4,
+        "subjectKey": "python",
+        "text": "PEP 8 nima?",
+        "options": [
+            "Python'ning yangi versiyasi",
+            "Python kodini yozish bo'yicha uslubiy qo'llanma (Style Guide)",
+            "Xatolarni qidiruvchi kutubxona",
+            "Ma'lumotlar bazasi bilan ishlash moduli"
+        ],
+        "correctAnswer": "Python kodini yozish bo'yicha uslubiy qo'llanma (Style Guide)"
+    },
+    {
+        "id": 5,
+        "subjectKey": "python",
+        "text": "Python'da 'decorator' nima vazifani bajaradi?",
+        "options": [
+            "Kodning dizaynini o'zgartiradi",
+            "Funksiya yoki metodning xulq-atvorini o'zgartirmasdan unga yangi funksionallik qo'shadi",
+            "Faqat klasslarni o'chirish uchun ishlatiladi",
+            "Ma'lumotlarni turlarga ajratadi"
+        ],
+        "correctAnswer": "Funksiya yoki metodning xulq-atvorini o'zgartirmasdan unga yangi funksionallik qo'shadi"
+    },
+    {
+        "id": 6,
+        "subjectKey": "python",
+        "text": "Python'da '__init__' metodi nima uchun ishlatiladi?",
+        "options": [
+            "Klass obyektini yaratishda uni initsializatsiya qilish uchun",
+            "Kodni to'xtatish uchun",
+            "Klassni xotiradan o'chirish uchun",
+            "O'zgaruvchilarni global qilish uchun"
+        ],
+        "correctAnswer": "Klass obyektini yaratishda uni initsializatsiya qilish uchun"
+    },
+    {
+        "id": 7,
+        "subjectKey": "python",
+        "text": "List Comprehension nima?",
+        "options": [
+            "Listlarni birlashtirish usuli",
+            "Mavjud ro'yxat asosida yangi ro'yxat yaratishning qisqa va qulay sintaksisi",
+            "Ro'yxat ichidagi xatolarni topish usuli",
+            "Faqat sonli ro'yxatlar bilan ishlash tizimi"
+        ],
+        "correctAnswer": "Mavjud ro'yxat asosida yangi ro'yxat yaratishning qisqa va qulay sintaksisi"
+    },
+    {
+        "id": 8,
+        "subjectKey": "python",
+        "text": "Python'da 'GIL' (Global Interpreter Lock) nima?",
+        "options": [
+            "Ma'lumotlar bazasini qulflash",
+            "Bir vaqtning o'zida faqat bitta thread Python baytkodini bajarishini ta'minlovchi mexanizm",
+            "Faqat Linux tizimlarida ishlaydigan xavfsizlik tizimi",
+            "Kodning versiyasini nazorat qiluvchi vosita"
+        ],
+        "correctAnswer": "Bir vaqtning o'zida faqat bitta thread Python baytkodini bajarishini ta'minlovchi mexanizm"
+    },
+    {
+        "id": 9,
+        "subjectKey": "python",
+        "text": "'args' va '**kwargs' o'rtasidagi farq nima?",
+        "options": [
+            "Farqi yo'q",
+            "*args - tartiblangan argumentlar uchun, **kwargs - kalit so'zli argumentlar uchun",
+            "*args - lug'at (dict), **kwargs - ro'yxat (list)",
+            "*args faqat butun sonlarni qabul qiladi"
+        ],
+        "correctAnswer": "*args - tartiblangan argumentlar uchun, **kwargs - kalit so'zli argumentlar uchun"
+    },
+    {
+        "id": 10,
+        "subjectKey": "python",
+        "text": "Python'da 'lambda' funksiyasi nima?",
+        "options": [
+            "Murakkab matematik hisob-kitob moduli",
+            "Nomlanmagan (anonim) kichik funksiya",
+            "Ma'lumotlar turini o'zgartiruvchi operator",
+            "Faqat sikllar ichida ishlaydigan funksiya"
+        ],
+        "correctAnswer": "Nomlanmagan (anonim) kichik funksiya"
+    },
+    {
+        "id": 11,
+        "subjectKey": "python",
+        "text": "Qaysi ma'lumot turi 'hashable' hisoblanadi?",
+        "options": ["List", "Dictionary", "Set", "String"],
+        "correctAnswer": "String"
+    },
+    {
+        "id": 12,
+        "subjectKey": "python",
+        "text": "Python'da 'self' kalit so'zi nima?",
+        "options": [
+            "Global o'zgaruvchi",
+            "Klassning joriy obyektiga ishora",
+            "Funksiyani to'xtatish operatori",
+            "Kutubxonani chaqirish usuli"
+        ],
+        "correctAnswer": "Klassning joriy obyektiga ishora"
+    },
+    {
+        "id": 13,
+        "subjectKey": "python",
+        "text": "Generators va Iterators o'rtasidagi farq nima?",
+        "options": [
+            "Generatorlar 'yield' kalit so'zidan foydalanadi va xotirani tejaydi",
+            "Iteratorlar faqat sonlar bilan ishlaydi",
+            "Generatorlar faqat bir marta ishlatiladi, iteratorlar esa cheksiz",
+            "Hech qanday farqi yo'q"
+        ],
+        "correctAnswer": "Generatorlar 'yield' kalit so'zidan foydalanadi va xotirani tejaydi"
+    },
+    {
+        "id": 14,
+        "subjectKey": "python",
+        "text": "Python'da 'is' va '==' operatorlari farqi nimada?",
+        "options": [
+            "'is' qiymatni tekshiradi, '==' esa xotira manzilini",
+            "'==' qiymatni tekshiradi, 'is' esa ikki obyektning bir xilligini (id) tekshiradi",
+            "Ikkalasi ham bir xil ishlaydi",
+            "'is' faqat boolean qiymatlar uchun"
+        ],
+        "correctAnswer": "'==' qiymatni tekshiradi, 'is' esa ikki obyektning bir xilligini (id) tekshiradi"
+    },
+    {
+        "id": 15,
+        "subjectKey": "python",
+        "text": "Deep copy va Shallow copy o'rtasidagi farq nima?",
+        "options": [
+            "Shallow copy obyektning o'zini va ichidagi obyektlarga havolani nusxalaydi, Deep copy esa to'liq mustaqil nusxa yaratadi",
+            "Deep copy faqat listlar uchun ishlaydi",
+            "Shallow copy xotiradan ko'p joy oladi",
+            "Ular bir xil narsa"
+        ],
+        "correctAnswer": "Shallow copy obyektning o'zini va ichidagi obyektlarga havolani nusxalaydi, Deep copy esa to'liq mustaqil nusxa yaratadi"
+    },
+    {
+        "id": 16,
+        "subjectKey": "python",
+        "text": "Python'da 'docstring' nima?",
+        "options": [
+            "Xatolik haqida xabar",
+            "Funksiya, klass yoki modul nima qilishini tushuntiruvchi matnli satr",
+            "Ma'lumotlar bazasiga ulanish satri",
+            "Kodni himoyalash usuli"
+        ],
+        "correctAnswer": "Funksiya, klass yoki modul nima qilishini tushuntiruvchi matnli satr"
+    },
+    {
+        "id": 17,
+        "subjectKey": "python",
+        "text": "Python'da 'range' funksiyasi nima qaytaradi?",
+        "options": [
+            "List",
+            "Tuple",
+            "Immutable sequence object (range object)",
+            "Generator"
+        ],
+        "correctAnswer": "Immutable sequence object (range object)"
+    },
+    {
+        "id": 18,
+        "subjectKey": "python",
+        "text": "Virtual Environment (venv) nima uchun kerak?",
+        "options": [
+            "Dasturni tezroq ishlashi uchun",
+            "Loyiha kutubxonalarini tizim kutubxonalaridan ajratish va izolyatsiya qilish uchun",
+            "Internet tezligini oshirish uchun",
+            "Kodni avtomatik xatolardan tozalash uchun"
+        ],
+        "correctAnswer": "Loyiha kutubxonalarini tizim kutubxonalaridan ajratish va izolyatsiya qilish uchun"
+    },
+    {
+        "id": 19,
+        "subjectKey": "python",
+        "text": "Python'da 'try-except-finally' blokida 'finally' qachon ishlaydi?",
+        "options": [
+            "Faqat xato bo'lganda",
+            "Faqat xato bo'lmaganda",
+            "Har qanday holatda ham (xato bo'lishi yoki bo'lmasligidan qat'i nazar)",
+            "Faqat dastur to'xtab qolganda"
+        ],
+        "correctAnswer": "Har qanday holatda ham (xato bo'lishi yoki bo'lmasligidan qat'i nazar)"
+    },
+    {
+        "id": 20,
+        "subjectKey": "python",
+        "text": "Python'da 'namespace' nima?",
+        "options": [
+            "O'zgaruvchi nomlari va ularga tegishli obyektlar o'rtasidagi bog'liqliklar to'plami",
+            "Faqat klasslar nomi saqlanadigan joy",
+            "Internet protokoli",
+            "Faqat fayllar nomi"
+        ],
+        "correctAnswer": "O'zgaruvchi nomlari va ularga tegishli obyektlar o'rtasidagi bog'liqliklar to'plami"
+    },
+    {
+        "id": 21,
+        "subjectKey": "python",
+        "text": "Python'da 'MRO' (Method Resolution Order) nima?",
+        "options": [
+            "Kodning ishlash tezligini o'lchash",
+            "Ko'p merosxo'rlikda (multiple inheritance) metodlarni qidirish tartibi",
+            "Ma'lumotlar bazasini tartiblash",
+            "Xotira manzillarini boshqarish"
+        ],
+        "correctAnswer": "Ko'p merosxo'rlikda (multiple inheritance) metodlarni qidirish tartibi"
+    },
+    {
+        "id": 22,
+        "subjectKey": "python",
+        "text": "Python'da 'Context Manager' nima uchun ishlatiladi (with operatori)?",
+        "options": [
+            "Faqat matematik hisoblar uchun",
+            "Resurslarni (masalan, fayllarni) xavfsiz ochish va avtomatik yopish uchun",
+            "Dastur interfeysini yaratish uchun",
+            "Global o'zgaruvchilarni himoyalash uchun"
+        ],
+        "correctAnswer": "Resurslarni (masalan, fayllarni) xavfsiz ochish va avtomatik yopish uchun"
+    },
+    {
+        "id": 23,
+        "subjectKey": "python",
+        "text": "Python'da 'Pickle' moduli nima vazifani bajaradi?",
+        "options": [
+            "Kodlarni siqib beradi (compression)",
+            "Obyektlarni serializatsiya va deserializatsiya qilish (faylga saqlash) uchun",
+            "Rasmlarni qayta ishlash uchun",
+            "Xatolarni qidirish uchun"
+        ],
+        "correctAnswer": "Obyektlarni serializatsiya va deserializatsiya qilish (faylga saqlash) uchun"
+    },
+    {
+        "id": 24,
+        "subjectKey": "python",
+        "text": "Python'da 'Set' ma'lumot turining o'ziga xosligi nimada?",
+        "options": [
+            "Elementlar tartiblangan bo'ladi",
+            "Faqat takrorlanmas (unique) elementlarni saqlaydi",
+            "Elementlarni o'zgartirib bo'lmaydi",
+            "Faqat satrlardan tashkil topadi"
+        ],
+        "correctAnswer": "Faqat takrorlanmas (unique) elementlarni saqlaydi"
+    },
+    {
+        "id": 25,
+        "subjectKey": "python",
+        "text": "Python'da 'static method' va 'class method' farqi nimada?",
+        "options": [
+            "Hech qanday farqi yo'q",
+            "Class method klassning o'ziga (cls) murojaat qila oladi, static method esa yo'q",
+            "Static method faqat sonlar bilan ishlaydi",
+            "Class method faqat dekoratorlar ichida ishlaydi"
+        ],
+        "correctAnswer": "Class method klassning o'ziga (cls) murojaat qila oladi, static method esa yo'q"
+    },
+    {
+        "id": 26,
+        "subjectKey": "python",
+        "text": "Python'da '__slots__' nima uchun ishlatiladi?",
+        "options": [
+            "Kodning xavfsizligini oshirish uchun",
+            "Obyektlar uchun xotira sarfini kamaytirish va dinamik atribut yaratishni cheklash uchun",
+            "Faqat ko'p tarmoqli dasturlashda",
+            "Ma'lumotlar turini aniqlash uchun"
+        ],
+        "correctAnswer": "Obyektlar uchun xotira sarfini kamaytirish va dinamik atribut yaratishni cheklash uchun"
+    },
+    {
+        "id": 27,
+        "subjectKey": "python",
+        "text": "Python dasturini qanday qilib 'thread-safe' qilish mumkin?",
+        "options": [
+            "Faqat 'for' siklini ishlatish orqali",
+            "Lock, RLock yoki Semaphore mexanizmlari orqali",
+            "Dasturni qayta yuklash orqali",
+            "Faqat global o'zgaruvchilardan voz kechish orqali"
+        ],
+        "correctAnswer": "Lock, RLock yoki Semaphore mexanizmlari orqali"
+    },
+    {
+        "id": 28,
+        "subjectKey": "python",
+        "text": "Python'da 'Monkey Patching' nima?",
+        "options": [
+            "Kodni xatolardan tozalash",
+            "Dastur ishlayotgan vaqtda (runtime) kod yoki klass atributlarini dinamik o'zgartirish",
+            "O'yinlar yaratish texnologiyasi",
+            "Faqat Linux tizimida ishlash usuli"
+        ],
+        "correctAnswer": "Dastur ishlayotgan vaqtda (runtime) kod yoki klass atributlarini dinamik o'zgartirish"
+    },
+    {
+        "id": 29,
+        "subjectKey": "python",
+        "text": "Python'da 'f-string' nima?",
+        "options": [
+            "Faqat fayllarni o'qish uchun funksiya",
+            "String formatlashning eng tezkor va qulay usuli (Literal String Interpolation)",
+            "Matematik formulalar to'plami",
+            "Faqat float sonlar uchun format"
+        ],
+        "correctAnswer": "String formatlashning eng tezkor va qulay usuli (Literal String Interpolation)"
+    },
+    {
+        "id": 30,
+        "subjectKey": "python",
+        "text": "Python'da 'Abstract Base Class' (ABC) nima uchun kerak?",
+        "options": [
+            "Kodni yashirish uchun",
+            "Merosxo'r klasslar uchun majburiy interfeys (metodlar) yaratish uchun",
+            "Faqat bazalar bilan ishlash uchun",
+            "Dasturni tezlashtirish uchun"
+        ],
+        "correctAnswer": "Merosxo'r klasslar uchun majburiy interfeys (metodlar) yaratish uchun"
+    },
+    {
+        "id": 31,
+        "subjectKey": "python",
+        "text": "Python'da 'enumerate()' funksiyasi nima qaytaradi?",
+        "options": [
+            "Faqat elementlar ro'yxatini",
+            "Elementlar indeksi va qiymatidan iborat juftlikni",
+            "Faqat elementlar sonini",
+            "Elementlarni teskari tartibda"
+        ],
+        "correctAnswer": "Elementlar indeksi va qiymatidan iborat juftlikni"
+    },
+    {
+        "id": 32,
+        "subjectKey": "python",
+        "text": "Python'da 'zip()' funksiyasi vazifasi nima?",
+        "options": [
+            "Fayllarni arxivlash",
+            "Bir nechta iterabllarni (list, tuple) parallel ravishda birlashtirish",
+            "Kodni shifrlash",
+            "Ro'yxatni ikkiga bo'lish"
+        ],
+        "correctAnswer": "Bir nechta iterabllarni (list, tuple) parallel ravishda birlashtirish"
+    },
+    {
+        "id": 33,
+        "subjectKey": "python",
+        "text": "Python'da 'property' dekoratori nima uchun ishlatiladi?",
+        "options": [
+            "Klassni o'chirish uchun",
+            "Metodni atribut ko'rinishida chaqirish va getter/setter mantiqini qo'llash uchun",
+            "Faqat parollarni saqlash uchun",
+            "Global o'zgaruvchilarni yaratish uchun"
+        ],
+        "correctAnswer": "Metodni atribut ko'rinishida chaqirish va getter/setter mantiqini qo'llash uchun"
+    },
+    {
+        "id": 34,
+        "subjectKey": "python",
+        "text": "Python'da 'any()' funksiyasi qachon True qaytaradi?",
+        "options": [
+            "Agar barcha elementlar True bo'lsa",
+            "Agar kamida bitta element True bo'lsa",
+            "Agar ro'yxat bo'sh bo'lsa",
+            "Agar barcha elementlar False bo'lsa"
+        ],
+        "correctAnswer": "Agar kamida bitta element True bo'lsa"
+    },
+    {
+        "id": 35,
+        "subjectKey": "python",
+        "text": "Python'da '__name__ == \"__main__\"' nimani anglatadi?",
+        "options": [
+            "Fayl asosiy dastur sifatida ishga tushirilganligini tekshirish",
+            "Dasturda xato borligini tekshirish",
+            "Klass nomini aniqlash",
+            "Faqat test rejimini yoqish"
+        ],
+        "correctAnswer": "Fayl asosiy dastur sifatida ishga tushirilganligini tekshirish"
+    },
+    {
+        "id": 36,
+        "subjectKey": "python",
+        "text": "Python'da 'Walrus operator' (:=) nima vazifani bajaradi?",
+        "options": [
+            "Ikki sonni solishtiradi",
+            "Qiymatni ifoda ichida o'zgaruvchiga o'zlashtirish",
+            "O'zgaruvchini o'chiradi",
+            "Ma'lumotlar turini aniqlaydi"
+        ],
+        "correctAnswer": "Qiymatni ifoda ichida o'zgaruvchiga o'zlashtirish"
+    },
+    {
+        "id": 37,
+        "subjectKey": "python",
+        "text": "Python'da 'map()' funksiyasi nima qiladi?",
+        "options": [
+            "Ro'yxatni tartiblaydi",
+            "Berilgan funksiyani iterablining har bir elementiga qo'llaydi",
+            "Lug'atdan nusxa oladi",
+            "Xaritani chizadi"
+        ],
+        "correctAnswer": "Berilgan funksiyani iterablining har bir elementiga qo'llaydi"
+    },
+    {
+        "id": 38,
+        "subjectKey": "python",
+        "text": "Python'da 'nonlocal' kalit so'zi qachon ishlatiladi?",
+        "options": [
+            "Global o'zgaruvchini yaratishda",
+            "Ichma-ich funksiyalarda tashqi (lekin global bo'lmagan) o'zgaruvchini o'zgartirishda",
+            "Faqat klasslar ichida",
+            "Modulni import qilishda"
+        ],
+        "correctAnswer": "Ichma-ich funksiyalarda tashqi (lekin global bo'lmagan) o'zgaruvchini o'zgartirishda"
+    },
+    {
+        "id": 39,
+        "subjectKey": "python",
+        "text": "Python'da 'isinstance()' va 'type()' farqi nimada?",
+        "options": [
+            "Farqi yo'q",
+            "'isinstance()' merosxo'rlikni (inheritance) ham hisobga oladi, 'type()' esa faqat aniq turni tekshiradi",
+            "'type()' tezroq ishlaydi",
+            "'isinstance()' faqat listlar uchun"
+        ],
+        "correctAnswer": "'isinstance()' merosxo'rlikni (inheritance) ham hisobga oladi, 'type()' esa faqat aniq turni tekshiradi"
+    },
+    {
+        "id": 40,
+        "subjectKey": "python",
+        "text": "Python'da 'Dictionary View Objects' (keys, values, items) nima?",
+        "options": [
+            "Oddiy listlar",
+            "Lug'at o'zgarganda avtomatik yangilanadigan dinamik ko'rinishlar",
+            "O'zgarmas tuplelar",
+            "Faqat JSON formatidagi ma'lumotlar"
+        ],
+        "correctAnswer": "Lug'at o'zgarganda avtomatik yangilanadigan dinamik ko'rinishlar"
+    },
+
+    {
+        "id": 41,
+        "subjectKey": "python",
+        "text": "Python'da 'Duck Typing' tamoyili nima?",
+        "options": [
+            "Faqat qushlar haqidagi klasslar bilan ishlash",
+            "Obyektning turi emas, balki unda kerakli metod va xususiyatlarning mavjudligi muhimligi",
+            "O'zgaruvchilarni qat'iy tipga keltirish",
+            "Faqat vorislik (inheritance) orqali ishlash"
+        ],
+        "correctAnswer": "Obyektning turi emas, balki unda kerakli metod va xususiyatlarning mavjudligi muhimligi"
+    },
+    {
+        "id": 42,
+        "subjectKey": "python",
+        "text": "Python'da 'Method Overriding' nima?",
+        "options": [
+            "Bir xil nomli bir nechta funksiya yaratish",
+            "Voris klassda ota klass metodini qayta yozish va o'zgartirish",
+            "Metodni butunlay o'chirib tashlash",
+            "Funksiyani dekorator bilan o'rash"
+        ],
+        "correctAnswer": "Voris klassda ota klass metodini qayta yozish va o'zgartirish"
+    },
+    {
+        "id": 43,
+        "subjectKey": "python",
+        "text": "Python'da 'Generator expression' va 'List comprehension' o'rtasidagi farq nima?",
+        "options": [
+            "Farqi yo'q",
+            "List comprehension birdaniga xotira egallaydi, Generator esa elementlarni navbati bilan (lazy evaluation) hisoblaydi",
+            "Generator faqat sonlar uchun",
+            "List comprehension har doim tezroq ishlaydi"
+        ],
+        "correctAnswer": "List comprehension birdaniga xotira egallaydi, Generator esa elementlarni navbati bilan (lazy evaluation) hisoblaydi"
+    },
+    {
+        "id": 44,
+        "subjectKey": "python",
+        "text": "Python'da 'Metaclass' nima?",
+        "options": [
+            "Klasslarni yaratuvchi klass (klassning klassi)",
+            "Eng katta hajmli klass",
+            "Faqat matematik hisoblar klassi",
+            "Ma'lumotlar bazasi klassi"
+        ],
+        "correctAnswer": "Klasslarni yaratuvchi klass (klassning klassi)"
+    },
+    {
+        "id": 45,
+        "subjectKey": "python",
+        "text": "Python'da 'filter()' funksiyasi nima vazifani bajaradi?",
+        "options": [
+            "Ro'yxatni alifbo tartibida tartiblaydi",
+            "Berilgan funksiya shartiga mos keladigan elementlarni saralab oladi",
+            "Elementlarni o'chirib yuboradi",
+            "Ro'yxatni birlashtiradi"
+        ],
+        "correctAnswer": "Berilgan funksiya shartiga mos keladigan elementlarni saralab oladi"
+    },
+    {
+        "id": 46,
+        "subjectKey": "python",
+        "text": "Python'da 'Set' ichida 'List' saqlash mumkinmi?",
+        "options": [
+            "Ha, mumkin",
+            "Yo'q, chunki List unhashable (o'zgaruvchan) hisoblanadi",
+            "Faqat list ichida bitta element bo'lsa mumkin",
+            "Faqat maxsus kutubxona bilan mumkin"
+        ],
+        "correctAnswer": "Yo'q, chunki List unhashable (o'zgaruvchan) hisoblanadi"
+    },
+    {
+        "id": 47,
+        "subjectKey": "python",
+        "text": "Python'da 'id()' funksiyasi nima qaytaradi?",
+        "options": [
+            "Obyektning qiymatini",
+            "Obyektning xotiradagi unikal identifikatorini (manzilini)",
+            "Obyektning nomini",
+            "Obyekt yaratilgan vaqtni"
+        ],
+        "correctAnswer": "Obyektning xotidagi unikal identifikatorini (manzilini)"
+    },
+    {
+        "id": 48,
+        "subjectKey": "python",
+        "text": "Python'da 'multiprocessing' va 'threading' farqi nimada?",
+        "options": [
+            "Multiprocessing alohida xotira maydoniga ega bo'lgan jarayonlarni yaratadi, Threading esa umumiy xotiradan foydalanadi",
+            "Threading har doim tezroq",
+            "Multiprocessing faqat Windows'da ishlaydi",
+            "Ular bir xil narsa"
+        ],
+        "correctAnswer": "Multiprocessing alohida xotira maydoniga ega bo'lgan jarayonlarni yaratadi, Threading esa umumiy xotiradan foydalanadi"
+    },
+    {
+        "id": 49,
+        "subjectKey": "python",
+        "text": "Python'da '__str__' va '__repr__' farqi nimada?",
+        "options": [
+            "Farqi yo'q",
+            "__str__ foydalanuvchi uchun tushunarli matn, __repr__ esa dasturchi (debugging) uchun batafsilroq ma'lumot",
+            "__repr__ faqat sonlar uchun",
+            "__str__ klassni o'chirish uchun"
+        ],
+        "correctAnswer": "__str__ foydalanuvchi uchun tushunarli matn, __repr__ esa dasturchi (debugging) uchun batafsilroq ma'lumot"
+    },
+    {
+        "id": 50,
+        "subjectKey": "python",
+        "text": "Python'da 'super()' funksiyasi nima uchun ishlatiladi?",
+        "options": [
+            "Dasturni to'xtatish uchun",
+            "Ota klass (parent class) metodlariga murojaat qilish uchun",
+            "Klassni global qilish uchun",
+            "Xatolarni qayta ishlash uchun"
+        ],
+        "correctAnswer": "Ota klass (parent class) metodlariga murojaat qilish uchun"
+    },
+    {
+        "id": 51,
+        "subjectKey": "python",
+        "text": "Python'da 'FrozenSet' nima?",
+        "options": [
+            "Muzlatilgan fayl turi",
+            "Set'ning o'zgarmas (immutable) ko'rinishi",
+            "Bo'sh to'plam",
+            "Faqat manfiy sonlar to'plami"
+        ],
+        "correctAnswer": "Set'ning o'zgarmas (immutable) ko'rinishi"
+    },
+    {
+        "id": 52,
+        "subjectKey": "python",
+        "text": "Python'da 'AssertionError' qachon yuzaga keladi?",
+        "options": [
+            "Sintaktik xato bo'lganda",
+            "'assert' operatoridagi shart False bo'lganda",
+            "Xotira to'lib qolganda",
+            "Fayl topilmaganda"
+        ],
+        "correctAnswer": "'assert' operatoridagi shart False bo'lganda"
+    },
+    {
+        "id": 53,
+        "subjectKey": "python",
+        "text": "Python'da 'collections.Counter' nima vazifani bajaradi?",
+        "options": [
+            "Sekundlarni sanaydi",
+            "Elementlarning takrorlanish sonini lug'at ko'rinishida hisoblaydi",
+            "Kod qatorlarini sanaydi",
+            "Faqat juft sonlarni ajratadi"
+        ],
+        "correctAnswer": "Elementlarning takrorlanish sonini lug'at ko'rinishida hisoblaydi"
+    },
+    {
+        "id": 54,
+        "subjectKey": "python",
+        "text": "Python'da 'Operator Overloading' nima?",
+        "options": [
+            "Operatorlarni o'chirib tashlash",
+            "Standart operatorlarga (+, -, *) klass obyektlari bilan ishlash uchun yangi mantiq berish",
+            "Faqat matematik operatorlarni ishlatish",
+            "Operatorlarni nomini o'zgartirish"
+        ],
+        "correctAnswer": "Standart operatorlarga (+, -, *) klass obyektlari bilan ishlash uchun yangi mantiq berish"
+    },
+    {
+        "id": 55,
+        "subjectKey": "python",
+        "text": "Python'da 'all()' funksiyasi qachon True qaytaradi?",
+        "options": [
+            "Agar kamida bitta element True bo'lsa",
+            "Agar barcha elementlar True bo'lsa (yoki iterabl bo'sh bo'lsa)",
+            "Agar barcha elementlar son bo'lsa",
+            "Hech qachon True qaytarmaydi"
+        ],
+        "correctAnswer": "Agar barcha elementlar True bo'lsa (yoki iterabl bo'sh bo'lsa)"
+    },
+    {
+        "id": 56,
+        "subjectKey": "python",
+        "text": "Python'da 'sys.path' nima?",
+        "options": [
+            "Dastur o'rnatilgan yo'l",
+            "Modullarni qidirish uchun Python qaraydigan kataloglar ro'yxati",
+            "Faqat rasm saqlanadigan yo'l",
+            "Xatoliklar jurnali"
+        ],
+        "correctAnswer": "Modullarni qidirish uchun Python qaraydigan kataloglar ro'yxati"
+    },
+    {
+        "id": 57,
+        "subjectKey": "python",
+        "text": "Python'da 'callable' obyekt nima?",
+        "options": [
+            "Faqat lug'atlar",
+            "Funksiya kabi chaqirilishi mumkin bo'lgan har qanday obyekt",
+            "Faqat o'zgaruvchilar",
+            "Faqat import qilingan kutubxonalar"
+        ],
+        "correctAnswer": "Funksiya kabi chaqirilishi mumkin bo'lgan har qanday obyekt"
+    },
+    {
+        "id": 58,
+        "subjectKey": "python",
+        "text": "Python'da 'del' operatori nima qiladi?",
+        "options": [
+            "Obyektning qiymatini nollaydi",
+            "O'zgaruvchi yoki obyektga bo'lgan havolani o'chiradi",
+            "Dasturni butunlay o'chiradi",
+            "Faqat oxirgi elementni o'chiradi"
+        ],
+        "correctAnswer": "O'zgaruvchi yoki obyektga bo'lgan havolani o'chiradi"
+    },
+    {
+        "id": 59,
+        "subjectKey": "python",
+        "text": "Python'da 'getattr()' funksiyasi nima uchun kerak?",
+        "options": [
+            "Obyekt atributini uning nomi (string) orqali olish uchun",
+            "Atributni o'chirish uchun",
+            "Atribut turini o'zgartirish uchun",
+            "Klassni nusxalash uchun"
+        ],
+        "correctAnswer": "Obyekt atributini uning nomi (string) orqali olish uchun"
+    },
+    {
+        "id": 60,
+        "subjectKey": "python",
+        "text": "Python'da 'global' o'zgaruvchi nima?",
+        "options": [
+            "Faqat internetda ishlaydigan o'zgaruvchi",
+            "Butun modul davomida va funksiyalar ichida ham foydalanish mumkin bo'lgan o'zgaruvchi",
+            "Faqat bitta funksiya ichida ishlaydigan o'zgaruvchi",
+            "Hech qachon o'zgarmaydigan o'zgaruvchi"
+        ],
+        "correctAnswer": "Butun modul davomida va funksiyalar ichida ham foydalanish mumkin bo'lgan o'zgaruvchi"
+    },
+    {
+        "id": 61,
+        "subjectKey": "python",
+        "text": "Python'da 'Method Resolution Order' (MRO) qaysi algoritmdan foydalanadi?",
+        "options": [
+            "Binary Search",
+            "C3 Linearization",
+            "Depth First Search",
+            "Breadth First Search"
+        ],
+        "correctAnswer": "C3 Linearization"
+    },
+    {
+        "id": 62,
+        "subjectKey": "python",
+        "text": "Python'da 'slice' (qirqim) obyekti qanday ishlaydi?",
+        "options": [
+            "Faqat ro'yxatning birinchi elementini oladi",
+            "Start, stop va step qiymatlari orqali ketma-ketlikdan qism ajratib oladi",
+            "Ro'yxatni teskarisiga aylantiradi",
+            "Faqat manfiy indekslar bilan ishlaydi"
+        ],
+        "correctAnswer": "Start, stop va step qiymatlari orqali ketma-ketlikdan qism ajratib oladi"
+    },
+    {
+        "id": 63,
+        "subjectKey": "python",
+        "text": "Python'da 'Memory leak' (xotira oqishi) qanday holatlarda yuz berishi mumkin?",
+        "options": [
+            "Hech qachon yuz bermaydi",
+            "O'zaro bog'langan (circular reference) obyektlar va noto'g'ri boshqarilgan global o'zgaruvchilar sababli",
+            "Faqat sonlar ko'p ishlatilganda",
+            "Faqat internet o'chib qolganda"
+        ],
+        "correctAnswer": "O'zaro bog'langan (circular reference) obyektlar va noto'g'ri boshqarilgan global o'zgaruvchilar sababli"
+    },
+    {
+        "id": 64,
+        "subjectKey": "python",
+        "text": "Python'da 'asyncio' kutubxonasi nima uchun ishlatiladi?",
+        "options": [
+            "Matematik grafiklar chizish uchun",
+            "Asinxron dasturlash va I/O operatsiyalarini samarali boshqarish uchun",
+            "Ma'lumotlarni shifrlash uchun",
+            "Faqat o'yinlar yaratish uchun"
+        ],
+        "correctAnswer": "Asinxron dasturlash va I/O operatsiyalarini samarali boshqarish uchun"
+    },
+    {
+        "id": 65,
+        "subjectKey": "python",
+        "text": "Python'da 'weakref' moduli nima uchun kerak?",
+        "options": [
+            "Kodni zaiflashtirish uchun",
+            "Obyektni Garbage Collector tomonidan o'chirilishiga to'sqinlik qilmaydigan havola yaratish uchun",
+            "Parollarni saqlash uchun",
+            "Dasturni sekinlashtirish uchun"
+        ],
+        "correctAnswer": "Obyektni Garbage Collector tomonidan o'chirilishiga to'sqinlik qilmaydigan havola yaratish uchun"
+    },
+    {
+        "id": 66,
+        "subjectKey": "python",
+        "text": "Python'da 'inspect' moduli nima vazifani bajaradi?",
+        "options": [
+            "Kodning xavfsizligini tekshiradi",
+            "Jonli obyektlar haqida ma'lumot (kodni tahlil qilish, argumentlarni ko'rish) olish uchun",
+            "Faqat fayllarni qidiradi",
+            "Ma'lumotlar turini o'zgartiradi"
+        ],
+        "correctAnswer": "Jonli obyektlar haqida ma'lumot (kodni tahlil qilish, argumentlarni ko'rish) olish uchun"
+    },
+    {
+        "id": 67,
+        "subjectKey": "python",
+        "text": "Python'da 'namedtuple' (collections) oddiy tuple'dan nimasi bilan farq qiladi?",
+        "options": [
+            "U tezroq ishlaydi",
+            "Elementlarga nafaqat indeks, balki nom (name) orqali ham murojaat qilish mumkin",
+            "U o'zgaruvchan (mutable) hisoblanadi",
+            "Faqat sonlarni saqlaydi"
+        ],
+        "correctAnswer": "Elementlarga nafaqat indeks, balki nom (name) orqali ham murojaat qilish mumkin"
+    },
+    {
+        "id": 68,
+        "subjectKey": "python",
+        "text": "Python'da 're' moduli nima uchun ishlatiladi?",
+        "options": [
+            "Dasturni qayta yuklash uchun",
+            "Muntazam ifodalar (Regular Expressions) bilan ishlash uchun",
+            "Ma'lumotlar bazasini yangilash uchun",
+            "Rasm o'lchamini o'zgartirish uchun"
+        ],
+        "correctAnswer": "Muntazam ifodalar (Regular Expressions) bilan ishlash uchun"
+    },
+    {
+        "id": 69,
+        "subjectKey": "python",
+        "text": "Python'da 'bytearray' va 'bytes' o'rtasidagi farq nima?",
+        "options": [
+            "Farqi yo'q",
+            "'bytearray' o'zgaruvchan (mutable), 'bytes' esa o'zgarmas (immutable)",
+            "'bytes' faqat harflarni saqlaydi",
+            "'bytearray' sekinroq ishlaydi"
+        ],
+        "correctAnswer": "'bytearray' o'zgaruvchan (mutable), 'bytes' esa o'zgarmas (immutable)"
+    },
+    {
+        "id": 70,
+        "subjectKey": "python",
+        "text": "Python'da 'getattr' va '__getattribute__' farqi nimada?",
+        "options": [
+            "Hech qanday farqi yo'q",
+            "'__getattribute__' har doim chaqiriladi, 'getattr' esa faqat atribut topilmaganda chaqiriladi",
+            "'getattr' faqat klasslar ichida ishlaydi",
+            "'__getattribute__' faqat sonlar uchun"
+        ],
+        "correctAnswer": "'__getattribute__' har doim chaqiriladi, 'getattr' esa faqat atribut topilmaganda chaqiriladi"
+    },
+    {
+        "id": 71,
+        "subjectKey": "python",
+        "text": "Python'da 'hash()' funksiyasi nima qaytaradi?",
+        "options": [
+            "Obyektning nomini",
+            "Obyektning butun sonli xesh qiymatini",
+            "Obyektning xotira manzilini",
+            "Obyektning turini"
+        ],
+        "correctAnswer": "Obyektning butun sonli xesh qiymatini"
+    },
+    {
+        "id": 72,
+        "subjectKey": "python",
+        "text": "Python'da 'Single Underscore' (_var) nimani anglatadi?",
+        "options": [
+            "O'zgaruvchi global ekanligini",
+            "O'zgaruvchi ichki foydalanish (private-ishlatish tavsiya etilmaydi) uchun ekanligini anglatuvchi konvensiya",
+            "O'zgaruvchi o'chirilishini",
+            "O'zgaruvchi faqat son ekanligini"
+        ],
+        "correctAnswer": "O'zgaruvchi ichki foydalanish (private-ishlatish tavsiya etilmaydi) uchun ekanligini anglatuvchi konvensiya"
+    },
+    {
+        "id": 73,
+        "subjectKey": "python",
+        "text": "Python'da 'Double Underscore' (__var) nimani anglatadi?",
+        "options": [
+            "Name Mangling (klass ichidagi atribut nomini merosxo'rlardan himoya qilish uchun o'zgartirish)",
+            "O'zgaruvchi doimiy (constant) ekanligini",
+            "O'zgaruvchi faqat 2 marta ishlatilishini",
+            "O'zgaruvchi hech qachon o'zgarmasligini"
+        ],
+        "correctAnswer": "Name Mangling (klass ichidagi atribut nomini merosxo'rlardan himoya qilish uchun o'zgartirish)"
+    },
+    {
+        "id": 74,
+        "subjectKey": "python",
+        "text": "Python'da 'Property Decorator' getterdan tashqari yana qaysi holatlar uchun ishlatiladi?",
+        "options": [
+            "Faqat o'chirish uchun",
+            "Setter va Deleter mantiqlarini yaratish uchun",
+            "Faqat xatolar uchun",
+            "Kodni import qilish uchun"
+        ],
+        "correctAnswer": "Setter va Deleter mantiqlarini yaratish uchun"
+    },
+    {
+        "id": 75,
+        "subjectKey": "python",
+        "text": "Python'da 'timeit' moduli nima uchun kerak?",
+        "options": [
+            "Hozirgi vaqtni ko'rsatish uchun",
+            "Kichik kod qismlarining bajarilish vaqtini o'lchash (benchmarking) uchun",
+            "Dasturni ma'lum vaqtda to'xtatish uchun",
+            "Internet tezligini o'lchash uchun"
+        ],
+        "correctAnswer": "Kichik kod qismlarining bajarilish vaqtini o'lchash (benchmarking) uchun"
+    },
+    {
+        "id": 76,
+        "subjectKey": "python",
+        "text": "Python'da 'Namespace'larning necha turi bor?",
+        "options": [
+            "Faqat bitta",
+            "To'rtta: Built-in, Global, Enclosing va Local (LEGB)",
+            "Ikkita: Ichki va Tashqi",
+            "O'nta"
+        ],
+        "correctAnswer": "To'rtta: Built-in, Global, Enclosing va Local (LEGB)"
+    },
+    {
+        "id": 77,
+        "subjectKey": "python",
+        "text": "Python'da 'frozenset' lug'at (dict) kaliti bo'lishi mumkinmi?",
+        "options": [
+            "Yo'q, mumkin emas",
+            "Ha, chunki u immutable (o'zgarmas) va xeshlanuvchi hisoblanadi",
+            "Faqat ichida sonlar bo'lsa mumkin",
+            "Faqat bitta element bo'lsa mumkin"
+        ],
+        "correctAnswer": "Ha, chunki u immutable (o'zgarmas) va xeshlanuvchi hisoblanadi"
+    },
+    {
+        "id": 78,
+        "subjectKey": "python",
+        "text": "Python'da 'Coroutine' nima?",
+        "options": [
+            "Oddiy funksiyaning boshqa nomi",
+            "Bajarilishi to'xtatilishi va keyinroq davom ettirilishi mumkin bo'lgan funksiya (async def)",
+            "Xatolarni qidiruvchi dastur",
+            "Ma'lumotlar bazasi jadvali"
+        ],
+        "correctAnswer": "Bajarilishi to'xtatilishi va keyinroq davom ettirilishi mumkin bo'lgan funksiya (async def)"
+    },
+    {
+        "id": 79,
+        "subjectKey": "python",
+        "text": "Python'da 'lambda' funksiyalari necha qatordan iborat bo'lishi mumkin?",
+        "options": [
+            "Cheksiz",
+            "Faqat bir qatorli ifodadan (expression) iborat bo'lishi kerak",
+            "Kamida 5 qator",
+            "Ular qatorlarga bo'linmaydi"
+        ],
+        "correctAnswer": "Faqat bir qatorli ifodadan (expression) iborat bo'lishi kerak"
+    },
+    {
+        "id": 80,
+        "subjectKey": "python",
+        "text": "Python'da 'id' qiymati qachon o'zgaradi?",
+        "options": [
+            "Hech qachon o'zgarmaydi",
+            "Obyekt xotiradan o'chirilib, yangi obyekt yaratilganda (yoki mutable obyekt qayta initsializatsiya qilinganda)",
+            "Faqat o'zgaruvchi nomi o'zgarganda",
+            "Har safar print qilinganda"
+        ],
+        "correctAnswer": "Obyekt xotiradan o'chirilib, yangi obyekt yaratilganda (yoki mutable obyekt qayta initsializatsiya qilinganda)"
+    },
+    {
+        "id": 81,
+        "subjectKey": "python",
+        "text": "Python'da 'Method Resolution Order' (MRO) qaysi algoritmdan foydalanadi?",
+        "options": [
+            "Depth-First Search",
+            "C3 Linearization",
+            "Breadth-First Search",
+            "Binary Search"
+        ],
+        "correctAnswer": "C3 Linearization"
+    },
+    {
+        "id": 82,
+        "subjectKey": "python",
+        "text": "Python'da 'range' va 'xrange' (Python 2.x) o'rtasidagi asosiy farq nimada?",
+        "options": [
+            "Range tezroq ishlaydi",
+            "Range list qaytaradi, xrange esa generator (iterabl obyekt) qaytaradi",
+            "Xrange faqat manfiy sonlar uchun",
+            "Hech qanday farqi yo'q"
+        ],
+        "correctAnswer": "Range list qaytaradi, xrange esa generator (iterabl obyekt) qaytaradi"
+    },
+    {
+        "id": 83,
+        "subjectKey": "python",
+        "text": "Python'da 'globals()' funksiyasi nima qaytaradi?",
+        "options": [
+            "Hozirgi modulning barcha global o'zgaruvchilari lug'atini (dict)",
+            "Faqat tizim o'zgaruvchilarini",
+            "Barcha import qilingan kutubxonalar ro'yxatini",
+            "Bo'sh ro'yxat"
+        ],
+        "correctAnswer": "Hozirgi modulning barcha global o'zgaruvchilari lug'atini (dict)"
+    },
+    {
+        "id": 84,
+        "subjectKey": "python",
+        "text": "Python'da 'Ellipsis' (...) obyekti nima uchun ishlatilishi mumkin?",
+        "options": [
+            "Faqat xatolarni ko'rsatish uchun",
+            "Hali yozilmagan kod o'rnida (placeholder) yoki ko'p o'lchovli massivlarda (NumPy)",
+            "Dasturni to'xtatish uchun",
+            "Faqat satrlarni birlashtirish uchun"
+        ],
+        "correctAnswer": "Hali yozilmagan kod o'rnida (placeholder) yoki ko'p o'lchovli massivlarda (NumPy)"
+    },
+    {
+        "id": 85,
+        "subjectKey": "python",
+        "text": "Python'da 'itertools.chain()' nima vazifani bajaradi?",
+        "options": [
+            "Bir nechta iterabllarni bitta ketma-ketlikka birlashtiradi",
+            "Ro'yxatni zanjir kabi qulflaydi",
+            "Elementlarni ko'paytiradi",
+            "Faqat stringlarni qo'shadi"
+        ],
+        "correctAnswer": "Bir nechta iterabllarni bitta ketma-ketlikka birlashtiradi"
+    },
+    {
+        "id": 86,
+        "subjectKey": "python",
+        "text": "Python'da 'locals()' funksiyasi nima qaytaradi?",
+        "options": [
+            "Global o'zgaruvchilarni",
+            "Hozirgi scope'dagi (masalan, funksiya ichidagi) mahalliy o'zgaruvchilar lug'atini",
+            "Kompyuter nomini",
+            "Faqat klass nomlarini"
+        ],
+        "correctAnswer": "Hozirgi scope'dagi (masalan, funksiya ichidagi) mahalliy o'zgaruvchilar lug'atini"
+    },
+    {
+        "id": 87,
+        "subjectKey": "python",
+        "text": "Python'da qaysi ma'lumot turi 'ordered' (tartiblangan) hisoblanadi (Python 3.7+)?",
+        "options": ["Set", "Dictionary", "Frozenset", "Hech biri"],
+        "correctAnswer": "Dictionary"
+    },
+    {
+        "id": 88,
+        "subjectKey": "python",
+        "text": "Python'da 'functools.lru_cache' nima uchun ishlatiladi?",
+        "options": [
+            "Dasturni o'chirish uchun",
+            "Funksiya natijalarini keshlashtirish (memoization) orqali tezlikni oshirish uchun",
+            "Xotirani tozalash uchun",
+            "Faqat internetdan ma'lumot olish uchun"
+        ],
+        "correctAnswer": "Funksiya natijalarini keshlashtirish (memoization) orqali tezlikni oshirish uchun"
+    },
+    {
+        "id": 89,
+        "subjectKey": "python",
+        "text": "Python'da '__call__' metodi nima vazifani bajaradi?",
+        "options": [
+            "Obyektni funksiya kabi chaqirish imkonini beradi",
+            "Obyektni o'chiradi",
+            "Faqat raqamlarni hisoblaydi",
+            "Klassni import qiladi"
+        ],
+        "correctAnswer": "Obyektni funksiya kabi chaqirish imkonini beradi"
+    },
+    {
+        "id": 90,
+        "subjectKey": "python",
+        "text": "Python'da 'dis' moduli nima uchun kerak?",
+        "options": [
+            "Dasturni to'xtatish",
+            "Python kodini baytkod (bytecode) ko'rinishida tahlil qilish (disassemble)",
+            "Ma'lumotlar bazasini ulash",
+            "Grafik interfeys yaratish"
+        ],
+        "correctAnswer": "Python kodini baytkod (bytecode) ko'rinishida tahlil qilish (disassemble)"
+    },
+    {
+        "id": 91,
+        "subjectKey": "python",
+        "text": "Python'da 'shutil' moduli nima uchun ishlatiladi?",
+        "options": [
+            "Matematik hisoblar",
+            "Fayllar va papkalar ustida yuqori darajadagi amallar (nusxalash, ko'chirish) uchun",
+            "Faqat satrlarni qirqish uchun",
+            "Xotira hajmini aniqlash"
+        ],
+        "correctAnswer": "Fayllar va papkalar ustida yuqori darajadagi amallar (nusxalash, ko'chirish) uchun"
+    },
+    {
+        "id": 92,
+        "subjectKey": "python",
+        "text": "Python'da 'bisect' moduli nima uchun kerak?",
+        "options": [
+            "Ro'yxatni ikkiga bo'lish uchun",
+            "Tartiblangan ro'yxatlarga elementlarni tartibni buzmagan holda qo'shish uchun",
+            "Tasodifiy sonlar yaratish",
+            "Xatolarni tekshirish"
+        ],
+        "correctAnswer": "Tartiblangan ro'yxatlarga elementlarni tartibni buzmagan holda qo'shish uchun"
+    },
+    {
+        "id": 93,
+        "subjectKey": "python",
+        "text": "Python'da 'abstractmethod' dekoratori qaysi modulda joylashgan?",
+        "options": ["sys", "abc", "os", "math"],
+        "correctAnswer": "abc"
+    },
+    {
+        "id": 94,
+        "subjectKey": "python",
+        "text": "Python'da 'contextlib.suppress' nima qiladi?",
+        "options": [
+            "Dasturni kuch bilan to'xtatadi",
+            "Berilgan xatoliklarni (exceptions) e'tiborsiz qoldirish uchun ishlatiladi",
+            "Ma'lumotlarni siqib beradi",
+            "Faqat printni o'chiradi"
+        ],
+        "correctAnswer": "Berilgan xatoliklarni (exceptions) e'tiborsiz qoldirish uchun ishlatiladi"
+    },
+    {
+        "id": 95,
+        "subjectKey": "python",
+        "text": "Python'da 'property'ning setter qismi qanday aniqlanadi?",
+        "options": [
+            "@property.set",
+            "@metod_nomi.setter",
+            "@set_property",
+            "@change.value"
+        ],
+        "correctAnswer": "@metod_nomi.setter"
+    },
+    {
+        "id": 96,
+        "subjectKey": "python",
+        "text": "Python'da 'del' va 'pop()' o'rtasidagi farq nima?",
+        "options": [
+            "Farqi yo'q",
+            "'del' elementni shunchaki o'chiradi, 'pop()' esa o'chirilgan elementni qaytaradi",
+            "'pop()' faqat lug'atlar uchun",
+            "'del' faqat oxirgi elementni o'chiradi"
+        ],
+        "correctAnswer": "'del' elementni shunchaki o'chiradi, 'pop()' esa o'chirilgan elementni qaytaradi"
+    },
+    {
+        "id": 97,
+        "subjectKey": "python",
+        "text": "Python'da 'memoryview' nima uchun kerak?",
+        "options": [
+            "Rasm ko'rish uchun",
+            "Ma'lumotlar buferiga (buffer) nusxa olmasdan kirish va xotirani tejash uchun",
+            "Xotira kartasini formatlash uchun",
+            "Faqat katta sonlarni saqlash uchun"
+        ],
+        "correctAnswer": "Ma'lumotlar buferiga (buffer) nusxa olmasdan kirish va xotirani tejash uchun"
+    },
+    {
+        "id": 98,
+        "subjectKey": "python",
+        "text": "Python'da 'interning' (string interning) nima?",
+        "options": [
+            "Satrlarni tarjima qilish",
+            "Bir xil qisqa satrlarni xotirada faqat bitta nusxada saqlash mexanizmi",
+            "Satrlarni o'chirish",
+            "Satrlarni raqamga o'tkazish"
+        ],
+        "correctAnswer": "Bir xil qisqa satrlarni xotirada faqat bitta nusxada saqlash mexanizmi"
+    },
+    {
+        "id": 99,
+        "subjectKey": "python",
+        "text": "Python'da 'vars()' funksiyasi nima qaytaradi?",
+        "options": [
+            "Faqat int o'zgaruvchilarni",
+            "Obyektning __dict__ atributini (atributlar lug'atini)",
+            "Dastur versiyasini",
+            "O'zgaruvchilar sonini"
+        ],
+        "correctAnswer": "Obyektning __dict__ atributini (atributlar lug'atini)"
+    },
+    {
+        "id": 100,
+        "subjectKey": "python",
+        "text": "Python'da 'Small Integer Caching' diapazoni qancha?",
+        "options": [
+            "0 dan 100 gacha",
+            "-5 dan 256 gacha",
+            "-128 dan 127 gacha",
+            "Faqat musbat sonlar"
+        ],
+        "correctAnswer": "-5 dan 256 gacha"
+    }
+]

@@ -1,0 +1,957 @@
+[
+    {
+        "id": 1,
+        "subjectKey": "php",
+        "text": "PHP'da 'echo' va 'print' o'rtasidagi asosiy farq nimada?",
+        "options": [
+            "echo hech qanday qiymat qaytarmaydi, print esa har doim 1 qiymatini qaytaradi va ifodalarda ishlatilishi mumkin",
+            "print hech qanday qiymat qaytarmaydi, echo esa muvaffaqiyatli bajarilganda TRUE qiymatini qaytaradi",
+            "echo faqat bitta argument qabul qiladi, print esa vergul bilan ajratilgan bir nechta argumentlarni qabul qila oladi",
+            "echo faqat HTML teglari ichida ishlaydi, print esa faqat toza matnlarni konsolga chiqarish uchun mo'ljallangan"
+        ],
+        "correctAnswer": "echo hech qanday qiymat qaytarmaydi, print esa har doim 1 qiymatini qaytaradi va ifodalarda ishlatilishi mumkin"
+    },
+    {
+        "id": 2,
+        "subjectKey": "php",
+        "text": "PHP'da 'OPcache' mexanizmining asosiy vazifasi nima?",
+        "options": [
+            "PHP skriptlarini kompilyatsiya qilingan bayt-kod (opcode) ko'rinishida xotirada saqlab, har safar qayta o'qish va tahlil qilishni oldini olish",
+            "Ma'lumotlar bazasidan kelayotgan SQL so'rovlar natijalarini keshga joylash orqali yuklamani kamaytirish",
+            "Foydalanuvchi sessiyalarini tezkor xotirada (RAM) saqlash orqali sahifalarning yuklanish tezligini oshirish",
+            "Skript ichidagi barcha static o'zgaruvchilar va global massivlarni optimallashtirib, xotira oqib ketishini to'xtatish"
+        ],
+        "correctAnswer": "PHP skriptlarini kompilyatsiya qilingan bayt-kod (opcode) ko'rinishida xotirada saqlab, har safar qayta o'qish va tahlil qilishni oldini olish"
+    },
+    {
+        "id": 3,
+        "subjectKey": "php",
+        "text": "PHP'da 'Composer' nima va u qanday vazifani bajaradi?",
+        "options": [
+            "Loyiha uchun kerakli tashqi kutubxonalar va ularning o'zaro bog'liqliklarini (dependencies) boshqaradigan paket menejeri",
+            "PHP kodlarini avtomatik tarzda optimallashtiruvchi va xatolarni serverga yuklashdan oldin tuzatuvchi kompilyator",
+            "Ma'lumotlar bazasi migratsiyalarini va relyatsion jadvallarni avtomatik yaratuvchi ORM vositasi",
+            "Lokal server muhitini (Apache/Nginx va MySQL) sozlash va ishga tushirish uchun mo'ljallangan dasturiy ta'minot"
+        ],
+        "correctAnswer": "Loyiha uchun kerakli tashqi kutubxonalar va ularning o'zaro bog'liqliklarini (dependencies) boshqaradigan paket menejeri"
+    },
+    {
+        "id": 4,
+        "subjectKey": "php",
+        "text": "PHP'da 'Traits' nima uchun ishlatiladi?",
+        "options": [
+            "Klasslar o'rtasida an'anaviy ko'p merosxo'rlik (multiple inheritance) cheklovini aylanib o'tib, metodlarni qayta ishlatish uchun",
+            "Faqat private va protected metodlarni tashqi klasslarga hech qanday cheklovsiz ochib berish uchun",
+            "Interfeyslardagi barcha metodlarni majburiy ravishda abstrakt holatga keltirish va xavfsizlikni ta'minlash uchun",
+            "Klass obyektlarini JSON formatiga o'tkazishda uning ichki tuzilishini o'zgartirmasdan nusxalash uchun"
+        ],
+        "correctAnswer": "Klasslar o'rtasida an'anaviy ko'p merosxo'rlik (multiple inheritance) cheklovini aylanib o'tib, metodlarni qayta ishlatish uchun"
+    },
+    {
+        "id": 5,
+        "subjectKey": "php",
+        "text": "PHP'da 'PDO' (PHP Data Objects) ning oddiy 'mysqli' drayveridan asosiy afzalligi nimada?",
+        "options": [
+            "Turli xil ma'lumotlar bazalari (MySQL, PostgreSQL, SQLite) bilan bir xil interfeys orqali ishlash imkoniyati",
+            "Faqat MySQL bazasi uchun so'rovlarni bir necha barobar tezroq bajarish va avtomatik keshlash tizimi",
+            "SQL Injection hujumlaridan mutlaqo 100 foiz avtomatik himoyalanganligi (Prepared Statements'siz ham)",
+            "Ma'lumotlar bazasi jadvallarini avtomatik ravishda PHP klasslariga (Entity) o'gira olish xususiyati"
+        ],
+        "correctAnswer": "Turli xil ma'lumotlar bazalari (MySQL, PostgreSQL, SQLite) bilan bir xil interfeys orqali ishlash imkoniyati"
+    },
+    {
+        "id": 6,
+        "subjectKey": "php",
+        "text": "PHP'da 'Generator' funksiyalar (yield kalit so'zi) nima uchun kerak?",
+        "options": [
+            "Katta hajmdagi ma'lumotlar to'plamini xotiraga (RAM) to'liq yuklamasdan, bosqichma-bosqich oqim shaklida qayta ishlash uchun",
+            "Asinxron thread'lar yaratish va bir vaqtning o'zida bir nechta og'ir funksiyalarni parallel bajarish uchun",
+            "Funksiyadan bir vaqtning o'zida turli xil tipdagi bir nechta massivlarni qaytarish (return) imkoniyati uchun",
+            "Kod ichidagi xatoliklarni (Exceptions) avtomatik aniqlash va ularni log fayllarga yozish jarayonini tezlashtirish uchun"
+        ],
+        "correctAnswer": "Katta hajmdagi ma'lumotlar to'plamini xotiraga (RAM) to'liq yuklamasdan, bosqichma-bosqich oqim shaklida qayta ishlash uchun"
+    },
+    {
+        "id": 7,
+        "subjectKey": "php",
+        "text": "PHP'da 'Strict Types' (declare(strict_types=1);) yoqilganda nima sodir bo'ladi?",
+        "options": [
+            "Funksiya parametrlari va qaytaradigan qiymat turlari qat'iy tekshiriladi, tip mos kelmasa TypeError tashlanadi",
+            "Dasturdagi barcha o'zgaruvchilarni e'lon qilishda majburiy ravishda tipini yozish talab etiladi",
+            "Kompilyatsiya vaqtida sintaktik xatoliklar (Parse Error) darhol dasturni to'xtatadi va xatolik darajasi oshadi",
+            "O'zgaruvchilar turlari dinamiklikdan static holatga o'tadi va ularni keyinchalik o'zgartirib bo'lmaydi"
+        ],
+        "correctAnswer": "Funksiya parametrlari va qaytaradigan qiymat turlari qat'iy tekshiriladi, tip mos kelmasa TypeError tashlanadi"
+    },
+    {
+        "id": 8,
+        "subjectKey": "php",
+        "text": "PHP'da 'Anonymous Classes' (Anonim klasslar) asosan qachon ishlatiladi?",
+        "options": [
+            "Faqat bir marta ishlatiladigan, kichik va alohida fayl talab qilmaydigan vaqtinchalik obyektlar yaratish uchun",
+            "Klass nomini tashqi foydalanuvchilardan va xakerlardan yashirish hamda xavfsizlikni ta'minlash uchun",
+            "Xotiradan joy tejash maqsadida global o'zgaruvchilar o'rnida foydalanish uchun",
+            "Hech qanday metodga ega bo'lmagan, faqat ma'lumot saqlaydigan static konteynerlar yaratish uchun"
+        ],
+        "correctAnswer": "Faqat bir marta ishlatiladigan, kichik va alohida fayl talab qilmaydigan vaqtinchalik obyektlar yaratish uchun"
+    },
+    {
+        "id": 9,
+        "subjectKey": "php",
+        "text": "PHP'da 'session_start()' funksiyasi bajarilganda serverda aynan nima sodir bo'ladi?",
+        "options": [
+            "Foydalanuvchi uchun noyob ID yaratiladi (yoki mavjudligi tekshiriladi) va serverda mos keladigan vaqtinchalik fayl ochiladi",
+            "Brauzerdagi barcha kesh ma'lumotlari o'chiriladi va ma'lumotlar bazasi bilan xavfsiz ulanish o'rnatiladi",
+            "Foydalanuvchining IP manzili va parollari avtomatik ravishda shifrlanib global '$_SESSION' massiviga yoziladi",
+            "Server xotirasida (RAM) faqat ushbu foydalanuvchi uchun alohida asinxron ishlaydigan thread ishga tushadi"
+        ],
+        "correctAnswer": "Foydalanuvchi uchun noyob ID yaratiladi (yoki mavjudligi tekshiriladi) va serverda mos keladigan vaqtinchalik fayl ochiladi"
+    },
+    {
+        "id": 10,
+        "subjectKey": "php",
+        "text": "PHP 8'da qo'shilgan 'Attributes' (Atributlar) mexanizmining vazifasi nima?",
+        "options": [
+            "Klasslar, metodlar va o'zgaruvchilarga PHPDoc kommentariyalari o'rniga strukturaviy metama'lumotlar (metadata) qo'shish",
+            "Klass tarkibidagi private o'zgaruvchilarga tashqaridan to'g'ridan-to'g'ri qiymat berish imkoniyatini ochish",
+            "Funksiyalar bajarilish vaqtini (execution time) o'lchash va sekin ishlayotgan qismlarni optimallashtirish",
+            "HTML formalaridan kelayotgan ma'lumotlarni (request) avtomatik ravishda filtrlovchi yangi xavfsizlik tizimi"
+        ],
+        "correctAnswer": "Klasslar, metodlar va o'zgaruvchilarga PHPDoc kommentariyalari o'rniga strukturaviy metama'lumotlar (metadata) qo'shish"
+    },
+    {
+        "id": 11,
+        "subjectKey": "php",
+        "text": "PHP'da 'self' va 'static' kalit so'zlari o'rtasidagi farq nimada (Late Static Binding)?",
+        "options": [
+            "self metod chaqirilgan joriy klassga bog'lanadi, static esa runtime'da voris klass (bajarilayotgan klass)ga bog'lanadi",
+            "self faqat static o'zgaruvchilar uchun ishlaydi, static esa faqat static metodlarni chaqirish uchun mo'ljallangan",
+            "static xotirani tejash uchun kompilyatsiya vaqtida ishlaydi, self esa har doim runtime paytida dinamik bog'lanadi",
+            "self klass ichidagi private a'zolarga kiradi, static esa faqat public va protected a'zolar bilan ishlay oladi"
+        ],
+        "correctAnswer": "self metod chaqirilgan joriy klassga bog'lanadi, static esa runtime'da voris klass (bajarilayotgan klass)ga bog'lanadi"
+    },
+    {
+        "id": 12,
+        "subjectKey": "php",
+        "text": "PHP'da 'include' va 'require' operatorlarining asosiy farqi nimada?",
+        "options": [
+            "include fayl topilmasa E_WARNING berib skriptni davom ettiradi, require esa E_COMPILE_ERROR berib skriptni darhol to'xtatadi",
+            "require faylni faqat bir marta yuklaydi, include esa bir nechta joyda qayta-qayta yuklashga ruxsat beradi",
+            "include faqat lokal fayllar bilan ishlaydi, require esa uzoqdagi (URL orqali) fayllarni ham yuklay oladi",
+            "require faqat PHP klasslarini yuklash uchun ishlatiladi, include esa ixtiyoriy HTML kodi bor fayllar uchun mo'ljallangan"
+        ],
+        "correctAnswer": "include fayl topilmasa E_WARNING berib skriptni davom ettiradi, require esa E_COMPILE_ERROR berib skriptni darhol to'xtatadi"
+    },
+    {
+        "id": 13,
+        "subjectKey": "php",
+        "text": "PHP'da 'Garbage Collector' (Sikl havolalarini tozalash) mexanizmi qanday muammoni hal qiladi?",
+        "options": [
+            "O'zaro bir-biriga havola qilgan (circular reference) va hisoblagichi nolga tushmaydigan obyektlarni aniqlab, xotirani bo'shatadi",
+            "Dastur yakunlanganda global massivlar ($_GET, $_POST) ichidagi barcha vaqtinchalik ma'lumotlarni tozalaydi",
+            "Foydalanuvchi tizimdan chiqqanda (logout) serverdagi barcha eskirgan sessiya fayllarini darhol o'chirib tashlaydi",
+            "Ma'lumotlar bazasidan olingan va ishlatilmay qolgan yirik ob'ektlar jadvallarini avtomatik yopadi"
+        ],
+        "correctAnswer": "O'zaro bir-biriga havola qilgan (circular reference) va hisoblagichi nolga tushmaydigan obyektlarni aniqlab, xotirani bo'shatadi"
+    },
+    {
+        "id": 14,
+        "subjectKey": "php",
+        "text": "PHP 8'da qo'shilgan 'Match' ifodasi (expression) 'Switch' operatoridan nimasi bilan farq qiladi?",
+        "options": [
+            "Match qiymatni qat'iy (===) solishtiradi, natijani qaytaradi (return qiladi) va 'break' operatorini talab qilmaydi",
+            "Match faqat satrli (string) ma'lumotlarni solishtira oladi, switch esa ixtiyoriy turdagi o'zgaruvchilar bilan ishlaydi",
+            "Switch har doim sekinroq ishlaydi va uning ichida bir nechta shartlarni birlashtirish (or) imkoniyati mavjud emas",
+            "Match faqat massiv elementlarini qidirish uchun mo'ljallangan bo'lib, xatolik sodir bo'lganda NULL qaytaradi"
+        ],
+        "correctAnswer": "Match qiymatni qat'iy (===) solishtiradi, natijani qaytaradi (return qiladi) va 'break' operatorini talab qilmaydi"
+    },
+    {
+        "id": 15,
+        "subjectKey": "php",
+        "text": "PHP'da 'Abstract Class' va 'Interface' o'rtasidagi asosiy farq nimada?",
+        "options": [
+            "Abstract klassda realizatsiyaga ega metodlar bo'lishi mumkin, Interfeysda esa (PHP 8 da ham) faqat tana qismi bo'lmagan metodlar bo'ladi",
+            "Interfeyslardan obyekt (instance) yaratish mumkin, lekin abstrakt klasslardan mutlaqo obyekt yaratib bo'lmaydi",
+            "Klass bir nechta abstrakt klasslardan vorislik olishi mumkin, lekin faqat bitta interfeysni implement qila oladi",
+            "Abstract klass metodlari faqat public bo'lishi shart, interfeysda esa private metodlar yozishga ruxsat berilgan"
+        ],
+        "correctAnswer": "Abstract klassda realizatsiyaga ega metodlar bo'lishi mumkin, Interfeysda esa (PHP 8 da ham) faqat tana qismi bo'lmagan metodlar bo'ladi"
+    },
+    {
+        "id": 16,
+        "subjectKey": "php",
+        "text": "PHP'da 'Constructor Promotion' (PHP 8+) xususiyati nima?",
+        "options": [
+            "Klass maydonlarini (properties) to'g'ridan-to'g'ri __construct() argumentlari ichida e'lon qilish va qiymatni avtomatik biriktirish usuli",
+            "Ota klass konstruktorini bola klass ichida avtomatik ravishda (parent::__construct yozmasdan) ishga tushirish tizimi",
+            "Klass yaratilayotgan vaqtda uning konstruktori ustuvorligini oshirib, xotiradan birinchi bo'lib joy ajratish mexanizmi",
+            "Konstruktor ichida chaqirilgan barcha private metodlarni avtomatik ravishda public holatga o'tkazish xususiyati"
+        ],
+        "correctAnswer": "Klass maydonlarini (properties) to'g'ridan-to'g'ri __construct() argumentlari ichida e'lon qilish va qiymatni avtomatik biriktirish usuli"
+    },
+    {
+        "id": 17,
+        "subjectKey": "php",
+        "text": "PHP'da 'FPM' (FastCGI Process Manager) nima vazifani bajaradi?",
+        "options": [
+            "PHP so'rovlarini qabul qilib, ularni alohida worker protsesslar (processes) orqali parallel qayta ishlovchi xizmat",
+            "PHP skriptlaridagi parollar va maxfiy kalitlarni shifrlangan holda saqlaydigan xavfsizlik moduli",
+            "Veb-server (Nginx) keshini avtomatik boshqaradigan va statik fayllarni siquvchi dastur",
+            "Dastur ichidagi og'ir matematik hisob-kitoblarni GPU (grafik karta) yordamida tezlashtiruvchi framework"
+        ],
+        "correctAnswer": "PHP so'rovlarini qabul qilib, ularni alohida worker protsesslar (processes) orqali parallel qayta ishlovchi xizmat"
+    },
+    {
+        "id": 18,
+        "subjectKey": "php",
+        "text": "PHP'da 'Fatals' xatolar (Fatal Errors) va 'Exceptions' (Istisnolar) o'rtasidagi farq nimada?",
+        "options": [
+            "Exceptions'larni try-catch bloki yordamida ushlab, dastur ishini davom ettirish mumkin, Fatal Error esa (ko'p hollarda) skriptni darhol to'xtatadi",
+            "Fatal Errors faqat obyektlar bilan ishlashda sodir bo'ladi, Exceptions esa faqat sintaktik xatolarda tashlanadi",
+            "Fatal Errors kompilyator xatosi hisoblanadi va brauzerga hech qachon chiqmaydi, Exceptions esa faqat brauzerda ko'rinadi",
+            "Ular mutlaqo bir xil tushunchalar bo'lib, faqat PHP'ning eski va yangi versiyalarida turlicha nomlangan"
+        ],
+        "correctAnswer": "Exceptions'larni try-catch bloki yordamida ushlab, dastur ishini davom ettirish mumkin, Fatal Error esa (ko'p hollarda) skriptni darhol to'xtatadi"
+    },
+    {
+        "id": 19,
+        "subjectKey": "php",
+        "text": "PHP'da 'JIT' (Just-In-Time) kompilyatori (PHP 8+) dasturni qanday tezlashtiradi?",
+        "options": [
+            "Opcode (bayt-kod) ning tez-tez chaqiriladigan qismlarini to'g'ridan-to'g'ri protsessor tushunadigan mashina kodiga o'tkazish orqali",
+            "Ma'lumotlar bazasiga bo'lgan ulanishlar sonini kamaytirib, so'rovlarni asinxron rejimga o'tkazish orqali",
+            "Koddagi barcha sikllarni (foreach, while) avtomatik ravishda parallel ishlaydigan thread'larga bo'lish orqali",
+            "HTML, CSS va JavaScript kodlarini server tomonida siqib (minify), brauzerga tayyor holatda jo'natish orqali"
+        ],
+        "correctAnswer": "Opcode (bayt-kod) ning tez-tez chaqiriladigan qismlarini to'g'ridan-to'g'ri protsessor tushunadigan mashina kodiga o'tkazish orqali"
+    },
+    {
+        "id": 20,
+        "subjectKey": "php",
+        "text": "PHP'da 'Flyweight' yoki 'Memory profiling' paytida 'gc_collect_cycles()' funksiyasi nima uchun qo'lda chaqirilishi mumkin?",
+        "options": [
+            "Xotirani majburiy ravishda zudlik bilan tozalash va aylanma havolalardan (circular references) bo'shatilgan baytlar miqdorini aniqlash uchun",
+            "Dasturdagi barcha faol sessiyalarni va kesh xotirani to'liq o'chirib, server xotirasini nollashtirish uchun",
+            "PHP'ning ichki yadrosini (core) qayta yuklab, skript ishlash muddatini (max_execution_time) boshidan boshlash uchun",
+            "Ma'lumotlar bazasi bilan ochiq qolgan barcha tranzaksiyalarni majburiy ravishda 'commit' qilish uchun"
+        ],
+        "correctAnswer": "Xotirani majburiy ravishda zudlik bilan tozalash va aylanma havolalardan (circular references) bo'shatilgan baytlar miqdorini aniqlash uchun"
+    },
+    {
+        "id": 21,
+        "subjectKey": "php",
+        "text": "PHP'da 'SQL Injection' hujumining oldini olish uchun eng xavfsiz va to'g'ri usul qaysi?",
+        "options": [
+            "Prepared Statements (PDO yoki MySQLi) dan foydalanib, parametrlarni ma'lumotdan alohida bog'lash (bind)",
+            "Kelayotgan barcha satrlarni 'htmlspecialchars()' funksiyasi orqali HTML teglardan tozalash",
+            "SQL so'rovlarini bajarishdan oldin satrlarni 'addslashes()' yoki 'str_replace()' orqali filtrlash",
+            "Barcha so'rovlarni faqat 'POST' metodi orqali yuborish va bazaga kirish huquqlarini cheklash"
+        ],
+        "correctAnswer": "Prepared Statements (PDO yoki MySQLi) dan foydalanib, parametrlarni ma'lumotdan alohida bog'lash (bind)"
+    },
+    {
+        "id": 22,
+        "subjectKey": "php",
+        "text": "PHP'da 'WeakMap' (PHP 8.0+) klassi nima uchun ishlatiladi?",
+        "options": [
+            "Obyektlarni kalit sifatida saqlash va ular tashqarida o'chib ketganda, xotirani avtomatik tozalash (Garbage Collection'ga to'sqinlik qilmaslik) uchun",
+            "Faqat kichik hajmdagi satrli massivlarni kesh xotirada tezkor saqlash uchun",
+            "Xavfsizligi past bo'lgan va shifrlanmagan vaqtinchalik ma'lumotlarni tartiblash uchun",
+            "Klass ichidagi private metodlarga tashqaridan sekinroq (kuchsiz) ulanishni ta'minlash uchun"
+        ],
+        "correctAnswer": "Obyektlarni kalit sifatida saqlash va ular tashqarida o'chib ketganda, xotirani avtomatik tozalash (Garbage Collection'ga to'sqinlik qilmaslik) uchun"
+    },
+    {
+        "id": 23,
+        "subjectKey": "php",
+        "text": "PHP'da 'CSRF' (Cross-Site Request Forgery) hujumidan himoyalanishning eng standart usuli qaysi?",
+        "options": [
+            "Har bir forma yoki so'rov uchun noyob va vaqtinchalik token (CSRF-token) yaratib, uni server tomonida tekshirish",
+            "Foydalanuvchining IP manzili o'zgarmaganligini har bir sahifa yuklanganda qayta tekshirib turish",
+            "Barcha kiritilgan ma'lumotlarni 'strip_tags()' funksiyasi yordamida skriptlardan tozalash",
+            "Faqat HTTPS protokoli orqali keladigan so'rovlarnigina qabul qilishni sozlash"
+        ],
+        "correctAnswer": "Har bir forma yoki so'rov uchun noyob va vaqtinchalik token (CSRF-token) yaratib, uni server tomonida tekshirish"
+    },
+    {
+        "id": 24,
+        "subjectKey": "php",
+        "text": "PHP'da 'Fiber' (PHP 8.1+) mexanizmining asosiy maqsadi nima?",
+        "options": [
+            "To'liq asinxron va parallel ishlaydigan haqiqiy OS thread'larini yaratish",
+            "Bloklanmaydigan (non-blocking) I/O amallarini va kooperativ ko'p vazifalilikni (concurrency) past darajada boshqarish",
+            "PHP skriptlarini avtomatik ravishda C++ kodiga o'tkazib kompilyatsiya qilish",
+            "Fayllarni serverga juda tez va bo'laklarga bo'lib yuklash tizimini boshqarish"
+        ],
+        "correctAnswer": "Bloklanmaydigan (non-blocking) I/O amallarini va kooperativ ko'p vazifalilikni (concurrency) past darajada boshqarish"
+    },
+    {
+        "id": 25,
+        "subjectKey": "php",
+        "text": "PHP'da 'password_hash()' funksiyasi orqali parollarni saqlash nega MD5 yoki SHA256 dan afzal hisoblanadi?",
+        "options": [
+            "U parollarga avtomatik ravishda tasodifiy 'salt' (tuz) qo'shadi va 'bcrypt/argon2' kabi sekin (Rainbow table hujumiga chidamli) algoritmlardan foydalanadi",
+            "U parollarni juda kichik hajmgacha siqadi va ma'lumotlar bazasida kam joy egallashini ta'minlaydi",
+            "U shifrlangan parolni har safar ma'lumotlar bazasiga yozganda bir xil qiymatga keltirib beradi",
+            "U parolni faqat server xotirasida saqlaydi va fayllarga yozilishini butunlay taqiqlaydi"
+        ],
+        "correctAnswer": "U parollarga avtomatik ravishda tasodifiy 'salt' (tuz) qo'shadi va 'bcrypt/argon2' kabi sekin (Rainbow table hujumiga chidamli) algoritmlardan foydalanadi"
+    },
+    {
+        "id": 26,
+        "subjectKey": "php",
+        "text": "PHP'da 'stdClass' nima vazifani bajaradi?",
+        "options": [
+            "Hech qanday oldindan e'lon qilingan tuzilishga ega bo'lmagan, dinamik xususiyatlar biriktirish mumkin bo'lgan bo'sh obyekt",
+            "Barcha foydalanuvchi klasslari majburiy ravishda vorislik olishi shart bo'lgan asosiy ota klass",
+            "Faqat matematik va statistik funksiyalarni o'z ichiga olgan static tizimli klass",
+            "Xatolarni qayta ishlash va ularni tizim xotirasida saqlash uchun mo'ljallangan maxsus interfeys"
+        ],
+        "correctAnswer": "Hech qanday oldindan e'lon qilingan tuzilishga ega bo'lmagan, dinamik xususiyatlar biriktirish mumkin bo'lgan bo'sh obyekt"
+    },
+    {
+        "id": 27,
+        "subjectKey": "php",
+        "text": "PHP'da 'json_encode()' funksiyasida 'JSON_THROW_ON_ERROR' bayrog'i (flag) nima uchun ishlatiladi?",
+        "options": [
+            "Xatolik yuz berganda false yoki null qaytarish o'rniga, 'JsonException' istisnosini tashlash uchun",
+            "JSON satrini majburiy ravishda UTF-8 formatiga o'tkazish jarayonida xatolarni o'tkazib yuborish uchun",
+            "JSON fayli ichidagi barcha private kalitlarni avtomatik shifrlash uchun",
+            "Katta hajmdagi JSON fayllarini o'qishda xotira to'lib qolish xavfini oldindan to'xtatish uchun"
+        ],
+        "correctAnswer": "Xatolik yuz berganda false yoki null qaytarish o'rniga, 'JsonException' istisnosini tashlash uchun"
+    },
+    {
+        "id": 28,
+        "subjectKey": "php",
+        "text": "PHP'da 'Magic Method' hisoblangan '__clone()' metodi qachon ishga tushadi?",
+        "options": [
+            "Obyekt 'clone' kalit so'zi yordamida nusxalanayotganda, nusxa obyektning ichki xususiyatlarini o'zgartirish (Deep Copy) uchun",
+            "Klassdan yangi obyekt yaratilganda xotirada joy yetishmasa, eski obyektni o'chirish uchun",
+            "Obyekt serialize() funksiyasiga uzatilganda uning massiv formatini tekshirish uchun",
+            "Metod topilmaganda uni boshqa klass tarkibidan qidirib topib nusxalash uchun"
+        ],
+        "correctAnswer": "Obyekt 'clone' kalit so'zi yordamida nusxalanayotganda, nusxa obyektning ichki xususiyatlarini o'zgartirish (Deep Copy) uchun"
+    },
+    {
+        "id": 29,
+        "subjectKey": "php",
+        "text": "PHP'da 'Autoloading' (masalan, spl_autoload_register()) mexanizmining asosiy vazifasi nima?",
+        "options": [
+            "Klass nomi chaqirilganda, u e'lon qilingan faylni faqat kerak bo'lgan vaqtda (on-demand) avtomatik ravishda yuklash (include/require)",
+            "Server ishga tushganda loyihadagi barcha PHP fayllarini xotiraga (RAM) to'liq oldindan yuklab olish",
+            "Loyihadagi xatoliklarni aniqlab, ularga mos keladigan drayverlarni avtomatik sozlash",
+            "Ma'lumotlar bazasidagi o'zgarishlarni kuzatib, klass xususiyatlarini avtomatik yangilab turish"
+        ],
+        "correctAnswer": "Klass nomi chaqirilganda, u e'lon qilingan faylni faqat kerak bo'lgan vaqtda (on-demand) avtomatik ravishda yuklash (include/require)"
+    },
+    {
+        "id": 30,
+        "subjectKey": "php",
+        "text": "PHP'da 'Null Coalescing Assignment Operator' (??=) qanday vazifani bajaradi?",
+        "options": [
+            "Chap tomondagi o'zgaruvchi mavjud bo'lmasa yoki null bo'lsa, unga o'ng tomondagi qiymatni biriktiradi",
+            "Ikki o'zgaruvchining qiymati ham null bo'lgan taqdirda dasturni majburiy to'xtatadi",
+            "O'zgaruvchining turi null ekanligini qat'iy tekshirib, bool qiymat qaytaradi",
+            "O'zgaruvchi qiymatini xotiradan butunlay o'chirib, o'rniga bo'sh satr joylashtiradi"
+        ],
+        "correctAnswer": "Chap tomondagi o'zgaruvchi mavjud bo'lmasa yoki null bo'lsa, unga o'ng tomondagi qiymatni biriktiradi"
+    },
+    {
+        "id": 31,
+        "subjectKey": "php",
+        "text": "PHP'da 'Xdebug' nima va u asosan nima uchun ishlatiladi?",
+        "options": [
+            "Koddagi xatolarni qadamma-qadam kuzatish (debugging), tahlil qilish va unumdorlikni (profiling) o'lchash vositasi",
+            "PHP skriptlarini tashqi tarmoq xakerlik hujumlaridan himoya qiluvchi server darajasidagi fayrvol (firewall)",
+            "HTML sahifalarni juda tez yuklash uchun mo'ljallangan PHP ichki shablonizatori (template engine)",
+            "Ma'lumotlar to'plamini JSON formatidan XML formatiga o'tkazuvchi tezkor utilita"
+        ],
+        "correctAnswer": "Koddagi xatolarni qadamma-qadam kuzatish (debugging), tahlil qilish va unumdorlikni (profiling) o'lchash vositasi"
+    },
+    {
+        "id": 32,
+        "subjectKey": "php",
+        "text": "PHP'da 'Readonly Classes' (PHP 8.2+) ning asosiy xususiyati nimada?",
+        "options": [
+            "Klassning barcha xususiyatlari avtomatik ravishda readonly bo'ladi va ularga faqat bir marta (konstruktorda) qiymat yozish mumkin",
+            "Klass ichidagi metodlarni voris klasslarda mutlaqo qayta yozishni (override) taqiqlaydi",
+            "Klass obyektlarini fayllarga yozishni (serialize) cheklaydi va faqat o'qish rejimida ochadi",
+            "Klass tarkibidagi barcha metodlarni static holatga o'tkazib, obyekt yaratishni imkonsiz qiladi"
+        ],
+        "correctAnswer": "Klassning barcha xususiyatlari avtomatik ravishda readonly bo'ladi va ularga faqat bir marta (konstruktorda) qiymat yozish mumkin"
+    },
+    {
+        "id": 33,
+        "subjectKey": "php",
+        "text": "PHP'da 'Session Fixation' hujumiga qarshi qanday kurashiladi?",
+        "options": [
+            "Foydalanuvchi tizimga muvaffaqiyatli kirgandan so'ng 'session_regenerate_id(true)' funksiyasi orqali sessiya ID sini yangilash",
+            "Sessiya ma'lumotlarini har 5 soniyada ma'lumotlar bazasiga qayta yozib turish",
+            "Sessiyani faqat global '$_POST' massivi orqali boshqarishni yoqish",
+            "$_SESSION massivi ichidagi barcha elementlarni har safar sahifa yangilanganda shifrlash"
+        ],
+        "correctAnswer": "Foydalanuvchi tizimga muvaffaqiyatli kirgandan so'ng 'session_regenerate_id(true)' funksiyasi orqali sessiya ID sini yangilash"
+    },
+    {
+        "id": 34,
+        "subjectKey": "php",
+        "text": "PHP'da 'header()' funksiyasidan foydalanishda qaysi muhim qoidaga amal qilish shart?",
+        "options": [
+            "Ushbu funksiya chaqirilgunga qadar brauzerga hech qanday matn yoki HTML chiqishi (output) jo'natilgan bo'lmasligi kerak",
+            "Funksiya ichida faqat va faqat mutloq (absolute) URL manzillar yozilishi shart",
+            "U faqat '$_GET' so'rovlari kelgandagina ishlatilishi kerak, aks holda xatolik beradi",
+            "Ushbu funksiyadan keyin majburiy ravishda 'session_write_close()' metodini chaqirish kerak"
+        ],
+        "correctAnswer": "Ushbu funksiya chaqirilgunga qadar brauzerga hech qanday matn yoki HTML chiqishi (output) jo'natilgan bo'lmasligi kerak"
+    },
+    {
+        "id": 35,
+        "subjectKey": "php",
+        "text": "PHP'da 'Intersection Types' (PHP 8.1+) nimani anglatadi?",
+        "options": [
+            "Obyekt bir vaqtning o'zida e'lon qilingan barcha interfeys yoki klass turlariga (Type1 & Type2) mos kelishi shartligi",
+            "Argument sifatida berilgan bir nechta turlardan kamida bittasiga (Type1 | Type2) mos kelishi yetarli ekanligi",
+            "Funksiya bir vaqtning o'zida ham massiv, ham obyekt qiymat qaytara olishi mumkinligi",
+            "Ikki xil klass ichidagi bir xil nomli metodlarning o'zaro to'qnashuvini hal qilish tizimi"
+        ],
+        "correctAnswer": "Obyekt bir vaqtning o'zida e'lon qilingan barcha interfeys yoki klass turlariga (Type1 & Type2) mos kelishi shartligi"
+    },
+    {
+        "id": 36,
+        "subjectKey": "php",
+        "text": "PHP'da 'memory_limit' konfiguratsiyasining vazifasi nima?",
+        "options": [
+            "Bitta PHP skripti ishlashi davomida maksimal darajada qancha operativ xotira (RAM) egallashi mumkinligini cheklash",
+            "Serverga yuklanadigan fayllarning maksimal hajmini baytlarda belgilash",
+            "Ma'lumotlar bazasidan bir marta olish mumkin bo'lgan qatorlar sonini chegaralash",
+            "OPcache tizimi uchun ajratiladigan native xotira miqdorini belgilash"
+        ],
+        "correctAnswer": "Bitta PHP skripti ishlashi davomida maksimal darajada qancha operativ xotira (RAM) egallashi mumkinligini cheklash"
+    },
+    {
+        "id": 37,
+        "subjectKey": "php",
+        "text": "PHP'da 'Final' kalit so'zi klass oldidan yozilsa nima sodir bo'ladi?",
+        "options": [
+            "Ushbu klassdan boshqa hech qanday klass vorislik (inheritance) ola olmaydi",
+            "Klass tarkibidagi barcha metodlar avtomatik ravishda static holatga o'tadi",
+            "Klassdan yangi obyekt yaratish butunlay taqiqlanadi va u faqat interface vazifasini bajaradi",
+            "Ushbu klass xotiradan hech qachon o'chirilmaydi va global keshda saqlanadi"
+        ],
+        "correctAnswer": "Ushbu klassdan boshqa hech qanday klass vorislik (inheritance) ola olmaydi"
+    },
+    {
+        "id": 38,
+        "subjectKey": "php",
+        "text": "PHP'da 'Magic Method' bo'lgan '__callStatic()' qachon avtomatik chaqiriladi?",
+        "options": [
+            "Klass tarkibida mavjud bo'lmagan yoki kirish ruxsati bo'lmagan static metod static tarzda chaqirilganda",
+            "Klassdan obyekt olingandan keyin oddiy metod static ko'rinishda chaqirilganda",
+            "Static o'zgaruvchining qiymati kutilmaganda dastur ichida o'zgartirilganda",
+            "Klass konstruktori static rejimda ishga tushishni boshlaganda"
+        ],
+        "correctAnswer": "Klass tarkibida mavjud bo'lmagan yoki kirish ruxsati bo'lmagan static metod static tarzda chaqirilganda"
+    },
+    {
+        "id": 39,
+        "subjectKey": "php",
+        "text": "PHP'da 'array_map()' va 'array_filter()' funksiyalarining asosiy farqi nimada?",
+        "options": [
+            "array_map elementlarni o'zgartirib yangi massiv qaytaradi, array_filter esa shartga mos keladigan elementlarni saralab (filtrlab) qaytaradi",
+            "array_filter faqat kalitlar (keys) bilan ishlaydi, array_map esa faqat qiymatlar (values) bilan ishlaydi",
+            "array_map massiv indekslarini noldan boshqatdan tartiblaydi, array_filter esa eski indekslarni saqlab qoladi",
+            "array_filter faqat sonli massivlar uchun mo'ljallangan, array_map esa assotsiativ massivlar uchun"
+        ],
+        "correctAnswer": "array_map elementlarni o'zgartirib yangi massiv qaytaradi, array_filter esa shartga mos keladigan elementlarni saralab (filtrlab) qaytaradi"
+    },
+    {
+        "id": 40,
+        "subjectKey": "php",
+        "text": "PHP'da 'cURL' kutubxonasi asosan nima uchun ishlatiladi?",
+        "options": [
+            "Tashqi HTTP/HTTPS serverlariga so'rovlar yuborish, API'lar bilan ishlash va ma'lumot almashish uchun",
+            "Koddagi sintaktik xatolarni kompilyatsiya qilishdan oldin aniqlash uchun",
+            "Rasm fayllarini server tomonida qayta ishlash va ularning hajmini kichraytirish uchun",
+            "Ma'lumotlar bazasi jadvallarini optimallashtirish va indekslarni qayta qurish uchun"
+        ],
+        "correctAnswer": "Tashqi HTTP/HTTPS serverlariga so'rovlar yuborish, API'lar bilan ishlash va ma'lumot almashish uchun"
+    },
+    {
+        "id": 41,
+        "subjectKey": "php",
+        "text": "PHP'da 'Union Types' (PHP 8.0+) nimani anglatadi?",
+        "options": [
+            "O'zgaruvchi yoki argument e'lon qilingan bir nechta turlardan kamida bittasiga (masalan, int|float) mos kelishi mumkinligi",
+            "Ikki xil massivni o'zaro birlashtirib, yangi anonim ma'lumot turini yaratish mexanizmi",
+            "Klass ichidagi metod joriy klass va voris klass turlariga bir vaqtda mos kelishi shartligi",
+            "Ma'lumotlar bazasidan kelayotgan SQL Union so'rovlarini avtomatik massivga o'girish tizimi"
+        ],
+        "correctAnswer": "O'zgaruvchi yoki argument e'lon qilingan bir nechta turlardan kamida bittasiga (masalan, int|float) mos kelishi mumkinligi"
+    },
+    {
+        "id": 42,
+        "subjectKey": "php",
+        "text": "PHP'da 'Nullsafe Operator' (?->) qanday muammoni hal qiladi?",
+        "options": [
+            "Zanjirli metod chaqiriqlarida (method chaining) ob'ekt null bo'lsa, xatolik bermasdan zanjirni to'xtatadi va null qaytaradi",
+            "Ma'lumotlar bazasidan kelayotgan null qiymatlarni avtomatik ravishda bo'sh satrga ('') o'zgartiradi",
+            "O'zgaruvchining turi null ekanligini qat'iy tekshirib, xatolik yuz berganda dasturni majburiy to'xtatadi",
+            "Klass konstruktori ichida private o'zgaruvchilarga null qiymat berilishini butunlay taqiqlaydi"
+        ],
+        "correctAnswer": "Zanjirli metod chaqiriqlarida (method chaining) ob'ekt null bo'lsa, xatolik bermasdan zanjirni to'xtatadi va null qaytaradi"
+    },
+    {
+        "id": 43,
+        "subjectKey": "php",
+        "text": "PHP'da 'Preloading' (OPcache preloading) mexanizmining asosiy vazifasi nima?",
+        "options": [
+            "Server ishga tushganda belgilangan PHP fayllarini xotiraga yuklab, ularni barcha so'rovlar uchun doimiy tayyor saqlash",
+            "Foydalanuvchi sahifaga kirmasdan turib, uning sessiya ma'lumotlarini brauzer keshiga oldindan yuklash",
+            "Katta hajmdagi rasmlar va statik fayllarni server xotirasida (RAM) siqilgan holatda oldindan saqlash",
+            "Ma'lumotlar bazasi jadvallari indekslarini skript bajarilishidan oldin avtomatik ravishda yangilash"
+        ],
+        "correctAnswer": "Server ishga tushganda belgilangan PHP fayllarini xotiraga yuklab, ularni barcha so'rovlar uchun doimiy tayyor saqlash"
+    },
+    {
+        "id": 44,
+        "subjectKey": "php",
+        "text": "PHP'da 'Magic Method' hisoblangan '__invoke()' metodi qachon ishga tushadi?",
+        "options": [
+            "Klassdan olingan obyekt to'g'ridan-to'g'ri funksiya kabi chaqirilganda (masalan, $object())",
+            "Klass ichidagi mavjud bo'lmagan private metod tashqaridan oddiy funksiya sifatida chaqirilganda",
+            "Dastur ichida kutilmaganda og'ir xatolik (Fatal Error) yuz berganda uni qayta ishlash uchun",
+            "Obyekt xotiradan o'chib ketishidan oldin uning barcha resurslarini majburiy yopish vaqtida"
+        ],
+        "correctAnswer": "Klassdan olingan obyekt to'g'ridan-to'g'ri funksiya kabi chaqirilganda (masalan, $object())"
+    },
+    {
+        "id": 45,
+        "subjectKey": "php",
+        "text": "PHP'da 'XSS' (Cross-Site Scripting) hujumidan himoyalanishning eng to'g'ri usuli qaysi?",
+        "options": [
+            "Foydalanuvchidan kelgan matnlarni ekranga chiqarishdan oldin 'htmlspecialchars()' orqali xavfsiz holatga keltirish",
+            "Barcha kiruvchi so'rovlarni (request) faqat va faqat prepared statements yordamida bazaga bog'lash",
+            "Sessiya identifikatorini 'session_regenerate_id()' funksiyasi yordamida har bir sahifada yangilab turish",
+            "Skriptning eng tepasida 'declare(strict_types=1);' buyrug'ini yoqish orqali tiplarni qat'iy nazorat qilish"
+        ],
+        "correctAnswer": "Foydalanuvchidan kelgan matnlarni ekranga chiqarishdan original 'htmlspecialchars()' orqali xavfsiz holatga keltirish"
+    },
+    {
+        "id": 46,
+        "subjectKey": "php",
+        "text": "PHP 8.1'da qo'shilgan 'Enums' (Enumerations) ning asosiy maqsadi nima?",
+        "options": [
+            "Oldindan belgilangan o'zgarmas qiymatlar to'plamini (masalan, Status) qat'iy tiplashgan holatda xavfsiz ifodalash",
+            "Klasslar ichida bir nechta bir xil nomli metodlarni dinamik ravishda guruhlash va tartiblash",
+            "Dasturdagi barcha global massivlarni avtomatik shifrlash va ularni xotirada yashirin saqlash",
+            "Ma'lumotlar bazasi ulanishlarini cheklash va so'rovlar sonini avtomatik hisoblab borish"
+        ],
+        "correctAnswer": "Oldindan belgilangan o'zgarmas qiymatlar to'plamini (masalan, Status) qat'iy tiplashgan holatda xavfsiz ifodalash"
+    },
+    {
+        "id": 47,
+        "subjectKey": "php",
+        "text": "PHP'da 'Late Static Binding' (static kalit so'zi) nima uchun kerak?",
+        "options": [
+            "Static metod voris klassda qayta yozilgan bo'lsa, chaqiriq aynan o'sha bajarilayotgan klassga bog'lanishi uchun",
+            "Klass konstruktori ishlashini dastur oxirigacha kechiktirish (lazy loading) va xotirani tejash uchun",
+            "Private o'zgaruvchilarni dastur ishlash vaqtida (runtime) public holatga dinamik o'zgartirish uchun",
+            "Klass tarkibidagi barcha interfeys metodlarini kompilyatsiya vaqtida qat'iy tekshirish uchun"
+        ],
+        "correctAnswer": "Static metod voris klassda qayta yozilgan bo'lsa, chaqiriq aynan o'sha bajarilayotgan klassga bog'lanishi uchun"
+    },
+    {
+        "id": 48,
+        "subjectKey": "php",
+        "text": "PHP'da 'anonymous function' (yoki Closure) ichida tashqi o'zgaruvchidan foydalanish uchun qaysi kalit so'z ishlatiladi?",
+        "options": ["use", "global", "extends", "import"],
+        "correctAnswer": "use"
+    },
+    {
+        "id": 49,
+        "subjectKey": "php",
+        "text": "PHP'da 'str_contains()' funksiyasi (PHP 8.0+) nimasi bilan 'strpos()' funksiyasidan afzal hisoblanadi?",
+        "options": [
+            "U qidirilayotgan matn borligini qat'iy bool (true/false) qiymatda qaytaradi va 0-indeks muammosini (chalg'ishni) oldini oladi",
+            "U matn ichidagi so'zlarni katta-kichik harflariga qaramasdan (case-insensitive) to'liq regex'siz qidiradi",
+            "U matnni qidirish jarayonida xotirani butunlay band qilmaydi va juda yirik matnlarda tezroq ishlaydi",
+            "U faqat assotsiativ massivlar ichidagi kalit so'zlarni qidirish uchun maxsus optimallashtirilgan"
+        ],
+        "correctAnswer": "U qidirilayotgan matn borligini qat'iy bool (true/false) qiymatda qaytaradi va 0-indeks muammosini (chalg'ishni) oldini oladi"
+    },
+    {
+        "id": 50,
+        "subjectKey": "php",
+        "text": "PHP'da 'Magic Method' hisoblangan '__get()' va '__set()' metodlari qachon ishga tushadi?",
+        "options": [
+            "Klass ichida mavjud bo'lmagan yoki kirish ruxsati bo'lmagan (private/protected) xususiyatlarga murojaat qilinganda",
+            "Klassdan yangi obyekt yaratilganda va u xotiradan butunlay o'chirilayotgan vaqt oralig'ida",
+            "Obyekt JSON formatiga o'tkazilayotganda va qayta tiklanayotganda (serialization)",
+            "Klass tarkibidagi static o'zgaruvchilar qiymati global miqyosda o'zgartirilganda"
+        ],
+        "correctAnswer": "Klass ichida mavjud bo'lmagan yoki kirish ruxsati bo'lmagan (private/protected) xususiyatlarga murojaat qilinganda"
+    },
+    {
+        "id": 51,
+        "subjectKey": "php",
+        "text": "PHP'da 'never' qaytarish turi (return type - PHP 8.1+) nimani kafolatlaydi?",
+        "options": [
+            "Funksiya qiymat qaytarmasligini, u har doim dasturni to'xtatishini (exit/die) yoki istisno (exception) tashlashini",
+            "Funksiya hech qachon xatolik bermasligini va har doim true qiymat bilan tugashini",
+            "Funksiyadan qaytgan natijani o'zgaruvchiga biriktirib bo'lmasligini va u faqat keshda saqlanishini",
+            "Funksiya faqat bir marta chaqirilishini va ikkinchi marta chaqirilganda e'tiborga olinmasligini"
+        ],
+        "correctAnswer": "Funksiya qiymat qaytarmasligini, u har doim dasturni to'xtatishini (exit/die) yoki istisno (exception) tashlashini"
+    },
+    {
+        "id": 52,
+        "subjectKey": "php",
+        "text": "PHP'da 'Dependency Injection' (O'zaro bog'liqlikni kiritish) darsining asosiy maqsadi nima?",
+        "options": [
+            "Klass ichida boshqa ob'ektni to'g'ridan-to'g'ri (new orqali) yaratmasdan, uni konstruktor yoki metod orqali tashqaridan uzatish",
+            "Klasslarni ma'lumotlar bazasiga avtomatik ulash va SQL so'rovlarni avtomatlashtirish",
+            "Tashqi kutubxonalarni (Composer paketlarini) loyihaga avtomatik tarzda include qilish",
+            "Dasturdagi barcha xatoliklarni (Exceptions) markaziy log fayliga xavfsiz yo'naltirish"
+        ],
+        "correctAnswer": "Klass ichida boshqa ob'ektni to'g'ridan-to'g'ri (new orqali) yaratmasdan, uni konstruktor yoki metod orqali tashqaridan uzatish"
+    },
+    {
+        "id": 53,
+        "subjectKey": "php",
+        "text": "PHP'da 'serialize()' va 'unserialize()' funksiyalarining vazifasi nima?",
+        "options": [
+            "Obyekt yoki massivni satr (string) holatiga o'tkazish (saqlash uchun) va keyinchalik uni qayta asl holatiga keltirish",
+            "Matnli fayllarni shifrlash (encrypt) va ularni parolsiz ochib bo'lmaydigan holatga keltirish",
+            "Dastur kodini siqish (minify) orqali server yuklanish tezligini bir necha barobar oshirish",
+            "Ma'lumotlar bazasidagi relyatsion jadvallarni JSON formatiga avtomatik o'tkazish"
+        ],
+        "correctAnswer": "Obyekt yoki massivni satr (string) holatiga o'tkazish (saqlash uchun) va keyinchalik uni qayta asl holatiga keltirish"
+    },
+    {
+        "id": 54,
+        "subjectKey": "php",
+        "text": "PHP'da 'unserialize()' funksiyasini tekshirilmagan foydalanuvchi ma'lumotlari bilan ishlatish qanday xavf tug'diradi?",
+        "options": [
+            "Obyekt initsializatsiyasi jarayonida zararli kodlarning avtomatik ishga tushib ketishi (Object Injection / RCE)",
+            "Ma'lumotlar bazasidagi barcha parollarning tasodifiy o'chib ketishi va tiklanmasligi",
+            "Foydalanuvchi sessiya fayllarining muddati tugamasdan turib brauzerdan o'chib ketishi",
+            "Server xotirasidagi (RAM) OPcache bayt-kodlarining to'liq buzilishi va skriptlar to'xtashi"
+        ],
+        "correctAnswer": "Obyekt initsializatsiyasi jarayonida zararli kodlarning avtomatik ishga tushib ketishi (Object Injection / RCE)"
+    },
+    {
+        "id": 55,
+        "subjectKey": "php",
+        "text": "PHP'da 'fastcgi_finish_request()' funksiyasi nima uchun ishlatiladi?",
+        "options": [
+            "Foydalanuvchiga HTTP javobni darhol qaytarib, fonda (background) og'ir vazifalarni bajarishni davom ettirish uchun",
+            "Serverga kelayotgan barcha chiquvchi so'rovlarni majburiy ravishda to'xtatish va keshni yangilash uchun",
+            "Nginx veb-serveri bilan ulanishni butunlay uzib, skriptni asinxron rejimdan static rejimga o'tkazish uchun",
+            "Foydalanuvchi brauzeridagi kesh va kukilarni (cookies) server buyrug'i bilan darhol tozalash uchun"
+        ],
+        "correctAnswer": "Foydalanuvchiga HTTP javobni darhol qaytarib, fonda (background) og'ir vazifalarni bajarishni davom ettirish uchun"
+    },
+    {
+        "id": 56,
+        "subjectKey": "php",
+        "text": "PHP'da 'array_merge()' va '+' (union) operatorlarining massivlarni birlashtirishdagi asosiy farqi nimada?",
+        "options": [
+            "array_merge satrli kalitlarni qayta yozadi, '+' operatori esa bir xil kalit mavjud bo'lsa birinchisini saqlab, ikkinchisiga tegmaydi",
+            "'+' operatori faqat sonli indekslar bilan ishlaydi, array_merge esa faqat assotsiativ massivlar uchun mo'ljallangan",
+            "array_merge massiv elementlarini avtomatik saralaydi (sort), '+' operatori esa tartibni o'zgarishsiz qoldiradi",
+            "Ular o'rtasida farq yo'q, ikkalasi ham massivlarni mutlaqo bir xil mantiq asosida birlashtiradi"
+        ],
+        "correctAnswer": "array_merge satrli kalitlarni qayta yozadi, '+' operatori esa bir xil kalit mavjud bo'lsa birinchisini saqlab, ikkinchisiga tegmaydi"
+    },
+    {
+        "id": 57,
+        "subjectKey": "php",
+        "text": "PHP 8.2'da 'dynamic properties' (klassda e'lon qilinmagan xususiyatlarni obyektga biriktirish) bo'yicha qanday o'zgarish kiritilgan?",
+        "options": [
+            "Dinamik xususiyatlar biriktirish butunlay eskirgan (deprecated) deb e'lon qilindi va u Deprecated xatoligini beradi",
+            "Dinamik xususiyatlar endi faqat private metodlar ichida ishlatilishiga ruxsat beriladi",
+            "Klass e'lon qilinganda uning barcha xususiyatlari avtomatik ravishda dinamik holatga o'tadi",
+            "Ular uchun xotiradan alohida joy ajratilib, ishlash tezligi 2 barobarga oshirildi"
+        ],
+        "correctAnswer": "Dinamik xususiyatlar biriktirish butunlay eskirgan (deprecated) deb e'lon qilindi va u Deprecated xatoligini beradi"
+    },
+    {
+        "id": 58,
+        "subjectKey": "php",
+        "text": "PHP'da 'PDO::prepare()' metodi nima uchun to'g'ridan-to'g'ri 'PDO::query()' metodidan ko'ra afzal hisoblanadi?",
+        "options": [
+            "U so'rov shablonini serverda oldindan tayyorlab, xavfsizlik (SQL Injection'dan himoya) va qayta chaqiriqlarda yuqori tezlik beradi",
+            "U ma'lumotlar bazasidan kelayotgan natijalarni avtomatik ravishda Redis keshiga joylashtiradi",
+            "U faqat bitta tranzaksiya ichida ishlaydi va xatolik bo'lsa o'z-o'zidan 'rollback' qiladi",
+            "U so'rov natijasini JSON formatida qaytaradi, bu esa frontend bilan ishlashni soddalashtiradi"
+        ],
+        "correctAnswer": "U so'rov shablonini serverda oldindan tayyorlab, xavfsizlik (SQL Injection'dan himoya) va qayta chaqiriqlarda yuqori tezlik beradi"
+    },
+    {
+        "id": 59,
+        "subjectKey": "php",
+        "text": "PHP'da '__destruct()' metodi ichida xatolik (Exception) tashlansa (throw qilinsa) nima sodir bo'ladi?",
+        "options": [
+            "Agar u ushlanmasa, halokatli xato (Fatal Error) yuz beradi va skript ishi darhol to'xtatiladi",
+            "Exception avtomatik ravishda e'tiborsiz qoldiriladi va obyekt xotiradan baribir o'chib ketaveradi",
+            "PHP xatolikni global log fayliga yozadi va skript ishlashini hech qanday uzilishsiz davom ettiradi",
+            "Obyekt xotiradan o'chmaydi va u global static o'zgaruvchiga aylanib qoladi"
+        ],
+        "correctAnswer": "Agar u ushlanmasa, halokatli xato (Fatal Error) yuz beradi va skript ishi darhol to'xtatiladi"
+    },
+    {
+        "id": 60,
+        "subjectKey": "php",
+        "text": "PHP'da 'set_error_handler()' funksiyasining asosiy vazifasi nima?",
+        "options": [
+            "PHP'ning an'anaviy xatoliklarini (Notice, Warning) ushlab, ularni o'zimiz xohlagan mantiq asosida boshqarish yoki Exception'ga aylantirish",
+            "Dasturdagi barcha sintaktik (Parse Error) xatolarni kompilyatsiya vaqtida avtomatik ravishda tuzatish",
+            "Faqat try-catch blokidan qochib ketgan global darajadagi Exception'larni markaziy ushlagichga yo'naltirish",
+            "Server xatoliklarini (500 Internal Server Error) foydalanuvchiga ko'rsatmasdan, o'rniga chiroyli HTML sahifa ochish"
+        ],
+        "correctAnswer": "PHP'ning an'anaviy xatoliklarini (Notice, Warning) ushlab, ularni o'zimiz xohlagan mantiq asosida boshqarish yoki Exception'ga aylantirish"
+    },
+    {
+        "id": 81,
+        "subjectKey": "php",
+        "text": "PHP'da funksiya argumentlarida 'Splat Operator' (...$args) nima vazifani bajaradi?",
+        "options": [
+            "Funksiyaga cheksiz miqdordagi argumentlarni massiv ko'rinishida qabul qilish yoki massivni argumentlarga yoyib yuborish imkonini beradi",
+            "Funksiya ichidagi barcha o'zgaruvchilarni avtomatik tarzda global miqyosga olib chiqadi va xotirani tozalaydi",
+            "Argument sifatida faqat va faqat ko'p o'lchovli assotsiativ massivlar qabul qilinishini qat'iy talab qiladi",
+            "Funksiyaning bajarilish vaqtini (execution time) o'lchab, natijani avtomatik keshga joylashtiradi"
+        ],
+        "correctAnswer": "Funksiyaga cheksiz miqdordagi argumentlarni massiv ko'rinishida qabul qilish yoki massivni argumentlarga yoyib yuborish imkonini beradi"
+    },
+    {
+        "id": 82,
+        "subjectKey": "php",
+        "text": "PHP'da OOP doirasida 'Contravariant' (Argument type contravariance) qoidasi nimani anglatadi?",
+        "options": [
+            "Voris klassda qayta yozilayotgan (override) metod argumentining tipi ota klassdagi metod argumenti tipiga qaraganda kengroq (supertype) bo'lishi mumkinligi",
+            "Voris klassdagi metod argumentining tipi ota klassdagi metod argumenti tipi bilan mutlaqo bir xil bo'lishi shartligi",
+            "Funksiya qaytaradigan natija turi ota klassdagiga nisbatan torroq va aniqroq (subtype) bo'lishi kerakligi",
+            "Klass ichidagi private xususiyatlarning turlarini dastur ishlash vaqtida (runtime) o'zgartirish taqiqlanganligi"
+        ],
+        "correctAnswer": "Voris klassda qayta yozilayotgan (override) metod argumentining tipi ota klassdagi metod argumenti tipiga qaraganda kengroq (supertype) bo'lishi mumkinligi"
+    },
+    {
+        "id": 83,
+        "subjectKey": "php",
+        "text": "PHP'da 'stream_context_create()' funksiyasi asosan nima uchun ishlatiladi?",
+        "options": [
+            "Fayllarni o'qish yoki HTTP so'rovlar yuborishda (masalan, file_get_contents) custom sarlavhalar (headers) va parametrlarni sozlash uchun",
+            "Server xotirasida (RAM) yangi asinxron oqimlar (streams) va ishchi worker thread'larni yaratish uchun",
+            "Ma'lumotlar bazasiga bo'lgan ulanishlarni guruhlash va ularni tranzaksiya darajasida boshqarish uchun",
+            "HTML sahifalarini siqish (gzip) va brauzerga uzatish tezligini bir necha barobar oshirish uchun"
+        ],
+        "correctAnswer": "Fayllarni o'qish yoki HTTP so'rovlar yuborishda (masalan, file_get_contents) custom sarlavhalar (headers) va parametrlarni sozlash uchun"
+    },
+    {
+        "id": 84,
+        "subjectKey": "php",
+        "text": "PHP'da 'cryptographically secure' (kriptografik jihatdan xavfsiz) tasodifiy son yoki baytlar yaratish uchun qaysi funksiyadan foydalanish shart?",
+        "options": [
+            "random_bytes() yoki random_int()",
+            "rand() yoki mt_rand()",
+            "uniqid() yoki md5(time())",
+            "shuffle() yoki array_rand()"
+        ],
+        "correctAnswer": "random_bytes() yoki random_int()"
+    },
+    {
+        "id": 85,
+        "subjectKey": "php",
+        "text": "PHP'da 'header_remove()' funksiyasi qanday vazifani bajaradi?",
+        "options": [
+            "Brauzerga yuborilishi rejalashtirilgan, lekin hali jo'natilmagan HTTP javob sarlavhalarini o'chirib tashlaydi",
+            "HTML hujjatining '<head>' tegi ichidagi barcha skriptlar va meta teglarni avtomatik tozalaydi",
+            "Foydalanuvchi so'rovidagi (request headers) barcha cookie ma'lumotlarini server xotirasidan o'chiradi",
+            "PHP konfiguratsiyasidagi (php.ini) barcha xavfsizlik cheklov sarlavhalarini vaqtinchalik bekor qiladi"
+        ],
+        "correctAnswer": "Brauzerga yuborilishi rejalashtirilgan, lekin hali jo'natilmagan HTTP javob sarlavhalarini o'chirib tashlaydi"
+    },
+    {
+        "id": 86,
+        "subjectKey": "php",
+        "text": "PHP'da 'Magic Method' hisoblangan '__sleep()' va '__wakeup()' metodlarining asosiy maqsadi nima?",
+        "options": [
+            "Obyekt serialize() qilinayotganda qaysi maydonlarni saqlashni belgilash va unserialize() qilinayotganda resurslarni (masalan, DB connection) qayta tiklash",
+            "Skript ishlashini ma'lum vaqtga to'xtatib turish (sleep) va taymer tugagach kodni yana davom ettirish",
+            "Server xotirasi (RAM) to'lib qolganda obyektni vaqtinchalik diskka yozish va xotira bo'shaganda uni qayta yuklash",
+            "Klass tarkibidagi static o'zgaruvchilarni parallel thread'lar ichida qulflash (lock) va ochish (unlock)"
+        ],
+        "correctAnswer": "Obyekt serialize() qilinayotganda qaysi maydonlarni saqlashni belgilash va unserialize() qilinayotganda resurslarni (masalan, DB connection) qayta tiklash"
+    },
+    {
+        "id": 87,
+        "subjectKey": "php",
+        "text": "PHP'da 'set_exception_handler()' funksiyasi nima uchun ishlatiladi?",
+        "options": [
+            "Try-catch bloklari ichida ushlanmay qolgan, global darajadagi barcha unhandled istisnolarni (exceptions) markaziy joyda ushlab ishlash uchun",
+            "Koddagi barcha og'ir halokatli xatolarni (Fatal Errors) avtomatik ravishda e'tiborsiz qoldirish uchun",
+            "Faqat ma'lumotlar bazasidan keladigan xatolarni (PDOException) alohida faylga log qilish tizimini yoqish uchun",
+            "Klasslar ichida yangi custom Exception yaratish jarayonini optimallashtirish va tezlashtirish uchun"
+        ],
+        "correctAnswer": "Try-catch bloklari ichida ushlanmay qolgan, global darajadagi barcha unhandled istisnolarni (exceptions) markaziy joyda ushlab ishlash uchun"
+    },
+    {
+        "id": 88,
+        "subjectKey": "php",
+        "text": "PHP'da 'Dangling Pointer' yoki 'Memory leak' (xotira oqishi) asosan qanday holatda yuzaga keladi?",
+        "options": [
+            "Long-running (uzoq ishlaydigan CLI) skriptlarda global massivlar yoki static maydonlarga tinimsiz ma'lumot qo'shilib, ular tozalab turilmaganda",
+            "Skript ichida juda ko'p marotaba 'include_once' yoki 'require_once' operatorlari chaqirilganda",
+            "Ma'lumotlar bazasi bilan ulanish o'rnatilganda va har safar so'rovdan keyin 'close()' metodi yozilganda",
+            "Klass ichidagi private metodlar soni public metodlar sonidan bir necha barobarga ortib ketganda"
+        ],
+        "correctAnswer": "Long-running (uzoq ishlaydigan CLI) skriptlarda global massivlar yoki static maydonlarga tinimsiz ma'lumot qo'shilib, uklar tozalab turilmaganda"
+    },
+    {
+        "id": 89,
+        "subjectKey": "php",
+        "text": "PHP'da 'output_buffering' (chiqishni buferlash) yoqilganda nima sodir bo'ladi?",
+        "options": [
+            "Skriptdan chiqadigan barcha matn va HTML kodlari brauzerga darhol jo'natilmasdan, server xotirasida to'planadi va skript yakunida birga yuboriladi",
+            "Serverga kelayotgan barcha POST so'rovlari (ma'lumotlari) vaqtinchalik fayllarga yozilib, skriptga bo'laklab uzatiladi",
+            "PHP kodi ichidagi barcha xatoliklar foydalanuvchiga ko'rinmasdan, faqat server log fayliga yozila boshlaydi",
+            "Ma'lumotlar bazasidan olinadigan SQL so'rov natijalari avtomatik ravishda OPcache xotirasiga joylashtiriladi"
+        ],
+        "correctAnswer": "Skriptdan chiqadigan barcha matn va HTML kodlari brauzerga darhol jo'natilmasdan, server xotirasida to'planadi va skript yakunida birga yuboriladi"
+    },
+    {
+        "id": 90,
+        "subjectKey": "php",
+        "text": "PHP 8.0'da qo'shilgan 'Named Arguments' (Nomlangan argumentlar) xususiyatining asosiy foydasi nimada?",
+        "options": [
+            "Funksiyaga argumentlarni ularning tartibiga rioya qilmasdan, faqat parametr nomi orqali uzatish va default qiymatli argumentlarni tashlab ketish imkoniyati",
+            "Funksiya parametrlariga faqat aniq belgilangan string turlarigina nom sifatida biriktirilishini qat'iy tekshirish",
+            "Argumentlar nomini shifrlash orqali tashqi xakerlik va unmanaged kod aralashuvidan to'liq himoya qilish",
+            "Klass ichidagi metodlarni chaqirishda ularning nomlarini dinamik ravishda o'zgartirish (alias yaratish) tizimi"
+        ],
+        "correctAnswer": "Funksiyaga argumentlarni ularning tartibiga rioya qilmasdan, faqat parametr nomi orqali uzatish va default qiymatli argumentlarni tashlab ketish imkoniyati"
+    },
+    {
+        "id": 91,
+        "subjectKey": "php",
+        "text": "PHP'da 'Magic Method' bo'langan '__set_state()' metodi qachon va nima uchun ishlatiladi?",
+        "options": [
+            "var_export() funksiyasi orqali eksport qilingan klass kodini qayta tiklash (instantiate) vaqtida avtomatik chaqiriladi",
+            "Klass obyektining holati (state) ma'lumotlar bazasiga saqlanayotganda uning relyatsiyalarini tekshiradi",
+            "Dastur ichida o'zgaruvchi turi o'zgartirilganda (type casting) yangi qiymatni validatsiya qilish uchun",
+            "Obyekt 'clone' kalit so'zi yordamida nusxalanayotganda uning barcha static xususiyatlarini nollashtiradi"
+        ],
+        "correctAnswer": "var_export() funksiyasi orqali eksport qilingan klass kodini qayta tiklash (instantiate) vaqtida avtomatik chaqiriladi"
+    },
+    {
+        "id": 92,
+        "subjectKey": "php",
+        "text": "PHP'da 'session.cookie_httponly' konfiguratsiyasini yoqishdan maqsad nima?",
+        "options": [
+            "Sessiya ID saqlanadigan kukiga (cookie) JavaScript (XSS hujumlari) orqali kirishni taqiqlash va xavfsizlikni oshirish",
+            "Sessiya fayllarini faqat HTTPS protokoli yoqilgan serverlardagina ishlashga majburlash",
+            "Brauzerga sessiya ma'lumotlarini keshda saqlashni butunlay taqiqlash va har safar yangilash buyrug'ini berish",
+            "Sessiya identifikatorini har bir HTTP so'rovida avtomatik shifrlab yuborishni ta'minlash"
+        ],
+        "correctAnswer": "Sessiya ID saqlanadigan kukiga (cookie) JavaScript (XSS hujumlari) orqali kirishni taqiqlash va xavfsizlikni oshirish"
+    },
+    {
+        "id": 93,
+        "subjectKey": "php",
+        "text": "PHP'da 'register_shutdown_function()' funksiyasining vazifasi nima?",
+        "options": [
+            "Skript ishi yakunlanganda yoki kutilmaganda halokatli xato (Fatal Error) bilan to'xtaganda avtomatik bajariladigan callback funksiyani ro'yxatdan o'tkazish",
+            "Server yopilayotganda PHP-FPM worker protsesslarini avtomatik tozalash va qayta ishga tushirish",
+            "Foydalanuvchi brauzer oynasini yopib yuborganda serverdagi barcha ochiq SQL tranzaksiyalarini bekor qilish (rollback)",
+            "Dastur ichidagi barcha faol seanslar (sessions) va kesh xotiralarni majburiy ravishda o'chirib chiqish"
+        ],
+        "correctAnswer": "Skript ishi yakunlanganda yoki kutilmaganda halokatli xato (Fatal Error) bilan to'xtaganda avtomatik bajariladigan callback funksiyani ro'yxatdan o'tkazish"
+    },
+    {
+        "id": 94,
+        "subjectKey": "php",
+        "text": "PHP'da 'array_key_exists()' va 'isset()' funksiyalarining massiv elementini tekshirishdagi asosiy farqi nimada?",
+        "options": [
+            "array_key_exists kalit borligini tekshiradi (qiymat null bo'lsa ham true qaytaradi), isset esa qiymat null bo'lsa false qaytaradi",
+            "isset funksiyasi faqat sonli indekslarni tekshira oladi, array_key_exists esa faqat string kalitlar uchun mo'ljallangan",
+            "array_key_exists har doim isset funksiyasiga qaraganda bir necha barobar tezroq ishlaydi va xotirani tejaydi",
+            "Ular o'rtasida mantiqiy farq yo'q, ikkalasi ham massiv ichidagi kalitlarni mutlaqo bir xil tekshiradi"
+        ],
+        "correctAnswer": "array_key_exists kalit borligini tekshiradi (qiymat null bo'lsa ham true qaytaradi), isset esa qiymat null bo'lsa false qaytaradi"
+    },
+    {
+        "id": 95,
+        "subjectKey": "php",
+        "text": "PHP'da 'stream_filter_register()' funksiyasi nima uchun ishlatiladi?",
+        "options": [
+            "Fayllarni o'qish yoki yozish jarayonida (data streams) ma'lumotlarni oqim davomida dinamik ravishda o'zgartiradigan (masalan, shifrlash/siqish) custom filtr yaratish",
+            "HTML formalaridan kelayotgan barcha xavfli satrlarni (SQL/XSS) global darajada avtomatik filtrlash drayverini qo'shish",
+            "Veb-serverga kelayotgan zararli IP manzillarni aniqlash va ularni tarmoq darajasida bloklash",
+            "Ma'lumotlar bazasidan kelayotgan massivlarni obyektlarga tezkor o'giruvchi ichki filtrlar yaratish"
+        ],
+        "correctAnswer": "Fayllarni o'qish yoki yozish jarayonida (data streams) ma'lumotlarni oqim davomida dinamik ravishda o'zgartiradigan (masalan, shifrlash/siqish) custom filtr yaratish"
+    },
+    {
+        "id": 96,
+        "subjectKey": "php",
+        "text": "PHP 8.3'da qo'shilgan 'json_validate()' funksiyasining an'anaviy 'json_decode()' dan afzalligi nimada?",
+        "options": [
+            "U satr to'g'ri JSON formatida ekanligini xotiradan (RAM) yangi obyekt yoki massiv yaratmasdan, juda tez va samarali tekshiradi",
+            "U JSON fayli ichidagi barcha sintaktik xatolarni avtomatik tuzatib, to'g'rilangan bool qiymat qaytaradi",
+            "U faqat shifrlangan JSON fayllari bilan ishlaydi va ularni ochishda xavfsizlik kalitlarini tekshiradi",
+            "U JSON ichidagi ma'lumot turlarini klass xususiyatlariga mosligini qat'iy tekshiruvchi yangi ORM vositasidir"
+        ],
+        "correctAnswer": "U satr to'g'ri JSON formatida ekanligini xotiradan (RAM) yangi obyekt yoki massiv yaratmasdan, juda tez va samarali tekshiradi"
+    },
+    {
+        "id": 97,
+        "subjectKey": "php",
+        "text": "PHP'da 'Magic Method' hisoblangan '__debugInfo()' metodi qachon va nima uchun ishlatiladi?",
+        "options": [
+            "Obyekt 'var_dump()' funksiyasiga uzatilganda ekranga chiqadigan xususiyatlar ro'yxatini va maxfiy ma'lumotlarni (masalan, parollar) boshqarish/yashirish uchun",
+            "Xdebug kutubxonasi yoqilganda koddagi xatolarni qadamma-qadam aniqlash tezligini oshirish uchun",
+            "Dasturning xotira profilini (memory profile) konsolga chiroyli jadval ko'rinishida chiqarish uchun",
+            "Klass ichidagi barcha private metodlarning bajarilish vaqtini o'lchovchi metama'lumotlarni saqlash uchun"
+        ],
+        "correctAnswer": "Obyekt 'var_dump()' funksiyasiga uzatilganda ekranga chiqadigan xususiyatlar ro'yxatini va maxfiy ma'lumotlarni (masalan, parollar) boshqarish/yashirish uchun"
+    },
+    {
+        "id": 98,
+        "subjectKey": "php",
+        "text": "PHP'da 'openssl_encrypt()' funksiyasida 'AES-256-GCM' rejimi (mode) nima uchun 'AES-256-CBC' rejimiga qaraganda xavfsizroq hisoblanadi?",
+        "options": [
+            "U ma'lumotlarni shifrlash bilan birga ularning butunligini (integrity/authentication tag) ham ta'minlaydi va o'zgartirishlardan (tampering) himoya qiladi",
+            "U shifrlangan natijani CBC rejimiga qaraganda 3 barobar kichikroq satr ko'rinishida qaytaradi",
+            "U hech qanday 'IV' (Initialization Vector) talab qilmaydi, bu esa kalitlarni boshqarishni soddalashtiradi",
+            "U faqat PHP 8 versiyasidan boshlab ishlaydi va protsessor darajasida avtomatik optimallashtirilgan"
+        ],
+        "correctAnswer": "U ma'lumotlarni shifrlash bilan birga ularning butunligini (integrity/authentication tag) ham ta'minlaydi va o'zgartirishlardan (tampering) himoya qiladi"
+    },
+    {
+        "id": 99,
+        "subjectKey": "php",
+        "text": "PHP'da 'ReflectionClass::newInstanceWithoutConstructor()' metodi nima vazifani bajaradi?",
+        "options": [
+            "Klassning konstruktor (___construct) metodini ishga tushirmasdan turib, undan yangi obyekt (instance) yaratadi",
+            "Klass konstruktori ichidagi barcha majburiy argumentlarni avtomatik ravishda null qiymat bilan to'ldiradi",
+            "Konstruktori bo'lmagan klasslardan obyekt olish jarayonini bloklaydi va xavfsizlik xatosini tashlaydi",
+            "Klassni static konteynerga o'tkazib, uning xususiyatlarini faqat o'qish (readonly) rejimiga sozlaydi"
+        ],
+        "correctAnswer": "Klassning konstruktor (___construct) metodini ishga tushirmasdan turib, undan yangi obyekt (instance) yaratadi"
+    },
+    {
+        "id": 100,
+        "subjectKey": "php",
+        "text": "PHP'da 'vfprintf()' funksiyasining 'fprintf()' funksiyasidan asosiy farqi nimada?",
+        "options": [
+            "U formatlangan matn argumentlarini alohida o'zgaruvchilar sifatida emas, balki bitta massiv (array) ko'rinishida qabul qiladi",
+            "U formatlangan matnni oqimga (stream/file) emas, to'g'ridan-to'g'ri operativ xotiradagi (RAM) keshga yozadi",
+            "U faqat ma'lumotlar bazasidan olingan resurs oqimlari (database resource streams) bilan ishlashga mo'ljallangan",
+            "U xatolik yuz berganda istisno (Exception) tashlaydi, fprintf esa shunchaki false qiymat qaytaradi"
+        ],
+        "correctAnswer": "U formatlangan matn argumentlarini alohida o'zgaruvchilar sifatida emas, balki bitta massiv (array) ko'rinishida qabul qiladi"
+    }
+]

@@ -1,0 +1,722 @@
+[
+    {
+        "id": 1,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Virtual Destructor' nima uchun kerak?",
+        "options": [
+            "Dasturni tezroq yopish uchun",
+            "Voris oluvchi (derived) klass obyekti ota klass ko'rsatkichi orqali o'chirilganda, xotira to'liq tozalanishini ta'minlash uchun",
+            "Konstruktorni qayta yuklash uchun",
+            "Obyektni nusxalashni taqiqlash uchun"
+        ],
+        "correctAnswer": "Voris oluvchi (derived) klass obyekti ota klass ko'rsatkichi orqali o'chirilganda, xotira to'liq tozalanishini ta'minlash uchun"
+    },
+    {
+        "id": 2,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Smart Pointers' (unique_ptr, shared_ptr) ning asosiy maqsadi nima?",
+        "options": [
+            "Ko'rsatkichlarni tezroq qilish",
+            "Xotira oqib ketishi (memory leak) ning oldini olish va xotirani avtomatik boshqarish",
+            "Faqat massivlar bilan ishlash",
+            "Pointerlarni yashirish"
+        ],
+        "correctAnswer": "Xotira oqib ketishi (memory leak) ning oldini olish va xotirani avtomatik boshqarish"
+    },
+    {
+        "id": 3,
+        "subjectKey": "cpp",
+        "text": "C va C++ o'rtasidagi asosiy farq nimada?",
+        "options": [
+            "C++ faqat Windowsda ishlaydi",
+            "C++ obyektga yo'naltirilgan dasturlashni (OOP) qo'llab-quvvatlaydi, C esa protsedurali til",
+            "C tili tezroq ishlaydi",
+            "C++ da pointerlar yo'q"
+        ],
+        "correctAnswer": "C++ obyektga yo'naltirilgan dasturlashni (OOP) qo'llab-quvvatlaydi, C esa protsedurali til"
+    },
+    {
+        "id": 4,
+        "subjectKey": "cpp",
+        "text": "C++ da 'VTable' (Virtual Table) nima uchun ishlatiladi?",
+        "options": [
+            "Ma'lumotlar bazasini saqlash uchun",
+            "Dinamik polimorfizmni (kech bog'lanishni) amalga oshirish va virtual metodlarni chaqirish uchun",
+            "Matematik jadvallar uchun",
+            "Klasslarni tartiblash uchun"
+        ],
+        "correctAnswer": "Dinamik polimorfizmni (kech bog'lanishni) amalga oshirish va virtual metodlarni chaqirish uchun"
+    },
+    {
+        "id": 5,
+        "subjectKey": "cpp",
+        "text": "C++ da 'RAII' (Resource Acquisition Is Initialization) prinsipi nimani anglatadi?",
+        "options": [
+            "Resurslarni (xotira, fayllar) obyektning hayot sikli (lifetime) orqali boshqarish",
+            "Dasturni har doim restart qilish",
+            "Faqat o'zgaruvchilarni e'lon qilish",
+            "Interfeyslarni yaratish"
+        ],
+        "correctAnswer": "Resurslarni (xotira, fayllar) obyektning hayot sikli (lifetime) orqali boshqarish"
+    },
+    {
+        "id": 6,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Friend Function' nima?",
+        "options": [
+            "Har qanday klass ishlata oladigan global funksiya",
+            "Klassning private va protected a'zolariga kirish huquqiga ega bo'lgan tashqi funksiya",
+            "Faqat bitta faylda ishlaydigan funksiya",
+            "O'z-o'zini chaqiradigan funksiya"
+        ],
+        "correctAnswer": "Klassning private va protected a'zolariga kirish huquqiga ega bo'lgan tashqi funksiya"
+    },
+    {
+        "id": 7,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Diamond Problem' qanday hal qilinadi?",
+        "options": [
+            "Klassni o'chirish orqali",
+            "Virtual inheritance (virtual vorislik) ishlatish orqali",
+            "Faqat bitta voris qoldirish orqali",
+            "Interface ishlatish orqali"
+        ],
+        "correctAnswer": "Virtual inheritance (virtual vorislik) ishlatish orqali"
+    },
+    {
+        "id": 8,
+        "subjectKey": "cpp",
+        "text": "C++ da 'inline' funksiya nima?",
+        "options": [
+            "Faqat bitta qatordan iborat funksiya",
+            "Kompilyatorga funksiya chaqirilgan joyga uning kodini to'g'ridan-to'g'ri qo'yishni tavsiya qiluvchi kalit so'z",
+            "Internet orqali ishlaydigan funksiya",
+            "Xatolarni yashiruvchi funksiya"
+        ],
+        "correctAnswer": "Kompilyatorga funksiya chaqirilgan joyga uning kodini to'g'ridan-to'g'ri qo'yishni tavsiya qiluvchi kalit so'z"
+    },
+    {
+        "id": 9,
+        "subjectKey": "cpp",
+        "text": "STL (Standard Template Library) nimalardan tashkil topgan?",
+        "options": [
+            "Faqat matematik funksiyalar",
+            "Konteynerlar, Algoritmlar, Iteratorlar va Funktorlar",
+            "Faqat String va Vector",
+            "Grafik kutubxonalar"
+        ],
+        "correctAnswer": "Konteynerlar, Algoritmlar, Iteratorlar va Funktorlar"
+    },
+    {
+        "id": 10,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Shallow Copy' va 'Deep Copy' farqi nimada?",
+        "options": [
+            "Farqi yo'q",
+            "Shallow copy faqat ko'rsatkichni nusxalaydi, Deep copy esa ko'rsatkich ko'rsatib turgan ma'lumotni ham nusxalaydi",
+            "Deep copy faqat static o'zgaruvchilar uchun",
+            "Shallow copy tezroq ishlaydi"
+        ],
+        "correctAnswer": "Shallow copy faqat ko'rsatkichni nusxalaydi, Deep copy esa ko'rsatkich ko'rsatib turgan ma'lumotni ham nusxalaydi"
+    },
+    {
+        "id": 11,
+        "subjectKey": "cpp",
+        "text": "C++ da 'pure virtual function' nima?",
+        "options": [
+            "Hech qanday xatosi yo'q funksiya",
+            "Tanasi (body) bo'lmagan va '= 0' bilan e'lon qilingan, klassni abstrakt qiluvchi funksiya",
+            "Faqat private bo'lgan funksiya",
+            "Global funksiya"
+        ],
+        "correctAnswer": "Tanasi (body) bo'lmagan va '= 0' bilan e'lon qilingan, klassni abstrakt qiluvchi funksiya"
+    },
+    {
+        "id": 12,
+        "subjectKey": "cpp",
+        "text": "C++ da 'this' ko'rsatkichi nima?",
+        "options": [
+            "Keyingi obyektga ko'rsatkich",
+            "Joriy obyektning manzili saqlanadigan yashirin ko'rsatkich",
+            "Faqat static metodlarda ishlaydi",
+            "O'zgaruvchini o'chirish uchun buyruq"
+        ],
+        "correctAnswer": "Joriy obyektning manzili saqlanadigan yashirin ko'rsatkich"
+    },
+    {
+        "id": 13,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Copy Constructor' qachon chaqiriladi?",
+        "options": [
+            "Obyekt o'chirilganda",
+            "Obyekt boshqa obyekt orqali initsializatsiya qilinganda yoki funksiyaga qiymat bo'lib uzatilganda",
+            "Faqat yangi obyekt yaratilganda",
+            "Metod chaqirilganda"
+        ],
+        "correctAnswer": "Obyekt boshqa obyekt orqali initsializatsiya qilinganda yoki funksiyaga qiymat bo'lib uzatilganda"
+    },
+    {
+        "id": 14,
+        "subjectKey": "cpp",
+        "text": "C++ da 'new' va 'malloc' o'rtasidagi asosiy farq nima?",
+        "options": [
+            "Farqi yo'q",
+            "'new' xotira ajratadi va konstruktorni chaqiradi, 'malloc' esa faqat xotira ajratadi",
+            "'malloc' faqat C++ da ishlaydi",
+            "'new' faqat massivlar uchun"
+        ],
+        "correctAnswer": "'new' xotira ajratadi va konstruktorni chaqiradi, 'malloc' esa faqat xotira ajratadi"
+    },
+    {
+        "id": 15,
+        "subjectKey": "cpp",
+        "text": "C++ da 'const' metod nima?",
+        "options": [
+            "Faqat bir marta chaqiriladigan metod",
+            "Klassning a'zo o'zgaruvchilarini (mutable dan tashqari) o'zgartirishiga ruxsat berilmagan metod",
+            "Doimiy qiymat qaytaruvchi metod",
+            "Faqat o'zgarmas klasslarda ishlaydi"
+        ],
+        "correctAnswer": "Klassning a'zo o'zgaruvchilarini (mutable dan tashqari) o'zgartirishiga ruxsat berilmagan metod"
+    },
+    {
+        "id": 16,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Mutable' kalit so'zi nima uchun kerak?",
+        "options": [
+            "O'zgaruvchini o'chirish uchun",
+            "Const metodlar ichida ham o'zgartirilishi mumkin bo'lgan o'zgaruvchilarni belgilash uchun",
+            "Dasturni tezlashtirish uchun",
+            "Xotirani tejash uchun"
+        ],
+        "correctAnswer": "Const metodlar ichida ham o'zgartirilishi mumkin bo'lgan o'zgaruvchilarni belgilash uchun"
+    },
+    {
+        "id": 17,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Namespace' nima?",
+        "options": [
+            "Faqat internet manzillarini saqlash joyi",
+            "Nomlar to'qnashuvini (naming collisions) oldini olish uchun mantiqiy guruhlash vositasi",
+            "Xotiraning bir qismi",
+            "Faqat fayllar nomi"
+        ],
+        "correctAnswer": "Nomlar to'qnashuvini (naming collisions) oldini olish uchun mantiqiy guruhlash vositasi"
+    },
+    {
+        "id": 18,
+        "subjectKey": "cpp",
+        "text": "C++ da 'L-value' va 'R-value' farqi nimada?",
+        "options": [
+            "Farqi yo'q",
+            "L-value xotirada manzili bor (identifikator), R-value esa vaqtinchalik qiymat (masalan, ifoda natijasi)",
+            "L-value faqat chap tomonda turadi",
+            "R-value faqat o'ng tomonda turadi"
+        ],
+        "correctAnswer": "L-value xotirada manzili bor (identifikator), R-value esa vaqtinchalik qiymat (masalan, ifoda natijasi)"
+    },
+    {
+        "id": 19,
+        "subjectKey": "cpp",
+        "text": "C++ da 'std::vector' va 'std::list' farqi nimada?",
+        "options": [
+            "Vector bog'langan ro'yxat, List esa massiv",
+            "Vector dinamik massiv (xotirada ketma-ket), List esa ikki tomonlama bog'langan ro'yxat",
+            "List har doim tezroq ishlaydi",
+            "Vector faqat int saqlaydi"
+        ],
+        "correctAnswer": "Vector dinamik massiv (xotirada ketma-ket), List esa ikki tomonlama bog'langan ro'yxat"
+    },
+    {
+        "id": 20,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Template' nima?",
+        "options": [
+            "Dastur dizayni",
+            "Ma'lumot turidan mustaqil (generic) funksiya yoki klasslar yaratish imkonini beruvchi vosita",
+            "Faqat Stringlar uchun shablon",
+            "Xatolarni qidirish vositasi"
+        ],
+        "correctAnswer": "Ma'lumot turidan mustaqil (generic) funksiya yoki klasslar yaratish imkonini beruvchi vosita"
+    },
+    {
+        "id": 21,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Reference' (&) va 'Pointer' (*) o'rtasidagi asosiy farq nima?",
+        "options": [
+            "Pointer xotirani tejaydi",
+            "Reference e'lon qilinganda initsializatsiya qilinishi shart va keyinchalik boshqa obyektga bog'lab bo'lmaydi, Pointer esa bo'sh bo'lishi va o'zgartirilishi mumkin",
+            "Reference faqat klasslar uchun, Pointer esa primitiv tiplar uchun",
+            "Ular bir xil narsa"
+        ],
+        "correctAnswer": "Reference e'lon qilinganda initsializatsiya qilinishi shart va keyinchalik boshqa obyektga bog'lab bo'lmaydi, Pointer esa bo'sh bo'lishi va o'zgartirilishi mumkin"
+    },
+    {
+        "id": 22,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Explicit' kalit so'zi nima uchun ishlatiladi?",
+        "options": [
+            "Metodni tezlashtirish uchun",
+            "Konstruktorni avtomatik tip o'zgartirishdan (implicit conversion) himoya qilish uchun",
+            "O'zgaruvchini global qilish uchun",
+            "Xotirani darhol tozalash uchun"
+        ],
+        "correctAnswer": "Konstruktorni avtomatik tip o'zgartirishdan (implicit conversion) himoya qilish uchun"
+    },
+    {
+        "id": 23,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Function Overriding' va 'Function Overloading' farqi nimada?",
+        "options": [
+            "Farqi yo'q",
+            "Overloading bir xil nomli lekin argumenti turlicha metodlar, Overriding esa ota klassdagi metodni bola klassda qayta yozish",
+            "Overriding faqat bitta klass ichida bo'ladi",
+            "Overloading faqat virtual metodlar uchun"
+        ],
+        "correctAnswer": "Overloading bir xil nomli lekin argumenti turlicha metodlar, Overriding esa ota klassdagi metodni bola klassda qayta yozish"
+    },
+    {
+        "id": 24,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Static Cast' va 'Dynamic Cast' o'rtasidagi farq nima?",
+        "options": [
+            "Static cast faqat sonlar uchun",
+            "Static cast kompilyatsiya vaqtida, Dynamic cast esa runtime (ishlash) vaqtida xavfsiz o'tishni (asosan polimorfizmda) tekshiradi",
+            "Dynamic cast har doim tezroq",
+            "Static cast faqat private a'zolar uchun"
+        ],
+        "correctAnswer": "Static cast kompilyatsiya vaqtida, Dynamic cast esa runtime (ishlash) vaqtida xavfsiz o'tishni (asosan polimorfizmda) tekshiradi"
+    },
+    {
+        "id": 25,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Lambda Expression' nima?",
+        "options": [
+            "Matematik formula",
+            "Anonim funksiya bo'lib, uni kodning istalgan joyida e'lon qilish va ishlatish mumkin",
+            "Faqat massivlarni saralash algoritmi",
+            "Xatolarni qayta ishlash moduli"
+        ],
+        "correctAnswer": "Anonim funksiya bo'lib, uni kodning istalgan joyida e'lon qilish va ishlatish mumkin"
+    },
+    {
+        "id": 26,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Abstract Class' nima?",
+        "options": [
+            "Hech qanday metodga ega bo'lmagan klass",
+            "Kamida bitta 'pure virtual function'i bor bo'lgan va undan obyekt olib bo'lmaydigan klass",
+            "Faqat static o'zgaruvchilar saqlaydigan klass",
+            "Barcha metodlari private bo'lgan klass"
+        ],
+        "correctAnswer": "Kamida bitta 'pure virtual function'i bor bo'lgan va undan obyekt olib bo'lmaydigan klass"
+    },
+    {
+        "id": 27,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Rule of Three' (Uchlik qoidasi) nima?",
+        "options": [
+            "Dasturni 3 marta tekshirish",
+            "Agar klass Destructor, Copy Constructor yoki Copy Assignment operatordan birini talab qilsa, katta ehtimol bilan u uchtasini ham talab qiladi",
+            "Klassda faqat 3 ta metod bo'lishi shartligi",
+            "Faqat 3 ta o'zgaruvchi yaratish mumkinligi"
+        ],
+        "correctAnswer": "Agar klass Destructor, Copy Constructor yoki Copy Assignment operatordan birini talab qilsa, katta ehtimol bilan u uchtasini ham talab qiladi"
+    },
+    {
+        "id": 28,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Move Semantics' (C++11) nima uchun kerak?",
+        "options": [
+            "Obyektlarni o'chirish uchun",
+            "Vaqtinchalik obyektlarni nusxalash o'rniga ularning resurslarini yangi obyektga 'ko'chirish' orqali samaradorlikni oshirish",
+            "Dastur kodini ko'chirish",
+            "Threadlarni boshqarish"
+        ],
+        "correctAnswer": "Vaqtinchalik obyektlarni nusxalash o'rniga ularning resurslarini yangi obyektga 'ko'chirish' orqali samaradorlikni oshirish"
+    },
+    {
+        "id": 29,
+        "subjectKey": "cpp",
+        "text": "C++ da 'std::map' va 'std::unordered_map' o'rtasidagi asosiy farq nima?",
+        "options": [
+            "Farqi yo'q",
+            "std::map elementlarni tartiblangan holda saqlaydi (Self-balancing tree), unordered_map esa tartibsiz (Hash table) va ko'pincha tezroq",
+            "std::map faqat Stringlar uchun",
+            "unordered_map xotirani kamroq ishlatadi"
+        ],
+        "correctAnswer": "std::map elementlarni tartiblangan holda saqlaydi (Self-balancing tree), unordered_map esa tartibsiz (Hash table) va ko'pincha tezroq"
+    },
+    {
+        "id": 30,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Volatile' kalit so'zi nimani anglatadi?",
+        "options": [
+            "O'zgaruvchini o'zgarmas qiladi",
+            "Kompilyatorga ushbu o'zgaruvchi tashqi manbalar (masalan, apparatura) tomonidan o'zgartirilishi mumkinligini va uni optimallashtirmaslikni bildiradi",
+            "Dasturni tezroq yopadi",
+            "Faqat threadlar orasida ma'lumot almashadi"
+        ],
+        "correctAnswer": "Kompilyatorga ushbu o'zgaruvchi tashqi manbalar (masalan, apparatura) tomonidan o'zgartirilishi mumkinligini va uni optimallashtirmaslikni bildiradi"
+    },
+    {
+        "id": 31,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Extern' kalit so'zi nima uchun ishlatiladi?",
+        "options": [
+            "O'zgaruvchini o'chirish uchun",
+            "O'zgaruvchi yoki funksiya boshqa faylda e'lon qilinganligini va joriy faylda foydalanish mumkinligini bildirish uchun",
+            "Dasturni tashqi tarmoqqa ulash uchun",
+            "Faqat kutubxonalar ichida ishlatiladi"
+        ],
+        "correctAnswer": "O'zgaruvchi yoki funksiya boshqa faylda e'lon qilinganligini va joriy faylda foydalanish mumkinligini bildirish uchun"
+    },
+    {
+        "id": 32,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Functor' nima?",
+        "options": [
+            "Matematik funksiya",
+            "operator() (qavs operatori) qayta yuklangan klass obyekti bo'lib, xuddi funksiya kabi chaqirilishi mumkin",
+            "Faqat massivlarni sanovchi vosita",
+            "Xatolarni log qiluvchi klass"
+        ],
+        "correctAnswer": "operator() (qavs operatori) qayta yuklangan klass obyekti bo'lib, xuddi funksiya kabi chaqirilishi mumkin"
+    },
+    {
+        "id": 33,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Internal Linkage' va 'External Linkage' nima?",
+        "options": [
+            "Internetga ulanish turlari",
+            "Internal - o'zgaruvchi faqat bitta fayl ichida ko'rinadi (static), External - boshqa fayllardan ham murojaat qilsa bo'ladi",
+            "Faqat klasslar ichida ishlaydi",
+            "Xotira turlari"
+        ],
+        "correctAnswer": "Internal - o'zgaruvchi faqat bitta fayl ichida ko'rinadi (static), External - boshqa fayllardan ham murojaat qilsa bo'ladi"
+    },
+    {
+        "id": 34,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Exception Handling' (try-catch) qanday ishlaydi?",
+        "options": [
+            "Xatolarni o'chirib yuboradi",
+            "Xato sodir bo'lganda 'throw' orqali istisno tashlanadi va mos keladigan 'catch' bloki tomonidan ushlab olinadi",
+            "Faqat bo'lish amallarida ishlaydi",
+            "Dasturni har doim to'xtatadi"
+        ],
+        "correctAnswer": "Xato sodir bo'lganda 'throw' orqali istisno tashlanadi va mos keladigan 'catch' bloki tomonidan ushlab olinadi"
+    },
+    {
+        "id": 35,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Operator Overloading' nima?",
+        "options": [
+            "Operatorlarni o'chirib tashlash",
+            "Standart operatorlarga (+, -, *, /) klass obyektlari bilan ishlash uchun yangi mantiq berish",
+            "Faqat sonlarni qo'shish",
+            "Dastur tezligini oshirish"
+        ],
+        "correctAnswer": "Standart operatorlarga (+, -, *, /) klass obyektlari bilan ishlash uchun yangi mantiq berish"
+    },
+    {
+        "id": 36,
+        "subjectKey": "cpp",
+        "text": "C++ da 'std::unique_ptr' nima?",
+        "options": [
+            "Nusxalash mumkin bo'lgan aqlli ko'rsatkich",
+            "Obyektga faqat bitta egalikni ta'minlovchi va nusxalab bo'lmaydigan aqlli ko'rsatkich",
+            "Faqat massivlar uchun mo'ljallangan ko'rsatkich",
+            "Xotirani qulflash vositasi"
+        ],
+        "correctAnswer": "Obyektga faqat bitta egalikni ta'minlovchi va nusxalab bo'lmaydigan aqlli ko'rsatkich"
+    },
+    {
+        "id": 37,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Memory Leak' (Xotira oqib ketishi) nima?",
+        "options": [
+            "Kompyuter suvga tushib ketishi",
+            "Dinamik ajratilgan xotirani (new) 'delete' orqali qaytarib bermaslik natijasida xotiraning foydasiz band bo'lib qolishi",
+            "Xotiraning haddan tashqari tez ishlashi",
+            "Protsessor xatosi"
+        ],
+        "correctAnswer": "Dinamik ajratilgan xotirani (new) 'delete' orqali qaytarib bermaslik natijasida xotiraning foydasiz band bo'lib qolishi"
+    },
+    {
+        "id": 38,
+        "subjectKey": "cpp",
+        "text": "C++ da 'constexpr' va 'const' farqi nimada?",
+        "options": [
+            "Farqi yo'q",
+            "constexpr qiymat kompilyatsiya vaqtida hisoblanishini kafolatlaydi, const esa shunchaki o'zgarmaslikni bildiradi",
+            "const faqat funksiyalar uchun",
+            "constexpr faqat Java da bor"
+        ],
+        "correctAnswer": "constexpr qiymat kompilyatsiya vaqtida hisoblanishini kafolatlaydi, const esa shunchaki o'zgarmaslikni bildiradi"
+    },
+    {
+        "id": 39,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Type Traits' nima?",
+        "options": [
+            "Kodni tahrirlovchi shablonlar",
+            "Kompilyatsiya vaqtida ma'lumot turlarining xususiyatlarini (masalan, intmi yoki yo'qmi) aniqlash uchun ishlatiladigan vositalar",
+            "Ma'lumotlarni bazaga saqlash",
+            "Faqat float tiplar uchun"
+        ],
+        "correctAnswer": "Kompilyatsiya vaqtida ma'lumot turlarining xususiyatlarini (masalan, intmi yoki yo'qmi) aniqlash uchun ishlatiladigan vositalar"
+    },
+    {
+        "id": 40,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Sizeof' operatori nimani qaytaradi?",
+        "options": [
+            "O'zgaruvchining nomini",
+            "Berilgan tur yoki obyektning xotirada egallagan hajmini (baytlarda)",
+            "O'zgaruvchining qiymatini",
+            "Bitlar sonini"
+        ],
+        "correctAnswer": "Berilgan tur yoki obyektning xotirada egallagan hajmini (baytlarda)"
+    },
+    {
+        "id": 41,
+        "subjectKey": "cpp",
+        "text": "C++ da 'std::move' funksiyasi aslida nima qiladi?",
+        "options": [
+            "Obyektni xotiraning boshqa joyiga ko'chiradi",
+            "Obyektni shunchaki rvalue-reference'ga (rvalue-ga) aylantirib beradi (cast qiladi)",
+            "Obyektni darhol o'chirib tashlaydi",
+            "Obyekt nusxasini yaratadi"
+        ],
+        "correctAnswer": "Obyektni shunchaki rvalue-reference'ga (rvalue-ga) aylantirib beradi (cast qiladi)"
+    },
+    {
+        "id": 42,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Dangling Pointer' nima?",
+        "options": [
+            "Juda tez ishlaydigan pointer",
+            "O'chirilgan yoki yaroqsiz bo'lgan xotira manzili ko'rsatib turgan pointer",
+            "Faqat NULL qiymatiga ega bo'lgan pointer",
+            "Smart pointer'ning boshqa nomi"
+        ],
+        "correctAnswer": "O'chirilgan yoki yaroqsiz bo'lgan xotira manzili ko'rsatib turgan pointer"
+    },
+    {
+        "id": 43,
+        "subjectKey": "cpp",
+        "text": "C++ da 'std::shared_ptr' ichidagi 'Reference Counting' qanday ishlaydi?",
+        "options": [
+            "Faqat bitta ko'rsatkichni sanaydi",
+            "Obyektga bog'langan shared_ptr'lar sonini hisoblaydi va hisoblagich nolga tushganda obyektni o'chiradi",
+            "Dasturdagi barcha o'zgaruvchilarni sanaydi",
+            "Faqat int turidagi ko'rsatkichlar uchun ishlaydi"
+        ],
+        "correctAnswer": "Obyektga bog'langan shared_ptr'lar sonini hisoblaydi va hisoblagich nolga tushganda obyektni o'chiradi"
+    },
+    {
+        "id": 44,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Virtual Table Pointer' (vptr) qayerda saqlanadi?",
+        "options": [
+            "Stack'da alohida o'zgaruvchi sifatida",
+            "Klassdan olingan har bir obyektning ichida yashirin maydon sifatida",
+            "Faqat main funksiyasi ichida",
+            "Hech qayerda, u mavhum tushuncha"
+        ],
+        "correctAnswer": "Klassdan olingan har bir obyektning ichida yashirin maydon sifatida"
+    },
+    {
+        "id": 45,
+        "subjectKey": "cpp",
+        "text": "C++ da 'std::weak_ptr' nima uchun kerak?",
+        "options": [
+            "Shared_ptr dan tezroq ishlash uchun",
+            "Shared_ptr'lar o'rtasida 'Circular Dependency' (aylanma bog'liqlik) muammosini hal qilish uchun",
+            "Faqat massivlarni o'chirish uchun",
+            "O'zgaruvchini himoya qilish uchun"
+        ],
+        "correctAnswer": "Shared_ptr'lar o'rtasida 'Circular Dependency' (aylanma bog'liqlik) muammosini hal qilish uchun"
+    },
+    {
+        "id": 46,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Noexcept' kalit so'zi nima vazifani bajaradi?",
+        "options": [
+            "Funksiya hech qanday qiymat qaytarmasligini bildiradi",
+            "Funksiya istisno (exception) tashlamasligini kafolatlaydi, bu esa optimallashtirishga yordam beradi",
+            "Faqat xatolarni ekranga chiqaradi",
+            "Kodni kompilyatsiya qilmaydi"
+        ],
+        "correctAnswer": "Funksiya istisno (exception) tashlamasligini kafolatlaydi, bu esa optimallashtirishga yordam beradi"
+    },
+    {
+        "id": 47,
+        "subjectKey": "cpp",
+        "text": "C++ da 'SFINAE' (Substitution Failure Is Not An Error) nimani anglatadi?",
+        "options": [
+            "Template'larni noto'g'ri yozish mumkinligini",
+            "Template parametrlarini moslashtirishda xatolik yuz bersa, bu kompilyatsiya xatosi emas, balki boshqa shablonni qidirishga sabab bo'lishini",
+            "Dasturning ishlash vaqtidagi xatolarni",
+            "Faqat static klasslar uchun qoida"
+        ],
+        "correctAnswer": "Template parametrlarini moslashtirishda xatolik yuz bersa, bu kompilyatsiya xatosi emas, balki boshqa shablonni qidirishga sabab bo'lishini"
+    },
+    {
+        "id": 48,
+        "subjectKey": "cpp",
+        "text": "C++ da 'std::atomic' nima uchun ishlatiladi?",
+        "options": [
+            "Dasturni atom darajasida maydalash uchun",
+            "Threadlar o'rtasida ma'lumotlar poygasini (data race) oldini olish va xavfsiz operatsiyalarni bajarish uchun",
+            "Faqat fizik hisob-kitoblar uchun",
+            "O'zgaruvchini tezroq o'chirish uchun"
+        ],
+        "correctAnswer": "Threadlar o'rtasida ma'lumotlar poygasini (data race) oldini olish va xavfsiz operatsiyalarni bajarish uchun"
+    },
+    {
+        "id": 49,
+        "subjectKey": "cpp",
+        "text": "C++ da 'RAII' ga misol bo'la oladigan konteynerni ko'rsating.",
+        "options": [
+            "Raw pointer (int*)",
+            "std::vector",
+            "Static array",
+            "Global variable"
+        ],
+        "correctAnswer": "std::vector"
+    },
+    {
+        "id": 50,
+        "subjectKey": "cpp",
+        "text": "C++ da 'std::thread::join()' va 'std::thread::detach()' farqi nimada?",
+        "options": [
+            "Farqi yo'q",
+            "join() thread tugashini kutadi, detach() esa threadni mustaqil (background) rejimda ishlashiga ruxsat beradi",
+            "detach() threadni o'chiradi",
+            "join() faqat bitta thread uchun ishlaydi"
+        ],
+        "correctAnswer": "join() thread tugashini kutadi, detach() esa threadni mustaqil (background) rejimda ishlashiga ruxsat beradi"
+    },
+    {
+        "id": 51,
+        "subjectKey": "cpp",
+        "text": "C++ da 'vptr' (virtual pointer) qachon initsializatsiya qilinadi?",
+        "options": [
+            "Dastur boshlanishida",
+            "Konstruktor ishlayotgan vaqtda",
+            "Metod chaqirilganda",
+            "Hech qachon"
+        ],
+        "correctAnswer": "Konstruktor ishlayotgan vaqtda"
+    },
+    {
+        "id": 52,
+        "subjectKey": "cpp",
+        "text": "C++20 da 'Concepts' nima uchun kiritilgan?",
+        "options": [
+            "Dizayn chizish uchun",
+            "Template parametrlariga cheklovlar (constraints) qo'yish va xatoliklarni aniqroq ko'rsatish uchun",
+            "Klasslarni o'chirish uchun",
+            "Faqat matematik funksiyalar uchun"
+        ],
+        "correctAnswer": "Template parametrlariga cheklovlar (constraints) qo'yish va xatoliklarni aniqroq ko'rsatish uchun"
+    },
+    {
+        "id": 53,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Copy-and-Swap' idiomasi nima uchun ishlatiladi?",
+        "options": [
+            "Nusxa olishni taqiqlash uchun",
+            "Assignment operatorini (operator=) xavfsiz va samarali amalga oshirish uchun",
+            "Faqat massivlarni almashtirish uchun",
+            "Xotirani qulflash uchun"
+        ],
+        "correctAnswer": "Assignment operatorini (operator=) xavfsiz va samarali amalga oshirish uchun"
+    },
+    {
+        "id": 54,
+        "subjectKey": "cpp",
+        "text": "C++ da 'std::async' nima vazifani bajaradi?",
+        "options": [
+            "Dasturni to'xtatadi",
+            "Funksiyani asinxron (alohida thread'da) bajarishni va natijani 'std::future' orqali olishni ta'minlaydi",
+            "Faqat fayllarni yuklaydi",
+            "Threadlarni guruhlaydi"
+        ],
+        "correctAnswer": "Funksiyani asinxron (alohida thread'da) bajarishni va natijani 'std::future' orqali olishni ta'minlaydi"
+    },
+    {
+        "id": 55,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Placement New' nima?",
+        "options": [
+            "Obyektni yangi joyga ko'chirish",
+            "Obyektni oldindan ajratilgan ma'lum bir xotira manzilida yaratish",
+            "Faqat stack'da xotira ajratish",
+            "Pointer manzilini o'zgartirish"
+        ],
+        "correctAnswer": "Obyektni oldindan ajratilgan ma'lum bir xotira manzilida yaratish"
+    },
+    {
+        "id": 56,
+        "subjectKey": "cpp",
+        "text": "C++ da 'std::forward' nima uchun ishlatiladi?",
+        "options": [
+            "Obyektni oldinga surish uchun",
+            "Perfect Forwarding - template funksiyalarda argumentlarni o'z holicha (lvalue yoki rvalue) keyingi funksiyaga uzatish uchun",
+            "Faqat loop'larni tezlashtirish uchun",
+            "Xatolarni o'tkazib yuborish uchun"
+        ],
+        "correctAnswer": "Perfect Forwarding - template funksiyalarda argumentlarni o'z holicha (lvalue yoki rvalue) keyingi funksiyaga uzatish uchun"
+    },
+    {
+        "id": 57,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Rule of Five' (Beshlik qoidasi) ga qaysilar kiradi?",
+        "options": [
+            "5 ta o'zgaruvchi e'lon qilish",
+            "Destructor, Copy Constructor, Copy Assignment, Move Constructor, Move Assignment",
+            "5 ta klassdan voris olish",
+            "Faqat static metodlar"
+        ],
+        "correctAnswer": "Destructor, Copy Constructor, Copy Assignment, Move Constructor, Move Assignment"
+    },
+    {
+        "id": 58,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Memory Barrier' (yoki Memory Fence) nima?",
+        "options": [
+            "Xotira to'silishi",
+            "CPU va kompilyatorga xotira amallarini (read/write) ma'lum bir tartibda bajarishni buyuruvchi ko'rsatma",
+            "Faqat xotirani tozalash",
+            "Dastur xavfsizligi"
+        ],
+        "correctAnswer": "CPU va kompilyatorga xotira amallarini (read/write) ma'lum bir tartibda bajarishni buyuruvchi ko'rsatma"
+    },
+    {
+        "id": 59,
+        "subjectKey": "cpp",
+        "text": "C++ da 'std::variant' (C++17) nima?",
+        "options": [
+            "O'zgaruvchan klass nomi",
+            "Xavfsiz 'union' bo'lib, bir vaqtning o'zida bir nechta turdagi qiymatlardan birini saqlashi mumkin",
+            "Faqat xatolarni saqlaydigan tur",
+            "Dinamik massiv turi"
+        ],
+        "correctAnswer": "Xavfsiz 'union' bo'lib, bir vaqtning o'zida bir nechta turdagi qiymatlardan birini saqlashi mumkin"
+    },
+    {
+        "id": 60,
+        "subjectKey": "cpp",
+        "text": "C++ da 'Tail Call Optimization' (TCO) nima?",
+        "options": [
+            "Dasturning oxirini tezlashtirish",
+            "Rekursiv funksiyaning oxirgi amali o'zini chaqirish bo'lsa, kompilyator uni siklga aylantirib stack to'lishini oldini olishi",
+            "O'zgaruvchilarni o'chirish",
+            "Faqat matematik optimallash"
+        ],
+        "correctAnswer": "Rekursiv funksiyaning oxirgi amali o'zini chaqirish bo'lsa, kompilyator uni siklga aylantirib stack to'lishini oldini olishi"
+    }
+]

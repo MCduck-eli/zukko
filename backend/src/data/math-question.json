@@ -1,0 +1,767 @@
+[
+    {
+        "id": 1,
+        "text": "Agar $x + \\frac{1}{x} = 3$ bo'lsa, $x^4 + \\frac{1}{x^4}$ ning qiymatini toping.",
+        "subjectKey": "math",
+        "options": ["47", "49", "51", "53"],
+        "correctAnswer": "47"
+    },
+    {
+        "id": 2,
+        "text": "$\\log_2(x-3) + \\log_2(x-1) = 3$ tenglamaning ildizini toping.",
+        "subjectKey": "math",
+        "options": ["5", "2", "6", "4"],
+        "correctAnswer": "5"
+    },
+    {
+        "id": 3,
+        "text": "Arifmetik progressiyada $a_3 + a_9 = 30$ bo'lsa, dastlabki 11 ta hadining yig'indisini toping.",
+        "subjectKey": "math",
+        "options": ["165", "150", "180", "330"],
+        "correctAnswer": "165"
+    },
+    {
+        "id": 4,
+        "text": "$f(x) = \\sin^2x + \\cos x$ funksiyaning hosilasini toping.",
+        "subjectKey": "math",
+        "options": [
+            "$\\sin2x - \\sin x$",
+            "$\\sin2x + \\sin x$",
+            "$\\cos2x - \\sin x$",
+            "$\\sin x - \\cos x$"
+        ],
+        "correctAnswer": "$\\sin2x - \\sin x$"
+    },
+    {
+        "id": 5,
+        "text": "Asosi 10 ga, yon tomoni 13 ga teng bo'lgan teng yonli uchburchakning yuzini toping.",
+        "subjectKey": "math",
+        "options": ["60", "65", "120", "50"],
+        "correctAnswer": "60"
+    },
+    {
+        "id": 6,
+        "text": "$|x^2 - 5x| = 6$ tenglamaning barcha ildizlari yig'indisini toping.",
+        "subjectKey": "math",
+        "options": ["10", "5", "0", "12"],
+        "correctAnswer": "10"
+    },
+    {
+        "id": 7,
+        "text": "$3^{x+1} - 3^x = 18$ tenglamani yeching.",
+        "subjectKey": "math",
+        "options": ["2", "3", "1", "4"],
+        "correctAnswer": "2"
+    },
+    {
+        "id": 8,
+        "text": "$\\{b_n\\}$ geometrik progressiyada $b_2 = 6$ va $b_4 = 54$ bo'lsa, mahraj $q > 0$ bo'lgandagi birinchi hadini toping.",
+        "subjectKey": "math",
+        "options": ["2", "3", "1", "4"],
+        "correctAnswer": "2"
+    },
+    {
+        "id": 9,
+        "text": "$f(x) = e^x + x^2$ funksiyaning $x=0$ nuqtadagi hosilasini toping.",
+        "subjectKey": "math",
+        "options": ["1", "0", "e", "2"],
+        "correctAnswer": "1"
+    },
+    {
+        "id": 10,
+        "text": "To'g'ri burchakli uchburchakning gipotenuzasi 25 ga, katetlaridan biri 7 ga teng. Ikkinchi katetni toping.",
+        "subjectKey": "math",
+        "options": ["24", "20", "15", "18"],
+        "correctAnswer": "24"
+    },
+    {
+        "id": 11,
+        "text": "$\\log_3(x^2 - 8) = 0$ tenglamaning ildizlarini toping.",
+        "subjectKey": "math",
+        "options": ["$\\pm 3$", "3", "0", "$\\pm 2$"],
+        "correctAnswer": "$\\pm 3$"
+    },
+    {
+        "id": 12,
+        "text": "$\\int_1^2 (4x^3) dx$ integralni hisoblang.",
+        "subjectKey": "math",
+        "options": ["15", "16", "12", "8"],
+        "correctAnswer": "15"
+    },
+    {
+        "id": 13,
+        "text": "Qirrasi 4 ga teng bo'lgan kubning to'la sirti yuzini toping.",
+        "subjectKey": "math",
+        "options": ["96", "64", "48", "32"],
+        "correctAnswer": "96"
+    },
+    {
+        "id": 14,
+        "text": "$y = \\sqrt{2x-4}$ funksiyaning aniqlanish sohasini toping.",
+        "subjectKey": "math",
+        "options": [
+            "[2; \\infty)",
+            "(2; \\infty)",
+            "[0; \\infty)",
+            "(-\\infty; 2]"
+        ],
+        "correctAnswer": "[2; \\infty)"
+    },
+    {
+        "id": 15,
+        "text": "$\\sin^2 \\alpha + \\cos^2 \\alpha + \\tan^2 \\alpha$ ifodani soddalashtiring.",
+        "subjectKey": "math",
+        "options": [
+            "$\\frac{1}{\\cos^2 \\alpha}$",
+            "1",
+            "$\\sin^2 \\alpha$",
+            "$\\tan^2 \\alpha$"
+        ],
+        "correctAnswer": "$\\frac{1}{\\cos^2 \\alpha}$"
+    },
+    {
+        "id": 16,
+        "text": "Arifmetik progressiyada $a_1 = 5$ va $d = 3$ bo'lsa, uning 10-hadini toping.",
+        "subjectKey": "math",
+        "options": ["32", "35", "29", "38"],
+        "correctAnswer": "32"
+    },
+    {
+        "id": 17,
+        "text": "Agar $A(1; 2)$ va $B(4; 6)$ nuqtalar berilgan bo'lsa, AB kesma uzunligini toping.",
+        "subjectKey": "math",
+        "options": ["5", "7", "6", "25"],
+        "correctAnswer": "5"
+    },
+    {
+        "id": 18,
+        "text": "$2 \\cos x = \\sqrt{3}$ tenglamaning eng kichik musbat ildizini toping.",
+        "subjectKey": "math",
+        "options": ["$30^\\circ$", "$60^\\circ$", "$45^\\circ$", "$90^\\circ$"],
+        "correctAnswer": "$30^\\circ$"
+    },
+    {
+        "id": 19,
+        "text": "Silindr asosining radiusi 3 ga, balandligi 5 ga teng. Uning hajmini toping.",
+        "subjectKey": "math",
+        "options": ["$45\\pi$", "$15\\pi$", "$75\\pi$", "$30\\pi$"],
+        "correctAnswer": "$45\\pi$"
+    },
+    {
+        "id": 20,
+        "text": "$\\frac{x-1}{x+2} = 0$ tenglamani yeching.",
+        "subjectKey": "math",
+        "options": ["1", "-2", "0", "$\\pm 1$"],
+        "correctAnswer": "1"
+    },
+    {
+        "id": 21,
+        "text": "$4^x - 5 \\cdot 2^x + 4 = 0$ tenglamaning ildizlari yig'indisini toping.",
+        "subjectKey": "math",
+        "options": ["2", "4", "5", "0"],
+        "correctAnswer": "2"
+    },
+    {
+        "id": 22,
+        "text": "$\\vec{a}(3; -4)$ va $\\vec{b}(2; 1)$ vektorlarning skalyar ko'paytmasini toping.",
+        "subjectKey": "math",
+        "options": ["2", "10", "5", "-2"],
+        "correctAnswer": "2"
+    },
+    {
+        "id": 23,
+        "text": "$\\cos 2\\alpha = 0.6$ bo'lsa, $\\sin^2 \\alpha$ ning qiymatini toping.",
+        "subjectKey": "math",
+        "options": ["0.2", "0.4", "0.8", "0.1"],
+        "correctAnswer": "0.2"
+    },
+    {
+        "id": 24,
+        "text": "$\\sqrt{3x-5} = 4$ tenglamani yeching.",
+        "subjectKey": "math",
+        "options": ["7", "3", "9", "21"],
+        "correctAnswer": "7"
+    },
+    {
+        "id": 25,
+        "text": "Muntazam oltiburchakning ichki burchaklari yig'indisini toping.",
+        "subjectKey": "math",
+        "options": [
+            "$720^\\circ$",
+            "$540^\\circ$",
+            "$360^\\circ$",
+            "$1080^\\circ$"
+        ],
+        "correctAnswer": "$720^\\circ$"
+    },
+    {
+        "id": 26,
+        "text": "$\\log_5(2x-1) < 1$ tengsizlikni yeching.",
+        "subjectKey": "math",
+        "options": ["(0.5; 3)", "(0.5; 2)", "(1; 3)", "(- \\infty; 3)"],
+        "correctAnswer": "(0.5; 3)"
+    },
+    {
+        "id": 27,
+        "text": "$y = x^3 - 3x^2 + 5$ funksiyaning ekstrimum nuqtalarini toping.",
+        "subjectKey": "math",
+        "options": ["0 va 2", "1 va 3", "0 va 3", "-1 va 2"],
+        "correctAnswer": "0 va 2"
+    },
+    {
+        "id": 28,
+        "text": "Rombning diagonallari 12 va 16 ga teng. Uning tomonini toping.",
+        "subjectKey": "math",
+        "options": ["10", "14", "20", "8"],
+        "correctAnswer": "10"
+    },
+    {
+        "id": 29,
+        "text": "$\\int_0^{\\pi} \\sin x dx$ integralni hisoblang.",
+        "subjectKey": "math",
+        "options": ["2", "0", "1", "-2"],
+        "correctAnswer": "2"
+    },
+    {
+        "id": 30,
+        "text": "Sferaning radiusi 3 marta oshirilsa, uning hajmi necha marta ortadi?",
+        "subjectKey": "math",
+        "options": ["27", "9", "3", "81"],
+        "correctAnswer": "27"
+    },
+    {
+        "id": 31,
+        "text": "$\\frac{x^2-4}{x-2} = 4$ tenglamaning ildizlari sonini toping.",
+        "subjectKey": "math",
+        "options": ["ildizi yo'q", "1", "2", "cheksiz ko'p"],
+        "correctAnswer": "ildizi yo'q"
+    },
+    {
+        "id": 32,
+        "text": "Arifmetik progressiyada $a_1 = 10, d = -2$. Nechanchi hadi 0 ga teng bo'ladi?",
+        "subjectKey": "math",
+        "options": ["6", "5", "4", "7"],
+        "correctAnswer": "6"
+    },
+    {
+        "id": 33,
+        "text": "$\\sin(180^\\circ - \\alpha)$ ifodani soddalashtiring.",
+        "subjectKey": "math",
+        "options": [
+            "$\\sin \\alpha$",
+            "$- \\sin \\alpha$",
+            "$\\cos \\alpha$",
+            "$- \\cos \\alpha$"
+        ],
+        "correctAnswer": "$\\sin \\alpha$"
+    },
+    {
+        "id": 34,
+        "text": "Konusning balandligi 4 ga, asosining radiusi 3 ga teng. Konusning yasovchisini toping.",
+        "subjectKey": "math",
+        "options": ["5", "7", "12", "6"],
+        "correctAnswer": "5"
+    },
+    {
+        "id": 35,
+        "text": "$5^{2x-1} = 125$ bo'lsa, $x$ ni toping.",
+        "subjectKey": "math",
+        "options": ["2", "1.5", "3", "2.5"],
+        "correctAnswer": "2"
+    },
+    {
+        "id": 36,
+        "text": "$y = \\ln(3x - 5)$ funksiyaning aniqlanish sohasini toping.",
+        "subjectKey": "math",
+        "options": [
+            "$x > \\frac{5}{3}$",
+            "$x < \\frac{5}{3}$",
+            "$x \\geq \\frac{5}{3}$",
+            "$x > 0$"
+        ],
+        "correctAnswer": "$x > \\frac{5}{3}$"
+    },
+    {
+        "id": 37,
+        "text": "$\\sqrt{x+2} + \\sqrt{x-1} = 3$ tenglamaning ildizini toping.",
+        "subjectKey": "math",
+        "options": ["2", "3", "1", "4"],
+        "correctAnswer": "2"
+    },
+    {
+        "id": 38,
+        "text": "Agar $\\tan \\alpha = 2$ bo'lsa, $\\frac{2\\sin \\alpha + \\cos \\alpha}{\\cos \\alpha - \\sin \\alpha}$ ni hisoblang.",
+        "subjectKey": "math",
+        "options": ["-5", "5", "3", "-3"],
+        "correctAnswer": "-5"
+    },
+    {
+        "id": 39,
+        "text": "$f(x) = x^2 - 4x + 3$ funksiyaning $[0; 3]$ kesmadagi eng kichik qiymatini toping.",
+        "subjectKey": "math",
+        "options": ["-1", "0", "3", "-4"],
+        "correctAnswer": "-1"
+    },
+    {
+        "id": 40,
+        "text": "Piramidaning asosi tomoni 6 ga teng bo'lgan kvadrat. Agar piramidaning balandligi 4 ga teng bo'lsa, uning hajmini toping.",
+        "subjectKey": "math",
+        "options": ["48", "144", "72", "36"],
+        "correctAnswer": "48"
+    },
+    {
+        "id": 41,
+        "text": "$|2x - 1| \\leq 5$ tengsizlikning butun ildizlari sonini toping.",
+        "subjectKey": "math",
+        "options": ["6", "5", "4", "7"],
+        "correctAnswer": "6"
+    },
+    {
+        "id": 42,
+        "text": "$\\log_2 3 \\cdot \\log_3 4 \\cdot \\log_4 8$ ko'paytmani hisoblang.",
+        "subjectKey": "math",
+        "options": ["3", "2", "4", "1"],
+        "correctAnswer": "3"
+    },
+    {
+        "id": 43,
+        "text": "Uchburchakning ikki tomoni 5 va 8 ga, ular orasidagi burchak $60^\\circ$ ga teng. Uchinchi tomonini toping.",
+        "subjectKey": "math",
+        "options": ["7", "9", "$\\sqrt{129}$", "10"],
+        "correctAnswer": "7"
+    },
+    {
+        "id": 44,
+        "text": "$3^{x+2} + 3^x = 90$ tenglamani yeching.",
+        "subjectKey": "math",
+        "options": ["2", "1", "3", "0"],
+        "correctAnswer": "2"
+    },
+    {
+        "id": 45,
+        "text": "$y = \\cos(2x - \\frac{\\pi}{4})$ funksiyaning eng kichik musbat davrini toping.",
+        "subjectKey": "math",
+        "options": ["$\\pi$", "$2\\pi$", "$\\frac{\\pi}{2}$", "$4\\pi$"],
+        "correctAnswer": "$\\pi$"
+    },
+    {
+        "id": 46,
+        "text": "$\\{a_n\\}$ arifmetik progressiyada $a_1 = 3, a_{10} = 21$ bo'lsa, ayirmani ($d$) toping.",
+        "subjectKey": "math",
+        "options": ["2", "1.5", "3", "2.5"],
+        "correctAnswer": "2"
+    },
+    {
+        "id": 47,
+        "text": "$x^2 + y^2 - 4x + 6y - 3 = 0$ aylananing radiusini toping.",
+        "subjectKey": "math",
+        "options": ["4", "16", "2", "5"],
+        "correctAnswer": "4"
+    },
+    {
+        "id": 48,
+        "text": "$\\int (2x + 3) dx$ aniqmas integralni toping.",
+        "subjectKey": "math",
+        "options": [
+            "$x^2 + 3x + C$",
+            "$2x^2 + 3x + C$",
+            "$x^2 + C$",
+            "$x^2 + 3 + C$"
+        ],
+        "correctAnswer": "$x^2 + 3x + C$"
+    },
+    {
+        "id": 49,
+        "text": "Trapetsiyaning asoslari 8 va 12 ga, balandligi 5 ga teng. Uning yuzini toping.",
+        "subjectKey": "math",
+        "options": ["50", "100", "40", "60"],
+        "correctAnswer": "50"
+    },
+    {
+        "id": 50,
+        "text": "$2^{x^2-3} = 2^1$ tenglamaning musbat ildizini toping.",
+        "subjectKey": "math",
+        "options": ["2", "1", "4", "3"],
+        "correctAnswer": "2"
+    },
+    {
+        "id": 51,
+        "text": "$f(x) = \\sin(3x) + \\cos(3x)$ funksiyaning hosilasini toping.",
+        "subjectKey": "math",
+        "options": [
+            "$3\\cos(3x) - 3\\sin(3x)$",
+            "$3\\cos(3x) + 3\\sin(3x)$",
+            "$\\cos(3x) - \\sin(3x)$",
+            "$-3\\cos(3x) + 3\\sin(3x)$"
+        ],
+        "correctAnswer": "$3\\cos(3x) - 3\\sin(3x)$"
+    },
+    {
+        "id": 52,
+        "text": "$\\log_x 81 = 4$ tenglamani yeching.",
+        "subjectKey": "math",
+        "options": ["3", "9", "2", "4"],
+        "correctAnswer": "3"
+    },
+    {
+        "id": 53,
+        "text": "Uchburchakning tomonlari 3, 4 va 5 ga teng. Shu uchburchakka ichki chizilgan aylana radiusini toping.",
+        "subjectKey": "math",
+        "options": ["1", "2", "1.5", "0.5"],
+        "correctAnswer": "1"
+    },
+    {
+        "id": 54,
+        "text": "$4^x - 3 \\cdot 2^x - 4 = 0$ tenglamaning haqiqiy ildizini toping.",
+        "subjectKey": "math",
+        "options": ["2", "1", "0", "4"],
+        "correctAnswer": "2"
+    },
+    {
+        "id": 55,
+        "text": "$\\sin 15^\\circ \\cdot \\cos 15^\\circ$ ko'paytmaning qiymatini hisoblang.",
+        "subjectKey": "math",
+        "options": ["0.25", "0.5", "$\\frac{\\sqrt{3}}{4}$", "1"],
+        "correctAnswer": "0.25"
+    },
+    {
+        "id": 56,
+        "text": "Tekislikdan 6 sm masofada yotgan nuqtadan tekislikka 10 sm li og'ma o'tkazildi. Og'maning tekislikdagi proyeksiyasini toping.",
+        "subjectKey": "math",
+        "options": ["8", "4", "16", "$\\sqrt{136}$"],
+        "correctAnswer": "8"
+    },
+    {
+        "id": 57,
+        "text": "$\\log_2(x-5) < 3$ tengsizlikning butun yechimlari yig'indisini toping.",
+        "subjectKey": "math",
+        "options": ["42", "38", "45", "50"],
+        "correctAnswer": "42"
+    },
+    {
+        "id": 58,
+        "text": "Arifmetik progressiyada $a_1 + a_7 = 18$. $a_4$ ni toping.",
+        "subjectKey": "math",
+        "options": ["9", "6", "12", "18"],
+        "correctAnswer": "9"
+    },
+    {
+        "id": 59,
+        "text": "To'g'ri prizmaning asosi tomoni 4 ga teng bo'lgan muntazam uchburchak. Prizma balandligi $2\\sqrt{3}$ ga teng bo'lsa, uning hajmini toping.",
+        "subjectKey": "math",
+        "options": ["24", "12", "48", "$16\\sqrt{3}$"],
+        "correctAnswer": "24"
+    },
+    {
+        "id": 60,
+        "text": "$\\frac{x^2 - 9}{x + 3} = 0$ tenglamaning ildizini toping.",
+        "subjectKey": "math",
+        "options": ["3", "-3", "$\\pm 3$", "0"],
+        "correctAnswer": "3"
+    },
+    {
+        "id": 61,
+        "text": "$y = 2x - 5$ to'g'ri chiziq va koordinata o'qlari bilan chegaralangan uchburchak yuzini toping.",
+        "subjectKey": "math",
+        "options": ["6.25", "5", "12.5", "10"],
+        "correctAnswer": "6.25"
+    },
+    {
+        "id": 62,
+        "text": "$|x - 2| = |x + 4|$ tenglamani yeching.",
+        "subjectKey": "math",
+        "options": ["-1", "1", "-3", "0"],
+        "correctAnswer": "-1"
+    },
+    {
+        "id": 63,
+        "text": "Silindrning yon sirti yuzi $20\\pi$ ga, asosi radiusi 2 ga teng. Silindr balandligini toping.",
+        "subjectKey": "math",
+        "options": ["5", "10", "2.5", "4"],
+        "correctAnswer": "5"
+    },
+    {
+        "id": 64,
+        "text": "$\\sqrt{x^2 - 4x + 4} = x - 2$ tenglik $x$ ning qanday qiymatlarida o'rinli?",
+        "subjectKey": "math",
+        "options": ["$x \\geq 2$", "$x > 2$", "$x = 2$", "barcha $x$ larda"],
+        "correctAnswer": "$x \\geq 2$"
+    },
+    {
+        "id": 65,
+        "text": "$\\cos(2\\pi - \\alpha)$ ifodani soddalashtiring.",
+        "subjectKey": "math",
+        "options": [
+            "$\\cos \\alpha$",
+            "$\\sin \\alpha$",
+            "$-\\cos \\alpha$",
+            "$-\\sin \\alpha$"
+        ],
+        "correctAnswer": "$\\cos \\alpha$"
+    },
+    {
+        "id": 66,
+        "text": "$\\sqrt{x^2 - 6x + 9} = 3 - x$ tenglik $x$ ning qanday qiymatlarida o'rinli?",
+        "subjectKey": "math",
+        "options": ["$x \\leq 3$", "$x < 3$", "$x \\geq 3$", "$x = 3$"],
+        "correctAnswer": "$x \\leq 3$"
+    },
+    {
+        "id": 67,
+        "text": "$\\vec{a}(2; -1)$ va $\\vec{b}(3; 4)$ vektorlar berilgan. $2\\vec{a} + \\vec{b}$ vektorning koordinatalarini toping.",
+        "subjectKey": "math",
+        "options": ["(7; 2)", "(5; 3)", "(7; 6)", "(1; 5)"],
+        "correctAnswer": "(7; 2)"
+    },
+    {
+        "id": 68,
+        "text": "$|x - 3| < 5$ tengsizlikning eng kichik butun yechimini toping.",
+        "subjectKey": "math",
+        "options": ["-1", "-2", "0", "1"],
+        "correctAnswer": "-1"
+    },
+    {
+        "id": 69,
+        "text": "$\\cos 105^\\circ$ ning qiymatini hisoblang.",
+        "subjectKey": "math",
+        "options": [
+            "$\\frac{\\sqrt{2} - \\sqrt{6}}{4}$",
+            "$\\frac{\\sqrt{6} - \\sqrt{2}}{4}$",
+            "$\\frac{\\sqrt{2} + \\sqrt{6}}{4}$",
+            "$\\frac{\\sqrt{3} - 1}{2}$"
+        ],
+        "correctAnswer": "$\\frac{\\sqrt{2} - \\sqrt{6}}{4}$"
+    },
+    {
+        "id": 70,
+        "text": "$y = x^2 - 4x + 7$ parabolaning uchining koordinatalarini toping.",
+        "subjectKey": "math",
+        "options": ["(2; 3)", "(-2; 3)", "(2; -3)", "(4; 7)"],
+        "correctAnswer": "(2; 3)"
+    },
+    {
+        "id": 71,
+        "text": "Radiusi 13 ga teng bo'lgan shar markazidan 5 masofada o'tkazilgan kesim yuzini toping.",
+        "subjectKey": "math",
+        "options": ["$144\\pi$", "$169\\pi$", "$25\\pi$", "$120\\pi$"],
+        "correctAnswer": "$144\\pi$"
+    },
+    {
+        "id": 72,
+        "text": "$\\log_3 \\sqrt{27}$ ni hisoblang.",
+        "subjectKey": "math",
+        "options": ["1.5", "3", "0.5", "2"],
+        "correctAnswer": "1.5"
+    },
+    {
+        "id": 73,
+        "text": "Agar arifmetik progressiyada $S_{10} = 100$ va $S_{11} = 121$ bo'lsa, $a_{11}$ ni toping.",
+        "subjectKey": "math",
+        "options": ["21", "11", "10", "20"],
+        "correctAnswer": "21"
+    },
+    {
+        "id": 74,
+        "text": "$2\\sin x \\cos x = \\frac{1}{2}$ tenglamaning eng kichik musbat ildizini toping.",
+        "subjectKey": "math",
+        "options": [
+            "$15^\\circ$",
+            "$30^\\circ$",
+            "$45^\\circ$",
+            "$7.5^\\circ$"
+        ],
+        "correctAnswer": "$15^\\circ$"
+    },
+    {
+        "id": 75,
+        "text": "To'g'ri burchakli uchburchakning katetlari 6 va 8 ga teng. Gipotenuza tushirilgan balandlikni toping.",
+        "subjectKey": "math",
+        "options": ["4.8", "5", "4", "5.2"],
+        "correctAnswer": "4.8"
+    },
+    {
+        "id": 76,
+        "text": "$f(x) = e^{2x}$ funksiyaning hosilasini toping.",
+        "subjectKey": "math",
+        "options": ["$2e^{2x}$", "$e^{2x}$", "$\\frac{1}{2}e^{2x}$", "$2e^x$"],
+        "correctAnswer": "$2e^{2x}$"
+    },
+    {
+        "id": 77,
+        "text": "$\\int_0^1 (x^2 + 1) dx$ integralni hisoblang.",
+        "subjectKey": "math",
+        "options": ["$1\\frac{1}{3}$", "1", "2", "$\\frac{1}{3}$"],
+        "correctAnswer": "$1\\frac{1}{3}$"
+    },
+    {
+        "id": 78,
+        "text": "Konusning yasovchisi 10 ga, balandligi 8 ga teng. Uning hajmini toping.",
+        "subjectKey": "math",
+        "options": ["$96\\pi$", "$48\\pi$", "$100\\pi$", "$36\\pi$"],
+        "correctAnswer": "$96\\pi$"
+    },
+    {
+        "id": 79,
+        "text": "$\\frac{2^{10} \\cdot 3^{10}}{6^8}$ ni hisoblang.",
+        "subjectKey": "math",
+        "options": ["36", "6", "1", "12"],
+        "correctAnswer": "36"
+    },
+    {
+        "id": 80,
+        "text": "$y = \\sqrt{x - 2} + \\sqrt{5 - x}$ funksiyaning aniqlanish sohasini toping.",
+        "subjectKey": "math",
+        "options": ["[2; 5]", "(2; 5)", "[0; 5]", "[2; \\infty)"],
+        "correctAnswer": "[2; 5]"
+    },
+    {
+        "id": 81,
+        "text": "$f(x) = 3\\sin x - 4\\cos x$ funksiyaning eng katta qiymatini toping.",
+        "subjectKey": "math",
+        "options": ["5", "7", "1", "25"],
+        "correctAnswer": "5"
+    },
+    {
+        "id": 82,
+        "text": "$9^x - 4 \\cdot 3^x + 3 = 0$ tenglamaning ildizlari ko'paytmasini toping.",
+        "subjectKey": "math",
+        "options": ["0", "3", "1", "4"],
+        "correctAnswer": "0"
+    },
+    {
+        "id": 83,
+        "text": "Uchburchakning tomonlari 13, 14 va 15 ga teng. Eng kichik balandligini toping.",
+        "subjectKey": "math",
+        "options": ["11.2", "12", "13", "10.5"],
+        "correctAnswer": "11.2"
+    },
+    {
+        "id": 84,
+        "text": "$\\log_2 \\log_2 \\sqrt{\\sqrt{2}}$ ni hisoblang.",
+        "subjectKey": "math",
+        "options": ["-2", "2", "-4", "0.25"],
+        "correctAnswer": "-2"
+    },
+    {
+        "id": 85,
+        "text": "Arifmetik progressiyada $a_1 = 2$ va $S_{10} = 155$ bo'lsa, ayirmani ($d$) toping.",
+        "subjectKey": "math",
+        "options": ["3", "2.5", "2", "3.5"],
+        "correctAnswer": "3"
+    },
+    {
+        "id": 86,
+        "text": "$y = x^2 - 6x + 5$ funksiyaning qiymatlar sohasini toping.",
+        "subjectKey": "math",
+        "options": [
+            "$[-4; \\infty)$",
+            "$[5; \\infty)$",
+            "$(-\\infty; \\infty)$",
+            "$[0; \\infty)$"
+        ],
+        "correctAnswer": "$[-4; \\infty)$"
+    },
+    {
+        "id": 87,
+        "text": "$\\vec{a}(2; -3)$ va $\\vec{b}(x; 4)$ vektorlar perpendikulyar bo'lsa, $x$ ni toping.",
+        "subjectKey": "math",
+        "options": ["6", "3", "-6", "2"],
+        "correctAnswer": "6"
+    },
+    {
+        "id": 88,
+        "text": "Muntazam to'rtburchakli piramidaning asosi tomoni 4 ga, apofemasi 5 ga teng. Yon sirti yuzini toping.",
+        "subjectKey": "math",
+        "options": ["40", "80", "20", "60"],
+        "correctAnswer": "40"
+    },
+    {
+        "id": 89,
+        "text": "$\\int_1^e \\frac{1}{x} dx$ integralni hisoblang.",
+        "subjectKey": "math",
+        "options": ["1", "e", "0", "$\\ln 2$"],
+        "correctAnswer": "1"
+    },
+    {
+        "id": 90,
+        "text": "$\\cos^2 x - \\sin^2 x = \\frac{\\sqrt{3}}{2}$ tenglamaning eng kichik musbat ildizini toping.",
+        "subjectKey": "math",
+        "options": [
+            "$15^\\circ$",
+            "$30^\\circ$",
+            "$60^\\circ$",
+            "$7.5^\\circ$"
+        ],
+        "correctAnswer": "$15^\\circ$"
+    },
+    {
+        "id": 91,
+        "text": "$|x^2 - 4| < 5$ tengsizlikning butun yechimlari sonini toping.",
+        "subjectKey": "math",
+        "options": ["5", "3", "4", "7"],
+        "correctAnswer": "5"
+    },
+    {
+        "id": 92,
+        "text": "$f(x) = x^3 - 3x + 1$ funksiyaning hosilasi nolga teng bo'ladigan nuqtalarni toping.",
+        "subjectKey": "math",
+        "options": ["$\\pm 1$", "0", "$\\pm 3$", "1"],
+        "correctAnswer": "$\\pm 1$"
+    },
+    {
+        "id": 93,
+        "text": "Shar radiusi 6 ga teng. Shar sirti yuzini toping.",
+        "subjectKey": "math",
+        "options": ["$144\\pi$", "$36\\pi$", "$288\\pi$", "$72\\pi$"],
+        "correctAnswer": "$144\\pi$"
+    },
+    {
+        "id": 94,
+        "text": "$x+y=7$ va $x-y=1$ bo'lsa, $x^2-y^2$ ni toping.",
+        "subjectKey": "math",
+        "options": ["7", "12", "6", "49"],
+        "correctAnswer": "7"
+    },
+    {
+        "id": 95,
+        "text": "Geometrik progressiyada $b_1 = 3, q = 2$. Dastlabki 5 ta hadi yig'indisini toping.",
+        "subjectKey": "math",
+        "options": ["93", "45", "63", "96"],
+        "correctAnswer": "93"
+    },
+    {
+        "id": 96,
+        "text": "$\\sqrt{2x+1} = x-1$ tenglamaning ildizini toping.",
+        "subjectKey": "math",
+        "options": ["4", "0", "4 va 0", "2"],
+        "correctAnswer": "4"
+    },
+    {
+        "id": 97,
+        "text": "Silindrning hajmi $54\\pi$ ga, balandligi 6 ga teng. Asosi radiusini toping.",
+        "subjectKey": "math",
+        "options": ["3", "9", "2", "4"],
+        "correctAnswer": "3"
+    },
+    {
+        "id": 98,
+        "text": "$2^{x+3} - 2^x = 56$ tenglamani yeching.",
+        "subjectKey": "math",
+        "options": ["3", "4", "2", "5"],
+        "correctAnswer": "3"
+    },
+    {
+        "id": 99,
+        "text": "$\\tan(x + \\frac{\\pi}{4}) = 1$ tenglamaning $[0; \\pi]$ oraliqdagi ildizini toping.",
+        "subjectKey": "math",
+        "options": ["0", "$\\frac{\\pi}{4}$", "$\\frac{\\pi}{2}$", "$\\pi$"],
+        "correctAnswer": "0"
+    },
+    {
+        "id": 100,
+        "text": "To'g'ri burchakli trapetsiyaning asoslari 4 va 7 ga teng. Kichik yon tomoni 4 ga teng bo'lsa, katta yon tomonini toping.",
+        "subjectKey": "math",
+        "options": ["5", "$\\sqrt{33}$", "6", "4"],
+        "correctAnswer": "5"
+    }
+]

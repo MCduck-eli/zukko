@@ -1,0 +1,1147 @@
+[
+    {
+        "id": 1,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'primitive' ma'lumot turlari nechta?",
+        "options": ["5 ta", "6 ta", "7 ta", "8 ta"],
+        "correctAnswer": "7 ta"
+    },
+    {
+        "id": 2,
+        "subjectKey": "javascript",
+        "text": "Qaysi operator qiymat va turni bir vaqtda tekshiradi (Strict Equality)?",
+        "options": ["==", "===", "=", "!="],
+        "correctAnswer": "==="
+    },
+    {
+        "id": 3,
+        "subjectKey": "javascript",
+        "text": "'null' ning turi (typeof) nima deb qaytadi?",
+        "options": ["null", "undefined", "object", "number"],
+        "correctAnswer": "object"
+    },
+    {
+        "id": 4,
+        "subjectKey": "javascript",
+        "text": "Qaysi metod massivning eng birinchi elementini o'chiradi?",
+        "options": ["pop()", "push()", "shift()", "unshift()"],
+        "correctAnswer": "shift()"
+    },
+    {
+        "id": 5,
+        "subjectKey": "javascript",
+        "text": "Event Delegation nima?",
+        "options": [
+            "Hodisani har bir elementga alohida bog'lash",
+            "Hodisani ota elementga bog'lab, bolalarni boshqarish",
+            "Hodisani to'xtatib qo'yish",
+            "Faqat bir marta ishlaydigan hodisa"
+        ],
+        "correctAnswer": "Hodisani ota elementga bog'lab, bolalarni boshqarish"
+    },
+    {
+        "id": 6,
+        "subjectKey": "javascript",
+        "text": "Closures (Yopilish) nima?",
+        "options": [
+            "Funksiya va uning atrofidagi muhit (lexical environment)",
+            "Funksiyani yopib qo'yish",
+            "Xotirani tozalash usuli",
+            "Global o'zgaruvchilar to'plami"
+        ],
+        "correctAnswer": "Funksiya va uning atrofidagi muhit (lexical environment)"
+    },
+    {
+        "id": 7,
+        "subjectKey": "javascript",
+        "text": "Ushbu kod natijasi nima: console.log(0.1 + 0.2 === 0.3)?",
+        "options": ["true", "false", "undefined", "NaN"],
+        "correctAnswer": "false"
+    },
+    {
+        "id": 8,
+        "subjectKey": "javascript",
+        "text": "'this' kalit so'zi o'q funksiyalarda (arrow functions) qanday ishlaydi?",
+        "options": [
+            "O'zining 'this'iga ega",
+            "Tashqi (parent) scope-dan 'this'ni oladi",
+            "Har doim global object-ga teng",
+            "Undefined bo'ladi"
+        ],
+        "correctAnswer": "Tashqi (parent) scope-dan 'this'ni oladi"
+    },
+    {
+        "id": 9,
+        "subjectKey": "javascript",
+        "text": "Massivni nusxalashning eng qisqa usuli qaysi (Shallow copy)?",
+        "options": [
+            "Object.assign()",
+            "Spread operator (...)",
+            "for loop",
+            "JSON.parse()"
+        ],
+        "correctAnswer": "Spread operator (...)"
+    },
+    {
+        "id": 10,
+        "subjectKey": "javascript",
+        "text": "Hoisting nima?",
+        "options": [
+            "O'zgaruvchi va funksiyalarni e'lon qilishni yuqoriga ko'tarish",
+            "Kodning xatosini topish",
+            "Funksiyani chaqirish",
+            "O'zgaruvchini o'chirish"
+        ],
+        "correctAnswer": "O'zgaruvchi va funksiyalarni e'lon qilishni yuqoriga ko'tarish"
+    },
+    {
+        "id": 11,
+        "subjectKey": "javascript",
+        "text": "Promise-ning nechta holati (state) bor?",
+        "options": ["2 ta", "3 ta", "4 ta", "5 ta"],
+        "correctAnswer": "3 ta"
+    },
+    {
+        "id": 12,
+        "subjectKey": "javascript",
+        "text": "setTimeout(() => console.log('A'), 0); console.log('B'); Natija qanday bo'ladi?",
+        "options": ["A B", "B A", "Bir vaqtda", "Xato beradi"],
+        "correctAnswer": "B A"
+    },
+    {
+        "id": 13,
+        "subjectKey": "javascript",
+        "text": "Qaysi metod massivdagi barcha elementlar shartga mosligini tekshiradi?",
+        "options": ["some()", "every()", "filter()", "find()"],
+        "correctAnswer": "every()"
+    },
+    {
+        "id": 14,
+        "subjectKey": "javascript",
+        "text": "Temporal Dead Zone (TDZ) nimaga nisbatan ishlatiladi?",
+        "options": ["var", "let va const", "function", "class"],
+        "correctAnswer": "let va const"
+    },
+    {
+        "id": 15,
+        "subjectKey": "javascript",
+        "text": "Pure Function (Toza funksiya) nima?",
+        "options": [
+            "Hech qanday argument mallol qilmaydigan funksiya",
+            "Bir xil argumentga har doim bir xil javob qaytaradigan funksiya",
+            "Global o'zgaruvchini o'zgartiradigan funksiya",
+            "Faqat matematik hisoblaydigan funksiya"
+        ],
+        "correctAnswer": "Bir xil argumentga har doim bir xil javob qaytaradigan funksiya"
+    },
+    {
+        "id": 16,
+        "subjectKey": "javascript",
+        "text": "NaN ning turi (typeof) nima?",
+        "options": ["NaN", "number", "undefined", "object"],
+        "correctAnswer": "number"
+    },
+    {
+        "id": 17,
+        "subjectKey": "javascript",
+        "text": "Map va Set orasidagi asosiy farq nimada?",
+        "options": [
+            "Map kalit-qiymat juftligi, Set faqat takrorlanmas qiymatlar",
+            "Hech qanday farqi yo'q",
+            "Set faqat sonlarni saqlaydi",
+            "Map massivning bir turi"
+        ],
+        "correctAnswer": "Map kalit-qiymat juftligi, Set faqat takrorlanmas qiymatlar"
+    },
+    {
+        "id": 18,
+        "subjectKey": "javascript",
+        "text": "'use strict' nima uchun ishlatiladi?",
+        "options": [
+            "Kodni tezlashtirish uchun",
+            "Xavfsiz va qat'iy rejimda ishlash uchun",
+            "Dizaynni to'g'rilash uchun",
+            "Faqat eski brauzerlar uchun"
+        ],
+        "correctAnswer": "Xavfsiz va qat'iy rejimda ishlash uchun"
+    },
+    {
+        "id": 19,
+        "subjectKey": "javascript",
+        "text": "DOM (Document Object Model) nima?",
+        "options": [
+            "Ma'lumotlar bazasi",
+            "HTML hujjatining dasturiy interfeysi (daraxtsimon)",
+            "Brauzerning sozlamalari",
+            "JavaScript kutubxonasi"
+        ],
+        "correctAnswer": "HTML hujjatining dasturiy interfeysi (daraxtsimon)"
+    },
+    {
+        "id": 20,
+        "subjectKey": "javascript",
+        "text": "Async/Await nima vazifani bajaradi?",
+        "options": [
+            "Asinxron kodni sinxron ko'rinishda yozishga yordam beradi",
+            "Kodni bloklab qo'yadi",
+            "Faqat xatolarni ushlaydi",
+            "Vaqtni to'xtatadi"
+        ],
+        "correctAnswer": "Asinxron kodni sinxron ko'rinishda yozishga yordam beradi"
+    },
+    {
+        "id": 21,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'Shallow copy' va 'Deep copy' orasidagi farq nima?",
+        "options": [
+            "Farqi yo'q",
+            "Shallow copy faqat yuqori qatlamni, Deep copy barcha ichki obyektlarni ham nusxalaydi",
+            "Shallow copy xotirani ko'p egallaydi",
+            "Deep copy faqat massivlar uchun ishlaydi"
+        ],
+        "correctAnswer": "Shallow copy faqat yuqori qatlamni, Deep copy barcha ichki obyektlarni ham nusxalaydi"
+    },
+    {
+        "id": 22,
+        "subjectKey": "javascript",
+        "text": "Call, Apply va Bind metodlarining asosiy vazifasi nima?",
+        "options": [
+            "Funksiyani o'chirib tashlash",
+            "Funksiya uchun 'this' kontekstini qo'lda belgilash",
+            "Funksiyani faqat bir marta ishlatish",
+            "O'zgaruvchilarni global qilish"
+        ],
+        "correctAnswer": "Funksiya uchun 'this' kontekstini qo'lda belgilash"
+    },
+    {
+        "id": 23,
+        "subjectKey": "javascript",
+        "text": "Event Bubbling nima?",
+        "options": [
+            "Hodisaning eng pastki elementdan yuqoriga (ota elementga) qarab tarqalishi",
+            "Hodisaning yuqoridan pastga qarab tushishi",
+            "Hodisani to'xtatish usuli",
+            "Faqat tugmalarda ishlaydigan xususiyat"
+        ],
+        "correctAnswer": "Hodisaning eng pastki elementdan yuqoriga (ota elementga) qarab tarqalishi"
+    },
+    {
+        "id": 24,
+        "subjectKey": "javascript",
+        "text": "Debouncing va Throttling nima uchun ishlatiladi?",
+        "options": [
+            "Kodni chiroyli yozish uchun",
+            "Funksiya chaqirilish chastotasini nazorat qilish va unumdorlikni oshirish uchun",
+            "O'zgaruvchilarni himoya qilish uchun",
+            "Xatolarni topish uchun"
+        ],
+        "correctAnswer": "Funksiya chaqirilish chastotasini nazorat qilish va unumdorlikni oshirish uchun"
+    },
+    {
+        "id": 25,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'prototype' nima?",
+        "options": [
+            "Funksiyaning nomi",
+            "Obyektlar bir-biridan xususiyat meros olishi uchun foydalanadigan mexanizm",
+            "O'zgaruvchining turi",
+            "Faqat class-lar ichida ishlaydigan metod"
+        ],
+        "correctAnswer": "Obyektlar bir-biridan xususiyat meros olishi uchun foydalanadigan mexanizm"
+    },
+    {
+        "id": 26,
+        "subjectKey": "javascript",
+        "text": "Rest parameter (...) va Spread operator (...) farqi nimada?",
+        "options": [
+            "Farqi yo'q",
+            "Rest argumentlarni yig'adi, Spread esa elementlarni yoyib yuboradi",
+            "Spread faqat obyektlarda ishlaydi",
+            "Rest faqat massivlarni o'chiradi"
+        ],
+        "correctAnswer": "Rest argumentlarni yig'adi, Spread esa elementlarni yoyib yuboradi"
+    },
+    {
+        "id": 27,
+        "subjectKey": "javascript",
+        "text": "Higher-Order Function nima?",
+        "options": [
+            "Eng yuqorida e'lon qilingan funksiya",
+            "Argument sifatida boshqa funksiyani qabul qiladigan yoki funksiya qaytaradigan funksiya",
+            "Faqat matematik hisob-kitob qiladigan funksiya",
+            "Rekursiv funksiya"
+        ],
+        "correctAnswer": "Argument sifatida boshqa funksiyani qabul qiladigan yoki funksiya qaytaradigan funksiya"
+    },
+    {
+        "id": 28,
+        "subjectKey": "javascript",
+        "text": "IIFE (Immediately Invoked Function Expression) nima?",
+        "options": [
+            "E'lon qilingan zahoti ishga tushadigan funksiya",
+            "Hech qachon ishlamaydigan funksiya",
+            "Faqat xato berganda ishlaydigan funksiya",
+            "Global o'zgaruvchi"
+        ],
+        "correctAnswer": "E'lon qilingan zahoti ishga tushadigan funksiya"
+    },
+    {
+        "id": 29,
+        "subjectKey": "javascript",
+        "text": "WeakMap va Map orasidagi asosiy farq nima?",
+        "options": [
+            "WeakMap faqat obyektlarni kalit sifatida qabul qiladi va xotira tozalanishiga to'sqinlik qilmaydi",
+            "Map tezroq ishlaydi",
+            "WeakMap-da elementlar sonini bilish mumkin",
+            "Hech qanday farqi yo'q"
+        ],
+        "correctAnswer": "WeakMap faqat obyektlarni kalit sifatida qabul qiladi va xotira tozalanishiga to'sqinlik qilmaydi"
+    },
+    {
+        "id": 30,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'currying' nima?",
+        "options": [
+            "Funksiyani bir nechta argumentli funksiyadan bittadan argument oladigan funksiyalar ketma-ketligiga aylantirish",
+            "Funksiyani xotiradan o'chirish",
+            "O'zgaruvchilarni nusxalash",
+            "Ma'lumotlar turini o'zgartirish"
+        ],
+        "correctAnswer": "Funksiyani bir nechta argumentli funksiyadan bittadan argument oladigan funksiyalar ketma-ketligiga aylantirish"
+    },
+    {
+        "id": 31,
+        "subjectKey": "javascript",
+        "text": "Generator funksiyalar nima vazifani bajaradi?",
+        "options": [
+            "Kodning ijrosini to'xtatib (yield) va keyin davom ettirish imkonini beradi",
+            "Tasodifiy sonlar generatsiya qiladi",
+            "Faqat loop ichida ishlaydi",
+            "HTML elementlar yaratadi"
+        ],
+        "correctAnswer": "Kodning ijrosini to'xtatib (yield) va keyin davom ettirish imkonini beradi"
+    },
+    {
+        "id": 32,
+        "subjectKey": "javascript",
+        "text": "Symboldan nima maqsadlarda foydalaniladi?",
+        "options": [
+            "Obyektlar uchun noyob (unique) va yashirin kalitlar yaratish uchun",
+            "Sonlarni so'zga aylantirish uchun",
+            "Faqat massivlar bilan ishlash uchun",
+            "Global o'zgaruvchi yaratish uchun"
+        ],
+        "correctAnswer": "Obyektlar uchun noyob (unique) va yashirin kalitlar yaratish uchun"
+    },
+    {
+        "id": 33,
+        "subjectKey": "javascript",
+        "text": "Microtasks va Macrotasks orasida qaysi biri birinchi bajariladi?",
+        "options": [
+            "Macrotasks",
+            "Microtasks (masalan, Promises)",
+            "Ikkalasi bir vaqtda",
+            "Navbatga bog'liq emas"
+        ],
+        "correctAnswer": "Microtasks (masalan, Promises)"
+    },
+    {
+        "id": 34,
+        "subjectKey": "javascript",
+        "text": "Obyektni qanday qilib butunlay muzlatish (o'zgartirib bo'lmaydigan qilish) mumkin?",
+        "options": [
+            "Object.freeze()",
+            "Object.seal()",
+            "const ishlatib",
+            "Object.lock()"
+        ],
+        "correctAnswer": "Object.freeze()"
+    },
+    {
+        "id": 35,
+        "subjectKey": "javascript",
+        "text": "Nullish Coalescing (??) operatori qanday vazifani bajaradi?",
+        "options": [
+            "Faqat null yoki undefined bo'lganda o'ng tarafdagi qiymatni qaytaradi",
+            "Barcha false qiymatlar uchun ishlaydi",
+            "Ikkita sonni solishtiradi",
+            "O'zgaruvchini turini tekshiradi"
+        ],
+        "correctAnswer": "Faqat null yoki undefined bo'lganda o'ng tarafdagi qiymatni qaytaradi"
+    },
+    {
+        "id": 36,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'Proxy' nima uchun ishlatiladi?",
+        "options": [
+            "Obyektlar ustidan amallarni (o'qish, yozish) tutib olish va boshqarish uchun",
+            "Internet tezligini oshirish uchun",
+            "Faqat class ichida xususiyatlarni yashirish uchun",
+            "Massivlarni saralash uchun"
+        ],
+        "correctAnswer": "Obyektlar ustidan amallarni (o'qish, yozish) tutib olish va boshqarish uchun"
+    },
+    {
+        "id": 37,
+        "subjectKey": "javascript",
+        "text": "Memoization nima?",
+        "options": [
+            "Funksiya natijalarini keshlab (xotirada saqlab) unumdorlikni oshirish",
+            "Xotirani tozalash jarayoni",
+            "O'zgaruvchilarni nomlash qoidasi",
+            "Funksiyani kechiktirib ishga tushirish"
+        ],
+        "correctAnswer": "Funksiya natijalarini keshlab (xotirada saqlab) unumdorlikni oshirish"
+    },
+    {
+        "id": 38,
+        "subjectKey": "javascript",
+        "text": "Static metodlar nima?",
+        "options": [
+            "Faqat class nusxasi (instance) orqali chaqiriladigan metodlar",
+            "Class nusxasini yaratmasdan, to'g'ridan-to'g'ri Class nomi orqali chaqiriladigan metodlar",
+            "Hech qachon o'zgarmaydigan metodlar",
+            "O'zgaruvchilarni o'zgartiradigan metodlar"
+        ],
+        "correctAnswer": "Class nusxasini yaratmasdan, to'g'ridan-to'g'ri Class nomi orqali chaqiriladigan metodlar"
+    },
+    {
+        "id": 39,
+        "subjectKey": "javascript",
+        "text": "Falsy qiymatlarni aniqlang:",
+        "options": [
+            "false, 0, '', null, undefined, NaN",
+            "false, 1, ' ', [], {}, NaN",
+            "false, -1, '0', null, undefined",
+            "true, 0, '', null, undefined"
+        ],
+        "correctAnswer": "false, 0, '', null, undefined, NaN"
+    },
+    {
+        "id": 40,
+        "subjectKey": "javascript",
+        "text": "JavaScript 'Single-threaded' til bo'lsa, qanday qilib asinxron ishlaydi?",
+        "options": [
+            "Asinxron emas",
+            "Event Loop va Brauzer API-lari (yoki Node.js libuv) yordamida",
+            "Bir nechta protsessorni ishlatib",
+            "Kodni ikki marta o'qish orqali"
+        ],
+        "correctAnswer": "Event Loop va Brauzer API-lari (yoki Node.js libuv) yordamida"
+    },
+    {
+        "id": 41,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'Optional Chaining' (?.) nima vazifani bajaradi?",
+        "options": [
+            "Obyekt ichidagi xususiyat mavjud bo'lmasa, xato bermasdan 'undefined' qaytaradi",
+            "Obyektni o'chirib tashlaydi",
+            "Faqat massivlarni tekshiradi",
+            "Kodni tezlashtiradi"
+        ],
+        "correctAnswer": "Obyekt ichidagi xususiyat mavjud bo'lmasa, xato bermasdan 'undefined' qaytaradi"
+    },
+    {
+        "id": 42,
+        "subjectKey": "javascript",
+        "text": "LocalStorage va SessionStorage orasidagi farq nima?",
+        "options": [
+            "LocalStorage brauzer yopilganda o'chadi",
+            "SessionStorage ma'lumotlari tab yoki brauzer yopilganda o'chadi, LocalStorage esa saqlanib qoladi",
+            "LocalStorage-da faqat sonlar saqlanadi",
+            "Hech qanday farqi yo'q"
+        ],
+        "correctAnswer": "SessionStorage ma'lumotlari tab yoki brauzer yopilganda o'chadi, LocalStorage esa saqlanib qoladi"
+    },
+    {
+        "id": 43,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'Garbage Collection' nima?",
+        "options": [
+            "Kodni xatolardan tozalash",
+            "Foydalanilmayotgan xotira maydonlarini avtomatik ravishda bo'shatish jarayoni",
+            "Fayllarni o'chirish",
+            "Global o'zgaruvchilarni himoya qilish"
+        ],
+        "correctAnswer": "Foydalanilmayotgan xotira maydonlarini avtomatik ravishda bo'shatish jarayoni"
+    },
+    {
+        "id": 44,
+        "subjectKey": "javascript",
+        "text": "JSON.stringify() va JSON.parse() nima uchun ishlatiladi?",
+        "options": [
+            "Obyektni string-ga va string-ni obyektga aylantirish uchun",
+            "Kodni shifrlash uchun",
+            "HTML elementlarni o'zgartirish uchun",
+            "Faqat massivlar bilan ishlash uchun"
+        ],
+        "correctAnswer": "Obyektni string-ga va string-ni obyektga aylantirish uchun"
+    },
+    {
+        "id": 45,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'Module' tizimi (import/export) nima uchun kerak?",
+        "options": [
+            "Kodni alohida fayllarga bo'lish va qayta ishlatish imkonini yaratish uchun",
+            "Kodni yashirish uchun",
+            "Dizaynni yaxshilash uchun",
+            "Faqat Node.js-da ishlash uchun"
+        ],
+        "correctAnswer": "Kodni alohida fayllarga bo'lish va qayta ishlatish imkonini yaratish uchun"
+    },
+    {
+        "id": 46,
+        "subjectKey": "javascript",
+        "text": "Object.keys(), Object.values() va Object.entries() metodlari nimani qaytaradi?",
+        "options": [
+            "Mos ravishda kalitlar, qiymatlar va [kalit, qiymat] juftliklaridan iborat massivlarni",
+            "Faqat bitta qiymat qaytaradi",
+            "Obyektning nusxasini",
+            "O'zgaruvchining turini"
+        ],
+        "correctAnswer": "Mos ravishda kalitlar, qiymatlar va [kalit, qiymat] juftliklaridan iborat massivlarni"
+    },
+    {
+        "id": 47,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'Mutation' nima?",
+        "options": [
+            "O'zgaruvchining turini o'zgartirish",
+            "Obyekt yoki massivning asl qiymatini (content) o'zgartirish",
+            "Kodni boshqa tilga o'tkazish",
+            "Funksiyani o'chirish"
+        ],
+        "correctAnswer": "Obyekt yoki massivning asl qiymatini (content) o'zgartirish"
+    },
+    {
+        "id": 48,
+        "subjectKey": "javascript",
+        "text": "Polyfill nima?",
+        "options": [
+            "Yangi JS xususiyatlarini eski brauzerlarda qo'llab-quvvatlash uchun yozilgan kod (tushunishga yordam beruvchi kutubxona)",
+            "CSS dizayn usuli",
+            "Ma'lumotlar bazasi turi",
+            "Brauzerning kengaytmasi"
+        ],
+        "correctAnswer": "Yangi JS xususiyatlarini eski brauzerlarda qo'llab-quvvatlash uchun yozilgan kod (tushunishga yordam beruvchi kutubxona)"
+    },
+    {
+        "id": 49,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'Lexical Scoping' nima?",
+        "options": [
+            "Funksiya o'zgaruvchilari qayerda e'lon qilinganiga qarab aniqlanishi",
+            "Funksiyaning necha marta chaqirilishi",
+            "Xotira hajmi",
+            "Dastur bajarilish vaqti"
+        ],
+        "correctAnswer": "Funksiya o'zgaruvchilari qayerda e'lon qilinganiga qarab aniqlanishi"
+    },
+    {
+        "id": 50,
+        "subjectKey": "javascript",
+        "text": "Obyekt ichidagi 'Method' va oddiy 'Function' farqi nimada?",
+        "options": [
+            "Metod obyektning mulki (property) hisoblanadi, oddiy funksiya esa mustaqil",
+            "Farqi yo'q",
+            "Metod har doim 'static' bo'ladi",
+            "Funksiya faqat global scope-da bo'ladi"
+        ],
+        "correctAnswer": "Metod obyektning mulki (property) hisoblanadi, oddiy funksiya esa mustaqil"
+    },
+    {
+        "id": 51,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'Tail Call Optimization' nima?",
+        "options": [
+            "Rekursiv funksiyalarni xotirani tejash uchun optimallashtirish",
+            "Kodning oxirini o'chirish",
+            "Vaqtni to'xtatish",
+            "Massivlarni saralash"
+        ],
+        "correctAnswer": "Rekursiv funksiyalarni xotirani tejash uchun optimallashtirish"
+    },
+    {
+        "id": 52,
+        "subjectKey": "javascript",
+        "text": "Array.isArray() nima uchun kerak?",
+        "options": [
+            "Berilgan qiymat aynan massiv (Array) ekanligini aniq tekshirish uchun (typeof [] === 'object' bo'lgani uchun)",
+            "Massivni o'chirish uchun",
+            "Massivni obyektga aylantirish uchun",
+            "Elementlarni sanash uchun"
+        ],
+        "correctAnswer": "Berilgan qiymat aynan massiv (Array) ekanligini aniq tekshirish uchun (typeof [] === 'object' bo'lgani uchun)"
+    },
+    {
+        "id": 53,
+        "subjectKey": "javascript",
+        "text": "BigInt turi nima uchun ishlatiladi?",
+        "options": [
+            "Number turi sig'maydigan juda katta butun sonlar bilan ishlash uchun",
+            "Kasr sonlarni yaxlitlash uchun",
+            "Faqat manfiy sonlar uchun",
+            "Matnlarni saqlash uchun"
+        ],
+        "correctAnswer": "Number turi sig'maydigan juda katta butun sonlar bilan ishlash uchun"
+    },
+    {
+        "id": 54,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'Shadowing' nima?",
+        "options": [
+            "Ichki scope-dagi o'zgaruvchi tashqi scope-dagi o'zgaruvchi bilan bir xil nomlanib, uni to'sib qo'yishi",
+            "Kodni yashirish",
+            "Xatolarni e'tiborsiz qoldirish",
+            "Ranglarni o'zgartirish"
+        ],
+        "correctAnswer": "Ichki scope-dagi o'zgaruvchi tashqi scope-dagi o'zgaruvchi bilan bir xil nomlanib, uni to'sib qo'yishi"
+    },
+    {
+        "id": 55,
+        "subjectKey": "javascript",
+        "text": "Atob() va Btoa() funksiyalari nima vazifani bajaradi?",
+        "options": [
+            "Ma'lumotlarni Base64 formatiga kodlash va dekodlash",
+            "Sonlarni binary-ga o'tkazish",
+            "JSON fayllarni o'qish",
+            "HTML-ni text-ga aylantirish"
+        ],
+        "correctAnswer": "Ma'lumotlarni Base64 formatiga kodlash va dekodlash"
+    },
+    {
+        "id": 56,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'Recursion' (Rekursiya) nima?",
+        "options": [
+            "Funksiyaning o'z-o'zini chaqirishi",
+            "Loop-ni to'xtatish",
+            "O'zgaruvchini qayta e'lon qilish",
+            "Global xato"
+        ],
+        "correctAnswer": "Funksiyaning o'z-o'zini chaqirishi"
+    },
+    {
+        "id": 57,
+        "subjectKey": "javascript",
+        "text": "Prototype chain (Prototip zanjiri) oxiri nima bilan tugaydi?",
+        "options": ["null", "undefined", "Object.prototype", "NaN"],
+        "correctAnswer": "null"
+    },
+    {
+        "id": 58,
+        "subjectKey": "javascript",
+        "text": "Fetch API va XMLHttpRequest orasidagi farq nimada?",
+        "options": [
+            "Fetch zamonaviy, Promise-ga asoslangan va sintaksisi osonroq",
+            "XMLHttpRequest tezroq ishlaydi",
+            "Fetch faqat mahalliy fayllar uchun",
+            "Hech qanday farqi yo'q"
+        ],
+        "correctAnswer": "Fetch zamonaviy, Promise-ga asoslangan va sintaksisi osonroq"
+    },
+    {
+        "id": 59,
+        "subjectKey": "javascript",
+        "text": "Class-larda 'constructor' nima vazifani bajaradi?",
+        "options": [
+            "Class-dan yangi nusxa (instance) olinganda birinchi bo'lib ishga tushadigan metod",
+            "Kodni o'chirish uchun",
+            "Faqat o'zgaruvchilarni saqlash uchun",
+            "Statik metodlarni chaqirish uchun"
+        ],
+        "correctAnswer": "Class-dan yangi nusxa (instance) olinganda birinchi bo'lib ishga tushadigan metod"
+    },
+    {
+        "id": 60,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'Unary plus' (+) operatori o'zgaruvchi oldidan kelsa nima qiladi?",
+        "options": [
+            "Qiymatni 'Number' turiga aylantirishga harakat qiladi",
+            "Qiymatni ikki barobar oshiradi",
+            "Qiymatni musbat qiladi",
+            "Xato beradi"
+        ],
+        "correctAnswer": "Qiymatni 'Number' turiga aylantirishga harakat qiladi"
+    },
+    {
+        "id": 61,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'Race Condition' nima?",
+        "options": [
+            "Ikki asinxron amalning qaysi biri birinchi tugashiga qarab natijaning o'zgarishi",
+            "Kodni tezroq yozish musobaqasi",
+            "Loopning juda tez aylanishi",
+            "Xotiraning to'lib qolishi"
+        ],
+        "correctAnswer": "Ikki asinxron amalning qaysi biri birinchi tugashiga qarab natijaning o'zgarishi"
+    },
+    {
+        "id": 62,
+        "subjectKey": "javascript",
+        "text": "Promise.all() va Promise.allSettled() orasidagi farq nima?",
+        "options": [
+            "Promise.all() bitta xato bo'lsa ham to'xtaydi, allSettled() esa barcha natijalarni kutadi",
+            "Farqi yo'q",
+            "allSettled() tezroq ishlaydi",
+            "Promise.all() faqat massivlar bilan ishlaydi"
+        ],
+        "correctAnswer": "Promise.all() bitta xato bo'lsa ham to'xtaydi, allSettled() esa barcha natijalarni kutadi"
+    },
+    {
+        "id": 63,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'Memory Leak' (Xotira oqishi) nima?",
+        "options": [
+            "Xotiraning noto'g'ri o'chirilishi",
+            "Keraksiz ma'lumotlarning xotirada qolib ketishi va uni to'ldirib yuborishi",
+            "RAMning tez ishlashi",
+            "Internet tezligining pasayishi"
+        ],
+        "correctAnswer": "Keraksiz ma'lumotlarning xotirada qolib ketishi va uni to'ldirib yuborishi"
+    },
+    {
+        "id": 64,
+        "subjectKey": "javascript",
+        "text": "Object.create(null) nima yaratadi?",
+        "options": [
+            "Bo'sh massiv",
+            "Hech qanday prototipga (prototype) ega bo'lmagan mutlaqo bo'sh obyekt",
+            "Xato beradi",
+            "Undefined qaytaradi"
+        ],
+        "correctAnswer": "Hech qanday prototipga (prototype) ega bo'lmagan mutlaqo bo'sh obyekt"
+    },
+    {
+        "id": 65,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'Engine' va 'Runtime' farqi nimada?",
+        "options": [
+            "Engine (V8) kodni o'qiydi, Runtime (Brauzer/Node) unga tashqi imkoniyatlarni (API) beradi",
+            "Ikkalasi bir narsa",
+            "Runtime faqat serverda ishlaydi",
+            "Engine faqat CSS-ni tushunadi"
+        ],
+        "correctAnswer": "Engine (V8) kodni o'qiydi, Runtime (Brauzer/Node) unga tashqi imkoniyatlarni (API) beradi"
+    },
+    {
+        "id": 66,
+        "subjectKey": "javascript",
+        "text": "WeakSet nima va u Set-dan nimasi bilan farq qiladi?",
+        "options": [
+            "WeakSet-da faqat obyektlar saqlanadi va ular Garbage Collector tomonidan o'chirilishi mumkin",
+            "WeakSet-da sonlar saqlanadi",
+            "WeakSet massivga oson aylanadi",
+            "Hech qanday farqi yo'q"
+        ],
+        "correctAnswer": "WeakSet-da faqat obyektlar saqlanadi va ular Garbage Collector tomonidan o'chirilishi mumkin"
+    },
+    {
+        "id": 67,
+        "subjectKey": "javascript",
+        "text": "Currying qaysi tushunchaga asoslanadi?",
+        "options": [
+            "Hoisting",
+            "Closures (Yopilish)",
+            "Recursion",
+            "Prototypes"
+        ],
+        "correctAnswer": "Closures (Yopilish)"
+    },
+    {
+        "id": 68,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'Strict mode'da 'this' qiymati funksiya ichida nima bo'ladi?",
+        "options": [
+            "window (global object)",
+            "undefined",
+            "null",
+            "Bo'sh obyekt"
+        ],
+        "correctAnswer": "undefined"
+    },
+    {
+        "id": 69,
+        "subjectKey": "javascript",
+        "text": "Qaysi operator 'Deep Freeze' vazifasini bajaradi?",
+        "options": [
+            "Object.freeze()",
+            "JS-da tayyor 'Deep Freeze' yo'q, uni rekursiv yozish kerak",
+            "Object.seal()",
+            "Object.lock()"
+        ],
+        "correctAnswer": "JS-da tayyor 'Deep Freeze' yo'q, uni rekursiv yozish kerak"
+    },
+    {
+        "id": 70,
+        "subjectKey": "javascript",
+        "text": "Array.prototype.flat() metodi nima qiladi?",
+        "options": [
+            "Ichma-ich joylashgan massivlarni bitta qatlamga yoyib beradi",
+            "Massivni saralaydi",
+            "Massivni teskari qiladi",
+            "Massivni o'chiradi"
+        ],
+        "correctAnswer": "Ichma-ich joylashgan massivlarni bitta qatlamga yoyib beradi"
+    },
+    {
+        "id": 71,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'Composition' va 'Inheritance' farqi nimada?",
+        "options": [
+            "Inheritance (Meros) 'is-a' (kimdir bo'lish), Composition 'has-a' (nimadirga ega bo'lish) munosabati",
+            "Ikkalasi ham bir xil narsa",
+            "Composition faqat class-larda ishlaydi",
+            "Inheritance faqat obyektlarda ishlaydi"
+        ],
+        "correctAnswer": "Inheritance (Meros) 'is-a' (kimdir bo'lish), Composition 'has-a' (nimadirga ega bo'lish) munosabati"
+    },
+    {
+        "id": 72,
+        "subjectKey": "javascript",
+        "text": "Error Handling-da 'finally' bloki qachon ishlaydi?",
+        "options": [
+            "Faqat xato bo'lganda",
+            "Faqat xato bo'lmaganda",
+            "Xato bo'lishi yoki bo'lmasligidan qat'iy nazar har doim",
+            "Hech qachon ishlamaydi"
+        ],
+        "correctAnswer": "Xato bo'lishi yoki bo'lmasligidan qat'iy nazar har doim"
+    },
+    {
+        "id": 73,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'Infinite Scroll' yaratishda qaysi API eng qulay?",
+        "options": [
+            "Intersection Observer API",
+            "Timeout API",
+            "History API",
+            "Storage API"
+        ],
+        "correctAnswer": "Intersection Observer API"
+    },
+    {
+        "id": 74,
+        "subjectKey": "javascript",
+        "text": "Web Worker-lar nima uchun kerak?",
+        "options": [
+            "JavaScript-ni asosiy thread-dan (UI) ajratib, fonda (background) og'ir hisoblashlarni bajarish uchun",
+            "Dizaynni yaxshilash uchun",
+            "Brauzerni yopish uchun",
+            "Faqat CSS o'qish uchun"
+        ],
+        "correctAnswer": "JavaScript-ni asosiy thread-dan (UI) ajratib, fonda (background) og'ir hisoblashlarni bajarish uchun"
+    },
+    {
+        "id": 75,
+        "subjectKey": "javascript",
+        "text": "Object.assign() va Spread (...) orasidagi farq nima?",
+        "options": [
+            "Spread yangi obyekt yaratadi, Object.assign esa birinchi obyektni o'zgartirishi (mutate) mumkin",
+            "Farqi yo'q",
+            "Object.assign tezroq",
+            "Spread faqat massivda ishlaydi"
+        ],
+        "correctAnswer": "Spread yangi obyekt yaratadi, Object.assign esa birinchi obyektni o'zgartirishi (mutate) mumkin"
+    },
+    {
+        "id": 76,
+        "subjectKey": "javascript",
+        "text": "Temporal Dead Zone (TDZ) qachon tugaydi?",
+        "options": [
+            "O'zgaruvchi e'lon qilingan (declaration) satrga yetib kelganda",
+            "Dastur tugaganda",
+            "Funksiya chaqirilganda",
+            "Xatolik chiqqanda"
+        ],
+        "correctAnswer": "O'zgaruvchi e'lon qilingan (declaration) satrga yetib kelganda"
+    },
+    {
+        "id": 77,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'First-class functions' nima degani?",
+        "options": [
+            "Funksiyalar boshqa o'zgaruvchilar kabi muomalada bo'lishi (argument bo'lishi, qaytarilishi)",
+            "Eng zo'r funksiyalar",
+            "Faqat birinchi qatorda yoziladigan funksiyalar",
+            "Matematik funksiyalar"
+        ],
+        "correctAnswer": "Funksiyalar boshqa o'zgaruvchilar kabi muomalada bo'lishi (argument bo'lishi, qaytarilishi)"
+    },
+    {
+        "id": 78,
+        "subjectKey": "javascript",
+        "text": "Pure Function bo'lishi uchun qaysi shart bajarilishi kerak?",
+        "options": [
+            "Side effect (tashqi ta'sir) bo'lmasligi kerak",
+            "Faqat sonlar bilan ishlashi kerak",
+            "Kamida 10 qator bo'lishi kerak",
+            "Global o'zgaruvchini o'zgartirishi kerak"
+        ],
+        "correctAnswer": "Side effect (tashqi ta'sir) bo'lmasligi kerak"
+    },
+    {
+        "id": 79,
+        "subjectKey": "javascript",
+        "text": "Symbol.iterator nima uchun ishlatiladi?",
+        "options": [
+            "Obyektni 'iterable' (aylanuvchi) qilish va for...of loop-da ishlatish imkonini berish uchun",
+            "ID yaratish uchun",
+            "Sonlarni qo'shish uchun",
+            "Funksiyani to'xtatish uchun"
+        ],
+        "correctAnswer": "Obyektni 'iterable' (aylanuvchi) qilish va for...of loop-da ishlatish imkonini berish uchun"
+    },
+    {
+        "id": 80,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'Microtask Queue' Macrotaskdan oldin bajarilishini kim nazorat qiladi?",
+        "options": [
+            "Event Loop",
+            "Garbage Collector",
+            "Compiler",
+            "JIT engine"
+        ],
+        "correctAnswer": "Event Loop"
+    },
+    {
+        "id": 81,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'Shallow Freeze' va 'Deep Freeze' farqi nimada?",
+        "options": [
+            "Farqi yo'q",
+            "Shallow faqat birinchi qatlamni muzlatadi, Deep esa barcha ichki obyektlarni rekursiv muzlatadi",
+            "Shallow faqat massivlar uchun",
+            "Deep Freeze faqat xotirani tozalaydi"
+        ],
+        "correctAnswer": "Shallow faqat birinchi qatlamni muzlatadi, Deep esa barcha ichki obyektlarni rekursiv muzlatadi"
+    },
+    {
+        "id": 82,
+        "subjectKey": "javascript",
+        "text": "V8 Engine-da 'Hidden Classes' nima uchun ishlatiladi?",
+        "options": [
+            "Obyektlarga kirishni optimallashtirish va tezlashtirish uchun",
+            "Kodni yashirish uchun",
+            "Xavfsizlikni ta'minlash uchun",
+            "CSS-ni o'qish uchun"
+        ],
+        "correctAnswer": "Obyektlarga kirishni optimallashtirish va tezlashtirish uchun"
+    },
+    {
+        "id": 83,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'Side Effects' nima?",
+        "options": [
+            "Funksiya o'zidan tashqaridagi holatni (state) o'zgartirishi (masalan, global o'zgaruvchini)",
+            "Funksiya sekin ishlashi",
+            "Ekran rangining o'zgarishi",
+            "Xatolik yuz berishi"
+        ],
+        "correctAnswer": "Funksiya o'zidan tashqaridagi holatni (state) o'zgartirishi (masalan, global o'zgaruvchini)"
+    },
+    {
+        "id": 84,
+        "subjectKey": "javascript",
+        "text": "XSS (Cross-Site Scripting) hujumidan JavaScript-da qanday himoyalanish mumkin?",
+        "options": [
+            "Faqat HTTPS ishlatish orqali",
+            "Foydalanuvchi kiritgan ma'lumotlarni sanitizatsiya qilish va innerHTML o'rniga textContent ishlatish orqali",
+            "Brauzerni yangilash orqali",
+            "Kodni shifrlash orqali"
+        ],
+        "correctAnswer": "Foydalanuvchi kiritgan ma'lumotlarni sanitizatsiya qilish va innerHTML o'rniga textContent ishlatish orqali"
+    },
+    {
+        "id": 85,
+        "subjectKey": "javascript",
+        "text": "AbortController nima uchun ishlatiladi?",
+        "options": [
+            "Fetch so'rovlarini yoki asinxron amallarni yarim yo'lda to'xtatish uchun",
+            "Loopni to'xtatish uchun",
+            "Brauzerni yopish uchun",
+            "Xotirani o'chirish uchun"
+        ],
+        "correctAnswer": "Fetch so'rovlarini yoki asinxron amallarni yarim yo'lda to'xtatish uchun"
+    },
+    {
+        "id": 86,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'Pipe' va 'Compose' funksiyalarining farqi nimada?",
+        "options": [
+            "Pipe chapdan o'ngga, Compose esa o'ngdan chapga funksiyalarni ketma-ket bajaradi",
+            "Farqi yo'q",
+            "Pipe faqat sonlar bilan ishlaydi",
+            "Compose faqat massivlarni birlashtiradi"
+        ],
+        "correctAnswer": "Pipe chapdan o'ngga, Compose esa o'ngdan chapga funksiyalarni ketma-ket bajaradi"
+    },
+    {
+        "id": 87,
+        "subjectKey": "javascript",
+        "text": "Obyekt ichidagi xususiyatni o'chirish uchun 'delete' o'rniga nima ishlatish tavsiya etiladi (Performance uchun)?",
+        "options": [
+            "O'sha xususiyatni undefined-ga tenglash",
+            "O'sha xususiyatni null-ga tenglash",
+            "Destructuring yordamida yangi obyekt yaratish",
+            "Hech narsa o'zgartirmaslik"
+        ],
+        "correctAnswer": "Destructuring yordamida yangi obyekt yaratish"
+    },
+    {
+        "id": 88,
+        "subjectKey": "javascript",
+        "text": "MutationObserver API nima vazifani bajaradi?",
+        "options": [
+            "DOM daraxtidagi o'zgarishlarni (element qo'shilishi, atribut o'zgarishi) kuzatish uchun",
+            "Massivni o'zgartirish uchun",
+            "Local storageni kuzatish uchun",
+            "Faqat CSS o'zgarishlari uchun"
+        ],
+        "correctAnswer": "DOM daraxtidagi o'zgarishlarni (element qo'shilishi, atribut o'zgarishi) kuzatish uchun"
+    },
+    {
+        "id": 89,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'Double Not' (!!) operatori nima qiladi?",
+        "options": [
+            "Qiymatni 'Boolean' turiga o'tkazadi",
+            "Qiymatni ikkiga ko'paytiradi",
+            "Qiymatni inkor qiladi",
+            "Xato beradi"
+        ],
+        "correctAnswer": "Qiymatni 'Boolean' turiga o'tkazadi"
+    },
+    {
+        "id": 90,
+        "subjectKey": "javascript",
+        "text": "StructuredClone() funksiyasi nima uchun kerak?",
+        "options": [
+            "Obyektlarni chuqur nusxalash (deep clone) uchun zamonaviy va tezkor usul",
+            "Obyektlarni tartiblash uchun",
+            "Massivlarni birlashtirish uchun",
+            "Stringni bo'laklash uchun"
+        ],
+        "correctAnswer": "Obyektlarni chuqur nusxalash (deep clone) uchun zamonaviy va tezkor usul"
+    },
+    {
+        "id": 91,
+        "subjectKey": "javascript",
+        "text": "V8-da 'JIT (Just-In-Time) Compilation' nima?",
+        "options": [
+            "Kodni bajarish vaqtida uni tezkor mashina kodiga o'tkazish jarayoni",
+            "Kodni oldindan yozish",
+            "Faqat HTML-ni tushunish",
+            "Xatolarni topish"
+        ],
+        "correctAnswer": "Kodni bajarish vaqtida uni tezkor mashina kodiga o'tkazish jarayoni"
+    },
+    {
+        "id": 92,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'Reflect' API nima uchun ishlatiladi?",
+        "options": [
+            "Proxy bilan birga ishlatilib, obyektlar ustidagi amallarni standartlashtirish uchun",
+            "Rasmlarni ko'rsatish uchun",
+            "Xotirani o'lchash uchun",
+            "Dizaynni aks ettirish uchun"
+        ],
+        "correctAnswer": "Proxy bilan birga ishlatilib, obyektlar ustidagi amallarni standartlashtirish uchun"
+    },
+    {
+        "id": 93,
+        "subjectKey": "javascript",
+        "text": "Referential Integrity nima?",
+        "options": [
+            "Obyektlarning xotiradagi bir xil manzilga (reference) yo'naltirilganligi",
+            "Dasturning xatosizligi",
+            "Global o'zgaruvchilar nomi",
+            "Massiv uzunligi"
+        ],
+        "correctAnswer": "Obyektlarning xotiradagi bir xil manzilga (reference) yo'naltirilganligi"
+    },
+    {
+        "id": 94,
+        "subjectKey": "javascript",
+        "text": "Web Crypto API nima vazifani bajaradi?",
+        "options": [
+            "Brauzerda kriptografik amallarni (shifrlash, imzolash) bajarish uchun",
+            "Kriptovalyuta sotib olish uchun",
+            "Parollarni yashirish uchun",
+            "Faqat serverda ishlaydi"
+        ],
+        "correctAnswer": "Brauzerda kriptografik amallarni (shifrlash, imzolash) bajarish uchun"
+    },
+    {
+        "id": 95,
+        "subjectKey": "javascript",
+        "text": "Service Worker va oddiy Web Worker orasidagi asosiy farq nima?",
+        "options": [
+            "Service Worker tarmoq so'rovlarini tutib oladi va keshlaydi (Offline ishlaydi)",
+            "Web Worker tezroq",
+            "Farqi yo'q",
+            "Service Worker faqat CSS o'qiydi"
+        ],
+        "correctAnswer": "Service Worker tarmoq so'rovlarini tutib oladi va keshlaydi (Offline ishlaydi)"
+    },
+    {
+        "id": 96,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'Module Pattern' nima?",
+        "options": [
+            "Kodni yopiq (private) va ochiq (public) qismlarga ajratish uchun ishlatiladigan dizayn pattern",
+            "Faqat fayllarni ulash",
+            "Massivni bo'lish",
+            "O'zgaruvchini o'chirish"
+        ],
+        "correctAnswer": "Kodni yopiq (private) va ochiq (public) qismlarga ajratish uchun ishlatiladigan dizayn pattern"
+    },
+    {
+        "id": 97,
+        "subjectKey": "javascript",
+        "text": "In-operatori obyektda nimani tekshiradi?",
+        "options": [
+            "Kalit (key) obyekt ichida bor yoki yo'qligini (meros olinganlarni ham)",
+            "Qiymatni tekshiradi",
+            "Faqat o'ziga tegishli kalitlarni",
+            "O'zgaruvchi turini"
+        ],
+        "correctAnswer": "Kalit (key) obyekt ichida bor yoki yo'qligini (meros olinganlarni ham)"
+    },
+    {
+        "id": 98,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'Label' (Etiketka) ishlatish mumkinmi?",
+        "options": [
+            "Ha, looplarni ichma-ich ishlatganda ularni boshqarish uchun (masalan, break labelName)",
+            "Yo'q, faqat HTML-da",
+            "Faqat class ichida",
+            "Faqat CSS-da"
+        ],
+        "correctAnswer": "Ha, looplarni ichma-ich ishlatganda ularni boshqarish uchun (masalan, break labelName)"
+    },
+    {
+        "id": 99,
+        "subjectKey": "javascript",
+        "text": "Promise.any() nima qaytaradi?",
+        "options": [
+            "Birinchi bo'lib muvaffaqiyatli (fulfilled) bo'lgan Promiseni",
+            "Barcha Promiselarni",
+            "Faqat xato bo'lganlarni",
+            "Eng oxirgi Promiseni"
+        ],
+        "correctAnswer": "Birinchi bo'lib muvaffaqiyatli (fulfilled) bo'lgan Promiseni"
+    },
+    {
+        "id": 100,
+        "subjectKey": "javascript",
+        "text": "JavaScript-da 'Tail Call Optimization' (TCO) qaysi turdagi funksiyalar uchun amal qiladi?",
+        "options": [
+            "Rekursiv funksiyalar",
+            "Asinxron funksiyalar",
+            "Global funksiyalar",
+            "Static metodlar"
+        ],
+        "correctAnswer": "Rekursiv funksiyalar"
+    }
+]
