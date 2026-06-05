@@ -4,16 +4,20 @@ import * as fs from "fs";
 import * as path from "path";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
+const isLocal =
+    !process.env.DATABASE_URL || process.env.DATABASE_URL.includes("localhost");
 
 const client = new Client({
-    user: "postgres",
-    host: "127.0.0.1",
-    database: "template1",
-    password: "postgres",
-    port: 5432,
+    connectionString:
+        process.env.DATABASE_URL ||
+        "postgresql://postgres:postgres@127.0.0.1:5432/template1",
+    ssl: isLocal ? false : { rejectUnauthorized: false },
 });
 
 async function importQuestions() {
@@ -25,12 +29,12 @@ async function importQuestions() {
 
         const dataDir = __dirname;
         const files = [
-            { name: "javascript-question.json", category: "JavaScript" },
-            { name: "math-question.json", category: "Math" },
-            { name: "phyton-question.json", category: "Python" },
-            { name: "java-question.json", category: "Java" },
-            { name: "c++-question.json", category: "C++" },
-            { name: "php-question.json", category: "PHP" },
+            { name: "javascript-question.json", category: "javascript" },
+            { name: "math-question.json", category: "math" },
+            { name: "phyton-question.json", category: "python" },
+            { name: "java-question.json", category: "java" },
+            { name: "c++-question.json", category: "cpp" },
+            { name: "php-question.json", category: "php" },
         ];
 
         let totalInserted = 0;
