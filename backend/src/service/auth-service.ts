@@ -3,16 +3,21 @@ import pkg from "pg";
 const { Pool } = pkg;
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
+import dotenv from "dotenv";
+
+dotenv.config();
+
+const isLocal =
+    !process.env.DATABASE_URL || process.env.DATABASE_URL.includes("localhost");
 
 const pool = new Pool({
-    user: "postgres",
-    host: "localhost",
-    database: "template1",
-    password: "postgres",
-    port: 5432,
+    connectionString:
+        process.env.DATABASE_URL ||
+        "postgresql://postgres:postgres@127.0.0.1:5432/template1",
+    ssl: isLocal ? false : { rejectUnauthorized: false },
 });
 
-const JWT_SECRET = process.env.JWT_SECRET || "juda_maxfiy_kalit";
+const JWT_SECRET = process.env.JWT_SECRET || "Eli9391383$";
 
 export class AuthService {
     private saltRounds = 10;
