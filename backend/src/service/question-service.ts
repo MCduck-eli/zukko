@@ -1,11 +1,16 @@
 import { Client } from "pg";
+import dotenv from "dotenv";
+
+dotenv.config();
+
+const isLocal =
+    !process.env.DATABASE_URL || process.env.DATABASE_URL.includes("localhost");
 
 const client = new Client({
-    user: "postgres",
-    host: "localhost",
-    database: "template1",
-    password: "postgres",
-    port: 5432,
+    connectionString:
+        process.env.DATABASE_URL ||
+        "postgresql://postgres:postgres@127.0.0.1:5432/template1",
+    ssl: isLocal ? false : { rejectUnauthorized: false },
 });
 
 client.connect();
