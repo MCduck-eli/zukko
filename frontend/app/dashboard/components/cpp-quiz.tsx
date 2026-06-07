@@ -18,8 +18,7 @@ export default function CppQuiz() {
 
     useEffect(() => {
         const getCppQuestions = async () => {
-            const targetUrl =
-                "http://localhost:3001/api/questions?category=cpp&limit=10";
+            const targetUrl = `${process.env.NEXT_PUBLIC_API_URL}/questions?category=cpp&limit=10`;
             console.log("🚀 So'rov yuborilmoqda, manzil:", targetUrl);
 
             try {

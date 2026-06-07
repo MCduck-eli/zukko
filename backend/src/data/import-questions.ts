@@ -24,6 +24,18 @@ async function importQuestions() {
     try {
         await client.connect();
         console.log("✅ Bazaga ulanish hosil qilindi.");
+
+        console.log("🛠️ 'questions' jadvali tekshirilmoqda/yaratilmoqda...");
+        await client.query(`
+            CREATE TABLE IF NOT EXISTS questions (
+                id SERIAL PRIMARY KEY,
+                title TEXT NOT NULL,
+                options JSONB NOT NULL,
+                answer TEXT NOT NULL,
+                category TEXT NOT NULL
+            );
+        `);
+
         console.log("🗑️ Eski savollar tozalanmoqda...");
         await client.query("DELETE FROM questions");
 

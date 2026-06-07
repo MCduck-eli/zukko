@@ -31,7 +31,7 @@ export default function AuthSpaceModal({
         setErrorMessage("");
 
         try {
-            const API_URL = process.env.NEXT_PUBLIC_PORT;
+            const API_URL = process.env.NEXT_PUBLIC_API_URL;
             const endpoint = isLogin ? "/auth/login" : "/auth/register";
 
             const response = await fetch(`${API_URL}${endpoint}`, {

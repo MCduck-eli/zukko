@@ -22,7 +22,9 @@ export default function TestPage() {
 
     useEffect(() => {
         if (!subjectKey) return;
-        fetch(`http://127.0.0.1:3001/api/questions?category=${subjectKey}`)
+        fetch(
+            `${process.env.NEXT_PUBLIC_API_URL}/questions?category=${subjectKey}`,
+        )
             .then((res) => {
                 if (!res.ok)
                     throw new Error("Savollarni yuklashda xatolik yuz berdi");
