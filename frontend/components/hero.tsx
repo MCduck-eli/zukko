@@ -1,15 +1,19 @@
 "use client";
 
 import { motion, useScroll, useTransform, useSpring } from "framer-motion";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import { Sparkles, BrainCircuit, Rocket } from "lucide-react";
 import "../i18n";
+import AuthSpaceModal from "@/app/auth/authmodal";
+import AboutModal from "@/components/about-modal";
 
 export default function HeroSection() {
     const { t } = useTranslation();
     const containerRef = useRef(null);
+    const [isAuthOpen, setIsAuthOpen] = useState(false);
+    const [isAboutOpen, setIsAboutOpen] = useState(false);
 
     const { scrollYProgress } = useScroll({
         target: containerRef,
@@ -122,6 +126,7 @@ export default function HeroSection() {
                 >
                     <Button
                         size="lg"
+                        onClick={() => setIsAuthOpen(true)}
                         className="group bg-white text-black hover:bg-slate-200 rounded-md px-10 h-12 text-sm font-semibold transition-all w-full sm:w-auto"
                     >
                         <span className="flex items-center gap-2">
@@ -136,6 +141,7 @@ export default function HeroSection() {
                     <Button
                         size="lg"
                         variant="outline"
+                        onClick={() => setIsAboutOpen(true)}
                         className="rounded-md border-white/20 bg-white/5 text-white hover:bg-white/10 px-10 h-12 text-sm backdrop-blur-sm transition-all hover:text-white w-full sm:w-auto"
                     >
                         <span className="flex items-center gap-2">
@@ -149,6 +155,16 @@ export default function HeroSection() {
             <div className="absolute bottom-10 w-full flex justify-center opacity-20">
                 <div className="w-64 h-px bg-linear-to-r from-transparent via-cyan-500 to-transparent" />
             </div>
+
+            <AuthSpaceModal
+                isOpen={isAuthOpen}
+                onClose={() => setIsAuthOpen(false)}
+            />
+            <AboutModal
+                isOpen={isAboutOpen}
+                onClose={() => setIsAboutOpen(false)}
+                t={t}
+            />
         </div>
     );
 }

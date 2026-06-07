@@ -85,5 +85,13 @@
     "subject_psychology_title": "Psixologiya",
     "subject_philosophy_title": "Falsafa",
     "subject_photography_title": "Fotosurat san'ati",
-    "subject_logistics_title": "Logistika"
+    "subject_logistics_title": "Logistika",
+    "auth_full_name": "To'liq ism",
+    "about_title": "Loyiha Haqida",
+    "about_feature1_title": "Davlat Testlari Standarti",
+    "about_feature1_desc": "Platformamizda barcha kasb egalari uchun maxsus ishlab chiqilgan, aniq va mukammal saralash imtihonlari mavjud. Har bir savol davlat testlari darajasi va talablariga to'liq mos keladi.",
+    "about_feature2_title": "Sun'iy Intellekt (AI) Nazorati",
+    "about_feature2_desc": "Test jarayonida aqlli AI proktorlik tizimi ishlaydi. Agar foydalanuvchi imtihonda xatolikka yo'l qo'ysa yoki qiyinchilikka duch kelsa, sun'iy intellekt buni darhol nazorat qilib, aynan qaysi mavzu va bo'limlar ustida ko'proq ishlash kerakligini individual tahlil qilib, aytib beradi.",
+    "about_feature3_title": "Next-Gen Proctoring",
+    "about_feature3_desc": "Zukko — shunchaki test topshirish platformasi emas, u sizning haqiqiy bilim darajangizni xolis baholaydigan va kamchiliklaringizni to'ldirishga yordam beradigan eng mukammal yordamchingizdir."
 }

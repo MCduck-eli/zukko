@@ -86,21 +86,23 @@ export default function RegisterModal({
                     />
                 </div>
 
-                <div className="relative">
-                    <FaLock className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-600 text-xs" />
-                    <input
-                        type="password"
-                        required
-                        placeholder={t("auth_password")}
-                        className="w-full bg-white/5 border border-white/10 rounded-xl py-3 pl-10 pr-4 text-sm text-white focus:border-orange-500/50 outline-none"
-                        value={formData.password}
-                        onChange={(e) =>
-                            setFormData({
-                                ...formData,
-                                password: e.target.value,
-                            })
-                        }
-                    />
+                <div>
+                    <div className="relative">
+                        <FaLock className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-600 text-xs" />
+                        <input
+                            type="password"
+                            required
+                            placeholder={t("auth_password")}
+                            className="w-full bg-white/5 border border-white/10 rounded-xl py-3 pl-10 pr-4 text-sm text-white focus:border-orange-500/50 outline-none"
+                            value={formData.password}
+                            onChange={(e) =>
+                                setFormData({
+                                    ...formData,
+                                    password: e.target.value,
+                                })
+                            }
+                        />
+                    </div>
                     <DifficultPassword
                         strength={strength}
                         formData={formData}

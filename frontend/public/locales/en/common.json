@@ -95,5 +95,13 @@
     "subject_psychology_title": "Psychology",
     "subject_philosophy_title": "Philosophy",
     "subject_photography_title": "Photography",
-    "subject_logistics_title": "Logistics"
+    "subject_logistics_title": "Logistics",
+    "auth_full_name": "Full Name",
+    "about_title": "About Project",
+    "about_feature1_title": "State Test Standards",
+    "about_feature1_desc": "Our platform offers precise and perfect screening exams specially designed for all professions. Each question fully complies with the level and requirements of state examinations.",
+    "about_feature2_title": "Artificial Intelligence (AI) Control",
+    "about_feature2_desc": "An intelligent AI proctoring system operates during the testing process. If a user makes a mistake or faces difficulties, the AI immediately monitors it and provides an individual analysis, indicating exactly which topics and sections need more study.",
+    "about_feature3_title": "Next-Gen Proctoring",
+    "about_feature3_desc": "Zukko is not just a test-taking platform; it is your ultimate assistant that objectively evaluates your true level of knowledge and helps you fill in the gaps."
 }
