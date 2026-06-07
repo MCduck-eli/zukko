@@ -19,6 +19,7 @@ export const registerController = async (
             });
             return;
         }
+        console.error("LOGINDA ANIQ XATOLIK:", error);
         res.status(500).json({ message: "Serverda xatolik yuz berdi" });
     }
 };
@@ -40,6 +41,7 @@ export const loginController = async (
             token: result.token,
         });
     } catch (error) {
+        console.error("LOGINDA ANIQ XATOLIK:", error);
         res.status(500).json({ message: "Serverda xatolik yuz berdi" });
     }
 };
