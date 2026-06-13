@@ -4,6 +4,9 @@ import "./globals.css";
 import { Navbar } from "@/components/shared/navbar";
 import GlobalSpaceFooter from "@/components/shared/footer";
 import "katex/dist/katex.min.css";
+import { ClerkProvider } from "@clerk/nextjs";
+import { Suspense } from "react";
+import LayoutLoaderHandler from "@/components/shared/layout-loader-handler";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -26,15 +29,20 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html
-            lang="en"
-            className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-        >
-            <body className="min-h-full flex flex-col">
-                <Navbar />
-                {children}
-                <GlobalSpaceFooter />
-            </body>
-        </html>
+        <ClerkProvider>
+            <html
+                lang="en"
+                className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+            >
+                <body className="min-h-full flex flex-col">
+                    <Suspense fallback={null}>
+                        <LayoutLoaderHandler />
+                    </Suspense>
+                    <Navbar />
+                    {children}
+                    <GlobalSpaceFooter />
+                </body>
+            </html>
+        </ClerkProvider>
     );
 }

@@ -32,6 +32,7 @@ export default function RegisterModal({
     status,
 }: RegisterModalProps) {
     const strength = getStrength(formData.password);
+    const isInteractionDisabled = status === "loading" || status === "success";
 
     return (
         <>
@@ -52,10 +53,11 @@ export default function RegisterModal({
                                 <input
                                     type="text"
                                     required
+                                    disabled={isInteractionDisabled}
                                     placeholder={
                                         t("auth_full_name") || "Full Name"
                                     }
-                                    className="w-full bg-white/5 border border-white/10 rounded-xl py-3 pl-10 pr-4 text-sm text-white focus:border-orange-500/50 outline-none"
+                                    className="w-full bg-white/5 border border-white/10 rounded-xl py-3 pl-10 pr-4 text-sm text-white focus:border-orange-500/50 outline-none disabled:opacity-50"
                                     value={formData.fullName}
                                     onChange={(e) =>
                                         setFormData({
@@ -74,8 +76,9 @@ export default function RegisterModal({
                     <input
                         type="email"
                         required
+                        disabled={isInteractionDisabled}
                         placeholder={t("auth_email")}
-                        className="w-full bg-white/5 border border-white/10 rounded-xl py-3 pl-10 pr-4 text-sm text-white focus:border-orange-500/50 outline-none"
+                        className="w-full bg-white/5 border border-white/10 rounded-xl py-3 pl-10 pr-4 text-sm text-white focus:border-orange-500/50 outline-none disabled:opacity-50"
                         value={formData.email}
                         onChange={(e) =>
                             setFormData({
@@ -92,8 +95,9 @@ export default function RegisterModal({
                         <input
                             type="password"
                             required
+                            disabled={isInteractionDisabled}
                             placeholder={t("auth_password")}
-                            className="w-full bg-white/5 border border-white/10 rounded-xl py-3 pl-10 pr-4 text-sm text-white focus:border-orange-500/50 outline-none"
+                            className="w-full bg-white/5 border border-white/10 rounded-xl py-3 pl-10 pr-4 text-sm text-white focus:border-orange-500/50 outline-none disabled:opacity-50"
                             value={formData.password}
                             onChange={(e) =>
                                 setFormData({
@@ -111,13 +115,13 @@ export default function RegisterModal({
                 </div>
 
                 <button
-                    disabled={status === "loading" || status === "success"}
+                    disabled={isInteractionDisabled}
                     type="submit"
                     className={`w-full py-4 rounded-xl font-bold tracking-widest transition-all uppercase text-xs ${
                         status === "error"
                             ? "bg-red-600 text-white"
                             : "bg-orange-500 text-black hover:bg-orange-400"
-                    } ${status === "loading" ? "opacity-50 cursor-not-allowed" : ""}`}
+                    } ${isInteractionDisabled ? "opacity-50 cursor-not-allowed" : ""}`}
                 >
                     {status === "loading"
                         ? t("auth_btn_loading")

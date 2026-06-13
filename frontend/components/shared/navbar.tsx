@@ -9,14 +9,17 @@ import {
     supportedLanguages,
     type SupportedLanguage,
 } from "../../i18n";
+import { useUser, useClerk } from "@clerk/nextjs";
 import AuthSpaceModal from "@/app/auth/authmodal";
 
 export function Navbar() {
     const { i18n, t } = useTranslation();
+    const { isSignedIn: isClerkSignedIn, user, isLoaded } = useUser();
+    const { signOut, session } = useClerk();
     const [isAuthOpen, setIsAuthOpen] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-    const isLoggedIn = useSyncExternalStore(
+    const isLocalLoggedIn = useSyncExternalStore(
         (onStoreChange) => {
             window.addEventListener("storage", onStoreChange);
             window.addEventListener("auth-change", onStoreChange);
@@ -29,6 +32,57 @@ export function Navbar() {
         () => Boolean(localStorage.getItem("access_token")),
         () => false,
     );
+
+    useEffect(() => {
+        console.log("=== NAV_BAR DEBUG ===");
+        console.log("1. Clerk isLoaded status:", isLoaded);
+        console.log("2. Clerk isClerkSignedIn status:", isClerkSignedIn);
+        console.log("3. localStorage (access_token) status:", isLocalLoggedIn);
+        console.log("4. Current User Data:", user);
+        console.log("=====================");
+    }, [isLoaded, isClerkSignedIn, isLocalLoggedIn, user]);
+
+    useEffect(() => {
+        const syncClerkAuth = async () => {
+            if (isLoaded && isClerkSignedIn && session) {
+                const localToken = localStorage.getItem("access_token");
+                if (!localToken) {
+                    try {
+                        console.log(
+                            "Sinxronizatsiya boshlandi: Clerk orqali token olinmoqda...",
+                        );
+                        const token = await session.getToken();
+                        if (token) {
+                            localStorage.setItem("access_token", token);
+                            if (user) {
+                                localStorage.setItem(
+                                    "user",
+                                    JSON.stringify({
+                                        email: user.primaryEmailAddress
+                                            ?.emailAddress,
+                                        fullName: user.fullName,
+                                        id: user.id,
+                                    }),
+                                );
+                            }
+                            console.log(
+                                "Sinxronizatsiya muvaffaqiyatli: Token va foydalanuvchi ma'lumotlari localStorage'ga yozildi.",
+                            );
+                            window.dispatchEvent(new Event("auth-change"));
+                        }
+                    } catch (err) {
+                        console.error("Clerk token sync error:", err);
+                    }
+                }
+            }
+        };
+
+        syncClerkAuth();
+    }, [isClerkSignedIn, isLoaded, session, user]);
+
+    const isLoggedIn = !isLoaded
+        ? isLocalLoggedIn
+        : isLocalLoggedIn || isClerkSignedIn;
 
     useEffect(() => {
         const savedLanguage = localStorage.getItem(
@@ -61,9 +115,19 @@ export function Navbar() {
         ? (i18n.resolvedLanguage as SupportedLanguage)
         : defaultLanguage;
 
-    const handleLogout = () => {
+    const handleLogout = async () => {
+        console.log("Tizimdan chiqish jarayoni boshlandi...");
         localStorage.removeItem("access_token");
         localStorage.removeItem("user");
+
+        try {
+            if (isClerkSignedIn) {
+                await signOut();
+            }
+        } catch (err) {
+            console.error("Clerk signout error:", err);
+        }
+
         window.dispatchEvent(new Event("auth-change"));
         window.location.href = "/";
     };
@@ -102,7 +166,9 @@ export function Navbar() {
                         ))}
                     </div>
 
-                    {isLoggedIn ? (
+                    {!isLoaded ? (
+                        <div className="w-24 h-9 bg-white/5 border border-white/10 rounded-full animate-pulse" />
+                    ) : isLoggedIn ? (
                         <motion.button
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
@@ -196,7 +262,9 @@ export function Navbar() {
 
                         <div className="h-[1px] bg-white/5 w-full" />
 
-                        {isLoggedIn ? (
+                        {!isLoaded ? (
+                            <div className="w-full h-10 bg-white/5 border border-white/10 rounded-xl animate-pulse" />
+                        ) : isLoggedIn ? (
                             <button
                                 onClick={() => {
                                     handleLogout();
