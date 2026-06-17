@@ -1,0 +1,1192 @@
+[
+    {
+        "id": 1,
+        "subjectKey": "swift",
+        "text": "Swift'da 'struct' (Value Type) va 'class' (Reference Type) o'rtasidagi xotira boshqaruvidagi asosiy farq nimada?",
+        "options": [
+            "Struct'lar asosan Stack'da saqlanadi va nusxalanganda qiymati ko'chiriladi, class'lar esa Heap'da saqlanadi va ARC tomonidan boshqariladi",
+            "Class'lar Stack'da tezkor saqlanadi, struct'lar esa faqat xotira yetishmaganda Heap'ga o'tkaziladi",
+            "Struct'lar ham Heap'da saqlanadi, lekin ularda reference count (havolalar soni) har doim birdan oshmaydi",
+            "Class'lar nusxalanganda ularning nusxasi yangi xotira manziliga to'liq ko'chiriladi, struct'lar esa faqat havola beradi"
+        ],
+        "correctAnswer": "Struct'lar asosan Stack'da saqlanadi va nusxalanganda qiymati ko'chiriladi, class'lar esa Heap'da saqlanadi va ARC tomonidan boshqariladi"
+    },
+    {
+        "id": 2,
+        "subjectKey": "swift",
+        "text": "Swift'da xotirada 'Strong Reference Cycle' (Retain Cycle) muammosini hal qilish uchun nimalardan foydalaniladi?",
+        "options": [
+            "weak yoki unowned kalit so'zlari orqali havolalarni kuchsiz holatga keltirish",
+            "Deinit blokini har bir klass ichida majburiy yozish va xotirani qo'lda bo'shatish",
+            "Klasslarni faqat struct'lar ichida e'lon qilish va ularni static holatga o'tkazish",
+            "Optional zanjirlaridan (?.) foydalanib, obyekt qiymatini doimiy tekshirib turish"
+        ],
+        "correctAnswer": "weak yoki unowned kalit so'zlari orqali havolalarni kuchsiz holatga keltirish"
+    },
+    {
+        "id": 3,
+        "subjectKey": "swift",
+        "text": "Swift'da 'weak' va 'unowned' o'rtasidagi asosiy farq nimada?",
+        "options": [
+            "weak havola qilinayotgan obyekt o'chganda avtomatik 'nil' bo'ladi va har doim Optional bo'ladi, unowned esa obyekt o'chsa ham 'nil' bo'lmaydi va crash'ga olib kelishi mumkin",
+            "unowned havola har doim Optional bo'lishi shart, weak esa faqat o'zgarmas (let) o'zgaruvchilar bilan ishlatiladi",
+            "weak reference count'ni bittaga oshiradi, unowned esa xotiradan joy ajratishni butunlay to'xtatadi",
+            "Ular o'rtasida farq yo'q, ikkalasi ham xotirani bir xil mantiq asosida tozalaydi"
+        ],
+        "correctAnswer": "weak havola qilinayotgan obyekt o'chganda avtomatik 'nil' bo'ladi va har doim Optional bo'ladi, unowned esa obyekt o'chsa ham 'nil' bo'lmaydi va crash'ga olib kelishi mumkin"
+    },
+    {
+        "id": 4,
+        "subjectKey": "swift",
+        "text": "Swift'da 'escaping closure' (@escaping) nimani anglatadi?",
+        "options": [
+            "Closure uni qabul qilgan funksiya bajarilib bo'linganidan keyin ham xotirada saqlanishi va asinxron bajarilishi mumkinligini",
+            "Closure faqat funksiya ichidagina bajarilishini va tashqi o'zgaruvchilarga ta'sir qila olmasligini",
+            "Closure xotiradan zudlik bilan o'chirilishini va unga hech qanday havola saqlanmasligini",
+            "Closure faqat Main Thread'da (asosiy oqimda) sinxron ishlashini kafolatlashini"
+        ],
+        "correctAnswer": "Closure uni qabul qilgan funksiya bajarilib bo'linganidan keyin ham xotirada saqlanishi va asinxron bajarilishi mumkinligini"
+    },
+    {
+        "id": 5,
+        "subjectKey": "swift",
+        "text": "Swift Concurrency'da (async/await) 'Actor' kontseptsiyasining asosiy vazifasi nima?",
+        "options": [
+            "Ma'lumotlarni parallel thread'lar orasida xavfsiz almashish (Data Race muammosini oldini olish) va o'z holatini qulflash",
+            "UI elementlarini (foydalanuvchi interfeysini) fonga o'tkazib, grafikani tezlashtirish",
+            "Klass metodlarini avtomatik ravishda struct metodlariga o'gira olish",
+            "Xotirada eng ko'p joy egallagan obyektlarni aniqlash va ularni majburiy o'chirish"
+        ],
+        "correctAnswer": "Ma'lumotlarni parallel thread'lar orasida xavfsiz almashish (Data Race muammosini oldini olish) va o'z holatini qulflash"
+    },
+    {
+        "id": 6,
+        "subjectKey": "swift",
+        "text": "Swift'da 'computed property' va 'stored property' o'rtasidagi asosiy farq nimada?",
+        "options": [
+            "Stored property qiymatni xotirada saqlaydi, computed property esa har safar murojaat qilinganda qiymatni qayta hisoblaydi (getter/setter)",
+            "Computed property faqat klasslarda ishlaydi, stored property esa faqat struct va enum'lar uchun",
+            "Stored property har doim 'lazy' holatda bo'ladi, computed property esa darhol initsializatsiya qilinadi",
+            "Computed property xotirada doimiy joy egallaydi, stored property esa faqat vaqtinchalik ishlaydi"
+        ],
+        "correctAnswer": "Stored property qiymatni xotirada saqlaydi, computed property esa har safar murojaat qilinganda qiymatni qayta hisoblaydi (getter/setter)"
+    },
+    {
+        "id": 7,
+        "subjectKey": "swift",
+        "text": "Swift'da 'lazy stored property' qachon initsializatsiya qilinadi?",
+        "options": [
+            "Unga birinchi marta murojaat qilinganida (chaqirilganida) xotiradan joy ajratiladi va hisoblanadi",
+            "Klass yoki struct obyekt (instance) yaratilayotgan vaqtning o'zidayoq zudlik bilan",
+            "Dastur ishga tushib, operativ xotiraga (RAM) barcha klasslar yuklanayotgan paytda",
+            "Obyekt deinit bo'lib xotiradan o'chib ketishidan bir oz oldin"
+        ],
+        "correctAnswer": "Unga birinchi marta murojaat qilinganida (chaqirilganida) xotiradan joy ajratiladi va hisoblanadi"
+    },
+    {
+        "id": 8,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Protocol-Oriented Programming' (POP) ning OOP dan asosiy afzalligi nimada?",
+        "options": [
+            "Protocol extension'lar orqali ko'p merosxo'rlik (multiple inheritance) cheklovini aylanib o'tish va value type'larga ham funksionallik qo'shish",
+            "Protokollar faqat klasslar bilan ishlagani uchun dasturning xavfsizlik darajasini oshirishi",
+            "Dasturdagi barcha klasslarni avtomatik tarzda asinxron rejimga o'tkazishi",
+            "Kompilyatsiya vaqtini qisqartirib, barcha obyektlarni xotirada static saqlashi"
+        ],
+        "correctAnswer": "Protocol extension'lar orqali ko'p merosxo'rlik (multiple inheritance) cheklovini aylanib o'tish va value type'larga ham funksionallik qo'shish"
+    },
+    {
+        "id": 9,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Optional' tushunchasi ichki tuzilishiga ko'ra aslida nima?",
+        "options": [
+            "Ikkita variantga (.none va .some) ega bo'lgan va Generic turdagi ma'lumot qabul qiluvchi Enum",
+            "Xotira manzilini yashiruvchi va pointer vazifasini bajaruvchi maxsus Klass",
+            "Faqat struct'lar bilan ishlaydigan va null qiymatni tekshiruvchi Protokol",
+            "Kompilyator darajasidagi vaqtinchalik satrli (String) o'zgaruvchi turi"
+        ],
+        "correctAnswer": "Ikkita variantga (.none va .some) ega bo'lgan va Generic turdagi ma'lumot qabul qiluvchi Enum"
+    },
+    {
+        "id": 10,
+        "subjectKey": "swift",
+        "text": "Swift'da 'mutating' kalit so'zi nima uchun ishlatiladi?",
+        "options": [
+            "Struct yoki enum ichidagi metod o'sha strukturaning o'z xususiyatlarini (properties) o'zgartira olishiga ruxsat berish uchun",
+            "Klass ichidagi metodlarni voris klasslarda butunlay qayta yozishni (override) taqiqlash uchun",
+            "O'zgaruvchini asinxron oqimlar orasida dinamik ravishda o'zgaruvchan (mutable) qilish uchun",
+            "Faqat global o'zgaruvchilar qiymatini xavfsiz shifrlash rejimiga o'tkazish uchun"
+        ],
+        "correctAnswer": "Struct yoki enum ichidagi metod o'sha strukturaning o'z xususiyatlarini (properties) o'zgartira olishiga ruxsat berish uchun"
+    },
+    {
+        "id": 11,
+        "subjectKey": "swift",
+        "text": "Swift'da 'defer' bloki ichidagi kodlar qachon ishga tushadi?",
+        "options": [
+            "Joriy kod bloki (scope yoki funksiya) o'z ishini yakunlab, undan chiqib ketish vaqtida (eng oxirida)",
+            "Funksiya chaqirilgan vaqtning o'zidayoq, eng birinchi bo'lib",
+            "Faqat funksiya ichida xatolik (Error) yuz bergan taqdirdagina",
+            "Dastur fonga (background state) o'tganida xotirani tozalash jarayonida"
+        ],
+        "correctAnswer": "Joriy kod bloki (scope yoki funksiya) o'z ishini yakunlab, undan chiqib ketish vaqtida (eng oxirida)"
+    },
+    {
+        "id": 12,
+        "subjectKey": "swift",
+        "text": "Swift'da 'MainActor' atributi nima vazifani bajaradi?",
+        "options": [
+            "Ungacha bo'lgan yoki u bilan belgilangan kodlar har doim Main Thread'da (asosiy oqimda, UI yangilash uchun) bajarilishini ta'minlaydi",
+            "Klassni loyihadagi eng asosiy boshqaruvchi klass (Singleton) ekanligini belgilaydi",
+            "Fonda (background thread) og'ir matematik hisob-kitoblarni bajarishni buyuradi",
+            "Obyekt xotiradan o'chib ketishini butunlay taqiqlaydi va uni global keshda saqlaydi"
+        ],
+        "correctAnswer": "Ungacha bo'lgan yoki u bilan belgilangan kodlar har doim Main Thread'da (asosiy oqimda, UI yangilash uchun) bajarilishini ta'minlaydi"
+    },
+    {
+        "id": 13,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Generics'da 'where' kalit so'zi nima uchun kerak?",
+        "options": [
+            "Generic tur (T) qaysi protokollarga mos kelishi yoki qaysi klassdan voris olishi kerakligiga qo'shimcha shartlar (constraints) qo'yish uchun",
+            "Sikl operatorlari ichida ma'lum elementlarni qidirishni tezlashtirish uchun",
+            "Klass maydonlarini xotiradan (RAM) qaysi manzildan qidirishni ko'rsatish uchun",
+            "Optional qiymatlarni ochishda (unwrapping) xatolarni log faylga yozish uchun"
+        ],
+        "correctAnswer": "Generic tur (T) qaysi protokollarga mos kelishi yoki qaysi klassdan voris olishi kerakligiga qo'shimcha shartlar (constraints) qo'yish uchun"
+    },
+    {
+        "id": 14,
+        "subjectKey": "swift",
+        "text": "Swift dagi 'Opaque Types' (some) va 'Existential Types' (any) o'rtasidagi asosiy farq nimada?",
+        "options": [
+            "'some' kompilyatsiya vaqtida aniq bitta turni yashiradi (static), 'any' esa runtime'da ixtiyoriy mos keluvchi turni qabul qila oladi (dynamic)",
+            "'any' faqat struct'lar bilan ishlaydi, 'some' esa faqat klasslar ierarxiyasida qo'llaniladi",
+            "'some' xotirani cheksiz darajada band qilishi mumkin, 'any' esa xotirani tejaydi",
+            "Ular bir xil vazifani bajaradi, faqat 'any' Swift'ning eski versiyalarida ishlatilgan"
+        ],
+        "correctAnswer": "'some' kompilyatsiya vaqtida aniq bitta turni yashiradi (static), 'any' esa runtime'da ixtiyoriy mos keluvchi turni qabul qila oladi (dynamic)"
+    },
+    {
+        "id": 15,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Result' turi (type) asosan nima uchun ishlatiladi?",
+        "options": [
+            "Muvaffaqiyatli natija (.success) yoki xatolikni (.failure) o'z ichiga olgan asinxron operatsiyalar natijasini chiroyli boshqarish uchun",
+            "Dastur xotiradan to'liq o'chib ketganda xatolik kodini operatsion tizimga qaytarish uchun",
+            "Faqat internetga so'rov yuborish (URLSession) jarayonida HTTP status kodlarini tekshirish uchun",
+            "Klass ichidagi metodlar ketma-ketligini majburiy ravishda tartiblash uchun"
+        ],
+        "correctAnswer": "Muvaffaqiyatli natija (.success) yoki xatolikni (.failure) o'z ichiga olgan asinxron operatsiyalar natijasini chiroyli boshqarish uchun"
+    },
+    {
+        "id": 16,
+        "subjectKey": "swift",
+        "text": "Swift'da 'associatedtype' nima uchun ishlatiladi?",
+        "options": [
+            "Protokollar ichida Generic (noma'lum) tur e'lon qilish va uni protokol implement qilinganda aniqlashtirish uchun",
+            "Klass xususiyatlarini (properties) o'zaro bog'lash va ularni bir vaqtda yangilash uchun",
+            "Enum ichidagi har bir variantga qo'shimcha qiymat (Associated Value) biriktirish uchun",
+            "Tashqi framework kutubxonalarini loyihaga avtomatik tarzda bog'lash (link) uchun"
+        ],
+        "correctAnswer": "Protokollar ichida Generic (noma'lum) tur e'lon qilish va uni protokol implement qilinganda aniqlashtirish uchun"
+    },
+    {
+        "id": 17,
+        "subjectKey": "swift",
+        "text": "Swift'da GCD (Grand Central Dispatch) dagi 'serial queue' va 'concurrent queue' o'rtasidagi farq nimada?",
+        "options": [
+            "Serial queue vazifalarni navbatma-navbat (ketma-ket) bajaradi, concurrent queue esa bir vaqtning o'zida bir nechta vazifani parallel boshlay oladi",
+            "Concurrent queue faqat Main Thread'da ishlaydi, serial queue esa fonda (background) ishlaydi",
+            "Serial queue xotiradan ko'p joy oladi, concurrent queue esa vazifalarni bajarib bo'lgach queue'ni darhol o'chiradi",
+            "Serial queue faqat sinxron (sync) vazifalarni qabul qiladi, concurrent esa faqat asinxron (async)"
+        ],
+        "correctAnswer": "Serial queue vazifalarni navbatma-navbat (ketma-ket) bajaradi, concurrent queue esa bir vaqtning o'zida bir nechta vazifani parallel boshlay oladi"
+    },
+    {
+        "id": 18,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Dynamic Dispatch' va 'Static (Static/Direct) Dispatch' o'rtasidagi asosiy farq nimada?",
+        "options": [
+            "Static dispatch metod manzilini kompilyatsiya vaqtida aniqlaydi va tez ishlaydi, Dynamic esa runtime'da (vtable/witness table) aniqlaydi",
+            "Dynamic dispatch faqat struct'lar uchun qo'llaniladi, Static dispatch esa faqat klasslar uchun",
+            "Static dispatch metodlarni har safar chaqirilganda qayta yaratadi, Dynamic esa keshdan o'qiydi",
+            "Ular o'rtasida unumdorlik (performance) jihatdan hech qanday farq mavjud emas"
+        ],
+        "correctAnswer": "Static dispatch metod manzilini kompilyatsiya vaqtida aniqlaydi va tez ishlaydi, Dynamic esa runtime'da (vtable/witness table) aniqlaydi"
+    },
+    {
+        "id": 19,
+        "subjectKey": "swift",
+        "text": "Swift'da klass oldidan 'final' kalit so'zi yozilsa, bu kompilyatorga qanday ta'sir qiladi?",
+        "options": [
+            "Vorislikni taqiqlaydi va metod chaqiriqlarini Dynamic Dispatch'dan Static Dispatch'ga o'tkazib, tezlikni oshiradi",
+            "Klassning barcha stored property'larini readonly (o'qish uchun) holatga o'tkazadi",
+            "Klass obyektini faqat bitta thread ichida ishlatilishini qat'iy nazorat ostiga oladi",
+            "Klass xotiradan hech qachon o'chirilmaydigan global obyektga (Singleton) aylanadi"
+        ],
+        "correctAnswer": "Vorislikni taqiqlaydi va metod chaqiriqlarini Dynamic Dispatch'dan Static Dispatch'ga o'tkazib, tezlikni oshiradi"
+    },
+    {
+        "id": 20,
+        "subjectKey": "swift",
+        "text": "Swift dagi 'Property Wrapper' (@propertyWrapper) kontseptsiyasining asosiy maqsadi nima?",
+        "options": [
+            "Xususiyatlarga (properties) kirish va boshqarish mantiqini (masalan, kesh qilish, tekshirish) alohida klass/struct ichida qayta ishlatiladigan holatga keltirish",
+            "UI elementlarini (SwiftUI views) avtomatik ravishda JSON formatiga o'tkazish tizimini boshqarish",
+            "O'zgaruvchining xotira manzilini (pointer) to'g'ridan-to'g'ri C++ kodlariga xavfsiz uzatish",
+            "Klass konstruktori ichidagi barcha majburiy argumentlarni avtomatik aniqlab qiymat biriktirish"
+        ],
+        "correctAnswer": "Xususiyatlarga (properties) kirish va boshqarish mantiqini (masalan, kesh qilish, tekshirish) alohida klass/struct ichida qayta ishlatiladigan holatga keltirish"
+    },
+    {
+        "id": 21,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Key-Value Observing' (KVO) mexanizmidan foydalanish uchun klass va uning xususiyatlari (properties) qanday e'lon qilinishi shart?",
+        "options": [
+            "Klass 'NSObject'dan voris olishi, xususiyatlari esa '@objc dynamic' kalit so'zlari bilan e'lon qilinishi kerak",
+            "Klass 'Identifiable' protokoliga mos kelishi, xususiyatlari esa '@published' bo'lishi kerak",
+            "Klass 'final' bo'lishi va xususiyatlari faqat 'lazy stored property' ko'rinishida yozilishi shart",
+            "Klass 'Actor' turida bo'lib, xususiyatlari faqat 'private(set)' kalit so'zi bilan cheklanishi kerak"
+        ],
+        "correctAnswer": "Klass 'NSObject'dan voris olishi, xususiyatlari esa '@objc dynamic' kalit so'zlari bilan e'lon qilinishi kerak"
+    },
+    {
+        "id": 22,
+        "subjectKey": "swift",
+        "text": "Swift'da 'In-Out' parameters (inout kalit so'zi) funksiyada qanday ishlaydi?",
+        "options": [
+            "Funksiyaga o'zgaruvchining nusxasi uzatiladi, funksiya tugashida esa o'zgargan qiymat asl o'zgaruvchiga qayta yoziladi (copy-in copy-out)",
+            "O'zgaruvchi to'g'ridan-to'g'ri Heap xotiraga o'tkaziladi va u yerda reference sifatida global qulflanadi",
+            "U faqat klass obyektlarini funksiya ichida immutable (o'zgarmas) holatga keltirish uchun ishlatiladi",
+            "Funksiya bajarilayotgan vaqtda parallel thread'lar ushbu o'zgaruvchini o'qishini butunlay bloklaydi"
+        ],
+        "correctAnswer": "Funksiyaga o'zgaruvchining nusxasi uzatiladi, funksiya tugashida esa o'zgargan qiymat asl o'zgaruvchiga qayta yoziladi (copy-in copy-out)"
+    },
+    {
+        "id": 23,
+        "subjectKey": "swift",
+        "text": "Swift'da 'rethrows' kalit so'zi funksiya e'lonida nimani anglatadi?",
+        "options": [
+            "Funksiya faqat o'ziga argument sifatida uzatilgan closure xatolik (error) tashlagan taqdirdagina xato qaytara olishini",
+            "Funksiya ichida sodir bo'lgan har qanday xatolik avtomatik ravishda App Crash'ga olib kelishini",
+            "Funksiya bajarilgach, muvaffaqiyatsiz natijani doimiy ravishda async rejimda qayta ishga tushirishini",
+            "Funksiya o'z ichidagi try-catch blokini cheklab, xatoni har doim MainActor'ga yo'naltirishini"
+        ],
+        "correctAnswer": "Funksiya faqat o'ziga argument sifatida uzatilgan closure xatolik (error) tashlagan taqdirdagina xato qaytara olishini"
+    },
+    {
+        "id": 24,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Result' turidan farqli o'laroq, 'Task' (Swift Concurrency) obyekti aniq nima vazifani bajaradi?",
+        "options": [
+            "Asinxron kod bajarilishi mumkin bo'lgan kontekstni (fonda bajariladigan ish birligini) taqdim etadi va uni boshqarish (cancel qilish) imkonini beradi",
+            "Faqat UIKit animatsiyalarini Main Thread'da ketma-ketlik asosida sinxronlashtirish uchun ishlatiladi",
+            "Xotirada strong reference cycle hosil bo'lgan barcha klasslarni aniqlovchi profil yaratadi",
+            "O'zgaruvchi qiymati o'zgarganini SwiftUI interfeysiga avtomatik xabar beruvchi wrapper hisoblanadi"
+        ],
+        "correctAnswer": "Asinxron kod bajarilishi mumkin bo'lgan kontekstni (fonda bajariladigan ish birligini) taqdim etadi va uni boshqarish (cancel qilish) imkonini beradi"
+    },
+    {
+        "id": 25,
+        "subjectKey": "swift",
+        "text": "Swift'da 'designated initializer' va 'convenience initializer' o'rtasidagi asosiy qoida nimada?",
+        "options": [
+            "Convenience initializer joriy klassning designated initializer'ini chaqirishi shart, designated initializer esa to'g'ridan-to'g'ri superclass konstruktorini chaqiradi",
+            "Designated initializer faqat struct'larda ishlaydi, convenience initializer esa faqat klasslar ierarxiyasida qo'llaniladi",
+            "Convenience initializer har doim xotiradan yangi joy (Heap) ajratadi, designated esa faqat Stack'da ishlaydi",
+            "Klassda bir nechta convenience initializer bo'lishi mumkin emas, designated initializer esa cheksiz bo'lishi mumkin"
+        ],
+        "correctAnswer": "Convenience initializer joriy klassning designated initializer'ini chaqirishi shart, designated initializer esa to'g'ridan-to'g'ri superclass konstruktorini chaqiradi"
+    },
+    {
+        "id": 26,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Codable' protokoli aslida qaysi ikki protokolning birlashmasidan iborat?",
+        "options": [
+            "Encodable va Decodable",
+            "Equatable va Hashable",
+            "CustomStringConvertible va ExpressibleByStringLiteral",
+            "RawRepresentable va CaseIterable"
+        ],
+        "correctAnswer": "Encodable va Decodable"
+    },
+    {
+        "id": 27,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Generics' bilan ishlashda 'type erasure' (masalan, AnyPublisher yoki AnyView) tushunchasining maqsadi nima?",
+        "options": [
+            "Murakkab va o'ziga xos Generic turlarni yoki Protokol tiplarini sodda, mavhum va umumiy bitta tip ortiga yashirish",
+            "Dastur ishga tushganda barcha static o'zgaruvchilar turlarini butunlay o'chirib tashlash orqali xotirani tejash",
+            "Struct turlarini runtime paytida dinamik ravishda klass turlariga o'zgartirish tizimini ta'minlash",
+            "Kompilyatsiya vaqtida sintaktik xatolarni yashirish va ularni log fayllarga yozishni to'xtatish"
+        ],
+        "correctAnswer": "Murakkab va o'ziga xos Generic turlarni yoki Protokol tiplarini sodda, mavhum va umumiy bitta tip ortiga yashirish"
+    },
+    {
+        "id": 28,
+        "subjectKey": "swift",
+        "text": "Swift'da 'opaque return type' (some) qaytaradigan funksiyaning an'anaviy protokol qaytaradigan funksiyadan farqi nimada?",
+        "options": [
+            "Kompilyator funksiyadan aynan qaysi aniq tip (concrete type) qaytayotganini biladi (identity saqlanadi), oddiy protokolda esa runtime'gacha aniq tip yashirin qoladi",
+            "Opaque type faqat va faqat reference type (class) qaytarishga mo'ljallangan, protokol esa value type qaytaradi",
+            "some kalit so'zi ishlatilganda funksiya har safar chaqirilganida har xil turdagi obyektlarni qaytara oladi",
+            "Opaque type ishlatilganda funksiya ichida 'return' kalit so'zini yozish majburiy emas"
+        ],
+        "correctAnswer": "Kompilyator funksiyadan aynan qaysi aniq tip (concrete type) qaytayotganini biladi (identity saqlanadi), oddiy protokolda esa runtime'gacha aniq tip yashirin qoladi"
+    },
+    {
+        "id": 29,
+        "subjectKey": "swift",
+        "text": "Swift'da 'associated value' va 'raw value' o'rtasidagi farq nimada (Enum doirasida)?",
+        "options": [
+            "Raw value enum'ning har bir varianti uchun oldindan belgilangan bir xil tipdagi o'zgarmas qiymat, associated value esa har bir obyekt yaratilganda har xil bo'lishi mumkin bo'lgan dinamik qiymat",
+            "Associated value faqat Integer sonlar bilan ishlaydi, raw value esa ixtiyoriy klass turini qabul qila oladi",
+            "Raw value xotiraning Heap qismida saqlanadi, associated value esa faqat Stack'da joy egallaydi",
+            "Ular o'rtasida farq yo'q, ikkalasi ham enum variantlariga faqat string turidagi ma'lumot biriktirish uchun ishlatiladi"
+        ],
+        "correctAnswer": "Raw value enum'ning har bir varianti uchun oldindan belgilangan bir xil tipdagi o'zgarmas qiymat, associated value esa har bir obyekt yaratilganda har xil bo'lishi mumkin bo'lgan dinamik qiymat"
+    },
+    {
+        "id": 30,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Mirror' API (Reflection) nima uchun ishlatiladi?",
+        "options": [
+            "Obyektning ichki tuzilishini (properties, values, types) dastur ishlash vaqtida (runtime) tekshirish va uning tarkibini o'qish (introspection) uchun",
+            "Obyektning xotiradagi toliq nusxasini (Deep Copy) yaratish va uning manzillarini avtomatik almashtirish uchun",
+            "UI elementlarini ekranda teskari (ko'zgu kabi) aks ettirish va grafik bug'larni tuzatish uchun",
+            "Dasturdagi barcha private metodlarni xavfsiz tarzda internet orqali API formatiga o'tkazish uchun"
+        ],
+        "correctAnswer": "Obyektning ichki tuzilishini (properties, values, types) dastur ishlash vaqtida (runtime) tekshirish va uning tarkibini o'qish (introspection) uchun"
+    },
+    {
+        "id": 31,
+        "subjectKey": "swift",
+        "text": "Swift'da 'failable initializer' (init?) nima qaytaradi va u muvaffaqiyatsiz bo'lganda nima sodir bo'ladi?",
+        "options": [
+            "Optional obyekt qaytaradi; agar initsializatsiya shartlari bajarilmasa, 'nil' qaytaradi va obyekt yaratilmaydi",
+            "Har doim oddiy obyekt qaytaradi, lekin muvaffaqiyatsiz bo'lsa App'ni darhol crash holatiga olib keladi",
+            "Xatolik kodi (Error type) qaytaradi va dasturni try-catch blokiga kirishga majbur qiladi",
+            "Bo'sh struct qaytaradi va xotiradan qo'shimcha joy band qilishda davom etadi"
+        ],
+        "correctAnswer": "Optional obyekt qaytaradi; agar initsializatsiya shartlari bajarilmasa, 'nil' qaytaradi va obyekt yaratilmaydi"
+    },
+    {
+        "id": 32,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Nonisolated' kalit so'zi Actor ichidagi metod yoki xususiyat oldidan yozilsa, bu nima beradi?",
+        "options": [
+            "Ushbu metod/xususiyat actor qobig'idan tashqarida (async/await va xavfsizlik cheklovlarisiz) oddiy kabi tezkor bajarilishini ta'minlaydi",
+            "Metodni faqat Main Thread'da ishlashga majburlaydi va barcha fondagi oqimlarni bloklaydi",
+            "Ushbu metodni voris klasslarda qayta yozish (override) imkoniyatini ochib beradi",
+            "Metod ichidagi barcha o'zgaruvchilarni avtomatik ravishda xotiradan o'chib ketmaydigan holatga keltiradi"
+        ],
+        "correctAnswer": "Ushbu metod/xususiyat actor qobig'idan tashqarida (async/await va xavfsizlik cheklovlarisiz) oddiy kabi tezkor bajarilishini ta'minlaydi"
+    },
+    {
+        "id": 33,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Copy-on-Write' (CoW) mexanizmi qanday ishlaydi?",
+        "options": [
+            "Value type (masalan, Array) nusxalanganda xotiradan yangi joy ajratilmaydi, faqat uning elementlaridan biri o'zgartirilgandagina (write) haqiqiy nusxa olinadi",
+            "Klass obyektlari nusxalanayotganda ularning barcha private maydonlari avtomatik ravishda diskka yozib boriladi",
+            "Dastur ichida o'zgarmas (let) o'zgaruvchi e'lon qilinganda, uning qiymati kesh xotiraga nusxalanadi",
+            "Fayllarni internetdan yuklashda xotira to'lib qolmasligi uchun ularni vaqtinchalik xotiraga nusxalab turadi"
+        ],
+        "correctAnswer": "Value type (masalan, Array) nusxalanganda xotiradan yangi joy ajratilmaydi, faqat uning elementlaridan biri o'zgartirilgandagina (write) haqiqiy nusxa olinadi"
+    },
+    {
+        "id": 34,
+        "subjectKey": "swift",
+        "text": "Swift'da 'AsyncSequence' protokoli oddiy 'Sequence' protokolidan nimasi bilan farq qiladi?",
+        "options": [
+            "U elementlarni ketma-ketlikda taqdim etadi, lekin har bir keyingi element asinxron ravishda (await yordamida) kutilishi kerak",
+            "U elementlarni faqat parallel thread'larda tartibsiz holatda yuklash uchun mo'ljallangan",
+            "U elementlar soni cheksiz bo'lganda dasturni avtomatik ravishda tugatuvchi xavfsizlik tizimidir",
+            "U faqat va faqat internetdan kelayotgan JSON massivlarini parse qilishda ishlatiladi"
+        ],
+        "correctAnswer": "U elementlarni ketma-ketlikda taqdim etadi, lekin har bir keyingi element asinxron ravishda (await yordamida) kutilishi kerak"
+    },
+    {
+        "id": 35,
+        "subjectKey": "swift",
+        "text": "Swift'da 'dynamic' kalit so'zi metod yoki o'zgaruvchiga nisbatan qo'llanilsa nima sodir bo'ladi?",
+        "options": [
+            "Swift kompilyatoriga ushbu a'zoga kirishda Objective-C runtime'ning 'Dynamic Dispatch' (Message Passing) mexanizmidan foydalanishni buyuradi",
+            "O'zgaruvchining xotira hajmi dastur ishlash davomida dinamik ravishda kengayib borishini ta'minlaydi",
+            "Metodni avtomatik ravishda SwiftUI animatsiya sikllariga ulab, vizual effekt beradi",
+            "Metod faqat background thread'larda ishlashini qat'iy va majburiy holatga keltiradi"
+        ],
+        "correctAnswer": "Swift kompilyatoriga ushbu a'zoga kirishda Objective-C runtime'ning 'Dynamic Dispatch' (Message Passing) mexanizmidan foydalanishni buyuradi"
+    },
+    {
+        "id": 36,
+        "subjectKey": "swift",
+        "text": "Swift'da 'opaque type' e'lon qilishda qo'llaniladigan 'some' va primary associated types cheklovi (masalan, some Collection<String>) nimani anglatadi?",
+        "options": [
+            "Qaytarilayotgan kolleksiya turi yashirin bo'lsa ham, uning ichidagi elementlar turi qat'iy ravishda String ekanligini kafolatlaydi",
+            "Kolleksiya ichida faqat va faqat bitta element saqlanishi mumkinligini majburiy qiladi",
+            "Kompilyatorga ushbu kolleksiyani avtomatik ravishda Dictionary formatiga o'girishga ruxsat beradi",
+            "Kolleksiyaning xotiradagi hajmi String hajmidan oshmasligini qat'iy nazorat qiladi"
+        ],
+        "correctAnswer": "Qaytarilayotgan kolleksiya turi yashirin bo'lsa ham, uning ichidagi elementlar turi qat'iy ravishda String ekanligini kafolatlaydi"
+    },
+    {
+        "id": 37,
+        "subjectKey": "swift",
+        "text": "Swift'da 'required' kalit so'zi klass konstruktori (initializer) oldidan yozilsa, bu nimani anglatadi?",
+        "options": [
+            "Ushbu klassdan voris olgan barcha subclass'lar ushbu konstruktorni majburiy ravishda implement (override) qilishi shartligini",
+            "Konstruktor ichida barcha stored property'larga majburiy ravishda default qiymat berilishi kerakligini",
+            "Konstruktor faqat bitta thread ichida xavfsiz chaqirilishi shart bo'lgan static blok ekanligini",
+            "Ushbu initsializatorni tashqi framework kutubxonalaridan yashirish lozimligini"
+        ],
+        "correctAnswer": "Ushbu klassdan voris olgan barcha subclass'lar ushbu konstruktorni majburiy ravishda implement (override) qilishi shartligini"
+    },
+    {
+        "id": 38,
+        "subjectKey": "swift",
+        "text": "Swift'da 'implicitly unmapped optional' (masalan, var name: String!) nima va u qachon ishlatiladi?",
+        "options": [
+            "E'lon qilinishida optional, lekin ishlatilganda avtomatik unwrap bo'ladigan o'zgaruvchi; asosan initsializatsiya vaqtida darhol qiymat oladigan joylarda (masalan, IBOutlet) ishlatiladi",
+            "Hech qachon 'nil' qiymat qabul qilmaydigan va xotiradan mutlaqo o'chmaydigan qat'iy static o'zgaruvchi",
+            "Faqat asinxron funksiyalardan qaytadigan va qiymati har doim yashirin bo'lgan ma'lumot turi",
+            "Dastur crash bo'lishini oldini olish uchun har qanday null qiymatni bo'sh satrga o'zgartiruvchi wrapper"
+        ],
+        "correctAnswer": "E'lon qilinishida optional, lekin ishlatilganda avtomatik unwrap bo'ladigan o'zgaruvchi; asosan initsializatsiya vaqtida darhol qiymat oladigan joylarda (masalan, IBOutlet) ishlatiladi"
+    },
+    {
+        "id": 39,
+        "subjectKey": "swift",
+        "text": "Swift'da 'fileprivate' va 'private' access modifier'lar (kirish huquqlari) o'rtasidagi asosiy farq nimada?",
+        "options": [
+            "private faqat e'lon qilingan qobiq (scope/class) ichidagina amal qiladi, fileprivate esa o'sha fayl ichidagi barcha kodlar uchun ochiq bo'ladi",
+            "fileprivate faqat diskdagi fayllarni o'qishga ruxsat beradi, private esa faqat operativ xotira (RAM) bilan ishlaydi",
+            "private faqat struct'lar uchun qo'llaniladi, fileprivate esa faqat klasslar va extension'lar doirasida ishlaydi",
+            "Ular mutlaqo bir xil vazifani bajaradi, faqat fileprivate eski Swift versiyalarining qoldig'idir"
+        ],
+        "correctAnswer": "private faqat e'lon qilingan qobiq (scope/class) ichidagina amal qiladi, fileprivate esa o'sha fayl ichidagi barcha kodlar uchun ochiq bo'ladi"
+    },
+    {
+        "id": 40,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Identifiable' protokolining asosiy talabi nima?",
+        "options": [
+            "Klass yoki struct ichida har bir obyektni bir-biridan ajratib turadigan noyob 'id' nomli xususiyat (property) bo'lishi shartligi",
+            "Obyektni JSON formatiga o'tkazishda uning klass nomini string ko'rinishida saqlash majburiyati",
+            "Obyekt xotiraning qaysi manzilida (Stack yoki Heap) joylashganini aniq ko'rsatuvchi metod borligi",
+            "Klass tarkibida majburiy ravishda 'hash(into:)' metodining realizatsiyasi mavjud bo'lishi"
+        ],
+        "correctAnswer": "Klass yoki struct ichida har bir obyektni bir-biridan ajratib turadigan noyob 'id' nomli xususiyat (property) bo'lishi shartligi"
+    },
+    {
+        "id": 41,
+        "subjectKey": "swift",
+        "text": "Swift'da '@dynamicMemberLookup' atributining asosiy vazifasi nima?",
+        "options": [
+            "Klass yoki struct ichida e'lon qilinmagan xususiyatlarga ham satrli (string) kalitlar orqali dinamik ravishda murojaat qilish (dot notation syntax) imkonini berish",
+            "Dastur ishga tushganda obyektning barcha private a'zolarini avtomatik ravishda public holatga o'tkazish",
+            "Ma'lumotlar bazasidan keladigan SQL so'rovlarini Swift ob'ektlariga avtomatik bog'lash (mapping)",
+            "Kompilyatorga barcha dynamic dispatch metodlarini static dispatch'ga o'tkazishni buyurish"
+        ],
+        "correctAnswer": "Klass yoki struct ichida e'lon qilinmagan xususiyatlarga ham satrli (string) kalitlar orqali dinamik ravishda murojaat qilish (dot notation syntax) imkonini berish"
+    },
+    {
+        "id": 42,
+        "subjectKey": "swift",
+        "text": "Swift'da 'KeyPath' (\u005CClass.property) tushunchasi nima uchun ishlatiladi?",
+        "options": [
+            "Obyektning o'ziga emas, balki uning aniq bir xususiyatiga (property) bo'lgan ierarxik havolani (reference) xavfsiz saqlash va uzatish uchun",
+            "Fayllar tizimidagi (FileManager) mutloq va nisbiy yo'llarni (URL) xavfsiz formatda tekshirish uchun",
+            "Klass ichidagi metodlarni xotirada qaysi Stack manzilida joylashganini aniqlash uchun",
+            "SwiftUI sahifalarida navigatsiya ierarxiyasini (NavigationPath) to'liq shakllantirish uchun"
+        ],
+        "correctAnswer": "Obyektning o'ziga emas, balki uning aniq bir xususiyatiga (property) bo'lgan ierarxik havolani (reference) xavfsiz saqlash va uzatish uchun"
+    },
+    {
+        "id": 43,
+        "subjectKey": "swift",
+        "text": "Swift Concurrency'da 'TaskGroup' (withTaskGroup) mexanizmidan qachon foydalanish tavsiya etiladi?",
+        "options": [
+            "Dinamik miqdordagi (masalan, sikl ichida) bir nechta asinxron vazifalarni parallel bajarish va ularning natijalarini to'plash kerak bo'lganda",
+            "Faqat Main Thread'da ishlaydigan UI animatsiyalarini ketma-ketlik asosida zanjirga bog'lashda",
+            "Xotirada strong reference cycle hosil qilgan closures ro'yxatini tozalash kerak bo'lganda",
+            "Dastur yopilayotgan vaqtda fondagi barcha tarmoq so'rovlarini majburiy saqlab qolish uchun"
+        ],
+        "correctAnswer": "Dinamik miqdordagi (masalan, sikl ichida) bir nechta asinxron vazifalarni parallel bajarish va ularning natijalarini to'plash kerak bo'lganda"
+    },
+    {
+        "id": 44,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Sendable' protokoli (Swift 5.5+) qanday muhim vazifani bajaradi?",
+        "options": [
+            "Kompilyatsiya vaqtida ma'lumot turining oqimlar (concurrency domains/threads) orasida xavfsiz uzatila olishini (thread-safe) qat'iy tekshiradi",
+            "Obyektni internet orqali (URLSession) boshqa serverga JSON ko'rinishida yuborishga ruxsat beradi",
+            "Klass obyektlarini Bluetooth yoki AirDrop orqali boshqa qurilmalarga uzatish drayverini yoqadi",
+            "Sessiya davomida foydalanuvchi ma'lumotlarini Keychain ichida shifrlangan holatda saqlashni ta'minlaydi"
+        ],
+        "correctAnswer": "Kompilyatsiya vaqtida ma'lumot turining oqimlar (concurrency domains/threads) orasida xavfsiz uzatila olishini (thread-safe) qat'iy tekshiradi"
+    },
+    {
+        "id": 45,
+        "subjectKey": "swift",
+        "text": "Swift'da 'indirect' kalit so'zi Enum variantlari yoki enum e'loni oldidan nima uchun yoziladi?",
+        "options": [
+            "Enum ichida rekurziv (o'z-o'ziga havola qiluvchi) tuzilmalarni yaratishga ruxsat berish va kompilyatorga xotirani Heap'da ajratishni ko'rsatish uchun",
+            "Enum qiymatlarini avtomatik ravishda String yoki Integer turidagi Raw Value'ga o'zgartirish uchun",
+            "Enum variantlariga faqat va faqat Objective-C klasslarini biriktirish majburiyatini qo'yish uchun",
+            "Enum'ni xotiradan mutlaqo o'chmaydigan global static konteyner holatiga o'tkazish uchun"
+        ],
+        "correctAnswer": "Enum ichida rekurziv (o'z-o'ziga havola qiluvchi) tuzilmalarni yaratishga ruxsat berish va kompilyatorga xotirani Heap'da ajratishni ko'rsatish uchun"
+    },
+    {
+        "id": 46,
+        "subjectKey": "swift",
+        "text": "Swift'da 'opaque types' (some) va 'boxed protocol types' (any) xotira hajmi (memory size) jihatidan qanday farqlanadi?",
+        "options": [
+            "'some' xotirada aniq bir tur hajmini egallaydi, 'any' esa har doim Existential Container (odatda 5 ta so'z hajmi) ichiga joylashtiriladi va xotira overhead'iga ega",
+            "'any' har doim Stack'da juda kichik joy oladi, 'some' esa har doim Heap xotirani to'liq band qiladi",
+            "Ularning xotira egallash mantig'i mutlaqo bir xil, farqi faqat kompilyatsiya tezligida ko'rinadi",
+            "'some' faqat 64-bitli tizimlarda ishlaydi, 'any' esa 32-bitli eski tizimlar uchun optimallashgan xotiraga ega"
+        ],
+        "correctAnswer": "'some' xotirada aniq bir tur hajmini egallaydi, 'any' esa har doim Existential Container (odatda 5 ta so'z hajmi) ichiga joylashtiriladi va xotira overhead'iga ega"
+    },
+    {
+        "id": 47,
+        "subjectKey": "swift",
+        "text": "Swift'da 'ExpressibleByStringLiteral' protokolining vazifasi nima?",
+        "options": [
+            "Custom klass yoki struct obyektini to'g'ridan-to'g'ri oddiy satr (string literal) yordamida initsializatsiya qilish (masalan, let user: User = 'John') imkonini berish",
+            "String turi ichidagi barcha belgilarni avtomatik ravishda Unicode formatiga o'tkazish",
+            "Klass xususiyatlarini JSON satrlariga juda tezkor sur'atda parse qilish drayverini yoqish",
+            "Satrlarni ekranga chiqarishda xatoliklarni (localization errors) avtomatik aniqlash"
+        ],
+        "correctAnswer": "Custom klass yoki struct obyektini to'g'ridan-to'g'ri oddiy satr (string literal) yordamida initsializatsiya qilish (masalan, let user: User = 'John') imkonini berish"
+    },
+    {
+        "id": 48,
+        "subjectKey": "swift",
+        "text": "Swift'da 'CustomStringConvertible' protokoli nima uchun kerak?",
+        "options": [
+            "Obyekt 'print()' funksiyasiga uzatilganda yoki string ichiga joylashtirilganda ekranga chiqadigan custom matn ko'rinishini (description) belgilash uchun",
+            "String ma'lumot turini boshqa barcha ma'lumot turlariga dinamik tarzda o'girish (cast qilish) uchun",
+            "Dasturdagi barcha matnlarni xorijiy tillarga avtomatik tarjima qilish tizimini ishga tushirish uchun",
+            "Obyektning ichki private xususiyatlarini matn ko'rinishida shifrlab faylga yozish uchun"
+        ],
+        "correctAnswer": "Obyekt 'print()' funksiyasiga uzatilganda yoki string ichiga joylashtirilganda ekranga chiqadigan custom matn ko'rinishini (description) belgilash uchun"
+    },
+    {
+        "id": 49,
+        "subjectKey": "swift",
+        "text": "Swift Concurrency'da 'CheckedContinuation' (withCheckedContinuation) mexanizmi nima uchun ishlatiladi?",
+        "options": [
+            "Eski delegat yoki closure asosidagi asinxron kodlarni (callback-based API) yangi async/await formatiga o'tkazish (wrap qilish) uchun",
+            "Task ishlash vaqtida xotira to'lib qolganligini tekshirish va dasturni xavfsiz to'xtatish uchun",
+            "Main Actor oqimida xatolik yuz berganligini har 2 soniyada tekshirib turish uchun",
+            "Klass ichidagi barcha static metodlarning thread-safe ekanligini nazorat qilish uchun"
+        ],
+        "correctAnswer": "Eski delegat yoki closure asosidagi asinxron kodlarni (callback-based API) yangi async/await formatiga o'tkazish (wrap qilish) uchun"
+    },
+    {
+        "id": 50,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Hashable' protokolining asosiy vazifasi va talabi nimadan iborat?",
+        "options": [
+            "Obyektni Dictionary kaliti yoki Set elementi sifatida ishlatish uchun unga 'hash(into:)' metodi orqali integer qiymat berish (bunda Equatable ham majburiy)",
+            "Obyekt parolini AES algoritmi yordamida shifrlash va uni xavfsiz Keychain ichiga yozish",
+            "Klass elementlarini xotirada joylashish tartibiga qarab avtomatik indekslash va saralash",
+            "Obyekt tarkibidagi barcha o'zgaruvchilarni MD5 satr ko'rinishiga o'tkazish majburiyati"
+        ],
+        "correctAnswer": "Obyektni Dictionary kaliti yoki Set elementi sifatida ishlatish uchun unga 'hash(into:)' metodi orqali integer qiymat berish (bunda Equatable ham majburiy)"
+    },
+    {
+        "id": 51,
+        "subjectKey": "swift",
+        "text": "Swift'da 'discardableResult' atributi funksiya tepasiga yozilsa, bu nima beradi?",
+        "options": [
+            "Funksiyadan qaytgan natija biror o'zgaruvchiga biriktirilmasa (ishlatilmasa), kompilyator ogohlantirish (warning) bermasligini ta'minlaydi",
+            "Funksiya qaytargan qiymatni operativ xotiradan darhol o'chirib tashlashni buyuradi",
+            "Funksiyaning qiymat qaytarish turi har doim majburiy ravishda Void bo'lishini talab qiladi",
+            "Funksiyadan qaytadigan natija hech qachon xatolik (Error) bo'lmasligini kafolatlaydi"
+        ],
+        "correctAnswer": "Funksiyadan qaytgan natija biror o'zgaruvchiga biriktirilmasa (ishlatilmasa), kompilyator ogohlantirish (warning) bermasligini ta'minlaydi"
+    },
+    {
+        "id": 52,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Convenience Initializer' o'z klassi ichidagi boshqa bitta initsializatorni chaqirganda qaysi kalit so'zdan foydalanadi?",
+        "options": [
+            "self.init",
+            "super.init",
+            "convenience.init",
+            "required.init"
+        ],
+        "correctAnswer": "self.init"
+    },
+    {
+        "id": 53,
+        "subjectKey": "swift",
+        "text": "Swift'da 'fatalError()' funksiyasi ishga tushganda dasturda nima sodir bo'ladi?",
+        "options": [
+            "Ekranga xabarni chiqarib, dastur ishini zudlik bilan unrecoverable (tuzatib bo'lmaydigan) holatda crash qilib to'xtatadi",
+            "Xatolikni o'tkazib yuboradi va dasturni keyingi kod qatoridan sinxron davom ettiradi",
+            "Faqat try-catch bloki ichida ishlaydi va xatoni har doim alert ko'rinishida ochadi",
+            "Foydalanuvchi sessiyasini yangilab, dasturni birinchi sahifaga qayta yuklaydi"
+        ],
+        "correctAnswer": "Ekranga xabarni chiqarib, dastur ishini zudlik bilan unrecoverable (tuzatib bo'lmaydigan) holatda crash qilib to'xtatadi"
+    },
+    {
+        "id": 54,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Subscript' (subscript kalit so'zi) klass yoki struct doirasida nima vazifani bajaradi?",
+        "options": [
+            "Obyekt elementlariga massiv yoki dictionary kabi to'rtburchak qavslar (masalan, object[index]) orqali to'g'ridan-to'g'ri kirish sintaksisini yaratish",
+            "Klass ichida bir nechta ichma-ich joylashgan anonim funksiyalarni (nested closures) e'lon qilish",
+            "Obyektning xotiradagi (RAM) aniq bayt indekslarini o'zgartirish huquqini ochish",
+            "SwiftUI ko'rinishlarida matn ostiga avtomatik chiziq chizish (underline) drayveri"
+        ],
+        "correctAnswer": "Obyekt elementlariga massiv yoki dictionary kabi to'rtburchak qavslar (masalan, object[index]) orqali to'g'ridan-to'g'ri kirish sintaksisini yaratish"
+    },
+    {
+        "id": 55,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Result' turidan farqli o'laroq, 'Optional' turi bilan 'nil-coalescing' (??) operatori ishlatilganda nima sodir bo'ladi?",
+        "options": [
+            "Chap tomondagi qiymat nil bo'lsa, o'ng tomondagi default (asl) qiymatni qaytaradi va ishlatadi",
+            "Ikki tomondagi qiymat ham nil bo'lsa, dasturni majburiy ravishda crash holatiga olib keladi",
+            "O'zgaruvchining turi to'g'ri ekanligini qat'iy tekshirib, ekranga boolean natija chiqaradi",
+            "Optional qiymat ichidagi ma'lumotni shifrlab, xotirada yashirin holatga o'tkazadi"
+        ],
+        "correctAnswer": "Chap tomondagi qiymat nil bo'lsa, o'ng tomondagi default (asl) qiymatni qaytaradi va ishlatadi"
+    },
+    {
+        "id": 56,
+        "subjectKey": "swift",
+        "text": "Swift'da 'never' (Never return type) turi nimani anglatadi?",
+        "options": [
+            "Funksiya hech qachon o'z ishini yakunlab normal natija qaytarmasligini (masalan, cheksiz sikl yoki fatalError ichida)",
+            "Funksiya faqat bir marta ishga tushishini va ikkinchi marta uni chaqirib bo'lmasligini",
+            "Funksiya tarkibida hech qanday o'zgaruvchi e'lon qilinishi mumkin emasligini",
+            "Funksiya natijasi faqat va faqat background oqimda saqlanishi kerakligini"
+        ],
+        "correctAnswer": "Funksiya hech qachon o'z ishini yakunlab normal natija qaytarmasligini (masalan, cheksiz sikl yoki fatalError ichida)"
+    },
+    {
+        "id": 57,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Pattern Matching' doirasida 'fallthrough' kalit so'zi 'switch' operatorida qanday vazifani bajaradi?",
+        "options": [
+            "Switch ichidagi joriy case sharti bajarilgandan keyin, keyingi case shartini tekshirmasdan uning ichidagi kodga o'tib ketishni ta'minlaydi",
+            "Switch operatorini darhol to'xtatadi va dasturni sikl tashqarisiga olib chiqadi",
+            "Switch ichida xatolik yuz berganda uni avtomatik default holatiga yo'naltiradi",
+            "Switch operatorining barcha shartlarini parallel thread'lar ichida tekshirishni yoqadi"
+        ],
+        "correctAnswer": "Switch ichidagi joriy case sharti bajarilgandan keyin, keyingi case shartini tekshirmasdan uning ichidagi kodga o'tib ketishni ta'minlaydi"
+    },
+    {
+        "id": 58,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Dynamic Member Lookup' ishlatilganda, yozilishi majburiy bo'lgan metod nomi qaysi?",
+        "options": [
+            "subscript(dynamicMember:)",
+            "subscript(stringKey:)",
+            "dynamicLookup(member:)",
+            "getDynamicProperty(_:)"
+        ],
+        "correctAnswer": "subscript(dynamicMember:)"
+    },
+    {
+        "id": 59,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Equatable' protokolining asosiy operatori qaysi?",
+        "options": ["==", "===", "!=", "~="],
+        "correctAnswer": "=="
+    },
+    {
+        "id": 60,
+        "subjectKey": "swift",
+        "text": "Swift'da '=== ' (Identity Operator) operatori nima uchun ishlatiladi?",
+        "options": [
+            "Ikki reference type (class) obyektlarining xotiradagi manzili mutlaqo bir xil (bitta obyektga havola) ekanligini tekshirish uchun",
+            "Ikki struct obyektining ichki qiymatlari tengligini qat'iy tekshirish uchun",
+            "O'zgaruvchining ma'lumot turi int yoki string ekanligini aniqlash uchun",
+            "Optional o'zgaruvchining ichida qiymat borligini 'nil'ga qiyoslash orqali tekshirish uchun"
+        ],
+        "correctAnswer": "Ikki reference type (class) obyektlarining xotiradagi manzili mutlaqo bir xil (bitta obyektga havola) ekanligini tekshirish uchun"
+    },
+    {
+        "id": 61,
+        "subjectKey": "swift",
+        "text": "Swift'da 'KeyPath' turlari ichida 'WritableKeyPath' va 'ReferenceWritableKeyPath' o'rtasidagi farq nima?",
+        "options": [
+            "WritableKeyPath faqat value type (struct) ob'ektlarining qiymatlarini o'zgartira oladi, ReferenceWritableKeyPath esa reference type (class) uchun mo'ljallangan",
+            "ReferenceWritableKeyPath faqat thread-safe bo'lgan Actor xususiyatlarini o'zgartirishda qo'llaniladi",
+            "WritableKeyPath qiymatni diskka yozadi, ReferenceWritableKeyPath esa uni faqat operativ xotirada o'zgartiradi",
+            "Ular o'rtasida mantiqiy farq yo'q, faqat Swift'ning eski versiyalarida farqli nomlangan"
+        ],
+        "correctAnswer": "WritableKeyPath faqat value type (struct) ob'ektlarining qiymatlarini o'zgartira oladi, ReferenceWritableKeyPath esa reference type (class) uchun mo'ljallangan"
+    },
+    {
+        "id": 62,
+        "subjectKey": "swift",
+        "text": "Swift'da '@propertyWrapper' ichidagi 'projectedValue' nima vazifani bajaradi?",
+        "options": [
+            "Dollar belgisi ($ syntax) orqali wrapper'ning o'ziga xos qo'shimcha xususiyatini yoki holatini (masalan, Combine Publisher) tashqariga ochib berish",
+            "O'zgaruvchining xotiradagi (RAM) umumiy hajmini hisoblab, uni konsolga chiqarish",
+            "UI elementlarini SwiftUI formatidan avtomatik ravishda UIKit kodiga o'giriish",
+            "Xususiyat qiymati o'zgarganda avtomatik ravishda ma'lumotlar bazasiga sinxronlash"
+        ],
+        "correctAnswer": "Dollar belgisi ($ syntax) orqali wrapper'ning o'ziga xos qo'shimcha xususiyatini yoki holatini (masalan, Combine Publisher) tashqariga ochib berish"
+    },
+    {
+        "id": 63,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Opaque Type' (some) bilan ishlashda bitta funksiyadan 'if-else' sharti orqali ikki xil turni (masalan, Int va String) qaytarish mumkinmi?",
+        "options": [
+            "Yo'q, 'some' kompilyatsiya vaqtida aniq bitta turni talab qiladi; har xil turni qaytarish kompilyatsiya xatosiga olib keladi (agar @ViewBuilder kabi wrapper bo'lmasa)",
+            "Ha, agar ikkala tur ham 'Equatable' protokoliga mos kelsa, ixtiyoriy ravishda qaytarish mumkin",
+            "Ha, faqat funksiya tepasiga '@discardableResult' atributi yozilgan bo'lishi shart",
+            "Yo'q, chunki 'some' kalit so'zi faqat klasslar bilan ishlaydi, asosiy turlarni qaytara olmaydi"
+        ],
+        "correctAnswer": "Yo'q, 'some' kompilyatsiya vaqtida aniq bitta turni talab qiladi; har xil turni qaytarish kompilyatsiya xatosiga olib keladi (agar @ViewBuilder kabi wrapper bo'lmasa)"
+    },
+    {
+        "id": 64,
+        "subjectKey": "swift",
+        "text": "Swift Concurrency'da 'Task.detached' oddiy 'Task { }' blokidan nimasi bilan farq qiladi?",
+        "options": [
+            "U joriy kontekstning (masalan, MainActor) ustuvorligi (priority) va task-local ma'lumotlarini meros qilib olmaydi, butunlay mustaqil ishlaydi",
+            "U faqat va faqat App o'chirilgan holatda ham fonda ishlashda davom etadigan tasklar yaratadi",
+            "U xotiradan joy ajratmaydi va faqat vaqtinchalik matematik hisob-kitoblar uchun xizmat qiladi",
+            "U faqat sinxron funksiyalarni asinxron oqimga o'tkazish uchun mo'ljallangan"
+        ],
+        "correctAnswer": "U joriy kontekstning (masalan, MainActor) ustuvorligi (priority) va task-local ma'lumotlarini meros qilib olmaydi, butunlay mustaqil ishlaydi"
+    },
+    {
+        "id": 65,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Reification' yoki 'Generic Specialization' nima?",
+        "options": [
+            "Kompilyator Generic kodni optimallashtirish uchun aniq ma'lum turlar (masalan, Int) uchun alohida tezkor kod versiyalarini yaratishi",
+            "Dastur ishlash vaqtida (runtime) ob'ekt turlarini butunlay o'chirib tashlash jarayoni",
+            "Protokollarni klasslarga majburiy bog'lash orqali dynamic dispatch tezligini oshirish",
+            "Xotiradagi barcha unowned havolalarni avtomatik ravishda weak holatga keltirish tizimi"
+        ],
+        "correctAnswer": "Kompilyator Generic kodni optimallashtirish uchun aniq ma'lum turlar (masalan, Int) uchun alohida tezkor kod versiyalarini yaratishi"
+    },
+    {
+        "id": 66,
+        "subjectKey": "swift",
+        "text": "Swift'da 'withUnsafePointer' funksiyasidan foydalanishning asosiy maqsadi nima?",
+        "options": [
+            "Swift o'zgaruvchisining xotiradagi to'g'ridan-to'g'ri manziliga (raw memory address) kirish va C-kutubxonalari bilan ishlash",
+            "Dasturdagi strong reference cycle xatoliklarini majburiy ravishda bartaraf etish",
+            "O'zgaruvchini avtomatik ravishda shifrlash va uni xavfsiz fayl tizimiga yozish",
+            "Klass konstruktorini cheklab, obyektni faqat static holatda yaratishga ruxsat berish"
+        ],
+        "correctAnswer": "Swift o'zgaruvchisining xotiradagi to'g'ridan-to'g'ri manziliga (raw memory address) kirish va C-kutubxonalari bilan ishlash"
+    },
+    {
+        "id": 67,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Result' enum turi tarkibida qanday ikkita holat (cases) mavjud?",
+        "options": [
+            "success(Success) va failure(Failure)",
+            "done(Value) va error(Error)",
+            "resolved(T) va rejected(Error)",
+            "valid(Any) va invalid(Any)"
+        ],
+        "correctAnswer": "success(Success) va failure(Failure)"
+    },
+    {
+        "id": 68,
+        "subjectKey": "swift",
+        "text": "Swift'da '@resultBuilder' (eski @_functionBuilder) atributining vazifasi nima?",
+        "options": [
+            "Ketma-ket yozilgan deklarativ kodlarni (masalan, SwiftUI ichidagi Views) kompilyatsiya vaqtida bitta natijaga yig'ish mantiqini yaratish",
+            "Funksiyadan qaytadigan Result turini avtomatik ravishda formatlash va xatolarni ushlash",
+            "Klass metodlarini avtomatik ravishda zanjirli (method chaining) holatga o'tkazish",
+            "Dastur ichidagi barcha matematik amallarni yuqori aniqlikda bajarish drayveri"
+        ],
+        "correctAnswer": "Ketma-ket yozilgan deklarativ kodlarni (masalan, SwiftUI ichidagi Views) kompilyatsiya vaqtida bitta natijaga yig'ish mantiqini yaratish"
+    },
+    {
+        "id": 69,
+        "subjectKey": "swift",
+        "text": "Swift'da '@frozen' atributi enum yoki struct e'lonida nimani anglatadi?",
+        "options": [
+            "Ushbu tur kelajakda (kutubxona yangilanganda) yangi variantlar yoki maydonlar qo'shib o'zgartirilmasligini va kompilyator xotirani optimallashtirishi mumkinligini",
+            "Obyekt qiymatlari xotirada qulflanishini va ularni mutatsiya qilib (o'zgartirib) bo'lmasligini",
+            "Obyekt faqat diskda saqlanishini va operativ xotiraga (RAM) hech qachon yuklanmasligini",
+            "Ushbu tur faqat fonga o'tkazilganda ishlaydigan asinxron model ekanligini"
+        ],
+        "correctAnswer": "Ushbu tur kelajakda (kutubxona yangilanganda) yangi variantlar yoki maydonlar qo'shib o'zgartirilmasligini va kompilyator xotirani optimallashtirishi mumkinligini"
+    },
+    {
+        "id": 70,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Protocol Extension' ichida e'lon qilingan, lekin protokolning o'zida e'lon qilinmagan metod chaqirilganda qaysi dispatch turi ishlaydi?",
+        "options": [
+            "Static (Direct) Dispatch",
+            "Witness Table (Dynamic) Dispatch",
+            "Virtual Table (vtable) Dispatch",
+            "Message Send (Objective-C runtime)"
+        ],
+        "correctAnswer": "Static (Direct) Dispatch"
+    },
+    {
+        "id": 71,
+        "subjectKey": "swift",
+        "text": "Swift Concurrency'da 'Global Actor' (masalan, @MainActor) tushunchasining maqsadi nima?",
+        "options": [
+            "Dasturning turli joylarida (klasslar, extensionlar, strukturalar) joylashgan kodlarni yagona umumiy oqim (singletone thread) doirasida sinxronlashtirish",
+            "Dasturdagi barcha global o'zgaruvchilarni avtomatik tarzda shifrlangan keshda saqlash",
+            "Faqat internet tarmoq so'rovlarini (network requests) global nazorat qilish",
+            "App Crash sodir bo'lganda barcha ochiq fayllarni avtomatik saqlab qolish"
+        ],
+        "correctAnswer": "Dasturning turli joylarida (klasslar, extensionlar, strukturalar) joylashgan kodlarni yagona umumiy oqim (singletone thread) doirasida sinxronlashtirish"
+    },
+    {
+        "id": 72,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Never' turi qaytaradigan funksiyani 'return' kalit so'zi bilan tugatish mumkinmi?",
+        "options": [
+            "Yo'q, 'Never' qaytaradigan funksiyalar normal yakunlanishi mumkin emas, ularda return yozish kompilyatsiya xatosini beradi",
+            "Ha, agar return orqasidan bo'sh qavs (Void) yozilsa, ruxsat beriladi",
+            "Ha, faqat funksiya ichida hech qanday asinxron kod (await) ishlatilmagan bo'lsa",
+            "Yo'q, chunki 'Never' turi faqat va faqat 'fatalError()' funksiyasining ichida ishlatilishi shart"
+        ],
+        "correctAnswer": "Yo'q, 'Never' qaytaradigan funksiyalar normal yakunlanishi mumkin emas, ularda return yozish kompilyatsiya xatosini beradi"
+    },
+    {
+        "id": 73,
+        "subjectKey": "swift",
+        "text": "Swift'da 'NSRange' va 'Range<String.Index>' o'rtasidagi asosiy farq nimada?",
+        "options": [
+            "NSRange UTF-16 kod birliklariga (Objective-C mosligi) asoslangan, Range<String.Index> esa Swift'ning extended grapheme clusters (Extended simvollar) indeksiga asoslangan",
+            "NSRange faqat butun sonlar (Int) bilan ishlaydi, Range<String.Index> esa faqat Float qiymatlarni qabul qiladi",
+            "Range<String.Index> xotiradan juda ko'p joy egallaydi va sekin ishlaydi",
+            "Ular o'rtasida farq yo'q, ikkalasi ham satrlarni mutlaqo bir xil formatda kesib oladi"
+        ],
+        "correctAnswer": "NSRange UTF-16 kod birliklariga (Objective-C mosligi) asoslangan, Range<String.Index> esa Swift'ning extended grapheme clusters (Extended simvollar) indeksiga asoslangan"
+    },
+    {
+        "id": 74,
+        "subjectKey": "swift",
+        "text": "Swift'da 'CaseIterable' protokolining asosiy vazifasi nima?",
+        "options": [
+            "Enum'ning barcha variantlarini (cases) massiv ko'rinishida taqdim etuvchi 'allCases' xususiyatini avtomatik yaratish",
+            "Sikl operatorlari ichida klass elementlarini tartib bilan saralash (sorting)",
+            "Struct ma'lumotlarini JSON formatiga muvaffaqiyatli o'girish imkonini berish",
+            "Enum variantlari orasida bir xil qiymatli raw value borligini tekshirish"
+        ],
+        "correctAnswer": "Enum'ning barcha variantlarini (cases) massiv ko'rinishida taqdim etuvchi 'allCases' xususiyatini avtomatik yaratish"
+    },
+    {
+        "id": 75,
+        "subjectKey": "swift",
+        "text": "Swift Concurrency'da 'Task.isCancelled' mulki (property) nima uchun tekshiriladi?",
+        "options": [
+            "Uzoq davom etayotgan asinxron vazifa tashqaridan bekor qilinganligini aniqlash va ishni xavfsiz, tezroq yakunlash (Cooperative Cancellation) uchun",
+            "Foydalanuvchi internet ulanishini o'chirib qo'yganligini tarmoq darajasida tekshirish uchun",
+            "Xotirada kuchsiz havolalar (weak references) o'chib ketganligini nazorat qilish uchun",
+            "Dastur operatsion tizim tomonidan majburiy yopilayotganini aniqlash uchun"
+        ],
+        "correctAnswer": "Uzoq davom etayotgan asinxron vazifa tashqaridan bekor qilinganligini aniqlash va ishni xavfsiz, tezroq yakunlash (Cooperative Cancellation) uchun"
+    },
+    {
+        "id": 76,
+        "subjectKey": "swift",
+        "text": "Swift'da '@objc' atributini metod yoki klass oldidan yozish nima uchun kerak?",
+        "options": [
+            "Ushbu kodni Objective-C runtime va kutubxonalari (masalan, Selector, KVO) uchun ochiq va mos keladigan holatga keltirish uchun",
+            "Swift kodini avtomatik ravishda C++ kompilyatoriga moslab qayta yozish uchun",
+            "Metod bajarilish tezligini kompilyatsiya darajasida 2 barobarga oshirish uchun",
+            "Klass tarkibidagi barcha o'zgaruvchilarni majburiy ravishda Heap xotiraga o'tkazish uchun"
+        ],
+        "correctAnswer": "Ushbu kodni Objective-C runtime va kutubxonalari (masalan, Selector, KVO) uchun ochiq va mos keladigan holatga keltirish uchun"
+    },
+    {
+        "id": 77,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Protocol' doirasida 'associatedtype'ga cheklov qo'yish (masalan, associatedtype Item: Equatable) nimani anglatadi?",
+        "options": [
+            "Ushbu protokolni qabul qiladigan har qanday tur beradigan 'Item' tipi mantiqan 'Equatable' bo'lishi shartligini",
+            "Item faqat va faqat 'struct' (value type) bo'lishi mumkinligini majburlashni",
+            "Item o'zgaruvchisining qiymati har doim nolga teng bo'lishini qat'iy nazorat qilishni",
+            "Protokol ichida boshqa hech qanday metod yozib bo'lmasligini belgilashni"
+        ],
+        "correctAnswer": "Ushbu protokolni qabul qiladigan har qanday tur beradigan 'Item' tipi mantiqan 'Equatable' bo'lishi shartligini"
+    },
+    {
+        "id": 78,
+        "subjectKey": "swift",
+        "text": "Swift'da 'OptionSet' protokoli asosan qanday muammoni hal qilish uchun xizmat qiladi?",
+        "options": [
+            "Bitli niqoblar (bitmask) yordamida bir nechta variantlarni bitta o'zgaruvchida matematik va xavfsiz jamlash (matematik to'plam kabi)",
+            "Optional o'zgaruvchilarni ketma-ketlikda ochish jarayonini optimallashtirish",
+            "Dasturdagi barcha Dictionary kalitlarini avtomatik saralash drayverini yoqish",
+            "Klass obyektlarini xotirada ketma-ket joylashishini qat'iy tartiblash"
+        ],
+        "correctAnswer": "Bitli niqoblar (bitmask) yordamida bir nechta variantlarni bitta o'zgaruvchida matematik va xavfsiz jamlash (matematik to'plam kabi)"
+    },
+    {
+        "id": 79,
+        "subjectKey": "swift",
+        "text": "Swift'da 'any' (Existential Type) ishlatilganda 'Type Erasure' jarayoni qachon yuz beradi?",
+        "options": [
+            "Dasturning ishlash vaqtida (runtime), aniq tur (concrete type) o'rniga dinamik xotira qobig'i (Existential Container) ishlatilganda",
+            "Kompilyatsiya vaqtida barcha static o'zgaruvchilar massiv formatiga o'tkazilganda",
+            "Faqat struct obyektlari 'let' kalit so'zi orqali nusxalanayotganda",
+            "Dastur ichida o'zgaruvchi turi ixtiyoriy ravishda majburiy o'zgartirilganda (force cast)"
+        ],
+        "correctAnswer": "Dasturning ishlash vaqtida (runtime), aniq tur (concrete type) o'rniga dinamik xotira qobig'i (Existential Container) ishlatilganda"
+    },
+    {
+        "id": 80,
+        "subjectKey": "swift",
+        "text": "Swift'da 'withCheckedThrowingContinuation' funksiyasi 'withCheckedContinuation'dan nimasi bilan farq qiladi?",
+        "options": [
+            "U wrap qilinayotgan eski callback-based kod ichidan xatolik (error) tashlash (throw qilish) imkoniyatini ham qo'llab-quvvatlaydi",
+            "U faqat va faqat Main Thread'da ishlaydi, xato bo'lsa dasturni darhol crash qiladi",
+            "U xatoliklarni avtomatik ravishda tashqi log fayllarga yozuvchi maxsus tizim hisoblanadi",
+            "U xotiradan umuman joy ajratmaydi va faqat vaqtinchalik sinxron tekshiruvlar uchun ishlaydi"
+        ],
+        "correctAnswer": "U wrap qilinayotgan eski callback-based kod ichidan xatolik (error) tashlash (throw qilish) imkoniyatini ham qo'llab-quvvatlaydi"
+    },
+    {
+        "id": 81,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Keypath' yordamida obyekt xususiyatini o'zgartirishda 'subscript(keyPath:)' qanday sintaksis bilan ishlatiladi?",
+        "options": [
+            "object[keyPath: \u005C.propertyName] = newValue",
+            "object.keyPath(\u005C.propertyName, newValue)",
+            "object[\u005C.propertyName] = newValue",
+            "object.set(\u005C.propertyName, to: newValue)"
+        ],
+        "correctAnswer": "object[keyPath: \u005C.propertyName] = newValue"
+    },
+    {
+        "id": 82,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Dynamic Isolation' (Swift 6 Concurrency) kontseptsiyasi nimani anglatadi?",
+        "options": [
+            "Kompilyatsiya vaqtida emas, balki dastur ishlash vaqtida (runtime) ma'lumotlar poygasi (Data Race) xavfsizligini dinamik tekshirish mexanizmi",
+            "Klass xususiyatlarini xotirada joylashish tartibini runtime paytida dinamik ravishda o'zgartirib turish tizimi",
+            "Faqat UIKit elementlarini background thread'ga dinamik ravishda o'tkazish imkoniyati",
+            "Xotiradagi barcha strong havolalarni asinxron ravishda weak holatga o'tkazish modeli"
+        ],
+        "correctAnswer": "Kompilyatsiya vaqtida emas, balki dastur ishlash vaqtida (runtime) ma'lumotlar poygasi (Data Race) xavfsizligini dinamik tekshirish mexanizmi"
+    },
+    {
+        "id": 83,
+        "subjectKey": "swift",
+        "text": "Swift'da 'rethrows' ishlatilgan funksiyaga argument sifatida xatoga olib kelmaydigan (non-throwing) closure uzatilsa nima sodir bo'ladi?",
+        "options": [
+            "Funksiya oddiy funksiya kabi ishlaydi va uni chaqirishda 'try' kalit so'zini yozish shart bo'lmaydi",
+            "Kompilyator majburiy ravishda 'try' yozishni talab qiladi, aks holda xatolik beradi",
+            "Funksiya baribir ichki xatolik tashlaydi va dasturni majburiy crash holatiga olib keladi",
+            "Ushbu funksiya faqat background thread'da asinxron bajariladigan rejimga o'tadi"
+        ],
+        "correctAnswer": "Funksiya oddiy funksiya kabi ishlaydi va uni chaqirishda 'try' kalit so'zini yozish shart bo'lmaydi"
+    },
+    {
+        "id": 84,
+        "subjectKey": "swift",
+        "text": "Swift Concurrency'da 'Task.sleep(nanoseconds:)' oqimni (thread) to'liq bloklaydimi?",
+        "options": [
+            "Yo'q, u joriy oqimni (thread) bloklamaydi, faqat joriy vazifani (Task) to'xtatib turadi va oqimni boshqa tasklar ishlashi uchun bo'shatib beradi",
+            "Ha, u xuddi Thread.sleep() kabi butun oqimni va unga bog'liq barcha jarayonlarni to'liq qulflaydi",
+            "U faqat Main Thread'ni bloklaydi, fondagi oqimlarga esa hech qanday ta'sir ko'rsata olmaydi",
+            "U xotirani tozalash jarayonini (ARC) vaqtinchalik muzlatib qo'yish uchun ishlatiladi"
+        ],
+        "correctAnswer": "Yo'q, u joriy oqimni (thread) bloklamaydi, faqat joriy vazifani (Task) to'xtatib turadi va oqimni boshqa tasklar ishlashi uchun bo'shatib beradi"
+    },
+    {
+        "id": 85,
+        "subjectKey": "swift",
+        "text": "Swift'da 'UnsafeMutableRawBufferPointer' tuzilmasining vazifasi nima?",
+        "options": [
+            "Turi aniq bo'lmagan, xotiradagi baytlar ketma-ketligiga (raw memory) to'g'ridan-to'g'ri kirish va ularni o'zgartirish imkonini beruvchi pointer",
+            "Faqat va faqat String formatidagi satrlarni xavfsiz shifrlash uchun ishlatiladigan maxsus ob'ekt",
+            "Klass elementlarini JSON formatiga o'giriish vaqtida xotira xatolarini ushlovchi wrapper",
+            "UIKit ichidagi grafik drayverlar bilan asinxron ishlashni ta'minlaydigan obyekt"
+        ],
+        "correctAnswer": "Turi aniq bo'lmagan, xotiradagi baytlar ketma-ketligiga (raw memory) to'g'ridan-to'g'ri kirish va ularni o'zgartirish imkonini beruvchi pointer"
+    },
+    {
+        "id": 86,
+        "subjectKey": "swift",
+        "text": "Swift'da '@usableFromInline' atributi funksiya yoki o'zgaruvchi oldidan yozilsa, bu nima beradi?",
+        "options": [
+            "Ushbu a'zo tashqi modullarga ko'rinmas bo'lsa-da (internal), uni '@inlinable' funksiyalar ichida xavfsiz ishlatish imkonini beradi",
+            "Funksiyani avtomatik ravishda SwiftUI ko'rinishlarida inline formatda chiqarish drayverini yoqadi",
+            "O'zgaruvchini faqat bir qatorda yoziladigan closure bloklari ichidagina amal qilishini ta'minlaydi",
+            "Kompilyatorga ushbu metodni xotiradan umuman o'chirmaslik haqida qat'iy buyruq beradi"
+        ],
+        "correctAnswer": "Ushbu a'zo tashqi modullarga ko'rinmas bo'lsa-da (internal), uni '@inlinable' funksiyalar ichida xavfsiz ishlatish imkonini beradi"
+    },
+    {
+        "id": 87,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Swift.print()' funksiyasida 'separator' va 'terminator' parametrlarining default qiymatlari mos ravishda qanday?",
+        "options": [
+            "separator: \" \", terminator: \"\n\"",
+            "separator: \"\", terminator: \" \"",
+            "separator: \",\", terminator: \";\"",
+            "separator: \"\n\", terminator: \"\""
+        ],
+        "correctAnswer": "separator: \" \", terminator: \"\n\""
+    },
+    {
+        "id": 88,
+        "subjectKey": "swift",
+        "text": "Swift'da 'ExpressibleByIntegerLiteral' protokolining vazifasi nima?",
+        "options": [
+            "Custom obyektni to'g'ridan-to'g'ri butun son yordamida initsializatsiya qilish (masalan, let price: Price = 100) imkonini berish",
+            "Barcha float va double sonlarni avtomatik ravishda Int turiga o'giriish mantiqini ta'minlash",
+            "Massiv indekslari faqat musbat sonlar bo'lishini kompilyator darajasida majburlash",
+            "Obyekt xotiradagi hajmini faqat butun sonlar ko'rinishida hisoblaydigan tizimni yoqish"
+        ],
+        "correctAnswer": "Custom obyektni to'g'ridan-to'g'ri butun son yordamida initsializatsiya qilish (masalan, let price: Price = 100) imkonini berish"
+    },
+    {
+        "id": 89,
+        "subjectKey": "swift",
+        "text": "Swift'da 'withExtendedLifetime' funksiyasi nima uchun ishlatiladi?",
+        "options": [
+            "Obyektning xotirada yashash muddatini (lifetime) sun'iy ravishda uzaytirish va ARC uni vaqtidan oldin o'chirib yuborishini oldini olish uchun",
+            "Dastur fonga (background) o'tganda tarmoq so'rovlarini bajarish vaqtini 10 daqiqaga uzaytirish uchun",
+            "Klass ichidagi static o'zgaruvchilarning xotira hajmini optimallashtirish uchun",
+            "SwiftUI animatsiyalari davomiyligini protsessor darajasida sekinlashtirish uchun"
+        ],
+        "correctAnswer": "Obyektning xotirada yashash muddatini (lifetime) sun'iy ravishda uzaytirish va ARC uni vaqtidan oldin o'chirib yuborishini oldini olish uchun"
+    },
+    {
+        "id": 90,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Opaque Type' (some) faqat bitta turni qaytara oladi, 'Generic Type' (T) dan uning mantiqiy farqi nimada?",
+        "options": [
+            "Generic turda aniq tipni funksiyani chaqiruvchi belgilaydi, Opaque type'da esa aniq tipni funksiyaning o'zi belgilaydi (yashiradi)",
+            "Generic tur faqat struct'lar bilan ishlaydi, Opaque type esa faqat klasslar bilan qo'llaniladi",
+            "Opaque type xotirada joy egallamaydi, Generic tur esa Heap xotirani to'liq band qiladi",
+            "Ular o'rtasida mantiqiy farq yo'q, ikkalasi ham mutlaqo bir xil vazifani bajaradi"
+        ],
+        "correctAnswer": "Generic turda aniq tipni funksiyani chaqiruvchi belgilaydi, Opaque type'da esa aniq tipni funksiyaning o'zi belgilaydi (yashiradi)"
+    },
+    {
+        "id": 91,
+        "subjectKey": "swift",
+        "text": "Swift'da 'CustomDebugStringConvertible' protokoli 'CustomStringConvertible' dan nimasi bilan farq qiladi?",
+        "options": [
+            "U obyekt 'debugPrint()' funksiyasiga uzatilganda yoki breakpoint'da tekshirilganda chiqadigan maxsus matn ko'rinishini (debugDescription) belgilaydi",
+            "U faqat va faqat dasturning Release (Production) versiyasida ishlaydigan matn formatlarini yaratadi",
+            "U klass tarkibidagi barcha private metodlarni avtomatik matnga o'girib konsolga chiqaradi",
+            "U xotira xatolarini (Memory Leaks) chiroyli jadval ko'rinishida matnga aylantirish uchun xizmat qiladi"
+        ],
+        "correctAnswer": "U obyekt 'debugPrint()' funksiyasiga uzatilganda yoki breakpoint'da tekshirilganda chiqadigan maxsus matn ko'rinishini (debugDescription) belgilaydi"
+    },
+    {
+        "id": 92,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Result' turidagi '.success' holati ichidagi qiymatni transformatsiya qilish uchun qaysi metoddan foydalaniladi?",
+        "options": ["map(_:)", "flatMap(_:)", "filter(_:)", "reduce(_:)"],
+        "correctAnswer": "map(_:)"
+    },
+    {
+        "id": 93,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Error' protokoli ichki tuzilishiga ko'ra qanday talabga ega?",
+        "options": [
+            "U hech qanday majburiy metod yoki xususiyat talab qilmaydi; u shunchaki bo'sh (Marker) protokoldir",
+            "U majburiy ravishda 'errorMessage: String' nomli xususiyat bo'lishini talab qiladi",
+            "U tarkibida xatolik kodini qaytaruvchi 'errorCode()' metodi bo'lishi shart",
+            "U faqat va faqat 'Enum' turlariga mos kelishi kerak degan qat'iy cheklovga ega"
+        ],
+        "correctAnswer": "U hech qanday majburiy metod yoki xususiyat talab qilmaydi; u shunchaki bo'sh (Marker) protokoldir"
+    },
+    {
+        "id": 94,
+        "subjectKey": "swift",
+        "text": "Swift Concurrency'da 'TaskLocal' (@TaskLocal) mulki (property wrapper) nima vazifani bajaradi?",
+        "options": [
+            "Ma'lum bir qiymatni joriy asinxron Task va uning barcha ichki (child) tasklari doirasida global kabi ochiq (accessible) qilish",
+            "O'zgaruvchini faqat telefondagi mahalliy diskda (UserDefaults) saqlashni avtomatlashtirish",
+            "Task bajarilayotgan vaqtda UI elementlarini (Views) boshqa oqimlardan butunlay qulflab qo'yish",
+            "Faqat bitta fayl ichidagi asinxron oqimlar kirishi mumkin bo'lgan maxfiy o'zgaruvchi yaratish"
+        ],
+        "correctAnswer": "Ma'lum bir qiymatni joriy asinxron Task va uning barcha ichki (child) tasklari doirasida global kabi ochiq (accessible) qilish"
+    },
+    {
+        "id": 95,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Dynamic Member Lookup' ishlatilganda, unga 'KeyPath' orqali murojaat qilish sintaksisi qanday bo'lishi kerak?",
+        "options": [
+            "subscript(dynamicMember: KeyPath<Target, Value>)",
+            "subscript(keyPathMember: KeyPath<Target, Value>)",
+            "subscript(dynamicKey: String)",
+            "subscript(memberPath: AnyKeyPath)"
+        ],
+        "correctAnswer": "subscript(dynamicMember: KeyPath<Target, Value>)"
+    },
+    {
+        "id": 96,
+        "subjectKey": "swift",
+        "text": "Swift'da 'lazy' kalit so'zi faqat qanday o'zgaruvchilar (properties) bilan ishlatilishi mumkin?",
+        "options": [
+            "Faqat o'zgaruvchan (var) stored property'lar bilan",
+            "Faqat o'zgarmas (let) stored property'lar bilan",
+            "Ixtiyoriy computed property (getter/setter) bilan",
+            "Faqat 'final' kalit so'zi yozilgan static o'zgaruvchilar bilan"
+        ],
+        "correctAnswer": "Faqat o'zgaruvchan (var) stored property'lar bilan"
+    },
+    {
+        "id": 97,
+        "subjectKey": "swift",
+        "text": "Swift'da 'precondition()' funksiyasining 'assert()' funksiyasidan asosiy farqi nimada?",
+        "options": [
+            "assert faqat Debug rejimida tekshiradi (Release'da o'chib ketadi), precondition esa ham Debug, ham Release rejimlarida qat'iy tekshiradi",
+            "precondition muvaffaqiyatsiz bo'lsa xatoni o'tkazib yuboradi, assert esa dasturni darhol crash qiladi",
+            "assert faqat asinxron tasklar ichida ishlaydi, precondition esa faqat sinxron kodlarda",
+            "Ular o'rtasida mantiqiy farq yo'q, ikkalasi ham har doim bir xil vaqtda o'chiriladi"
+        ],
+        "correctAnswer": "assert faqat Debug rejimida tekshiradi (Release'da o'chib ketadi), precondition esa ham Debug, ham Release rejimlarida qat'iy tekshiradi"
+    },
+    {
+        "id": 98,
+        "subjectKey": "swift",
+        "text": "Swift'da 'Never' turi asosan kompilyatorga qanday mantiqiy signalni berish uchun mo'ljallangan?",
+        "options": [
+            "Ushbu nuqtadan keyingi kod qatorlariga hech qachon yetib kelmasligini (unreachable code) bildirish va optimallashtirish uchun",
+            "Funksiya ixtiyoriy turdagi qiymatni (Any) qaytara olishi mumkinligini bildirish uchun",
+            "Xotiradan joy ajratish jarayonini butunlay to'xtatish kerakligini ko'rsatish uchun",
+            "O'zgaruvchi qiymati hech qachon o'zgarmasligini (constant) qat'iy ta'kidlash uchun"
+        ],
+        "correctAnswer": "Ushbu nuqtadan keyingi kod qatorlariga hech qachon yetib kelmasligini (unreachable code) bildirish va optimallashtirish uchun"
+    },
+    {
+        "id": 99,
+        "subjectKey": "swift",
+        "text": "Swift'da 'ManagedBuffer' klassining asosiy vazifasi nima?",
+        "options": [
+            "Xotira va elementlar hajmini qo'lda dinamik ajratish (custom array yoki kolleksiyalar yaratish) uchun xizmat qiluvchi asos klass",
+            "Faqat internetdan keladigan rasmlarni (Data buffer) keshda saqlash mexanizmi",
+            "SwiftUI sahifalarida render tezligini grafik xotira darajasida boshqaruvchi drayver",
+            "Xotirada strong reference cycle hosil bo'lgan obyektlarni avtomatik o'chiruvchi kesh"
+        ],
+        "correctAnswer": "Xotira va elementlar hajmini qo'lda dinamik ajratish (custom array yoki kolleksiyalar yaratish) uchun xizmat qiluvchi asos klass"
+    },
+    {
+        "id": 100,
+        "subjectKey": "swift",
+        "text": "Swift'da 'discarding task group' (withDiscardingTaskGroup) oddiy 'task group'dan nimasi bilan farq qiladi?",
+        "options": [
+            "U ichidagi child tasklar tugashi bilan ularning natijalarini xotirada saqlamasdan avtomatik tozalaydi, bu esa uzoq davom etuvchi guruhlarda xotirani tejaydi",
+            "U guruh ichidagi biror task xato tashlasa, dasturni avtomatik ravishda crash holatiga olib keladi",
+            "U faqat Main Thread'da ishlaydi va parallel bajarilish imkoniyatiga ega emas",
+            "U guruh ichidagi tasklarni faqat ketma-ketlik (serial) asosida bajarishga majburlaydi"
+        ],
+        "correctAnswer": "U ichidagi child tasklar tugashi bilan ularning natijalarini xotirada saqlamasdan avtomatik tozalaydi, bu esa uzoq davom etuvchi guruhlarda xotirani tejaydi"
+    }
+]

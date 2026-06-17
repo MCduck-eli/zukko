@@ -1,0 +1,1177 @@
+[
+    {
+        "id": 1,
+        "subjectKey": "history",
+        "title": "O'zbekiston hududida ilk paleolit davriga oid eng qadimgi odam suyak qoldiqlari va mehnat qurollari qaysi g'ordan topilgan?",
+        "options": [
+            "Teshiktosh g'oridan",
+            "Obirahmat g'oridan",
+            "Zarautsoy g'oridan",
+            "Selungur g'oridan"
+        ],
+        "answer": "Selungur g'oridan",
+        "category": "history"
+    },
+    {
+        "id": 2,
+        "subjectKey": "history",
+        "title": "Qadimgi dunyo tarixida 'Tarix otasi' deb nom olgan va o'zining yirik asarida massagetlar hamda To'maris jasorati haqida ma'lumotlar qoldirgan yunon olimi kim?",
+        "options": ["Gerodot", "Strabon", "Ktesiy", "Kvint Kursiy Ruf"],
+        "answer": "Gerodot",
+        "category": "history"
+    },
+    {
+        "id": 3,
+        "subjectKey": "history",
+        "title": "Miloddan avvalgi IV asrda So'g'diyona va Baqtriya xalqlari o'rtasida o'z vatanini himoya qilish uchun Makedoniyalik Aleksandrga (Iskandar Zulqarnaynga) qarshi ko'tarilgan yirik qo'zg'olonga kim boshchilik qilgan?",
+        "options": ["Spitamen", "Frada", "To'maris", "Shirak"],
+        "answer": "Spitamen",
+        "category": "history"
+    },
+    {
+        "id": 4,
+        "subjectKey": "history",
+        "title": "Farg'ona vodiysida miloddan avvalgi davrlarda mavjud bo'lgan, Xitoy manbalarida 'Davan' deb atalgan va o'zining 'samoviy tulporlari' bilan mashhur bo'lgan qadimgi davlat qaysi?",
+        "options": [
+            "Parkana davlati",
+            "Xorazm davlati",
+            "Qang' davlati",
+            "Kushon davlati"
+        ],
+        "answer": "Parkana davlati",
+        "category": "history"
+    },
+    {
+        "id": 5,
+        "subjectKey": "history",
+        "title": "Ilk o'rta asrlarda (VI asrda) Markaziy Osiyo hududlarini o'z ichiga olgan, Oltoyda vujudga kelib, ko'chmanchi va o'troq xalqlarni birlashtirgan ulkan imperiya qaysi?",
+        "options": [
+            "Turk xoqonligi",
+            "Eftaliylar davlati",
+            "Xioniyalar davlati",
+            "Qoraxoniylar davlati"
+        ],
+        "answer": "Turk xoqonligi",
+        "category": "history"
+    },
+    {
+        "id": 6,
+        "subjectKey": "history",
+        "title": "Movarounnahrda arab xalifaligining zulmiga qarshi 770-780-yillarda ko'tarilgan hamda ishtirokchilari oq kiyim kiyganligi bilan mashhur bo'lgan qo'zg'olon qanday nomlanadi?",
+        "options": [
+            "Muqanna qo'zg'oloni",
+            "Sumbod mag' qo'zg'oloni",
+            "Abu Muslim harakati",
+            "Rofe ibn Lays qo'zg'oloni"
+        ],
+        "answer": "Muqanna qo'zg'oloni",
+        "category": "history"
+    },
+    {
+        "id": 7,
+        "subjectKey": "history",
+        "title": "892-yilda Movarounnahrni to'liq birlashtirib, poytaxti Buxoro shahri bo'lgan markazlashgan Somoniylar davlatiga asos solgan hukmdor kim?",
+        "options": [
+            "Ismoil Somoniy",
+            "Nasr ibn Ahmad",
+            "Ahmad ibn Asad",
+            "Nuh ibn Nasr"
+        ],
+        "answer": "Ismoil Somoniy",
+        "category": "history"
+    },
+    {
+        "id": 8,
+        "subjectKey": "history",
+        "title": "Markaziy Osiyo hududida birinchi bo'lib islom dinini rasmiy davlat dini deb e'lon qilgan ilk turkiy sulola qaysi?",
+        "options": [
+            "Qoraxoniylar",
+            "G'aznaviylar",
+            "Saljuqiylar",
+            "Xorazmshohlar"
+        ],
+        "answer": "Qoraxoniylar",
+        "category": "history"
+    },
+    {
+        "id": 9,
+        "subjectKey": "history",
+        "title": "1219-1221-yillarda Chingizxon qo'shinlarining Xorazmshohlar davlatiga qilgan bosqini paytida Xo'jand shahrini qahramonlarcha himoya qilgan sarkarda kim?",
+        "options": [
+            "Temur Malik",
+            "Jaloliddin Manguberdi",
+            "Najmiddin Kubro",
+            "Mahmud Torobiy"
+        ],
+        "answer": "Temur Malik",
+        "category": "history"
+    },
+    {
+        "id": 10,
+        "subjectKey": "history",
+        "title": "1370-yilda Movarounnahrda tarqoqlikka chek qo'yib, poytaxti Samarqand bo'lgan qudratli markazlashgan davlatga asos solgan buyuk davlat arbobi kim?",
+        "options": [
+            "Amir Temur",
+            "Mirzo Ulug'bek",
+            "Sulton Husayn Boyqaro",
+            "Zahiriddin Muhammad Bobur"
+        ],
+        "answer": "Amir Temur",
+        "category": "history"
+    },
+    {
+        "id": 11,
+        "subjectKey": "history",
+        "title": "1402-yilda Amir Temur va Usmonli turklar sultoni Boyazid Yildirim o'rtasida bo'lib o'tgan, Yevropani turklar xavfidan saqlab qolgan mashhur jang qaysi?",
+        "options": [
+            "Anqara jangi",
+            "Loy jangi",
+            "Terek daryosi bo'yidagi jang",
+            "Kondurcha jangi"
+        ],
+        "answer": "Anqara jangi",
+        "category": "history"
+    },
+    {
+        "id": 12,
+        "subjectKey": "history",
+        "title": "1526-yilda Hindistonda Boburiylar saltanatiga (Katta Mo'g'ullar imperiyasiga) asos solgan va o'zining shoh asari 'Boburnoma' bilan dunyoga tanilgan o'zbek shoiri va hukmdori kim?",
+        "options": [
+            "Zahiriddin Muhammad Bobur",
+            "Kamolidon Behzod",
+            "Humoyun mirzo",
+            "Jaloliddin Akbar"
+        ],
+        "answer": "Zahiriddin Muhammad Bobur",
+        "category": "history"
+    },
+    {
+        "id": 13,
+        "subjectKey": "history",
+        "title": "Xonliklar davrida (XVIII-XIX asrlarda) Farg'ona vodiysi va unga tutash hududlarda mavjud bo'lgan, Ming sulolasi tomonidan boshqarilgan davlat qaysi?",
+        "options": [
+            "Qo'qon xonligi",
+            "Buxoro amirligi",
+            "Xiva xonligi",
+            "Qo'ng'irotlar davlati"
+        ],
+        "answer": "Qo'qon xonligi",
+        "category": "history"
+    },
+    {
+        "id": 14,
+        "subjectKey": "history",
+        "title": "1865-yil iyun oyida Toshkent shahrini chor Rossiyasi qo'shinlarining hujumidan mardona himoya qilishda halok bo'lgan Qo'qon xonligi lashkarboshisi kim?",
+        "options": ["Alimqul dodxoh", "Po'lat xon", "Xudoyorxon", "Madalixon"],
+        "answer": "Alimqul dodxoh",
+        "category": "history"
+    },
+    {
+        "id": 15,
+        "subjectKey": "history",
+        "title": "XIX asr oxiri — XX asr boshlarida Turkistonda xalqning ongi va madaniyatini yuksaltirish, milliy maktablar ochish va gazetalarni yo'lga qo'yish maqsadida shakllangan ijtimoiy-siyosiy harakat qanday ataladi?",
+        "options": [
+            "Jadidchilik harakati",
+            "Shuroi Islom harakati",
+            "Yosh buxoroliklar harakati",
+            "Alash harakati"
+        ],
+        "answer": "Jadidchilik harakati",
+        "category": "history"
+    },
+    {
+        "id": 16,
+        "subjectKey": "history",
+        "title": "1917-yil noyabr oyida Qo'qon shahrida e'lon qilingan va o'lkada demokratik davlat qurishni maqsad qilgan, biroq bolsheviklar tomonidan qonli bostirilgan muxtoriyat qaysi?",
+        "options": [
+            "Turkiston muxtoriyati",
+            "Buxoro Xalq Sovet Respublikasi",
+            "Xorazm Xalq Sovet Respublikasi",
+            "Alaş muxtoriyati"
+        ],
+        "answer": "Turkiston muxtoriyati",
+        "category": "history"
+    },
+    {
+        "id": 17,
+        "subjectKey": "history",
+        "title": "O'zbekiston Respublikasining Mustaqillik deklaratsiyasi O'zbekiston SSR Oliy Kengashining nechanchi sessiyasida qabul qilingan?",
+        "options": [
+            "1990-yil 20-iyunda",
+            "1991-yil 31-avgustda",
+            "1989-yil 21-oktabrda",
+            "1992-yil 8-dekabrda"
+        ],
+        "answer": "1990-yil 20-iyunda",
+        "category": "history"
+    },
+    {
+        "id": 18,
+        "subjectKey": "history",
+        "title": "Qadimgi Misr tarixida ilk bor dunyodagi yagona xudoga (Quyosh — Aton xudosiga) sig'inish islohotini o'tkazishga harakat qilgan fir'avn kim?",
+        "options": [
+            "Exnaton (Amenxotep IV)",
+            "Ramses II",
+            "Tutankxamun",
+            "Xufu (Xeops)"
+        ],
+        "answer": "Exnaton (Amenxotep IV)",
+        "category": "history"
+    },
+    {
+        "id": 19,
+        "subjectKey": "history",
+        "title": "Jahon tarixida ilk bor ommaviy ravishda qog'oz ishlab chiqarish, kompas va porox kabi buyuk kashfiyotlar qaysi qadimgi davlatda ixtiro qilingan?",
+        "options": [
+            "Qadimgi Xitoyda",
+            "Qadimgi Hindistonda",
+            "Qadimgi Bobilda",
+            "Qadimgi Rimda"
+        ],
+        "answer": "Qadimgi Xitoyda",
+        "category": "history"
+    },
+    {
+        "id": 20,
+        "subjectKey": "history",
+        "title": "1789-yilda boshlangan va feodal tuzumni ag'darib, 'Erkinlik, Tenglik, Birodarlik' g'oyalarini olg'a surgan buyuk inqilob qaysi mamlakatda sodir bo'lgan?",
+        "options": ["Fransiyada", "Angliyada", "AQShda", "Rossiyada"],
+        "answer": "Fransiyada",
+        "category": "history"
+    },
+    {
+        "id": 21,
+        "subjectKey": "history",
+        "title": "Miloddan avvalgi 522-yilda Axamaniylar imperiyasida hokimiyatni egallab olgan va mamlakatni 20 ta satraplikka (viloyatga) bo'lib, pul hamda soliq islohotlarini o'tkazgan shoh kim?",
+        "options": ["Doro I", "Kir II", "Kambiz II", "Ksarks I"],
+        "answer": "Doro I",
+        "category": "history"
+    },
+    {
+        "id": 22,
+        "subjectKey": "history",
+        "title": "Qadimgi dunyo tarixida birinchi marta o'nlik sanoq tizimini ixtiro qilgan va nol (0) raqamini fanga kiritgan mamlakat qaysi?",
+        "options": [
+            "Qadimgi Hindiston",
+            "Qadimgi Misr",
+            "Qadimgi Bobil",
+            "Qadimgi Yunoniston"
+        ],
+        "answer": "Qadimgi Hindiston",
+        "category": "history"
+    },
+    {
+        "id": 23,
+        "subjectKey": "history",
+        "title": "Miloddan avvalgi III asrda amalda bo'lgan, Xitoyni O'rta Osiyo va Yevropa bilan bog'lagan buyuk savdo yo'li tarixda qanday nom olgan?",
+        "options": [
+            "Buyuk Ipak yo'li",
+            "Lojuvard yo'li",
+            "Shoh yo'li",
+            "Ziravorlar yo'li"
+        ],
+        "answer": "Buyuk Ipak yo'li",
+        "category": "history"
+    },
+    {
+        "id": 24,
+        "subjectKey": "history",
+        "title": "Qadimgi Rimda miloddan avvalgi 74-71-yillarda gladiatorlar tomonidan ko'tarilgan, antik dunyoning eng yirik qullar qo'zg'oloniga kim boshchilik qilgan?",
+        "options": ["Spartak", "Gannibal", "Yuliy Sezar", "Klassik"],
+        "answer": "Spartak",
+        "category": "history"
+    },
+    {
+        "id": 25,
+        "subjectKey": "history",
+        "title": "X asrda yashab ijod etgan, g'arbda 'Avitsenna' nomi bilan mashhur bo'lgan va o'zining 'Tib qonunlari' asari bilan tibbiyot ilmiga ulkan hissa qo'shgan alloma kim?",
+        "options": [
+            "Abu Ali ibn Sino",
+            "Abu Rayhon Beruniy",
+            "Al-Xorazmiy",
+            "Al-Farg'oniy"
+        ],
+        "answer": "Abu Ali ibn Sino",
+        "category": "history"
+    },
+    {
+        "id": 26,
+        "subjectKey": "history",
+        "title": "IX asrda Bag'dodda xalifa Al-Ma'mun tomonidan tashkil etilgan, O'rta Osiyolik olimlar, xususan, Al-Xorazmiy faoliyat yuritgan ilm-fan markazi qanday nomlangan?",
+        "options": [
+            "Bayt ul-hikma (Donishmandlar uyi)",
+            "Nizomiy madrasasi",
+            "Dorul hikmat",
+            "Al-Azhar"
+        ],
+        "answer": "Bayt ul-hikma (Donishmandlar uyi)",
+        "category": "history"
+    },
+    {
+        "id": 27,
+        "subjectKey": "history",
+        "title": "XI-XII asrlarda Xorazm hududida shakllangan, fanning turli sohalarida yirik kashfiyotlar qilgan va Beruniy hamda Ibn Sino yetakchilik qilgan ilmiy akademiya qaysi?",
+        "options": [
+            "Ma'mun akademiyasi",
+            "Ulug'bek akademiyasi",
+            "Gundishapur akademiyasi",
+            "Sultonlik akademiyasi"
+        ],
+        "answer": "Ma'mun akademiyasi",
+        "category": "history"
+    },
+    {
+        "id": 28,
+        "subjectKey": "history",
+        "title": "1206-yilda Omon daryosi bo'yida bo'lib o'tgan kurultoyda barcha mo'g'ul qabilalarining oliy hukmdori deb e'lon qilingan va 'Chingizxon' unvonini olgan shaxs kim?",
+        "options": ["Temuchin", "Jondu", "O'g'etoy", "Batuxon"],
+        "answer": "Temuchin",
+        "category": "history"
+    },
+    {
+        "id": 29,
+        "subjectKey": "history",
+        "title": "1447-1449-yillarda temuriylar saltanatini boshqargan, Samarqandda yirik rasadxona qurdirib, 1018 ta yulduzning koordinatalarini aniqlagan buyuk astronom olim va hukmdor kim?",
+        "options": [
+            "Mirzo Ulug'bek",
+            "Shohrux mirzo",
+            "Abu Said mirzo",
+            "Xalil Sulton"
+        ],
+        "answer": "Mirzo Ulug'bek",
+        "category": "history"
+    },
+    {
+        "id": 30,
+        "subjectKey": "history",
+        "title": "1500-yilda Movarounnahrga bostirib kirib, temuriylar hukmronligiga chek qo'ygan va Shayboniylar davlatiga asos solgan xon kim?",
+        "options": [
+            "Muhammad Shayboniyxon",
+            "Ko'chkunchixon",
+            "Ubaydullaxon",
+            "Abdullaxon II"
+        ],
+        "answer": "Muhammad Shayboniyxon",
+        "category": "history"
+    },
+    {
+        "id": 31,
+        "subjectKey": "history",
+        "title": "Xiva xonligida o'z xizmatlari evaziga eng yuqori harbiy lavozimlardan biri bo'lgan, xonning eng yaqin maslahatchisi va qo'shin qo'mondoni kim hisoblangan?",
+        "options": ["Otaliq", "Inoq", "Qushbegi", "Devonbegi"],
+        "answer": "Inoq",
+        "category": "history"
+    },
+    {
+        "id": 32,
+        "subjectKey": "history",
+        "title": "Buxoro amirligida XIX asrda davlat ma'muriyatida amirdan keyingi eng muhim va eng yuqori mansab, bosh vazir lavozimi qanday atalgan?",
+        "options": ["Qushbegi", "Parvonachi", "Dodxoh", "To'qsabo"],
+        "answer": "Qushbegi",
+        "category": "history"
+    },
+    {
+        "id": 33,
+        "subjectKey": "history",
+        "title": "Chor Rossiyasining Turkistonni bosib olish jarayonida, 1873-yilda imzolangan qaysi shartnomaga ko'ra Xiva xonligi Rossiya protektoratiga (vassaliga) aylandi?",
+        "options": [
+            "Gandimiyon shartnomasi",
+            "Kofirqala shartnomasi",
+            "Ziyovuddin shartnomasi",
+            "Parij shartnomasi"
+        ],
+        "answer": "Gandimiyon shartnomasi",
+        "category": "history"
+    },
+    {
+        "id": 34,
+        "subjectKey": "history",
+        "title": "1898-yilda Farg'ona vodiysida chor Rossiyasi mustamlakachilik zulmiga qarshi ko'tarilgan yirik xalq qo'zg'oloniga kim boshchilik qilgan?",
+        "options": [
+            "Dukchi Eshon (Muhammadali xalfa)",
+            "Po'latxon",
+            "Madali xon",
+            "Namoz pirim"
+        ],
+        "answer": "Dukchi Eshon (Muhammadali xalfa)",
+        "category": "history"
+    },
+    {
+        "id": 35,
+        "subjectKey": "history",
+        "title": "1924-yilda O'rta Osiyoda amalga oshirilgan milliy-hududiy chegaralanish natijasida O'zbekiston SSR tarkibida qaysi muxtor respublika tashkil etilgan?",
+        "options": [
+            "Tojikiston ASSR",
+            "Qirg'iziston ASSR",
+            "Turkmaniston ASSR",
+            "Qozoqiston ASSR"
+        ],
+        "answer": "Tojikiston ASSR",
+        "category": "history"
+    },
+    {
+        "id": 36,
+        "subjectKey": "history",
+        "title": "O'zbekiston Respublikasi Birlashgan Millatlar Tashkilotiga (BMT) to'laqonli a'zo bo'lib qabul qilingan sana qaysi?",
+        "options": [
+            "1992-yil 2-martda",
+            "1991-yil 2-sentyabrda",
+            "1993-yil 8-dekabrda",
+            "1990-yil 20-iyunda"
+        ],
+        "answer": "1992-yil 2-martda",
+        "category": "history"
+    },
+    {
+        "id": 37,
+        "subjectKey": "history",
+        "title": "Yevropa tarixida XV-XVI asrlarda o'rta asrlar aqidalaridan voz kechib, antik madaniyatni qayta tiklash va insonparvarlik (humanizm) g'oyalarini yoyish davri qanday ataladi?",
+        "options": [
+            "Uyg'onish davri (Renessans)",
+            "Ma'rifatparvarlik davri",
+            "Islohotchilik (Reformatsiya) davri",
+            "Sanoat to'ntarishi davri"
+        ],
+        "answer": "Uyg'onish davri (Renessans)",
+        "category": "history"
+    },
+    {
+        "id": 38,
+        "subjectKey": "history",
+        "title": "1492-yilda Ispaniya qiroli ko'magida Atlantika okeani orqali Hindistonga dengiz yo'lini qidirib, tasodifan yangi qit'a — Amerikaning kashf etilishiga sabab bo'lgan dengizchi kim?",
+        "options": [
+            "Xristofor Kolumb",
+            "Vasko da Gama",
+            "Amerigo Vespucci",
+            "Fernan Magellan"
+        ],
+        "answer": "Xristofor Kolumb",
+        "category": "history"
+    },
+    {
+        "id": 39,
+        "subjectKey": "history",
+        "title": "AQSh tarixida 1776-yil 4-iyulda qabul qilingan va shtatlarning Angliya mustamlakachiligidan mustaqil bo'lganligini e'lon qilgan tarixiy hujjat qaysi?",
+        "options": [
+            "Mustaqillik deklaratsiyasi",
+            "Huquqlar to'g'risida bill",
+            "Konstitutsiya xartiyasi",
+            "Monro doktrinasi"
+        ],
+        "answer": "Mustaqillik deklaratsiyasi",
+        "category": "history"
+    },
+    {
+        "id": 40,
+        "subjectKey": "history",
+        "title": "1919-yilda Birinchi jahon urushi yakunlari bo'yicha g'olib davlatlar va Germaniya o'rtasida imzolangan, xalqaro munosabatlarning yangi tizimini belgilagan shartnoma qaysi?",
+        "options": [
+            "Versal sulh shartnomasi",
+            "Parij shartnomasi",
+            "Tanzimat shartnomasi",
+            "Vena kongressi hujjati"
+        ],
+        "answer": "Versal sulh shartnomasi",
+        "category": "history"
+    },
+    {
+        "id": 41,
+        "subjectKey": "history",
+        "title": "Miloddan avvalgi 1259-yilda jahon tarixida ilk bor xalqaro tinchlik shartnomasi (Kadesh bitimi) qaysi ikki qudratli davlat o'rtasida imzolangan?",
+        "options": [
+            "Qadimgi Misr va Xett davlati",
+            "Bobil va Assuriya",
+            "Mitti va Midiya",
+            "Urartu va Axamaniylar"
+        ],
+        "answer": "Qadimgi Misr va Xett davlati",
+        "category": "history"
+    },
+    {
+        "id": 42,
+        "subjectKey": "history",
+        "title": "Miloddan avvalgi II-I mingyilliklarda Mesopotamiyada qudratli davlatga aylanib, o'zining qattiqqo'l qonunlari va birinchi marta mixxat yozuvidagi ulkan kutubxonani (Ashurbanipal kutubxonasi) tashkil qilishi bilan mashhur bo'lgan imperiya qaysi?",
+        "options": ["Assuriya", "Bobil", "Shumer", "Aksub"],
+        "answer": "Assuriya",
+        "category": "history"
+    },
+    {
+        "id": 43,
+        "subjectKey": "history",
+        "title": "Qadimgi Yunonistonda harbiy tartib-intizomi, qat'iy qonunlari va yoshlarni faqat jangovar ruhda tarbiyalashi bilan ajralib turgan polis (shahar-davlat) qaysi?",
+        "options": ["Sparta", "Afina", "Korinf", "Fiva"],
+        "answer": "Sparta",
+        "category": "history"
+    },
+    {
+        "id": 44,
+        "subjectKey": "history",
+        "title": "Markaziy Osiyoda ilk o'rta asrlarda (V-VI asrlarda) hukmronlik qilgan, 'Oq xunlar' nomi bilan ham atalgan va o'z davrida Sosoniylar imperiyasini o'ziga qaram qilib soliq to'lashga majbur etgan davlat qaysi?",
+        "options": [
+            "Eftaliylar davlati",
+            "Xioniyalar",
+            "Kidariylar",
+            "Turk xoqonligi"
+        ],
+        "answer": "Eftaliylar davlati",
+        "category": "history"
+    },
+    {
+        "id": 45,
+        "subjectKey": "history",
+        "title": "O'rta asrlarda G'arbiy Yevropada barcha yer egalari va dehqonlarni o'ziga qaram qilib, jamiyatni tabaqalarga (vassal-senyor) bo'lib boshqarishga asoslangan ijtimoiy-siyosiy tuzum nima deb atalgan?",
+        "options": ["Feodalizm", "Kapitalizm", "Quldorlik", "Sotsializm"],
+        "answer": "Feodalizm",
+        "category": "history"
+    },
+    {
+        "id": 46,
+        "subjectKey": "history",
+        "title": "Markaziy Osiyo va Eron xalqlari madaniyatida chuqur iz qoldirgan, XI asrda hukmronlik qilgan buyuk Saljuqiylar davlatining eng mashhur va qudratli vaziri, 'Siyosatnoma' asari muallifi kim?",
+        "options": ["Nizomulmulk", "Al-Utbiy", "Bayhaqiy", "Ravandiy"],
+        "answer": "Nizomulmulk",
+        "category": "history"
+    },
+    {
+        "id": 47,
+        "subjectKey": "history",
+        "title": "1238-yilda Mo'g'uliston imperiyasiga qarshi Movarounnahrda (Buxoroda) hunarmandlar va dehqonlarning katta qo'zg'oloni bo'lib o'tadi. Tarixda g'alaba bilan tugagan ushbu harakatga kim boshchilik qilgan?",
+        "options": [
+            "Mahmud Torobiy",
+            "Malik Sanjar",
+            "Najmiddin Kubro",
+            "Sadriddin"
+        ],
+        "answer": "Mahmud Torobiy",
+        "category": "history"
+    },
+    {
+        "id": 48,
+        "subjectKey": "history",
+        "title": "1365-yil 22-mayda Toshkent va Chinoz oralig'ida Amir Temur va amir Husayn qo'shini bilan Mo'g'uliston hukmdori sulton Jetexon o'rtasida bo'lib o'tgan yirik jang tarixga qanday nom bilan kirgan?",
+        "options": [
+            "Loy jangi",
+            "Anqara jangi",
+            "Kondurcha jangi",
+            "Terek jangi"
+        ],
+        "answer": "Loy jangi",
+        "category": "history"
+    },
+    {
+        "id": 49,
+        "subjectKey": "history",
+        "title": "1480-1490-yillarda Hirotda temuriylar saroyida yashab ijod etgan, o'zbek adabiy tilining asoschisi va 'Xamsa' turkum dostonlarining muallifi bo'lgan buyuk mutafakkir kim?",
+        "options": ["Alisher Navoiy", "Abdurahmon Jomiy", "Lutfiy", "Sakkokiy"],
+        "answer": "Alisher Navoiy",
+        "category": "history"
+    },
+    {
+        "id": 50,
+        "subjectKey": "history",
+        "title": "Janubiy dengizlar va Hindistonga boradigan dengiz yo'lini qidirish jarayonida, 1519-1522-yillarda tarixda birinchi marta dunyo bo'ylab dengiz sayohatini amalga oshirgan va Yerning sharsimon ekanligini amalda isbotlagan sayyoh kim?",
+        "options": [
+            "Fernan Magellan",
+            "Vasko da Gama",
+            "Xristofor Kolumb",
+            "Jeyms Kuk"
+        ],
+        "answer": "Fernan Magellan",
+        "category": "history"
+    },
+    {
+        "id": 51,
+        "subjectKey": "history",
+        "title": "Buxoro xonligida XVI asr oxirida Ashtarxoniylar (Joniylar) sulolasining hokimiyat tepasiga kelishiga zamin yaratgan, o'z davrida sulolaning ilk rasmiy xoni sifatida taxtga o'tirgan hukmdor kim?",
+        "options": [
+            "Boqi Muhammadxon",
+            "Imomqulixon",
+            "Subhonqulixon",
+            "Ubaydullaxon II"
+        ],
+        "answer": "Boqi Muhammadxon",
+        "category": "history"
+    },
+    {
+        "id": 52,
+        "subjectKey": "history",
+        "title": "1740-yilda qudratli Eron shohi Nodirshoh Afshor o'z qo'shinlari bilan Movarounnahrga yurish qilib, qaysi o'zbek xonligini urushsiz, sulh tuzish orqali o'ziga bo'ysundiradi?",
+        "options": [
+            "Buxoro xonligini",
+            "Xiva xonligini",
+            "Qo'qon xonligini",
+            "Balx hokimligini"
+        ],
+        "answer": "Buxoro xonligini",
+        "category": "history"
+    },
+    {
+        "id": 53,
+        "subjectKey": "history",
+        "title": "Xiva xonligida 1804-yilda inoq Qo'ng'irotlar sulolasi vakillaridan birinchi bo'lib o'zini rasman 'Xon' deb e'lon qilgan va markazlashgan davlat siyosatini yuritgan hukmdor kim?",
+        "options": [
+            "Eltuzarxon",
+            "Muhammad Rahimxon I",
+            "Olloqulixon",
+            "Madaminxon"
+        ],
+        "answer": "Eltuzarxon",
+        "category": "history"
+    },
+    {
+        "id": 54,
+        "subjectKey": "history",
+        "title": "Chor Rossiyasi mustamlakachiligiga qarshi 1916-yilda butun Turkiston bo'ylab yirik xalq qo'zg'oloni ko'tarilishiga podshoh Nikolay II ning qaysi farmoni sabab bo'lgan edi?",
+        "options": [
+            "Turkistonlik erkaklarni front orti mardikorlik ishlariga safbar etish to'g'risidagi farmon",
+            "Paxta solig'ini keskin oshirish to'g'risidagi farmon",
+            "Xonliklarni butunlay tugatish to'g'risidagi farmon",
+            "Yerlarni rus ko'chmanchilariga musodara qilib berish to'g'risidagi farmon"
+        ],
+        "answer": "Turkistonlik erkaklarni front orti mardikorlik ishlariga safbar etish to'g'risidagi farmon",
+        "category": "history"
+    },
+    {
+        "id": 55,
+        "subjectKey": "history",
+        "title": "1918-1930-yillarda Turkistonda sovet rejimining mustamlakachilik va zo'ravonlik siyosatiga qarshi qurolli harakat sovet mafkurasida 'Bosmachilik', milliy tarixda esa nima deb ataladi?",
+        "options": [
+            "Istiqlolchilik harakati",
+            "Jadidchilik harakati",
+            "Muxtoriyatchilar harakati",
+            "Alashchilar harakati"
+        ],
+        "answer": "Istiqlolchilik harakati",
+        "category": "history"
+    },
+    {
+        "id": 56,
+        "subjectKey": "history",
+        "title": "Ikkinchi jahon urushi yillarida (1943-yilda) fashizmga qarshi ittifoqchi davlatlar rahbarlari — I. Stalin, U. Cherchill va F. Ruzvelt ishtirokida urushdan keyingi dunyo tartibini belgilash bo'yicha o'tkazilgan ilk oliy konferensiya qaysi?",
+        "options": [
+            "Tehron konferensiyasi",
+            "Yalta konferensiyasi",
+            "Potsdam konferensiyasi",
+            "San-Fransisko konferensiyasi"
+        ],
+        "answer": "Tehron konferensiyasi",
+        "category": "history"
+    },
+    {
+        "id": 57,
+        "subjectKey": "history",
+        "title": "1945-yilda Ikkinchi jahon urushidan keyin dunyoda tinchlik va xavfsizlikni ta'minlash, davlatlararo hamkorlikni rivojlantirish maqsadida tuzilgan eng yirik xalqaro tashkilot qaysi?",
+        "options": [
+            "Birlashgan Millatlar Tashkiloti (BMT)",
+            "Millatlar Ligasi",
+            "NATO",
+            "Yevropa Ittifoqi"
+        ],
+        "answer": "Birlashgan Millatlar Tashkiloti (BMT)",
+        "category": "history"
+    },
+    {
+        "id": 58,
+        "subjectKey": "history",
+        "title": "Ikkinchi jahon urushidan keyingi davrda (XX asrning ikkinchi yarmi) AQSh boshchiligidagi g'arb davlatlari va SSSR boshchiligidagi sotsialistik lager o'rtasidagi g'oyaviy-siyosiy va harbiy qarama-qarshilik davri tarixda qanday nomlanadi?",
+        "options": [
+            "Sovuq urush davri",
+            "Gibrid urushlar davri",
+            "Ikkinchi renessans davri",
+            "Yadroviy kelishuv davri"
+        ],
+        "answer": "Sovuq urush davri",
+        "category": "history"
+    },
+    {
+        "id": 59,
+        "subjectKey": "history",
+        "title": "O'zbekiston Respublikasining mustaqil davlat sifatidagi huquqiy asoslarini mustahkamlab bergan Bosh qomus — O'zbekiston Respublikasi Konstitutsiyasi ilk bor qachon qabul qilingan?",
+        "options": [
+            "1992-yil 8-dekabrda",
+            "1991-yil 31-avgustda",
+            "1993-yil 8-dekabrda",
+            "1990-yil 20-iyunda"
+        ],
+        "answer": "1992-yil 8-dekabrda",
+        "category": "history"
+    },
+    {
+        "id": 60,
+        "subjectKey": "history",
+        "title": "2001-yilda Shanxay shahrida Rossiya, Xitoy, O'zbekiston, Qozog'iston, Qirg'iziston va Tojikiston davlatlari rahbarlari tomonidan mintaqaviy xavfsizlik va iqtisodiy hamkorlikni rivojlantirish maqsadida tuzilgan tashkilot qaysi?",
+        "options": [
+            "Shanxay Hamkorlik Tashkiloti (ShHT)",
+            "Mustaqil Davlatlar Hamdo'stligi (MDH)",
+            "Iqtisodiy Hamkorlik Tashkiloti (IHT)",
+            "Yevroosiyo Iqtisodiy Ittifoqi"
+        ],
+        "answer": "Shanxay Hamkorlik Tashkiloti (ShHT)",
+        "category": "history"
+    },
+    {
+        "id": 61,
+        "subjectKey": "history",
+        "title": "Miloddan avvalgi XVIII asrda Bobil davlatida qabul qilingan, qadimgi dunyoning eng mukammal va to'liq saqlanib qolgan qonunlar majmuasi kimning nomi bilan ataladi?",
+        "options": [
+            "Hammurapi qonunlari",
+            "Solon qonunlari",
+            "Ur-Nammu qonunlari",
+            "Manu qonunlari"
+        ],
+        "answer": "Hammurapi qonunlari",
+        "category": "history"
+    },
+    {
+        "id": 62,
+        "subjectKey": "history",
+        "title": "Miloddan avvalgi III asrda Xitoyda tarqoqlikka chek qo'yib, ilk bor markazlashgan imperiyaga asos solgan va Buyuk Xitoy devorini qurishni boshlagan hukmdor kim?",
+        "options": ["Sin Shi Xuandi", "Lyu Ban", "Uxan Di", "Sun Yatsen"],
+        "answer": "Sin Shi Xuandi",
+        "category": "history"
+    },
+    {
+        "id": 63,
+        "subjectKey": "history",
+        "title": "Qadimgi Rim tarixida miloddan avvalgi 509-yildan miloddan avvalgi 27-yilgacha davom etgan, hokimiyat asosan Senat va konsullar tomonidan boshqarilgan davr qanday nomlanadi?",
+        "options": [
+            "Respublika davri",
+            "Podshohlik davri",
+            "Imperiya davri",
+            "Prinsipat davri"
+        ],
+        "answer": "Respublika davri",
+        "category": "history"
+    },
+    {
+        "id": 64,
+        "subjectKey": "history",
+        "title": "Qadimgi dunyoning yirik falsafiy va ilmiy markazi bo'lgan, antik davr olimlari Platon va Aristotel yetishib chiqqan mashhur yunon polisi (shahar-davlat) qaysi?",
+        "options": ["Afina", "Sparta", "Milet", "Tebas"],
+        "answer": "Afina",
+        "category": "history"
+    },
+    {
+        "id": 65,
+        "subjectKey": "history",
+        "title": "XIX asrning 60-yillarida O'rta Osiyoga bostirib kirgan chor Rossiyasi qo'shinlariga qarshi Toshkent shahrida mudofaaga rahbarlik qilgan va jasorati uchun 'Toshkent arsloni' nomini olgan shaxs kim?",
+        "options": ["Sultonmurodbek", "Azimbay", "Alimqul", "Mulla Alimqul"],
+        "answer": "Alimqul",
+        "category": "history"
+    },
+    {
+        "id": 66,
+        "subjectKey": "history",
+        "title": "751-yilda Arab xalifaligi va Xitoyning Tan imperiyasi o'rtasida bo'lib o'tgan, Markaziy Osiyoning taqdirini belgilab bergan hamda islom dinining keng yoyilishiga sabab bo'lgan tarixiy jang qaysi?",
+        "options": [
+            "Talas jangi",
+            "Qadisiya jangi",
+            "Nihovand jangi",
+            "Yarmuk jangi"
+        ],
+        "answer": "Talas jangi",
+        "category": "history"
+    },
+    {
+        "id": 67,
+        "subjectKey": "history",
+        "title": "Movarounnahrda IX-X asrlarda Somoniylar davlati davrida davlat devonlari va ma'muriy boshqaruv ishlariga rahbarlik qilgan eng oliy mansabdor shaxs qanday atalgan?",
+        "options": ["Vazir", "Hojib", "Mustavfiy", "Amir ul-umaro"],
+        "answer": "Vazir",
+        "category": "history"
+    },
+    {
+        "id": 68,
+        "subjectKey": "history",
+        "title": "XI asrda Movarounnahr va Xorazmda buyuk yuksalish davrini boshlab bergan, Saljuqiylar tomonidan poytaxt etib belgilangan va Isfahon bilan bir qatorda ilm-fan markaziga aylangan shahar qaysi?",
+        "options": ["Marv", "Buxoro", "Urganch", "Nisabur"],
+        "answer": "Marv",
+        "category": "history"
+    },
+    {
+        "id": 69,
+        "subjectKey": "history",
+        "title": "1221-yilda Chingizxon qo'shiniga qarshi Sind daryosi bo'yida mardona jang qilib, daryodan suzib o'tgan va mo'g'ul xoqonining ham tahsiniga sazovor bo'lgan Xorazmshohlar sultoni kim?",
+        "options": [
+            "Jaloliddin Manguberdi",
+            "Alauddin Muhammad",
+            "Qutbiddin Muhammad",
+            "Elarslan"
+        ],
+        "answer": "Jaloliddin Manguberdi",
+        "category": "history"
+    },
+    {
+        "id": 70,
+        "subjectKey": "history",
+        "title": "Amir Temur tomonidan asos solingan qudratli davlatning harbiy va ma'muriy boshqaruv tartiblari, qonun-qoidalari bayon etilgan nodir tarixiy asar qaysi?",
+        "options": [
+            "Temur tuzuklari",
+            "Zafarnoma",
+            "Malfuzoti Temuriy",
+            "Ruznoma"
+        ],
+        "answer": "Temur tuzuklari",
+        "category": "history"
+    },
+    {
+        "id": 71,
+        "subjectKey": "history",
+        "title": "Buxoro xonligida XVI asrda ilm-fan va madaniyatni rivojlantirgan, ko'plab madrasalar qurdirgan va davlat boshqaruvini markazlashtirgan Shayboniylar sulolasining eng so'nggi yirik hukmdori kim?",
+        "options": [
+            "Abdullaxon II",
+            "Ubaydullaxon",
+            "Ko'chkunchixon",
+            "Pirmuhammadxon"
+        ],
+        "answer": "Abdullaxon II",
+        "category": "history"
+    },
+    {
+        "id": 72,
+        "subjectKey": "history",
+        "title": "Buxoro amirligida o'zini amir emas, balki rasman 'Sulton' va amirlik asoschisi deb e'lon qilgan, Mang'itlar sulolasining birinchi hukmdori kim edi?",
+        "options": [
+            "Muhammad Rahimbibiy",
+            "Doniyorbiyliot",
+            "Amir Shohmurod",
+            "Amir Haydar"
+        ],
+        "answer": "Muhammad Rahimbibiy",
+        "category": "history"
+    },
+    {
+        "id": 73,
+        "subjectKey": "history",
+        "title": "1868-yilda Buxoro amirligi va chor Rossiyasi o'rtasida imzolangan, amirlikni Rossiyaga to'la qaram qilib qo'ygan tinchlik shartnomasi qaysi shahar yaqinida tuzilgan?",
+        "options": [
+            "Ziyovuddin shartnomasi",
+            "Kattaqo'rg'on shartnomasi",
+            "Samarqand bitimi",
+            "Kitob shartnomasi"
+        ],
+        "answer": "Ziyovuddin shartnomasi",
+        "category": "history"
+    },
+    {
+        "id": 74,
+        "subjectKey": "history",
+        "title": "XX asr boshlarida Turkistonda 'Usuli jadid' (yangi usul) maktablariga asos solgan, ilk darsliklar yozgan va millat ma'rifati uchun xizmat qilgan yirik jadid yetakchisi kim?",
+        "options": [
+            "Mahmudxo'ja Behbudiy",
+            "Munavvarqori Abdurashidxonov",
+            "Abdulla Avloniy",
+            "Fayzulla Xo'jayev"
+        ],
+        "answer": "Mahmudxo'ja Behbudiy",
+        "category": "history"
+    },
+    {
+        "id": 75,
+        "subjectKey": "history",
+        "title": "1920-yil sentyabr oyida qizil armiya hujumi natijasida Buxoro amirligi ag'darilgach, uning o'rnida qanday mustaqil xalq davlati tashkil etildi?",
+        "options": [
+            "Buxoro Xalq Sovet Respublikasi (BXSR)",
+            "Turkiston Muxtoriyati",
+            "Xorazm Xalq Sovet Respublikasi",
+            "O'zbekiston SSR"
+        ],
+        "answer": "Buxoro Xalq Sovet Respublikasi (BXSR)",
+        "category": "history"
+    },
+    {
+        "id": 76,
+        "subjectKey": "history",
+        "title": "O'zbekiston Respublikasining mustaqilligini birinchi bo'lib rasman tan olgan va Toshkentda o'zining ilk elchixonasini ochgan xorijiy davlat qaysi?",
+        "options": ["Turkiya", "AQSh", "Rossiya", "Germaniya"],
+        "answer": "Turkiya",
+        "category": "history"
+    },
+    {
+        "id": 77,
+        "subjectKey": "history",
+        "title": "XVI asrda Germaniyada Martin Lyuter boshchiligida katolik cherkovining aqidalariga qarshi boshlangan va xristianlikda yangi yo'nalish — protestantizmning paydo bo'lishiga olib kelgan harakat qanday ataladi?",
+        "options": [
+            "Reformatsiya (Islohotchilik)",
+            "Renessans",
+            "Inkvizitsiya",
+            "Ma'rifatparvarlik"
+        ],
+        "answer": "Reformatsiya (Islohotchilik)",
+        "category": "history"
+    },
+    {
+        "id": 78,
+        "subjectKey": "history",
+        "title": "XVII asr o'rtalarida (1642-1649-yillarda) qirol va parlament o'rtasidagi ziddiyatlar sababli burjua inqilobi sodir bo'lgan va yakunda respublika e'lon qilingan Yevropa davlati qaysi?",
+        "options": ["Angliya", "Fransiya", "Niderlandiya", "Ispaniya"],
+        "answer": "Angliya",
+        "category": "history"
+    },
+    {
+        "id": 79,
+        "subjectKey": "history",
+        "title": "1861-1865-yillarda AQShda mamlakatning shimoliy va janubiy shtatlari o'rtasida quldorlikni bekor qilish hamda davlat yaxlitligini saqlash uchun bo'lib o'tgan urush tarixga qanday nom bilan kirgan?",
+        "options": [
+            "Fuqarolar urushi",
+            "Mustaqillik urushi",
+            "Yetti yillik urush",
+            "Sariq ko'ylakli hisor urushi"
+        ],
+        "answer": "Fuqarolar urushi",
+        "category": "history"
+    },
+    {
+        "id": 80,
+        "subjectKey": "history",
+        "title": "1939-yil 1-sentyabrda Germaniyaning qaysi davlatga bostirib kirishi natijasida insoniyat tarixidagi eng qonli va mudhish Ikkinchi jahon urushi boshlangan edi?",
+        "options": ["Polshaga", "Fransiyaga", "Chexoslovakiyaga", "SSSRga"],
+        "answer": "Polshaga",
+        "category": "history"
+    },
+    {
+        "id": 81,
+        "subjectKey": "history",
+        "title": "Miloddan avvalgi III mingyillikda Mesopotamiyada vujudga kelgan, dunyodagi eng qadimgi yozma adabiy yodgorlik hisoblangan va qahramonning boqiylikni qidirishi tasvirlangan doston qaysi?",
+        "options": ["Gilgamish dostoni", "Ramayana", "Mahabxarata", "Iliada"],
+        "answer": "Gilgamish dostoni",
+        "category": "history"
+    },
+    {
+        "id": 82,
+        "subjectKey": "history",
+        "title": "Qadimgi Eronda vujudga kelgan, ezgulik xudosi Axuramazda va yovuzlik xudosi Axrimanning kurashiga asoslangan, muqaddas kitobi 'Avesto' bo'lgan qadimgi din qaysi?",
+        "options": ["Zardoshtiylik", "Buddizm", "Hinduizm", "Iudaizm"],
+        "answer": "Zardoshtiylik",
+        "category": "history"
+    },
+    {
+        "id": 83,
+        "subjectKey": "history",
+        "title": "Miloddan avvalgi II asrda Xitoyda imperator U-di davrida tushkunlikka tushgan iqtisodiyotni tiklash maqsadida qaysi hayotiy muhim mahsulotlarga davlat monopoliyasi joriy etilgan?",
+        "options": [
+            "Tuz va temirga",
+            "Ipak va choyga",
+            "Qog'oz va poroxga",
+            "Gurin va kumushga"
+        ],
+        "answer": "Tuz va temirga",
+        "category": "history"
+    },
+    {
+        "id": 84,
+        "subjectKey": "history",
+        "title": "Milodiy 313-yilda Rim imperatori Konstantin tomonidan xristian diniga imperiya hududida erkin e'tiqod qilish huquqini bergan mashhur hujjat (fırmon) qanday nomlanadi?",
+        "options": [
+            "Milan edikti",
+            "Nikey bitimi",
+            "Verden shartnomasi",
+            "Rim xartiyasi"
+        ],
+        "answer": "Milan edikti",
+        "category": "history"
+    },
+    {
+        "id": 85,
+        "subjectKey": "history",
+        "title": "843-yilda Buyuk Karl imperiyasining uning uch nabirasi o'rtasida bo'linishi natijasida hozirgi Fransiya, Germaniya va Italiya davlatlarining poydevori qo'yilgan tarixiy kelishuv qaysi?",
+        "options": [
+            "Verden shartnomasi",
+            "Vorms konkordati",
+            "Aaxen sulhi",
+            "Kalyar bitimi"
+        ],
+        "answer": "Verden shartnomasi",
+        "category": "history"
+    },
+    {
+        "id": 86,
+        "subjectKey": "history",
+        "title": "1215-yilda Angliya qiroli Ioann Yurtsiz tomonidan imzolangan, qirol hokimiyatini qonun bilan cheklagan va inson huquqlarining fundamental asosi hisoblangan hujjat qaysi?",
+        "options": [
+            "Erkinliklarning buyuk xartiyasi (Magna Carta)",
+            "Huquqlar to'g'risida bill",
+            "Klarendon konstitutsiyasi",
+            "Oksford proviziyalari"
+        ],
+        "answer": "Erkinliklarning buyuk xartiyasi (Magna Carta)",
+        "category": "history"
+    },
+    {
+        "id": 87,
+        "subjectKey": "history",
+        "title": "1453-yilda sulton Muhammad II Fatih boshchiligidagi Usmonli turklar qo'shini tomonidan Konstantinopolning egallanishi bilan qaysi ming yillik imperiya butunlay tugatildi?",
+        "options": [
+            "Bizantiya (Sharqiy Rim imperiyasi)",
+            "Muqaddas Rim imperiyasi",
+            "Franklar qirolligi",
+            "Sosoniylar davlati"
+        ],
+        "answer": "Bizantiya (Sharqiy Rim imperiyasi)",
+        "category": "history"
+    },
+    {
+        "id": 88,
+        "subjectKey": "history",
+        "title": "1498-yilda Afrikani janub tomondan aylanib o'tib, Yevropadan Hindistonga boradigan to'g'ridan-to'g'ri dengiz yo'lini kashf etgan portugaliyalik sayyoh kim?",
+        "options": [
+            "Vasko da Gama",
+            "Bartolomeu Diash",
+            "Fernan Magellan",
+            "Amerigo Vespucci"
+        ],
+        "answer": "Vasko da Gama",
+        "category": "history"
+    },
+    {
+        "id": 89,
+        "subjectKey": "history",
+        "title": "1648-yilda Yevropadagi O'ttiz yillik urushni yakunlab, davlatlarning suvereniteti va chegaralar daxlsizligi tamoyillariga asoslangan xalqaro munosabatlar tizimini boshlab bergan sulh qaysi?",
+        "options": [
+            "Vestfal sulhi",
+            "Utrext shartnomasi",
+            "Nishtadt sulhi",
+            "Pyrene bitimi"
+        ],
+        "answer": "Vestfal sulhi",
+        "category": "history"
+    },
+    {
+        "id": 90,
+        "subjectKey": "history",
+        "title": "XVIII asr oxirida Fransiyada monarxiya tuzumini ag'darib tashlagan inqilobiy harakatning boshlanishiga qaysi mashhur qamoqxona-qal'aning qo'lga olinishi sabab bo'lgan edi?",
+        "options": [
+            "Bastiliya qal'asi",
+            "Konserjeri",
+            "Tauer qal'asi",
+            "Verdun istehkomi"
+        ],
+        "answer": "Bastiliya qal'asi",
+        "category": "history"
+    },
+    {
+        "id": 91,
+        "subjectKey": "history",
+        "title": "XIX asr boshlarida (1814-1815-yillarda) Napoleon urushlaridan keyingi Yevropa chegaralarini qayta tiklash va monarxiyalar mavqeyini mustahkamlash maqsadida o'tkazilgan xalqaro kongress qaysi?",
+        "options": [
+            "Vena kongressi",
+            "Parij kongressi",
+            "Berlin kongressi",
+            "Aaxen kongressi"
+        ],
+        "answer": "Vena kongressi",
+        "category": "history"
+    },
+    {
+        "id": 92,
+        "subjectKey": "history",
+        "title": "XIX asrning ikkinchi yarmida (1868-yilda) Yaponiyada feodal tarqoqlikni tugatib, mamlakatni qisqa muddatda modernizatsiya va sanoatlashgan qudratli imperiyaga aylantirgan islohotlar davri qanday ataladi?",
+        "options": [
+            "Meydzi inqilobi (Meydzi islohotlari)",
+            "Sintois hisori",
+            "Taypinlar harakati",
+            "Syogunat ag'darilishi"
+        ],
+        "answer": "Meydzi inqilobi (Meydzi islohotlari)",
+        "category": "history"
+    },
+    {
+        "id": 93,
+        "subjectKey": "history",
+        "title": "1860-yillarda parchalangan Italiya yerlarini yagona davlatga birlashtirish harakatining mafkurachisi va xalq qahramoni hisoblangan shaxs kim?",
+        "options": [
+            "Juzeppe Garibaldi",
+            "Otto fon Bismark",
+            "Kamilo Kavur",
+            "Viktor Emmanuil II"
+        ],
+        "answer": "Juzeppe Garibaldi",
+        "category": "history"
+    },
+    {
+        "id": 94,
+        "subjectKey": "history",
+        "title": "XIX asrda Germaniyani 'qon va temir' siyosati bilan yagona markazlashgan imperiyaga birlashtirgan va tarixda 'Temir kansler' nomini olgan arbob kim?",
+        "options": [
+            "Otto fon Bismark",
+            "Vilgelm I",
+            "Fridrix Vilgelm",
+            "Klemens Metternix"
+        ],
+        "answer": "Otto fon Bismark",
+        "category": "history"
+    },
+    {
+        "id": 95,
+        "subjectKey": "history",
+        "title": "1905-1906-yillarda rus-yapon urushini yakunlagan va Rossiyani Uzoq Sharqdagi o'z mavqeyini Yaponiya foydasiga topshirishga majbur qilgan AQShda imzolangan shartnoma qaysi?",
+        "options": [
+            "Portsmut shartnomasi",
+            "Vashingtonton bitimi",
+            "Tokio kelishuvi",
+            "Pekin traktati"
+        ],
+        "answer": "Portsmut shartnomasi",
+        "category": "history"
+    },
+    {
+        "id": 96,
+        "subjectKey": "history",
+        "title": "1914-yil 28-iyunda Birinchi jahon urushining boshlanishiga bevosita bahona bo'lgan voqea — Avstriya-Vengriya taxti vorisi Frans Ferdinandning o'ldirilishi qaysi shaharda sodir bo'lgan?",
+        "options": [
+            "Sarayevo shahrida",
+            "Belgrad shahrida",
+            "Vena shahrida",
+            "Budapesht shahrida"
+        ],
+        "answer": "Sarayevo shahrida",
+        "category": "history"
+    },
+    {
+        "id": 97,
+        "subjectKey": "history",
+        "title": "1919-yilda tashkil etilgan, davlatlararo nizolarni tinch yo'l bilan hal qilishni maqsad qilgan, biroq Ikkinchi jahon urushining oldini ola olmagan xalqaro tashkilot qaysi?",
+        "options": ["Millatlar Ligasi", "BMT", "Parij ittifoqi", "Gaaga sudi"],
+        "answer": "Millatlar Ligasi",
+        "category": "history"
+    },
+    {
+        "id": 98,
+        "subjectKey": "history",
+        "title": "1944-yilda xalqaro valyuta tizimini tartibga solish, oltin-valyuta standartlarini belgilash maqsadida o'tkazilgan va Xalqaro Valyuta Jamg'armasi (XVJ) tuzilishiga asos bo'lgan konferensiya qaysi?",
+        "options": [
+            "Bretton-Vuds konferensiyasi",
+            "Genuya konferensiyasi",
+            "Gaaga konferensiyasi",
+            "San-Fransisko konferensiyasi"
+        ],
+        "answer": "Bretton-Vuds konferensiyasi",
+        "category": "history"
+    },
+    {
+        "id": 99,
+        "subjectKey": "history",
+        "title": "1962-yilda AQSh va SSSR o'rtasida vujudga kelgan, dunyoni yadro urushi yoqasiga olib kelgan va eng yuqori siyosiy inqiroz hisoblangan voqea tarixda qanday nomlanadi?",
+        "options": [
+            "Karib inqirozi (Kuba inqirozi)",
+            "Berlin inqirozi",
+            "Suaysh inqirozi",
+            "Koreya urushi"
+        ],
+        "answer": "Karib inqirozi (Kuba inqirozi)",
+        "category": "history"
+    },
+    {
+        "id": 100,
+        "subjectKey": "history",
+        "title": "1993-yilda imzolangan Maastrixt shartnomasining kuchga kirishi natijasida Yevropada qaysi yirik iqtisodiy va siyosiy davlatlararo birlashma rasman tashkil topdi?",
+        "options": [
+            "Yevropa Ittifoqi (YEI)",
+            "Yevropa iqtisodiy hamjamiyati",
+            "NATO",
+            "Yevropa Kengashi"
+        ],
+        "answer": "Yevropa Ittifoqi (YEI)",
+        "category": "history"
+    }
+]

@@ -1,0 +1,1207 @@
+[
+    {
+        "id": 1,
+        "subjectKey": "chemistry",
+        "title": "Kimyoviy elementlar davriy sistemasida chapdan o'ngga (guruhcha bo'ylab) o'tgan sari elementlarning qaysi xossasi ortib boradi?",
+        "options": [
+            "Elektromanfiyligi va nomatallik xossasi",
+            "Atom radiusi",
+            "Metallik xossasi",
+            "Asoslik xossalari"
+        ],
+        "answer": "Elektromanfiyligi va nomatallik xossasi",
+        "category": "chemistry"
+    },
+    {
+        "id": 2,
+        "subjectKey": "chemistry",
+        "title": "Kaliy xlorid (KCl) molekulasida atomlar o'rtasida qanday kimyoviy bog'lanish turi mavjud?",
+        "options": [
+            "Ionnli bog'lanish",
+            "Kovalent qutbli bog'lanish",
+            "Kovalent qutbsiz bog'lanish",
+            "Vodorodli bog'lanish"
+        ],
+        "answer": "Ionnli bog'lanish",
+        "category": "chemistry"
+    },
+    {
+        "id": 3,
+        "subjectKey": "chemistry",
+        "title": "Suv molekulasida (H2O) kislorod atomi qanday gibridlanish holatida bo'ladi?",
+        "options": [
+            "sp3 gibridlanish",
+            "sp2 gibridlanish",
+            "sp gibridlanish",
+            "Gibridlanmagan holatda"
+        ],
+        "answer": "sp3 gibridlanish",
+        "category": "chemistry"
+    },
+    {
+        "id": 4,
+        "subjectKey": "chemistry",
+        "title": "Kimyoviy reaksiya tezligining temperaturaga bog'liqligini ifodalovchi Vant-Goff qoidasiga ko'ra, temperatura har 10 darajaga ko'tarilganda reaksiya tezligi qanday o'zgaradi?",
+        "options": [
+            "2 dan 4 martagacha ortadi",
+            "10 marta ortadi",
+            "2 marta kamayadi",
+            "O'zgarmasdan doimiy qoladi"
+        ],
+        "answer": "2 dan 4 martagacha ortadi",
+        "category": "chemistry"
+    },
+    {
+        "id": 5,
+        "subjectKey": "chemistry",
+        "title": "Quyidagi tuzlardan qaysi biri suvda eriganda gidrolizga uchramaydi?",
+        "options": [
+            "NaCl (Natriy xlorid)",
+            "AlCl3 (Alyuminiy xlorid)",
+            "Na2CO3 (Natriy karbonat)",
+            "CH3COONH4 (Ammoniy atsetat)"
+        ],
+        "answer": "NaCl (Natriy xlorid)",
+        "category": "chemistry"
+    },
+    {
+        "id": 6,
+        "subjectKey": "chemistry",
+        "title": "Eritmaning muhitini aniqlovchi vodorod ko'rsatkichi (pH) qiymati 7 dan kichik (pH < 7) bo'lsa, bu eritma qanday muhitga ega bo'ladi?",
+        "options": [
+            "Kislotali muhit",
+            "Ishqoriy (asosli) muhit",
+            "Neytral muhit",
+            "Kuchli ishqoriy muhit"
+        ],
+        "answer": "Kislotali muhit",
+        "category": "chemistry"
+    },
+    {
+        "id": 7,
+        "subjectKey": "chemistry",
+        "title": "Oksidlanish-qaytarilish reaksiyalarida elektron bergan (oksidlanish darajasini oshirgan) zarra nima deb ataladi?",
+        "options": ["Qaytaruvchi", "Oksidlovchi", "Katalizator", "Inhibitor"],
+        "answer": "Qaytaruvchi",
+        "category": "chemistry"
+    },
+    {
+        "id": 8,
+        "subjectKey": "chemistry",
+        "title": "Mis (II) sulfat (CuSO4) suvli eritmasi inert elektrodlarda elektroliz qilinganda katodda qaysi modda ajralib chiqadi?",
+        "options": [
+            "Sof metall holatidagi mis (Cu)",
+            "Vodorod gazi (H2)",
+            "Kislorod gazi (O2)",
+            "Mis (II) oksid (CuO)"
+        ],
+        "answer": "Sof metall holatidagi mis (Cu)",
+        "category": "chemistry"
+    },
+    {
+        "id": 9,
+        "subjectKey": "chemistry",
+        "title": "Organik birikma hisoblangan metan (CH4) gazi tarkibidagi uglerod atomining oksidlanish darajasi qanchaga teng?",
+        "options": ["-4", "+4", "0", "-2"],
+        "answer": "-4",
+        "category": "chemistry"
+    },
+    {
+        "id": 10,
+        "subjectKey": "chemistry",
+        "title": "Tarkibida bitta qo'sh bog' (C=C) tutgan va umumiy formulasi CnH2n bo'lgan to'yinmagan uglevodorodlar sinfi qanday nomlanadi?",
+        "options": ["Alkenlar", "Alkanlar", "Alkinlar", "Arenlar"],
+        "answer": "Alkenlar",
+        "category": "chemistry"
+    },
+    {
+        "id": 11,
+        "subjectKey": "chemistry",
+        "title": "Atsetilen (C2H2) uglevodorodi tarkibida nechta sigma va nechta pi bog'lar mavjud?",
+        "options": [
+            "3 ta sigma va 2 ta pi bog'",
+            "2 ta sigma va 3 ta pi bog'",
+            "5 ta sigma bog'",
+            "1 ta sigma va 2 ta pi bog'"
+        ],
+        "answer": "3 ta sigma va 2 ta pi bog'",
+        "category": "chemistry"
+    },
+    {
+        "id": 12,
+        "subjectKey": "chemistry",
+        "title": "Tarkibi va kimyoviy xossalari o'xshash, lekin molekulyar massasi bilan bir yoki bir nechta -CH2- guruhga farq qiluvchi moddalar nima deyiladi?",
+        "options": ["Gomologlar", "Izomerlar", "Izotoplar", "Allotroplar"],
+        "answer": "Gomologlar",
+        "category": "chemistry"
+    },
+    {
+        "id": 13,
+        "subjectKey": "chemistry",
+        "title": "Molekulyar formulasi bir xil, ammo kimyoviy tuzilishi va xossalari turlicha bo'lgan moddalar qanday ataladi?",
+        "options": ["Izomerlar", "Gomologlar", "Izobarlar", "Allotroplar"],
+        "answer": "Izomerlar",
+        "category": "chemistry"
+    },
+    {
+        "id": 14,
+        "subjectKey": "chemistry",
+        "title": "Kumush ko'zgu reaksiyasini (Ag2O ning ammoniyali eritmasi bilan) beradigan va tarkibida -CHO funksional guruhi bo'lgan organik birikmalar sinfi qaysi?",
+        "options": [
+            "Aldegidlar",
+            "Karbon kislotalar",
+            "Murakkab efirlar",
+            "Spirtlar"
+        ],
+        "answer": "Aldegidlar",
+        "category": "chemistry"
+    },
+    {
+        "id": 15,
+        "subjectKey": "chemistry",
+        "title": "Glyukozaning (C6H12O6) bijg'ishi natijasida tabiatda va sanoatda qaysi spirt olinadi?",
+        "options": [
+            "Etanol (Etil spirti)",
+            "Metanol (Metil spirti)",
+            "Glitserin",
+            "Etilenglikol"
+        ],
+        "answer": "Etanol (Etil spirti)",
+        "category": "chemistry"
+    },
+    {
+        "id": 16,
+        "subjectKey": "chemistry",
+        "title": "Kislota va spirtlar o'rtasida boradigan hamda murakkab efirlar hosil bo'lishi bilan yakunlanadigan reaksiya nima deb ataladi?",
+        "options": [
+            "Eterifikatsiya reaksiyasi",
+            "Gidratatsiya reaksiyasi",
+            "Gidrogenlanish reaksiyasi",
+            "Polimerlanish reaksiyasi"
+        ],
+        "answer": "Eterifikatsiya reaksiyasi",
+        "category": "chemistry"
+    },
+    {
+        "id": 17,
+        "subjectKey": "chemistry",
+        "title": "Oqsillar qanday organik birikmalarning (monomerlarning) polimerlanishi natijasida hosil bo'ladi?",
+        "options": [
+            "Aminokislotalarning",
+            "Karbon kislotalarning",
+            "Glyukoza va fruktozaning",
+            "Yog' kislotalarining"
+        ],
+        "answer": "Aminokislotalarning",
+        "category": "chemistry"
+    },
+    {
+        "id": 18,
+        "subjectKey": "chemistry",
+        "title": "Suvning doimiy (vaqtinchalik bo'lmagan) qattiqligini keltirib chiqaruvchi tuzlar qaysi javobda ko'rsatilgan?",
+        "options": [
+            "Kalsiy va magniyning sulfat hamda xloridli tuzlari",
+            "Kalsiy va magniyning gidrokarbonatli tuzlari",
+            "Natriy va kaliyning karbonatli tuzlari",
+            "Faqat temir va alyuminiyning gidroksidlari"
+        ],
+        "answer": "Kalsiy va magniyning sulfat hamda xloridli tuzlari",
+        "category": "chemistry"
+    },
+    {
+        "id": 19,
+        "subjectKey": "chemistry",
+        "title": "Oddiy modda holatidagi azot molekulasida (N2) atomlar o'zaro nechta kimyoviy bog' orqali birikkan bo'ladi?",
+        "options": [
+            "Uchta kovalent bog' orqali",
+            "Bitta kovalent bog' orqali",
+            "Ikkita ion bog' orqali",
+            "To'rtta vodorod bog'i orqali"
+        ],
+        "answer": "Uchta kovalent bog' orqali",
+        "category": "chemistry"
+    },
+    {
+        "id": 20,
+        "subjectKey": "chemistry",
+        "title": "Havoda qaysi gazning hajmiy ulushi eng ko'p (taxminan 78 foiz) miqdorni tashkil qiladi?",
+        "options": [
+            "Azot (N2)",
+            "Kislorod (O2)",
+            "Argon (Ar)",
+            "Karbonat angidrid (CO2)"
+        ],
+        "answer": "Azot (N2)",
+        "category": "chemistry"
+    },
+    {
+        "id": 21,
+        "subjectKey": "chemistry",
+        "title": "Kislotali oksidlar qatorini aniqlang.",
+        "options": [
+            "CO2, SO3, P2O5",
+            "Na2O, CaO, MgO",
+            "CO, N2O, NO",
+            "Al2O3, ZnO, BeO"
+        ],
+        "answer": "CO2, SO3, P2O5",
+        "category": "chemistry"
+    },
+    {
+        "id": 22,
+        "subjectKey": "chemistry",
+        "title": "Tarkibida faqat neytral (tuz hosil qilmaydigan) oksidlar berilgan javobni toping.",
+        "options": [
+            "CO, NO, N2O",
+            "CO2, NO2, N2O5",
+            "SiO2, SO2, P2O3",
+            "Na2O, K2O, BaO"
+        ],
+        "answer": "CO, NO, N2O",
+        "category": "chemistry"
+    },
+    {
+        "id": 23,
+        "subjectKey": "chemistry",
+        "title": "Amfoter xossaga ega bo'lgan gidroksidlar qatorini ko'rsating.",
+        "options": [
+            "Al(OH)3, Zn(OH)2, Be(OH)2",
+            "NaOH, KOH, Ba(OH)2",
+            "Fe(OH)2, Cu(OH)2, Mg(OH)2",
+            "H2SO4, HNO3, H3PO4"
+        ],
+        "answer": "Al(OH)3, Zn(OH)2, Be(OH)2",
+        "category": "chemistry"
+    },
+    {
+        "id": 24,
+        "subjectKey": "chemistry",
+        "title": "Avogadro qonuniga ko'ra, normal sharoitda (n.sh.) 1 mol ixtiyoriy gaz qanday hajmni (litr) egallaydi?",
+        "options": ["22.4 litr", "11.2 litr", "44.8 litr", "6.02 litr"],
+        "answer": "22.4 litr",
+        "category": "chemistry"
+    },
+    {
+        "id": 25,
+        "subjectKey": "chemistry",
+        "title": "Tarkibida kristallizatsiya suvi bo'lgan moddalar qanday nomlanadi?",
+        "options": [
+            "Kristallgidratlar",
+            "Ingrediyentlar",
+            "Gidridlar",
+            "Intermetallidlar"
+        ],
+        "answer": "Kristallgidratlar",
+        "category": "chemistry"
+    },
+    {
+        "id": 26,
+        "subjectKey": "chemistry",
+        "title": "Gidroliz jarayoni kuchli asos va kuchsiz kislotadan hosil bo'lgan tuzlarda (masalan, Na2CO3) qaysi ion bo'yicha boradi va muhit qanday bo'ladi?",
+        "options": [
+            "Anion bo'yicha boradi, muhit ishqoriy bo'ladi",
+            "Kation bo'yicha boradi, muhit kislotali bo'ladi",
+            "Gidroliz bormaydi, muhit neytral bo'ladi",
+            "Kation va anion bo'yicha boradi, muhit neytral bo'ladi"
+        ],
+        "answer": "Anion bo'yicha boradi, muhit ishqoriy bo'ladi",
+        "category": "chemistry"
+    },
+    {
+        "id": 27,
+        "subjectKey": "chemistry",
+        "title": "Kimyoviy muvozanat holatida turgan ekzotermik reaksiyalarda (Q > 0) temperatura oshirilganda muvozanat qaysi tomonga siljiydi?",
+        "options": [
+            "Dastlabki moddalar hosil bo'lish (chap) tomoniga",
+            "Reaksiya mahsulotlari hosil bo'lish (o'ng) tomoniga",
+            "Muvozanat mutlaqo siljimaydi",
+            "Katalizator borligiga qarab o'ngga siljiydi"
+        ],
+        "answer": "Dastlabki moddalar hosil bo'lish (chap) tomoniga",
+        "category": "chemistry"
+    },
+    {
+        "id": 28,
+        "subjectKey": "chemistry",
+        "title": "Ammiak sintez qilish reaksiyasida (N2 + 3H2 <=> 2NH3) bosim oshirilganda kimyoviy muvozanat qaysi tomonga siljiydi?",
+        "options": [
+            "To'g'ri reaksiya (ammiak hosil bo'lish) tomoniga",
+            "Tezkari reaksiya (parchalanish) tomoniga",
+            "Bosim muvozanatga ta'sir etmaydi",
+            "Faqat vodorod miqdori ko'paygan tomonga"
+        ],
+        "answer": "To'g'ri reaksiya (ammiak hosil bo'lish) tomoniga",
+        "category": "chemistry"
+    },
+    {
+        "id": 29,
+        "subjectKey": "chemistry",
+        "title": "Faqat kuchli elektrolitlar berilgan javobni ko'rsating.",
+        "options": [
+            "HCl, HNO3, NaOH",
+            "H2CO3, CH3COOH, H2O",
+            "NH4OH, H2S, H2SiO3",
+            "Cu(OH)2, BaSO4, CaCO3"
+        ],
+        "answer": "HCl, HNO3, NaOH",
+        "category": "chemistry"
+    },
+    {
+        "id": 30,
+        "subjectKey": "chemistry",
+        "title": "Oksidlovchi moddalarning xususiyati qaysi javobda to'g'ri berilgan?",
+        "options": [
+            "Elektron qabul qiladi va o'zi qaytariladi",
+            "Elektron beradi va o'zi oksidlanadi",
+            "Oksidlanish darajasini har doim oshiradi",
+            "Faqat neytral atomlardan iborat bo'ladi"
+        ],
+        "answer": "Elektron qabul qiladi va o'zi qaytariladi",
+        "category": "chemistry"
+    },
+    {
+        "id": 31,
+        "subjectKey": "chemistry",
+        "title": "Gidrogenlanish (vodorod biriktirib olish) reaksiyasiga kirishadigan uglevodorodlar qatorini toping.",
+        "options": [
+            "Etilen va atsetilen",
+            "Metan va etan",
+            "Propan va butan",
+            "Geksan va siklogeksan"
+        ],
+        "answer": "Etilen va atsetilen",
+        "category": "chemistry"
+    },
+    {
+        "id": 32,
+        "subjectKey": "chemistry",
+        "title": "Alkanlar sinfining birinchi vakili bo'lgan metan (CH4) molekulasi qanday geometrik fazoviy tuzilishga ega?",
+        "options": [
+            "Tetraedr",
+            "Chiziqli",
+            "Yassi uchburchak",
+            "Plastinkasimon"
+        ],
+        "answer": "Tetraedr",
+        "category": "chemistry"
+    },
+    {
+        "id": 33,
+        "subjectKey": "chemistry",
+        "title": "Benzol (C6H6) molekulasidagi uglerod atomlari qanday gibridlanish holatida bo'ladi?",
+        "options": [
+            "sp2 gibridlanish",
+            "sp3 gibridlanish",
+            "sp gibridlanish",
+            "Gibridlanishda qatnashmaydi"
+        ],
+        "answer": "sp2 gibridlanish",
+        "category": "chemistry"
+    },
+    {
+        "id": 34,
+        "subjectKey": "chemistry",
+        "title": "Tarkibida ikkita gidroksil (-OH) guruhi tutgan ikki atomli spirt (etandiol-1,2) qanday ataladi?",
+        "options": ["Etilenglikol", "Glitserin", "Metanol", "Fenol"],
+        "answer": "Etilenglikol",
+        "category": "chemistry"
+    },
+    {
+        "id": 35,
+        "subjectKey": "chemistry",
+        "title": "Sanoatda sirka kislota (CH3COOH) olishning asosiy usullaridan biri bo'lgan, atsetilenga simob tuzlari ishtirokida suv biriktirish reaksiyasi kimning nomi bilan ataladi?",
+        "options": [
+            "Kucherov reaksiyasi",
+            "Vurtz reaksiyasi",
+            "Zelinskiy reaksiyasi",
+            "Markovnikov qoidasi"
+        ],
+        "answer": "Kucherov reaksiyasi",
+        "category": "chemistry"
+    },
+    {
+        "id": 36,
+        "subjectKey": "chemistry",
+        "title": "Karbon kislotalar tarkibidagi funksional guruh qanday nomlanadi?",
+        "options": [
+            "Karboksildosh guruh (-COOH)",
+            "Karbonil guruhi (-CO-)",
+            "Gidroksil guruhi (-OH)",
+            "Efir guruhi (-C-O-C-)"
+        ],
+        "answer": "Karboksildosh guruh (-COOH)",
+        "category": "chemistry"
+    },
+    {
+        "id": 37,
+        "subjectKey": "chemistry",
+        "title": "Tabiiy yog'lar kimyoviy tuzilishiga ko'ra qaysi birikmalar sinfiga kiradi?",
+        "options": [
+            "Glitserin va yuqori karbon kislotalarning murakkab efirlari",
+            "Ko'p atomli uglevodlar zanjiri",
+            "Oddiy efirlar va spirtlar aralashmasi",
+            "Aminokislotalarning yuqori polimerlari"
+        ],
+        "answer": "Glitserin va yuqori karbon kislotalarning murakkab efirlari",
+        "category": "chemistry"
+    },
+    {
+        "id": 38,
+        "subjectKey": "chemistry",
+        "title": "Uglevodlar sinfiga mansub bo'lgan saharoza (lavlagi yoki qamish shakari) gidrolizga uchraganda qaysi monosaxaridlar hosil bo'ladi?",
+        "options": [
+            "Glyukoza va fruktoza",
+            "Faqat glyukoza",
+            "Faqat fruktoza",
+            "Galaktoza va riboza"
+        ],
+        "answer": "Glyukoza va fruktoza",
+        "category": "chemistry"
+    },
+    {
+        "id": 39,
+        "subjectKey": "chemistry",
+        "title": "Oqsillarning birlamchi tuzilishini saqlab turuvchi asosiy kimyoviy bog' turi qaysi?",
+        "options": [
+            "Peptid bog'",
+            "Vodorodli bog'",
+            "Ionli bog'",
+            "Disulfid ko'prikchalari"
+        ],
+        "answer": "Peptid bog'",
+        "category": "chemistry"
+    },
+    {
+        "id": 40,
+        "subjectKey": "chemistry",
+        "title": "Nuklein kislotalar (DNK va RNK) qanday monomer birikmalardan tashkil topgan yuqori molekulali polimerlar hisoblanadi?",
+        "options": [
+            "Nukleotidlardan",
+            "Aminokislotalardan",
+            "Monosaxaridlardan",
+            "Lipidlardan"
+        ],
+        "answer": "Nukleotidlardan",
+        "category": "chemistry"
+    },
+    {
+        "id": 41,
+        "subjectKey": "chemistry",
+        "title": "Kimyoviy reaksiyada qatnashib, uning tezligini oshiradigan, lekin reaksiya yakunida o'zi o'zgarmasdan qoladigan modda nima deyiladi?",
+        "options": ["Katalizator", "Inhibitor", "Indikator", "Adsorbent"],
+        "answer": "Katalizator",
+        "category": "chemistry"
+    },
+    {
+        "id": 42,
+        "subjectKey": "chemistry",
+        "title": "Kimyoviy reaksiyalarning tezligini sekinlashtirish yoki butunlay to'xtatish uchun ishlatiladigan moddalar qanday nomlanadi?",
+        "options": [
+            "Inhibitorlar",
+            "Katalizatorlar",
+            "Adsorbentlar",
+            "Solyubilizatorlar"
+        ],
+        "answer": "Inhibitorlar",
+        "category": "chemistry"
+    },
+    {
+        "id": 43,
+        "subjectKey": "chemistry",
+        "title": "1 litr eritmada erigan moddaning mollar sonini ifodalovchi konsentratsiya turi qaysi javobda to'g'ri ko'rsatilgan?",
+        "options": [
+            "Molyar konsentratsiya (M)",
+            "Normal konsentratsiya (N)",
+            "Molyal konsentratsiya (m)",
+            "Massa ulush (w)"
+        ],
+        "answer": "Molyar konsentratsiya (M)",
+        "category": "chemistry"
+    },
+    {
+        "id": 44,
+        "subjectKey": "chemistry",
+        "title": "Eritmalarda vodorod ionlari (H+) konsentratsiyasi gidroksid ionlari (OH-) konsentratsiyasidan yuqori bo'lsa, lakmus indikatori qanday rangga kiradi?",
+        "options": [
+            "Qizil rangga",
+            "Ko'k rangga",
+            "Sariq rangga",
+            "Malina rangiga (to'q qizil)"
+        ],
+        "answer": "Qizil rangga",
+        "category": "chemistry"
+    },
+    {
+        "id": 45,
+        "subjectKey": "chemistry",
+        "title": "Fenolftalein indikatori qanday muhitda to'q qizil (malina) rangini namoyon qiladi?",
+        "options": [
+            "Ishqoriy muhitda",
+            "Kislotali muhitda",
+            "Neytral muhitda",
+            "Kuchli kislotali muhitda"
+        ],
+        "answer": "Ishqoriy muhitda",
+        "category": "chemistry"
+    },
+    {
+        "id": 46,
+        "subjectKey": "chemistry",
+        "title": "Suyuq metallar qatoriga kiruvchi, oddiy sharoitda (xonadagi haroratda) ham suyuq holatda bo'ladigan yagona metall qaysi?",
+        "options": ["Simob (Hg)", "Galliy (Ga)", "Seziy (Cs)", "Fransiy (Fr)"],
+        "answer": "Simob (Hg)",
+        "category": "chemistry"
+    },
+    {
+        "id": 47,
+        "subjectKey": "chemistry",
+        "title": "Metallarning tashqi muhit (kislorod, namlik, kislotalar) ta'sirida yemirilishi va zanglashi qanday ataladi?",
+        "options": ["Korroziya", "Elektroliz", "Piroliz", "Gidratatsiya"],
+        "answer": "Korroziya",
+        "category": "chemistry"
+    },
+    {
+        "id": 48,
+        "subjectKey": "chemistry",
+        "title": "Sanoatda cho'yan va po'lat ishlab chiqarishda asosiy xomashyo bo'lib xizmat qiladigan, tarkibi Fe2O3 dan iborat bo'lgan mineral qanday nomlanadi?",
+        "options": [
+            "Gematit (qizil temirtosh)",
+            "Magnetit (magnitli temirtosh)",
+            "Pirit (temir kolchedani)",
+            "Boksit"
+        ],
+        "answer": "Gematit (qizil temirtosh)",
+        "category": "chemistry"
+    },
+    {
+        "id": 49,
+        "subjectKey": "chemistry",
+        "title": "O'zidan o'z-o'zidan ko'rinmas nurlar chiqarib, boshqa element yadrolariga parchalanish xususiyatiga ega bo'lgan elementlar qanday ataladi?",
+        "options": [
+            "Radioaktiv elementlar",
+            "Galoogenlar",
+            "Asil gazlar",
+            "Lantanoidlar"
+        ],
+        "answer": "Radioaktiv elementlar",
+        "category": "chemistry"
+    },
+    {
+        "id": 50,
+        "subjectKey": "chemistry",
+        "title": "Davriy sistemaning VIIA guruhchasida joylashgan, 'tuz hosil qiluvchilar' ma'nosini beruvchi elementlar oilasi qanday nomlanadi?",
+        "options": [
+            "Galogenlar",
+            "Xalkogenlar",
+            "Pniktogenlar",
+            "Ishqoriy metallar"
+        ],
+        "answer": "Galogenlar",
+        "category": "chemistry"
+    },
+    {
+        "id": 51,
+        "subjectKey": "chemistry",
+        "title": "Tarkibida bitta uch bog' (-C#C-) tutgan va umumiy formulasi CnH2n-2 bo'lgan to'yinmagan uglevodorodlar sinfi qanday nomlanadi?",
+        "options": ["Alkinlar", "Alkenlar", "Alkadienlar", "Sikloalkanlar"],
+        "answer": "Alkinlar",
+        "category": "chemistry"
+    },
+    {
+        "id": 52,
+        "subjectKey": "chemistry",
+        "title": "Metan gazi yuqori haroratda (1500 darajada) termik parchalanganda (piroliz bo'lganda) qaysi muhim organik mahsulot olinadi?",
+        "options": [
+            "Atsetilen (C2H2)",
+            "Etilen (C2H4)",
+            "Benzol (C6H6)",
+            "Soot (Kuyindilar)"
+        ],
+        "answer": "Atsetilen (C2H2)",
+        "category": "chemistry"
+    },
+    {
+        "id": 53,
+        "subjectKey": "chemistry",
+        "title": "To'yinmagan uglevodorodlarni aniqlash uchun laboratoriyada qaysi reaktivning rangsizlanishidan foydalaniladi?",
+        "options": [
+            "Bromli suv yoki kaliy permanganat eritmasi",
+            "Mis (II) gidroksid cho'kmasi",
+            "Kumush oksidning ammiakli eritmasi",
+            "Konsentrlangan sulfat kislota"
+        ],
+        "answer": "Bromli suv yoki kaliy permanganat eritmasi",
+        "category": "chemistry"
+    },
+    {
+        "id": 54,
+        "subjectKey": "chemistry",
+        "title": "Tarkibida aromatik benzol halqasi va unga bevosita birikkan gidroksil (-OH) guruhi bo'lgan birikma qanday ataladi?",
+        "options": ["Fenol", "Benzil spirti", "Anilin", "Glikol"],
+        "answer": "Fenol",
+        "category": "chemistry"
+    },
+    {
+        "id": 55,
+        "subjectKey": "chemistry",
+        "title": "Sanoatda to'qimachilik uchun sun'iy tola (atsetat ipak) olishda xomashyo bo'lib xizmat qiladigan tabiiy polimer qaysi?",
+        "options": ["Sellyuloza", "Kraxmal", "Glikogen", "Neylon"],
+        "answer": "Sellyuloza",
+        "category": "chemistry"
+    },
+    {
+        "id": 56,
+        "subjectKey": "chemistry",
+        "title": "Eritilgan yoki erigan holatdagi elektrolitlar orqali doimiy elektr toki o'tganda elektrodlarda boradigan oksidlanish-qaytarilish jarayoni nima deyiladi?",
+        "options": ["Elektroliz", "Gidroliz", "Kataliz", "Disassotsiatsiya"],
+        "answer": "Elektroliz",
+        "category": "chemistry"
+    },
+    {
+        "id": 57,
+        "subjectKey": "chemistry",
+        "title": "Molekulalararo vodorod bog'lanish mavjudligi sababli, o'z guruhidagi boshqa vodorodli birikmalarga qaraganda anomal darajada yuqori qaynash haroratiga ega bo'lgan modda qaysi?",
+        "options": [
+            "Suv (H2O)",
+            "Vodorod sulfid (H2S)",
+            "Metan (CH4)",
+            "Xlorid kislota (HCl)"
+        ],
+        "answer": "Suv (H2O)",
+        "category": "chemistry"
+    },
+    {
+        "id": 58,
+        "subjectKey": "chemistry",
+        "title": "Tarkibida aminoguruh (-NH2) va karboksildosh guruh (-COOH) tutgan, ham kislota, ham asos xossasini namoyon qiluvchi amfoter organik birikmalar nima deyiladi?",
+        "options": [
+            "Aminokislotalar",
+            "Nitrobirikmalar",
+            "Murakkab efirlar",
+            "Uglevodlar"
+        ],
+        "answer": "Aminokislotalar",
+        "category": "chemistry"
+    },
+    {
+        "id": 59,
+        "subjectKey": "chemistry",
+        "title": "Kraxmal moddasini aniqlash (sifat reaksiyasi) uchun qaysi oddiy modda eritmasidan foydalaniladi?",
+        "options": [
+            "Yod (I2) eritmasi",
+            "Xlor (Cl2) suvi",
+            "Kumush (Ag) kationi",
+            "Fenolftalein"
+        ],
+        "answer": "Yod (I2) eritmasi",
+        "category": "chemistry"
+    },
+    {
+        "id": 60,
+        "subjectKey": "chemistry",
+        "title": "Tabiiy gaz va neft mahsulotlarini havosiz muhitda yuqori haroratda parchalash orqali uglevodorodlar zanjirini uzish jarayoni nima deyiladi?",
+        "options": [
+            "Kreking jarayoni",
+            "Riforming jarayoni",
+            "Gidratatsiya",
+            "Eterifikatsiya"
+        ],
+        "answer": "Kreking jarayoni",
+        "category": "chemistry"
+    },
+    {
+        "id": 61,
+        "subjectKey": "chemistry",
+        "title": "Atom yadrosi zaryadining ortishi bilan bir guruhda joylashgan asosiy guruhcha elementlarining atom radiusi qanday o'zgaradi?",
+        "options": [
+            "Yuqoridan pastga qarab ortadi",
+            "Yuqoridan pastga qarab kamayadi",
+            "Butunlay o'zgarmasdan doimiy qoladi",
+            "Dastlab ortib, keyin keskin kamayadi"
+        ],
+        "answer": "Yuqoridan pastga qarab ortadi",
+        "category": "chemistry"
+    },
+    {
+        "id": 62,
+        "subjectKey": "chemistry",
+        "title": "Mendeleyev davriy sistemasining bitta davrida joylashgan elementlar uchun quyidagi kattaliklardan qaysi biri o'zaro teng bo'ladi?",
+        "options": [
+            "Elektronlar to'lgan energetik qavatlar (qobiqlar) soni",
+            "Valent elektronlarining umumiy soni",
+            "Neytronlar va protonlarning umumiy yig'indisi",
+            "Elementning yuqori oksidlanish darajasi"
+        ],
+        "answer": "Elektronlar to'lgan energetik qavatlar (qobiqlar) soni",
+        "category": "chemistry"
+    },
+    {
+        "id": 63,
+        "subjectKey": "chemistry",
+        "title": "Faqat kovalent qutbsiz bog'lanishga ega bo'lgan oddiy moddalar qatorini toping.",
+        "options": [
+            "H2, O2, N2, Cl2",
+            "H2O, NH3, CH4, HCl",
+            "NaCl, K2O, CaF2, LiBr",
+            "CO2, SO2, P2O5, NO2"
+        ],
+        "answer": "H2, O2, N2, Cl2",
+        "category": "chemistry"
+    },
+    {
+        "id": 64,
+        "subjectKey": "chemistry",
+        "title": "Kimyoviy bog'lanish hosil bo'lishida donor-akseptor mexanizmi qaysi ion yoki modda tarkibida yaqqol namoyon bo'ladi?",
+        "options": [
+            "Ammoniy ioni (NH4+)",
+            "Natriy xlorid (NaCl)",
+            "Metan molekulasi (CH4)",
+            "Vodorod molekulasi (H2)"
+        ],
+        "answer": "Ammoniy ioni (NH4+)",
+        "category": "chemistry"
+    },
+    {
+        "id": 65,
+        "subjectKey": "chemistry",
+        "title": "Muayyan temperaturada 1000 gramm toza suvda (yoki erituvchida) erishi mumkin bo'lgan moddaning maksimal gramm miqdori nima deyiladi?",
+        "options": [
+            "Moddaning eruvchanlik koeffitsiyenti (S)",
+            "Massa ulushi (w)",
+            "Molyar konsentratsiyasi",
+            "Eritma titri"
+        ],
+        "answer": "Moddaning eruvchanlik koeffitsiyenti (S)",
+        "category": "chemistry"
+    },
+    {
+        "id": 66,
+        "subjectKey": "chemistry",
+        "title": "Eritma tarkibidagi erigan modda konsentratsiyasi uning berilgan haroratdagi eruvchanlik qiymatiga teng bo'lsa, bunday eritma qanday ataladi?",
+        "options": [
+            "To'yingan eritma",
+            "To'yinmagan eritma",
+            "O'ta to'yingan eritma",
+            "Konsentrlangan eritma"
+        ],
+        "answer": "To'yingan eritma",
+        "category": "chemistry"
+    },
+    {
+        "id": 67,
+        "subjectKey": "chemistry",
+        "title": "Tarkibida [Cu(NH3)4]SO4 kabi markaziy atom (kompleks hosil qiluvchi) va ligandlardan tashkil topgan ichki sferaga ega birikmalar qanday nomlanadi?",
+        "options": [
+            "Kompleks birikmalar",
+            "Qo'sh tuzlar",
+            "Asosli tuzlar",
+            "Kristallgidratlar"
+        ],
+        "answer": "Kompleks birikmalar",
+        "category": "chemistry"
+    },
+    {
+        "id": 68,
+        "subjectKey": "chemistry",
+        "title": "Oksidlanish darajasi o'zgarmasdan, faqat kislota va asoslarning o'zaro neytrallanish reaksiyasini ionli shaklda ifodalashda qaysi ionlar birikib suv hosil qiladi?",
+        "options": [
+            "H+ va OH- ionlari",
+            "Na+ va Cl- ionlari",
+            "K+ va NO3- ionlari",
+            "NH4+ va SO4(2-) ionlari"
+        ],
+        "answer": "H+ va OH- ionlari",
+        "category": "chemistry"
+    },
+    {
+        "id": 69,
+        "subjectKey": "chemistry",
+        "title": "Vodorod sulfid (H2S) gazi laboratoriyada qaysi moddalarning o'zaro ta'siridan (Kipp apparatida) olinadi?",
+        "options": [
+            "FeS va suyultirilgan HCl",
+            "S va H2O",
+            "Na2SO4 va H2",
+            "Cu va konsentrlangan H2SO4"
+        ],
+        "answer": "FeS va suyultirilgan HCl",
+        "category": "chemistry"
+    },
+    {
+        "id": 70,
+        "subjectKey": "chemistry",
+        "title": "Uglerod (IV) oksid (CO2) gazini ohakli suv (Ca(OH)2) eritmasidan o'tkazilganda eritmaning loyqalanishiga sabab bo'luvchi qaysi cho'kma hosil bo'ladi?",
+        "options": ["CaCO3", "CaSO4", "CaCl2", "Ca(HCO3)2"],
+        "answer": "CaCO3",
+        "category": "chemistry"
+    },
+    {
+        "id": 71,
+        "subjectKey": "chemistry",
+        "title": "Alkanlarni laboratoriyada olishning asosiy usuli bo'lgan, monohalogenli alkanlarga metall holatdagi natriy (Na) ta'sir ettirib zanjirni uzaytirish reaksiyasi qanday nomlanadi?",
+        "options": [
+            "Vurtz reaksiyasi",
+            "Zilinskiy reaksiyasi",
+            "Kucherov reaksiyasi",
+            "Lebedev usuli"
+        ],
+        "answer": "Vurtz reaksiyasi",
+        "category": "chemistry"
+    },
+    {
+        "id": 72,
+        "subjectKey": "chemistry",
+        "title": "To'yinmagan uglevodorodlarga (alken va alkinlarga) vodorod xlorid yoki suv birikkanda, vodorod atomi vodorodi ko'p (ko'proq gidrogenlangan) uglerod atomiga birikishini belgilovchi qonuniyat qaysi?",
+        "options": [
+            "Markovnikov qoidasi",
+            "Saysev qoidasi",
+            "Lebedev qoidasi",
+            "Kekule strukturasi"
+        ],
+        "answer": "Markovnikov qoidasi",
+        "category": "chemistry"
+    },
+    {
+        "id": 73,
+        "subjectKey": "chemistry",
+        "title": "Alkadienlar sinfining muym vakili bo'lgan divinil (butadien-1,3) uglevodorodidan sanoatda katalitik usulda qanday muhim material olinadi?",
+        "options": [
+            "Sintetik kauchuk",
+            "Polietilen plastik",
+            "Sun'iy ipak tola",
+            "Sirka kislotasi"
+        ],
+        "answer": "Sintetik kauchuk",
+        "category": "chemistry"
+    },
+    {
+        "id": 74,
+        "subjectKey": "chemistry",
+        "title": "Benzolni laboratoriyada nitrolash (HNO3 va H2SO4 aralashmasi bilan ta'sir ettirish) natijasida o'ziga xos achchiq bodom hidi keluvchi qaysi modda hosil bo'ladi?",
+        "options": [
+            "Nitrobenzol",
+            "Aminobenzol (anilin)",
+            "Xlorbenzol",
+            "Toluol"
+        ],
+        "answer": "Nitrobenzol",
+        "category": "chemistry"
+    },
+    {
+        "id": 75,
+        "subjectKey": "chemistry",
+        "title": "Tarkibida -NH2 guruh tutgan eng oddiy aromatik amin — anilin (aminobenzol) qanday xossaga ega va u kislotalar bilan qanday birikadi?",
+        "options": [
+            "Kuchsiz asos xossasiga ega, tuzlar hosil qiladi",
+            "Kuchli kislota xossasiga ega, ishqorlar bilan reaksiyaga kirishadi",
+            "Amfoter xossaga ega, suvda to'liq gidrolizlanadi",
+            "Neytral modda, kislotalar bilan mutlaqo reaksiyaga kirishmaydi"
+        ],
+        "answer": "Kuchsiz asos xossasiga ega, tuzlar hosil qiladi",
+        "category": "chemistry"
+    },
+    {
+        "id": 76,
+        "subjectKey": "chemistry",
+        "title": "Sanoatda ammiak (NH3) gazini bevosita elementlardan (N2 va H2) sintez qilishda qaysi metalldan tayyorlangan katalizatordan foydalaniladi?",
+        "options": [
+            "Gubkasimon g'ovakdor temir (Fe)",
+            "Toza sof oltin (Au)",
+            "Suyuq holatdagi simob (Hg)",
+            "Mis kukuni (Cu)"
+        ],
+        "answer": "Gubkasimon g'ovakdor temir (Fe)",
+        "category": "chemistry"
+    },
+    {
+        "id": 77,
+        "subjectKey": "chemistry",
+        "title": "Faqat murakkab moddalardan iborat bo'lgan qatorni aniqlang.",
+        "options": [
+            "H2O, CO2, NaCl, H2SO4",
+            "O2, N2, Cl2, O3",
+            "Fe, Cu, Al, Na",
+            "P4, S8, C, H2"
+        ],
+        "answer": "H2O, CO2, NaCl, H2SO4",
+        "category": "chemistry"
+    },
+    {
+        "id": 78,
+        "subjectKey": "chemistry",
+        "title": "Oq fosfor va qizil fosfor moddalari bir-biriga nisbatan qanday tushuncha hisoblanadi?",
+        "options": [
+            "Allotropik shakllar (allotropiya)",
+            "Izomerik birikmalar",
+            "Gomologik qator vakillari",
+            "Izotop elementlar"
+        ],
+        "answer": "Allotropik shakllar (allotropiya)",
+        "category": "chemistry"
+    },
+    {
+        "id": 79,
+        "subjectKey": "chemistry",
+        "title": "Molyar massasi o'zaro teng (M = 44 g/mol) bo'lgan, ammo kimyoviy tarkibi turlicha bo'lgan gazlar juftligini toping.",
+        "options": [
+            "CO2 (Karbonat angidrid) va N2O (Azot (I) oksid)",
+            "O2 (Kislorod) va O3 (Ozon)",
+            "CH4 (Metan) va C2H6 (Etan)",
+            "CO (Is gazi) va N2 (Azot gazi)"
+        ],
+        "answer": "CO2 (Karbonat angidrid) va N2O (Azot (I) oksid)",
+        "category": "chemistry"
+    },
+    {
+        "id": 80,
+        "subjectKey": "chemistry",
+        "title": "Ko'p atomli spirt hisoblangan uch atomli glitserinni (propantriol-1,2,3) sifat jihatidan aniqlash uchun qaysi yangi tayyorlangan cho'kma reaktiv sifatida ishlatiladi?",
+        "options": [
+            "Mis (II) gidroksid - Cu(OH)2 (yorqin ko'k eritma hosil bo'ladi)",
+            "Kumush oksidning ammiakli eritmasi",
+            "Xlorid kislota eritmasi",
+            "Temir (III) xlorid eritmasi"
+        ],
+        "answer": "Mis (II) gidroksid - Cu(OH)2 (yorqin ko'k eritma hosil bo'ladi)",
+        "category": "chemistry"
+    },
+    {
+        "id": 81,
+        "subjectKey": "chemistry",
+        "title": "Xrom (Cr, Z=24) atomining tashqi va tashqi osti energetik qavatlaridagi elektron konfiguratsiyasida qanday anomal holat (elektron ko'chishi) kuzatiladi?",
+        "options": ["3d5 4s1", "3d4 4s2", "3d6 4s0", "3d3 4s2 4p1"],
+        "answer": "3d5 4s1",
+        "category": "chemistry"
+    },
+    {
+        "id": 82,
+        "subjectKey": "chemistry",
+        "title": "Brendsted-Louri kislota-asoslar nazariyasiga ko'ra, kislota deb qanday modda yoki zarrachaga aytiladi?",
+        "options": [
+            "Kimyoviy reaksiyada proton (H+) beruvchi (donor) zarrachaga",
+            "Kimyoviy reaksiyada proton (H+) biriktirib oluvchi (akseptor) zarrachaga",
+            "Faqat suvli eritmada gidroksid (OH-) ioni ajratadigan moddaga",
+            "Elektron juftini qabul qilib oluvchi har qanday moddaga"
+        ],
+        "answer": "Kimyoviy reaksiyada proton (H+) beruvchi (donor) zarrachaga",
+        "category": "chemistry"
+    },
+    {
+        "id": 83,
+        "subjectKey": "chemistry",
+        "title": "Kimyoviy reaksiya jarayonida ajralib chiqadigan yoki yutiladigan issiqlik miqdori nima deb ataladi?",
+        "options": [
+            "Reaksiyaning issiqlik effekti",
+            "Aktivlanish energiyasi",
+            "Gibbs erkin energiyasi",
+            "Entropiya o'zgarishi"
+        ],
+        "answer": "Reaksiyaning issiqlik effekti",
+        "category": "chemistry"
+    },
+    {
+        "id": 84,
+        "subjectKey": "chemistry",
+        "title": "Gess qonuniga ko'ra, kimyoviy reaksiyaning issiqlik effekti nimaga bog'liq va nimaga bog'liq emas?",
+        "options": [
+            "Boshlang'ich va oxirgi holatga bog'liq, reaksiyaning borish yo'liga (bosqichlariga) bog'liq emas",
+            "Faqat reaksiyaning necha bosqichda borishiga bog'liq",
+            "Faqat ishlatilgan katalizatorning turiga bog'liq",
+            "Tizimning yakuniy hajmi va bosimiga mutlaqo bog'liq emas"
+        ],
+        "answer": "Boshlang'ich va oxirgi holatga bog'liq, reaksiyaning borish yo'liga (bosqichlariga) bog'liq emas",
+        "category": "chemistry"
+    },
+    {
+        "id": 85,
+        "subjectKey": "chemistry",
+        "title": "Metallarning elektrokimyoviy kuchlanishlar qatorida vodoroddan o'ngda joylashgan (sust) metallar kislotalar bilan qanday reaksiyaga kirishadi?",
+        "options": [
+            "Oddiy kislotalardan (HCl, H2SO4 suyultirilgan) vodorodni siqib chiqara olmaydi",
+            "Barcha kislotalardan vodorod gazini shiddat bilan siqib chiqaradi",
+            "Faqat suv bilan reaksiyaga kirishib, kislota muhitini hosil qiladi",
+            "Kislotalar bilan faqat portlash natijasida reaksiyaga kirishadi"
+        ],
+        "answer": "Oddiy kislotalardan (HCl, H2SO4 suyultirilgan) vodorodni siqib chiqara olmaydi",
+        "category": "chemistry"
+    },
+    {
+        "id": 86,
+        "subjectKey": "chemistry",
+        "title": "Mis metalli (Cu) qaysi kislota bilan reaksiyaga kirishganda vodorod gazi ajralmasdan, azot (IV) oksid (NO2) gazi ajralib chiqadi?",
+        "options": [
+            "Konsentrlangan nitrat kislota (HNO3) bilan",
+            "Suyultirilgan xlorid kislota (HCl) bilan",
+            "Suyultirilgan fosfat kislota (H3PO4) bilan",
+            "Muz holatidagi sirka kislota bilan"
+        ],
+        "answer": "Konsentrlangan nitrat kislota (HNO3) bilan",
+        "category": "chemistry"
+    },
+    {
+        "id": 87,
+        "subjectKey": "chemistry",
+        "title": "Sanoatda kislota va kislotaga chidamli shishalar tayyorlashda ishlatiladigan, qumning asosiy tarkibiy qismi bo'lgan kislotali oksid qaysi?",
+        "options": [
+            "Silisium (IV) oksid (SiO2)",
+            "Uglerod (II) oksid (CO)",
+            "Alyuminiy oksid (Al2O3)",
+            "Kalsiy oksid (CaO)"
+        ],
+        "answer": "Silisium (IV) oksid (SiO2)",
+        "category": "chemistry"
+    },
+    {
+        "id": 88,
+        "subjectKey": "chemistry",
+        "title": "Faqat bir negizli (suvda bitta vodorod kationi ajratadigan) kislotalar ko'rsatilgan qatorni aniqlang.",
+        "options": [
+            "HCl, HNO3, CH3COOH",
+            "H2SO4, H2CO3, H2S",
+            "H3PO4, H3BO3, H3AsO4",
+            "HClO4, H2SiO3, H2C2O4"
+        ],
+        "answer": "HCl, HNO3, CH3COOH",
+        "category": "chemistry"
+    },
+    {
+        "id": 89,
+        "subjectKey": "chemistry",
+        "title": "Tarkibida ikkita alkil radikalini o'zaro kislorod atomi orqali bog'lagan (R-O-R) va spirtlarning molekulalararo degidratlanishidan olinadigan organik birikmalar sinfi qanday nomlanadi?",
+        "options": [
+            "Oddiy efirlar",
+            "Murakkab efirlar",
+            "Ketonlar",
+            "Karbon kislotalar"
+        ],
+        "answer": "Oddiy efirlar",
+        "category": "chemistry"
+    },
+    {
+        "id": 90,
+        "subjectKey": "chemistry",
+        "title": "Laboratoriyada va tibbiyotda og'riqsizlantiruvchi (narkoz) modda sifatida keng qo'llanilgan oddiy efir vakili qaysi?",
+        "options": [
+            "Dietil efiri (tibbiy efir)",
+            "Dimetil efiri",
+            "Metiletatsetat efiri",
+            "Metilformiat"
+        ],
+        "answer": "Dietil efiri (tibbiy efir)",
+        "category": "chemistry"
+    },
+    {
+        "id": 91,
+        "subjectKey": "chemistry",
+        "title": "Tarkibida uglerod va vodoroddan tashqari, halqa ichida boshqa element atomini (masalan, N, O, S) tutgan siklik organik birikmalar nima deyiladi?",
+        "options": [
+            "Geterotsiklik birikmalar",
+            "Gomotsiklik birikmalar",
+            "Aromatik uglevodorodlar",
+            "Sikloalkanlar"
+        ],
+        "answer": "Geterotsiklik birikmalar",
+        "category": "chemistry"
+    },
+    {
+        "id": 92,
+        "subjectKey": "chemistry",
+        "title": "Tarkibida besh a'zoli geterotsiklik halqa va bitta azot atomi tutgan, molekulyar formulasi C4H5N bo'lgan birikma qanday nomlanadi?",
+        "options": ["Pirrol", "Piridin", "Furan", "Tiofen"],
+        "answer": "Pirrol",
+        "category": "chemistry"
+    },
+    {
+        "id": 93,
+        "subjectKey": "chemistry",
+        "title": "Olti a'zoli aromatik geterotsiklik birikma bo'lgan, tarkibida bitta azot atomi tutgan piridin (C5H5N) qanday kimyoviy xossaga ega?",
+        "options": [
+            "Asoslik xossasiga ega, kislotalar bilan tuz hosil qiladi",
+            "Kuchli kislota xossasiga ega, indikatorlarni qizartiradi",
+            "Neytral modda, faqat yonish reaksiyasiga kirishadi",
+            "Amfoter xossaga ega, suvda to'liq parchalanadi"
+        ],
+        "answer": "Asoslik xossasiga ega, kislotalar bilan tuz hosil qiladi",
+        "category": "chemistry"
+    },
+    {
+        "id": 94,
+        "subjectKey": "chemistry",
+        "title": "Inson va hayvonlar organizmida energiya manbai bo'lib xizmat qiladigan, jigarda zaxira holatida to'planadigan hayvoniy kraxmal (polisaxarid) qanday ataladi?",
+        "options": ["Glikogen", "Sellyuloza", "Saxaroza", "Maltosa"],
+        "answer": "Glikogen",
+        "category": "chemistry"
+    },
+    {
+        "id": 95,
+        "subjectKey": "chemistry",
+        "title": "Uglevodlar sinfiga mansub bo'lgan fruktoza qaysi xususiyati bilan glyukozadan farq qiladi?",
+        "options": [
+            "Fruktoza ketoza (ketospirt), glyukoza esa aldoza (aldegidospirt) hisoblanadi",
+            "Fruktozaning molekulyar formulasi glyukozanikidan farq qiladi",
+            "Fruktoza murakkab polisaxarid, glyukoza esa monosaxariddir",
+            "Fruktoza kumush ko'zgu reaksiyasini shiddat bilan beradi"
+        ],
+        "answer": "Fruktoza ketoza (ketospirt), glyukoza esa aldoza (aldegidospirt) hisoblanadi",
+        "category": "chemistry"
+    },
+    {
+        "id": 96,
+        "subjectKey": "chemistry",
+        "title": "Oqsillarning qizdirilganda, nurlatilganda yoki kislotalar ta'sirida o'zining tabiiy (ikkilamchi, uchlamchi) fazoviy tuzilishini yo'qotib, qaytmas ivish jarayoni nima deyiladi?",
+        "options": [
+            "Denaturatsiya",
+            "Renaturatsiya",
+            "Gidroliz",
+            "Polikondensatlanish"
+        ],
+        "answer": "Denaturatsiya",
+        "category": "chemistry"
+    },
+    {
+        "id": 97,
+        "subjectKey": "chemistry",
+        "title": "Suyuq o'simlik yog'larini (tarkibida to'yinmagan kislota qoldiqlari bo'lgan triglitseridlarni) qattiq yog'ga (margaringa) aylantirish uchun qaysi jarayon qo'llaniladi?",
+        "options": [
+            "Gidrogenlash (vodorod bilan to'yintirish)",
+            "Gidratatsiyalash (suv biriktirish)",
+            "Gidrolizlash (parchalash)",
+            "Eterifikatsiyalash"
+        ],
+        "answer": "Gidrogenlash (vodorod bilan to'yintirish)",
+        "category": "chemistry"
+    },
+    {
+        "id": 98,
+        "subjectKey": "chemistry",
+        "title": "Molyar massasi eng kichik bo'lgan, tarkibida faqat bitta uglerod atomi tutgan eng oddiy bir atomli to'yingan spirt qaysi?",
+        "options": [
+            "Metanol (Metil spirti)",
+            "Etanol (Etil spirti)",
+            "Propanol",
+            "Etilenglikol"
+        ],
+        "answer": "Metanol (Metil spirti)",
+        "category": "chemistry"
+    },
+    {
+        "id": 99,
+        "subjectKey": "chemistry",
+        "title": "Xlorid kislota (HCl) eritmasiga rux (Zn) bo'lagi tashlanganda qaysi gaz ajralib chiqadi?",
+        "options": [
+            "Vodorod gazi (H2)",
+            "Xlor gazi (Cl2)",
+            "Kislorod gazi (O2)",
+            "Rux gidrid gazi"
+        ],
+        "answer": "Vodorod gazi (H2)",
+        "category": "chemistry"
+    },
+    {
+        "id": 100,
+        "subjectKey": "chemistry",
+        "title": "Elementlarning yadrolari tarkibidagi protonlar soni bir xil, ammo neytronlar soni har xil bo'lgan turlari nima deb ataladi?",
+        "options": ["Izotoplar", "Izobarlar", "Izotonlar", "Allotroplar"],
+        "answer": "Izotoplar",
+        "category": "chemistry"
+    }
+]

@@ -1,0 +1,1202 @@
+[
+    {
+        "id": 1,
+        "subjectKey": "golang",
+        "text": "Go tilida 'slice' (kesim) va 'array' (massiv) o'rtasidagi asosiy xotira va tuzilish farqi nimada?",
+        "options": [
+            "Array o'lchami qat'iy va statik bo'ladi, Slice esa array ustiga qurilgan dinamik oyna bo'lib, pointer, length va capacity'dan iborat tuzilmadir",
+            "Slice har doim faqat Stack xotirada saqlanadi, Array esa majburiy ravishda Heap xotiraga joylashtiriladi",
+            "Array nusxalanganda uning faqat havolasi (pointer) o'tadi, Slice nusxalanganda esa uning barcha elementlari to'liq ko'chiriladi",
+            "Ular o'rtasida farq yo'q, ikkalasi ham kompilyatsiya vaqtida bir xil turdagi dinamik massivga aylantiriladi"
+        ],
+        "correctAnswer": "Array o'lchami qat'iy va statik bo'ladi, Slice esa array ustiga qurilgan dinamik oyna bo'lib, pointer, length va capacity'dan iborat tuzilmadir"
+    },
+    {
+        "id": 2,
+        "subjectKey": "golang",
+        "text": "Go'da 'append' funksiyasi slice sig'imi (capacity) to'lib bo'linganidan keyin yangi element qo'shganda nima sodir bo'ladi?",
+        "options": [
+            "Orqa fonda yangi, odatda 2 barobar kattaroq yangi array yaratiladi, eski elementlar unga ko'chiriladi va yangi slice qaytariladi",
+            "Dastur darhol xotira yetishmasligi sababli 'panic: out of memory' xatosi bilan to'xtaydi",
+            "Mavjud array xotiradagi keyingi bo'sh manzillar hisobiga o'z joyida dinamik kengayadi, elementlar ko'chirilmaydi",
+            "Slice o'z-o'zidan 'linked list' (bog'langan ro'yxat) tuzilmasiga aylanadi va unumdorlik pasayadi"
+        ],
+        "correctAnswer": "Orqa fonda yangi, odatda 2 barobar kattaroq yangi array yaratiladi, eski elementlar unga ko'chiriladi va yangi slice qaytariladi"
+    },
+    {
+        "id": 3,
+        "subjectKey": "golang",
+        "text": "Go tilida 'nil channel'ga (initsializatsiya qilinmagan kanalga) ma'lumot yozish yoki undan ma'lumot o'qish nima holatga olib keladi?",
+        "options": [
+            "Goroutine abadiy bloklanadi (deadlock yoki blocking) va hech qanday panic sodir bo'lmaydi",
+            "Dastur darhol 'panic: runtime error: invalid channel' xatosini tashlaydi",
+            "Kanal avtomatik ravishda standart bo'sh qiymat (default value) qaytaradi yoki yozishni e'tiborsiz qoldiradi",
+            "Kompilyator buni aniqlab, kodni kompilyatsiya qilishdan bosh tortadi"
+        ],
+        "correctAnswer": "Goroutine abadiy bloklanadi (deadlock yoki blocking) va hech qanday panic sodir bo'lmaydi"
+    },
+    {
+        "id": 4,
+        "subjectKey": "golang",
+        "text": "Go'da allaqachon yopilgan (closed channel) kanalga ma'lumot yozishga urinish nima bilan yakunlanadi?",
+        "options": [
+            "Dastur darhol 'panic: send on closed channel' xatosini tashlaydi",
+            "Yozilayotgan ma'lumot shunchaki yo'qotiladi (drop bo'ladi) va goroutine davom etadi",
+            "Kanal qaytadan avtomatik ochiladi va ma'lumotni qabul qiladi",
+            "Goroutine abadiy blok holatiga tushib qoladi"
+        ],
+        "correctAnswer": "Dastur darhol 'panic: send on closed channel' xatosini tashlaydi"
+    },
+    {
+        "id": 5,
+        "subjectKey": "golang",
+        "text": "Yopilgan kanaldan (closed channel) ma'lumot o'qilganda nima qaytadi?",
+        "options": [
+            "Kanal ichidagi qolgan barcha ma'lumotlar o'qib bo'lingach, keyingi chaqiriqlarda kanal turining default qiymati va 'false' status qaytadi",
+            "Darhol panic sodir bo'ladi, chunki yopilgan kanaldan umuman ma'lumot o'qib bo'lmaydi",
+            "Kanal ichida ma'lumot bo'lsa ham, ular o'chib ketadi va faqat 'nil' yoki nol qaytadi",
+            "O'qish bloki goroutine'ni abadiy bloklab qo'yadi"
+        ],
+        "correctAnswer": "Kanal ichidagi qolgan barcha ma'lumotlar o'qib bo'lingach, keyingi chaqiriqlarda kanal turining default qiymati va 'false' status qaytadi"
+    },
+    {
+        "id": 6,
+        "subjectKey": "golang",
+        "text": "Go'da 'interface{}' (yoki 'any') o'zgaruvchisining ichki tuzilishi (underlying structure) nimalardan iborat?",
+        "options": [
+            "Ikki pointer: biri turning metama'lumotlariga (type dynamic) va ikkinchisi haqiqiy ma'lumot manziliga (data pointer) ishora qiladi",
+            "Faqat bitta xotira adresi bo'lib, u Heap xotiradagi obyektning boshlang'ich baytini ko'rsatadi",
+            "String formatidagi tur nomi va uning xotiradagi umumiy hajmini saqlovchi struktura",
+            "Kompilyator darajasidagi vaqtinchalik makros bo'lib, runtime'da hech qanday xotira egallamaydi"
+        ],
+        "correctAnswer": "Ikki pointer: biri turning metama'lumotlariga (type dynamic) va ikkinchisi haqiqiy ma'lumot manziliga (data pointer) ishora qiladi"
+    },
+    {
+        "id": 7,
+        "subjectKey": "golang",
+        "text": "Go GMP scheduler (rejalashtiruvchi) modelida 'M', 'P' va 'G' harflari mos ravishda nimalarni anglatadi?",
+        "options": [
+            "G: Goroutine, M: OS Thread (mashina), P: Processor (mantiqiy protsessor/kontekst executing uchun)",
+            "G: Garbage Collector, M: Memory Allocator, P: Pointer Tracker",
+            "G: Global Variable, M: Mutex Lock, P: Parallel Queue",
+            "G: Gateway Network, M: Main Function, P: Process ID"
+        ],
+        "correctAnswer": "G: Goroutine, M: OS Thread (mashina), P: Processor (mantiqiy protsessor/kontekst executing uchun)"
+    },
+    {
+        "id": 8,
+        "subjectKey": "golang",
+        "text": "Go scheduler'dagi 'Work Stealing' algoritmi qanday vazifani bajaradi?",
+        "options": [
+            "Bitta mantiqiy protsessor (P) ishsiz qolganda, boshqa band protsessorlarning mahalliy navbatidan (local run queue) goroutinelarni o'g'irlab olib ishlatadi",
+            "Xotira to'lib qolganda operativ tizimdan (OS) qo'shimcha virtual xotirani majburiy tortib oladi",
+            "Ishlamayotgan va o'lik holatdagi goroutinelarni aniqlab, ularning xotirasini Garbage Collector'ga topshiradi",
+            "Tarmoq so'rovlarini (network I/O) tezlashtirish uchun bir nechta portlarni bir vaqtda egallaydi"
+        ],
+        "correctAnswer": "Bitta mantiqiy protsessor (P) ishsiz qolganda, boshqa band protsessorlarning mahalliy navbatidan (local run queue) goroutinelarni o'g'irlab olib ishlatadi"
+    },
+    {
+        "id": 9,
+        "subjectKey": "golang",
+        "text": "Go tilida 'Escape Analysis' (qochish tahlili) nima vazifani bajaradi?",
+        "options": [
+            "Kompilyatsiya vaqtida o'zgaruvchini Stack xotirada qoldirish yoki uni Heap xotiraga o'tkazish (escape) kerakligini aniqlaydi",
+            "Dastur ishlash vaqtida (runtime) cheksiz sikllardan (infinite loops) qochish yo'llarini avtomatik izlaydi",
+            "Goroutinelar orasida yuzaga keladigan ma'lumotlar poygasi (data race) holatlarini tahlil qiladi",
+            "Panic sodir bo'lganda dasturni xavfsiz o'chirish uchun defer bloklarini zanjirga bog'laydi"
+        ],
+        "correctAnswer": "Kompilyatsiya vaqtida o'zgaruvchini Stack xotirada qoldirish yoki uni Heap xotiraga o'tkazish (escape) kerakligini aniqlaydi"
+    },
+    {
+        "id": 10,
+        "subjectKey": "golang",
+        "text": "Go funksiyasida return bilan qiymat qaytarish va 'defer' blokining bajarilish tartibi qanday amalga oshiriladi?",
+        "options": [
+            "Natija o'zgaruvchisi tayyorlanadi (va nomlangan bo'lsa o'zgaradi), keyin defer bloklari bajariladi va nihoyat funksiyadan haqiqiy chiqish amalga oshiriladi",
+            "Funksiyadan to'liq chiqib ketiladi, so'ngra defer bloklari Main Goroutine tomonidan asinxron bajariladi",
+            "Defer bloklari return operatoridan mutlaqo mustaqil ravishda har doim eng birinchi bo'lib ijro etiladi",
+            "Agar return'da xatolik (error) bo'lsa defer ishlamaydi, aks holda defer birinchi bajariladi"
+        ],
+        "correctAnswer": "Natija o'zgaruvchisi tayyorlanadi (va nomlangan bo'lsa o'zgaradi), keyin defer bloklari bajariladi va nihoyat funksiyadan haqiqiy chiqish amalga oshiriladi"
+    },
+    {
+        "id": 11,
+        "subjectKey": "golang",
+        "text": "Go Garbage Collector (GC) qaysi algoritm asosida ishlaydi?",
+        "options": [
+            "Concurrent Tri-color Mark and Sweep",
+            "Reference Counting with Generational GC",
+            "Stop-the-World Copying Garbage Collector",
+            "Linear Mark-Compact Engine"
+        ],
+        "correctAnswer": "Concurrent Tri-color Mark and Sweep"
+    },
+    {
+        "id": 12,
+        "subjectKey": "golang",
+        "text": "Go Garbage Collector'dagi Tri-color algoritmidagi 'Black' (Qora) ob'ektlar nimani anglatadi?",
+        "options": [
+            "O'zi tirik (reachable) deb topilgan va unga bog'langan (pointer ko'rsatgan) barcha ob'ektlar ham to'liq tekshirib bo'lingan xavfsiz ob'ektlar",
+            "Xotiradan o'chirilishi kerak bo'lgan, hech kim foydalanmayotgan o'lik ob'ektlar",
+            "O'zi tirik, lekin uning ichidagi pointerlar hali to'liq skaner qilinmagan va navbatda turgan ob'ektlar",
+            "Dastur boshidan beri Stack xotirada o'zgarmas bo'lib qolgan static ma'lumotlar"
+        ],
+        "correctAnswer": "O'zi tirik (reachable) deb topilgan va unga bog'langan (pointer ko'rsatgan) barcha ob'ektlar ham to'liq tekshirib bo'lingan xavfsiz ob'ektlar"
+    },
+    {
+        "id": 13,
+        "subjectKey": "golang",
+        "text": "Go'da 'sync.Mutex' va 'sync.RWMutex' o'rtasidagi asosiy farq nimada?",
+        "options": [
+            "RWMutex bir nechta oquvchilarga (readers) bir vaqtda parallel ruxsat beradi, lekin yozuvchini (writer) qulflaydi; Mutex esa hammani birdek qulflaydi",
+            "Mutex faqat goroutinelarni bloklaydi, RWMutex esa operatsion tizim darajasidagi thread'larni qulflaydi",
+            "RWMutex faqat kanallar (channels) bilan ishlaydi, Mutex esa map va slice'lar uchun mo'ljallangan",
+            "RWMutex xotirani avtomatik tozalaydi, Mutex'ni esa qo'lda Unlock qilish shart"
+        ],
+        "correctAnswer": "RWMutex bir nechta oquvchilarga (readers) bir vaqtda parallel ruxsat beradi, lekin yozuvchini (writer) qulflaydi; Mutex esa hammani birdek qulflaydi"
+    },
+    {
+        "id": 14,
+        "subjectKey": "golang",
+        "text": "Go tilida 'map' tuzilmasi ichki mantiqiga ko'ra 'thread-safe' (ko'p oqimli xavfsiz) hisoblanadimi?",
+        "options": [
+            "Yo'q, bir vaqtning o'zida bir nechta goroutine map'ga yozsa (yoki biri yozib biri o'qisa) dastur darhol halokatli 'fatal error: concurrent map writes' xatosi bilan crash bo'ladi",
+            "Ha, map'lar Go runtime darajasida har bir element uchun avtomatik ravishda mutex qulflariga ega",
+            "Faqat o'qish operatsiyalari uchun thread-safe hisoblanadi, yozilganda esa xatoni o'tkazib yuboradi",
+            "Map faqat 'make(map[type]type, cap)' ko'rinishida yaratilgandagina to'liq thread-safe bo'ladi"
+        ],
+        "correctAnswer": "Yo'q, bir vaqtning o'zida bir nechta goroutine map'ga yozsa (yoki biri yozib biri o'qisa) dastur darhol halokatli 'fatal error: concurrent map writes' xatosi bilan crash bo'ladi"
+    },
+    {
+        "id": 15,
+        "subjectKey": "golang",
+        "text": "Go'da 'context.Context' paketidagi 'WithCancel' va 'WithTimeout' funksiyalarining asosiy maqsadi nima?",
+        "options": [
+            "Uzoq davom etadigan operatsiyalarni, tarmoq so'rovlarini yoki goroutinelarni vaqt yetganda yoki qo'lda bekor qilish (propagation signals) va resurslarni tejash",
+            "Dasturdagi barcha xatolarni (errors) markazlashtirilgan holda log fayliga yozish",
+            "Goroutinelarning bajarilish tartibini (priority) protsessor darajasida oshirish",
+            "Heap xotiradagi o'zgaruvchilarni majburiy tarzda Stack xotiraga o'tkazish"
+        ],
+        "correctAnswer": "Uzoq davom etayotgan operatsiyalarni, tarmoq so'rovlarini yoki goroutinelarni vaqt yetganda yoki qo'lda bekor qilish (propagation signals) va resurslarni tejash"
+    },
+    {
+        "id": 16,
+        "subjectKey": "golang",
+        "text": "Go'da 'sync.Pool' tuzilmasidan foydalanishning eng asosiy drayveri (foydasi) nimada?",
+        "options": [
+            "Tez-tez yaratiladigan va o'chiriladigan og'ir ob'ektlarni keshlab, qayta ishlatish orqali Heap xotira ajratilishini (allocation) va GC yuklamasini kamaytirish",
+            "Tarmoq ulanishlarini (TCP connections) global darajada shifrlash va xavfsizligini ta'minlash",
+            "Goroutinelarni ma'lum bir tartib asosida navbatga qo'yish va ularni sinxron bajarish",
+            "Dasturdagi barcha static o'zgaruvchilarni bitta joyga to'plab, ularni o'qish tezligini oshirish"
+        ],
+        "correctAnswer": "Tez-tez yaratiladigan va o'chiriladigan og'ir ob'ektlarni keshlab, qayta ishlatish orqali Heap xotira ajratilishini (allocation) va GC yuklamasini kamaytirish"
+    },
+    {
+        "id": 17,
+        "subjectKey": "golang",
+        "text": "Go'da 'recover()' funksiyasi qachon va qayerda chaqirilgandagina 'panic' holatini muvaffaqiyatli ushlab, dasturni crash bo'lishidan saqlab qoladi?",
+        "options": [
+            "Faqat va faqat 'defer' qilingan funksiya ichida to'g'ridan-to'g'ri chaqirilganda",
+            "Main funksiyasining eng boshida ixtiyoriy qatorda yozilganda",
+            "Try-catch blokining ichida xatolik sodir bo'lgan joyning o'zida",
+            "Panic chaqirilgan funksiyaga argument sifatida uzatilganda"
+        ],
+        "correctAnswer": "Faqat va faqat 'defer' qilingan funksiya ichida to'g'ridan-to'g'ri chaqirilganda"
+    },
+    {
+        "id": 18,
+        "subjectKey": "golang",
+        "text": "Go tilida 'struct{}' (bo'sh struktura) turi xotirada qancha joy egallaydi?",
+        "options": [
+            "0 bayt (mutlaqo joy egallamaydi)",
+            "1 bayt (eng kichik xotira birligi sifatida)",
+            "8 bayt (pointer hajmi bilan bir xil)",
+            "Architekturaga qarab 4 yoki 8 bayt"
+        ],
+        "correctAnswer": "0 bayt (mutlaqo joy egallamaydi)"
+    },
+    {
+        "id": 19,
+        "subjectKey": "golang",
+        "text": "Go'da 'unbuffered channel' (buferlanmagan kanal) va 'buffered channel' (buferlangan kanal) o'rtasidagi asosiy farq nimada?",
+        "options": [
+            "Unbuffered kanal ma'lumot uzatishda jo'natuvchi va qabul qiluvchi goroutinelarni darhol sinxronlashtiradi (qulflaydi), buffered kanal esa sig'imi to'lguncha jo'natuvchini bloklamaydi",
+            "Buffered kanal faqat string ma'lumotlarni qabul qiladi, unbuffered esa ixtiyoriy turni",
+            "Unbuffered kanal Heap xotirada ochiladi, buffered kanal esa faqat Stack'da ishlaydi",
+            "Ular o'rtasida farq yo'q, faqat unbuffered kanal eski Go versiyalarining qoldig'idir"
+        ],
+        "correctAnswer": "Unbuffered kanal ma'lumot uzatishda jo'natuvchi va qabul qiluvchi goroutinelarni darhol sinxronlashtiradi (qulflaydi), buffered kanal esa sig'imi to'lguncha jo'natuvchini bloklamaydi"
+    },
+    {
+        "id": 20,
+        "subjectKey": "golang",
+        "text": "Go'da 'select' operatori bir vaqtning o'zida bir nechta kanallar (channels) tayyor (ready) bo'lib qolsa, qaysi 'case'ni birinchi bajaradi?",
+        "options": [
+            "Tayyor bo'lgan case'lar orasidan mutlaqo tasodifiy (pseudo-random) bittasini tanlab ishga tushiradi",
+            "Kodda yozilish tartibi bo'yicha eng yuqorida turgan birinchi case'ni bajaradi",
+            "Eng birinchi bo'lib kesh xotiraga kelib tushgan kanalning case'ini ijro etadi",
+            "Barcha tayyor case'larni parallel thread'lar ichida bir vaqtda ishga tushiradi"
+        ],
+        "correctAnswer": "Tayyor bo'lgan case'lar orasidan mutlaqo tasodifiy (pseudo-random) bittasini tanlab ishga tushiradi"
+    },
+    {
+        "id": 21,
+        "subjectKey": "golang",
+        "text": "Go tilida 'shadowing' (o'zgaruvchini soyalash) nima va u qanday xavf tug'diradi?",
+        "options": [
+            "Ichki blokda (scope) tashqi blokdagi o'zgaruvchi bilan bir xil nomli yangi o'zgaruvchining e'lon qilinishi; bu tashqi o'zgaruvchining qiymati o'zgarmay qolishiga (mantiqiy xatolikka) olib kelishi mumkin",
+            "O'zgaruvchining xotiradan Garbage Collector tomonidan vaqtidan oldin o'chirilishi va dasturning crash bo'lishi",
+            "Ikkita goroutine bir vaqtda bitta o'zgaruvchiga yozishi natijasida ma'lumotning buzilishi",
+            "Kompilyatorning kodni tahlil qila olmay, static turlarni dinamik turlarga o'zgartirib yuborishi"
+        ],
+        "correctAnswer": "Ichki blokda (scope) tashqi blokdagi o'zgaruvchi bilan bir xil nomli yangi o'zgaruvchining e'lon qilinishi; bu tashqi o'zgaruvchining qiymati o'zgarmay qolishiga (mantiqiy xatolikka) olib kelishi mumkin"
+    },
+    {
+        "id": 22,
+        "subjectKey": "golang",
+        "text": "Go'da 'for range' sikli ichida iteratsiya o'zgaruvchisining (Go 1.22 versiyasidan oldingi) xotiradagi manzili har bir qadamda qanday bo'ladi?",
+        "options": [
+            "Sikl har bir qadamda (iteration) aynan bitta xotira manzilidan qayta-qayta foydalanadi, faqat uning ichidagi qiymat yangilanadi",
+            "Sikl barcha elementlar uchun har safar mutlaqo yangi va alohida xotira manzili ajratadi",
+            "Faqat pointer (ko'rsatkich) tiplari uchun yangi manzil ajratiladi, oddiy tiplar uchun esa bitta manzil saqlanadi",
+            "Iteratsiya o'zgaruvchisi har doim Heap xotirada static tarzda qulflanadi"
+        ],
+        "correctAnswer": "Sikl har bir qadamda (iteration) aynan bitta xotira manzilidan qayta-qayta foydalanadi, faqat uning ichidagi qiymat yangilanadi"
+    },
+    {
+        "id": 23,
+        "subjectKey": "golang",
+        "text": "Go'da 'init()' funksiyasining asosiy xususiyati va bajarilish tartibi qanday?",
+        "options": [
+            "Har bir paketda (package) bir nechta bo'lishi mumkin, paket yuklanayotganda main() funksiyasidan oldin avtomatik ravishda faqat bir marta ishga tushadi",
+            "Faqat main paketida bitta bo'lishi shart va uni dastur ichida qo'lda qayta chaqirish mumkin",
+            "Dastur tugashidan oldin barcha resurslarni tozalash uchun Garbage Collector tomonidan chaqiriladi",
+            "U faqat goroutinelar ichida asinxron xatolarni ushlash uchun mo'ljallangan maxsus funksiyadir"
+        ],
+        "correctAnswer": "Har bir paketda (package) bir nechta bo'lishi mumkin, paket yuklanayotganda main() funksiyasidan oldin avtomatik ravishda faqat bir marta ishga tushadi"
+    },
+    {
+        "id": 24,
+        "subjectKey": "golang",
+        "text": "Go tilida 'opaque' yoki explicit bo'lmagan interface implementatsiyasi nima?",
+        "options": [
+            "Struktura biror interfeysni implement qilishi uchun 'implements' kalit so'zi shart emas; struktura interfeysdagi metodlarni shunchaki realizatsiya qilsa kifoya (duck typing)",
+            "Interfeyslarni faqat private strukturalar bilan ishlatish va ularni tashqi paketlardan yashirish tizimi",
+            "Interfeys ichida metodlar o'rniga faqat boshqa interfeyslarni joylashtirish qoidasi",
+            "Runtime paytida interfeys turini butunlay o'chirib tashlash orqali xotirani tejash mexanizmi"
+        ],
+        "correctAnswer": "Struktura biror interfeysni implement qilishi uchun 'implements' kalit so'zi shart emas; struktura interfeysdagi metodlarni shunchaki realizatsiya qilsa kifoya (duck typing)"
+    },
+    {
+        "id": 25,
+        "subjectKey": "golang",
+        "text": "Go'da 'sync.WaitGroup' tuzilmasining 'Add()', 'Done()' va 'Wait()' metodlarini noto'g'ri ishlatish (masalan, Add() ni goroutine ichida chaqirish) qanday muammoga olib kelishi mumkin?",
+        "options": [
+            "Race condition yoki waitgroup hisoblagichi ulgurmasdan Wait() ishga tushishi natijasida dasturning kutilgandan oldin tugab ketishi (early exit)",
+            "Dasturning darhol 'panic: waitgroup counter overflow' xatosi bilan crash bo'lishi",
+            "Xotirada strong reference cycle hosil bo'lishi va Garbage Collector ishlamay qolishi",
+            "Goroutinelarning avtomatik ravishda OS thread'laridan uzilib, muzlab qolishi"
+        ],
+        "correctAnswer": "Race condition yoki waitgroup hisoblagichi ulgurmasdan Wait() ishga tushishi natijasida dasturning kutilgandan oldin tugab ketishi (early exit)"
+    },
+    {
+        "id": 26,
+        "subjectKey": "golang",
+        "text": "Go'da 'string' ma'lumot turi ichki tuzilishiga ko'ra xotirada qanday saqlanadi va u o'zgartiriluvchanmi (mutable)?",
+        "options": [
+            "Pointer (baytlar massiviga) va Length'dan iborat bo'lib, mutlaqo o'zgarmasdir (immutable); uning biror belgisini to'g'ridan-to'g'ri o'zgartirib bo'lmaydi",
+            "Faqat baytlar massivi bo'lib, to'liq o'zgartiriluvchandir; istalgan indeksdagi belgini runtime'da yangilash mumkin",
+            "Linked list ko'rinishida saqlanadi va har safar yangi belgi qo'shilganda xotira avtomatik kengayadi",
+            "String faqat Stack xotirada saqlanadigan va faqat 256 ta belgi bilan cheklangan static tuzilmadir"
+        ],
+        "correctAnswer": "Pointer (baytlar massiviga) va Length'dan iborat bo'lib, mutlaqo o'zgarmasdir (immutable); uning biror belgisini to'g'ridan-to'g'ri o'zgartirib bo'lmaydi"
+    },
+    {
+        "id": 27,
+        "subjectKey": "golang",
+        "text": "Go'da 'nil slice' va 'empty slice' (masalan, s := []int{}) o'rtasidagi asosiy farq nimada?",
+        "options": [
+            "Nil slice'ning pointeri nil ga teng va xotira ajratilmagan, Empty slice'ning pointeri esa aniq bir xotira manziliga (zerobase) ishora qiladi, lekin ikkalasining length va cap qiymatlari 0 dir",
+            "Nil slice kompilyatsiya xatosiga olib keladi, empty slice esa faqat runtime'da ishlaydi",
+            "Nil slice faqat Heap xotirada bo'ladi, empty slice esa faqat Stack'da joylashadi",
+            "Ular o'rtasida farq yo'q, JSON'ga o'girilganda (marshal) ikkalasi ham bir xil 'null' natijani beradi"
+        ],
+        "correctAnswer": "Nil slice'ning pointeri nil ga teng va xotira ajratilmagan, Empty slice'ning pointeri esa aniq bir xotira manziliga (zerobase) ishora qiladi, lekin ikkalasining length va cap qiymatlari 0 dir"
+    },
+    {
+        "id": 28,
+        "subjectKey": "golang",
+        "text": "Go tilida 'rune' turi nima va u qaysi asosiy turning muqobili (alias) hisoblanadi?",
+        "options": [
+            "Single Unicode code point (belgi) hisoblanadi va 'int32' turning muqobilidir",
+            "Faqat ASCII belgilar uchun ishlatiladigan 'byte' turning muqobilidir",
+            "Xotirada 64-bit joy egallaydigan maxsus string pointeridir",
+            "Faqat float sonlarni butun sonlarga o'gira oladigan matematik turdir"
+        ],
+        "correctAnswer": "Single Unicode code point (belgi) hisoblanadi va 'int32' turning muqobilidir"
+    },
+    {
+        "id": 29,
+        "subjectKey": "golang",
+        "text": "Go'da 'sync.Once' tuzilmasining asosiy vazifasi nimadan iborat?",
+        "options": [
+            "Unga berilgan funksiyani ko'p oqimli (multi-threaded) muhitda ham faqat va faqat bir marta xavfsiz bajarilishini kafolatlash (masalan, Singleton initsializatsiya uchun)",
+            "Dastur faqat bitta protsessor (CPU) yadrosida ishlashini majburlash",
+            "Goroutine ichida xatolik yuz berganda uni faqat bir marta recover qilish",
+            "Kanal (channel) orqali faqat bitta ma'lumot o'tishini nazorat qilish"
+        ],
+        "correctAnswer": "Unga berilgan funksiyani ko'p oqimli (multi-threaded) muhitda ham faqat va faqat bir marta xavfsiz bajarilishini kafolatlash (masalan, Singleton initsializatsiya uchun)"
+    },
+    {
+        "id": 30,
+        "subjectKey": "golang",
+        "text": "Go'da 'unsafe' paketining maqsadi va undan foydalanish qachon oqlanadi?",
+        "options": [
+            "Turlar xavfsizligi (type safety) qoidalarini aylanib o'tib, xotira bilan to'g'ridan-to'g'ri ishlash (pointer arifmetikasi) va yuqori unumdorlik yoki past darajali OS tizimlari bilan ishlash uchun",
+            "Dasturdagi barcha private funksiyalarni public holatga o'tkazish uchun",
+            "Garbage Collector'ni butunlay o'chirib qo'yish va xotirani C tilidek qo'lda boshqarish uchun",
+            "Internet tarmoq so'rovlarini shifrlash va xakerlik hujumlaridan himoya qilish uchun"
+        ],
+        "correctAnswer": "Turlar xavfsizligi (type safety) qoidalarini aylanib o'tib, xotira bilan to'g'ridan-to'g'ri ishlash (pointer arifmetikasi) va yuqori unumdorlik yoki past darajali OS tizimlari bilan ishlash uchun"
+    },
+    {
+        "id": 31,
+        "subjectKey": "golang",
+        "text": "Go tilida 'channel' (kanal) o'zgaruvchisini 'make' bilan yaratmasdan shunchaki 'var ch chan int' ko'rinishida e'lon qilib, undan 'close(ch)' orqali yopishga urinsak nima sodir bo'ladi?",
+        "options": [
+            "Dastur darhol 'panic: close of nil channel' xatosi bilan crash bo'ladi",
+            "Hech narsa sodir bo'lmaydi, yopilish operatsiyasi shunchaki inkor etiladi",
+            "Kanal avtomatik ravishda initsializatsiya bo'ladi va muvaffaqiyatli yopiladi",
+            "Goroutine abadiy blok holatiga tushib qoladi (deadlock)"
+        ],
+        "correctAnswer": "Dastur darhol 'panic: close of nil channel' xatosi bilan crash bo'ladi"
+    },
+    {
+        "id": 32,
+        "subjectKey": "golang",
+        "text": "Go'da 'type assertion' (masalan, v, ok := i.(Type)) va 'type switch' o'rtasidagi asosiy farq nimada?",
+        "options": [
+            "Type assertion interfeysni aniq bitta turga tekshiradi, Type switch esa interfeys ichidagi turni bir nechta variantlar (cases) bilan solishtiradi",
+            "Type assertion faqat struct turlari bilan ishlaydi, Type switch esa faqat standart turlar uchun",
+            "Type assertion runtime'da ishlaydi, Type switch esa kompilyatsiya vaqtida static tekshiradi",
+            "Type assertion xotira hajmini o'zgartiradi, Type switch esa faqat qiymatni o'qiydi"
+        ],
+        "correctAnswer": "Type assertion interfeysni aniq bitta turga tekshiradi, Type switch esa interfeys ichidagi turni bir nechta variantlar (cases) bilan solishtiradi"
+    },
+    {
+        "id": 33,
+        "subjectKey": "golang",
+        "text": "Go tilida 'Goroutine Leak' (goroutine oqishi) muammosi nima va u qanday yuzaga keladi?",
+        "options": [
+            "Goroutine ishini yakunlay olmay (masalan, kanaldan javob kutib yoki bloklanib) abadiy xotirada qolib ketishi; bu vaqt o'tishi bilan RAM to'lishiga olib keladi",
+            "Goroutine ichidagi o'zgaruvchilarning xotira manzili C++ kodlariga xatolik bilan o'tib ketishi",
+            "Main goroutine tugagandan keyin ham fondagi goroutinelarning ishlashda davom etishi",
+            "Goroutine protsessor yadrosini 100% band qilib, boshqa goroutinelarga yo'l bermasligi"
+        ],
+        "correctAnswer": "Goroutine ishini yakunlay olmay (masalan, kanaldan javob kutib yoki bloklanib) abadiy xotirada qolib ketishi; bu vaqt o'tishi bilan RAM to'lishiga olib keladi"
+    },
+    {
+        "id": 34,
+        "subjectKey": "golang",
+        "text": "Go'da 'sync/atomic' paketi funksiyalari (masalan, atomic.AddInt64) nima uchun ishlatiladi va uning 'sync.Mutex'dan farqi nimada?",
+        "options": [
+            "Protsessor darajasidagi (CPU instructions) past darajali sinxronizatsiya yordamida, mutex'larsiz (lockless), xavfsiz va juda tezkor matematik amallarni bajarish uchun",
+            "Faqat asinxron oqimlardan keladigan ma'lumotlarni diskka ketma-ket yozish uchun",
+            "Mutex'ga qaraganda xotiradan ko'proq joy ajratib, oqimlar xavfsizligini ta'minlash uchun",
+            "Dasturdagi barcha static o'zgaruvchilar qiymatlarini MD5 ko'rinishida shifrlash uchun"
+        ],
+        "correctAnswer": "Protsessor darajasidagi (CPU instructions) past darajali sinxronizatsiya yordamida, mutex'larsiz (lockless), xavfsiz va juda tezkor matematik amallarni bajarish uchun"
+    },
+    {
+        "id": 35,
+        "subjectKey": "golang",
+        "text": "Go tilida 'struct alignment' (strukturalarni tekshirish/tekislash) xotira egallashiga qanday ta'sir qiladi?",
+        "options": [
+            "Struktura maydonlarining (fields) ketma-ketlik tartibiga qarab, arxitekturadagi so'z o'lchami (padding baytlari) sababli xotiradan ko'proq yoki kamroq joy egallashi mumkin",
+            "Struktura ichidagi barcha maydonlar turi avtomatik ravishda 'interface{}' turiga o'zgartiriladi",
+            "Struktura maydonlari har doim xotiraning faqat toq manzillarida joylashishini qat'iy majburlaydi",
+            "U faqat JSON string formatiga o'giriish vaqtida xotira overhead'ini kamaytirishga xizmat qiladi"
+        ],
+        "correctAnswer": "Struktura maydonlarining (fields) ketma-ketlik tartibiga qarab, arxitekturadagi so'z o'lchami (padding baytlari) sababli xotiradan ko'proq yoki kamroq joy egallashi mumkin"
+    },
+    {
+        "id": 36,
+        "subjectKey": "golang",
+        "text": "Go'da 'map' tuzilmasidan 'delete(m, key)' orqali element o'chirilganda, o'sha element band qilgan xotira darhol operatsion tizimga (OS) qaytariladimi?",
+        "options": [
+            "Yo'q, xotira (bucket) map ichida qoladi va faqat yangi elementlar uchun qayta ishlatilishi mumkin; xotira faqat map butunlay nil bo'lgandagina bo'shaydi",
+            "Ha, delete() funksiyasi zudlik bilan operativ xotirani (RAM) tozalaydi va OS'ga bo'sh joyni topshiradi",
+            "Faqat element qiymati string yoki struct bo'lgandagina xotira darhol bo'shatiladi",
+            "Delete funksiyasi xotirani emas, balki faqat element indeksini o'chiradi, qiymat esa saqlanib qoladi"
+        ],
+        "correctAnswer": "Yo'q, xotira (bucket) map ichida qoladi va faqat yangi elementlar uchun qayta ishlatilishi mumkin; xotira faqat map butunlay nil bo'lgandagina bo'shaydi"
+    },
+    {
+        "id": 37,
+        "subjectKey": "golang",
+        "text": "Go tilida 'GOMAXPROCS' atrof-muhit (environment) o'zgaruvchisining asosiy vazifasi nima?",
+        "options": [
+            "Bir vaqtning o'zida Go kodini parallel bajara oladigan operatsion tizim thread'lari (M) bog'lanadigan mantiqiy protsessorlar (P) sonini belgilash",
+            "Dastur ichida yaratilishi mumkin bo'lgan goroutinelarning (G) maksimal umumiy sonini cheklash",
+            "Garbage Collector bir marta ishlaganda band qilishi mumkin bo'lgan maksimal CPU foizini ko'rsatish",
+            "Dastur tarmoq orqali qabul qila oladigan maksimal TCP so'rovlari sonini sozlash"
+        ],
+        "correctAnswer": "Bir vaqtning o'zida Go kodini parallel bajara oladigan operatsion tizim thread'lari (M) bog'lanadigan mantiqiy protsessorlar (P) sonini belgilash"
+    },
+    {
+        "id": 38,
+        "subjectKey": "golang",
+        "text": "Go'da 'Value Receiver' (t) va 'Pointer Receiver' (*t) metodlari o'rtasidagi asosiy mantiqiy farq nimada?",
+        "options": [
+            "Value receiver obyektning nusxasi bilan ishlaydi va asl qiymatni o'zgartira olmaydi; Pointer receiver esa asl obyekt manziliga kirib, uning maydonlarini to'g'ridan-to'g'ri mutatsiya qila oladi",
+            "Value receiver faqat private metodlar uchun qo'llaniladi, Pointer receiver esa faqat public metodlar uchun",
+            "Pointer receiver har doim Stack xotirada ishlaydi, Value receiver esa xotirani Heap'ga o'tkazadi",
+            "Ular o'rtasida farq yo'q, Go kompilyatori runtime'da ikkalasini ham bir xil pointerga o'giradi"
+        ],
+        "correctAnswer": "Value receiver obyektning nusxasi bilan ishlaydi va asl qiymatni o'zgartira olmaydi; Pointer receiver esa asl obyekt manziliga kirib, uning maydonlarini to'g'ridan-to'g'ri mutatsiya qila oladi"
+    },
+    {
+        "id": 39,
+        "subjectKey": "golang",
+        "text": "Go'da 'context.Background()' va 'context.TODO()' o'rtasidagi texnik farq nimada?",
+        "options": [
+            "Texnik jihatdan ular mutlaqo bir xil (ikkalasi ham bo'sh context), lekin TODO() kelajakda aniq context qo'yilishi kerak bo'lgan, hali qaror qilinmagan joylarda mantiqiy belgi sifatida ishlatiladi",
+            "Background() faqat main goroutine'da ishlaydi, TODO() esa faqat fondagi goroutinelarda",
+            "Background() avtomatik timeout'ga ega, TODO() esa hech qachon vaqt bo'yicha bekor bo'lmaydi",
+            "TODO() xotirani tejaydi, Background() esa ko'proq metama'lumotlarni saqlaydi"
+        ],
+        "correctAnswer": "Texnik jihatdan ular mutlaqo bir xil (ikkalasi ham bo'sh context), lekin TODO() kelajakda aniq context qo'yilishi kerak bo'lgan, hali qaror qilinmagan joylarda mantiqiy belgi sifatida ishlatiladi"
+    },
+    {
+        "id": 40,
+        "subjectKey": "golang",
+        "text": "Go tilida 'preemption' (goroutinelarni majburiy to'xtatish/asinxron preemption) Go 1.14 versiyasidan boshlab qanday amalga oshiriladi?",
+        "options": [
+            "OS signallari (sysmon va SIGURG) yordamida, ichida hech qanday funksiya chaqirig'i bo'lmagan cheksiz sikllarda (tight loops) ham goroutineni majburiy to'xtatib, oqimni bo'shatish orqali",
+            "Garbage Collector har ishlaganda barcha goroutinelarni majburiy o'chirib tashlash orqali",
+            "Faqat 'runtime.Gosched()' funksiyasi qo'lda yozilgan joylardagina goroutineni navbatga qaytarish orqali",
+            "Protsessor haroratiga qarab goroutinelarni avtomatik sekinlashtirish tizimi orqali"
+        ],
+        "correctAnswer": "OS signallari (sysmon va SIGURG) yordamida, ichida hech qanday funksiya chaqirig'i bo'lmagan cheksiz sikllarda (tight loops) ham goroutineni majburiy to'xtatib, oqimni bo'shatish orqali"
+    },
+    {
+        "id": 41,
+        "subjectKey": "golang",
+        "text": "Go tilida 'reflect' (reflection) paketidan foydalanishning asosiy salbiy oqibatlari nimada?",
+        "options": [
+            "Kompilyatsiya vaqtida turlar tekshirilmaydi (runtime panic xavfi ortadi) va dasturning ishlash tezligi (performance) sezilarli darajada pasayadi",
+            "Faqat va faqat Heap xotira to'lib qolishiga va Garbage Collector'ning butunlay to'xtashiga (freeze) olib keladi",
+            "Dasturdagi barcha o'zgaruvchilarni majburiy ravishda string ma'lumot turiga o'giriib qo'yadi",
+            "U faqat asinxron kanallar (channels) bilan ishlaganda oqimlar poygasi (data race) hosil qiladi"
+        ],
+        "correctAnswer": "Kompilyatsiya vaqtida turlar tekshirilmaydi (runtime panic xavfi ortadi) va dasturning ishlash tezligi (performance) sezilarli darajada pasayadi"
+    },
+    {
+        "id": 42,
+        "subjectKey": "golang",
+        "text": "Go'da 'sync.Cond' (condition variable) tuzilmasi asosan qanday muammoni hal qilish uchun ishlatiladi?",
+        "options": [
+            "Bir nechta goroutinelarni ma'lum bir voqea yoki holat (event/condition) sodir bo'lishini kutish rejimiga o'tkazish va ularga bir vaqtda signal (broadcast) yuborish",
+            "Faqat bitta goroutine ichidagi matematik amallarni protsessor darajasida atomar bajarish",
+            "Xotiradagi barcha bo'sh massivlarni avtomatik ravishda o'chirib, RAMni optimallashtirish",
+            "Dasturdagi barcha 'map' obyektlarini ko'p oqimli muhit uchun mutlaqo xavfsiz holatga keltirish"
+        ],
+        "correctAnswer": "Bir nechta goroutinelarni ma'lum bir voqea yoki holat (event/condition) sodir bo'lishini kutish rejimiga o'tkazish va ularga bir vaqtda signal (broadcast) yuborish"
+    },
+    {
+        "id": 43,
+        "subjectKey": "golang",
+        "text": "Go tilida 'deadlock' (abadiy bloklanish) sodir bo'lishiga qaysi holat sabab bo'ladi?",
+        "options": [
+            "Barcha goroutinelarning bir-birini kutib, hech biri ishni davom ettira olmaydigan blok holatiga tushib qolishi",
+            "Goroutine ichida oddiy xatolik (error) yuz berishi va u 'return' qilinmasligi",
+            "Garbage Collector ishga tushganda barcha oqimlarni 1 millisekundga to'xtatishi (Stop-the-world)",
+            "Dastur tarkibida bir nechta 'init()' funksiyalarining ketma-ket yozilishi"
+        ],
+        "correctAnswer": "Barcha goroutinelarning bir-birini kutib, hech biri ishni davom ettira olmaydigan blok holatiga tushib qolishi"
+    },
+    {
+        "id": 44,
+        "subjectKey": "golang",
+        "text": "Go'da 'internal' nomli paket (package) yaratilsa, uning asosiy cheklovi nimadan iborat bo'ladi?",
+        "options": [
+            "Ushbu paket ichidagi kodlardan faqat uning ota-katalogida (parent directory) joylashgan paketlargina foydalana oladi; tashqi loyihalar yoki boshqa modullarga ko'rinmaydi",
+            "U faqat va faqat Go standart kutubxonalari ichidagina ishlaydi, custom loyihalarda ishlatib bo'lmaydi",
+            "Bu paket ichida hech qanday pointer yoki asinxron goroutine ishlatish mumkin emas",
+            "Kompilyator ushbu paket kodi uchun xotirani faqat Stack ichida ajratishga majbur bo'ladi"
+        ],
+        "correctAnswer": "Ushbu paket ichidagi kodlardan faqat uning ota-katalogida (parent directory) joylashgan paketlargina foydalana oladi; tashqi loyihalar yoki boshqa modullarga ko'rinmaydi"
+    },
+    {
+        "id": 45,
+        "subjectKey": "golang",
+        "text": "Go'da 'io.Reader' interfeysining 'Read(p []byte)' metodi muvaffaqiyatli o'qish tugaganda yoki fayl oxiriga yetganda qanday xatolik (error) qaytaradi?",
+        "options": [
+            "io.EOF (End of File)",
+            "io.ErrUnexpectedEOF",
+            "os.ErrClosed",
+            "nil"
+        ],
+        "correctAnswer": "io.EOF (End of File)"
+    },
+    {
+        "id": 46,
+        "subjectKey": "golang",
+        "text": "Go tilida 'Memory Allocation' jarayonida 'mcentral' va 'mcache' o'rtasidagi mantiqiy ierarxiya qanday?",
+        "options": [
+            "Har bir mantiqiy protsessor (P) o'zining tezkor 'mcache' xotira qatlamiga ega; agar u yerda joy tugasa, markaziy 'mcentral' xotira hovuzidan (pool) resurs so'raydi",
+            "mcentral faqat Stack xotirani boshqaradi, mcache esa faqat Heap xotira uchun javobgardir",
+            "Dastur ishga tushganda faqat mcentral ishlaydi, mcache esa faqat Garbage Collector paytida faollashadi",
+            "Ular mutlaqo bir xil vazifani bajaradi, faqat mcache 32-bitli tizimlar uchun mo'ljallangan"
+        ],
+        "correctAnswer": "Har bir mantiqiy protsessor (P) o'zining tezkor 'mcache' xotira qatlamiga ega; agar u yerda joy tugasa, markaziy 'mcentral' xotira hovuzidan (pool) resurs so'raydi"
+    },
+    {
+        "id": 47,
+        "subjectKey": "golang",
+        "text": "Go'da 'select' operatori ichida 'default' holatining (case) yozilishi asosan nima uchun kerak?",
+        "options": [
+            "Kanallar bloklangan holatda turgan bo'lsa, goroutineni to'xtatib qo'ymasdan dastur ishini darhol davom ettirish (non-blocking channel operations) uchun",
+            "Switch operatoridagi kabi barcha boshqa shartlar xato bo'lganda majburiy panic tashlash uchun",
+            "Kompilyatorga ushbu select blokini parallel thread'larga bo'lishni taqiqlash uchun",
+            "Kanal yopilganligini (closed) aniq bilish va xotirani zudlik bilan tozalash uchun"
+        ],
+        "correctAnswer": "Kanallar bloklangan holatda turgan bo'lsa, goroutineni to'xtatib qo'ymasdan dastur ishini darhol davom ettirish (non-blocking channel operations)のために"
+    },
+    {
+        "id": 48,
+        "subjectKey": "golang",
+        "text": "Go'da 'net/http' paketi bilan ishlashda 'Response.Body'ni o'qib bo'lgandan keyin qaysi amalni bajarish xotira va ulanishlar oqishini (resource leak) oldini oladi?",
+        "options": [
+            "resp.Body.Close() metodini chaqirish (odatda defer orqali)",
+            "resp.Body = nil holatiga o'tkazish",
+            "runtime.GC() funksiyasini qo'lda chaqirish",
+            "Http client obyektini butunlay o'chirib qayta yaratish"
+        ],
+        "correctAnswer": "resp.Body.Close() metodini chaqirish (odatda defer orqali)"
+    },
+    {
+        "id": 49,
+        "subjectKey": "golang",
+        "text": "Go 1.18 versiyasida qo'shilgan 'Generics' (Type Parameters) qanday asosiy muammoni hal qiladi?",
+        "options": [
+            "Kompilyatsiya vaqtida turlar xavfsizligini (type safety) saqlagan holda, 'interface{}' (any) ishlatmasdan har xil turlar uchun yagona moslashuvchan kod yozish",
+            "Goroutinelarning bajarilish tezligini protsessor darajasida 3 barobarga oshirish",
+            "Dasturdagi barcha private strukturalarni public paketlarga avtomatik ko'chirish",
+            "Xotiradagi pointer manzillarini shifrlash orqali xavfsizlikni ta'minlash"
+        ],
+        "correctAnswer": "Kompilyatsiya vaqtida turlar xavfsizligini (type safety) saqlagan holda, 'interface{}' (any) ishlatmasdan har xil turlar uchun yagona moslashuvchan kod yozish"
+    },
+    {
+        "id": 50,
+        "subjectKey": "golang",
+        "text": "Go tilida 'go test -race' buyrug'i nima vazifani bajaradi?",
+        "options": [
+            "Dasturning ishlash vaqtida (runtime) goroutinelarning bitta o'zgaruvchiga parallel xavfli yozish holatlarini (Data Race) aniqlaydi",
+            "Dasturning xotira (RAM) sarfini boshqa tillarga solishtirib tezlik testini o'tkazadi",
+            "Koddagi cheksiz sikllarni (infinite loops) kompilyatsiya vaqtida topadi",
+            "Barcha SQL so'rovlarining indekslardan to'g'ri foydalanayotganini tekshiradi"
+        ],
+        "correctAnswer": "Dasturning ishlash vaqtida (runtime) goroutinelarning bitta o'zgaruvchiga parallel xavfli yozish holatlarini (Data Race) aniqlaydi"
+    },
+    {
+        "id": 51,
+        "subjectKey": "golang",
+        "text": "Go'da 'sync.Map' oddiy 'map' tuzilmasidan qaysi holatlarda samaraliroq va unumdor hisoblanadi?",
+        "options": [
+            "Kalitlar (keys) faqat bir marta yozilib, keyinchalik juda ko'p marta o'qiladigan (read-heavy) yoki goroutinelari bir-biridan mustaqil kalitlar bilan ishlaydigan muhitda",
+            "Faqat va faqat ma'lumotlar hajmi 10 GB dan oshib ketganda xotirani tejash uchun",
+            "Kalitlar va qiymatlar faqat 'string' ma'lumot turida bo'lgan yagona holatda",
+            "Dastur faqat bitta protsessor (CPU) yadrosida ishlashga sozlangan vaziyatda"
+        ],
+        "correctAnswer": "Kalitlar (keys) faqat bir marta yozilib, keyinchalik juda ko'p marta o'qiladigan (read-heavy) yoki goroutinelari bir-biridan mustaqil kalitlar bilan ishlaydigan muhitda"
+    },
+    {
+        "id": 52,
+        "subjectKey": "golang",
+        "text": "Go funksiyasida 'return' qilinayotgan o'zgaruvchining pointerni (manzilini) tashqariga qaytarish xavfsizmi (C tilidan farqli ravishda)?",
+        "options": [
+            "Ha, xavfsiz; Go kompilyatori 'Escape Analysis' orqali buni aniqlaydi va o'sha o'zgaruvchini xavfsiz joyga - Heap xotiraga o'tkazadi",
+            "Yo'q, bu xavfli; mahalliy o'zgaruvchi Stack'dan o'chib ketishi sababli pointer har doim noto'g'ri (dangling) manzilni ko'rsatib qoladi",
+            "Faqat o'zgaruvchi turi 'int' yoki 'float' bo'lgandagina ruxsat beriladi, strukturalar uchun taqiqlangan",
+            "Dastur kompilyatsiya bo'ladi, lekin birinchi chaqiriqdayoq 'segmentation fault' xatosi bilan crash bo'ladi"
+        ],
+        "correctAnswer": "Ha, xavfsiz; Go kompilyatori 'Escape Analysis' orqali buni aniqlaydi va o'sha o'zgaruvchini xavfsiz joyga - Heap xotiraga o'tkazadi"
+    },
+    {
+        "id": 53,
+        "subjectKey": "golang",
+        "text": "Go tilida 'plugin' paketi (Go Plugins) nima imkoniyatni beradi?",
+        "options": [
+            "Dastur ishlab turgan vaqtda (runtime) tashqi '.so' formatidagi kompilyatsiya qilingan kodlarni dinamik ravishda yuklash va ishlatish",
+            "Loyiha ichiga avtomatik ravishda Docker va Kubernetes sozlamalarini yuklab joylashtirish",
+            "C++ yoki Java kodlarini to'g'rudan-to'g'ri Go faylining ichiga yozish va kompilyatsiya qilish",
+            "Dasturdagi barcha xatoliklarni avtomatik tarzda Google Cloud platformasiga yuborish"
+        ],
+        "correctAnswer": "Dastur ishlab turgan vaqtda (runtime) tashqi '.so' formatidagi kompilyatsiya qilingan kodlarni dinamik ravishda yuklash va ishlatish"
+    },
+    {
+        "id": 54,
+        "subjectKey": "golang",
+        "text": "Go'da 'runtime.Gosched()' funksiyasining vazifasi nima?",
+        "options": [
+            "Joriy ishlayotgan goroutineni protsessordan vaqtinchalik chetlatib, navbatdagi boshqa goroutinelarga ishlash uchun imkoniyat berish",
+            "Garbage Collector'ni darhol to'liq va majburiy rejimda ishga tushirish",
+            "Dasturdagi barcha ochiq tarmoq ulanishlarini (connections) majburiy ravishda yopish",
+            "Mavjud operativ xotirani (RAM) operatsion tizimga zudlik bilan qaytarish"
+        ],
+        "correctAnswer": "Joriy ishlayotgan goroutineni protsessordan vaqtinchalik chetlatib, navbatdagi boshqa goroutinelarga ishlash uchun imkoniyat berish"
+    },
+    {
+        "id": 55,
+        "subjectKey": "golang",
+        "text": "Go'da 'channel' (kanal) orqali ma'lumot uzatilganda, asl qiymat o'tadimi yoki uning nusxasimi?",
+        "options": [
+            "Ma'lumot har doim nusxalanib (pass by value) o'tadi; agar pointer uzatilsa, pointerning nusxasi o'tadi",
+            "Faqat va faqat obyektning xotiradagi asl havolasi (pass by reference) o'tadi",
+            "Ma'lumot turiga qarab: oddiy turlardan nusxa olingani holda, strukturalarning o'zi o'tadi",
+            "Unbuffered kanalda asl qiymat o'tadi, buffered kanalda esa har doim nusxa olingan holatda o'tadi"
+        ],
+        "correctAnswer": "Ma'lumot har doim nusxalanib (pass by value) o'tadi; agar pointer uzatilsa, pointerning nusxasi o'tadi"
+    },
+    {
+        "id": 56,
+        "subjectKey": "golang",
+        "text": "Go tilida 'errors.Is()' funksiyasi oddiy 'err == targetErr' tekshiruvidan nimasi bilan farq qiladi?",
+        "options": [
+            "U ichma-ich o'ralgan (wrapped errors via %w) xatoliklar ierarxiyasini zanjir bo'ylab oxirigacha qidirib tekshira oladi",
+            "U faqat va faqat string formatidagi xatolarni solishtirish uchun ishlatiladi",
+            "U xatolik sodir bo'lgan aniq Stack Trace (kod qatori) manzilini aniqlab beradi",
+            "U xatolik mavjud bo'lsa dasturni avtomatik tarzda 'recover' blokiga yo'naltiradi"
+        ],
+        "correctAnswer": "U ichma-ich o'ralgan (wrapped errors via %w) xatoliklar ierarxiyasini zanjir bo'ylab oxirigacha qidirib tekshira oladi"
+    },
+    {
+        "id": 57,
+        "subjectKey": "golang",
+        "text": "Go'da 'Zero Memory' yoki 'Zero Value' tushunchasi nimani anglatadi?",
+        "options": [
+            "O'zgaruvchi e'lon qilinganda unga qo'lda qiymat berilmasa, Go runtime tomonidan avtomatik beriladigan xavfsiz boshlang'ich qiymat (masalan, int uchun 0, string uchun \"\")",
+            "O'zgaruvchining xotirada mutlaqo joy egallamasligini ta'minlovchi rejim",
+            "Garbage Collector tomonidan butunlay o'chirilgan ob'ektning bo'sh xotira manzili",
+            "Kompilyatsiya vaqtida xatolik aniqlanganda barcha o'zgaruvchilarni tozalash tizimi"
+        ],
+        "correctAnswer": "O'zgaruvchi e'lon qilinganda unga qo'lda qiymat berilmasa, Go runtime tomonidan avtomatik beriladigan xavfsiz boshlang'ich qiymat (masalan, int uchun 0, string uchun \"\")"
+    },
+    {
+        "id": 58,
+        "subjectKey": "golang",
+        "text": "Go'da 'sysmon' (system monitor) nima vazifani bajaradi?",
+        "options": [
+            "Hech qanday mantiqiy protsessorga (P) bog'lanmagan, fonda ishlovchi va uzoq bloklangan goroutinelarni (preemption), tarmoq so'rovlarini hamda GC vaqtini nazorat qiluvchi maxsus OS thread'i",
+            "Dasturning CPU va RAM sarfini chiroyli grafik ko'rinishida terminalga chiqaruvchi vosita",
+            "Faqat ma'lumotlar bazasiga bo'lgan ulanishlar sonini nazorat qiluvchi ichki drayver",
+            "Dastur kodi ichidagi xakerlik va kiberhujumlarni avtomatik to'suvchi xavfsizlik tizimi"
+        ],
+        "correctAnswer": "Hech qanday mantiqiy protsessorga (P) bog'lanmagan, fonda ishlovchi va uzoq bloklangan goroutinelarni (preemption), tarmoq so'rovlarini hamda GC vaqtini nazorat qiluvchi maxsus OS thread'i"
+    },
+    {
+        "id": 59,
+        "subjectKey": "golang",
+        "text": "Go tilida 'errors.As()' funksiyasining vazifasi nima?",
+        "options": [
+            "Xatoliklar zanjiridan berilgan aniq bir custom xatolik turini (custom error type) izlaydi va topilsa uning qiymatini maqsadli o'zgaruvchiga o'tkazadi (cast qiladi)",
+            "Xatolikni avtomatik ravishda JSON formatiga o'giriish uchun xizmat qiladi",
+            "Xatolik xabarini boshqa tillarga avtomatik tarjima qilish drayverini yoqadi",
+            "Ikki xatolikning xotiradagi pointer manzillari tengligini qat'iy tekshiradi"
+        ],
+        "correctAnswer": "Xatoliklar zanjiridan berilgan aniq bir custom xatolik turini (custom error type) izlaydi va topilsa uning qiymatini maqsadli o'zgaruvchiga o'tkazadi (cast qiladi)"
+    },
+    {
+        "id": 60,
+        "subjectKey": "golang",
+        "text": "Go'da 'context.Value' ichiga ma'lumot joylashtirishda kalit (key) sifatida oddiy 'string' ishlatish nega tavsiya etilmaydi?",
+        "options": [
+            "Turli paketlar (packages) bir xil string kalit so'zini ishlatsa, ma'lumotlar ustma-ust yozilib ketishi (collision) xavfi bo'lgani uchun; custom unikal tiplardan foydalanish lozim",
+            "String tipi xotiradan juda katta joy egallab, context ishlash tezligini keskin sekinlashtirishi sababli",
+            "Context ichiga string kalit yozilganda u avtomatik ravishda shifrlanib qolishi va uni qayta o'qib bo'lmasligi uchun",
+            "Go kompilyatori string kalit so'zlarni ko'rganda kompilyatsiya xatosini berishi tufayli"
+        ],
+        "correctAnswer": "Turli paketlar (packages) bir xil string kalit so'zini ishlatsa, ma'lumotlar ustma-ust yozilib ketishi (collision) xavfi bo'lgani uchun; custom unikal tiplardan foydalanish lozim"
+    },
+    {
+        "id": 61,
+        "subjectKey": "golang",
+        "text": "Go tilida 'runtime.SetFinalizer' funksiyasining vazifasi nima?",
+        "options": [
+            "Obyekt Garbage Collector tomonidan xotiradan o'chirilishidan oldin avtomatik bajarilishi kerak bo'lgan custom resurs tozalash funksiyasini (destructor kabi) bog'lash",
+            "Dastur ishlash vaqtida (runtime) o'zgaruvchining qiymatini muzlatib, uni o'zgarmas (constant) holatga keltirish",
+            "Goroutine tugayotgan vaqtda uning ichidagi barcha defer bloklarini majburiy o'chirib tashlash",
+            "Faqat tarmoq ulanishlarini (TCP sockets) dastur yopilganda xavfsiz yakunlash drayveri"
+        ],
+        "correctAnswer": "Obyekt Garbage Collector tomonidan xotiradan o'chirilishidan oldin avtomatik bajarilishi kerak bo'lgan custom resurs tozalash funksiyasini (destructor kabi) bog'lash"
+    },
+    {
+        "id": 62,
+        "subjectKey": "golang",
+        "text": "Go'da 'badger' yoki 'arena' (Memory Arenas - Go 1.20+) kontseptsiyasining asosiy maqsadi nima?",
+        "options": [
+            "Ko'p miqdordagi obyektlar uchun xotirani bitta katta blok qilib ajratish va ularni GC yuklamasiz, bittada va tezkor tozalash orqali unumdorlikni oshirish",
+            "Dasturdagi barcha global map'larni avtomatik tarzda shifrlangan ma'lumotlar bazasiga saqlash",
+            "Goroutinelarning o'zaro ma'lumot almashish tezligini 10 barobarga oshiruvchi virtual kanal turi",
+            "Faqat UIKit elementlarini Go WebAssembly drayverida render qilish uchun ishlatiladigan kesh"
+        ],
+        "correctAnswer": "Ko'p miqdordagi obyektlar uchun xotirani bitta katta blok qilib ajratish va ularni GC yuklamasiz, bittada va tezkor tozalash orqali unumdorlikni oshirish"
+    },
+    {
+        "id": 63,
+        "subjectKey": "golang",
+        "text": "Go tilida 'data race' va 'race condition' tushunchalari o'rtasidagi farq nimada?",
+        "options": [
+            "Data race — ikki oqim bitta xotira manziliga kamida bitta yozish amali bilan mutex'siz kirishi (xavfli runtime xatosi); Race condition — dasturning mantiqiy bajarilish tartibi oqimlar tezligiga bog'liq bo'lib qolishi",
+            "Data race faqat kanallarda sodir bo'ladi, race condition esa faqat map va slice'larda yuzaga keladi",
+            "Data race kompilyatsiya vaqtida aniqlanadi, race condition esa faqat dastur tugayotganda ma'lum bo'ladi",
+            "Ular mutlaqo bir xil ma'noni anglatadi, shunchaki har xil Go versiyalarida turlicha nomlangan"
+        ],
+        "correctAnswer": "Data race — ikki oqim bitta xotira manziliga kamida bitta yozish amali bilan mutex'siz kirishi (xavfli runtime xatosi); Race condition — dasturning mantiqiy bajarilish tartibi oqimlar tezligiga bog'liq bo'lib qolishi"
+    },
+    {
+        "id": 64,
+        "subjectKey": "golang",
+        "text": "Go'da 'net/http' standart serveri har bir kelayotgan HTTP so'rovini (request) qanday qayta ishlaydi?",
+        "options": [
+            "Har bir HTTP so'rovi uchun alohida yangi goroutine yaratadi va ularni parallel ravishda ishga tushiradi",
+            "Barcha so'rovlarni bitta asosiy oqimda (single-threaded event loop) navbatma-navbat bajaradi",
+            "So'rovlarni faqat va faqat operatsion tizim darajasidagi og'ir thread'larga (M) bittadan bog'lab chiqadi",
+            "Kelgan so'rovlarni vaqtinchalik diskka yozib, keyin xronologik tartibda qayta ishlaydi"
+        ],
+        "correctAnswer": "Har bir HTTP so'rovi uchun alohida yangi goroutine yaratadi va ularni parallel ravishda ishga tushiradi"
+    },
+    {
+        "id": 65,
+        "subjectKey": "golang",
+        "text": "Go tilida 'single-flight' (golang.org/x/sync/singleflight) paketi qaysi muammoni hal qilish uchun xizmat qiladi?",
+        "options": [
+            "Bir xil kalit uchun bir vaqtda kelgan ko'plab og'ir so'rovlarni (masalan, DB yoki API so'rovi) bitta so'rovga birlashtirib, natijani hamma kutayotganlarga ulashish (Cache Stampede'ni oldini olish)",
+            "Dasturni faqat bitta goroutine ichida xatosiz ishga tushirish kafolatini berish",
+            "Faqat bitta faylni tarmoq orqali ko'p oqimli rejimda yuklashni boshqarish",
+            "Dasturdagi barcha defer bloklarini yagona oqimga yig'ib optimallashtirish"
+        ],
+        "correctAnswer": "Bir xil kalit uchun bir vaqtda kelgan ko'plab og'ir so'rovlarni (masalan, DB yoki API so'rovi) bitta so'rovga birlashtirib, natijani hamma kutayotganlarga ulashish (Cache Stampede'ni oldini olish)"
+    },
+    {
+        "id": 66,
+        "subjectKey": "golang",
+        "text": "Go'da 'runtime.Stack' funksiyasining asosiy vazifasi nima?",
+        "options": [
+            "Joriy chaqirilgan goroutine yoki barcha faol goroutinelarning kod bajarilish izini (stack trace/call stack) ko'rish va logga yozish",
+            "Stack xotira hajmini majburiy ravishda 2 megabaytga oshirish",
+            "Dasturdagi barcha pointerlarni o'chirib, xotirani Stack ichiga qayta joylash",
+            "Faqat 'init()' funksiyalarining ketma-ketligini boshqarish"
+        ],
+        "correctAnswer": "Joriy chaqirilgan goroutine yoki barcha faol goroutinelarning kod bajarilish izini (stack trace/call stack) ko'rish va logga yozish"
+    },
+    {
+        "id": 67,
+        "subjectKey": "golang",
+        "text": "Go'da 'database/sql' paketi bilan ishlashda 'sql.Rows' ob'ektidan foydalangandan keyin qaysi amal bajarilishi shart?",
+        "options": [
+            "rows.Close() metodini chaqirish, aks holda ma'lumotlar bazasi ulanishlar hovuzi (connection pool) to'lib, ulanishlar oqishi (leak) sodir bo'ladi",
+            "rows = nil holatiga o'tkazish, aks holda SQL drayver crash bo'ladi",
+            "runtime.GC() funksiyasini qo'lda ishga tushirish",
+            "Ma'lumotlar bazasini o'chirib qayta yoqish (restart)"
+        ],
+        "correctAnswer": "rows.Close() metodini chaqirish, aks holda ma'lumotlar bazasi ulanishlar hovuzi (connection pool) to'lib, ulanishlar oqishi (leak) sodir bo'ladi"
+    },
+    {
+        "id": 68,
+        "subjectKey": "golang",
+        "text": "Go tilida 'unsafe.Offsetof' funksiyasi nimani qaytaradi?",
+        "options": [
+            "Struktura (struct) boshlang'ich manzilidan boshlab, uning ma'lum bir maydoni (field) xotirada nechanchi baytdan boshlanishini ko'rsatuvchi masofani (offset)",
+            "Slice ichidagi elementning xotirada necha bayt joy egallaganligini",
+            "Kanal (channel) buferida qancha bo'sh joy qolganligining bayt o'lchamini",
+            "Dastur ishga tushgandan beri Heap xotiradan ajratilgan umumiy baytlar sonini"
+        ],
+        "correctAnswer": "Struktura (struct) boshlang'ich manzilidan boshlab, uning ma'lum bir maydoni (field) xotirada nechanchi baytdan boshlanishini ko'rsatuvchi masofani (offset)"
+    },
+    {
+        "id": 69,
+        "subjectKey": "golang",
+        "text": "Go runtime mexanizmida goroutine Stack hajmi yetishmay qolganda (Stack Overflow bo'lmasligi uchun) nima sodir bo'ladi?",
+        "options": [
+            "Dinamik ravishda yangi, kattaroq stack (odatda 2x) ajratiladi, eski stack elementlari unga ko'chiriladi va pointerlar yangilanadi (Contiguous Stacks)",
+            "Dastur darhol 'panic: stack overflow' xatosi bilan ishini yakunlaydi",
+            "Goroutine qolgan barcha ma'lumotlarini majburiy ravishda birinchi qadamdayoq Heap xotiraga o'tkazadi",
+            "Oqim sekinlashadi va operatsion tizimdan qo'shimcha virtual oqim (thread) so'raydi"
+        ],
+        "correctAnswer": "Dinamik ravishda yangi, kattaroq stack (odatda 2x) ajratiladi, eski stack elementlari unga ko'chiriladi va pointerlar yangilanadi (Contiguous Stacks)"
+    },
+    {
+        "id": 70,
+        "subjectKey": "golang",
+        "text": "Go tilida 'semaphores' (semaforlar) runtime ichida asosan qaysi elementlarni boshqarishda poydevor hisoblanadi?",
+        "options": [
+            "sync.Mutex, sync.WaitGroup va boshqa sinxronizatsiya primitive'larining ichki bloklash mexanizmlarini",
+            "Faqat tarmoq drayverlari (network interfaces) orqali keladigan paketlarni",
+            "JSON fayllarni kodlash va dekodlash tezligini",
+            "Dasturdagi barcha string o'zgaruvchilarning xotiradagi uzunligini"
+        ],
+        "correctAnswer": "sync.Mutex, sync.WaitGroup va boshqa sinxronizatsiya primitive'larining ichki bloklash mexanizmlarini"
+    },
+    {
+        "id": 71,
+        "subjectKey": "golang",
+        "text": "Go'da 'errgroup' (golang.org/x/sync/errgroup) paketi oddiy 'sync.WaitGroup'dan nimasi bilan farq qiladi?",
+        "options": [
+            "U parallel bajarilayotgan goroutinelar ichidan chiqqan birinchi xatolikni (error) ushlab qaytara oladi va sub-tasklarni bekor qilish (cancel) imkonini beradi",
+            "U faqat va faqat ma'lumotlar bazasidagi SQL xatoliklarini ushlash uchun mo'ljallangan",
+            "U goroutinelarni mutex qulflarisiz atomar ishlashga majburlaydi",
+            "U xotiradan umuman joy ajratmaydi va faqat main paketida ishlaydi"
+        ],
+        "correctAnswer": "U parallel bajarilayotgan goroutinelar ichidan chiqqan birinchi xatolikni (error) ushlab qaytara oladi va sub-tasklarni bekor qilish (cancel) imkonini beradi"
+    },
+    {
+        "id": 72,
+        "subjectKey": "golang",
+        "text": "Go tilida 'GCOV' yoki 'go test -cover' buyrug'ining vazifasi nima?",
+        "options": [
+            "Yozilgan unit testlar dastur kodining necha foizini qamrab olganligini (code coverage) aniqlash",
+            "Dasturdagi xotira oqishlarini (memory leaks) aniqlash testi",
+            "Goroutinelarning o'zaro ishlash tezligini protsessor darajasida o'lchash",
+            "Barcha public interfeyslarning to'g'ri realizatsiya qilinganini tekshirish"
+        ],
+        "correctAnswer": "Yozilgan unit testlar dastur kodining necha foizini qamrab olganligini (code coverage) aniqlash"
+    },
+    {
+        "id": 73,
+        "subjectKey": "golang",
+        "text": "Go'da 'CGO' (import \"C\") ishlatishning eng asosiy texnik salbiy ta'siri (trade-off) nimada?",
+        "options": [
+            "Kompilyatsiya vaqti uzayadi, cross-compilation qiyinlashadi, goroutine o'tish tezligi (context switch) C va Go chegarasida sekinlashadi va xavfsizlik kamayadi",
+            "Dastur faqat Linux operatsion tizimidagina ishlaydigan bo'lib qoladi",
+            "Garbage Collector butunlay o'chib ketadi va xotira faqat qo'lda tozalanadi",
+            "Dastur ichida boshqa hech qanday kanal (channel) ishlatib bo'lmaydi"
+        ],
+        "correctAnswer": "Kompilyatsiya vaqtiga ta'sir qiladi, cross-compilation qiyinlashadi, goroutine o'tish tezligi (context switch) C va Go chegarasida sekinlashadi va xavfsizlik kamayadi"
+    },
+    {
+        "id": 74,
+        "subjectKey": "golang",
+        "text": "Go tilida 'Network Poller' (epoll/kqueue/iocp) mexanizmining vazifasi nima?",
+        "options": [
+            "Tarmoq I/O (kirish/chiqish) amallarini asinxron rejimda kutish orqali, OS thread'larini (M) bloklamasdan, goroutinelarni samarali va non-blocking rejimda boshqarish",
+            "Dastur ichidagi barcha HTTP so'rovlarini avtomatik ravishda shifrlash",
+            "Garbage Collector ishga tushganda tarmoq ulanishlarini vaqtinchalik muzlatish",
+            "Barcha kelayotgan so'rovlarni faqat bitta goroutine ichiga navbatga yig'ish"
+        ],
+        "correctAnswer": "Tarmoq I/O (kirish/chiqish) amallarini asinxron rejimda kutish orqali, OS thread'larini (M) bloklamasdan, goroutinelarni samarali va non-blocking rejimda boshqarish"
+    },
+    {
+        "id": 75,
+        "subjectKey": "golang",
+        "text": "Go'da 'interface' solishtirilayotganda (if i1 == i2), ular qachon teng deb hisoblanadi?",
+        "options": [
+            "Ikkala interfeysning ham dinamik turlari (dynamic type) va ularning ichidagi qiymatlari (dynamic value) mutlaqo bir xil va teng bo'lganda",
+            "Faqat ularning xotiradagi pointer manzillari bir xil bo'lganda",
+            "Agar ikkala interfeys ham bitta paket ichida e'lon qilingan bo'lsa",
+            "Interfeyslar har doim teng hisoblanadi, chunki ular dinamik tuzilmadir"
+        ],
+        "correctAnswer": "Ikkala interfeysning ham dinamik turlari (dynamic type) va ularning ichidagi qiymatlari (dynamic value) mutlaqo bir xil va teng bo'lganda"
+    },
+    {
+        "id": 76,
+        "subjectKey": "golang",
+        "text": "Go tilida 'Fat Pointer' tushunchasi asosan qaysi ma'lumot tuzilmasiga nisbatan ishlatiladi?",
+        "options": [
+            "Interface o'zgaruvchilariga, chunki u o'zida ham tur ma'lumotini (type), ham qiymat manzilini (data pointer) saqlaydi",
+            "Faqat 64-bitli arxitekturadagi og'ir struct pointerlariga",
+            "Kapasiteti 1000 dan oshib ketgan kanallarning pointerlariga",
+            "Faqat 'unsafe.Pointer' orqali o'zgartirilgan massiv indekslariga"
+        ],
+        "correctAnswer": "Interface o'zgaruvchilariga, chunki u o'zida ham tur ma'lumotini (type), ham qiymat manzilini (data pointer) saqlaydi"
+    },
+    {
+        "id": 77,
+        "subjectKey": "golang",
+        "text": "Go'da 'string'ni '[]byte'ga oddiy o'girish (b := []byte(s)) nima uchun xotira ajratilishiga (allocation) sabab bo'ladi?",
+        "options": [
+            "String o'zgarmas (immutable) bo'lgani uchun, Go xavfsizlikni ta'minlash maqsadida baytlar uchun yangi xotira bloki ajratadi va ma'lumotni nusxalaydi",
+            "Bayt massivi har doim Heap xotirada bo'lishi qat'iy majburiy bo'lganligi uchun",
+            "Kompilyator bayt massiviga o'girish vaqtida belgilar kodirovkasini o'zgartirishi sababli",
+            "Bu o'giriish turi har doim Garbage Collector'ni majburiy ishga tushirishi tufayli"
+        ],
+        "correctAnswer": "String o'zgarmas (immutable) bo'lgani uchun, Go xavfsizlikni ta'minlash maqsadida baytlar uchun yangi xotira bloki ajratadi va ma'lumotni nusxalaydi"
+    },
+    {
+        "id": 78,
+        "subjectKey": "golang",
+        "text": "Go 1.22 versiyasidan boshlab 'for' sikli ichidagi iteratsiya o'zgaruvchilarida qanday tub burilish (o'zgarish) sodir bo'ldi?",
+        "options": [
+            "Siklning har bir qadami (iteration) uchun alohida yangi o'zgaruvchi xotirasi yaratiladigan bo'ldi, bu esa goroutinelar ichidagi eski 'loop variable closure capture' xatosini bartaraf etdi",
+            "Sikl ichida endi 'var' kalit so'zi bilan o'zgaruvchi e'lon qilish butunlay taqiqlandi",
+            "Sikllar faqat va faqat Stack xotirada ishlashga majburlanib, tezligi 5 barobarga oshirildi",
+            "Iteratsiya o'zgaruvchisi faqat 'rune' ma'lumot turida bo'lishi shart qilib belgilandi"
+        ],
+        "correctAnswer": "Siklning har bir qadami (iteration) uchun alohida yangi o'zgaruvchi xotirasi yaratiladigan bo'ldi, bu esa goroutinelar ichidagi eski 'loop variable closure capture' xatosini bartaraf etdi"
+    },
+    {
+        "id": 79,
+        "subjectKey": "golang",
+        "text": "Go runtime tarkibidagi 'P' (Logical Processor) soni maksimal darajada nimaga teng bo'ladi?",
+        "options": [
+            "GOMAXPROCS qiymatiga (odatda CPU yadrolari soniga teng qilib sozlanadi)",
+            "Loyiha ichida yaratilgan umumiy goroutinelar (G) soniga",
+            "Dastur ulanayotgan ma'lumotlar bazasining max ulanishlar soniga",
+            "Operatsion tizimdagi virtual xotira (RAM) gigabaytlar hajmiga"
+        ],
+        "correctAnswer": "GOMAXPROCS qiymatiga (odatda CPU yadrolari soniga teng qilib sozlanadi)"
+    },
+    {
+        "id": 80,
+        "subjectKey": "golang",
+        "text": "Go tilida 'pprof' (profiling) vositasi asosan nima uchun ishlatiladi?",
+        "options": [
+            "Dasturning ishlash vaqtida CPU sarfi, xotira ajratilishi (heap allocations), bloklanishlar va goroutinelar holatini tahlil qilish va vizualizatsiya qilish uchun",
+            "Kod sintaksisini chiroyli formatga keltirish va avtomatik xatolarni tuzatish uchun",
+            "Loyiha kutubxonalarini (dependencies) eng oxirgi versiyaga avtomatik yangilash uchun",
+            "Dasturni shifrlangan binary holatga keltirib, xavfsizlik darajasini tekshirish uchun"
+        ],
+        "correctAnswer": "Dasturning ishlash vaqtida CPU sarfi, xotira ajratilishi (heap allocations), bloklanishlar va goroutinelar holatini tahlil qilish va vizualizatsiya qilish uchun"
+    },
+    {
+        "id": 81,
+        "subjectKey": "golang",
+        "text": "Go tilida 'string'ni mutlaqo xotira ajratmasdan (zero-allocation) '[]byte'ga o'giriish (Go 1.22+ unsafe.Slice yordamida) qanday xavf tug'diradi?",
+        "options": [
+            "Olingan bayt massivining biror indeksini o'zgartirishga urinish dasturni darhol 'segmentation fault' yoki runtime panic bilan crash qiladi, chunki string xotirasi o'zgarmasdir",
+            "Bu amal Garbage Collector'ni butunlay to'xtatib qo'yadi va dastur xotirasi RAMni to'ldirib yuboradi",
+            "Kompilyator bunday kodni ko'rganda kompilyatsiya vaqtida xatolik beradi va binary fayl yaratmaydi",
+            "Ushbu usul faqat asinxron kanallar (channels) ichidagina ishlaydi, oddiy funksiyalarda ishlamaydi"
+        ],
+        "correctAnswer": "Olingan bayt massivining biror indeksini o'zgartirishga urinish dasturni darhol 'segmentation fault' yoki runtime panic bilan crash qiladi, chunki string xotirasi o'zgarmasdir"
+    },
+    {
+        "id": 82,
+        "subjectKey": "golang",
+        "text": "Go'da 'sync.Pool' ichidagi ob'ektlar xotiradan aniq qachon o'chiriladi?",
+        "options": [
+            "Har safar Garbage Collector (GC) ishga tushganda, hovuz ichidagi foydalanilmayotgan (unreferenced) ob'ektlar avtomatik ravishda tozalanadi",
+            "Faqat dastur to'liq yopilayotgan (exit) vaqtda operatsion tizim tomonidan o'chiriladi",
+            "Obyekt hovuzga qo'yilgandan roppa-rosa 10 daqiqa o'tgandan keyin ichki taymer orqali",
+            "sync.Pool ichidagi ob'ektlar hech qachon o'chmaydi, ularni faqo qo'lda tozalash shart"
+        ],
+        "correctAnswer": "Har safar Garbage Collector (GC) ishga tushganda, hovuz ichidagi foydalanilmayotgan (unreferenced) ob'ektlar avtomatik ravishda tozalanadi"
+    },
+    {
+        "id": 83,
+        "subjectKey": "golang",
+        "text": "Go tilida 'nil interface' va 'interface holding a nil pointer' (ichida nil pointer bo'lgan interfeys) tenglik shartida (if i == nil) qanday natija beradi?",
+        "options": [
+            "Nil pointer saqlagan interfeys nil'ga teng emas deb topiladi (false qaytaradi), chunki uning turi (type) mavjud, faqat qiymati (value) nil dir",
+            "Ikkalasi ham baribir nil bo'lgani uchun o'zaro teng deb hisoblanadi (true qaytaradi)",
+            "Kompilyator bunday solishtirishga yo'l qo'ymaydi va static error qaytaradi",
+            "Dastur ishlash vaqtida darhol 'nil pointer dereference' panic holatiga tushadi"
+        ],
+        "correctAnswer": "Nil pointer saqlagan interfeys nil'ga teng emas deb topiladi (false qaytaradi), chunki uning turi (type) mavjud, faqat qiymati (value) nil dir"
+    },
+    {
+        "id": 84,
+        "subjectKey": "golang",
+        "text": "Go'da 'channel' (kanal) xotiraning qaysi qismida (Stack yoki Heap) yaratiladi?",
+        "options": [
+            "Kanal 'hchan' strukturasidan iborat bo'lib, 'make' bilan yaratilganda har doim Heap xotirada joylashadi",
+            "Agar kanal unbuffered bo'lsa Stack xotirada, buffered bo'lsa Heap xotirada ochiladi",
+            "Kanal faqat va faqat protsessorning L1/L2 kesh xotirasida vaqtinchalik saqlanadi",
+            "U mutlaqo virtual tuzilma bo'lib, xotiradan biror bayt ham joy egallamaydi"
+        ],
+        "correctAnswer": "Kanal 'hchan' strukturasidan iborat bo'lib, 'make' bilan yaratilganda har doim Heap xotirada joylashadi"
+    },
+    {
+        "id": 85,
+        "subjectKey": "golang",
+        "text": "Go tilida 'inlining' (funksiyalarni inline qilish) optimizatsiyasi nima vazifani bajaradi?",
+        "options": [
+            "Kompilyator kichik funksiyalar chaqirig'ini to'g'rudan-to'g'ri chaqirilgan joyga kod sifatida ko'chirib o'tqazadi, bu esa funksiya chaqirish overhead'ini kamaytiradi",
+            "Dasturdagi barcha kodlarni faqat bitta uzun qatorga (single line) yig'ib chiqish mantiqi",
+            "Faqat 'init()' funksiyalarini parallel oqimlarda majburiy ishga tushirish mexanizmi",
+            "Xotiradagi barcha pointerlarni string formatiga inline o'girib beruvchi drayver"
+        ],
+        "correctAnswer": "Kompilyator kichik funksiyalar chaqirig'ini to'g'rudan-to'g'ri chaqirilgan joyga kod sifatida ko'chirib o'tqazadi, bu esa funksiya chaqirish overhead'ini kamaytiradi"
+    },
+    {
+        "id": 86,
+        "subjectKey": "golang",
+        "text": "Go'da 'chan<- int' ko'rinishidagi kanal e'lon qilinishi nimani anglatadi?",
+        "options": [
+            "Faqat ma'lumot yozish (send-only) uchun mo'ljallangan bir tomonlama kanal",
+            "Faqat ma'lumot o'qish (receive-only) uchun mo'ljallangan bir tomonlama kanal",
+            "Kanal ichidagi ma'lumotlar avtomatik ravishda kamayish tartibida saralanishi signali",
+            "Xotiradan o'chirilish arafasida turgan vaqtinchalik kanal turi"
+        ],
+        "correctAnswer": "Faqat ma'lumot yozish (send-only) uchun mo'ljallangan bir tomonlama kanal"
+    },
+    {
+        "id": 87,
+        "subjectKey": "golang",
+        "text": "Go tilida 'runtime.NumGoroutine()' funksiyasi nimani qaytaradi?",
+        "options": [
+            "Joriy vaqtda dastur ichida mavjud bo'lgan (ham faol, ham bloklangan) barcha goroutinelarning umumiy sonini",
+            "Dastur ishga tushgandan beri yaratilgan va o'chirilgan barcha goroutinelarning yig'indisini",
+            "Faqat operatsion tizim darajasida band qilingan og'ir thread'lar (M) sonini",
+            "Maksimal darajada yaratish ruxsat etilgan goroutinelarning cheklov chegarasini"
+        ],
+        "correctAnswer": "Joriy vaqtda dastur ichida mavjud bo'lgan (ham faol, ham bloklangan) barcha goroutinelarning umumiy sonini"
+    },
+    {
+        "id": 88,
+        "subjectKey": "golang",
+        "text": "Go'da 'context.WithDeadline' va 'context.WithTimeout' o'rtasidagi asosiy farq nimada?",
+        "options": [
+            "WithDeadline tugash vaqtini aniq kalendar vaqti (time.Time) bilan qabul qiladi, WithTimeout esa davomiylik vaqtini (time.Duration) qabul qiladi",
+            "WithDeadline faqat SQL so'rovlari uchun ishlatiladi, WithTimeout esa faqat HTTP ulanishlar uchun",
+            "WithDeadline fondagi goroutinelarni o'chira olmaydi, WithTimeout esa o'chira oladi",
+            "Texnik va mantiqiy jihatdan ular mutlaqo ikki xil arxitekturadagi mustaqil paketlardir"
+        ],
+        "correctAnswer": "WithDeadline tugash vaqtini aniq kalendar vaqti (time.Time) bilan qabul qiladi, WithTimeout esa davomiylik vaqtini (time.Duration) qabul qiladi"
+    },
+    {
+        "id": 89,
+        "subjectKey": "golang",
+        "text": "Go tilida 'Map' ichidagi element xotira manzilini pointer orqali olishga (masalan, p := &m[\"key\"]) urinish nega taqiqlangan?",
+        "options": [
+            "Map o'sib borishi bilan uning ichki xotira chelaklari (buckets) joylashuvi runtime'da o'zgarishi va pointer manzili noto'g'ri (dangling pointer) bo'lib qolishi mumkinligi uchun",
+            "Map elementlari har doim faqat protsessor keshida saqlanib, RAMda manzilga ega bo'lmagani uchun",
+            "Map elementi pointerni olganda Garbage Collector o'sha zaxira xotirani skaner qila olmay qolishi sababli",
+            "Bu Go tilining xavfsizlik protokoliga zid bo'lib, kompilyatorni 32-bitli rejimga o'tkazib yuborishi tufayli"
+        ],
+        "correctAnswer": "Map ichidagi element xotira manzilini pointer orqali olishga (masalan, p := &m[\"key\"]) urinish nega taqiqlangan?"
+    },
+    {
+        "id": 90,
+        "subjectKey": "golang",
+        "text": "Go'da 'race detector' (-race flagi) dasturning ishlash tezligiga (performance) taxminan qanday ta'sir ko'rsatadi?",
+        "options": [
+            "Xotira sarfi 5-20 barobar, dastur ishlash tezligi esa 2-10 barobar sekinlashishi mumkin (shuning uchun faqat test/development muhitida tavsiya etiladi)",
+            "Dastur tezligini 2 barobarga oshiradi, chunki oqimlarni oldindan optimallashtiradi",
+            "Dastur tezligiga va xotirasiga mutlaqo hech qanday ta'sir ko'rsatmaydi",
+            "Faqat ma'lumotlar bazasiga bo'lgan so'rovlarni sekinlashtiradi, qolgan kod bir xil ishlaydi"
+        ],
+        "correctAnswer": "Xotira sarfi 5-20 barobar, dastur ishlash tezligi esa 2-10 barobar sekinlashishi mumkin (shuning uchun faqat test/development muhitida tavsiya etiladi)"
+    },
+    {
+        "id": 91,
+        "subjectKey": "golang",
+        "text": "Go tilida 'syscall' paketi asosan nima uchun xizmat qiladi?",
+        "options": [
+            "Dastur kodi ichidan to'g'ridan-to'g'ri operatsion tizimning quyi darajadagi yadrosiga (kernel/system calls) so'rovlar yuborish va tizim funksiyalarini chaqirish uchun",
+            "Faqat va faqat mikrosorvislar o'rtasida gRPC ulanishlarini ta'minlash uchun",
+            "Koddagi sintaktik xatolarni kompilyatordan oldin tuzatib beruvchi kutubxona",
+            "Xotiradagi barcha o'zgaruvchilarni avtomatik tarzda shifrlash tizimi"
+        ],
+        "correctAnswer": "Dastur kodi ichidan to'g'ridan-to'g'ri operatsion tizimning quyi darajadagi yadrosiga (kernel/system calls) so'rovlar yuborish va tizim funksiyalarini chaqirish uchun"
+    },
+    {
+        "id": 92,
+        "subjectKey": "golang",
+        "text": "Go'da 'opaque structs' (yoki bo'sh va eksport qilinmagan maydonli strukturalar) asosan loyihalashda nima uchun qo'llaniladi?",
+        "options": [
+            "Encapsulation (inkapsulyatsiya) tamoyilini ta'minlash, ya'ni tashqi paket foydalanuvchilaridan strukturaning ichki tuzilishini berkitish va faqat metodlar orqali ishlashga majburlash",
+            "Strukturaning xotiradagi hajmini majburiy ravishda 0 bayt holatiga keltirish uchun",
+            "Ushbu struktura yordamida faqat va faqat asinxron xatolarni (errors) o'tkazish uchun",
+            "Kompilyatorga ushbu strukturani Heap xotiradan butunlay o'chirish buyrug'ini berish uchun"
+        ],
+        "correctAnswer": "Encapsulation (inkapsulyatsiya) tamoyilini ta'minlash, ya'ni tashqi paket foydalanuvchilaridan strukturaning ichki tuzilishini berkitish va faqat metodlar orqali ishlashga majburlash"
+    },
+    {
+        "id": 93,
+        "subjectKey": "golang",
+        "text": "Go tilida 'pointer arifmetikasi' (ko'rsatkichlarni qo'shish yoki ayirish) til qoidalari bo'yicha standart holatda nega taqiqlangan?",
+        "options": [
+            "Xotira xavfsizligini (memory safety) ta'minlash va dasturchi tasodifan noto'g'ri xotira manzillariga kirib, ma'lumotlarni buzib qo'yishi yoki crash hosil qilishini oldini olish uchun",
+            "Pointerlarni qo'shish protsessor arxitekturasida jismonan imkonsiz bo'lganligi sababli",
+            "Pointerlar qo'shilganda Garbage Collector ularni o'lik ob'ekt deb o'ylab xotiradan o'chirib yuborishi tufayli",
+            "U faqat 64-bitli operatsion tizimlarda taqiqlangan bo'lib, 32-bitda to'liq ruxsat etilgan"
+        ],
+        "correctAnswer": "Xotira xavfsizligini (memory safety) ta'minlash va dasturchi tasodifan noto'g'ri xotira manzillariga kirib, ma'lumotlarni buzib qo'yishi yoki crash hosil qilishini oldini olish uchun"
+    },
+    {
+        "id": 94,
+        "subjectKey": "golang",
+        "text": "Go'da 'GOMEMLIMIT' (Go 1.19+) atrof-muhit o'zgaruvchisining vazifasi nima?",
+        "options": [
+            "Go runtime Garbage Collector uchun xotira sarfining yuqori chegarasini belgilash, bu orqali dasturning Out-Of-Memory (OOM) sababli crash bo'lish xavfini kamaytirish",
+            "Dastur yuklab olishi mumkin bo'lgan fayllarning maksimal bayt hajmini cheklash",
+            "Faqat Stack xotira uchun ajratilishi mumkin bo'lgan eng kichik xotira chegarasini sozlash",
+            "Loyiha ichidagi barcha map'larning maksimal elementlar sonini qat'iy nazorat qilish"
+        ],
+        "correctAnswer": "Go runtime Garbage Collector uchun xotira sarfining yuqori chegarasini belgilash, bu orqali dasturning Out-Of-Memory (OOM) sababli crash bo'lish xavfini kamaytirish"
+    },
+    {
+        "id": 95,
+        "subjectKey": "golang",
+        "text": "Go tilida 'PGO' (Profile-Guided Optimization - Go 1.20+) nima vazifani bajaradi?",
+        "options": [
+            "Dasturning haqiqiy production production production ish rejimida to'plangan profil (pprof) ma'lumotlariga tayanib, kompilyator tomonidan kodni yanada samaraliroq va tezroq optimallashtirish",
+            "Dasturdagi barcha xatoliklarni grafik jadval ko'rinishida terminalga chiqarish",
+            "Loyihadagi barcha eski kutubxonalarni xavfsiz va yangi versiyalarga avtomatik o'tkazish",
+            "Goroutinelarni faqat protsessorning eng kam yuklangan yadrolariga majburiy taqsimlash"
+        ],
+        "correctAnswer": "Dasturning haqiqiy production production production ish rejimida to'plangan profil (pprof) ma'lumotlariga tayanib, kompilyator tomonidan kodni yanada samaraliroq va tezroq optimallashtirish"
+    },
+    {
+        "id": 96,
+        "subjectKey": "golang",
+        "text": "Go'da 'build tags' (masalan, //go:build linux) nima maqsadda ishlatiladi?",
+        "options": [
+            "Muayyan operatsion tizim, arxitektura yoki shartlar asosida faqat tegishli Go fayllarini kompilyatsiya jarayoniga kiritish yoki undan chetlatish (conditional compilation)",
+            "Dasturni Docker container ichida avtomatik ravishda build qilish ko'rsatmasi",
+            "Kod muallifi va yaratilgan sana haqida metama'lumotlarni saqlash",
+            "Dasturdagi barcha xavfli pointer amallarini avtomatik ravishda bloklash"
+        ],
+        "correctAnswer": "Muayyan operatsion tizim, arxitektura yoki shartlar asosida faqat tegishli Go fayllarini kompilyatsiya jarayoniga kiritish yoki undan chetlatish (conditional compilation)"
+    },
+    {
+        "id": 97,
+        "subjectKey": "golang",
+        "text": "Go tilida 'sync/atomic' paketidagi 'CompareAndSwap' (CAS) amali qanday ishlaydi?",
+        "options": [
+            "O'zgaruvchining joriy qiymatini berilgan kutilayotgan qiymat bilan solishtiradi, agar teng bo'lsa, uni yangi qiymatga atomar (lockless) tarzda o'zgartiradi va muvaffaqiyat statusini qaytaradi",
+            "Ikki xil strukturaning xotiradagi umumiy og'irligini solishtirib, kattasini o'chirib yuboradi",
+            "Kanallar ichidagi barcha ma'lumotlarni alifbo tartibida asinxron ravishda saralaydi",
+            "Faqat va faqat 'string' formatidagi o'zgaruvchilar ustida shifrlash amallarini bajaradi"
+        ],
+        "correctAnswer": "O'zgaruvchining joriy qiymatini berilgan kutilayotgan qiymat bilan solishtiradi, agar teng bo'lsa, uni yangi qiymatga atomar (lockless) tarzda o'zgartiradi va muvaffaqiyat statusini qaytaradi"
+    },
+    {
+        "id": 98,
+        "subjectKey": "golang",
+        "text": "Go'da 'channel' (kanal) buferi hajmini juda katta qilib belgilash (masalan, ch := make(chan int, 1000000)) qanday salbiy oqibatlarga olib keladi?",
+        "options": [
+            "Heap xotiradan katta miqdorda joy oldindan ajratiladi va band qilinadi, bu esa xotira sarfini (RAM) keskin oshiradi va mantiqiy sinxronizatsiya zanjirini buzishi mumkin",
+            "Dasturning kompilyatsiya vaqti 1 soatgacha uzayib ketadi",
+            "Kanal avtomatik ravishda faqat bitta goroutine o'qiydigan rejimga o'tib qoladi",
+            "Kompilyator bunga mutlaqo ruxsat bermaydi va 'channel buffer overflow' xatosini beradi"
+        ],
+        "correctAnswer": "Heap xotiradan katta miqdorda joy oldindan ajratiladi va band qilinadi, bu esa xotira sarfini (RAM) keskin oshiradi va mantiqiy sinxronizatsiya zanjirini buzishi mumkin"
+    },
+    {
+        "id": 99,
+        "subjectKey": "golang",
+        "text": "Go runtime tarkibidagi 'M' (Machine/OS Thread) o'ziga yuklangan goroutine (G) uzoq davom etuvchi bloklanuvchi tizim so'rovini (blocking syscall) bajarayotganda nima sodir bo'ladi?",
+        "options": [
+            "P (Logical Processor) ushbu M dan ajralib chiqadi va navbatdagi boshqa goroutinelarni bajarish uchun yangi yoki bo'sh turgan OS thread'ini (M) oladi (Hand-off mexanizmi)",
+            "Butun dastur va undagi barcha boshqa goroutinelar ham o'sha syscall tugaguncha to'liq muzlatiladi",
+            "Syscall bajarayotgan goroutine avtomatik ravishda o'chiriladi va xatolik qaytariladi",
+            "M mantiqiy protsessorni ham o'zi bilan birga majburiy ravishda o'chirib yuboradi"
+        ],
+        "correctAnswer": "P (Logical Processor) ushbu M dan ajralib chiqadi va navbatdagi boshqa goroutinelarni bajarish uchun yangi yoki bo'sh turgan OS thread'ini (M) oladi (Hand-off mexanizmi)"
+    },
+    {
+        "id": 100,
+        "subjectKey": "golang",
+        "text": "Go 1.21 versiyasida til tarkibiga qo'shilgan 'clear()' o'rnatilgan (built-in) funksiyasi map va slice'lar bilan ishlatilganda mos ravishda qanday natija beradi?",
+        "options": [
+            "Map ichidagi barcha kalitlarni o'chirib uni bo'shatadi (len 0 bo'ladi); Slice'ning esa uzunligini o'zgartirmasdan, barcha elementlarini o'sha turning 'zero value' holatiga keltirib qo'yadi",
+            "Ikkala tuzilmani ham butunlay xotiradan o'chiradi va ularni 'nil' holatiga o'tkazadi",
+            "Faqat dublikat (bir xil) bo'lgan elementlarni qidirib topib, xotiradan tozalaydi",
+            "Kompilyatsiya vaqtida koddagi barcha izohlarni (comments) o'chirish uchun xizmat qiladi"
+        ],
+        "correctAnswer": "Map ichidagi barcha kalitlarni o'chirib uni bo'shatadi (len 0 bo'ladi); Slice'ning esa uzunligini o'zgartirmasdan, barcha elementlarini o'sha turning 'zero value' holatiga keltirib qo'yadi"
+    }
+]

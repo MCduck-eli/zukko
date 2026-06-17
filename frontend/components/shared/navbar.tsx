@@ -34,15 +34,6 @@ export function Navbar() {
     );
 
     useEffect(() => {
-        console.log("=== NAV_BAR DEBUG ===");
-        console.log("1. Clerk isLoaded status:", isLoaded);
-        console.log("2. Clerk isClerkSignedIn status:", isClerkSignedIn);
-        console.log("3. localStorage (access_token) status:", isLocalLoggedIn);
-        console.log("4. Current User Data:", user);
-        console.log("=====================");
-    }, [isLoaded, isClerkSignedIn, isLocalLoggedIn, user]);
-
-    useEffect(() => {
         const syncClerkAuth = async () => {
             if (isLoaded && isClerkSignedIn && session) {
                 const localToken = localStorage.getItem("access_token");
@@ -234,7 +225,7 @@ export function Navbar() {
                         initial={{ opacity: 0, y: -20 }}
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: -20 }}
-                        className="fixed top-[69px] left-0 right-0 z-40 flex flex-col gap-5 p-6 border-b border-white/5 bg-black/90 backdrop-blur-2xl md:hidden"
+                        className="fixed top-17.25 left-0 right-0 z-40 flex flex-col gap-5 p-6 border-b border-white/5 bg-black/90 backdrop-blur-2xl md:hidden"
                     >
                         <div className="flex flex-col gap-2">
                             <span className="text-[10px] text-slate-500 uppercase tracking-widest font-bold">

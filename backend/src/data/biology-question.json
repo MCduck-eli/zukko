@@ -1,0 +1,1122 @@
+[
+    {
+        "id": 1,
+        "subjectKey": "biology",
+        "title": "Hujayraning barcha organoidlari o'rtasida bog'liqlikni ta'minlaydigan, moddalar almashinuvi jarayonlari kechadigan yarimsuyuq ichki muhit nima deb ataladi?",
+        "options": [
+            "Sitoplazma (gialoplazma)",
+            "Vakuola",
+            "Yadro shirasi",
+            "Hujayra qobig'i"
+        ],
+        "answer": "Sitoplazma (gialoplazma)",
+        "category": "biology"
+    },
+    {
+        "id": 2,
+        "subjectKey": "biology",
+        "title": "Hujayrada ATF (adenozintrifosfat) kislota sintezini amalga oshiruvchi va energiyaning 'elektr stansiyasi' hisoblangan organoid qaysi?",
+        "options": ["Mitoxondriya", "Ribosoma", "Golji majmuasi", "Lizosoma"],
+        "answer": "Mitoxondriya",
+        "category": "biology"
+    },
+    {
+        "id": 3,
+        "subjectKey": "biology",
+        "title": "Hujayra tarkibidagi murakkab organik moddalarni (oqsil, yog', uglevod) parchalaydigan (hazm qiladigan) fermentlarga boy organoidni ko'rsating.",
+        "options": ["Lizosoma", "Ribosoma", "Xloroplast", "Sentrosoma"],
+        "answer": "Lizosoma",
+        "category": "biology"
+    },
+    {
+        "id": 4,
+        "subjectKey": "biology",
+        "title": "Hujayraning bo'linishida (mitoz va meyoz) ishtirok etib, qutblarga qarab bo'linish urchug'ini hosil qiluvchi organoid qaysi?",
+        "options": [
+            "Hujayra markazi (sentrosoma)",
+            "Ribosoma",
+            "Endoplazmatik tor",
+            "Vakuola"
+        ],
+        "answer": "Hujayra markazi (sentrosoma)",
+        "category": "biology"
+    },
+    {
+        "id": 5,
+        "subjectKey": "biology",
+        "title": "O'simliklar dunyosiga xos bo'lgan, quyosh nuri ta'sirida anorganik moddalardan organik moddalar sintezlaydigan (fotosintez) yashil plastidlar qanday nomlanadi?",
+        "options": [
+            "Xloroplastlar",
+            "Xromoplastlar",
+            "Leykoplastlar",
+            "Amiloplastlar"
+        ],
+        "answer": "Xloroplastlar",
+        "category": "biology"
+    },
+    {
+        "id": 6,
+        "subjectKey": "biology",
+        "title": "Genetika fanining otasi hisoblangan Gregor Mendel o'zining irsiyat qonuniyatlarini kashf etishda qaysi o'simlik ustida tajribalar olib borgan?",
+        "options": [
+            "Ekiladigan no'xat (Pisum sativum)",
+            "Yovvoyi xantal",
+            "Ekiladigan suli",
+            "Shirin makkajo'xori"
+        ],
+        "answer": "Ekiladigan no'xat (Pisum sativum)",
+        "category": "biology"
+    },
+    {
+        "id": 7,
+        "subjectKey": "biology",
+        "title": "Gomologik xromosomalarning o'zaro yaqinlashishi (konyugatsiya) va ular o'rtasida genlar almashinuvi (krossingover) jarayoni hujayra bo'linishining qaysi bosqichida sodir bo'ladi?",
+        "options": [
+            "Meyozning I-profazasida",
+            "Mitozning profazasida",
+            "Meyozning II-metafazasida",
+            "Mitozning telofazasida"
+        ],
+        "answer": "Meyozning I-profazasida",
+        "category": "biology"
+    },
+    {
+        "id": 8,
+        "subjectKey": "biology",
+        "title": "Odam organizmida o'ng va chap bo'lmacha hamda o'ng va chap qorinchadan iborat bo'lgan yurak necha kamerali tuzilishga ega?",
+        "options": ["4 kamerali", "3 kamerali", "2 kamerali", "1 kamerali"],
+        "answer": "4 kamerali",
+        "category": "biology"
+    },
+    {
+        "id": 9,
+        "subjectKey": "biology",
+        "title": "Odamning qon guruhlarini aniqlashda I (0) qon guruhiga ega insonlarning eritrotsitlarida qanday agglyutinogenlar bo'ladi?",
+        "options": [
+            "Agglyutinogenlar umuman bo'lmaydi",
+            "Faqat A agglyutinogen bo'ladi",
+            "Faqat B agglyutinogen bo'ladi",
+            "Ham A, ham B agglyutinogenlar bo'ladi"
+        ],
+        "answer": "Agglyutinogenlar umuman bo'lmaydi",
+        "category": "biology"
+    },
+    {
+        "id": 10,
+        "subjectKey": "biology",
+        "title": "O'simliklarning ildiz va poyasining uchida joylashgan, to'xtovsiz bo'linib o'simlikning bo'yiga va eniga o'sishini ta'minlaydigan to'qima qaysi?",
+        "options": [
+            "Hosildor (meristema) to'qima",
+            "Qoplovchi to'qima",
+            "Mexanik to'qima",
+            "O'tkazuvchi to'qima"
+        ],
+        "answer": "Hosildor (meristema) to'qima",
+        "category": "biology"
+    },
+    {
+        "id": 11,
+        "subjectKey": "biology",
+        "title": "O'simliklar poyasining o'tkazuvchi to'qimalari tarkibiga kiruvchi, ildizdan suv va unda erigan mineral moddalarni yuqoriga (poyaga, bargga) o'tkazuvchi qism nima deyiladi?",
+        "options": [
+            "Ksilema (yog'ochlik naylari)",
+            "Floema (g'alvirsimon naylar)",
+            "Kambi qavati",
+            "Po'stloq qavati"
+        ],
+        "answer": "Ksilema (yog'ochlik naylari)",
+        "category": "biology"
+    },
+    {
+        "id": 12,
+        "subjectKey": "biology",
+        "title": "Yopiq urug'li (gulli) o'simliklarda qo'sh urug'lanish hodisasini kashf etgan olim kim?",
+        "options": ["S. Navashin", "I. Pavlov", "Ch. Darvin", "L. Paster"],
+        "answer": "S. Navashin",
+        "category": "biology"
+    },
+    {
+        "id": 13,
+        "subjectKey": "biology",
+        "title": "Hayvonlar dunyosining qaysi tip vakillarida birinchi bo'lib nerv tizimi va og'iz teshigi paydo bo'lgan?",
+        "options": [
+            "Bo'shliqichlilar tipida",
+            "Yassi qurtlar tipida",
+            "Yutug'ichlilar tipida",
+            "Molyuskalar tipida"
+        ],
+        "answer": "Bo'shliqichlilar tipida",
+        "category": "biology"
+    },
+    {
+        "id": 14,
+        "subjectKey": "biology",
+        "title": "Xordalilar tipining qaysi sinf vakillarida birinchi bo'lib o'pka orqali nafas olish va tana haroratining qisman o'zgarishi (ikki muhitda yashash) shakllangan?",
+        "options": [
+            "Suvda ham quruqlikda chiquvchilar (amfibiyalar)",
+            "Sudralib yuruvchilar (reptiliyalar)",
+            "Suyanuvchi baliqlar",
+            "Qushlar"
+        ],
+        "answer": "Suvda ham quruqlikda chiquvchilar (amfibiyalar)",
+        "category": "biology"
+    },
+    {
+        "id": 15,
+        "subjectKey": "biology",
+        "title": "Odam organizmida ovqat hazm qilish tizimining qaysi qismida oziq moddalarning qonga so'rilishi eng intensiv (kuchli) amalga oshadi?",
+        "options": [
+            "Ingichka ichakda (vorsinkalar orqali)",
+            "Me'da (oshqozon) ichida",
+            "Yo'g'on ichakda",
+            "Og'iz bo'shlig'ida"
+        ],
+        "answer": "Ingichka ichakda (vorsinkalar orqali)",
+        "category": "biology"
+    },
+    {
+        "id": 16,
+        "subjectKey": "biology",
+        "title": "Odam tana a'zolaridan moddalar almashinuvi natijasida hosil bo'lgan zararli moddalarni (mochevina, siydik kislotasi) filtrlash va ajratish vazifasini bajaruvchi asosiy organ qaysi?",
+        "options": ["Buyraklar", "Jigar", "O'pka", "Taloq"],
+        "answer": "Buyraklar",
+        "category": "biology"
+    },
+    {
+        "id": 17,
+        "subjectKey": "biology",
+        "title": "Odam organizmida qand miqdorini (glyukozani) insulin gormoni orqali boshqaradigan ichki va tashqi sekresiya (aralash) bezi qaysi?",
+        "options": [
+            "Oshqozon osti bezi",
+            "Qalqonsimon bez",
+            "Gipofiz bezi",
+            "Buyrak usti bezi"
+        ],
+        "answer": "Oshqozon osti bezi",
+        "category": "biology"
+    },
+    {
+        "id": 18,
+        "subjectKey": "biology",
+        "title": "Tashqi muhit omillarining ta'siri natijasida organizm genotipining (DNK tarkibining) to'satdan va qaytmas tarzda o'zgarishi nima deb ataladi?",
+        "options": [
+            "Mutatsiya",
+            "Modifikatsiya",
+            "Kombinatsiya",
+            "Regeneratsiya"
+        ],
+        "answer": "Mutatsiya",
+        "category": "biology"
+    },
+    {
+        "id": 19,
+        "subjectKey": "biology",
+        "title": "Charlz Darvinning evolyutsion nazariyasiga ko'ra, organik olam evolyutsiyasining asosiy harakatlantiruvchi kuchlaridan biri qaysi?",
+        "options": [
+            "Tabiiy tanlanish va yashash uchun kurash",
+            "Faqat iqlim sharoitining o'zgarishi",
+            "Modifikatsion o'zgaruvchanlik",
+            "Organumlarning ichki intilishi"
+        ],
+        "answer": "Tabiiy tanlanish va yashash uchun kurash",
+        "category": "biology"
+    },
+    {
+        "id": 20,
+        "subjectKey": "biology",
+        "title": "Ekotizimda organik moddalarni (o'simlik va hayvon qoldiqlarini) parchalab, qaytadan anorganik moddalarga aylantiruvchi organizmlar (bakteriya va zamburug'lar) qanday guruhga kiradi?",
+        "options": [
+            "Redutsentlar",
+            "Produtsentlar",
+            "Konsumentlar",
+            "Avtotroflar"
+        ],
+        "answer": "Redutsentlar",
+        "category": "biology"
+    },
+    {
+        "id": 21,
+        "subjectKey": "biology",
+        "title": "Hujayrasiz hayot shakli hisoblangan va faqat tirik hujayra ichidagina ko'paya oladigan organizmlar nima deb ataladi?",
+        "options": [
+            "Viruslar",
+            "Bakteriyalar",
+            "Arxeyalar",
+            "Sianobakteriyalar"
+        ],
+        "answer": "Viruslar",
+        "category": "biology"
+    },
+    {
+        "id": 22,
+        "subjectKey": "biology",
+        "title": "Bakteriyalarni zararlab, ularning hujayrasi ichida ko'payuvchi o'ziga xos viruslar qanday nomlanadi?",
+        "options": ["Bakteriofaglar", "Plazmidalar", "Viroidlar", "Prionlar"],
+        "answer": "Bakteriofaglar",
+        "category": "biology"
+    },
+    {
+        "id": 23,
+        "subjectKey": "biology",
+        "title": "Bakteriyalar noqulay muhit sharoitiga (sovuq, issiq, qurg'oqchilik) bardosh berish uchun qanday tuzilma hosil qiladi?",
+        "options": ["Spora", "Sista", "Miseliy", "Kukun"],
+        "answer": "Spora",
+        "category": "biology"
+    },
+    {
+        "id": 24,
+        "subjectKey": "biology",
+        "title": "Zamburug'lar hujayra devorining kimyoviy tarkibi qaysi xususiyati bilan o'simliklardan farq qiladi?",
+        "options": [
+            "Tarkibida xitin moddasi bo'ladi",
+            "Tarkibida faqatsellyuloza bo'ladi",
+            "Hujayra devori mutlaqo bo'lmaydi",
+            "Tarkibida faqat glikogen bo'ladi"
+        ],
+        "answer": "Tarkibida xitin moddasi bo'ladi",
+        "category": "biology"
+    },
+    {
+        "id": 25,
+        "subjectKey": "biology",
+        "title": "Yuksak sporali o'simliklar hisoblangan qirqbo'g'imlarning bahorgi poyalari qanday vazifani bajaradi?",
+        "options": [
+            "Spora hosil qilish (ko'payish)",
+            "Fotosintez qilish",
+            "Suv to'plash",
+            "Faqat ildizni mustahkamlash"
+        ],
+        "answer": "Spora hosil qilish (ko'payish)",
+        "category": "biology"
+    },
+    {
+        "id": 26,
+        "subjectKey": "biology",
+        "title": "Ochiq urug'li o'simliklarning (masalan, archa va qarag'ayning) yopiq urug'lilardan asosiy farqi nimada?",
+        "options": [
+            "Meva hosil qilmaydi, urug'lari qubbalarda ochiq joylashadi",
+            "Haqiqiy ildiz tizimiga ega emas",
+            "Suvni faqat barglari orqali shimib oladi",
+            "Gullari juda yirik va yorqin rangda bo'ladi"
+        ],
+        "answer": "Meva hosil qilmaydi, urug'lari qubbalarda ochiq joylashadi",
+        "category": "biology"
+    },
+    {
+        "id": 27,
+        "subjectKey": "biology",
+        "title": "Bir uyli o'simliklar deb qanday o'simliklarga aytiladi?",
+        "options": [
+            "Erkak va urg'ochi gullari bitta o'simlikning o'zida joylashgan bo'lsa",
+            "Erkak va urg'ochi gullari alohida-alohida tublarda joylashgan bo'lsa",
+            "Faqat ixtiyoriy ravishda o'z-o'zidan changlansa",
+            "Guli umuman bo'lmaydigan sporali o'simliklar bo'lsa"
+        ],
+        "answer": "Erkak va urg'ochi gullari bitta o'simlikning o'zida joylashgan bo'lsa",
+        "category": "biology"
+    },
+    {
+        "id": 28,
+        "subjectKey": "biology",
+        "title": "Gidra va oq planariya kabi organizmlarning tana qismlari kesilganda, yo'qotilgan a'zolarini qayta tiklash xossasi nima deyiladi?",
+        "options": ["Regeneratsiya", "Mutatsiya", "Gomologiya", "Atavizm"],
+        "answer": "Regeneratsiya",
+        "category": "biology"
+    },
+    {
+        "id": 29,
+        "subjectKey": "biology",
+        "title": "Bo'g'imoyoqlilar tipining qaysi sinf vakillarida tana qismlari faqat bosh-ko'krak va qorinchadan iborat bo'lib, ular 4 juft (8 ta) yurish oyoqlariga ega?",
+        "options": [
+            "O'rgimchaksimonlar",
+            "Hashoratlar",
+            "Qisqichbaqasimonlar",
+            "Ko'poyoqlilar"
+        ],
+        "answer": "O'rgimchaksimonlar",
+        "category": "biology"
+    },
+    {
+        "id": 30,
+        "subjectKey": "biology",
+        "title": "Hashoratlarning nafas olish tizimi qaysi organlardan tashkil topgan?",
+        "options": [
+            "Traxeyalardan",
+            "Jabralardan",
+            "O'pka xaltalaridan",
+            "Butun tana yuzasidan"
+        ],
+        "answer": "Traxeyalardan",
+        "category": "biology"
+    },
+    {
+        "id": 31,
+        "subjectKey": "biology",
+        "title": "Sudralib yuruvchilar (reptiliyalar) yuragi necha kamerali va ularning qorinchasida qanday o'ziga xoslik bor (timsohlardan tashqari)?",
+        "options": [
+            "3 kamerali, qorinchasida chala to'siq bor",
+            "2 kamerali, to'liq aralash qon oqadi",
+            "4 kamerali, to'liq ajralgan",
+            "3 kamerali, lekin to'siq umuman yo'q"
+        ],
+        "answer": "3 kamerali, qorinchasida chala to'siq bor",
+        "category": "biology"
+    },
+    {
+        "id": 32,
+        "subjectKey": "biology",
+        "title": "Qushlarning uchish vaqtida havo xaltachalari yordamida ham nafas olish hamda nafas chiqarishda o'pka orqali kislorod so'rilishi nima deb ataladi?",
+        "options": [
+            "Qonuniy qo'sh nafas olish",
+            "Teri orqali qo'shimcha nafas olish",
+            "Anaerob nafas olish",
+            "Diatomik gaz almashinuvi"
+        ],
+        "answer": "Qonuniy qo'sh nafas olish",
+        "category": "biology"
+    },
+    {
+        "id": 33,
+        "subjectKey": "biology",
+        "title": "Odam skletida umurtqa pog'onasi nechta umurtqadan tashkil topgan va nechta egilishga ega?",
+        "options": [
+            "33-34 ta umurtqa, 4 ta egilish",
+            "12 ta umurtqa, 2 ta egilish",
+            "24 ta umurtqa, egilishlar yo'q",
+            "40 ta umurtqa, 5 ta egilish"
+        ],
+        "answer": "33-34 ta umurtqa, 4 ta egilish",
+        "category": "biology"
+    },
+    {
+        "id": 34,
+        "subjectKey": "biology",
+        "title": "Odam ko'zining to'r pardasida (setchatka) joylashgan, ranglarni ajratishni ta'minlaydigan ko'ruvchi reseptor hujayralari qanday nomlanadi?",
+        "options": ["Kolbachalar", "Tayoqchalar", "Neyronlar", "Aksonlar"],
+        "answer": "Kolbachalar",
+        "category": "biology"
+    },
+    {
+        "id": 35,
+        "subjectKey": "biology",
+        "title": "Eritrotsitlar tarkibida bo'lgan va kislorod hamda karbonat angidrid gazini tashishga javobgar bo'lgan temir tutuvchi murakkab oqsil qaysi?",
+        "options": ["Gemoglobin", "Fibrinogen", "Albumin", "Insulin"],
+        "answer": "Gemoglobin",
+        "category": "biology"
+    },
+    {
+        "id": 36,
+        "subjectKey": "biology",
+        "title": "Evolyutsiya jarayonida ajdodlarda mavjud bo'lgan, lekin hozirgi avlodlarda funksiyasini yo'qotgan qoldiq a'zolar (masalan, ko'richak o'simtasi — appendiks) nima deyiladi?",
+        "options": [
+            "Rudimentlar",
+            "Atavizmlar",
+            "Analogik a'zolar",
+            "Gomologik a'zolar"
+        ],
+        "answer": "Rudimentlar",
+        "category": "biology"
+    },
+    {
+        "id": 37,
+        "subjectKey": "biology",
+        "title": "Ajdodlarda mavjud bo'lgan xususiyatlarning uzoq avlodlarda to'satdan yaqqol namoyon bo'lishi (masalan, odamning dumi bilan tug'ilishi) qanday ataladi?",
+        "options": ["Atavizm", "Rudiment", "Divergensiya", "Konvergensiya"],
+        "answer": "Atavizm",
+        "category": "biology"
+    },
+    {
+        "id": 38,
+        "subjectKey": "biology",
+        "title": "Irsiy kasallik hisoblangan va qonning ivish xususiyati buzilishi bilan xarakterlanadigan dardi qanday nomlanadi?",
+        "options": ["Gemofiliya", "Daltonizm", "Anemiya", "Leykoz"],
+        "answer": "Gemofiliya",
+        "category": "biology"
+    },
+    {
+        "id": 39,
+        "subjectKey": "biology",
+        "title": "Ekologiyada organizmlarning o'zaro bir-biriga zarar keltirmasdan, foyda keltirib birga yashashi (masalan, kaktus va lishaynik, yoki dukkaklilar va tugun baxteriyalari) nima deyiladi?",
+        "options": ["Simbioz", "Parazitizm", "Raqobat", "Neytralizm"],
+        "answer": "Simbioz",
+        "category": "biology"
+    },
+    {
+        "id": 40,
+        "subjectKey": "biology",
+        "title": "Biotsenozda bir tur vakillarining boshqa tur vakillari bilan oziqlanish munosabatlarini ifodalovchi zanjir qanday nomlanadi?",
+        "options": [
+            "Oziq zanjiri (Trofik zanjir)",
+            "Ekologik piramida",
+            "Evolyutsion shajara",
+            "Biosfera qobiqlari"
+        ],
+        "answer": "Oziq zanjiri (Trofik zanjir)",
+        "category": "biology"
+    },
+    {
+        "id": 41,
+        "subjectKey": "biology",
+        "title": "Urug'langan tuxum hujayra (zigota)ning ketma-ket tez bo'linishi (maydalanishi) natijasida hosil bo'ladigan bir qavatli, ichi bo'shsharchasimon embrion bosqichi nima deb ataladi?",
+        "options": ["Blastula", "Gastrula", "Nejrula", "Morula"],
+        "answer": "Blastula",
+        "category": "biology"
+    },
+    {
+        "id": 42,
+        "subjectKey": "biology",
+        "title": "Embrional rivojlanishning gastrula bosqichida hosil bo'ladigan ichki embrion varaqasi qanday nomlanadi?",
+        "options": ["Endoderma", "Ektoderma", "Mezoderma", "Blastoderma"],
+        "answer": "Endoderma",
+        "category": "biology"
+    },
+    {
+        "id": 43,
+        "subjectKey": "biology",
+        "title": "Xordalilar embrionining rivojlanishida nerv tizimi, sezgi organlari va teri qoplami qaysi murtak varaqasidan shakllanadi?",
+        "options": [
+            "Ektodermadan",
+            "Endodermadan",
+            "Mezodermadan",
+            "Blastotsistadan"
+        ],
+        "answer": "Ektodermadan",
+        "category": "biology"
+    },
+    {
+        "id": 44,
+        "subjectKey": "biology",
+        "title": "Odam organizmining skelet suyaklari, mushaklari, qon aylanish va ayirish tizimlari qaysi murtak varaqasidan rivojlanadi?",
+        "options": [
+            "Mezodermadan",
+            "Ektodermadan",
+            "Endodermadan",
+            "Epiblastdan"
+        ],
+        "answer": "Mezodermadan",
+        "category": "biology"
+    },
+    {
+        "id": 45,
+        "subjectKey": "biology",
+        "title": "Organizmdagi barcha irsiy belgilarning yig'indisi nima deb ataladi?",
+        "options": ["Genotip", "Fenotip", "Genofond", "Kariotip"],
+        "answer": "Genotip",
+        "category": "biology"
+    },
+    {
+        "id": 46,
+        "subjectKey": "biology",
+        "title": "Genotip va tashqi muhit omillarining o'zaro ta'siri natijasida yuzaga chiqadigan barcha ichki va tashqi belgilar yig'indisi qanday nomlanadi?",
+        "options": ["Fenotip", "Genotip", "Kariotip", "Genom"],
+        "answer": "Fenotip",
+        "category": "biology"
+    },
+    {
+        "id": 47,
+        "subjectKey": "biology",
+        "title": "Bir juft allel genlar bo'yicha turlicha bo'lgan (masalan, Aa) va gomologik xromomalarining bir xil lokuslarida har xil genlarni saqlovchi organizm qanday ataladi?",
+        "options": [
+            "Geterozigota",
+            "Gomozigota",
+            "Gofrozigota",
+            "Gemitsezigota"
+        ],
+        "answer": "Geterozigota",
+        "category": "biology"
+    },
+    {
+        "id": 48,
+        "subjectKey": "biology",
+        "title": "Odam organizmiga kasallik tug'diruvchi yot moddalar (antigenlar) kirganda, ularga qarshi kurashish uchun qon plazmasida hosil bo'ladigan maxsus oqsil moddalari nima deyiladi?",
+        "options": [
+            "Antitelolar (immunglobulinlar)",
+            "Fermentlar",
+            "Gormonlar",
+            "Antibiotiklar"
+        ],
+        "answer": "Antitelolar (immunglobulinlar)",
+        "category": "biology"
+    },
+    {
+        "id": 49,
+        "subjectKey": "biology",
+        "title": "Sog'lom odamga yuqumli kasalliklarning oldini olish maqsadida tarkibida kuchsizlantirilgan yoki o'ldirilgan mikroblar bo'lgan qanday preparat yuboriladi?",
+        "options": [
+            "Vaksina",
+            "Shifobaxsh zardob",
+            "Antibiotik",
+            "Vitamin kompleksi"
+        ],
+        "answer": "Vaksina",
+        "category": "biology"
+    },
+    {
+        "id": 50,
+        "subjectKey": "biology",
+        "title": "Kasallangan odamni tezda davolash uchun tarkibida tayyor antitelolar bo'lgan qanday immun preparatidan foydalaniladi?",
+        "options": [
+            "Shifobaxsh zardob (serum)",
+            "Vaksina",
+            "Fiziologik eritma",
+            "Plazmid eritmasi"
+        ],
+        "answer": "Shifobaxsh zardob (serum)",
+        "category": "biology"
+    },
+    {
+        "id": 51,
+        "subjectKey": "biology",
+        "title": "Oliy nerv faoliyati asoschisi I. P. Pavlov bo'yicha, organizmning tashqi ta'sirlarga nisbatan tug'ma, irsiy yo'l bilan o'tadigan javob reaksiyasi qanday nomlanadi?",
+        "options": [
+            "Shartsiz reflekslar",
+            "Shartli reflekslar",
+            "Dinarnik stereotip",
+            "Sezgi dominantasi"
+        ],
+        "answer": "Shartsiz reflekslar",
+        "category": "biology"
+    },
+    {
+        "id": 52,
+        "subjectKey": "biology",
+        "title": "Hayot davomida orttiriladigan, individual xarakterga ega va ma'lum bir sharoit yo'qolganda so'nib qoladigan reflekslar turi qaysi?",
+        "options": [
+            "Shartli reflekslar",
+            "Shartsiz reflekslar",
+            "Tug'ma instinktlar",
+            "Taktis harakatlar"
+        ],
+        "answer": "Shartli reflekslar",
+        "category": "biology"
+    },
+    {
+        "id": 53,
+        "subjectKey": "biology",
+        "title": "O'simliklar bargi orqali suvning bug'lanishi va bu orqali o'simlikning qizib ketishdan saqlanish jarayoni nima deb ataladi?",
+        "options": ["Transpiratsiya", "Plazmoliz", "Guttatsiya", "Fotosintez"],
+        "answer": "Transpiratsiya",
+        "category": "biology"
+    },
+    {
+        "id": 54,
+        "subjectKey": "biology",
+        "title": "O'simlik hujayrasining o'zidan suv yo'qotishi natijasida sitoplazmaning hujayra qobig'idan ajralib, markazga qarab siqilishi hodisasi qanday ataladi?",
+        "options": ["Plazmoliz", "Deplazmoliz", "Gidroliz", "Turgor"],
+        "answer": "Plazmoliz",
+        "category": "biology"
+    },
+    {
+        "id": 55,
+        "subjectKey": "biology",
+        "title": "Yorug'lik sevar o'simliklarning quyosh nuri yo'nalishiga qarab poyasini burishi yoki o'sishi (masalan, kungaboqar guli) qanday biologik harakat hisoblanadi?",
+        "options": ["Fototropizm", "Geotropizm", "Xemotropizm", "Nastiya"],
+        "answer": "Fototropizm",
+        "category": "biology"
+    },
+    {
+        "id": 56,
+        "subjectKey": "biology",
+        "title": "Odam miya yarim sharlari po'stlog'ining nutq, mantiqiy fikrlash va mavhum tafakkur bilan bog'liq bo'lgan, faqat insonga xos oliy xususiyati nima deyiladi?",
+        "options": [
+            "Ikkinchi signal tizimi",
+            "Birinchi signal tizimi",
+            "Gomeostaz",
+            "Retikulyar formatsiya"
+        ],
+        "answer": "Ikkinchi signal tizimi",
+        "category": "biology"
+    },
+    {
+        "id": 57,
+        "subjectKey": "biology",
+        "title": "Odam organizmida jismoniy mehnat yoki issiq harorat ta'sirida tana haroratini doimiylikda saqlash (termo-regulyatsiya) uchun qaysi bezlar aktivlashadi?",
+        "options": [
+            "Ter bezlari",
+            "Yog' bezlari",
+            "So'lak bezlari",
+            "Tirnoq kataklari"
+        ],
+        "answer": "Ter bezlari",
+        "category": "biology"
+    },
+    {
+        "id": 58,
+        "subjectKey": "biology",
+        "title": "Genetika qonuniyatlariga ko'ra, jinsiy xromosomalar (X va Y) orqali avloddan-avlodga o'tadigan kasalliklar guruhiga qaysi biri kiradi?",
+        "options": [
+            "Daltonizm (rang ajrata olmaslik)",
+            "Polidaktiliya (ko'p barmoqlilik)",
+            "Albinizm",
+            "Doun sindromi"
+        ],
+        "answer": "Daltonizm (rang ajrata olmaslik)",
+        "category": "biology"
+    },
+    {
+        "id": 59,
+        "subjectKey": "biology",
+        "title": "Organizmlarning o'z tana tuzilishi, rangi yoki xatti-harakati bilan zaharli yoki kuchli hayvonlarga o'xshab olishi orqali himoyalanish xususiyati (masalan, zaharsiz ilonning zaharli ilonga o'xshashi) nima deyiladi?",
+        "options": [
+            "Mimikriya",
+            "Idioadaptatsiya",
+            "Aromorfoz",
+            "Degeneratsiya"
+        ],
+        "answer": "Mimikriya",
+        "category": "biology"
+    },
+    {
+        "id": 60,
+        "subjectKey": "biology",
+        "title": "Evolyutsiya jarayonida organizmlar tuzilish darajasining umumiy yuksalishiga va yangi yirik taksonlar (tiplar, sinflar) paydo bo'lishiga olib keladigan tarixiy o'zgarish qanday nomlanadi?",
+        "options": [
+            "Aromorfoz",
+            "Idioadaptatsiya",
+            "Umumiy degeneratsiya",
+            "Konvergensiya"
+        ],
+        "answer": "Aromorfoz",
+        "category": "biology"
+    },
+    {
+        "id": 61,
+        "subjectKey": "biology",
+        "title": "Odam organizmida qon ivishida ishtirok etadigan, suyak ko'migidagi ulkan hujayralar (megakariotsitlar) parchalanishidan hosil bo'ladigan shaklli elementlar qanday nomlanadi?",
+        "options": [
+            "Trombotsitlar",
+            "Eritrotsitlar",
+            "Leykotsitlar",
+            "Limfotsitlar"
+        ],
+        "answer": "Trombotsitlar",
+        "category": "biology"
+    },
+    {
+        "id": 62,
+        "subjectKey": "biology",
+        "title": "Odam organizmidagi eng yirik limfa tomiri bo'lib, tananing pastki qismi va chap tomonidan yig'ilgan limfa suyuqligini qon aylanish tizimiga quyadigan yo'l qaysi?",
+        "options": [
+            "Ko'krak limfa yo'li",
+            "O'ng limfa yo'li",
+            "Darvoza venasi",
+            "Katta kavak vena"
+        ],
+        "answer": "Ko'krak limfa yo'li",
+        "category": "biology"
+    },
+    {
+        "id": 63,
+        "subjectKey": "biology",
+        "title": "Odam organizmida kalsiy va fosfor almashinuvini tartibga solib, suyaklarning mustahkamligini ta'minlovchi, yetishmaganda bolalarda raxit kasalligini keltirib chiqaradigan vitamin qaysi?",
+        "options": [
+            "D vitamini (Kalsiferol)",
+            "A vitamini (Retinol)",
+            "C vitamini (Askorbin kislota)",
+            "B1 vitamini (Tiamin)"
+        ],
+        "answer": "D vitamini (Kalsiferol)",
+        "category": "biology"
+    },
+    {
+        "id": 64,
+        "subjectKey": "biology",
+        "title": "Yetishmaganda organizmda singa (skorbut) kasalligi yuzaga keladigan, milklar qonashi va immunitet susayishi bilan xarakterlanadigan suvda eruvchi vitaminni ko'rsating.",
+        "options": [
+            "C vitamini (Askorbin kislota)",
+            "E vitamini (Tokoferol)",
+            "K vitamini (Filloxinon)",
+            "B12 vitamini (Sianokobalamin)"
+        ],
+        "answer": "C vitamini (Askorbin kislota)",
+        "category": "biology"
+    },
+    {
+        "id": 65,
+        "subjectKey": "biology",
+        "title": "DNK molekulasining qo'sh zanjirida adenin (A) nukleotidiga qarama-qarshi tomondan qaysi azotli asos komplementarlik qonuniyati asosida ikkita vodorod bog'i orqali birikadi?",
+        "options": ["Timin (T)", "Guanin (G)", "Sitozin (S)", "Urasil (U)"],
+        "answer": "Timin (T)",
+        "category": "biology"
+    },
+    {
+        "id": 66,
+        "subjectKey": "biology",
+        "title": "RNK (ribonuklein kislota) molekulasi tarkibida DNKdan farqli o'laroq timin (T) nukleotidi o'rniga qaysi azotli asos bo'ladi?",
+        "options": ["Urasil (U)", "Adenin (A)", "Sitozin (S)", "Guanin (G)"],
+        "answer": "Urasil (U)",
+        "category": "biology"
+    },
+    {
+        "id": 67,
+        "subjectKey": "chemistry",
+        "title": "Hujayra yadrosidagi DNK nukleotidlar ketma-ketligidan nusxa ko'chirib (transkripsiya), ma'lumotni oqsil sintezlanadigan joyga (ribosomaga) tashiydigan RNK turi qaysi?",
+        "options": [
+            "Axborot (matritsa) RNK — aRNK",
+            "Transport RNK — tRNK",
+            "Ribosoma RNK — rRNK",
+            "Kichik yadro RNK"
+        ],
+        "answer": "Axborot (matritsa) RNK — aRNK",
+        "category": "biology"
+    },
+    {
+        "id": 68,
+        "subjectKey": "biology",
+        "title": "Seleksiyada madaniy o'simliklarning kelib chiqish markazlari va irsiy o'zgaruvchanlikdagi gomologik qatorlar qonunini kashf etgan atoqli olim kim?",
+        "options": [
+            "N. I. Vavilov",
+            "I. V. Michurin",
+            "T. Morgan",
+            "G. De Friz"
+        ],
+        "answer": "N. I. Vavilov",
+        "category": "biology"
+    },
+    {
+        "id": 69,
+        "subjectKey": "biology",
+        "title": "O'simliklar seleksiyasida hujayradagi xromosomalar to'plamini karrali oshirish (masalan, 2n dan 4n yoki 6n ga) orqali hosildorlikni ko'paytirish usuli nima deyiladi?",
+        "options": ["Poliploidiya", "Geterozis", "Inbriding", "Autbriding"],
+        "answer": "Poliploidiya",
+        "category": "biology"
+    },
+    {
+        "id": 70,
+        "subjectKey": "biology",
+        "title": "Bir-biriga qarindosh bo'lmagan har xil nav yoki turlarni o'zaro chatishtirish natijasida birinchi avlodda (F1) hayotchanlik va hosildorlikning keskin ortib ketish hodisasi qanday ataladi?",
+        "options": [
+            "Geterozis (gibrid quvvati)",
+            "Inbriding (yaqin qarindoshli chatishtirish)",
+            "Mutagenez",
+            "Aneyploidiya"
+        ],
+        "answer": "Geterozis (gibrid quvvati)",
+        "category": "biology"
+    },
+    {
+        "id": 71,
+        "subjectKey": "biology",
+        "title": "Ekologik omillar ichida yorug'lik, harorat, namlik, shamol va tuproq tarkibi kabi o'lik tabiat elementlarining ta'siri qaysi guruhga kiradi?",
+        "options": [
+            "Abiotik omillar",
+            "Biotik omillar",
+            "Antropogen omillar",
+            "Edafik omillar"
+        ],
+        "answer": "Abiotik omillar",
+        "category": "biology"
+    },
+    {
+        "id": 72,
+        "subjectKey": "biology",
+        "title": "Insonning xo'jalik va sanoat faoliyati natijasida tabiatga va barcha tirik organizmlarga ko'rsatadigan ta'siri qaysi ekologik omil turiga kiradi?",
+        "options": [
+            "Antropogen omillar",
+            "Abiotik omillar",
+            "Biotik omillar",
+            "Biogeokimyoviy omillar"
+        ],
+        "answer": "Antropogen omillar",
+        "category": "biology"
+    },
+    {
+        "id": 73,
+        "subjectKey": "biology",
+        "title": "Ekotizimda o'simliklar hisobiga hayot kechiruvchi o'txor hayvonlar va ularning hisobiga yashovchi yirtqichlar umumiy ekologik guruh bo'yicha kimlar hisoblanadi?",
+        "options": [
+            "Konsumentlar (iste'molchilar)",
+            "Produtsentlar (hosil qiluvchilar)",
+            "Redutsentlar (parchalovchilar)",
+            "Avtotroflar"
+        ],
+        "answer": "Konsumentlar (iste'molchilar)",
+        "category": "biology"
+    },
+    {
+        "id": 74,
+        "subjectKey": "biology",
+        "title": "O'simliklar vegetativ ko'payganda (ildizi, qalami yoki kurtagi orqali) olingan yangi avlod o'z xususiyatlariga ko'ra qaysi jihati bilan ajralib turadi?",
+        "options": [
+            "Ona organizmning genotipi va barcha belgilarini aynan takrorlaydi",
+            "Yangi kombinativ o'zgaruvchanlikka ega bo'ladi",
+            "Xromosoma to'plami ikki barobar qisqaradi",
+            "Faqat mutatsion belgilarni namoyon qiladi"
+        ],
+        "answer": "Ona organizmning genotipi va barcha belgilarini aynan takrorlaydi",
+        "category": "biology"
+    },
+    {
+        "id": 75,
+        "subjectKey": "biology",
+        "title": "Odam organizmida gipofiz bezidan ajralib chiquvchi, suyak va mushaklarning o'sishini ta'minlaydigan gormon (somatotrop) yetishmaganda qanday kasallik kelib chiqadi?",
+        "options": [
+            "Pakanalik (nanizm)",
+            "Gigantizm",
+            "Akromegaliya",
+            "Bazedov kasalligi"
+        ],
+        "answer": "Pakanalik (nanizm)",
+        "category": "biology"
+    },
+    {
+        "id": 76,
+        "subjectKey": "biology",
+        "title": "Odam organizmida qalqonsimon bez faoliyati buzilib, yod elementi yetishmaganda bo'yinda bezning shishib kattalashishi bilan kechadigan qanday kasallik rivojlanadi?",
+        "options": [
+            "Endemik bo'qoq (zoob)",
+            "Qandli diabet",
+            "Miksodema",
+            "Mikrotsefaliya"
+        ],
+        "answer": "Endemik bo'qoq (zoob)",
+        "category": "biology"
+    },
+    {
+        "id": 77,
+        "subjectKey": "biology",
+        "title": "Erkaklar jinsiy bezlari (urug'donlar) tomonidan ishlab chiqariladigan, ikkilamchi jinsiy belgilar rivojlanishini ta'minlovchi asosiy gormon qaysi?",
+        "options": ["Testosteron", "Estrogen", "Progesteron", "Oksitotsin"],
+        "answer": "Testosteron",
+        "category": "biology"
+    },
+    {
+        "id": 78,
+        "subjectKey": "biology",
+        "title": "Yorug'likda yashil o'simliklar tomonidan karbonat angidrid va suvdan organik moddalar sintezlanishi (fotosintez) jarayonida atmosfera muhitiga qaysi gaz ajralib chiqadi?",
+        "options": [
+            "Kislorod (O2)",
+            "Azot (N2)",
+            "Vodorod (H2)",
+            "Karbonat angidrid (CO2)"
+        ],
+        "answer": "Kislorod (O2)",
+        "category": "biology"
+    },
+    {
+        "id": 79,
+        "subjectKey": "biology",
+        "title": "Gidrolizlanib kichik molekulalarga parchalanmaydigan, uglevodlarning eng oddiy vakillari bo'lgan moddalar (masalan, glyukoza, fruktoza, riboza) nima deb ataladi?",
+        "options": [
+            "Monosaxaridlar",
+            "Disaxaridlar",
+            "Polisaxaridlar",
+            "Oligosaxaridlar"
+        ],
+        "answer": "Monosaxaridlar",
+        "category": "biology"
+    },
+    {
+        "id": 80,
+        "subjectKey": "biology",
+        "title": "Yer yuzida hayotning tarqalgan qobig'i, ya'ni litosferaning yuqori qismi, gidrosfera va atmosferaning pastki qatlamlarini qamrab olgan global ekotizim nima deyiladi?",
+        "options": ["Biosfera", "Ionosfera", "Noosfera", "Gidrosfera"],
+        "answer": "Biosfera",
+        "category": "biology"
+    },
+    {
+        "id": 81,
+        "subjectKey": "biology",
+        "title": "Oqsil biosintezi jarayonida tRNK molekulasi o'zi tashiyotgan aminokislotani mRNK (aRNK) dagi mos kodonga qaysi maxsus uchlik (triplet) qismi orqali komplementar biriktiradi?",
+        "options": ["Antikodon", "Kodon", "Ekzon", "Intron"],
+        "answer": "Antikodon",
+        "category": "biology"
+    },
+    {
+        "id": 82,
+        "subjectKey": "biology",
+        "title": "Eukariot organizmlar genlarining boshlang'ich RNK nusxasidan (pro-mRNK) ma'lumotga ega bo'lmagan (kodlamaydigan) qismlarining qirqib tashlanishi jarayoni nima deyiladi?",
+        "options": [
+            "Splaysing",
+            "Transkripsiya",
+            "Translatsiya",
+            "Replikatsiya"
+        ],
+        "answer": "Splaysing",
+        "category": "biology"
+    },
+    {
+        "id": 83,
+        "subjectKey": "biology",
+        "title": "Tirik organizmlarning xususiyatlaridan foydalanib, inson uchun zarur bo'lgan moddalar (antibiotiklar, gormonlar, fermentlar) ishlab chiqaradigan sanoat sohasi qanday nomlanadi?",
+        "options": ["Biotexnologiya", "Bionika", "Biometriya", "Biofizika"],
+        "answer": "Biotexnologiya",
+        "category": "biology"
+    },
+    {
+        "id": 84,
+        "subjectKey": "biology",
+        "title": "Biotexnologiyada bir organizm genini boshqa organizm DNKsi tarkibiga (masalan, odam insulin genini bakteriya plazmidasiga) ko'chirib o'tkazish bilan shug'ullanadigan yo'nalish qaysi?",
+        "options": [
+            "Gen muhandisligi",
+            "Hujayra muhandisligi",
+            "Klonlashtirish",
+            "Sito-genetika"
+        ],
+        "answer": "Gen muhandisligi",
+        "category": "biology"
+    },
+    {
+        "id": 85,
+        "subjectKey": "biology",
+        "title": "Nerv hujayrasi (neyron)ning qo'zg'alishni boshqa neyronlarga yoki ishchi organlarga o'tkazadigan uzun, shoxlanmagan o'simtasi nima deb ataladi?",
+        "options": ["Akson", "Dendrit", "Sinaps", "Miyelin"],
+        "answer": "Akson",
+        "category": "biology"
+    },
+    {
+        "id": 86,
+        "subjectKey": "biology",
+        "title": "Nerv qo'zg'alishi (impuls) bir neyron aksonidan ikkinchi neyron dendriti yoki tanasiga o'tadigan maxsus tutashuv, aloqa joyi qanday nomlanadi?",
+        "options": ["Sinaps", "Mediator", "Reseptor", "Refleks yoyi"],
+        "answer": "Sinaps",
+        "category": "biology"
+    },
+    {
+        "id": 87,
+        "subjectKey": "biology",
+        "title": "Yurak qorinchalaridan chiqadigan va qonni yurakdan tana a'zolariga tashiydigan, devori qalin va elastik bo'lgan qon tomirlari qaysi guruhga kiradi?",
+        "options": [
+            "Arteriyalar",
+            "Venalar",
+            "Kapillyarlar",
+            "Limfa tomirlari"
+        ],
+        "answer": "Arteriyalar",
+        "category": "biology"
+    },
+    {
+        "id": 88,
+        "subjectKey": "biology",
+        "title": "Odam organizmida o'pka venalari orqali yurakning chap bo'lmachasiga quyiladigan qon qanday xususiyatga ega?",
+        "options": [
+            "Arterial qon (kislorodga boy)",
+            "Venoz qon (karbonat angidridga boy)",
+            "Aralash qon",
+            "Limfa suyuqligi aralashgan qon"
+        ],
+        "answer": "Arterial qon (kislorodga boy)",
+        "category": "biology"
+    },
+    {
+        "id": 89,
+        "subjectKey": "biology",
+        "title": "Inson evolyutsiyasida eng qadimgi odamlar (arxantrop) bosqichiga kiruvchi, suyak qoldiqlari ilk bor Yava orolidan topilgan qadimgi odam shakli qaysi?",
+        "options": ["Pitekantrop", "Sinantrop", "Neandertal", "Kromanyon"],
+        "answer": "Pitekantrop",
+        "category": "biology"
+    },
+    {
+        "id": 90,
+        "subjectKey": "biology",
+        "title": "Evolyutsiya tarixida dastlabki kiyim-kechaklar tikish, sun'iy ravishda olov hosil qilish va o'liklarni dafn etish urf-odatlari qaysi qadimgi odamlar (paleoantroplar) davrida boshlangan?",
+        "options": [
+            "Neandertallar",
+            "Pitekantroplar",
+            "Avstralopiteklar",
+            "Kromanyonlar"
+        ],
+        "answer": "Neandertallar",
+        "category": "biology"
+    },
+    {
+        "id": 91,
+        "subjectKey": "biology",
+        "title": "Antropogenezda hozirgi zamon qiyofasidagi odamlarning (Homo sapiens) bevosita ajdodi hisoblangan, ijtimoiy hayot tarzi va nutqi to'liq shakllangan qadimgi odam qaysi?",
+        "options": ["Kromanyon", "Sinantrop", "Geydelberg odami", "Neandertal"],
+        "answer": "Kromanyon",
+        "category": "biology"
+    },
+    {
+        "id": 92,
+        "subjectKey": "biology",
+        "title": "Hujayra nafas olishi jarayonida (glyukozaning kislorodsiz parchalanishi — glikoliz bosqichida) bir molekula glyukozadan nechta ATF molekulasi sintezlanadi?",
+        "options": ["2 ta ATF", "36 ta ATF", "38 ta ATF", "4 ta ATF"],
+        "answer": "2 ta ATF",
+        "category": "biology"
+    },
+    {
+        "id": 93,
+        "subjectKey": "biology",
+        "title": "Hujayra nafas olishining oxirgi kislorodli (aerob) bosqichi mitoxondriyalarning qaysi qismida fermentlar ishtirokida amalga oshadi?",
+        "options": [
+            "Kristalarida va matritsasida",
+            "Tashqi membranasida",
+            "Ribosomalarda",
+            "Yadro qobig'ida"
+        ],
+        "answer": "Kristalarida va matritsasida",
+        "category": "biology"
+    },
+    {
+        "id": 94,
+        "subjectKey": "biology",
+        "title": "O'simliklar ekologiyasida namlik yetarli bo'lgan, o'rtacha namlangan tuproqlarda o'sishga moslashgan o'simliklar ekologik guruhi (masalan, olma, bug'doy, beda) qanday nomlanadi?",
+        "options": ["Mezofitlar", "Kserofitlar", "Gidrofitlar", "Gigrofitlar"],
+        "answer": "Mezofitlar",
+        "category": "biology"
+    },
+    {
+        "id": 95,
+        "subjectKey": "biology",
+        "title": "Suvsiz va qurg'oqchil muhitda (cho'l va adirlarda) yashashga moslashgan, barglari tikanga aylangan yoki suv to'playdigan o'simliklar (masalan, kaktus, saksaul) qaysi ekologik guruhga kiradi?",
+        "options": ["Kserofitlar", "Gidrofitlar", "Mezofitlar", "Gigrofitlar"],
+        "answer": "Kserofitlar",
+        "category": "biology"
+    },
+    {
+        "id": 96,
+        "subjectKey": "biology",
+        "title": "Ko'z teshigi (qorachiq) orqali ichkariga kirayotgan yorug'lik nurlarini sindirib, ularni to'r pardaga (setchatka) aniq yo'naltiruvchi ikki tomonlama bo'rtgan shaffof linza qaysi?",
+        "options": [
+            "Ko'z gavhari",
+            "Shishasimon tana",
+            "Kamalak parda",
+            "Sklera (oq parda)"
+        ],
+        "answer": "Ko'z gavhari",
+        "category": "biology"
+    },
+    {
+        "id": 97,
+        "subjectKey": "biology",
+        "title": "Eshitish organi hisoblangan quloqning qaysi qismida tovush to'lqinlarini nerv impulslariga aylantiruvchi reseptorlar (Korti organi) joylashgan?",
+        "options": [
+            "Ichki quloqning chig'anoq qismida",
+            "O'rta quloqning eshitish suyakchalarida",
+            "Nog'ora pardaning ustki yuzasida",
+            "Tashqi eshitish yo'lida"
+        ],
+        "answer": "Ichki quloqning chig'anoq qismida",
+        "category": "biology"
+    },
+    {
+        "id": 98,
+        "subjectKey": "biology",
+        "title": "Odam organizmida fazoviy muvozanatni, harakatlar koordinatsiyasini va tana tonusini boshqaradigan bosh miya qismi qaysi?",
+        "options": ["Miyacha", "Uzunchoq miya", "O'rta miya", "Oraliq miya"],
+        "answer": "Miyacha",
+        "category": "biology"
+    },
+    {
+        "id": 99,
+        "subjectKey": "biology",
+        "title": "Embrional rivojlanish tugab, organizm tuxum qobig'idan yoki ona qornidan mustaqil hayotga chiqqandan keyingi butun umri davomidagi rivojlanish davri nima deyiladi?",
+        "options": [
+            "Postembrional rivojlanish",
+            "Embrional rivojlanish",
+            "Ontogenez bosqichi",
+            "Filogenez davri"
+        ],
+        "answer": "Postembrional rivojlanish",
+        "category": "biology"
+    },
+    {
+        "id": 100,
+        "subjectKey": "biology",
+        "title": "Biogeotsenozda (ekotizimda) biron-bir sababga ko'ra (masalan, yong'in yoki suv toshqini) bir biogeotsenozning boshqasi bilan qonuniyatli ravishda almashinish jarayoni nima deyiladi?",
+        "options": ["Sukssiya", "Evolyutsiya", "Mutatsiya", "Degradatsiya"],
+        "answer": "Sukssiya",
+        "category": "biology"
+    }
+]

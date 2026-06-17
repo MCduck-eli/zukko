@@ -1,0 +1,1067 @@
+[
+    {
+        "id": 1,
+        "subjectKey": "geography",
+        "title": "Yer sirtidagi ixtiyoriy nuqtaning boshlang'ich (Grinvich) meridiandan boshlab darajalar hisobida o'lchanadigan masofasi nima deb ataladi?",
+        "options": [
+            "Geografik uzoqlik",
+            "Geografik kenglik",
+            "Azimut",
+            "Paralellar"
+        ],
+        "answer": "Geografik uzoqlik",
+        "category": "geography"
+    },
+    {
+        "id": 2,
+        "subjectKey": "geography",
+        "title": "Yer po'sti va yuqori mantiyaning qattiq qismidan tashkil topgan, litosfera plitalariga bo'lingan Yerning tosh qobiqlari qanday nomlanadi?",
+        "options": ["Litosfera", "Atmosfera", "Gidrosfera", "Biosfera"],
+        "answer": "Litosfera",
+        "category": "geography"
+    },
+    {
+        "id": 3,
+        "subjectKey": "geography",
+        "title": "Tinch okeanining chuqurligi 11022 metr bo'lgan, sayyoramizning eng chuqur cho'kmasi (botiqligi) qaysi javobda to'g'ri ko'rsatilgan?",
+        "options": [
+            "Mariana cho'kmasi",
+            "Zond cho'kmasi",
+            "Puerto-Riko cho'kmasi",
+            "Grenlandiya botiqligi"
+        ],
+        "answer": "Mariana cho'kmasi",
+        "category": "geography"
+    },
+    {
+        "id": 4,
+        "subjectKey": "geography",
+        "title": "Atmosferaning yer sirtiga eng yaqin joylashgan, havo massasining qariyb 80 foizini o'zida jamlagan va barcha ob-havo hodisalari sodir bo'ladigan quyi qatlami qaysi?",
+        "options": ["Troposfera", "Stratosfera", "Mezosfera", "Termosfera"],
+        "answer": "Troposfera",
+        "category": "geography"
+    },
+    {
+        "id": 5,
+        "subjectKey": "geography",
+        "title": "Yer yuzida tropik yuqori bosimli o'lkalardan ekvator qatlamidagi past bosimli o'lkalarga tomon yil davomida muntazam ravishda esadigan doimiy shamollar nima deyiladi?",
+        "options": ["Passatlar", "Mussonlar", "Brizlar", "Fyonlar"],
+        "answer": "Passatlar",
+        "category": "geography"
+    },
+    {
+        "id": 6,
+        "subjectKey": "geography",
+        "title": "Maydoni jihatidan Yer yuzidagi eng yirik orol hisoblangan va Atlantika hamda Shimoliy Muz okeanlari chegarasida joylashgan hududni aniqlang.",
+        "options": ["Grenlandiya", "Madagaskar", "Yangi Gvineya", "Kalimantan"],
+        "answer": "Grenlandiya",
+        "category": "geography"
+    },
+    {
+        "id": 7,
+        "subjectKey": "geography",
+        "title": "Janubiy Amerika materigida joylashgan, dunyodagi eng uzun va suv yig'ish havzasining maydoni bo'yicha eng yirik daryo tizimi qaysi?",
+        "options": ["Amazonka", "Nil", "Missisipi", "Kongo"],
+        "answer": "Amazonka",
+        "category": "geography"
+    },
+    {
+        "id": 8,
+        "subjectKey": "geography",
+        "title": "Afrika materigining sharqiy qismida joylashgan, dunyodagi eng uzun chuchuk suvli ko'l (chuqurligi bo'yicha Baykaldan keyin ikkinchi o'rinda) qaysi?",
+        "options": ["Tanganyika", "Viktoriya", "Nyasa", "Chad"],
+        "answer": "Tanganyika",
+        "category": "geography"
+    },
+    {
+        "id": 9,
+        "subjectKey": "geography",
+        "title": "Dunyo okeanida eng yuqori sho'rlanish darajasiga (taxminan 41-42 promille) ega bo'lgan, Arabiston yarim oroli va Afrika o'rtasida joylashgan ichki dengiz qaysi?",
+        "options": [
+            "Qizil dengiz",
+            "O'rta yer dengizi",
+            "Qora dengiz",
+            "Kaspiy dengizi"
+        ],
+        "answer": "Qizil dengiz",
+        "category": "geography"
+    },
+    {
+        "id": 10,
+        "subjectKey": "geography",
+        "title": "Eurasia materigining eng baland nuqtasi bo'lgan va Himolay tog' tizmasida joylashgan cho'qqini aniqlang.",
+        "options": [
+            "Chogori (K2)",
+            "Lhotse",
+            "Jomolungma (Everest)",
+            "Kanchendjanga"
+        ],
+        "answer": "Jomolungma (Everest)",
+        "category": "geography"
+    },
+    {
+        "id": 11,
+        "subjectKey": "geography",
+        "title": "O'zbekiston Respublikasi shimoli-g'arbiy qismida Qozog'iston bilan chegaradosh hududda joylashgan, hozirgi kunda qurib borayotgan eng yirik yopiq havzali ko'l o'rni qaysi?",
+        "options": ["Orol dengizi", "Aydarkol", "Sariqamish ko'li", "Tuzkan"],
+        "answer": "Orol dengizi",
+        "category": "geography"
+    },
+    {
+        "id": 12,
+        "subjectKey": "geography",
+        "title": "O'zbekiston hududining eng baland nuqtasi — Hazrati Sulton cho'qqisi (4643 m) qaysi tog' tizmasi tarkibiga kiradi?",
+        "options": [
+            "Gissar tizmasi",
+            "Chotqol tizmasi",
+            "Zarafshon tizmasi",
+            "Turkiston tizmasi"
+        ],
+        "answer": "Gissar tizmasi",
+        "category": "geography"
+    },
+    {
+        "id": 13,
+        "subjectKey": "geography",
+        "title": "O'zbekistonning qaysi iqtisodiy rayoni (viloyati) hududida eng yirik oltin va uran konlari (Muruntov, Navoiy) hamda kimyo sanoati korxonalari joylashgan?",
+        "options": [
+            "Navoiy viloyati",
+            "Buxoro viloyati",
+            "Samarqand viloyati",
+            "Qashqadaryo viloyati"
+        ],
+        "answer": "Navoiy viloyati",
+        "category": "geography"
+    },
+    {
+        "id": 14,
+        "subjectKey": "geography",
+        "title": "O'zbekistonda rangli metallurgiya sanoatining eng yirik markazi hisoblangan, mis va rux kombinatlari joylashgan shahar qaysi?",
+        "options": ["Olmaliq", "Bekobod", "Chirchiq", "Angren"],
+        "answer": "Olmaliq",
+        "category": "geography"
+    },
+    {
+        "id": 15,
+        "subjectKey": "geography",
+        "title": "Aholisi soni bo'yicha dunyoda birinchi o'rinda turadigan va Osiyo qit'asining janubiy qismida joylashgan mamlakat qaysi?",
+        "options": ["Hindiston", "Xitoy", "Indoneziya", "Pokiston"],
+        "answer": "Hindiston",
+        "category": "geography"
+    },
+    {
+        "id": 16,
+        "subjectKey": "geography",
+        "title": "Yevropa qit'asining iqtisodiy jihatdan eng rivojlangan, 'Katta yettilik' (G7) guruhiga a'zo bo'lgan va poytaxti Berlin shahri bo'lgan davlat qaysi?",
+        "options": ["Germaniya", "Fransiya", "Buyuk Britaniya", "Italiya"],
+        "answer": "Germaniya",
+        "category": "geography"
+    },
+    {
+        "id": 17,
+        "subjectKey": "geography",
+        "title": "Shimoliy Amerika materigida joylashgan, hududining kattaligi bo'yicha dunyoda ikkinchi o'rinda turadigan va uchta okean bilan o'ralgan davlat qaysi?",
+        "options": ["Kanada", "AQSh", "Meksika", "Gvatemala"],
+        "answer": "Kanada",
+        "category": "geography"
+    },
+    {
+        "id": 18,
+        "subjectKey": "geography",
+        "title": "Yevrosiyo va Afrika materiklarini bir-biridan ajratib turuvchi, Atlantika okeani bilan O'rta yer dengizini bog'lovchi strategik bo'g'oz qaysi?",
+        "options": [
+            "Gibraltar bo'g'ozi",
+            "Suaysh kanali",
+            "Bofor bo'g'ozi",
+            "Dardanell bo'g'ozi"
+        ],
+        "answer": "Gibraltar bo'g'ozi",
+        "category": "geography"
+    },
+    {
+        "id": 19,
+        "subjectKey": "geography",
+        "title": "Dunyoda neft qazib olish va eksport qilish bo'yicha yetakchi hisoblangan, OPEK (OPEC) tashkilotining asosiy a'zosi bo'lgan Fors ko'rfazi bo'yidagi davlat qaysi?",
+        "options": ["Saudiya Arabistoni", "Eron", "Iroq", "Kuvayt"],
+        "answer": "Saudiya Arabistoni",
+        "category": "geography"
+    },
+    {
+        "id": 20,
+        "subjectKey": "geography",
+        "title": "Butun boshli materikni egallagan, eng qurg'oqchil hisoblangan va o'zining endemik hayvonlari (kenguru, evkalipt daraxti) bilan ajralib turuvchi davlat qaysi?",
+        "options": [
+            "Avstraliya Ittifoqi",
+            "Yangi Zelandiya",
+            "Janubiy Afrika Respublikasi",
+            "Madagaskar"
+        ],
+        "answer": "Avstraliya Ittifoqi",
+        "category": "geography"
+    },
+    {
+        "id": 21,
+        "subjectKey": "geography",
+        "title": "Yerning geologik rivojlanish tarixida eng qadimgi va hayot deyarli mavjud bo'lmagan, 'hayotsiz davr' deb ataladigan era qaysi?",
+        "options": [
+            "Arxey erasi",
+            "Proterozoy erasi",
+            "Paleozoy erasi",
+            "Mezozoy erasi"
+        ],
+        "answer": "Arxey erasi",
+        "category": "geography"
+    },
+    {
+        "id": 22,
+        "subjectKey": "geography",
+        "title": "Atmosfera bosimining hududlar bo'ylab taqsimlanishini xaritada bir xil bosimli nuqtalarni tutashtirib ko'rsatuvchi chiziqlar nima deyiladi?",
+        "options": ["Izobaralar", "Izotermalar", "Izogiyetalar", "Izogipsalar"],
+        "answer": "Izobaralar",
+        "category": "geography"
+    },
+    {
+        "id": 23,
+        "subjectKey": "geography",
+        "title": "Atlantika okeanining shimoliy qismida joylashgan, qirg'oqlari bo'lmagan, faqat okean oqimlari bilan o'ralgan yagona dengiz qaysi?",
+        "options": [
+            "Sargas dengizi",
+            "Karib dengizi",
+            "Shimoliy dengiz",
+            "Toshqinlar dengizi"
+        ],
+        "answer": "Sargas dengizi",
+        "category": "geography"
+    },
+    {
+        "id": 24,
+        "subjectKey": "geography",
+        "title": "Shimoliy Amerika materigining eng past botiqligi bo'lgan, dengiz sathidan 86 metr pastda joylashgan hamda juda yuqori harorati bilan ajralib turadigan hudud qaysi?",
+        "options": [
+            "O'lim vodiysi (Death Valley)",
+            "Katta Havza",
+            "Preriyalar pasttekisligi",
+            "Appalach tog' oldi"
+        ],
+        "answer": "O'lim vodiysi (Death Valley)",
+        "category": "geography"
+    },
+    {
+        "id": 25,
+        "subjectKey": "geography",
+        "title": "Janubiy Amerika materigining janubiy qismida joylashgan, asosan chalachol va quruq dashtlardan iborat bo'lgan o'ziga xos tabiiy o'lka qanday nomlanadi?",
+        "options": ["Patagoniya", "Pampa", "Selva", "Lyanos"],
+        "answer": "Patagoniya",
+        "category": "geography"
+    },
+    {
+        "id": 26,
+        "subjectKey": "geography",
+        "title": "Avstraliya materigining sharqiy qirg'oqlari bo'ylab cho'zilgan, dunyodagi eng yirik marjon riflari tizimi qanday ataladi?",
+        "options": [
+            "Katta To'siq rifi",
+            "Katta Suvayirg'ich tizmasi",
+            "Kiklad marjonlari",
+            "Maldiv marjon zanjiri"
+        ],
+        "answer": "Katta To'siq rifi",
+        "category": "geography"
+    },
+    {
+        "id": 27,
+        "subjectKey": "geography",
+        "title": "Ekvatorial kengliklarda namlik va issiqlik juda yuqori bo'lgan, doimiy yashil, ko'p yarusli o'rmonlar zonasi Afrika va Janubiy Amerikada qanday nomlanadi?",
+        "options": ["Gileya (Gilealar)", "Savannalar", "Tayga", "Pretextlar"],
+        "answer": "Gileya (Gilealar)",
+        "category": "geography"
+    },
+    {
+        "id": 28,
+        "subjectKey": "geography",
+        "title": "Dunyodagi eng chuqur chuchuk suvli ko'l bo'lgan va Yevrosiyo materigining markaziy qismida joylashgan tektonik ko'lni aniqlang.",
+        "options": [
+            "Baykal ko'li",
+            "Kaspiy dengizi",
+            "Balxash ko'li",
+            "Ladoqa ko'li"
+        ],
+        "answer": "Baykal ko'li",
+        "category": "geography"
+    },
+    {
+        "id": 29,
+        "subjectKey": "geography",
+        "title": "O'zbekiston hududida yoz oylarida shakllanadigan, ob-havoning juda issiq, quruq va chang-to'zonli bo'lishiga sabab bo'ladigan mahalliy shamol qanday ataladi?",
+        "options": [
+            "Garmsel",
+            "Afg'on shamoli",
+            "Bekobod shamoli",
+            "Ko'qon shamoli"
+        ],
+        "answer": "Garmsel",
+        "category": "geography"
+    },
+    {
+        "id": 30,
+        "subjectKey": "geography",
+        "title": "O'zbekistonning eng uzun ichki daryosi bo'lgan, boshlanishini Farg'ona vodiysidagi tog'lardan olib, Sirdaryoga quyiladigan daryoni ko'rsating.",
+        "options": [
+            "Norin daryosi",
+            "Zarafshon daryosi",
+            "Chirchiq daryosi",
+            "Surxondaryo"
+        ],
+        "answer": "Norin daryosi",
+        "category": "geography"
+    },
+    {
+        "id": 31,
+        "subjectKey": "geography",
+        "title": "O'zbekistondagi eng yirik issiqlik elektr stansiyasi (IES) hisoblangan va Toshkent viloyatida joylashgan yirik energetika ob'ekti qaysi?",
+        "options": [
+            "Yangi Toshkent IES",
+            "Sirdaryo IES",
+            "Navoiy IES",
+            "Tursun-Zoda IES"
+        ],
+        "answer": "Yangi Toshkent IES",
+        "category": "geography"
+    },
+    {
+        "id": 32,
+        "subjectKey": "geography",
+        "title": "O'zbekiston tarkibidagi qaysi suveren respublika hududida Ustyurt platosi, chiroyli qoyalar va qadimiy Amudaryo deltasining qoldiqlari joylashgan?",
+        "options": [
+            "Qoraqalpog'iston Respublikasi",
+            "Xorazm viloyati",
+            "Buxoro viloyati",
+            "Surxondaryo viloyati"
+        ],
+        "answer": "Qoraqalpog'iston Respublikasi",
+        "category": "geography"
+    },
+    {
+        "id": 33,
+        "subjectKey": "geography",
+        "title": "Aholi zichligi o'rtacha eng yuqori bo'lgan va poytaxti Tokio shahri hisoblangan Sharqiy Osiyodagi orol-davlat qaysi?",
+        "options": ["Yaponiya", "Janubiy Koreya", "Filippin", "Tayvan"],
+        "answer": "Yaponiya",
+        "category": "geography"
+    },
+    {
+        "id": 34,
+        "subjectKey": "geography",
+        "title": "Yevropadagi hududining bir qismi shimoliy qutb doirasiga kiradigan, o'zining fiyordlari (chuqur dengiz qo'ltiqlari) bilan mashhur bo'lgan qirollik davlati qaysi?",
+        "options": ["Norvegiya", "Shvetsiya", "Finlyandiya", "Daniya"],
+        "answer": "Norvegiya",
+        "category": "geography"
+    },
+    {
+        "id": 35,
+        "subjectKey": "geography",
+        "title": "Janubiy Amerikada joylashgan, hududida eng yirik tropik o'rmonlar joylashgan va kofe yetishtirish bo'yicha dunyoda birinchi o'rinda turadigan davlat qaysi?",
+        "options": ["Braziliya", "Argentina", "Kolumbiya", "Venesuela"],
+        "answer": "Braziliya",
+        "category": "geography"
+    },
+    {
+        "id": 36,
+        "subjectKey": "geography",
+        "title": "Yer yuzida aholi soni va iqtisodiy quvvati eng tez o'sib borayotgan hududlardan biri bo'lgan, poytaxti Jakarta shahri (yangi poytaxt — Nusantara) bo'lgan minglab orollardan iborat davlat qaysi?",
+        "options": ["Indoneziya", "Malayziya", "Filippin", "Vetnam"],
+        "answer": "Indoneziya",
+        "category": "geography"
+    },
+    {
+        "id": 37,
+        "subjectKey": "geography",
+        "title": "Yevropa va Osiyo qit'alarini hamda O'rta yer va Qora dengizlarini bir-biri bilan bog'lab turuvchi eng tor xalqaro strategik bo'g'oz qaysi?",
+        "options": [
+            "Bosfor bo'g'ozi",
+            "Gibraltar bo'g'ozi",
+            "La-Mansh bo'g'ozi",
+            "Malakka bo'g'ozi"
+        ],
+        "answer": "Bosfor bo'g'ozi",
+        "category": "geography"
+    },
+    {
+        "id": 38,
+        "subjectKey": "geography",
+        "title": "Dunyo okeani suvlari harakatida chuqur va keng ko'lamli ta'sirga ega bo'lgan, Atlantika okeanining shimoliy qismida oquvchi eng kuchli iliq okean oqimi qaysi?",
+        "options": ["Golfstrim", "Kuroshio", "Labrador", "Bengela"],
+        "answer": "Golfstrim",
+        "category": "geography"
+    },
+    {
+        "id": 39,
+        "subjectKey": "geography",
+        "title": "Afrika materigining shimolida joylashgan, maydoni jihatidan dunyodagi eng ulkan va eng issiq qumli-toshli cho'l qaysi?",
+        "options": ["Sahroi Kabir", "Kalahari", "Namib", "Gobi"],
+        "answer": "Sahroi Kabir",
+        "category": "geography"
+    },
+    {
+        "id": 40,
+        "subjectKey": "geography",
+        "title": "Shimoliy Amerika va Janubiy Amerika materiklarini bir-biri bilan bog'lab turuvchi, Tinch va Atlantika okeanlarini esa ajratib turuvchi sun'iy xalqaro kanal qaysi?",
+        "options": [
+            "Panama kanali",
+            "Suaysh kanali",
+            "Kil kanali",
+            "Koriinf kanali"
+        ],
+        "answer": "Panama kanali",
+        "category": "geography"
+    },
+    {
+        "id": 41,
+        "subjectKey": "geography",
+        "title": "Litosfera plitalarining bir-biri bilan to'qnashishi va birining ikkinchisi ostiga kirishi (subduksiya) natijasida quruqlikda qanday yirik relyef shakllari vujudga keladi?",
+        "options": [
+            "Burmali tog'lar va chuqur botiqlar",
+            "Yassi tekisliklar",
+            "Okean o'rta tizmalari",
+            "Platforma poydevorlari"
+        ],
+        "answer": "Burmali tog'lar va chuqur botiqlar",
+        "category": "geography"
+    },
+    {
+        "id": 42,
+        "subjectKey": "geography",
+        "title": "Shimoliy va janubiy yarimsharlarning 30-40° kengliklari oralig'ida joylashgan, yozda tropik, qishda esa mo'tadil havo massalari hukmron bo'ladigan o'tish iqlim poyasini aniqlang.",
+        "options": [
+            "Subtropik iqlim poyasi",
+            "Subekvatorial iqlim poyasi",
+            "Mo'tadil iqlim poyasi",
+            "Subarktika iqlim poyasi"
+        ],
+        "answer": "Subtropik iqlim poyasi",
+        "category": "geography"
+    },
+    {
+        "id": 43,
+        "subjectKey": "geography",
+        "title": "Hind okeanining shimoliy qismida materik va okean orasidagi harorat hamda bosimning fasliy o'zgarishi natijasida yozda va qishda yo'nalishini qarama-qarshiga o'zgartiruvchi shamollar qanday ataladi?",
+        "options": ["Mussonlar", "Passatlar", "Garmsellar", "Brizlar"],
+        "answer": "Mussonlar",
+        "category": "geography"
+    },
+    {
+        "id": 44,
+        "subjectKey": "geography",
+        "title": "Shimoliy yarimsharda joylashgan, maydoni bo'yicha dunyodagi eng yirik ichki quruqlik dengizi (yoki eng ulkan oqmas ko'li) hisoblangan havza qaysi?",
+        "options": [
+            "Kaspiy dengizi",
+            "O'lik dengiz",
+            "Baykal ko'li",
+            "Orol dengizi"
+        ],
+        "answer": "Kaspiy dengizi",
+        "category": "geography"
+    },
+    {
+        "id": 45,
+        "subjectKey": "geography",
+        "title": "Janubiy Amerika materigining g'arbiy sohili bo'ylab minglab kilometrga cho'zilgan, dunyodagi eng uzun tog' tizmasi qaysi?",
+        "options": [
+            "And tog'lari",
+            "Kordilyer tog'lari",
+            "Atlas tog'lari",
+            "Alp tog'lari"
+        ],
+        "answer": "And tog'lari",
+        "category": "geography"
+    },
+    {
+        "id": 46,
+        "subjectKey": "geography",
+        "title": "Shimoliy Amerika materigida joylashgan, dunyodagi eng uzun va tarmoqlangan karst g'orlari tizimi qanday nomlanadi?",
+        "options": [
+            "Mamont g'ori",
+            "Flint-Meymut",
+            "Optimistika g'ori",
+            "Chilustun g'ori"
+        ],
+        "answer": "Mamont g'ori",
+        "category": "geography"
+    },
+    {
+        "id": 47,
+        "subjectKey": "geography",
+        "title": "Afrikaning markaziy qismidan oqib o'tuvchi, ekvator chizig'ini ikki marta kesib o'tadigan va suvining ko'pligi bo'yicha dunyoda ikkinchi o'rinda turadigan daryo qaysi?",
+        "options": ["Kongo (Zair)", "Nil", "Zambezi", "Niger"],
+        "answer": "Kongo (Zair)",
+        "category": "geography"
+    },
+    {
+        "id": 48,
+        "subjectKey": "geography",
+        "title": "Avstraliya materigining markaziy va g'arbiy qismidagi suvsiz, faqat vaqtincha yomg'ir yoqqanda suv oqadigan qurib qolgan daryo o'zanlari nima deb ataladi?",
+        "options": ["Kriklar", "Vadilar", "Salar", "Saylar"],
+        "answer": "Kriklar",
+        "category": "geography"
+    },
+    {
+        "id": 49,
+        "subjectKey": "geography",
+        "title": "O'zbekiston hududining tekislik qismida eng keng maydonni egallagan, qum barxanlari va cho'l o'simliklari bilan ajralib turadigan plato va cho'l tizimi qaysi?",
+        "options": [
+            "Qizilqum cho'li",
+            "Qoraqum cho'li",
+            "Mirzacho'l",
+            "Ustyurt platosi"
+        ],
+        "answer": "Qizilqum cho'li",
+        "category": "geography"
+    },
+    {
+        "id": 50,
+        "subjectKey": "geography",
+        "title": "O'zbekiston Respublikasining maydoni jihatidan eng kichik, biroq aholi soni va zichligi eng yuqori bo'lgan tabiiy-iqtisodiy hududi (viloyati) qaysi?",
+        "options": [
+            "Andijon viloyati",
+            "Farg'ona viloyati",
+            "Namangan viloyati",
+            "Sirdaryo viloyati"
+        ],
+        "answer": "Andijon viloyati",
+        "category": "geography"
+    },
+    {
+        "id": 51,
+        "subjectKey": "geography",
+        "title": "O'zbekistonda qora metallurgiya sanoatining eng yirik korxonasi — Metallurgiya kombinati qaysi shaharda faoliyat ko'rsatadi?",
+        "options": ["Bekobod", "Olmaliq", "Chirchiq", "Chinoz"],
+        "answer": "Bekobod",
+        "category": "geography"
+    },
+    {
+        "id": 52,
+        "subjectKey": "geography",
+        "title": "Mamlakat aholisining tug'ilishi va o'limi o'rtasidagi tafovut natijasida aholi sonining tabiiy ravishda ko'payishi geografiyada nima deb ataladi?",
+        "options": [
+            "Tabiiy ko'payish",
+            "Migratsiya",
+            "Urbanizatsiya",
+            "Demografik inqiroz"
+        ],
+        "answer": "Tabiiy ko'payish",
+        "category": "geography"
+    },
+    {
+        "id": 53,
+        "subjectKey": "geography",
+        "title": "Jahonda iqtisodiy rivojlanganlik darajasi yuqori bo'lgan, poytaxti London shahri bo'lgan va to'rtta tarixiy hududdan iborat orol-davlat qaysi?",
+        "options": [
+            "Buyuk Britaniya",
+            "Islandiya",
+            "Irlandiya",
+            "Yangi Zelandiya"
+        ],
+        "answer": "Buyuk Britaniya",
+        "category": "geography"
+    },
+    {
+        "id": 54,
+        "subjectKey": "geography",
+        "title": "Yevropaning janubida joylashgan, relyefi asosan tog'li (Apennin tog'lari) va xaritadagi ko'rinishi 'etik' shakliga o'xshash bo'lgan davlat qaysi?",
+        "options": ["Italiya", "Ispaniya", "Gretsiya", "Fransiya"],
+        "answer": "Italiya",
+        "category": "geography"
+    },
+    {
+        "id": 55,
+        "subjectKey": "geography",
+        "title": "Osiyoning janubiy-g'arbida joylashgan, hududidan Frot va Dasht daryolari o'tib, qadimgi Mesopotamiya sivilizatsiyasi beshigi bo'lgan hozirgi davlat qaysi?",
+        "options": ["Iroq", "Suriya", "Eron", "Turkiya"],
+        "answer": "Iroq",
+        "category": "geography"
+    },
+    {
+        "id": 56,
+        "subjectKey": "geography",
+        "title": "Shimoliy Amerika materigining janubiy qismida joylashgan, ispan tilida so'zlashuvchi, neft qazib olish va turizm sohasi rivojlangan yirik federativ davlat qaysi?",
+        "options": ["Meksika", "Kuba", "Gvatemala", "Gonduras"],
+        "answer": "Meksika",
+        "category": "geography"
+    },
+    {
+        "id": 57,
+        "subjectKey": "geography",
+        "title": "Janubiy yarimsharda joylashgan, Tinch va Atlantika okeanlari suvlari yuvib turadigan, hududi bo'yicha Janubiy Amerikada ikkinchi o'rinda turadigan yirik agrar-industrial davlat qaysi?",
+        "options": ["Argentina", "Chili", "Peru", "Kolumbiya"],
+        "answer": "Argentina",
+        "category": "geography"
+    },
+    {
+        "id": 58,
+        "subjectKey": "geography",
+        "title": "Jahonda avtomobilsozlik, elektronika va kemasozlik sanoati nihoyatda rivojlangan, poytaxti Seul shahri bo'lgan Sharqiy Osiyodagi davlat qaysi?",
+        "options": ["Janubiy Koreya", "Singapur", "Malayziya", "Tailand"],
+        "answer": "Janubiy Koreya",
+        "category": "geography"
+    },
+    {
+        "id": 59,
+        "subjectKey": "geography",
+        "title": "Shimoliy Muz okeani va Tinch okeanini o'zaro bog'lab turuvchi, Yevrosiyo va Shimoliy Amerika materiklarini esa ajratuvchi xalqaro chegaradagi bo'g'oz qaysi?",
+        "options": [
+            "Bering bo'g'ozi",
+            "Dreyk bo'g'ozi",
+            "Magellan bo'g'ozi",
+            "Kuk bo'g'ozi"
+        ],
+        "answer": "Bering bo'g'ozi",
+        "category": "geography"
+    },
+    {
+        "id": 60,
+        "subjectKey": "geography",
+        "title": "Dunyoda o'rmon maydonlarining kengligi va yog'och tayyorlash, shuningdek, chuchuk suv zaxiralari bo'yicha yetakchi o'rinlarda turadigan, Yevrosiyoning shimolini egallagan davlat qaysi?",
+        "options": ["Rossiya", "Kanada", "Xitoy", "Shvetsiya"],
+        "answer": "Rossiya",
+        "category": "geography"
+    },
+    {
+        "id": 61,
+        "subjectKey": "geography",
+        "title": "Yer po'stining nisbatan barqaror, harakat kam bo'ladigan va uzoq geologik davrlar davomida tekislanib qolgan qadimiy qismlari nima deb ataladi?",
+        "options": [
+            "Platformalar",
+            "Geosinklinallar",
+            "Burmali zonalar",
+            "Rift vodiylari"
+        ],
+        "answer": "Platformalar",
+        "category": "geography"
+    },
+    {
+        "id": 62,
+        "subjectKey": "geography",
+        "title": "Tinch okeanining olovli halqasi mintaqasida joylashgan, tez-tez kuchli zilzilalar va vulqonlar sodir bo'lib turadigan yosh burmali tog' tizimlarini aniqlang.",
+        "options": [
+            "Kordilyer va And tog'lari",
+            "Ural va Appalachi tog'lari",
+            "Siyan va Oltoy tog'lari",
+            "Skandinaviya tog'lari"
+        ],
+        "answer": "Kordilyer va And tog'lari",
+        "category": "geography"
+    },
+    {
+        "id": 63,
+        "subjectKey": "geography",
+        "title": "Shimoliy Amerika materigining eng chekka shimoliy nuqtasi qaysi burun hisoblanadi?",
+        "options": [
+            "Murchison burni",
+            "Mariya-Vandimen burni",
+            "Frans-Yozif burni",
+            "Stirregud burni"
+        ],
+        "answer": "Murchison burni",
+        "category": "geography"
+    },
+    {
+        "id": 64,
+        "subjectKey": "geography",
+        "title": "Avstraliya materigining eng chekka g'arbiy nuqtasi qaysi javobda to'g'ri ko'rsatilgan?",
+        "options": [
+            "Steep-Point burni",
+            "Bayron burni",
+            "Saut-Isk burni",
+            "York burni"
+        ],
+        "answer": "Steep-Point burni",
+        "category": "geography"
+    },
+    {
+        "id": 65,
+        "subjectKey": "geography",
+        "title": "Dunyo okeanidan ajralgan, ammo uning tarkibiy qismi hisoblangan, uch tomondan quruqlik bilan o'ralgan suv havzasi qanday nomlanadi?",
+        "options": ["Qo'ltiq", "Bo'g'oz", "Dengiz", "Estuariy"],
+        "answer": "Qo'ltiq",
+        "category": "geography"
+    },
+    {
+        "id": 66,
+        "subjectKey": "geography",
+        "title": "Janubiy Amerikaning Venesuela hududida joylashgan, dunyodagi eng baland sharshara (979 metr) qaysi?",
+        "options": ["Anxel", "Niagara", "Viktoriya", "Iguasu"],
+        "answer": "Anxel",
+        "category": "geography"
+    },
+    {
+        "id": 67,
+        "subjectKey": "geography",
+        "title": "O'zbekiston hududidan oqib o'tuvchi va Orol dengizi havzasiga quyiladigan eng sersuv daryoni aniqlang.",
+        "options": ["Amudaryo", "Sirdaryo", "Zarafshon", "Qashqadaryo"],
+        "answer": "Amudaryo",
+        "category": "geography"
+    },
+    {
+        "id": 68,
+        "subjectKey": "geography",
+        "title": "O'zbekistondagi eng yirik ko'mir koni (qo'ng'ir ko'mir) qayerda joylashgan?",
+        "options": [
+            "Angren koni",
+            "Sharg'un koni",
+            "Boysun koni",
+            "Lashkarak koni"
+        ],
+        "answer": "Angren koni",
+        "category": "geography"
+    },
+    {
+        "id": 69,
+        "subjectKey": "geography",
+        "title": "O'zbekistonning qaysi viloyatida eng yirik gaz-kimyo majmualari (Sho'rtan, Muborak) joylashgan?",
+        "options": [
+            "Qashqadaryo viloyati",
+            "Buxoro viloyati",
+            "Surxondaryo viloyati",
+            "Navoiy viloyati"
+        ],
+        "answer": "Qashqadaryo viloyati",
+        "category": "geography"
+    },
+    {
+        "id": 70,
+        "subjectKey": "geography",
+        "title": "Yevropadagi eng uzun va sersuv daryo bo'lib, o'z suvini Kaspiy dengiziga quyadigan ichki havza daryosi qaysi?",
+        "options": ["Volga", "Dunay", "Reyn", "Dnepri"],
+        "answer": "Volga",
+        "category": "geography"
+    },
+    {
+        "id": 71,
+        "subjectKey": "geography",
+        "title": "Yevropaning g'arbiy qismida joylashgan, qishloq xo'jaligi, parfyumeriya va yuqori texnologiyali transport (TGV) tizimlari rivojlangan poytaxti Parij bo'lgan davlat qaysi?",
+        "options": ["Fransiya", "Ispaniya", "Germaniya", "Belgiya"],
+        "answer": "Fransiya",
+        "category": "geography"
+    },
+    {
+        "id": 72,
+        "subjectKey": "geography",
+        "title": "Afrikadagi aholi soni eng ko'p bo'lgan va yirik neft zaxiralariga ega Gvineya qo'ltig'i bo'yida joylashgan davlat qaysi?",
+        "options": [
+            "Nigeriya",
+            "Misr",
+            "Efiopiya",
+            "Janubiy Afrika Respublikasi"
+        ],
+        "answer": "Nigeriya",
+        "category": "geography"
+    },
+    {
+        "id": 73,
+        "subjectKey": "geography",
+        "title": "Shimoliy va Janubiy yarimsharlarni ajratib turuvchi, 0 darajali eng uzun geografik parallel nima deb ataladi?",
+        "options": ["Ekvator", "Grinvich", "Tropik chizig'i", "Qutb doirasi"],
+        "answer": "Ekvator",
+        "category": "geography"
+    },
+    {
+        "id": 74,
+        "subjectKey": "geography",
+        "title": "Osiyoning janubi-sharqida joylashgan, hududining katta qismi Indoxitoy yarim orolida joylashgan va guruch eksport qilish bo'yicha yetakchi bo'lgan davlat qaysi?",
+        "options": ["Tailand", "Filippin", "Malayziya", "Mavrikiy"],
+        "answer": "Tailand",
+        "category": "geography"
+    },
+    {
+        "id": 75,
+        "subjectKey": "geography",
+        "title": "Yer yuzida quyosh radiatsiyasi miqdori eng yuqori bo'lgan va yil davomida havo harorati deyarli o'zgarmasdan yuqori bo'lib turadigan poyas qaysi?",
+        "options": [
+            "Ekvatorial iqlim poyasi",
+            "Mo'tadil iqlim poyasi",
+            "Tropik iqlim poyasi",
+            "Arktika iqlim poyasi"
+        ],
+        "answer": "Ekvatorial iqlim poyasi",
+        "category": "geography"
+    },
+    {
+        "id": 76,
+        "subjectKey": "geography",
+        "title": "Jahondagi eng yirik xalqaro iqtisodiy-siyosiy tashkilot hisoblangan Yevropa Ittifoqining (EI) bosh qarorgohi qaysi shaharda joylashgan?",
+        "options": ["Brussel", "Strasburg", "Parij", "Jeneva"],
+        "answer": "Brussel",
+        "category": "geography"
+    },
+    {
+        "id": 77,
+        "subjectKey": "geography",
+        "title": "Dunyo okeani tubidagi litosfera plitalarining bir-biridan uzoqlashishi (divergensiya) natijasida hosil bo'ladigan ulkan relyef shakllari nima deyiladi?",
+        "options": [
+            "Okean o'rta tizmalari",
+            "Chuqur okean botiqlari",
+            "Materik yonbag'irlari",
+            "Shelflar"
+        ],
+        "answer": "Okean o'rta tizmalari",
+        "category": "geography"
+    },
+    {
+        "id": 78,
+        "subjectKey": "geography",
+        "title": "Shimoliy Amerikaning g'arbiy qismida, Kordilyer tog'lari orasida joylashgan, Kolorado daryosi tomonidan o'yilgan dunyodagi eng ulkan kanyon qaysi?",
+        "options": [
+            "Katta Kanyon (Grand Canyon)",
+            "Kolorado botiqligi",
+            "Katta Havza kanyoni",
+            "Appalachi darasi"
+        ],
+        "answer": "Katta Kanyon (Grand Canyon)",
+        "category": "geography"
+    },
+    {
+        "id": 79,
+        "subjectKey": "geography",
+        "title": "Jahonda qo'y junini tayyorlash va eksport qilish bo'yicha yetakchi o'rinlarda turadigan, asosan cho'l va yarimcho'llardan iborat bo'lgan mitti qit'adagi davlat qaysi?",
+        "options": [
+            "Avstraliya Ittifoqi",
+            "Yangi Zelandiya",
+            "Mavrikiy",
+            "Madagaskar"
+        ],
+        "answer": "Avstraliya Ittifoqi",
+        "category": "geography"
+    },
+    {
+        "id": 80,
+        "subjectKey": "geography",
+        "title": "Janubiy Amerika materigida joylashgan, dunyodagi eng baland tog' ko'li (chuchuk suvli va kema qatnaydigan) hisoblangan havza qaysi?",
+        "options": ["Titikaka", "Marakaybo", "Poopo", "Buenos-Ayres"],
+        "answer": "Titikaka",
+        "category": "geography"
+    },
+    {
+        "id": 81,
+        "subjectKey": "geography",
+        "title": "Yer po'stida tarqalishi va kelib chiqishiga ko'ra organik qoldiqlarning uzoq vaqt davomida parchalanishidan hosil bo'ladigan yoqilg'i foydali qazilmalari qaysi guruhga kiradi?",
+        "options": [
+            "Cho'kindi foydali qazilmalar",
+            "Magmatik foydali qazilmalar",
+            "Metamorfik foydali qazilmalar",
+            "Tektonik foydali qazilmalar"
+        ],
+        "answer": "Cho'kindi foydali qazilmalar",
+        "category": "geography"
+    },
+    {
+        "id": 82,
+        "subjectKey": "geography",
+        "title": "Yer yuzasidagi jinslarning quyosh issiqligi, muzlash, shamol va suv ta'sirida yemirilishi hamda maydalanishi jarayoni geografiyada nima deyiladi?",
+        "options": [
+            "Yemirilishi (Nurash)",
+            "Metomorfizm",
+            "Subduksiya",
+            "Eroziya"
+        ],
+        "answer": "Yemirilishi (Nurash)",
+        "category": "geography"
+    },
+    {
+        "id": 83,
+        "subjectKey": "geography",
+        "title": "Mo'tadil iqlim poyasining dasht va o'rmon-dasht zonalarida shakllanadigan, chirindi (gumus) miqdori juda yuqori bo'lgan eng unumdor tuproq turi qaysi?",
+        "options": [
+            "Qora tuproqlar",
+            "Podzol tuproqlar",
+            "Sur tuproqlar",
+            "Laterit tuproqlar"
+        ],
+        "answer": "Qora tuproqlar",
+        "category": "geography"
+    },
+    {
+        "id": 84,
+        "subjectKey": "geography",
+        "title": "Shimoliy yarimsharda okean suvlari yuzasining umumiy harakati (tsirkulyatsiyasi) Yerning o'z o'qi atrofida aylanish kuchi (Koriolis kuchi) ta'sirida qaysi yo'nalishda buriladi?",
+        "options": [
+            "Soat mili yo'nalishi bo'yicha",
+            "Soat miliga qarshi yo'nalishda",
+            "Faqat g'arbdan sharqqa tomon",
+            "Faqat janubdan shimolga tomon"
+        ],
+        "answer": "Soat mili yo'nalishi bo'yicha",
+        "category": "geography"
+    },
+    {
+        "id": 85,
+        "subjectKey": "geography",
+        "title": "Tinch okeanining ekvatorial qismida suv yuzasi haroratining davriy ravishda anomal ko'tarilishi natijasida global iqlimga, qurg'oqchilik va toshqinlarga sabab bo'luvchi tabiiy hodisa qanday ataladi?",
+        "options": ["El-Ninyo", "La-Ninya", "Tsunami", "Tayfun"],
+        "answer": "El-Ninyo",
+        "category": "geography"
+    },
+    {
+        "id": 86,
+        "subjectKey": "geography",
+        "title": "Yevrosiyo materigining eng chekka janubiy nuqtasi hisoblangan, Malakka yarim orolida joylashgan burunni aniqlang.",
+        "options": [
+            "Piay burni",
+            "Chelyuskin burni",
+            "Dejnev burni",
+            "Roka burni"
+        ],
+        "answer": "Piay burni",
+        "category": "geography"
+    },
+    {
+        "id": 87,
+        "subjectKey": "geography",
+        "title": "O'zbekiston hududining tekislik qismida joylashgan, qurilishi 1940-yillarda boshlangan va Farg'ona vodiysi yerlarini sug'orishda eng muhim rol o'ynovchi ulkan gidrotexnikaviy inshoot qaysi?",
+        "options": [
+            "Katta Farg'ona kanali",
+            "Janubiy Mirzacho'l kanali",
+            "Eski Angren kanali",
+            "Amu-Buxoro kanali"
+        ],
+        "answer": "Katta Farg'ona kanali",
+        "category": "geography"
+    },
+    {
+        "id": 88,
+        "subjectKey": "geography",
+        "title": "O'zbekistonda xalqaro ahamiyatga ega bo'lgan, noyob tog' ekotizimlarini hamda Hisor tog' tizmasidagi muzliklarni muhofaza qiluvchi eng yirik davlat qo'riqxonasi qaysi?",
+        "options": [
+            "Hisor davlat qo'riqxonasi",
+            "Zomin davlat qo'riqxonasi",
+            "Chatqol davlat qo'riqxonasi",
+            "Qizilqum davlat qo'riqxonasi"
+        ],
+        "answer": "Hisor davlat qo'riqxonasi",
+        "category": "geography"
+    },
+    {
+        "id": 89,
+        "subjectKey": "geography",
+        "title": "O'zbekistonning qaysi viloyatida tabiiy ipak tolasidan tayyorlanadigan milliy matolar (atlas, adras) to'qish sanoatining qadimiy va eng yirik markazlari (Marg'ilon) joylashgan?",
+        "options": [
+            "Farg'ona viloyati",
+            "Andijon viloyati",
+            "Namangan viloyati",
+            "Buxoro viloyati"
+        ],
+        "answer": "Farg'ona viloyati",
+        "category": "geography"
+    },
+    {
+        "id": 90,
+        "subjectKey": "geography",
+        "title": "Ma'lum bir mamlakat yoki hududda 1 kilometr kvadrat maydonga to'g'ri keladigan o'rtacha aholi soni geografiyada qanday ko'rsatkich hisoblanadi?",
+        "options": [
+            "Aholi zichligi",
+            "Urbanizatsiya darajasi",
+            "Demografik sig'im",
+            "Migratsiya saldosi"
+        ],
+        "answer": "Aholi zichligi",
+        "category": "geography"
+    },
+    {
+        "id": 91,
+        "subjectKey": "geography",
+        "title": "Aholisining katta qismi shaharlarda yashaydigan va shahar turmush tarzining mamlakat bo'ylab keng yoyilishi jarayoni nima deb ataladi?",
+        "options": [
+            "Urbanizatsiya",
+            "Agregatsiya",
+            "Suburbanizatsiya",
+            "Demografik portlash"
+        ],
+        "answer": "Urbanizatsiya",
+        "category": "geography"
+    },
+    {
+        "id": 92,
+        "subjectKey": "geography",
+        "title": "Markaziy Amerikaning eng yirik orol-davlatlaridan biri bo'lgan, poytaxti Gavana shahri hisoblangan va qand lavlagi hamda tamaki yetishtirishga ixtisoslashgan mamlakat qaysi?",
+        "options": ["Kuba", "Yamayka", "Gaiti", "Bagama orollari"],
+        "answer": "Kuba",
+        "category": "geography"
+    },
+    {
+        "id": 93,
+        "subjectKey": "geography",
+        "title": "Yevropaning shimolida joylashgan, hududining ko'p qismi o'rmonlar (tayga) bilan qoplangan, qog'oz va sellyuloza sanoati nihoyatda rivojlangan 'ming ko'llar o'lkasi' qaysi?",
+        "options": ["Finlyandiya", "Shvetsiya", "Islandiya", "Daniya"],
+        "answer": "Finlyandiya",
+        "category": "geography"
+    },
+    {
+        "id": 94,
+        "subjectKey": "geography",
+        "title": "Yevropaning markazida joylashgan, dengizga chiqish imkoniyati bo'lmagan, lekin xalqaro bank tizimi, soatsozlik va yuqori sifatli pishloq ishlab chiqarishi bilan mashhur neytral davlat qaysi?",
+        "options": ["Shveytsariya", "Avstriya", "Belgiya", "Lyuksemburg"],
+        "answer": "Shveytsariya",
+        "category": "geography"
+    },
+    {
+        "id": 95,
+        "subjectKey": "geography",
+        "title": "Janubiy Osiyoda joylashgan, hududining katta qismi daryo deltasidan (Ganga va Brahmaputra) iborat bo'lgan, tez-tez halokatli tayfunlar va toshqinlar sodir bo'ladigan aholisi juda zich davlat qaysi?",
+        "options": ["Bangladesh", "Pokiston", "Shri-Lanka", "Nepal"],
+        "answer": "Bangladesh",
+        "category": "geography"
+    },
+    {
+        "id": 96,
+        "subjectKey": "geography",
+        "title": "Shimoliy Afrikada O'rta yer dengizi bo'yida joylashgan, hududidan dunyodagi eng uzun daryolardan biri oqib o'tuvchi, qadimgi madaniyat va turizm markazi bo'lgan arab davlati qaysi?",
+        "options": ["Misr", "Liviya", "Jazoir", "Tunis"],
+        "answer": "Misr",
+        "category": "geography"
+    },
+    {
+        "id": 97,
+        "subjectKey": "geography",
+        "title": "Dunyo okeani tarkibiga kiruvchi, Grenlandiya oroli va Shimoliy Amerika shimoli o'rtasida joylashgan, yilning ko'p qismida suvlari muzlab yotadigan eng chekka shimoliy dengiz qaysi?",
+        "options": [
+            "Baffın dengizi",
+            "Bofort dengizi",
+            "Karib dengizi",
+            "Norveg dengizi"
+        ],
+        "answer": "Baffın dengizi",
+        "category": "geography"
+    },
+    {
+        "id": 98,
+        "subjectKey": "geography",
+        "title": "Avstraliya materigining deyarli markaziy qismida joylashgan, materikdagi eng sho'r va suv sathi yil fasllariga qarab keskin o'zgarib turadigan eng yirik yopiq ko'l qaysi?",
+        "options": [
+            "Eyr ko'li",
+            "Torrens ko'li",
+            "Gardner ko'li",
+            "Makkay ko'li"
+        ],
+        "answer": "Eyr ko'li",
+        "category": "geography"
+    },
+    {
+        "id": 99,
+        "subjectKey": "geography",
+        "title": "Jahon iqtisodiyotida rivojlanayotgan davlatlar orasida eng yirik tabiiy resurslar, ishchi kuchi va sanoat salohiyatiga ega bo'lgan 'BRICS' tashkilotining to'liq a'zosi bo'lgan Janubiy Amerika davlati qaysi?",
+        "options": ["Braziliya", "Argentina", "Chili", "Kolumbiya"],
+        "answer": "Braziliya",
+        "category": "geography"
+    },
+    {
+        "id": 100,
+        "subjectKey": "geography",
+        "title": "Insoniyatning xo'jalik faoliyati natijasida atmosferada karbonat angidrid va boshqa gazlarning ko'payishi oqibatida Yer yuzida haroratning ko'tarilib borishi global miqyosda nima deb ataladi?",
+        "options": [
+            "Issiqxona effekti (Global isish)",
+            "Ozon qatlamining yemirilishi",
+            "Kislotali yomg'irlar",
+            "Sutli tuman hodisasi"
+        ],
+        "answer": "Issiqxona effekti (Global isish)",
+        "category": "geography"
+    }
+]

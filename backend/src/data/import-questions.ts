@@ -47,6 +47,19 @@ async function importQuestions() {
             { name: "java-question.json", category: "java" },
             { name: "c++-question.json", category: "cpp" },
             { name: "php-question.json", category: "php" },
+            { name: "swift-question.json", category: "swift" },
+            { name: "go-question.json", category: "go" },
+            { name: "physics-question.json", category: "physics" },
+            { name: "chemistry-question.json", category: "chemistry" },
+            { name: "biology-question.json", category: "biology" },
+            { name: "history-quiz.json", category: "history" },
+            { name: "geography-question.json", category: "geography" },
+            { name: "literature-question.json", category: "literature" },
+
+            {
+                name: "native-language-question.json",
+                category: "native-language",
+            },
         ];
 
         let totalInserted = 0;

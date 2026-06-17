@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import SubjectCatalog from "./components/subject-catalalog";
+import WelcomeHero from "@/components/dashboard/welcome-hero";
 
 export default function DashboardPage() {
     return (
@@ -71,6 +72,7 @@ export default function DashboardPage() {
 
             <main className="relative z-10 w-full min-h-screen flex flex-col items-center">
                 <div className="pt-20 pb-20 px-4 md:px-10 w-full max-w-7xl">
+                    <WelcomeHero />
                     <SubjectCatalog />
                 </div>
             </main>

@@ -1,0 +1,1247 @@
+[
+    {
+        "id": 1,
+        "subjectKey": "physics",
+        "title": "Moddiy nuqta radiusi 2 m bo'lgan aylana bo'ylab tekis harakat qilmoqda. Agar uning chiziqli tezligi 4 m/s bo'lsa, markazga intilma tezlanishi qanchaga teng bo'ladi?",
+        "options": ["8 m/s²", "2 m/s²", "4 m/s²", "16 m/s²"],
+        "answer": "8 m/s²",
+        "category": "physics"
+    },
+    {
+        "id": 2,
+        "subjectKey": "physics",
+        "title": "Inersiya qonuni (Nyutonning birinchi qonuni) qanday sanoq tizimlarida o'rinli bo'ladi?",
+        "options": [
+            "Faqat inersial sanoq tizimlarida",
+            "Faqat noinersial sanoq tizimlarida",
+            "Ixtiyoriy tezlanish bilan harakatlanayotgan tizimlarda",
+            "Faqat Yer sirtiga nisbatan aylanma harakat qilayotgan tizimlarda"
+        ],
+        "answer": "Faqat inersial sanoq tizimlarida",
+        "category": "physics"
+    },
+    {
+        "id": 3,
+        "subjectKey": "physics",
+        "title": "Yopiq tizimda jismga faqat konservativ kuchlar (masalan, og'irlik yoki elastiklik kuchi) ta'sir etayotganda qaysi kattalik o'zgarmas bo'lib qoladi?",
+        "options": [
+            "To'liq mexanik energiya",
+            "Faqat kinetik energiya",
+            "Faqat potentsial energiya",
+            "Jismning ichki issiqlik energiyasi"
+        ],
+        "answer": "To'liq mexanik energiya",
+        "category": "physics"
+    },
+    {
+        "id": 4,
+        "subjectKey": "physics",
+        "title": "Ideal gazning ichki energiyasi qaysi parametrlarga to'g'ri mutanosib (proporsional) hisoblanadi?",
+        "options": [
+            "Faqat gazning absolyut temperaturasiga",
+            "Gaz egallab turgan hajmga",
+            "Faqat gazning tashqi bosimiga",
+            "Idish devorlarining yuzasiga"
+        ],
+        "answer": "Faqat gazning absolyut temperaturasiga",
+        "category": "physics"
+    },
+    {
+        "id": 5,
+        "subjectKey": "physics",
+        "title": "Termodinamikaning birinchi qonuniga ko'ra, izoxorik jarayonda (V = const) gazga berilgan issiqlik miqdori (Q) nimaga sarflanadi?",
+        "options": [
+            "Faqat gazning ichki energiyasini oshirishga (dU)",
+            "Gazning tashqi kuchlarga qarshi bajargan ishiga (A)",
+            "Bir vaqtning o'zida ham ish bajarishga, ham ichki energiyani oshirishga",
+            "Gazning bosimini pasaytirishga"
+        ],
+        "answer": "Faqat gazning ichki energiyasini oshirishga (dU)",
+        "category": "physics"
+    },
+    {
+        "id": 6,
+        "subjectKey": "physics",
+        "title": "Nuqtaviy zaryadlar o'rtasidagi Kulon o'zaro ta'sir kuchi ular orasidagi masofa 3 marta orttirilganda qanday o'zgaradi?",
+        "options": [
+            "9 marta kamayadi",
+            "3 marta ortadi",
+            "3 marta kamayadi",
+            "9 marta ortadi"
+        ],
+        "answer": "9 marta kamayadi",
+        "category": "physics"
+    },
+    {
+        "id": 7,
+        "subjectKey": "physics",
+        "title": "O'tkazgichning elektr qarshiligi uning geometrik o'lchamlariga qanday bog'liq?",
+        "options": [
+            "Uzunligiga to'g'ri proporsional, ko'ndalang kesim yuzasiga teskari proporsional",
+            "Uzunligiga ham, ko'ndalang kesim yuzasiga ham to'g'ri proporsional",
+            "Uzunligiga teskari proporsional, ko'ndalang kesim yuzasiga to'g'ri proporsional",
+            "Faqat o'tkazgichning hajmi va massasiga bog'liq"
+        ],
+        "answer": "Uzunligiga to'g'ri proporsional, ko'ndalang kesim yuzasiga teskari proporsional",
+        "category": "physics"
+    },
+    {
+        "id": 8,
+        "subjectKey": "physics",
+        "title": "Zanjirning bir qismi uchun Om qonuni ifodasi qaysi javobda to'g'ri ko'rsatilgan?",
+        "options": ["I = U / R", "I = U * R", "I = R / U", "I = q / t"],
+        "answer": "I = U / R",
+        "category": "physics"
+    },
+    {
+        "id": 9,
+        "subjectKey": "physics",
+        "title": "Magnit maydonida harakatlanayotgan zaryadli zarrachaga ta'sir etuvchi Lorens kuchining yo'nalishi qaysi qoida yordamida aniqlanadi?",
+        "options": [
+            "Chap qo'l qoidasi",
+            "O'ng qo'l (parmalagich) qoidasi",
+            "Lens qoidasi",
+            "Nyuton qoidasi"
+        ],
+        "answer": "Chap qo'l qoidasi",
+        "category": "physics"
+    },
+    {
+        "id": 10,
+        "subjectKey": "physics",
+        "title": "Tebranish konturida erkin elektromagnit tebranishlar yuzaga kelishi uchun u qanday elementlardan tashkil topgan bo'lishi kerak?",
+        "options": [
+            "Kondensator va induktivlik g'altagi",
+            "Rezistor va doimiy tok manbai",
+            "Faqat ketma-ket ulangan ikkita rezistor",
+            "Voltmetr va transformator"
+        ],
+        "answer": "Kondensator va induktivlik g'altagi",
+        "category": "physics"
+    },
+    {
+        "id": 11,
+        "subjectKey": "physics",
+        "title": "Yorug'likning qaytish qonuniga ko'ra, tushish burchagi va qaytish burchagi o'rtasidagi munosabat qanday bo'bali?",
+        "options": [
+            "Tushish burchagi har doim qaytish burchagiga teng",
+            "Tushish burchagi qaytish burchagidan har doim katta",
+            "Ularning yig'indisi har doim 180 darajani tashkil qiladi",
+            "Qaytish burchagi muhitning sindirish ko'rsatkichiga qarab o'zgaradi"
+        ],
+        "answer": "Tushish burchagi har doim qaytish burchagiga teng",
+        "category": "physics"
+    },
+    {
+        "id": 12,
+        "subjectKey": "physics",
+        "title": "Yorug'likning to'lqin tabiati borligini isbotlovchi, uning to'siqlarni aylanib o'tish hodisasi nima deb ataladi?",
+        "options": [
+            "Yorug'lik difraksiyasi",
+            "Yorug'lik interferensiyasi",
+            "Yorug'lik dispersiyasi",
+            "Fotoeffekt hodisasi"
+        ],
+        "answer": "Yorug'lik difraksiyasi",
+        "category": "physics"
+    },
+    {
+        "id": 13,
+        "subjectKey": "physics",
+        "title": "Eynshteynning fotoeffekt uchun tenglamasiga ko'ra, tushayotgan yorug'lik kvantining energiyasi nimalarga sarflanadi?",
+        "options": [
+            "Elektronning metalldan chiqish ishiga va uning maksimal kinetik energiyasiga",
+            "Faqat metallni qizdirishga va nurlanish hosil qilishga",
+            "Atom ichidagi neytronlarni parchalab yuborishga",
+            "Faqat yorug'lik tezligini muhitda sekinlashtirishga"
+        ],
+        "answer": "Elektronning metalldan chiqish ishiga va uning maksimal kinetik energiyasiga",
+        "category": "physics"
+    },
+    {
+        "id": 14,
+        "subjectKey": "physics",
+        "title": "Atom yadrosi qanday zarralardan tashkil topgan?",
+        "options": [
+            "Protonlar va neytronlardan",
+            "Protonlar va elektronlardan",
+            "Faqat neytronlar va pozitronlardan",
+            "Fotonlar va elektronlardan"
+        ],
+        "answer": "Protonlar va neytronlardan",
+        "category": "physics"
+    },
+    {
+        "id": 15,
+        "subjectKey": "physics",
+        "title": "Gidravlik pressning ishlash prinsipi gidrostatikaning qaysi qonuniga asoslangan?",
+        "options": [
+            "Paskal qonuni",
+            "Arximed qonuni",
+            "Bernulli qonuni",
+            "Om qonuni"
+        ],
+        "answer": "Paskal qonuni",
+        "category": "physics"
+    },
+    {
+        "id": 16,
+        "subjectKey": "physics",
+        "title": "Suyuqlikka botirilgan jismga ta'sir etuvchi Arximed (ko'tarish) kuchi nimaga bog'liq emas?",
+        "options": [
+            "Jismning o'z zichligiga",
+            "Suyuqlikning zichligiga",
+            "Jismning suyuqlikka botgan qismining hajmiga",
+            "Erkin tushish tezlanishiga"
+        ],
+        "answer": "Jismning o'z zichligiga",
+        "category": "physics"
+    },
+    {
+        "id": 17,
+        "subjectKey": "physics",
+        "title": "Matematik mayatnikning tebranish davri formulasi (Huygens formulasi) qaysi javobda to'g'ri ko'rsatilgan?",
+        "options": [
+            "T = 2 * pi * sqrt(l/g)",
+            "T = 2 * pi * sqrt(m/k)",
+            "T = 1 / v",
+            "T = 2 * pi * sqrt(g/l)"
+        ],
+        "answer": "T = 2 * pi * sqrt(l/g)",
+        "category": "physics"
+    },
+    {
+        "id": 18,
+        "subjectKey": "physics",
+        "title": "Ovoz to'lqinlari qaysi muhitda mutlaqo tarqala olmaydi?",
+        "options": [
+            "Vakuumda (havosiz bo'shliqda)",
+            "Suv ostida (suyuqlikda)",
+            "Po'lat releslarda (qattiq jismda)",
+            "Gaz muhitida"
+        ],
+        "answer": "Vakuumda (havosiz bo'shliqda)",
+        "category": "physics"
+    },
+    {
+        "id": 19,
+        "subjectKey": "physics",
+        "title": "Mutloq qora jism nurlanishining spektral zichligi va temperatura o'rtasidagi bog'liqlikni aniqlagan va kvant tushunchasini fanga kiritgan olim kim?",
+        "options": [
+            "Maks Plank",
+            "Isaak Nyuton",
+            "Albert Eynshteyn",
+            "Nils Bor"
+        ],
+        "answer": "Maks Plank",
+        "category": "physics"
+    },
+    {
+        "id": 20,
+        "subjectKey": "physics",
+        "title": "Yorug'lik qaysi muhitda eng yuqori tarqalish tezligiga (c = 3 * 10^8 m/s) ega bo'ladi?",
+        "options": [
+            "Vakuumda",
+            "Toza suvda",
+            "Brilliant (olmos) ichida",
+            "Atmosfera havosining quyi qatlamida"
+        ],
+        "answer": "Vakuumda",
+        "category": "physics"
+    },
+    {
+        "id": 21,
+        "subjectKey": "physics",
+        "title": "Erkin tushayotgan jismning tezligi har sekundda qanchaga o'zgaradi (g = 9.8 m/s²)?",
+        "options": [
+            "9.8 m/s ga ortadi",
+            "4.9 m/s ga ortadi",
+            "9.8 m/s ga kamayadi",
+            "O'zgarmasdan qoladi"
+        ],
+        "answer": "9.8 m/s ga ortadi",
+        "category": "physics"
+    },
+    {
+        "id": 22,
+        "subjectKey": "physics",
+        "title": "Jismga ta'sir etayotgan barcha kuchlarning teng ta'sir etuvchisi nolga teng bo'lsa, jism qanday harakat qiladi?",
+        "options": [
+            "Tinch turadi yoki to'g'ri chiziqli tekis harakat qiladi",
+            "Faqat tekis tezlanuvchan harakat qiladi",
+            "Aylana bo'ylab tekis harakat qiladi",
+            "Tezlashib, keyin sekinlashadi"
+        ],
+        "answer": "Tinch turadi yoki to'g'ri chiziqli tekis harakat qiladi",
+        "category": "physics"
+    },
+    {
+        "id": 23,
+        "subjectKey": "physics",
+        "title": "Ikkita jismning o'zaro elastik urilishida qaysi saqlanish qonunlari bajariladi?",
+        "options": [
+            "Ham impuls, ham kinetik energiya saqlanish qonuni",
+            "Faqat impulsning saqlanish qonuni",
+            "Faqat kinetik energiyaning saqlanish qonuni",
+            "Hech qaysi qonun bajarilmaydi"
+        ],
+        "answer": "Ham impuls, ham kinetik energiya saqlanish qonuni",
+        "category": "physics"
+    },
+    {
+        "id": 24,
+        "subjectKey": "physics",
+        "title": "Suyuqlik oqimining tezligi ortganda uning ichki statik bosimi kamayishini ifodalovchi qonun qaysi?",
+        "options": [
+            "Bernulli qonuni",
+            "Paskal qonuni",
+            "Arximed qonuni",
+            "Torrichelli qonuni"
+        ],
+        "answer": "Bernulli qonuni",
+        "category": "physics"
+    },
+    {
+        "id": 25,
+        "subjectKey": "physics",
+        "title": "Hajm o'zgarmas bo'lgan jarayonda ideal gaz bosimining temperaturaga bog'liqligi qaysi qonun bilan aniqlanadi?",
+        "options": [
+            "Sharl qonuni",
+            "Boyl-Mariott qonuni",
+            "Gey-Lyussak qonuni",
+            "Dalton qonuni"
+        ],
+        "answer": "Sharl qonuni",
+        "category": "physics"
+    },
+    {
+        "id": 26,
+        "subjectKey": "physics",
+        "title": "Nisbiylik nazariyasiga ko'ra, jismning to'liq energiyasi va uning massasi o'rtasidagi bog'liqlik formulasi qaysi?",
+        "options": [
+            "E = m * c^2",
+            "E = m * g * h",
+            "E = (m * v^2) / 2",
+            "E = p^2 / (2m)"
+        ],
+        "answer": "E = m * c^2",
+        "category": "physics"
+    },
+    {
+        "id": 27,
+        "subjectKey": "physics",
+        "title": "Suyuqlik sirtining qisqarishga intilishi va uning yuzasida yuzaga keladigan kuch nima deyiladi?",
+        "options": [
+            "Sirt taranglik kuchi",
+            "Yopishqoqlik kuchi",
+            "Ishqalanish kuchi",
+            "Kapillyar kuch"
+        ],
+        "answer": "Sirt taranglik kuchi",
+        "category": "physics"
+    },
+    {
+        "id": 28,
+        "subjectKey": "physics",
+        "title": "Zaryadlangan kondensatorning elektr maydon energiyasi qaysi formula orqali hisoblanadi?",
+        "options": [
+            "W = (C * U^2) / 2",
+            "W = q * U",
+            "W = C / U",
+            "W = I^2 * R * t"
+        ],
+        "answer": "W = (C * U^2) / 2",
+        "category": "physics"
+    },
+    {
+        "id": 29,
+        "subjectKey": "physics",
+        "title": "Doimiy tok zanjirida bir nechta rezistor ketma-ket ulanganda qaysi kattalik barcha rezistorlarda bir xil bo'ladi?",
+        "options": [
+            "Tok kuchi (I)",
+            "Kuchlanish (U)",
+            "Elektr qarshiligi (R)",
+            "Ajralib chiquvchi issiqlik miqdori (Q)"
+        ],
+        "answer": "Tok kuchi (I)",
+        "category": "physics"
+    },
+    {
+        "id": 30,
+        "subjectKey": "physics",
+        "title": "Yopiq konturdan o'tayotgan magnit oqimi o'zgarganda unda induksiya EYK (elektr yurituvchi kuch) hosil bo'lish hodisasi nima deyiladi?",
+        "options": [
+            "Elektromagnit induksiya hodisasi",
+            "Elektrostatik induksiya hodisasi",
+            "O'z-o'zidan qizish hodisasi",
+            "Termoelektron emissiya"
+        ],
+        "answer": "Elektromagnit induksiya hodisasi",
+        "category": "physics"
+    },
+    {
+        "id": 31,
+        "subjectKey": "physics",
+        "title": "G'altakdagi tok kuchi o'zgarganda magnit maydon energiyasi qanday aniqlanadi?",
+        "options": ["W = (L * I^2) / 2", "W = L * I", "W = I / L", "W = B * S"],
+        "answer": "W = (L * I^2) / 2",
+        "category": "physics"
+    },
+    {
+        "id": 32,
+        "subjectKey": "physics",
+        "title": "Yorug'lik nuri havoda shisha sirtiga tushmoqda. Sinish burchagi tushish burchagidan qanday farq qiladi?",
+        "options": [
+            "Sinish burchagi tushish burchagidan kichik bo'ladi",
+            "Sinish burchagi tushish burchagidan katta bo'ladi",
+            "Ikki burchak har doim o'zaro teng bo'ladi",
+            "Nur mutlaqo sinmasdan to'g'ri o'tib ketadi"
+        ],
+        "answer": "Sinish burchagi tushish burchagidan kichik bo'ladi",
+        "category": "physics"
+    },
+    {
+        "id": 33,
+        "subjectKey": "physics",
+        "title": "Oq yorug'lik nurining prizmadan o'tib, spektrga (turli ranglarga) ajralishi hodisasi nima deb nomlanadi?",
+        "options": [
+            "Yorug'lik dispersiyasi",
+            "Yorug'lik interferensiyasi",
+            "Yorug'lik difraksiyasi",
+            "Yorug'lik qutblanishi"
+        ],
+        "answer": "Yorug'lik dispersiyasi",
+        "category": "physics"
+    },
+    {
+        "id": 34,
+        "subjectKey": "physics",
+        "title": "Yorug'lik tarkibidagi elektromagnit tebranishlarning faqat bitta muayyan yo'nalishda saralanishi nima deyiladi?",
+        "options": [
+            "Yorug'lik qutblanishi (polyarizatsiya)",
+            "Yorug'lik yutilishi",
+            "Yorug'lik qaytishi",
+            "Fotoeffekt"
+        ],
+        "answer": "Yorug'lik qutblanishi (polyarizatsiya)",
+        "category": "physics"
+    },
+    {
+        "id": 35,
+        "subjectKey": "physics",
+        "title": "Fotonning impulsi qaysi formula yordamida aniqlanadi (bunda h - Plank doimiysi, l - to'lqin uzunligi)?",
+        "options": ["p = h / l", "p = h * l", "p = l / h", "p = m * v"],
+        "answer": "p = h / l",
+        "category": "physics"
+    },
+    {
+        "id": 36,
+        "subjectKey": "physics",
+        "title": "Radioaktiv element yadrosining yarmi parchalanishi uchun ketadigan vaqt nima deb ataladi?",
+        "options": [
+            "Yarim parchalanish davri",
+            "Elementning yashash vaqti",
+            "Tebranish davri",
+            "Relaksatsiya vaqti"
+        ],
+        "answer": "Yarim parchalanish davri",
+        "category": "physics"
+    },
+    {
+        "id": 37,
+        "subjectKey": "physics",
+        "title": "Yadrodan alfa-zarra (Geliy atomining yadrosi) ajralib chiqqanda, yangi elementning tartib raqami (Z) qanday o'zgaradi?",
+        "options": [
+            "2 birlikka kamayadi",
+            "2 birlikka ortadi",
+            "4 birlikka kamayadi",
+            "O'zgarmasdan qoladi"
+        ],
+        "answer": "2 birlikka kamayadi",
+        "category": "physics"
+    },
+    {
+        "id": 38,
+        "subjectKey": "physics",
+        "title": "Yadrodagi nuklonlarni (proton va neytronlarni) bir-biriga bog'lab turuvchi tabiatdagi eng kuchli kuch nima deyiladi?",
+        "options": [
+            "Yadro kuchlari (kuchli o'zaro ta'sir)",
+            "Gravitatsion kuchlar",
+            "Kulon (elektromagnit) kuchlari",
+            "Molekulyar kuchlar"
+        ],
+        "answer": "Yadro kuchlari (kuchli o'zaro ta'sir)",
+        "category": "physics"
+    },
+    {
+        "id": 39,
+        "subjectKey": "physics",
+        "title": "Muhitning yorug'likni sindirish ko'rsatkichi (n) nimani ko'rsatadi?",
+        "options": [
+            "Yorug'lik tezligining vakuumdagi tezlikka nisbatan necha marta kamayishini",
+            "Nur energiyasining necha marta ortishini",
+            "To'lqin chastotasining qanchaga o'zgarishini",
+            "Muhit zichligining havo zichligiga nisbatini"
+        ],
+        "answer": "Yorug'lik tezligining vakuumdagi tezlikka nisbatan necha marta kamayishini",
+        "category": "physics"
+    },
+    {
+        "id": 40,
+        "subjectKey": "physics",
+        "title": "Zarrachaning to'lqin xususiyatlariga ham ega ekanligini tasdiqlovchi de Broyl to'lqin uzunligi formulasi qaysi?",
+        "options": ["l = h / p", "l = p / h", "l = c / v", "l = h * v"],
+        "answer": "l = h / p",
+        "category": "physics"
+    },
+    {
+        "id": 41,
+        "subjectKey": "physics",
+        "title": "Jismning massasi uning qaysi xossasini (xususiyatini) harakat xarakteristikasi sifatida belgilaydi?",
+        "options": [
+            "Inersiyalilik o'lchovini",
+            "Faqat hajmini va geometriyasini",
+            "Elektr zaryadini saqlash qobiliyatini",
+            "Tebranish amplitudasini"
+        ],
+        "answer": "Inersiyalilik o'lchovini",
+        "category": "physics"
+    },
+    {
+        "id": 42,
+        "subjectKey": "physics",
+        "title": "Kuk qonuniga ko'ra (F = -k * x), prujinaning elastiklik kuchi uning cho'zilishi yoki siqilishiga qanday bog'liq?",
+        "options": [
+            "Deformatsiya kattaligiga to'g'ri proporsional",
+            "Deformatsiya kattaligining kvadratiga to'g'ri proporsional",
+            "Deformatsiya kattaligiga teskari proporsional",
+            "Prujinaning boshlang'ich uzunligiga bog'liq emas"
+        ],
+        "answer": "Deformatsiya kattaligiga to'g'ri proporsional",
+        "category": "physics"
+    },
+    {
+        "id": 43,
+        "subjectKey": "physics",
+        "title": "Jism Yer sirtidan uzoqlashgani sari unga ta'sir etuvchi og'irlik kuchi qanday o'zgaradi?",
+        "options": [
+            "Masofaning kvadratiga teskari ravishda kamayadi",
+            "Masofaga to'g'ri proporsional ravishda ortadi",
+            "O'zgarmasdan doimiy bo'lib qoladi",
+            "Faqat atmosfera bosimiga qarab o'zgaradi"
+        ],
+        "answer": "Masofaning kvadratiga teskari ravishda kamayadi",
+        "category": "physics"
+    },
+    {
+        "id": 44,
+        "subjectKey": "physics",
+        "title": "Suyuqlik yoki gazlarda molekulalarning tartibsiz va uzluksiz issiqlik harakati nima deb ataladi?",
+        "options": [
+            "Broun harakati",
+            "Mexanik tebranish",
+            "To'g'ri chiziqli tekis harakat",
+            "Laminar oqim"
+        ],
+        "answer": "Broun harakati",
+        "category": "physics"
+    },
+    {
+        "id": 45,
+        "subjectKey": "physics",
+        "title": "Doimiy bosim ostida (P = const) boradigan termodinamik jarayon nima deb ataladi?",
+        "options": [
+            "Izobarik jarayon",
+            "Izohorik jarayon",
+            "Izotermik jarayon",
+            "Adiabatik jarayon"
+        ],
+        "answer": "Izobarik jarayon",
+        "category": "physics"
+    },
+    {
+        "id": 46,
+        "subjectKey": "physics",
+        "title": "Tashqi muhit bilan issiqlik almashinuvi yuz bermaydigan (Q = 0) termodinamik jarayon qaysi javobda ko'rsatilgan?",
+        "options": [
+            "Adiabatik jarayon",
+            "Izotermik jarayon",
+            "Izohorik jarayon",
+            "Izobarik jarayon"
+        ],
+        "answer": "Adiabatik jarayon",
+        "category": "physics"
+    },
+    {
+        "id": 47,
+        "subjectKey": "physics",
+        "title": "Issiqlik mashinasining foydali ish koeffitsiyenti (FIK) har doim qanday qiymatga ega bo'ladi?",
+        "options": [
+            "Har doim 1 dan (100 foizdan) kichik bo'ladi",
+            "Har doim 1 ga teng bo'ladi",
+            "Faqat sovitgich bo'lmagandagina 1 dan katta bo'ladi",
+            "Ishchi jismning turiga qarab 100 foizdan oshishi mumkin"
+        ],
+        "answer": "Har doim 1 dan (100 foizdan) kichik bo'ladi",
+        "category": "physics"
+    },
+    {
+        "id": 48,
+        "subjectKey": "physics",
+        "title": "Elektr maydon kuchlanganligi (E) va potensiallar ayirmasi (U) o'rtasidagi bog'liqlik qaysi ifoda orqali aniqlanadi?",
+        "options": ["E = U / d", "E = U * d", "E = q * U", "E = F * q"],
+        "answer": "E = U / d",
+        "category": "physics"
+    },
+    {
+        "id": 49,
+        "subjectKey": "physics",
+        "title": "Doimiy tok zanjirida bir nechta rezistor parallel ulanganda barcha rezistorlar uchun umumiy bo'lgan kattalik qaysi?",
+        "options": [
+            "Kuchlanish (U)",
+            "Tok kuchi (I)",
+            "Elektr qarshiligi (R)",
+            "Elektr zaryadi (q)"
+        ],
+        "answer": "Kuchlanish (U)",
+        "category": "physics"
+    },
+    {
+        "id": 50,
+        "subjectKey": "physics",
+        "title": "O'tkazgichdan tok o'tayotganda undan ajralib chiquvchi issiqlik miqdorini aniqlaydigan qonun (Joul-Lens qonuni) qaysi?",
+        "options": [
+            "Q = I^2 * R * t",
+            "Q = I * R * t",
+            "Q = U * I",
+            "Q = C * U^2 / 2"
+        ],
+        "answer": "Q = I^2 * R * t",
+        "category": "physics"
+    },
+    {
+        "id": 51,
+        "subjectKey": "physics",
+        "title": "Magnit maydonida joylashgan tokining to'g'ri o'tkazgich qismiga ta'sir etuvchi kuch qanday ataladi?",
+        "options": [
+            "Amper kuchi",
+            "Lorens kuchi",
+            "Kulon kuchi",
+            "Arximed kuchi"
+        ],
+        "answer": "Amper kuchi",
+        "category": "physics"
+    },
+    {
+        "id": 52,
+        "subjectKey": "physics",
+        "title": "Yorug'lik nurining ikki muhit chegarasidan o'tishda o'z yo'nalishini o'zgartirishi hodisasi nima deyiladi?",
+        "options": [
+            "Yorug'likning sinishi",
+            "Yorug'likning qaytishi",
+            "Yorug'likning to'liq ichki qaytishi",
+            "Yorug'likning tarqalishi"
+        ],
+        "answer": "Yorug'likning sinishi",
+        "category": "physics"
+    },
+    {
+        "id": 53,
+        "subjectKey": "physics",
+        "title": "Yorug'likning shaffof bo'lmagan to'siqlar va tirqishlar chetidan o'tishda to'lqinning egilishi hodisasi nima deb ataladi?",
+        "options": [
+            "Difraksiya",
+            "Interferensiya",
+            "Dispersiya",
+            "Polyarizatsiya"
+        ],
+        "answer": "Difraksiya",
+        "category": "physics"
+    },
+    {
+        "id": 54,
+        "subjectKey": "physics",
+        "title": "Fazoda kogerent to'lqinlarning qo'shilishi natijasida nurlanish energiyasining qayta taqsimlanishi (kuchayishi yoki susayishi) nima deyiladi?",
+        "options": [
+            "Yorug'lik interferensiyasi",
+            "Yorug'lik dispersiyasi",
+            "Yorug'lik sinishi",
+            "Fotoeffekt"
+        ],
+        "answer": "Yorug'lik interferensiyasi",
+        "category": "physics"
+    },
+    {
+        "id": 55,
+        "subjectKey": "physics",
+        "title": "Yorug'lik ta'sirida moddadan (metalldan) elektronlarning urib chiqarilish hodisasi nima deb ataladi?",
+        "options": [
+            "Fotoeffekt hodisasi",
+            "Rentgen nurlanishi",
+            "Termoelektron emissiya",
+            "Lyuminessensiya"
+        ],
+        "answer": "Fotoeffekt hodisasi",
+        "category": "physics"
+    },
+    {
+        "id": 56,
+        "subjectKey": "physics",
+        "title": "Bor postulatlariga ko'ra, atom bir stasionar holatdan ikkinchisiga o'tganda nima yuz beradi?",
+        "options": [
+            "Muayyan energiyali bitta foton nurlatadi yoki yutadi",
+            "Elektron yadroga qulab tushadi",
+            "Atom massasi keskin ravishda ortadi",
+            "Neytronlar protonlarga aylanadi"
+        ],
+        "answer": "Muayyan energiyali bitta foton nurlatadi yoki yutadi",
+        "category": "physics"
+    },
+    {
+        "id": 57,
+        "subjectKey": "physics",
+        "title": "Yadrodan yuqori energiyali elektromagnit to'lqin oqimi (fotonlar) ajralib chiqishi qaysi radioaktiv parchalanish turi hisoblanadi?",
+        "options": [
+            "Gamma-nurlanish",
+            "Alfa-parchalanish",
+            "Beta-minus parchalanish",
+            "Beta-plyus parchalanish"
+        ],
+        "answer": "Gamma-nurlanish",
+        "category": "physics"
+    },
+    {
+        "id": 58,
+        "subjectKey": "physics",
+        "title": "Og'ir yadro (masalan, Uran-235) neytronlar ta'sirida parchalanganda qo'shimcha neytronlar ajralib chiqishi hisobiga davom etadigan jarayon nima deyiladi?",
+        "options": [
+            "Zanjirli yadro reaksiyasi",
+            "Termoyadro sintezi",
+            "Kimyoviy reaksiya",
+            "Alfa-parchalanish"
+        ],
+        "answer": "Zanjirli yadro reaksiyasi",
+        "category": "physics"
+    },
+    {
+        "id": 59,
+        "subjectKey": "physics",
+        "title": "Yengil yadrolarning (masalan, vodorod izotoplarining) juda yuqori temperaturada birlashib, og'irroq yadro hosil qilish jarayoni nima deyiladi?",
+        "options": [
+            "Termoyadro sintezi reaksiyasi",
+            "Zanjirli parchalanish reaksiyasi",
+            "Yadroning sun'iy izotopga aylanishi",
+            "Fotoelektron emissiya"
+        ],
+        "answer": "Termoyadro sintezi reaksiyasi",
+        "category": "physics"
+    },
+    {
+        "id": 60,
+        "subjectKey": "physics",
+        "title": "Prujinali mayatnikning erkin tebranish davri formulasi qaysi javobda to'g'ri ko'rsatilgan (bunda m - massa, k - bikrlik)?",
+        "options": [
+            "T = 2 * pi * sqrt(m/k)",
+            "T = 2 * pi * sqrt(k/m)",
+            "T = 2 * pi * sqrt(l/g)",
+            "T = 1 / v"
+        ],
+        "answer": "T = 2 * pi * sqrt(m/k)",
+        "category": "physics"
+    },
+    {
+        "id": 61,
+        "subjectKey": "physics",
+        "title": "Aylanma harakat qilayotgan jismning burchak tezligi (w) va aylanish davri (T) o'rtasidagi bog'liqlik qaysi formula bilan ifodalanadi?",
+        "options": [
+            "w = 2 * pi / T",
+            "w = 2 * pi * T",
+            "w = T / (2 * pi)",
+            "w = v * R"
+        ],
+        "answer": "w = 2 * pi / T",
+        "category": "physics"
+    },
+    {
+        "id": 62,
+        "subjectKey": "physics",
+        "title": "Nyutonning butun olam tortishish qonuniga ko'ra, ikkita jism orasidagi tortishish kuchi ularning massalari ko'paytmasiga qanday bog'liq?",
+        "options": [
+            "Massalar ko'paytmasiga to'g'ri proporsional",
+            "Massalar ko'paytmasiga teskari proporsional",
+            "Massalar yig'indisiga to'g'ri proporsional",
+            "Jismlar massasiga mutlaqo bog'liq emas"
+        ],
+        "answer": "Massalar ko'paytmasiga to'g'ri proporsional",
+        "category": "physics"
+    },
+    {
+        "id": 63,
+        "subjectKey": "physics",
+        "title": "Gorizontga nisbatan burchak ostida otilgan jismning parvoz qilish davomida gorizontal yo'nalishdagi tezlik proeksiyasi (Vx) qanday o'zgaradi (havo qarshiligi hisobga olinmasin)?",
+        "options": [
+            "Butun harakat davomida o'zgarmasdan qoladi",
+            "Dastlab kamayadi, keyin esa ortadi",
+            "Faqat yuqoriga ko'tarilishda kamayadi",
+            "Doimiy ravishda tekis tezlanuvchan ortib boradi"
+        ],
+        "answer": "Butun harakat davomida o'zgarmasdan qoladi",
+        "category": "physics"
+    },
+    {
+        "id": 64,
+        "subjectKey": "physics",
+        "title": "Jismning erkin tushish tezlanishi Yer sayyorasining qaysi nuqtasida o'zining eng maksimal (eng katta) qiymatiga ega bo'ladi?",
+        "options": [
+            "Yer qutblarida",
+            "Ekvator chizig'ida",
+            "Geografik kenglikning 45-gradusida",
+            "Dengiz sathidan juda baland tog' cho'qqilarida"
+        ],
+        "answer": "Yer qutblarida",
+        "category": "physics"
+    },
+    {
+        "id": 65,
+        "subjectKey": "physics",
+        "title": "Kuch momenti (M) deb ataluvchi fizik kattalik qaysi formula orqali aniqlanadi (bunda F - kuch, d - kuch yelkasi)?",
+        "options": ["M = F * d", "M = F / d", "M = d / F", "M = F * v"],
+        "answer": "M = F * d",
+        "category": "physics"
+    },
+    {
+        "id": 66,
+        "subjectKey": "physics",
+        "title": "Suyuqlikning idish devorlariga va tubiga beradigan gidrostatik bosimi qaysi formula orqali hisoblanadi?",
+        "options": ["P = rho * g * h", "P = F / S", "P = m * g", "P = rho * V"],
+        "answer": "P = rho * g * h",
+        "category": "physics"
+    },
+    {
+        "id": 67,
+        "subjectKey": "physics",
+        "title": "Modda miqdorining xalqaro birliklar tizimidagi (SI) o'lchov birligi qaysi javobda to'g'ri ko'rsatilgan?",
+        "options": ["Mol", "Kilogramm", "Kelvin", "Amper"],
+        "answer": "Mol",
+        "category": "physics"
+    },
+    {
+        "id": 68,
+        "subjectKey": "physics",
+        "title": "Haroratning absolyut nol darajasi (0 Kelvin) Selsiy shkalasi bo'yicha necha darajaga teng bo'ladi?",
+        "options": [
+            "-273.15 daraja Selsiy",
+            "0 daraja Selsiy",
+            "100 daraja Selsiy",
+            "-100 daraja Selsiy"
+        ],
+        "answer": "-273.15 daraja Selsiy",
+        "category": "physics"
+    },
+    {
+        "id": 69,
+        "subjectKey": "physics",
+        "title": "Havoning nisbiy namligini o'lchash uchun laboratoriyalarda qaysi asbobdan foydalaniladi?",
+        "options": [
+            "Psixrometr (gigrometr)",
+            "Barometr-aneroid",
+            "Manometr",
+            "Termometr"
+        ],
+        "answer": "Psixrometr (gigrometr)",
+        "category": "physics"
+    },
+    {
+        "id": 70,
+        "subjectKey": "physics",
+        "title": "Dielektrik muhit ichida nuqtaviy zaryadlar o'rtasidagi o'zaro ta'sir kuchi vakuumdagiga nisbatan qanday o'zgaradi?",
+        "options": [
+            "Muhitning dielektrik singdiruvchanligi (epsilon) marta kamayadi",
+            "Epsilon marta ortadi",
+            "Mutlaqo o'zgarmasdan doimiy qoladi",
+            "Faqat zaryadning ishorasiga qarab ortadi"
+        ],
+        "answer": "Muhitning dielektrik singdiruvchanligi (epsilon) marta kamayadi",
+        "category": "physics"
+    },
+    {
+        "id": 71,
+        "subjectKey": "physics",
+        "title": "Yassi kondensatorning elektr sig'imi (C) uning qoplamalari orasidagi masofaga (d) qanday bog'liq?",
+        "options": [
+            "Qoplamalar orasidagi masofaga teskari proporsional",
+            "Qoplamalar orasidagi masofaga to'g'ri proporsional",
+            "Masofaning kvadratiga to'g'ri proporsional",
+            "Kondensator qoplamalari orasidagi masofaga bog'liq emas"
+        ],
+        "answer": "Qoplamalar orasidagi masofaga teskari proporsional",
+        "category": "physics"
+    },
+    {
+        "id": 72,
+        "subjectKey": "physics",
+        "title": "Yopiq zanjir uchun Om qonuniga ko'ra, zanjirdagi umumiy tok kuchi manbaning ichki qarshiligi (r) ortganda qanday o'zgaradi?",
+        "options": [
+            "Tok kuchi kamayadi",
+            "Tok kuchi ortadi",
+            "Tok kuchi o'zgarmaydi",
+            "Dastlab ortib, keyin keskin kamayadi"
+        ],
+        "answer": "Tok kuchi kamayadi",
+        "category": "physics"
+    },
+    {
+        "id": 73,
+        "subjectKey": "physics",
+        "title": "Elektr tokining o'zidan magnit maydoni hosil qilish xususiyatini birinchi bo'lib aniqlagan olim kim?",
+        "options": [
+            "Xans Kristian Ersted",
+            "Sharl Kulon",
+            "Maykl Faradey",
+            "Andre Mari Amper"
+        ],
+        "answer": "Xans Kristian Ersted",
+        "category": "physics"
+    },
+    {
+        "id": 74,
+        "subjectKey": "physics",
+        "title": "Magnit maydon induksiya chiziqlarining zichligi va yo'nalishi nimani ifodalaydi?",
+        "options": [
+            "Magnit maydonining kuchli yoki kuchsizligini (kuch xarakteristikasini)",
+            "Faqat o'tkazgichning qizish darajasini",
+            "Maydonning elektr potensialini",
+            "Tokining yo'nalish tezligini"
+        ],
+        "answer": "Magnit maydonining kuchli yoki kuchsizligini (kuch xarakteristikasini)",
+        "category": "physics"
+    },
+    {
+        "id": 75,
+        "subjectKey": "physics",
+        "title": "O'zgaruvchan elektr tokini bir kuchlanishdan boshqa kuchlanishga yo'qotishlarsiz deyarli o'tkazib beruvchi qurilma nima deyiladi?",
+        "options": [
+            "Transformator",
+            "Generator",
+            "Akkumulyator",
+            "Kondensator"
+        ],
+        "answer": "Transformator",
+        "category": "physics"
+    },
+    {
+        "id": 76,
+        "subjectKey": "physics",
+        "title": "Sinf xonalarida yoki uylarda ishlatiladigan barcha maishiy elektr jihozlari zanjirga asosan qanday usulda ulanadi?",
+        "options": [
+            "Parallel usulda",
+            "Ketma-ket usulda",
+            "Aralash (ketma-ket va parallel kombinatsiyalangan) usulda",
+            "Hech qanday tartibsiz, ixtiyoriy ravishda"
+        ],
+        "answer": "Parallel usulda",
+        "category": "physics"
+    },
+    {
+        "id": 77,
+        "subjectKey": "physics",
+        "title": "Yorug'likning to'liq ichki QAYTISH hodisasi yorug'lik nuri qaysi muhitdan qaysi muhitga o'tayotganda kuzatilishi mumkin?",
+        "options": [
+            "Optik jihatdan zichroq muhitdan kamroq zich muhitga o'tishda",
+            "Optik jihatdan kamroq zich muhitdan zichroq muhitga o'tishda",
+            "Faqat havoviy muhitdan vakuum bo'shlig'iga o'tishda",
+            "Ikkala muhitning sinish ko'rsatkichi mutlaqo teng bo'lganda"
+        ],
+        "answer": "Optik jihatdan zichroq muhitdan kamroq zich muhitga o'tishda",
+        "category": "physics"
+    },
+    {
+        "id": 78,
+        "subjectKey": "physics",
+        "title": "Yig'uvchi linzaning optik kuchi (D) qaysi formula orqali aniqlanadi (bunda F - linzaning fokus masofasi)?",
+        "options": ["D = 1 / F", "D = F", "D = 2 * F", "D = 1 / F^2"],
+        "answer": "D = 1 / F",
+        "category": "physics"
+    },
+    {
+        "id": 79,
+        "subjectKey": "physics",
+        "title": "Yadrodan beta-minus parchalanish jarayonida bitta elektron ajralib chiqsa, hosil bo'lgan yangi elementning yadro zaryadi (Z) qanday o'zgaradi?",
+        "options": [
+            "1 birlikka ortadi",
+            "1 birlikka kamayadi",
+            "2 birlikka kamayadi",
+            "Butunlay o'zgarmasdan qoladi"
+        ],
+        "answer": "1 birlikka ortadi",
+        "category": "physics"
+    },
+    {
+        "id": 80,
+        "subjectKey": "physics",
+        "title": "Kvant fizikasida fotonning energiyasi (E) va uning to'lqin tebranish chastotasi (v) o'rtasidagi bog'liqlikni ifodalovchi formula qaysi?",
+        "options": ["E = h * v", "E = h / v", "E = m * c^2", "E = p * c"],
+        "answer": "E = h * v",
+        "category": "physics"
+    },
+    {
+        "id": 81,
+        "subjectKey": "physics",
+        "title": "Jismning ko'chishi deb nimaga aytiladi?",
+        "options": [
+            "Harakat boshlang'ich va oxirgi nuqtalarini tutashtiruvchi yo'nalishli to'g'ri chiziq kesmasiga",
+            "Jism harakatlanayotganda chizgan chizig'ining umumiy uzunligiga",
+            "Faqat vertikal yo'nalishda bosib o'tilgan masofaga",
+            "Jismning vaqt birligi ichida aylangan burchagiga"
+        ],
+        "answer": "Harakat boshlang'ich va oxirgi nuqtalarini tutashtiruvchi yo'nalishli to'g'ri chiziq kesmasiga",
+        "category": "physics"
+    },
+    {
+        "id": 82,
+        "subjectKey": "physics",
+        "title": "Tekis tezlanuvchan harakatda yo'l (s) va vaqt (t) o'rtasidagi bog'liqlik grafigi qanday chiziqdan iborat bo'ladi?",
+        "options": [
+            "Parabola shaxobchasi",
+            "To'g'ri chiziq",
+            "Giperbola chizig'i",
+            "To'lqinsimon (sinusoida) chiziq"
+        ],
+        "answer": "Parabola shaxobchasi",
+        "category": "physics"
+    },
+    {
+        "id": 83,
+        "subjectKey": "physics",
+        "title": "Ishqalanish koeffitsiyenti (mu) qaysi fizik kattaliklarga bog'liq?",
+        "options": [
+            "Tegishib turgan sirtlarning materiali va ishlov berilish sifatiga",
+            "Jismning massasi va og'irligiga",
+            "Sirtlarning umumiy yuzasiga",
+            "Jism harakatlanayotgan tezlikka"
+        ],
+        "answer": "Tegishib turgan sirtlarning materiali va ishlov berilish sifatiga",
+        "category": "physics"
+    },
+    {
+        "id": 84,
+        "subjectKey": "physics",
+        "title": "Avogadro doimiysining (Na) fizik ma'nosi nimadan iborat?",
+        "options": [
+            "1 mol moddadagi tarkibiy zarralar (atom yoki molekulalar) soni",
+            "1 gramm gaz egallagan hajmdagi molekulalar soni",
+            "Ideal gazning normal sharoitdagi bosim miqdori",
+            "Elektronning yadro atrofida aylanish chastotasi"
+        ],
+        "answer": "1 mol moddadagi tarkibiy zarralar (atom yoki molekulalar) soni",
+        "category": "physics"
+    },
+    {
+        "id": 85,
+        "subjectKey": "physics",
+        "title": "O'zgarmas temperaturada (T = const) kechadigan termodinamik jarayon nima deb ataladi?",
+        "options": [
+            "Izotermik jarayon",
+            "Izobarik jarayon",
+            "Izohorik jarayon",
+            "Adiabatik jarayon"
+        ],
+        "answer": "Izotermik jarayon",
+        "category": "physics"
+    },
+    {
+        "id": 86,
+        "subjectKey": "physics",
+        "title": "Qattiq moddaning suyuqlikka aylanmasdan to'g'ridan-to'g'ri gaz holatiga o'tish hodisasi nima deyiladi?",
+        "options": [
+            "Sublimatsiya (sublimlanish)",
+            "Kondensatsiya",
+            "Kristallanish",
+            "Evaporatsiya (bug'lanish)"
+        ],
+        "answer": "Sublimatsiya (sublimlanish)",
+        "category": "physics"
+    },
+    {
+        "id": 87,
+        "subjectKey": "physics",
+        "title": "Elektroskop asbobining vazifasi nima?",
+        "options": [
+            "Jismda elektr zaryadi bor yoki yo'qligini aniqlash",
+            "Zanjirdagi elektr tokining kuchini o'lchash",
+            "Elektr maydonining yo'nalishini ko'rsatish",
+            "Kondensatorning sig'imini hisoblash"
+        ],
+        "answer": "Jismda elektr zaryadi bor yoki yo'qligini aniqlash",
+        "category": "physics"
+    },
+    {
+        "id": 88,
+        "subjectKey": "physics",
+        "title": "Elektr maydonining berilgan nuqtasidagi energetik xarakteristikasi hisoblangan kattalik qaysi?",
+        "options": [
+            "Elektr potensiali (phi)",
+            "Maydon kuchlanganligi (E)",
+            "Elektr zaryadi (q)",
+            "Kulon kuchi (F)"
+        ],
+        "answer": "Elektr potensiali (phi)",
+        "category": "physics"
+    },
+    {
+        "id": 89,
+        "subjectKey": "physics",
+        "title": "Harorat ortishi bilan metall o'tkazgichlarning elektr qarshiligi qanday o'zgaradi?",
+        "options": [
+            "Ortadi",
+            "Kamayadi",
+            "Mutlaqo o'zgarmaydi",
+            "Dastlab kamayib, keyin keskin ortadi"
+        ],
+        "answer": "Ortadi",
+        "category": "physics"
+    },
+    {
+        "id": 90,
+        "subjectKey": "physics",
+        "title": "Harorat ortishi bilan yarimo'tkazgichli moddalarning elektr qarshiligi qanday o'zgaradi?",
+        "options": [
+            "Kamayadi",
+            "Ortadi",
+            "O'zgarmasdan doimiy qoladi",
+            "Faqat tashqi yoritilganlikka qarab ortadi"
+        ],
+        "answer": "Kamayadi",
+        "category": "physics"
+    },
+    {
+        "id": 91,
+        "subjectKey": "physics",
+        "title": "Elektr toki o'tkazmaydigan gaz muhitini ionlashtirish (tok o'tkazuvchan qilish) uchun nima qilish kerak?",
+        "options": [
+            "Gazni yuqori haroratgacha qizdirish yoki kuchli nurlatish",
+            "Gaz egallab turgan idish hajmini kengaytirish",
+            "Gazni absolyut nol haroratgacha sovitish",
+            "Gaz tarkibidagi neytronlarni ko'paytirish"
+        ],
+        "answer": "Gazni yuqori haroratgacha qizdirish yoki kuchli nurlatish",
+        "category": "physics"
+    },
+    {
+        "id": 92,
+        "subjectKey": "physics",
+        "title": "Lorens kuchi magnit maydonida harakatlanayotgan zaryadli zarrachaning qaysi kattaligini o'zgartira olmaydi?",
+        "options": [
+            "Kinetik energiyasini va tezlik modulini",
+            "Harakat yo'nalishini (traektoriyasini)",
+            "Markazga intilma tezlanishini",
+            "Impulsining yo'nalishini"
+        ],
+        "answer": "Kinetik energiyasini va tezlik modulini",
+        "category": "physics"
+    },
+    {
+        "id": 93,
+        "subjectKey": "physics",
+        "title": "Elektr zanjirida o'zinduksiya hodisasi tufayli hosil bo'ladigan induksiya toki o'zini vujudga keltirgan sababga har doim qarshi yo'nalishda bo'lishini belgilovchi qoida qaysi?",
+        "options": [
+            "Lens qoidasi",
+            "Amper qoidasi",
+            "Faradey qonuni",
+            "Om qonuni"
+        ],
+        "answer": "Lens qoidasi",
+        "category": "physics"
+    },
+    {
+        "id": 94,
+        "subjectKey": "physics",
+        "title": "Elektromagnit to'lqinlarning ko'ndalang to'lqin ekanligini tasdiqlovchi eng asosiy yorug'lik hodisasi qaysi?",
+        "options": [
+            "Yorug'likning qutblanishi",
+            "Yorug'lik interferensiyasi",
+            "Yorug'lik difraksiyasi",
+            "Yorug'lik dispersiyasi"
+        ],
+        "answer": "Yorug'likning qutblanishi",
+        "category": "physics"
+    },
+    {
+        "id": 95,
+        "subjectKey": "physics",
+        "title": "Yorug'likning geometrik soya sohasiga o'tib ketishi (to'siqlarni aylanib o'tishi) uchun tirqish yoki to'siq o'lchamlari qanday bo'lishi lozim?",
+        "options": [
+            "Yorug'likning to'lqin uzunligi bilan teng yoki undan kichik bo'lishi kerak",
+            "To'siq o'lchami bir necha kilometrdan katta bo'lishi kerak",
+            "Faqat shaffof va silliq shishadan iborat bo'lishi kerak",
+            "To'siq mutlaqo yorug'lik o'tkazmaydigan qora jism bo'lishi kerak"
+        ],
+        "answer": "Yorug'likning to'lqin uzunligi bilan teng yoki undan kichik bo'lishi kerak",
+        "category": "physics"
+    },
+    {
+        "id": 96,
+        "subjectKey": "physics",
+        "title": "Kozning yaqindan ko'ra olmaslik (gipometropiya) nuqsonini tuzatish uchun qanday linzali ko'zoynakdan foydalaniladi?",
+        "options": [
+            "Yig'uvchi (qavariq) linzali",
+            "Sochuvchi (botiq) linzali",
+            "Oddiy tekis oynali",
+            "Faqat qorong'ulashtirilgan (quyosh aksiga qarshi) oynali"
+        ],
+        "answer": "Yig'uvchi (qavariq) linzali",
+        "category": "physics"
+    },
+    {
+        "id": 97,
+        "subjectKey": "physics",
+        "title": "Yorug'lik qisqa to'lqin uzunliklarida (masalan, ultrabinafsha nurlarda) zarracha (korpuskula), uzun to'lqinlarda esa to'lqin xossasini namoyon qilishi nima deyiladi?",
+        "options": [
+            "To'lqin-zarracha dualizmi (korpuskulyar-to'lqin dualizmi)",
+            "Yorug'lik flyuktuatsiyasi",
+            "Fotoelektrik effekt",
+            "Elektromagnit rezonans"
+        ],
+        "answer": "To'lqin-zarracha dualizmi (korpuskulyar-to'lqin dualizmi)",
+        "category": "physics"
+    },
+    {
+        "id": 98,
+        "subjectKey": "physics",
+        "title": "Bor postulatiga ko'ra, elektron atomda nurlatmasdan (energiya yo'qotmasdan) harakatlanadigan orbitalari qanday nomlanadi?",
+        "options": [
+            "Stasionar orbitalar (holatlar)",
+            "Kvantlanmagan erkin zonalar",
+            "Xaotik issiqlik trayektoriyalari",
+            "Magnit maydon chiziqlari"
+        ],
+        "answer": "Stasionar orbitalar (holatlar)",
+        "category": "physics"
+    },
+    {
+        "id": 99,
+        "subjectKey": "physics",
+        "title": "Vodorod atomi yadrosi (bitta proton) atrofida aylanuvchi elektron birinchi stasionar orbitadan ikkinchi orbitaga o'tganda atom energiyasi qanday o'zgaradi?",
+        "options": [
+            "Atom tashqi muhitdan energiya (foton) yutadi",
+            "Atom tashqi muhitga foton nurlatadi",
+            "Atomning to'liq energiyasi nolga teng bo'lib qoladi",
+            "Yadrodagi proton neytronga aylanadi"
+        ],
+        "answer": "Atom tashqi muhitdan energiya (foton) yutadi",
+        "category": "physics"
+    },
+    {
+        "id": 100,
+        "subjectKey": "physics",
+        "title": "Koinotdagi barcha yulduzlar va Quyoshning milliardlab yillar davomida ulkan energiya taratib turishiga sabab bo'ladigan asosiy reaksiya turi qaysi?",
+        "options": [
+            "Termoyadro sintezi reaksiyasi (vodorodning geliyga aylanishi)",
+            "Og'ir elementlarning zanjirli parchalanish reaksiyasi",
+            "Kosmik changlarning oddiy kimyoviy yonish reaksiyasi",
+            "Gravitatsion siqilish hisobiga yuzaga keladigan mexanik ish"
+        ],
+        "answer": "Termoyadro sintezi reaksiyasi (vodorodning geliyga aylanishi)",
+        "category": "physics"
+    }
+]

@@ -1,0 +1,801 @@
+[
+    {
+        "id": 1,
+        "subjectKey": "mother_tongue",
+        "title": "Qaysi javobda faqat tarkibidagi barcha unli tovushlar til orqa unlisi (va ayni paytda qatlamli unli) hisoblangan so'zlar berilgan?",
+        "options": [
+            "O'tin, qum, ona",
+            "Ilim, bino, qalam",
+            "Gilos, daftar, bug'doy",
+            "Eshik, ko'prik, silliq"
+        ],
+        "answer": "O'tin, qum, ona",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 2,
+        "subjectKey": "mother_tongue",
+        "title": "So'zga qo'shimcha qo'shilishi natijasida asosdagi unli tovushning tushib qolishi (tovush tushishi) hodisasi yuz bergan so'zni aniqlang.",
+        "options": [
+            "Sariq + arg'ish = sarg'ish",
+            "Kuch + aytir = kuchaytir",
+            "Yaxshi + roq = yaxshiroq",
+            "Katta + yay = kattayay"
+        ],
+        "answer": "Sariq + arg'ish = sarg'ish",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 3,
+        "subjectKey": "mother_tongue",
+        "title": "Qaysi gapda o'zaro shakldosh (omonim) bo'la oladigan va gap ichida ko'chma ma'noda qo'llangan so'z qatnashgan?",
+        "options": [
+            "Uning yuzida iliq tabassum yugurdi.",
+            "Bog'dagi gullar bahor havosidan ochildi.",
+            "Yoz oylarida qishloq juda go'zal bo'ladi.",
+            "Akam yangi kitob sotib oldi."
+        ],
+        "answer": "Uning yuzida iliq tabassum yugurdi.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 4,
+        "subjectKey": "mother_tongue",
+        "title": "Tarkibida ham asosga, ham qo'shimchaga daxldor bo'lmagan, faqat tovush orttirilishi (orttirish hodisasi) hisobiga yozilgan so'zni toping.",
+        "options": [
+            "Parvona + i = parvonayi",
+            "Past + baland = past-baland",
+            "Obro' + li = obro'li",
+            "Ikki + ov = ikkov"
+        ],
+        "answer": "Parvona + i = parvonayi",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 5,
+        "subjectKey": "mother_tongue",
+        "title": "Qaysi javobdagi so'z yasovchi qo'shimcha ham ot, ham fe'l turkumidagi so'zlardan yangi ot yasash xususiyatiga ega?",
+        "options": [
+            "-loq (buloq, qo'zichoq)",
+            "-gich (tirgich, ko'rsatgich)",
+            "-chi (ishchi, paxtachi)",
+            "-dosh (sinfdosh, zamondosh)"
+        ],
+        "answer": "-loq (buloq, qo'zichoq)",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 6,
+        "subjectKey": "mother_tongue",
+        "title": "Qaysi javobda jamlovchi son qo'shimchasi qo'shilishi natijasida tarkibida tovush tushishi sodir bo'lgan so'z qatnashgan?",
+        "options": [
+            "Biz imtihonga ikkovimiz birga bordik.",
+            "Ular uchala kitobni ham o'qib chiqishdi.",
+            "Beshovlon bu ishni tezda yakunladi.",
+            "Oltovining ham fikri bir joydan chiqdi."
+        ],
+        "answer": "Biz imtihonga ikkovimiz birga bordik.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 7,
+        "subjectKey": "mother_tongue",
+        "title": "Berilgan gaplarning qaysi birida ham asliy, ham nisbiy sifat ishtirok etgan?",
+        "options": [
+            "Tog'dagi salqin havo va toshloq yo'llar bizni charchatdi.",
+            "Katta binoning oynalari quyoshda yarqirardi.",
+            "U shirali ovozi bilan go'zal qo'shiq kuyladi.",
+            "Yangi kelgan ishchi juda aqlli ekan."
+        ],
+        "answer": "Tog'dagi salqin havo va toshloq yo'llar bizni charchatdi.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 8,
+        "subjectKey": "mother_tongue",
+        "title": "Qaysi javobda ravishdosh shaklidagi fe'l gapda payt holi vazifasida kelgan?",
+        "options": [
+            "Mehmonlar kelgach, davrada suhbat qizidi.",
+            "U kulib turgan bolaga qaradi.",
+            "Yozadigan xatlarini stol ustiga qo'ydi.",
+            "Darsni tushunish uchun diqqat bilan eshitdi."
+        ],
+        "answer": "Mehmonlar kelgach, davrada suhbat qizidi.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 9,
+        "subjectKey": "mother_tongue",
+        "title": "Harakat nomi shaklidagi fe'l (otlashgan fe'l) qaysi gapda chiqish kelishigi qo'shimchasi bilan kelib, sabab holi vazifasini bajargan?",
+        "options": [
+            "U ko'p o'qishdan ko'zlari charchaganini aytdi.",
+            "Yaxshi o'qish — kelajak poydevoridir.",
+            "Kitob o'qishni hamma yaxshi ko'radi.",
+            "Maktabga borishdan maqsad — bilim olish."
+        ],
+        "answer": "U ko'p o'qishdan ko'zlari charchaganini aytdi.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 10,
+        "subjectKey": "mother_tongue",
+        "title": "Qaysi gapda ko'makchi fe'lli so'z qo'shilishi harakatning tugallanganligi yoki boshlanganligini ifodalab kelmoqda?",
+        "options": [
+            "U kutilmaganda kulib yubordi.",
+            "Xatni oxirigacha o'qib chiqdi.",
+            "Vazifasini bajarishga harakat qildi.",
+            "Uzoq safardan kechasi qaytib keldi."
+        ],
+        "answer": "U kutilmaganda kulib yubordi.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 11,
+        "subjectKey": "mother_tongue",
+        "title": "Qaysi javobda faqat sof ko'makchilar berilgan va ular qaysi kelishikdagi so'zlarga birikishi to'g'ri ko'rsatilgan?",
+        "options": [
+            "Sari, buyon, qadar — jo'nalish kelishigiga",
+            "Bilan, uchun, kabi — bosh kelishikka",
+            "Keyin, so'ng, ilgari — chiqish kelishigiga",
+            "Muvofiq, ko'ra, qaraganda — tushum kelishigiga"
+        ],
+        "answer": "Bilan, uchun, kabi — bosh kelishikka",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 12,
+        "subjectKey": "mother_tongue",
+        "title": "Gapda yuklamaning qaysi turi gapning umumiy ma'nosini yoki biror bo'lagini so'roq ma'nosi bilan bo'rttirib ko'rsatishga xizmat qiladi?",
+        "options": [
+            "So'roq va taajjub yuklamalari (-mi, -chi, axir)",
+            "Kuchsizlantiruvchi yuklamalar",
+            "Ayirish-chegaralash yuklamalari",
+            "Gumon yuklamalari"
+        ],
+        "answer": "So'roq va taajjub yuklamalari (-mi, -chi, axir)",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 13,
+        "subjectKey": "mother_tongue",
+        "title": "Ega va kesim o'rtasida chiziqcha (-) qo'yilishi shart bo'lgan qoidaga mos keladigan gapni aniqlang.",
+        "options": [
+            "Kitob — bilim manbai.",
+            "U — mohir muhandis.",
+            "Bugun havo juda issiq.",
+            "Biz maktab o'quvchilarimiz."
+        ],
+        "answer": "Kitob — bilim manbai.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 14,
+        "subjectKey": "mother_tongue",
+        "title": "Qaysi gapda vositasiz to'ldiruvchi vazifasida kelgan so'z tarkibida belgisiz tushum kelishigi qo'shimchasi qatnashgan?",
+        "options": [
+            "U kechki payt qiziqarli kitob o'qidi.",
+            "Darsni yaxshi o'zlashtirish kerak.",
+            "Akam menga yangi qalam berdi.",
+            "Biz ukamni kutib oldik."
+        ],
+        "answer": "U kechki payt qiziqarli kitob o'qidi.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 15,
+        "subjectKey": "mother_tongue",
+        "title": "Qaratqich aniqlovchi va qaralmish munosabatida har ikki qismda ham kelishik va egalik qo'shimchalari belgisiz qo'llangan birikmani toping.",
+        "options": [
+            "Maktab bog'i",
+            "Daraxt shoxi",
+            "O'zbekiston tabiati",
+            "Yoz havosi"
+        ],
+        "answer": "Maktab bog'i",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 16,
+        "subjectKey": "mother_tongue",
+        "title": "Faqat bosh bo'laklardan (ega va kesimdan) iborat bo'lgan, ya'ni ikkinchi darajali bo'laklar umuman qatnashmagan yalang gapni aniqlang.",
+        "options": [
+            "Yomg'ir yog'di.",
+            "Kuz keldi, kunlar sovudi.",
+            "U tezda keldi.",
+            "Biz darsni boshladik."
+        ],
+        "answer": "Yomg'ir yog'di.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 17,
+        "subjectKey": "mother_tongue",
+        "title": "Tarkibidagi sodda gaplarning biri ikkinchisiga zidlash bog'lovchisi (ammo, lekin, biroq) orqali bog'langan bog'langan qo'shma gapni toping.",
+        "options": [
+            "Havo sovuq edi, lekin biz sayrga chiqdik.",
+            "Yomg'ir yog'di va yerlar yumshadi.",
+            "Goh shamol esar, goh yomg'ir savalar edi.",
+            "U kelgach, hamma ishlar tartibga tushdi."
+        ],
+        "answer": "Havo sovuq edi, lekin biz sayrga chiqdik.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 18,
+        "subjectKey": "mother_tongue",
+        "title": "Ergashgan qo'shma gap tarkibidagi ergash gap bosh gapga '-sa' shart mayli qo'shimchasi va 'ki' yuklamasi orqali bog'langanda qanday ma'no munosabatini bildiradi?",
+        "options": [
+            "Shart ergash gap yoki payt ma'nosini",
+            "Sabab ergash gap ma'nosini",
+            "Maqsad ergash gap ma'nosini",
+            "O'xshatish ergash gap ma'nosini"
+        ],
+        "answer": "Shart ergash gap yoki payt ma'nosini",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 19,
+        "subjectKey": "mother_tongue",
+        "title": "Ko'chirma gapli qo'shma gaplarda muallif gapi ko'chirma gapdan oldin kelganda qanday tinish belgilari qo'yilishi to'g'ri hisoblanadi?",
+        "options": [
+            "Muallif gapidan keyin ikki nuqta qo'yiladi, ko'chirma gap esa qo'shtirnoq ichida bosh harf bilan yoziladi.",
+            "Muallif gapidan keyin vergul va tire qo'yiladi.",
+            "Muallif gapi qavs ichiga olinadi.",
+            "Ko'chirma gap faqat tire bilan ajratiladi."
+        ],
+        "answer": "Muallif gapidan keyin ikki nuqta qo'yiladi, ko'chirma gap esa qo'shtirnoq ichida bosh harf bilan yoziladi.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 20,
+        "subjectKey": "mother_tongue",
+        "title": "Qaysi javobda imlo qoidalariga rioya qilinmagan, ya'ni xato yozilgan so'z qatnashgan?",
+        "options": [
+            "Mubohasa, tahririyat, minnatdor",
+            "Sentyabr, mutaxassis, konfrensiya",
+            "Mashaqqat, intellekt, tasavvur",
+            "Konstitutsiya, grammatika, biologiya"
+        ],
+        "answer": "Sentyabr, mutaxassis, konfrensiya",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 21,
+        "subjectKey": "mother_tongue",
+        "title": "So'zdagi biror bo'g'inning boshqalariga nisbatan kuchliroq ovoz bilan aytilishi so'z urg'usi deyiladi. Qaysi javobdagi so'zda urg'u oxirgi bo'g'inga tushmaydi?",
+        "options": ["Hamma", "Kitob", "Qalam", "Bino"],
+        "answer": "Hamma",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 22,
+        "subjectKey": "mother_tongue",
+        "title": "Talaffuzi va yozilishi yaqin, ammo ma'nosi butunlay bo'lakcha bo'lgan paronim so'zlar qaysi javobda xato qo'llangan?",
+        "options": [
+            "U darsda juda passiv (faol bo'lmagan) ishtirok etdi.",
+            "Yangi qonunning barcha moddalari (bandlari) tasdiqlandi.",
+            "Biz uning bu taklifiga butunlay afzal (ustun) ko'rdik.",
+            "Bu masala bo'yicha maxsus qaror qabul qilindi."
+        ],
+        "answer": "Biz uning bu taklifiga butunlay afzal (ustun) ko'rdik.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 23,
+        "subjectKey": "mother_tongue",
+        "title": "Qaysi gap tarkibidagi asil ma'nodosh (sinonim) so'zlar o'zaro bir-birining o'rnini to'liq bosa olmaydi va nutqda uslubiy g'alizlik keltirib chiqaradi?",
+        "options": [
+            "Uning yuzi (boshi) juda yumaloq ekan.",
+            "Katta-kichik hamma yig'ilishga keldi.",
+            "Chiroyli va go'zal qizlar sahnaga chiqishdi.",
+            "Yaxshi va namunali xulq inson ko'rkidir."
+        ],
+        "answer": "Uning yuzi (boshi) juda yumaloq ekan.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 24,
+        "subjectKey": "mother_tongue",
+        "title": "Tarkibida faqat tub va shakldosh bo'lmagan (yasama bo'lmagan) so'zlar qatnashgan gapni aniqlang.",
+        "options": [
+            "Bola sut ichdi.",
+            "Tog'dan tosh yumaladi.",
+            "U yangi ish boshladi.",
+            "Biz bog'ni tozaladik."
+        ],
+        "answer": "Bola sut ichdi.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 25,
+        "subjectKey": "mother_tongue",
+        "title": "Qaysi qo'shimcha fe'l asosiga qo'shilib, harakatning bajaruvchisi noma'lum bo'lgan (majhul nisbat) fe'llarni hosil qiladi?",
+        "options": ["-il / -nil", "-dir / -tir", "-ish / -nish", "-in / -nin"],
+        "answer": "-il / -nil",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 26,
+        "subjectKey": "mother_tongue",
+        "title": "Harakatning kamida ikki shaxs tomonidan birgalikda yoki qarshilik ko'rinishida bajarilishini ifodalovchi birgalik nisbatidagi fe'l ishtirok etgan gapni toping.",
+        "options": [
+            "Bolalar hovlida quvnoq o'ynashdi.",
+            "U xatni tezda yozdirib oldi.",
+            "Eshik kutilmaganda ochildi.",
+            "Akam bugun erta uyg'ondi."
+        ],
+        "answer": "Bolalar hovlida quvnoq o'ynashdi.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 27,
+        "subjectKey": "mother_tongue",
+        "title": "Qaysi javobda gumon olmoshi ishtirok etgan va u gapda aniqlovchi vazifasida kelgan?",
+        "options": [
+            "Allaqanday odam sizni so'rao'b keldi.",
+            "U kimnidir uzoq kutdi.",
+            "Sizga nimadir kerakmi?",
+            "Hech kim bu savolga javob bera olmadi."
+        ],
+        "answer": "Allaqanday odam sizni so'rab keldi.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 28,
+        "subjectKey": "mother_tongue",
+        "title": "Sifatdosh shaklidagi fe'llar qaysi qo'shimchalar yordamida hosil bo'ladi va ular gapda asosan qaysi gap bo'lagi bo'lib keladi?",
+        "options": [
+            "-gan, -ydigan, -ar — aniqlovchi",
+            "-gach, -guncha, -gali — hol",
+            "-ish, -moq, -v — ega",
+            "-ma, -mas, -b — kesim"
+        ],
+        "answer": "-gan, -ydigan, -ar — aniqlovchi",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 29,
+        "subjectKey": "mother_tongue",
+        "title": "Modal so'zlar gapda so'zlovchining o'z fikriga bo'lgan munosabatini bildiradi. Qaysi gapda ishonch munosabatini bildiruvchi modal so'z qo'llangan?",
+        "options": [
+            "Shubhasiz, biz bu imtihondan o'tamiz.",
+            "Ehtimol, bugun yomg'ir yog'ar.",
+            "Meningcha, bu ishni kechiktirmaslik kerak.",
+            "Afsuski, u majlisga kela olmadi."
+        ],
+        "answer": "Shubhasiz, biz bu imtihondan o'tamiz.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 30,
+        "subjectKey": "mother_tongue",
+        "title": "Gapda his-hayajon, quvonch, ogohlantirish yoki buyruq ohangini bo'rttirib ko'rsatishga xizmat qiladigan undov so'z qatnashgan gapni aniqlang.",
+        "options": [
+            "Oh, bu tabiat manzarasi juda go'zal!",
+            "Kechirasiz, soat necha bo'ldi?",
+            "Yaxshiyamki, siz vaqtida yetib keldingiz.",
+            "Uzoqdan mashina ovozi eshitildi."
+        ],
+        "answer": "Oh, bu tabiat manzarasi juda go'zal!",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 31,
+        "subjectKey": "mother_tongue",
+        "title": "Qaysi gapda o'zaro teng bog'lovchilar yordamida bog'langan uyshiq ega va uyshiq to'ldiruvchi birgalikda kelgan?",
+        "options": [
+            "Akam hamda ukam kitoblar va daftarlarni tartibga solishdi.",
+            "U kecha ham, bugun ham tinmay ishladi.",
+            "Dala va bog'lar yam-yashil libos kiydi.",
+            "Biz maktabda ona tili va adabiyot darslarini o'qidik."
+        ],
+        "answer": "Akam hamda ukam kitoblar va daftarlarni tartibga solishdi.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 32,
+        "subjectKey": "mother_tongue",
+        "title": "Gapda qaratqichli birikmaning tobe qismi (qaratqich aniqlovchi) tushib qolganda, uning ma'nosi qaysi grammatik ko'rsatkich orqali ifodalanib turadi?",
+        "options": [
+            "Hokim qismdagi egalik qo'shimchasi orqali",
+            "Kelishik qo'shimchasi orqali",
+            "Ko'makchilar orqali",
+            "Yuklamalar yordamida"
+        ],
+        "answer": "Hokim qismdagi egalik qo'shimchasi orqali",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 33,
+        "subjectKey": "mother_tongue",
+        "title": "Qaysi gapda holning turi harakatning bajarilish tarzi yoki usulini (ravish holini) ifodalab kelmoqda?",
+        "options": [
+            "U topshiriqni diqqat bilan bajardi.",
+            "Biz kechasi Toshkentga yetib keldik.",
+            "Ko'p gapirganidan ovozi bo'g'ilib qoldi.",
+            "U o'qish uchun chet elga ketdi."
+        ],
+        "answer": "U topshiriqni diqqat bilan bajardi.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 34,
+        "subjectKey": "mother_tongue",
+        "title": "Faqat bir bosh bo'lak — kesim asosida shakllangan, egasi mutlaqo qatnashmaydigan va uni tiklashning ham imkoni bo'lmagan shaxssiz gapni aniqlang.",
+        "options": [
+            "Bugun darsda shu mavzu haqida gapirildi.",
+            "Sizni hovlida kimdir kutyapti.",
+            "Ertaga erta turing.",
+            "Yaxshilikka yaxshilik qaytadi."
+        ],
+        "answer": "Bugun darsda shu mavzu haqida gapirildi.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 35,
+        "subjectKey": "mother_tongue",
+        "title": "Tarkibidagi sodda gaplar o'zaro ohang (intonatsiya) yordamida bog'langan, ya'ni hech qanday bog'lovchi ishlatilmagan bog'lovchisiz qo'shma gapni toping.",
+        "options": [
+            "Kun isidi, qorlar tezda erib ketdi.",
+            "Chunki u kelgan edi, hamma xursand bo'ldi.",
+            "Agar darsni yaxshi o'qisang, imtihondan o'tasan.",
+            "Yomg'ir yog'di va havo seryog'in bo'ldi."
+        ],
+        "answer": "Kun isidi, qorlar tezda erib ketdi.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 36,
+        "subjectKey": "mother_tongue",
+        "title": "Ergashgan qo'shma gapda bosh gap tarkibidagi biron-bir bo'lakni yoki butun bosh gap ma'nosini izohlab keluvchi qism qanday ataladi?",
+        "options": [
+            "Ergash gap",
+            "Bosh gap",
+            "Kiritma gap",
+            "Teng bog'langan gap"
+        ],
+        "answer": "Ergash gap",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 37,
+        "subjectKey": "mother_tongue",
+        "title": "Qaysi javobda berilgan ergashgan qo'shma gapda sabab ma'nosi (sabab ergash gap) ifodalangan?",
+        "options": [
+            "U darsga kela olmadi, chunki tobi qochib qolgan edi.",
+            "Shuni bilingki, mehnat insonni ulug'laydi.",
+            "Kim ko'p o'qisa, u ko'p biladi.",
+            "Havo sovuq bo'lishiga qaramay, biz yo'lga chiqdik."
+        ],
+        "answer": "U darsga kela olmadi, chunki tobi qochib qolgan edi.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 38,
+        "subjectKey": "mother_tongue",
+        "title": "Fikrning kimga qaratilganini bildiruvchi so'z yoki birikmalar undalma deyiladi. Undalma ishtirok etgan gapda tinish belgilari qanday qo'yiladi?",
+        "options": [
+            "Undalma gap boshida kelsa, undan keyin vergul qo'yiladi.",
+            "Undalma faqat qo'shtirnoq ichiga olinadi.",
+            "Undalmadan oldin har doim ikki nuqta qo'yiladi.",
+            "Undalma gapda hech qanday tinish belgisi bilan ajratilmaydi."
+        ],
+        "answer": "Undalma gap boshida kelsa, undan keyin vergul qo'yiladi.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 39,
+        "subjectKey": "mother_tongue",
+        "title": "O'zbek tili imlo qoidalariga ko'ra, qaysi turdagi so'zlar har doim chiziqcha (-) bilan ajratib yozilishi shart?",
+        "options": [
+            "Inson-pinshon, asta-sekin, qush-mush",
+            "Yigirma besh, ko'p qavatli, sotib olmoq",
+            "To'g'ri so'zli, baxtiyor, bayramona",
+            "Yorqin ko'k, tamom qilmoq, ochiq yuzli"
+        ],
+        "answer": "Inson-pinshon, asta-sekin, qush-mush",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 40,
+        "subjectKey": "mother_tongue",
+        "title": "Qaysi gapda asfiksatsiya (so'z oxiriga kelishik qo'shimchasi qo'shilishi) qoidasi imlo jihatdan buzilgan, ya'ni xato yozilgan so'z mavjud?",
+        "options": [
+            "U barcha voqeadan muddaoini tushuntirdi.",
+            "Mening ukam maktabda o'qiydi.",
+            "Biz shaharga poezdda ketdik.",
+            "Kitobni stol ustiga qo'ying."
+        ],
+        "answer": "U barcha voqeadan muddaoini tushuntirdi.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 41,
+        "subjectKey": "mother_tongue",
+        "title": "Gapdagi biror so'zning boshqalariga nisbatan alohida ajratib, kuchliroq ohang bilan aytilishi qanday urg'u hisoblanadi?",
+        "options": [
+            "Mantiqiy urg'u",
+            "So'z urg'usi",
+            "Hissiy urg'u",
+            "Ko'chma urg'u"
+        ],
+        "answer": "Mantiqiy urg'u",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 42,
+        "subjectKey": "mother_tongue",
+        "title": "Qaysi qo'shimchalar o'zaro ma'nodosh (sinonim) bo'lib, harakat nomining turli uslubiy ko'rinishlarini hosil qila oladi?",
+        "options": [
+            "-moq, -ish, -v",
+            "-gan, -ar, -mas",
+            "-gach, -guncha, -b",
+            "-da, -dan, -ga"
+        ],
+        "answer": "-moq, -ish, -v",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 43,
+        "subjectKey": "mother_tongue",
+        "title": "Asosga qo'shimcha qo'shilishi natijasida jarangsiz undoshning jarangli undoshga aylanishi (tovush almashishi) hodisasi yuz bergan so'zni aniqlang.",
+        "options": [
+            "Qishloq + i = qishlog'i",
+            "Sariq + imtir = sarg'ish",
+            "Uch + ta = uchta",
+            "Ket + di = ketdi"
+        ],
+        "answer": "Qishloq + i = qishlog'i",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 44,
+        "subjectKey": "mother_tongue",
+        "title": "Sintaktik vazifasiga ko'ra gapda faqat payt va o'rin ma'nolarini chegaralab keladigan sof ko'makchilar qaysi javobda to'g'ri ko'rsatilgan?",
+        "options": [
+            "Buyon, beri, qadar",
+            "Uchun, kabi, singari",
+            "Muvofiq, ko'ra, yarasha",
+            "Bilan, orqali, osuda"
+        ],
+        "answer": "Buyon, beri, qadar",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 45,
+        "subjectKey": "mother_tongue",
+        "title": "Fe'l mayllari harakatning voqelikka munosabatini bildiradi. Qaysi gapda istak-xohish maylidagi fe'l shakli qo'llangan?",
+        "options": [
+            "Qani edi, men ham shu imtihondan o'tsam.",
+            "Ertaga hamma darsga o'z vaqtida kelsin.",
+            "U bugun barcha vazifalarini bajarib bo'ldi.",
+            "Biz kelasi hafta tog'ga sayrga boramiz."
+        ],
+        "answer": "Qani edi, men ham shu imtihondan o'tsam.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 46,
+        "subjectKey": "mother_tongue",
+        "title": "Sifat turlari ichida belgining me'yoridan ortiq yoki kamligini ko'rsatuvchi darajalar mavjud. Qaysi javobda ozaytirma darajadagi sifat ishtirok etgan?",
+        "options": [
+            "Uning egnida sarg'ish ko'ylak bor edi.",
+            "Keng va yam-yashil maydon ko'zni quvnatardi.",
+            "Eng yaxshi natijani ukam ko'rsatdi.",
+            "Bu olma juda shirin va mazali ekan."
+        ],
+        "answer": "Uning egnida sarg'ish ko'ylak bor edi.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 47,
+        "subjectKey": "mother_tongue",
+        "title": "O'zlik nisbatidagi fe'llar harakatning bajaruvchisi o'z ustida bajarilishini bildiradi. O'zlik nisbatidagi fe'l qaysi gapda qatnashgan?",
+        "options": [
+            "Qiz oyna oldida uzoq tarandi.",
+            "Xat tezda manzilga yetkazildi.",
+            "Ular masalani birgalikda yechishdi.",
+            "O'qituvchi yangi mavzuni tushuntirdi."
+        ],
+        "answer": "Qiz oyna oldida uzoq tarandi.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 48,
+        "subjectKey": "mother_tongue",
+        "title": "Egalik qo'shimchalari so'zlar o'rtasida qanday grammatik munosabatni shakllantirishga xizmat qiladi?",
+        "options": [
+            "Narsaning uch shaxsdan biriga qarashli ekanligini bildiradi.",
+            "Harakatning bajarilish vaqtini ifodalaydi.",
+            "Gap bo'laklarini o'zaro teng munosabatda bog'laydi.",
+            "So'zdan yangi so'z yasash uchun xizmat qiladi."
+        ],
+        "answer": "Narsaning uch shaxsdan biriga qarashli ekanligini bildiradi.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 49,
+        "subjectKey": "mother_tongue",
+        "title": "Ko'makchi fe'lli so'z qo'shilmalarida yetakchi va ko'makchi fe'llar qaysi qo'shimchalar orqali o'zaro birikadi?",
+        "options": [
+            "Yetakchi fe'l -b (-ib) yoki -a (-y) ravishdosh qo'shimchalari bilan keladi.",
+            "Yetakchi fe'l faqat sifatdosh qo'shimchalari bilan keladi.",
+            "Ko'makchi fe'l har doim harakat nomi shaklida bo'ladi.",
+            "Ular hech qanday grammatik vositasiz yonma-yon keladi."
+        ],
+        "answer": "Yetakchi fe'l -b (-ib) yoki -a (-y) ravishdosh qo'shimchalari bilan keladi.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 50,
+        "subjectKey": "mother_tongue",
+        "title": "Qaysi gapda asfiksatsiya so'zlovchining fikriga shubha yoki gumon munosabatini bildiruvchi modal so'z qo'llangan?",
+        "options": [
+            "Shekilli, u bugun kelmaydi.",
+            "Albatta, biz g'alaba qozonamiz.",
+            "Attang, u fursatni boy berdi.",
+            "Demak, hamma masalalar hal bo'ldi."
+        ],
+        "answer": "Shekilli, u bugun kelmaydi.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 51,
+        "subjectKey": "mother_tongue",
+        "title": "Gapda bir xil so'roqqa javob bo'lib, bir xil sintaktik vazifani bajaradigan va bitta so'zga tobe bo'lgan bo'laklar nima deyiladi?",
+        "options": [
+            "Uyshiq bo'laklar",
+            "Ajratilgan bo'laklar",
+            "Kiritma bo'laklar",
+            "Erkin bo'laklar"
+        ],
+        "answer": "Uyshiq bo'laklar",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 52,
+        "subjectKey": "mother_tongue",
+        "title": "Belgisiz qaratqich aniqlovchi qatnashgan so'z birikmasini aniqlang.",
+        "options": [
+            "Kitob varag'i",
+            "Mening qalamim",
+            "Uydan kelmoq",
+            "Yaxshi o'qiydigan"
+        ],
+        "answer": "Kitob varag'i",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 53,
+        "subjectKey": "mother_tongue",
+        "title": "Qaysi gapda maqsad holi (harakatning bajarilish maqsadini bildiruvchi bo'lak) ishtirok etgan?",
+        "options": [
+            "U ukasini ko'rish uchun shifoxonaga bordi.",
+            "Yomg'ir yoqqani sababli ko'chaga chiqmadik.",
+            "Biz topshiriqlarni juda tez yakunladik.",
+            "Kechasi havo ancha salqinlashib qoldi."
+        ],
+        "answer": "U ukasini ko'rish uchun shifoxonaga bordi.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 54,
+        "subjectKey": "mother_tongue",
+        "title": "Faqat bir bosh bo'lak — ega asosida shakllangan, kesimi mutlaqo qatnashmaydigan sodda gap turi qanday ataladi?",
+        "options": [
+            "Atoqli gap",
+            "Shaxssiz gap",
+            "Sinfiy gap",
+            "To'liqsiz gap"
+        ],
+        "answer": "Atoqli gap",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 55,
+        "subjectKey": "mother_tongue",
+        "title": "Sodda gaplarni bog'lovchi vositalarsiz, faqat ohang yordamida birlashtirgan bog'lovchisiz qo'shma gaplarda ikki qism o'rtasida zidlik ma'nosi bo'lsa, qanday tinish belgisi qo'yiladi?",
+        "options": [
+            "Tire (-)",
+            "Ikki nuqta (:)",
+            "Nuqtali vergul (;)",
+            "Qavs ()"
+        ],
+        "answer": "Tire (-)",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 56,
+        "subjectKey": "mother_tongue",
+        "title": "Qaysi gapda bosh gap ergash gapdan oldin kelgan va ukalar 'chunki' bog'lovchisi yordamida bog'langan?",
+        "options": [
+            "Biz tadbirni kechiktirdik, chunki barcha mehmonlar hali yetib kelmagan edi.",
+            "Agar darsga kechikib kelsang, mavzuni tushunmaysan.",
+            "Shuni unutmangki, ilm insonning qanotidir.",
+            "Kim g'olib bo'lsa, o'sha mukofotlanadi."
+        ],
+        "answer": "Biz tadbirni kechiktirdik, chunki barcha mehmonlar hali yetib kelmagan edi.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 57,
+        "subjectKey": "mother_tongue",
+        "title": "Qaysi javobda shart ergash gapli qo'shma gap berilgan?",
+        "options": [
+            "Vaqtingiz bo'lsa, ertaga muzeyga boramiz.",
+            "U shunday gapirdiki, hamma qoyil qoldi.",
+            "Siz kelganingizda, men kitob o'qiyotgan edim.",
+            "Shu sababli u majlisda qatnashmadi."
+        ],
+        "answer": "Vaqtingiz bo'lsa, ertaga muzeyga boramiz.",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 58,
+        "subjectKey": "mother_tongue",
+        "title": "Gapda fikrning manbasini, uning kimga tegishli ekanligini yoki so'zlovchining munosabatini ko'rsatuvchi, gap bo'laklari bilan sintaktik aloqaga kirishmaydigan qurilma nima deyiladi?",
+        "options": [
+            "Kirish so'zlar yoki kiritmalar",
+            "Undalmalar",
+            "Uyshiq bo'laklar",
+            "Ajratilgan aniqlovchilar"
+        ],
+        "answer": "Kirish so'zlar yoki kiritmalar",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 59,
+        "subjectKey": "mother_tongue",
+        "title": "O'zbek tili imlo qoidalariga ko'ra, qaysi turdagi so'zlar har doim ajratib (alohida) yozilishi shart?",
+        "options": [
+            "Ko'makchi fe'lning 'olmoq', 'bermoq' kabi shakllari yetakchi fe'ldan keyin kelganda",
+            "Juft va takroriy so'zlar tarkibidagi qismlar",
+            "-da, -oq, -gina yuklamalari so'zlarga qo'shilganda",
+            "Yordamchi so'z turkumiga oid bo'lgan barcha sof ko'makchilar"
+        ],
+        "answer": "Yordamchi so'z turkumiga oid bo'lgan barcha sof ko'makchilar",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 60,
+        "subjectKey": "mother_tongue",
+        "title": "Qaysi javobda bo'g'inga ko'chirish qoidasi (shuningdek, satrdan satrga ko'chirish) buzilgan, ya'ni xato bajarilgan?",
+        "options": [
+            "M-udofaa, a-prel, i-lim",
+            "Mak-tab, bi-no, daf-tar",
+            "Pa-xta, qis-qa, son-lar",
+            "O'z-be-kis-ton, bi-li-mi"
+        ],
+        "answer": "M-udofaa, a-prel, i-lim",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 61,
+        "subjectKey": "mother_tongue",
+        "title": "Undosh tovushlar hosil bo'lish o'rniga ko'ra turlarga bo'linadi. Qaysi javobdagi barcha undoshlar lab-lab undoshlari hisoblanadi?",
+        "options": ["B, P, M", "V, F, B", "M, N, Ng", "D, T, S"],
+        "answer": "B, P, M",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 62,
+        "subjectKey": "mother_tongue",
+        "title": "Tarkibida faqat sonor (ovozdor, ya'ni shovqinga nisbatan ovozi ustun bo'lgan) undoshlar qatnashgan so'zlar qatorini aniqlang.",
+        "options": [
+            "Limon, maza, narsa",
+            "Olim, non, lola",
+            "Qalam, daftar, kitob",
+            "Shamol, yomg'ir, bug'doy"
+        ],
+        "answer": "Olim, non, lola",
+        "category": "mother_tongue"
+    },
+    {
+        "id": 63,
+        "subjectKey": "mother_tongue",
+        "title": "So'zlarning o'zaro tobe va hokim qism bo'lib bog'lanishida hokim so'z tobe so'zdan ma'lum bir kelishik yoki ko'makchi shaklini talab qilishi qanday bog'lanish usuli deyiladi?",
+        "options": ["Boshqaruv", "Bitishuv", "Moslashuv", "Teng bog'lanish"],
+        "answer": "Boshqaruv",
+        "category": "mother_tongue"
+    }
+]

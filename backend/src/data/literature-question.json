@@ -1,0 +1,1102 @@
+[
+    {
+        "id": 1,
+        "subjectKey": "literature",
+        "title": "O'zbek xalq qahramonlik eposining gultoji hisoblangan, Alpamishning mardligi va Barchinning vafodorligi tarannum etilgan doston qaysi faslda dostonchi fozillar tomonidan eng mukammal variantda kuylangan?",
+        "options": [
+            "Fozil Yo'ldosh o'g'li varianti",
+            "Ergash Jumanbulbul o'g'li varianti",
+            "Po'lkan shoir varianti",
+            "Islom shoir varianti"
+        ],
+        "answer": "Fozil Yo'ldosh o'g'li varianti",
+        "category": "literature"
+    },
+    {
+        "id": 2,
+        "subjectKey": "literature",
+        "title": "Turkiy adabiyotda ilk bor 'Xamsa' (beshlik) yaratib, o'zbek tilining boy va qudratli til ekanligini 'Muhokamat ul-lug'atayn' asarida isbotlab bergan buyuk mutafakkir shoir kim?",
+        "options": [
+            "Alisher Navoiy",
+            "Zahiriddin Muhammad Bobur",
+            "Lutfiy",
+            "Yusuf Xos Hojib"
+        ],
+        "answer": "Alisher Navoiy",
+        "category": "literature"
+    },
+    {
+        "id": 3,
+        "subjectKey": "literature",
+        "title": "XI asrda yozilgan, nomi 'Saodatga eltuvchi bilim' ma'nosini anglatuvchi va turkiy adabiyotdagi ilk doston hamda didaktik asar hisoblangan manba qaysi?",
+        "options": [
+            "Qutadg'u bilig",
+            "Devonu lug'atit turk",
+            "Hibat ul-haqoyiq",
+            "Qissasi Rabg'uziy"
+        ],
+        "answer": "Qutadg'u bilig",
+        "category": "literature"
+    },
+    {
+        "id": 4,
+        "subjectKey": "literature",
+        "title": "Zahiriddin Muhammad Boburning o'z hayoti, safarlari va davr voqealarini xolis va go'zal nasriy tilda bayon etgan, jahon miqyosida mashhur bo'lgan memorial asari qaysi?",
+        "options": ["Boburnoma", "Mubayyin", "Xatti Boburiy", "Aruz risolasi"],
+        "answer": "Boburnoma",
+        "category": "literature"
+    },
+    {
+        "id": 5,
+        "subjectKey": "literature",
+        "title": "XIX asr Xiva adabiy muhitining yirik vakili, o'zbek she'riyatida g'azal, murabba va muhammaslari bilan tanilgan, 'Feruz' taxallusi bilan ijod qilgan va ayni paytda Xiva xoni bo'lgan shaxs kim?",
+        "options": [
+            "Muhammad Rahimxon II",
+            "Ogahiy",
+            "Munis Xorazmiy",
+            "Komil Xorazmiy"
+        ],
+        "answer": "Muhammad Rahimxon II",
+        "category": "literature"
+    },
+    {
+        "id": 6,
+        "subjectKey": "literature",
+        "title": "O'zbek romanchiligining asoschisi Abdulla Qodiriyning Qo'qon xonligi davridagi ijtimoiy-siyosiy ziddiyatlar va Otabek hamda Kumushning fojiaviy sevgisi tasvirlangan ilk o'zbek romani qaysi?",
+        "options": [
+            "O'tkan kunlar",
+            "Mehrobdan chayon",
+            "Obid ketmon",
+            "Kecha va kunduz"
+        ],
+        "answer": "O'tkan kunlar",
+        "category": "literature"
+    },
+    {
+        "id": 7,
+        "subjectKey": "literature",
+        "title": "XX asr o'zbek adabiyotining yirik namoyandasi Abdulhamid Cho'lponning chor Rossiyasi mustamlakachiligi davridagi o'zbek ayoli qismati va millat dardini aks ettirgan yagona romani qaysi?",
+        "options": ["Kecha va kunduz", "Sarob", "Qutlug' qon", "Padarkush"],
+        "answer": "Kecha va kunduz",
+        "category": "literature"
+    },
+    {
+        "id": 8,
+        "subjectKey": "literature",
+        "title": "'Sensan sevgilim', 'O'zbekiston' kabi otashin va vatanparvarlik ruhidagi she'rlari bilan tanilgan, dramaturgiyada 'Muqanna' va 'Jaloliddin Manguberdi' kabi tarixiy dramalar yaratgan shoir kim?",
+        "options": [
+            "Maqsud Shayxzoda",
+            "Hamid Olimjon",
+            "G'afur G'ulom",
+            "Mirtemir"
+        ],
+        "answer": "Maqsud Shayxzoda",
+        "category": "literature"
+    },
+    {
+        "id": 9,
+        "subjectKey": "literature",
+        "title": "O'zbek xalqining atoqli shoiri G'afur G'ulomning Ikkinchi jahon urushi davridagi yetim qolgan bolalarga ko'rsatilgan o'zbekona bag'rikenglikni tarannum etgan eng mashhur she'riy asari qaysi?",
+        "options": [
+            "Siz bo'lmagansiz yetim",
+            "Mening o'g'rigina bolam",
+            "Sog'inish",
+            "Vafo"
+        ],
+        "answer": "Siz bo'lmagansiz yetim",
+        "category": "literature"
+    },
+    {
+        "id": 10,
+        "subjectKey": "literature",
+        "title": "Oybekning o'zbek xalqi hayotining og'ir mustamlaka davrini, xususan 1916-yilgi xalq qo'zg'oloni arafasidagi ijtimoiy muhitni va Yo'lchi obrazini markazga olgan romani qaysi?",
+        "options": [
+            "Qutlug' qon",
+            "Navoiy",
+            "Oltin vodiydan shaddodlar",
+            "Quyosh qoraymas"
+        ],
+        "answer": "Qutlug' qon",
+        "category": "literature"
+    },
+    {
+        "id": 11,
+        "subjectKey": "literature",
+        "title": "O'zbekiston Qahramoni Erkin Vohidovning falsafiy va ijtimoiy chuqur ma'noga ega, insoniy erkinlik va milliy g'ururni uyg'otishga xizmat qilgan mashhur dostonini aniqlang.",
+        "options": ["Ruhlar isyoni", "O'zbegim", "Nido", "Palatkadagilar"],
+        "answer": "Ruhlar isyoni",
+        "category": "literature"
+    },
+    {
+        "id": 12,
+        "subjectKey": "literature",
+        "title": "O'zbekiston Qahramoni Abdulla Oripovning Vatanga bo'lgan cheksiz muhabbat, sadoqat va milliy o'zlikni anglash g'oyalari aks etgan, she'riyatimizning shoh asarlaridan biri hisoblangan doston qaysi?",
+        "options": [
+            "Jannatga yo'l",
+            "Hoshimjonning sarguzashtlari",
+            "Sohibqiron",
+            "Yuzma-yuz"
+        ],
+        "answer": "Jannatga yo'l",
+        "category": "literature"
+    },
+    {
+        "id": 13,
+        "subjectKey": "literature",
+        "title": "Said Ahmadning urushdan keyingi yillar o'zbek qishlog'i hayoti, insoniy munosabatlar va sevgi qissasini Tursunboy va Ra'no obrazlari orqali ochib bergan mashhur qissasi qaysi?",
+        "options": ["Ufq", "Qadrdon dalalar", "Hukm", "Jimjitlik"],
+        "answer": "Qadrdon dalalar",
+        "category": "literature"
+    },
+    {
+        "id": 14,
+        "subjectKey": "literature",
+        "title": "O'tkir Hoshimovning urush orti hayoti, ona va farzand o'rtasidagi muqaddas rishtalar hamda xalqimizning urush yillaridagi cheksiz matonati tasvirlangan lirik-falsafiy romani qaysi?",
+        "options": [
+            "Ikki eshik orasi",
+            "Dunyoning ishlari",
+            "Tushda kechgan umrlar",
+            "Nur borki, soya bor"
+        ],
+        "answer": "Dunyoning ishlari",
+        "category": "literature"
+    },
+    {
+        "id": 15,
+        "subjectKey": "literature",
+        "title": "Pirimqul Qodirovning Boburiylar sulolasining asoschisi, buyuk sarkarda va shoir Zahiriddin Muhammad Boburning murakkab hayot yo'li va fojiaviy qismatiga bag'ishlangan tarixiy romani qaysi?",
+        "options": [
+            "Yulduzli tunlar",
+            "Humoyun va Akbar",
+            "Ona lochin binosi",
+            "Avlodlar dovoni"
+        ],
+        "answer": "Yulduzli tunlar",
+        "category": "literature"
+    },
+    {
+        "id": 16,
+        "subjectKey": "literature",
+        "title": "Qadimgi yunon adabiyotining buyuk namoyandasi Gomer tomonidan yaratilgan, Troya urushi va uning qahramonlari, xususan Axilles jasorati kuylangan epik doston qaysi?",
+        "options": ["Iliada", "Odisseya", "Eneida", "Metamorfozalar"],
+        "answer": "Iliada",
+        "category": "literature"
+    },
+    {
+        "id": 17,
+        "subjectKey": "literature",
+        "title": "Ingliz Uyg'onish davri adabiyotining cho'qqisi hisoblangan, dunyo dramaturgiyasida o'chmas iz qoldirgan 'Gamlet', 'Othello' va 'Romeo va Julyetta' tragediyalarining muallifi kim?",
+        "options": [
+            "Uilyam Shekspir",
+            "Kristofer Marlo",
+            "Ben Jonson",
+            "Jon Milton"
+        ],
+        "answer": "Uilyam Shekspir",
+        "category": "literature"
+    },
+    {
+        "id": 18,
+        "subjectKey": "literature",
+        "title": "Fransuz adabiyotining yirik vakili Viktor Gyugoning Parij hayoti, ijtimoiy adolatsizlik va Jan Valjan ismli qahramonning ruhiy yuksalishi hamda qiyinchiliklari tasvirlangan olamshumul romani qaysi?",
+        "options": [
+            "Xorlanganlar (Xo'rlanganlar)",
+            "Parij Bibi-Maryam ibodatxonasi",
+            "To'qson uchinchi yil",
+            "Kulayotgan inson"
+        ],
+        "answer": "Xorlanganlar (Xo'rlanganlar)",
+        "category": "literature"
+    },
+    {
+        "id": 19,
+        "subjectKey": "literature",
+        "title": "Rus adabiyotining buyuk mutafakkiri Lev Tolstoyning Rossiya va Napoleon qo'shinlari o'rtasidagi to'qnashuvlar hamda rus jamiyati hayotini ensiklopedik tarzda ochib bergan epopeya-romani qaysi?",
+        "options": [
+            "Urush va tinchlik",
+            "Anna Karenina",
+            "Tirilish",
+            "Kavkaz asiri"
+        ],
+        "answer": "Urush va tinchlik",
+        "category": "literature"
+    },
+    {
+        "id": 20,
+        "subjectKey": "literature",
+        "title": "XX asr qirg'iz va jahon adabiyotining ulkan namoyandasi Chingiz Aytmatovning inson va tabiat munosabatlari, vijdon va iymon masalalari hamda 'mankurtlik' fojiasi aks etgan mashhur romani qaysi?",
+        "options": [
+            "Asrga tatigulik kun",
+            "Qiyomat",
+            "Oq kema",
+            "Sarvqomat dilbarim"
+        ],
+        "answer": "Asrga tatigulik kun",
+        "category": "literature"
+    },
+    {
+        "id": 21,
+        "subjectKey": "literature",
+        "title": "VIII asrga oid, turkiy adabiyot va tilning eng qadimgi yozma yodgorligi hisoblangan, xoqonlikning o'tmishi va mustaqilligi bitilgan mashhur toshbitik qaysi?",
+        "options": [
+            "O'rxun-Enasoy bitigtoshlari (Kultegin, Bilga xoqon)",
+            "Devonu lug'atit turk",
+            "Muhabbatnoma",
+            "O'g'uznoma"
+        ],
+        "answer": "O'rxun-Enasoy bitigtoshlari (Kultegin, Bilga xoqon)",
+        "category": "literature"
+    },
+    {
+        "id": 22,
+        "subjectKey": "literature",
+        "title": "Alisher Navoiyning 'Xamsa' tarkibidagi birinchi doston bo'lgan, diniy-falsafiy va ta'limiy-axloqiy masalalarga bag'ishlangan, 20 maqolat va 20 hikoyatdan iborat asari qaysi?",
+        "options": [
+            "Hayrat ul-abror",
+            "Farhod va Shirin",
+            "Layli va Majnun",
+            "Saddi Iskandariy"
+        ],
+        "answer": "Hayrat ul-abror",
+        "category": "literature"
+    },
+    {
+        "id": 23,
+        "subjectKey": "literature",
+        "title": "O'zbek mumtoz adabiyotida g'azallari bilan bir qatorda, o'zbek tilida ilk bor mukammal 'Tazkirat ul-avliyo' va tarixiy asarlarni fors tilidan o'zbek tiliga tarjima qilgan buyuk Xiva shoiri va mutafakkiri kim?",
+        "options": ["Ogahiy", "Munis Xorazmiy", "Nodira", "Mashrab"],
+        "answer": "Ogahiy",
+        "category": "literature"
+    },
+    {
+        "id": 24,
+        "subjectKey": "literature",
+        "title": "XIX asr Qo'qon adabiy muhitining iste'dodli vakilasi, fojiaviy qismatga duch kelgan, 'Komila' va 'Maknuna' taxalluslari bilan ham g'azallar yozgan shoira kim?",
+        "options": ["Nodira", "Uvaysiy", "Anbar Otin", "Dilshodi Barno"],
+        "answer": "Nodira",
+        "category": "literature"
+    },
+    {
+        "id": 25,
+        "subjectKey": "literature",
+        "title": "1911-yilda Mahmudxo'ja Behbudiy tomonidan yozilgan, Turkiston teatrchiligiga asos solgan va jadid adabiyotining ilk dramatik asari hisoblangan pyesa qaysi?",
+        "options": [
+            "Padarkush",
+            "Baxtsiz kuyov",
+            "Zaharli hayot",
+            "Mazlumlar jamiyati"
+        ],
+        "answer": "Padarkush",
+        "category": "literature"
+    },
+    {
+        "id": 26,
+        "subjectKey": "literature",
+        "title": "Abdulla Qodiriyning 'O'tkan kunlar' romanidagi qatnashuvchilar orasida o'zbek ayollariga xos andisha, olijanoblik va matonat timsoli bo'lgan, Kumushbiberning onasi roli qaysi obrazga tegishli?",
+        "options": ["Oftob oyim", "O'zbek oyim", "Zaynab", "Xushro'y"],
+        "answer": "Oftob oyim",
+        "category": "literature"
+    },
+    {
+        "id": 27,
+        "subjectKey": "literature",
+        "title": "Eshonqul va Miryoqub kabi murakkab va ziddiyatli obrazlar orqali chor mustamlakachiligi davridagi o'zbek jamiyatining tanazzuli ko'rsatilgan, Cho'lpon qalamiga mansub asar qaysi?",
+        "options": ["Kecha va kunduz", "Sarob", "Qutlug' qon", "Kecha kelmadi"],
+        "answer": "Kecha va kunduz",
+        "category": "literature"
+    },
+    {
+        "id": 28,
+        "subjectKey": "literature",
+        "title": "Atoqli o'zbek shoiri Usmon Nosirning asir tushgan qalb kechinmalari va jo'shqin tuyg'ulari aks etgan, she'riyatimizning eng ta'sirli namunalaridan biri bo'lgan mashhur she'ri qaysi?",
+        "options": ["Yurak", "Nil va quyosh", "Monolog", "Bog'im"],
+        "answer": "Yurak",
+        "category": "literature"
+    },
+    {
+        "id": 29,
+        "subjectKey": "literature",
+        "title": "Mirtemirning o'zbek she'riyatida milliy ohanglar, qishloq hayoti va tabiati go'zalligini, xususan ona siymosini yuksak mahorat bilan tasvirlagan eng mashhur turkum she'rlari qaysi?",
+        "options": ["Onaginam", "Surat", "Qoraqalpoq daftari", "Kipriklarim"],
+        "answer": "Qoraqalpoq daftari",
+        "category": "literature"
+    },
+    {
+        "id": 30,
+        "subjectKey": "literature",
+        "title": "G'afur G'ulomning urush yillarida yozilgan, o'zbekona lutf, piching va teran xalqona falsafa bilan yo'g'rilgan mashhur nasriy asari (qissasi) qaysi?",
+        "options": [
+            "Shum bola",
+            "Yodgor",
+            "Mening o'g'rigina bolam",
+            "Tirilgan murda"
+        ],
+        "answer": "Shum bola",
+        "category": "literature"
+    },
+    {
+        "id": 31,
+        "subjectKey": "literature",
+        "title": "Asqad Muxtorning o'zbek ayollarining ijtimoiy hayotdagi o'rni, ilm-fan va mehnatdagi matonati hamda 'Unsin' obrazi orqali o'zbek ziyolilarining shakllanishini ko'rsatgan romani qaysi?",
+        "options": [
+            "Opa-singillar",
+            "Chinor",
+            "Bo'ronlarda bordim bo'lib",
+            "Davr mening taqdirimda"
+        ],
+        "answer": "Opa-singillar",
+        "category": "literature"
+    },
+    {
+        "id": 32,
+        "subjectKey": "literature",
+        "title": "Abdulla Oripovning inson umri, tabiat va koinot sirlari haqidagi chuqur falsafiy mushohadalari jamlangan, uning ijodiy baxti hisoblangan mashhur turkum she'rlari qaysi?",
+        "options": ["Hikmatlar", "Xotirot", "Yillar armoni", "Umrim boqiyligi"],
+        "answer": "Hikmatlar",
+        "category": "literature"
+    },
+    {
+        "id": 33,
+        "subjectKey": "literature",
+        "title": "Taniqli o'zbek adibi Odil Yoqubovning Ulug'bek va uning o'g'li Abdullatif o'rtasidagi fojiaviy ziddiyat, ilm va jaholat kurashini aks ettirgan yirik tarixiy romani qaysi?",
+        "options": [
+            "Ulug'bek xazinasi",
+            "Ko'hna dunyo",
+            "Diyonat",
+            "Er boshiga ish tushsa"
+        ],
+        "answer": "Ulug'bek xazinasi",
+        "category": "literature"
+    },
+    {
+        "id": 34,
+        "subjectKey": "literature",
+        "title": "Said Ahmadning Ikkinchi jahon urushi davridagi o'zbek xalqining matonati, kutish azoblari va sadoqatini Ikromjon, Jannat xola obrazlari orqali tasvirlagan uch qismdan iborat mashhur epopeya-romani qaysi?",
+        "options": [
+            "Ufq",
+            "Jimjitlik",
+            "Qadrdon dalalar",
+            "Kelinlar qo'zg'oloni"
+        ],
+        "answer": "Ufq",
+        "category": "literature"
+    },
+    {
+        "id": 35,
+        "subjectKey": "literature",
+        "title": "Erkin Vohidovning o'zbek xalqining o'tmishi, g'ururi va milliy qadriyatlarini juda yuksak pardalarda tarannum etgan, qo'shiq bo'lib kuylangan mashhur qasidasi qaysi?",
+        "options": ["O'zbegim", "Inson", "Nido", "Yoshlik devoni"],
+        "answer": "O'zbegim",
+        "category": "literature"
+    },
+    {
+        "id": 36,
+        "subjectKey": "literature",
+        "title": "XVIII asr nemis adabiyotining buyuk namoyandasi Iohann Volfgang Gyotening inson qadri, ilm izlash va ezgulik bilan yovuzlik o'rtasidagi kurashni aks ettirgan olamshumul falsafiy fojiasi (tragediyasi) qaysi?",
+        "options": [
+            "Faust",
+            "Vilgelm Tell",
+            "Yosh Verterning iztiroblari",
+            "Egmont"
+        ],
+        "answer": "Faust",
+        "category": "literature"
+    },
+    {
+        "id": 37,
+        "subjectKey": "literature",
+        "title": "XIX asr rus adabiyotining buyuk psixologi Fyodor Dostoyevskiyning qashshoqlik, vijdon azobi va jinoiy jazo g'oyalarini Rodion Raskolnikov obrazi orqali ochib bergan eng mashhur romani qaysi?",
+        "options": [
+            "Jinoyat va jazo",
+            "Idiot (Telba)",
+            "Aka-uka Karamazovlar",
+            "Salbiy qahramon"
+        ],
+        "answer": "Jinoyat va jazo",
+        "category": "literature"
+    },
+    {
+        "id": 38,
+        "subjectKey": "literature",
+        "title": "Fransuz adabiyotida realizm janrining cho'qqisi hisoblangan, o'zining yuzlab asarlarini 'Inson komediyasi' turkumi ostida birlashtirgan buyuk yozuvchi kim?",
+        "options": [
+            "Onore de Balzak",
+            "Gi de Mopassan",
+            "Gyustav Flober",
+            "Emil Zolya"
+        ],
+        "answer": "Onore de Balzak",
+        "category": "literature"
+    },
+    {
+        "id": 39,
+        "subjectKey": "literature",
+        "title": "XX asr ispan she'riyatining otashin vakili, fuqarolar urushi qurboni bo'lgan, 'G'amgin gitara', 'Buqa va oy' kabi she'rlari bilan butun dunyoga tanilgan lirik shoir kim?",
+        "options": [
+            "Federiko Garsia Lorka",
+            "Pablo Neruda",
+            "Xuan Ramon Ximenes",
+            "Antonio Machado"
+        ],
+        "answer": "Federiko Garsia Lorka",
+        "category": "literature"
+    },
+    {
+        "id": 40,
+        "subjectKey": "literature",
+        "title": "XX asr Amerika adabiyotining yirik vakili Ernest Xemingueyning inson matonati, tabiat bilan kurashi va 'Insonni yengish mumkin emas' g'oyasi ilgari surilgan Nobel mukofotiga sazovor bo'lgan qissasi qaysi?",
+        "options": [
+            "Chol va dengiz",
+            "Alvido, qurol!",
+            "Surgundagi hayot",
+            "Qo'ng'iroq kimni chorlayapti"
+        ],
+        "answer": "Chol va dengiz",
+        "category": "literature"
+    },
+    {
+        "id": 41,
+        "subjectKey": "literature",
+        "title": "Xalq og'zaki ijodida mifologik va epik qahramonlik unsurlarini o'zida jamlagan, o'zbek xalq dostonlarining shakllanishiga asos bo'lgan eng qadimiy turkiy qabila afsonasi qaysi?",
+        "options": ["O'g'uznoma", "Kuntug'mish", "Yozi va Zebo", "Ravshanxon"],
+        "answer": "O'g'uznoma",
+        "category": "literature"
+    },
+    {
+        "id": 42,
+        "subjectKey": "literature",
+        "title": "O'zbek mumtoz she'riyatida faqat turkiy tillarga xos bo'lgan, asosan to'rt satrdan iborat va qofiyadosh so'zlari tajnis (omonim) bo'lishi shart bo'lgan lirik janr qaysi?",
+        "options": ["Tuyuq", "Ruboiy", "Fard", "Qit'a"],
+        "answer": "Tuyuq",
+        "category": "literature"
+    },
+    {
+        "id": 43,
+        "subjectKey": "literature",
+        "title": "Alisher Navoiyning 'Xamsa' tarkibidagi to'rtinchi doston bo'lib, unda yetti iqlim hukmdori Bahrom Go'r hamda xitoylik go'zal Dilorom sarguzashtlari bayon etilgan asar qaysi?",
+        "options": [
+            "Sab'ai sayyor",
+            "Saddi Iskandariy",
+            "Farhod va Shirin",
+            "Hayrat ul-abror"
+        ],
+        "answer": "Sab'ai sayyor",
+        "category": "literature"
+    },
+    {
+        "id": 44,
+        "subjectKey": "literature",
+        "title": "XVIII asrda yashab ijod etgan, o'zbek realistik adabiyotining asoschisi hisoblangan va o'z hayotining og'ir damlarini 'Sarguzashtnoma' asarida bayon etgan shoir kim?",
+        "options": ["Gulxaniy", "Mahmur", "Muqimiy", "Furqat"],
+        "answer": "Gulxaniy",
+        "category": "literature"
+    },
+    {
+        "id": 45,
+        "subjectKey": "literature",
+        "title": "XIX asr oxiri va XX asr boshlarida Qo'qon adabiy muhitida hajviyot janrini yuksak bosqichga ko'targan, 'Tanobchilar', 'Maston' kabi ijtimoiy-tanqidiy asarlar muallifi kim?",
+        "options": ["Muqimiy", "Furqat", "Zavqiy", "Avloniy"],
+        "answer": "Muqimiy",
+        "category": "literature"
+    },
+    {
+        "id": 46,
+        "subjectKey": "literature",
+        "title": "Jadid adabiyotining yirik namoyandasi Abdulla Avloniyning yoshlar tarbiyasi va axloqiga bag'ishlangan, maktablar uchun darslik sifatida yozilgan pedagogik asari qaysi?",
+        "options": [
+            "Turkiy guliston yoxud axloq",
+            "Birinchi muallim",
+            "Ikkinchi muallim",
+            "Adabiyot yoxud milliy she'rlar"
+        ],
+        "answer": "Turkiy guliston yoxud axloq",
+        "category": "literature"
+    },
+    {
+        "id": 47,
+        "subjectKey": "literature",
+        "title": "Abdulla Qodiriyning 'O'tkan kunlar' romanida Homidning qabix rejalari qurboni bo'lgan, Otabekka majburlab uzatilgan va keyinchalik fojiaviy taqdirga duch kelgan qiz kim?",
+        "options": ["Zaynab", "Xushro'y", "Kumush", "Oftob"],
+        "answer": "Zaynab",
+        "category": "literature"
+    },
+    {
+        "id": 48,
+        "subjectKey": "literature",
+        "title": "G'afur G'ulomning 'Shum bola' qissasidagi bosh qahramon Shum bola bilan birga uydan qochib, turli sarguzashtlarni boshdan kechirgan uning sodda va vafodor do'sti kim edi?",
+        "options": ["Omon", "Sodiq", "Karim", "Tolib"],
+        "answer": "Oman",
+        "category": "literature"
+    },
+    {
+        "id": 49,
+        "subjectKey": "literature",
+        "title": "Taniqli o'zbek adibi Mirkarim Osimning qadimgi tariximiz, xususan Spitamenning ajnabiy bosqinchilarga qarshi olib borgan qahramonona kurashiga bag'ishlangan tarixiy qissasi qaysi?",
+        "options": [
+            "Spitamen",
+            "To'mris",
+            "Singan umidlar",
+            "Zulmat ichra nur"
+        ],
+        "answer": "Spitamen",
+        "category": "literature"
+    },
+    {
+        "id": 50,
+        "subjectKey": "literature",
+        "title": "O'zbek hikoyachiligining usta san'atkori Abdulla Qahhorning xotin-qizlar tengsizligi va eski tuzum sarqitlarini qattiq hajv ostiga olgan mashhur asari qaysi?",
+        "options": ["Anor", "Mayiz ko'zi", "Bemor", "Dahshat"],
+        "answer": "Dahshat",
+        "category": "literature"
+    },
+    {
+        "id": 51,
+        "subjectKey": "literature",
+        "title": "Erkin Vohidovning o'zbek teatri sahnasida ko'p yillar davomida muvaffaqiyat bilan o'ynalgan, oilaviy munosabatlar va insoniy asllikni aks ettirgan komediyasi qaysi?",
+        "options": [
+            "Oltin devor",
+            "Istanbul fojiasi",
+            "Ruhlar isyoni",
+            "Sadoqat"
+        ],
+        "answer": "Oltin devor",
+        "category": "literature"
+    },
+    {
+        "id": 52,
+        "subjectKey": "literature",
+        "title": "O'tkir Hoshimovning 'Ikki eshik orasi' romanida urushning fojiaviy oqibatlarini o'z hayotida sinagan, urushdan majruh bo'lib qaytgan markaziy qahramonlardan biri kim?",
+        "options": ["Shomurod", "Kimsan", "Muzaffar", "Orif"],
+        "answer": "Kimsan",
+        "category": "literature"
+    },
+    {
+        "id": 53,
+        "subjectKey": "literature",
+        "title": "Shukur Xolmirzayevning inson tabiati, tog' odamlarining o'ziga xos dunyosi va ma'naviy muammolarini 'Askar chol' va boshqa obrazlar orqali ochib bergan mashhur romani qaysi?",
+        "options": ["Olabo'ji", "Dinza", "Qora tog'lar", "Yo'lovchi"],
+        "answer": "Olabo'ji",
+        "category": "literature"
+    },
+    {
+        "id": 54,
+        "subjectKey": "literature",
+        "title": "Tog'ay Murodning o'zbek milliy qadriyatlari, otga bo'lgan cheksiz mehr va o'zbekona xarakterni Ziyodulla chavandoz obrazi orqali yuksak mahorat bilan tasvirlagan qissasi qaysi?",
+        "options": [
+            "Ot kishnagan oqshom",
+            "Momo yer qo'shig'i",
+            "Yulduzlar mangu yonadi",
+            "Bu dunyoda o'lib bo'lmaydi"
+        ],
+        "answer": "Ot kishnagan oqshom",
+        "category": "literature"
+    },
+    {
+        "id": 55,
+        "subjectKey": "literature",
+        "title": "XVIII asrda yashagan, ozodlik va birlik g'oyalarini kuylagan, turkman adabiyotining eng buyuk mutafakkir va klassik shoiri kim?",
+        "options": ["Maxtumquli", "Mulla Nafas", "Kemine", "Zelili"],
+        "answer": "Maxtumquli",
+        "category": "literature"
+    },
+    {
+        "id": 56,
+        "subjectKey": "literature",
+        "title": "Qadimgi Rim adabiyotining yirik vakili Vergilat tomonidan yozilgan, Troyaning qulashi va Rim imperiyasining kelib chiqishi afsonalariga asoslangan epik doston qaysi?",
+        "options": ["Eneida", "Metamorfozalar", "Farsaliya", "Odisseya"],
+        "answer": "Eneida",
+        "category": "literature"
+    },
+    {
+        "id": 57,
+        "subjectKey": "literature",
+        "title": "O'rta asrlar Italiya adabiyotining buyuk siymosi Dante Aligyeri tomonidan yozilgan, inson ruhining u dunyodagi sayohatlarini (Do'zax, A'rof, Jannat) tasvirlagan asar qanday nomlanadi?",
+        "options": ["Ilohiy komediya", "Dekameron", "Kankonere", "Yangi hayot"],
+        "answer": "Ilohiy komediya",
+        "category": "literature"
+    },
+    {
+        "id": 58,
+        "subjectKey": "literature",
+        "title": "XIX asr fransuz adabiyotining yirik vakili Stendalning jamiyatdagi sinfiy ziddiyatlar va Jyulyen Sorel ismli qahramonning murakkab taqdirini ochib bergan mashhur romani qaysi?",
+        "options": [
+            "Qizil va qora",
+            "Parma ibodatxonasi",
+            "Lyusiyen Leven",
+            "Vafodor qalb"
+        ],
+        "answer": "Qizil va qora",
+        "category": "literature"
+    },
+    {
+        "id": 59,
+        "subjectKey": "literature",
+        "title": "XIX asr ingliz adabiyotining realistik yo'nalishdagi yirik vakili, o'zining 'Oliver Tvistning sarguzashtlari' va 'Devid Kopperfild' asarlari bilan tanilgan buyuk yozuvchi kim?",
+        "options": [
+            "Charlz Dikkens",
+            "Tomas Hardi",
+            "Uilyam Tekkerey",
+            "Valter Skott"
+        ],
+        "answer": "Charlz Dikkens",
+        "category": "literature"
+    },
+    {
+        "id": 60,
+        "subjectKey": "literature",
+        "title": "XX asr fransuz adabiyotida falsafiy va ekzistensialistik g'oyalarni ilgari surgan, 'Vabo' va 'Begona' kabi chuqur ijtimoiy-psixologik romanlar muallifi bo'lgan Nobel mukofoti sovrindori kim?",
+        "options": [
+            "Alber Kamyu",
+            "Jan-Pol Sartr",
+            "Marsel Prust",
+            "Anatol Frans"
+        ],
+        "answer": "Alber Kamyu",
+        "category": "literature"
+    },
+    {
+        "id": 61,
+        "subjectKey": "literature",
+        "title": "Alisher Navoiyning 'Xamsa' tarkibidagi so'nggi — beshinchi doston bo'lib, adolatli shoh va komil inson muammosi Iskandar obrazi orqali yoritilgan asar qaysi?",
+        "options": [
+            "Saddi Iskandariy",
+            "Sab'ai sayyor",
+            "Farhod va Shirin",
+            "Hayrat ul-abror"
+        ],
+        "answer": "Saddi Iskandariy",
+        "category": "literature"
+    },
+    {
+        "id": 62,
+        "subjectKey": "literature",
+        "title": "Adabiyotshunoslikda she'riy matnda hamma tanigan biror tarixiy shaxs, voqea, afsona yoki oyat-hadislarga ishora qilish san'ati nima deyiladi?",
+        "options": ["Talmeh", "Tashbeh", "Tazod", "Mubog'ala"],
+        "answer": "Talmeh",
+        "category": "literature"
+    },
+    {
+        "id": 63,
+        "subjectKey": "literature",
+        "title": "XIX asr oxirida chorizm mustamlakachiligiga qarshi yozilgan ashaddiy milliy ruhdagi 'Sayding qo'yber, sayyod' she'ri va asir qush obrazi orqali millat erki kuylangan asar muallifi kim?",
+        "options": [
+            "Muhammad Aminxo'ja Muqimiy",
+            "Zokirjon Furqat",
+            "Saidahmad Vasliy",
+            "Avaz O'tar"
+        ],
+        "answer": "Zokirjon Furqat",
+        "category": "literature"
+    },
+    {
+        "id": 64,
+        "subjectKey": "literature",
+        "title": "Jadid adabiyotining yirik vakili Abdurauf Fitratning Buxoro amirligi tuzumini va jaholatni qattiq tanqid ostiga olgan mashhur nasriy asari qaysi?",
+        "options": [
+            "Bayonoti sayyohi hindi",
+            "Munozara",
+            "Abulfayzxon",
+            "Slovarlar majmuasi"
+        ],
+        "answer": "Bayonoti sayyohi hindi",
+        "category": "literature"
+    },
+    {
+        "id": 65,
+        "subjectKey": "literature",
+        "title": "Abdulla Qodiriyning 'Mehrobdan chayon' romanida xonlik qabixliklari va munofiq ulamolarga qarshi turuvchi, romanning bosh qahramoni Anvarga otalik qilgan ijobiy obraz kim?",
+        "options": [
+            "Solih mahdum",
+            "Sultonali mirzo",
+            "Abdurahmon domla",
+            "Mirzo Anvar"
+        ],
+        "answer": "Solih mahdum",
+        "category": "literature"
+    },
+    {
+        "id": 66,
+        "subjectKey": "literature",
+        "title": "Abdulla Qahhorning jamoatlashtirish davri o'zbek qishlog'i hayoti, rais Tursunboy va uning atrofidagilar xarakteri ochib berilgan mashhur hajviy komediyasi qaysi?",
+        "options": [
+            "Shahi so'zana",
+            "Og'riq tishlar",
+            "Tobutdan tovush",
+            "Ayajonlarim"
+        ],
+        "answer": "Shahi so'zana",
+        "category": "literature"
+    },
+    {
+        "id": 67,
+        "subjectKey": "literature",
+        "title": "G'afur G'ulomning 'Shum bola' qissasida Shum bola va Omon bozorda qaysi firbgardan qochib, keyinchalik boyning xizmatiga kirishadi?",
+        "options": ["Hoji bobo", "Sariboy", "Eshon", "Sulton"],
+        "answer": "Hoji bobo",
+        "category": "literature"
+    },
+    {
+        "id": 68,
+        "subjectKey": "literature",
+        "title": "Zulfiyaxonimning Ikkinchi jahon urushida halok bo'lgan turmush o'rtog'i, otashin shoir Hamid Olimjon xotirasiga bag'ishlab yozilgan eng ta'sirli lirik asari (marsh-elegiyasi) qaysi?",
+        "options": [
+            "Xotiram qoldiqlari",
+            "Hajr kuylari",
+            "Sizni kuylayman",
+            "Mening bahorim"
+        ],
+        "answer": "Xotiram qoldiqlari",
+        "category": "literature"
+    },
+    {
+        "id": 69,
+        "subjectKey": "literature",
+        "title": "O'tkir Hoshimovning 'Dunyoning ishlari' qissasida Onaning mehribonligi, farzand qismati va qishloq odamlari hayoti jami nechta mustaqil hikoyalar orqali birlashtirilgan?",
+        "options": [
+            "Turkum hikoyalar shaklida",
+            "3 qismdan iborat roman",
+            "Yaxlit doston",
+            "Pyesa ko'rinishida"
+        ],
+        "answer": "Turkum hikoyalar shaklida",
+        "category": "literature"
+    },
+    {
+        "id": 70,
+        "subjectKey": "literature",
+        "title": "Tog'ay Murodning qatag'on yillari fojiasi, dehqonchilik va o'zbek mehnati, xususan Dehqonqul obrazi orqali millat fojiasi aks ettirilgan so'nggi romani qaysi?",
+        "options": [
+            "Bu dunyoda o'lib bo'lmaydi",
+            "Ot kishnagan oqshom",
+            "Odam bo'lish qiyin",
+            "Yulduzlar mangu yonadi"
+        ],
+        "answer": "Bu dunyoda o'lib bo'lmaydi",
+        "category": "literature"
+    },
+    {
+        "id": 71,
+        "subjectKey": "literature",
+        "title": "XX asr o'zbek nasrining yetuk vakili Odil Yoqubovning o'zbek qishlog'idagi turg'unlik yillari muammolari, adolat va xiyonat kurashini Saidiy obrazi orqali ko'rsatgan romani qaysi?",
+        "options": [
+            "Diyonat",
+            "Ulug'bek xazinasi",
+            "Ko'hna dunyo",
+            "Oq qushlar, oppoq qushlar"
+        ],
+        "answer": "Diyonat",
+        "category": "literature"
+    },
+    {
+        "id": 72,
+        "subjectKey": "literature",
+        "title": "Taniqli o'zbek shoiri va dramaturgi Xurshid tomonidan yozilgan, mumtoz doston asosida sahnaga qo'yilgan ilk o'zbek musiqali dramasi qaysi?",
+        "options": [
+            "Layli va Majnun",
+            "Farhod va Shirin",
+            "Arshin mal alan",
+            "Halima"
+        ],
+        "answer": "Layli va Majnun",
+        "category": "literature"
+    },
+    {
+        "id": 73,
+        "subjectKey": "literature",
+        "title": "Erkin Vohidovning koinot sirlari, olimning fojiaviy taqdiri va ilm yo'lidagi fidoyilikni tarannum etgan eng yirik falsafiy dostoni qaysi?",
+        "options": ["Ruhlar isyoni", "Nido", "Sadoqat", "Chiroqchi chol"],
+        "answer": "Ruhlar isyoni",
+        "category": "literature"
+    },
+    {
+        "id": 74,
+        "subjectKey": "literature",
+        "title": "O'zbek xalq og'zaki ijodida mardlik, vatanparvarlik va botirlik g'oyalari kuylangan, Gorog'li turkumiga kiruvchi eng mashhur qahramonlik dostoni qaysi?",
+        "options": ["Ravshanxon", "Kuntug'mish", "Alpamish", "Murodxon"],
+        "answer": "Ravshanxon",
+        "category": "literature"
+    },
+    {
+        "id": 75,
+        "subjectKey": "literature",
+        "title": "Qadimgi Fors-tojik adabiyotining buyuk namoyandasi Firdavsiy tomonidan 30 yildan ortiq vaqt davomida yozilgan, eron xalqining qahramonlik tarixi aks etgan ulkan epopeya qaysi?",
+        "options": ["Shohnoma", "Guliston", "Bo'ston", "Siyosatnoma"],
+        "answer": "Shohnoma",
+        "category": "literature"
+    },
+    {
+        "id": 76,
+        "subjectKey": "literature",
+        "title": "Uyg'onish davri ingliz dramaturgiyasining nodir namunasi bo'lgan, 'Yashash yoki o'lish — mana masala' monologi bilan butun dunyoga mashhur pyesa qaysi?",
+        "options": ["Gamlet", "Qirol Lir", "Makbet", "Otello"],
+        "answer": "Gamlet",
+        "category": "literature"
+    },
+    {
+        "id": 77,
+        "subjectKey": "literature",
+        "title": "XIX asr nemis adabiyotining yirik lirik shoiri, o'zining 'Qo'shiqlar kitobi' va 'Loreley' balladalari bilan dunyoga tanilgan romantik ijodkor kim?",
+        "options": [
+            "Genrix Geyne",
+            "Iogann Shiller",
+            "Iohann Gyote",
+            "Novalis"
+        ],
+        "answer": "Genrix Geyne",
+        "category": "literature"
+    },
+    {
+        "id": 78,
+        "subjectKey": "literature",
+        "title": "XIX asr rus adabiyotida she'riyat sulfoni hisoblangan, rus realistik romanchiligiga 'Evgeniy Onegin' she'riy romani orqali asos solgan buyuk shoir kim?",
+        "options": [
+            "Aleksandr Pushkin",
+            "Mihail Lermontov",
+            "Nikolay Gogol",
+            "Lev Tolstoy"
+        ],
+        "answer": "Aleksandr Pushkin",
+        "category": "literature"
+    },
+    {
+        "id": 79,
+        "subjectKey": "literature",
+        "title": "XX asr fransuz adabiyotida 'Kichik shahzoda' falsafiy ertak-qissasi orqali insoniy munosabatlar, mas'uliyat va do'stlik tuyg'ularini yuksak mahorat bilan tasvirlagan yozuvchi-uchuvchi kim?",
+        "options": [
+            "Antuan de Sent-Ekzyuperi",
+            "Albert Kamyu",
+            "Marsel Prust",
+            "Jan-Pol Sartr"
+        ],
+        "answer": "Antuan de Sent-Ekzyuperi",
+        "category": "literature"
+    },
+    {
+        "id": 80,
+        "subjectKey": "literature",
+        "title": "XX asr lotin Amerikasi adabiyotida 'buloq realizm' (sehrli realizm) janrining cho'qqisi hisoblangan, 'Yuz yil tanholikda' romani bilan Nobel mukofotini olgan kolumbiyalik yozuvchi kim?",
+        "options": [
+            "Gabriel Garsia Markes",
+            "Xorxe Luis Borxes",
+            "Xulio Kortasar",
+            "Pablo Neruda"
+        ],
+        "answer": "Gabriel Garsia Markes",
+        "category": "literature"
+    },
+    {
+        "id": 81,
+        "subjectKey": "literature",
+        "title": "Alisher Navoiy o'zining umri davomida yozgan turli lirik she'rlarini yosh davrlariga qarab to'rtta mustaqil devonga ajratgan. Ushbu umumiy to'plam adabiyotda qanday nomlanadi?",
+        "options": [
+            "Xazayin ul-maoniy",
+            "Badoyi ul-bidaya",
+            "Navodir un-nihaya",
+            "G'aroyib us-sig'ar"
+        ],
+        "answer": "Xazayin ul-maoniy",
+        "category": "literature"
+    },
+    {
+        "id": 82,
+        "subjectKey": "literature",
+        "title": "Zahiriddin Muhammad Boburning lirik merosida insoniy tuyg'ular, Vatan sog'inchi va gurbat azoblari juda kuchli ifodalangan. Uning mashhur 'Tole' yo'qki, jonimga balolig' bo'ldi...' deb boshlanuvchi she'riy asari qaysi janrga oid?",
+        "options": ["Ruboiy", "G'azal", "Fard", "Tuyuq"],
+        "answer": "Ruboiy",
+        "category": "literature"
+    },
+    {
+        "id": 83,
+        "subjectKey": "literature",
+        "title": "Adabiyotshunoslikda she'riy matnda tabiat yoki hayotdagi biror real voqeaning asl sababini chetga surib, unga shoirona, chiroyli va xayoliy sabab ko'rsatish san'ati nima deyiladi?",
+        "options": ["Husni ta'lil", "Tazod", "Laff va nashr", "Ishtioq"],
+        "answer": "Husni ta'lil",
+        "category": "literature"
+    },
+    {
+        "id": 84,
+        "subjectKey": "literature",
+        "title": "She'rda ma'no jihatidan bir-biriga qarama-qarshi bo'lgan so'zlarni (masalan, oq va qora, tun va kun, yor va ag'yor) yonma-yon qo'llash orqali badiiy ta'sirchanlikni oshirish san'ati qaysi?",
+        "options": ["Tazod", "Tashbeh", "Talmeh", "Mubog'ala"],
+        "answer": "Tazod",
+        "category": "literature"
+    },
+    {
+        "id": 85,
+        "subjectKey": "literature",
+        "title": "XIX asr oxiri va XX asr boshlarida Xiva adabiy muhitida yashab ijod etgan, o'z she'rlarida erkparvarlik va ma'rifatparvarlik g'oyalarini ilgari surgan, 'Zamon kimniki?' she'ri muallifi kim?",
+        "options": ["Avaz O'tar", "Komil Xorazmiy", "Ogahiy", "Rajiyd"],
+        "answer": "Avaz O'tar",
+        "category": "literature"
+    },
+    {
+        "id": 86,
+        "subjectKey": "literature",
+        "title": "Abdulla Qodiriyning 'Mehrobdan chayon' romanida xon saroyida mirzalik qiladigan, Solih mahdumning qizi Ra'noga ko'ngil qo'ygan va romanning bosh ijobiy qahramoni bo'lgan shaxs kim?",
+        "options": ["Anvar", "Sultonali", "Otabek", "Nasrullo"],
+        "answer": "Anvar",
+        "category": "literature"
+    },
+    {
+        "id": 87,
+        "subjectKey": "literature",
+        "title": "Abdulla Qahhorning xalq hayoti, urushdan keyingi davr qiyinchiliklari va insonlar fe'l-atvoridagi o'zgarishlarni usta muallim va uning oilasi sarguzashtlari orqali ochib bergan mashhur qissasi qaysi?",
+        "options": [
+            "Sinchalak",
+            "O'tmishdan ertaklar",
+            "Muhabbat",
+            "Besh ket ketmon"
+        ],
+        "answer": "Sinchalak",
+        "category": "literature"
+    },
+    {
+        "id": 88,
+        "subjectKey": "literature",
+        "title": "Oybekning o'zbek adabiyotida ulkan burilish yasagan, buyuk mutafakkir Alisher Navoiyning hayoti, ijodi va ijtimoiy-siyosiy faoliyatiga bag'ishlangan ilk mukammal biografik romani qaysi?",
+        "options": ["Navoiy", "Qutlug' qon", "Quyosh qoraymas", "Ulug' yo'l"],
+        "answer": "Navoiy",
+        "category": "literature"
+    },
+    {
+        "id": 89,
+        "subjectKey": "literature",
+        "title": "Xamid Olimjonning o'zbek xalq og'zaki afsonalari va dostonlari ohangida yozilgan, muhabbat, sadoqat va jasorat madh etilgan go'zal she'riy ertak-dostoni qaysi?",
+        "options": [
+            "Oygul va Baxtiyor",
+            "Zaynab va Omon",
+            "Semurg'",
+            "Roksana iztirobi"
+        ],
+        "answer": "Oygul va Baxtiyor",
+        "category": "literature"
+    },
+    {
+        "id": 90,
+        "subjectKey": "literature",
+        "title": "Said Ahmadning o'zbek teatri sahnasida eng ko'p qo'yilgan, qishloq hayoti, oilaviy munosabatlar va Farmon bibi obrazi orqali o'zbekona xarakterni hajviy tilda aks ettirgan pyesasi qaysi?",
+        "options": [
+            "Kelinlar qo'zg'oloni",
+            "Kuyov",
+            "Farg'ona hikoyalari",
+            "Ufq"
+        ],
+        "answer": "Kelinlar qo'zg'oloni",
+        "category": "literature"
+    },
+    {
+        "id": 91,
+        "subjectKey": "literature",
+        "title": "O'tkir Hoshimovning inson umrining fojiaviy va chalkash yo'llari, Afg'oniston urushining yoshlar taqdiriga ko'rsatgan salbiy asoratlari tasvirlangan ijtimoiy-psixologik romani qaysi?",
+        "options": [
+            "Tushda kechgan umrlar",
+            "Ikki eshik orasi",
+            "Dunyoning ishlari",
+            "Nur borki, soya bor"
+        ],
+        "answer": "Tushda kechgan umrlar",
+        "category": "literature"
+    },
+    {
+        "id": 92,
+        "subjectKey": "literature",
+        "title": "Shukur Xolmirzayevning mustaqillik arafasi va undan keyingi davr o'zbek ziyolilari hayoti, ma'naviy inqirozlar va haqiqat izlash muammolarini aks ettirgan yirik romani qaysi?",
+        "options": ["Dinozavr", "Olabo'ji", "Yo'lovchi", "To'ylar muborak"],
+        "answer": "Dinozavr",
+        "category": "literature"
+    },
+    {
+        "id": 93,
+        "subjectKey": "literature",
+        "title": "Tog'ay Murodning o'zbek xalqining milliy o'yinlaridan biri bo'lgan kurash, polvonlar hayoti va or-nomus masalalarini yuksak milliy ohangda tasvirlagan ilk qissasi qaysi?",
+        "options": [
+            "Yulduzlar mangu yonadi",
+            "Ot kishnagan oqshom",
+            "Momo yer qo'shig'i",
+            "Odam bo'lish qiyin"
+        ],
+        "answer": "Yulduzlar mangu yonadi",
+        "category": "literature"
+    },
+    {
+        "id": 94,
+        "subjectKey": "literature",
+        "title": "O'zbek xalq ijodiyotida sevgi va sadoqat mavzusida yozilgan, Kuntug'mish polvon va Xolbeka go'zalning sarguzashtlari hamda oila mustahkamligi kuylangan ishqiy-romantik doston qaysi?",
+        "options": ["Kuntug'mish", "Alpamish", "Ravshanxon", "Oshiq G'arib"],
+        "answer": "Kuntug'mish",
+        "category": "literature"
+    },
+    {
+        "id": 95,
+        "subjectKey": "literature",
+        "title": "Fors-tojik adabiyotining buyuk didaktik shoiri Sa'diy Sheroziyning insoniy odob, saxovat va adolat qoidalarini she'riy hikoyat va naqllar orqali bayon etgan mashhur asari qaysi?",
+        "options": ["Guliston", "Bo'ston", "Shohnoma", "Bahoriston"],
+        "answer": "Bo'ston",
+        "category": "literature"
+    },
+    {
+        "id": 96,
+        "subjectKey": "literature",
+        "title": "XVIII-XIX asr ingliz adabiyotining yirik vakili, o'zining ramziy va mistik ohanglardagi she'rlari hamda 'Sarguzashtlar oroli' (Xazinalar oroli) sarguzasht romani bilan dunyoga tanilgan yozuvchi kim?",
+        "options": [
+            "Robert Lyuis Stivenson",
+            "Daniel Defo",
+            "Jonatan Svift",
+            "Valter Skott"
+        ],
+        "answer": "Robert Lyuis Stivenson",
+        "category": "literature"
+    },
+    {
+        "id": 97,
+        "subjectKey": "literature",
+        "title": "XX asr Amerika adabiyotida realizm janrining yirik vakili, AQShdagi iqtisodiy tizim va inson tabiatini Klayd Griffits obrazi orqali fojiaviy tarzda ko'rsatgan 'Amerika fojiasi' romani muallifi kim?",
+        "options": [
+            "Teodor Drayzer",
+            "Jek London",
+            "Mark Tven",
+            "Frensiz Skott Fitsjerald"
+        ],
+        "answer": "Teodor Drayzer",
+        "category": "literature"
+    },
+    {
+        "id": 98,
+        "subjectKey": "literature",
+        "title": "Jek Londonning Shimoliy Amerikaning chekka sovuq o'lkalaridagi hayot, tabiat qonunlari va hayvonlarning sodiqligini bir bo'ri-it qismati orqali tasvirlagan mashhur asari qaysi?",
+        "options": [
+            "Oq soqol (Oq tish)",
+            "Yashash ishtiyoqi",
+            "Martin Iden",
+            "Dengiz bo'risi"
+        ],
+        "answer": "Oq soqol (Oq tish)",
+        "category": "literature"
+    },
+    {
+        "id": 99,
+        "subjectKey": "literature",
+        "title": "Sharq falsafasi va she'riyatida dunyoga mashhur bo'lgan, hayot o'tkinchiligi, falsafiy mushohada va go'zal lirikani to'rtliklarida mujassam etgan buyuk fors shoiri va olimi kim?",
+        "options": [
+            "Umar Xayyom",
+            "Hofiz Sheroziy",
+            "Jomiy",
+            "Nizomiy Ganjaviy"
+        ],
+        "answer": "Umar Xayyom",
+        "category": "literature"
+    },
+    {
+        "id": 100,
+        "subjectKey": "literature",
+        "title": "XIX asr rus adabiyotining atoqli dramaturgi, rus teatri sahnasi uchun 'Momaqaldiroq' va 'Sepsiz qiz' kabi chuqur ijtimoiy va oilaviy fojialarni aks ettirgan pyesalar yaratgan muallif kim?",
+        "options": [
+            "Aleksandr Ostrovskiy",
+            "Anton Chexov",
+            "Nikolay Gogol",
+            "Ivan Turgenev"
+        ],
+        "answer": "Aleksandr Ostrovskiy",
+        "category": "literature"
+    }
+]
