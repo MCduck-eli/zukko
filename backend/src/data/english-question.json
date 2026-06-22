@@ -1,0 +1,1237 @@
+[
+    {
+        "id": 1,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Academic Writing Task 2, which of the following linking phrases is most appropriate to introduce a contrasting argument?",
+        "options": [
+            "On the other hand",
+            "In addition",
+            "Furthermore",
+            "Consequently"
+        ],
+        "answer": "On the other hand",
+        "category": "english_ielts"
+    },
+    {
+        "id": 2,
+        "subjectKey": "english_ielts",
+        "title": "Choose the best academic synonym for the word 'important' to use in an IELTS essay.",
+        "options": ["Crucial", "Big", "Nice", "Famous"],
+        "answer": "Crucial",
+        "category": "english_ielts"
+    },
+    {
+        "id": 3,
+        "subjectKey": "english_ielts",
+        "title": "Identify the grammatically correct inversion structure used for emphasis in advanced writing.",
+        "options": [
+            "Not only did they lose the match, but they also faced a penalty.",
+            "Not only they lost the match, but they also faced a penalty.",
+            "Not only did they lost the match, but they also faced a penalty.",
+            "Not only they did lose the match, but they also faced a penalty."
+        ],
+        "answer": "Not only did they lose the match, but they also faced a penalty.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 4,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Reading, if a text says a phenomenon is 'ubiquitous', it means the phenomenon is...",
+        "options": [
+            "found everywhere",
+            "very rare",
+            "extremely dangerous",
+            "completely new"
+        ],
+        "answer": "found everywhere",
+        "category": "english_ielts"
+    },
+    {
+        "id": 5,
+        "subjectKey": "english_ielts",
+        "title": "Complete the sentence with the correct conditional form: 'If governments ________ more funds to green energy earlier, global warming might not be as severe today.'",
+        "options": [
+            "had allocated",
+            "allocated",
+            "would allocate",
+            "have allocated"
+        ],
+        "answer": "had allocated",
+        "category": "english_ielts"
+    },
+    {
+        "id": 6,
+        "subjectKey": "english_ielts",
+        "title": "Which of the following verbs means 'to increase rapidly' and is highly useful for describing trends in IELTS Writing Task 1?",
+        "options": ["Rocket", "Plunge", "Fluctuate", "Stabilize"],
+        "answer": "Rocket",
+        "category": "english_ielts"
+    },
+    {
+        "id": 7,
+        "subjectKey": "english_ielts",
+        "title": "What is the meaning of the academic word 'mitigate' often found in environmental or social texts in IELTS?",
+        "options": [
+            "To make something less severe or harmful",
+            "To increase the size of something",
+            "To starting a new project",
+            "To approve a law officially"
+        ],
+        "answer": "To make something less severe or harmful",
+        "category": "english_ielts"
+    },
+    {
+        "id": 8,
+        "subjectKey": "english_ielts",
+        "title": "Choose the correct prepositional phrase to complete the sentence: 'The chart shows a dramatic rise in smartphone users, ________ contrast to the previous decade.'",
+        "options": ["in sharp", "with big", "by heavy", "for clear"],
+        "answer": "in sharp",
+        "category": "english_ielts"
+    },
+    {
+        "id": 9,
+        "subjectKey": "english_ielts",
+        "title": "Which sentence uses a complex noun phrase acting as a subject, suitable for a band 7+ IELTS essay?",
+        "options": [
+            "The rapid degradation of natural habitats poses a significant threat to biodiversity.",
+            "Natural habitats are degrading rapidly and this threatens biodiversity a lot.",
+            "Biodiversity is threatened because habitats are destroying very fast.",
+            "Habitats destroy fast, so it is a big threat to biodiversity."
+        ],
+        "answer": "The rapid degradation of natural habitats poses a significant threat to biodiversity.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 10,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Listening, if a speaker says 'I'd rather opt for the latter option,' which option do they prefer?",
+        "options": [
+            "The second of two options mentioned",
+            "The first of two options mentioned",
+            "Neither of the options",
+            "A completely new option"
+        ],
+        "answer": "The second of two options mentioned",
+        "category": "english_ielts"
+    },
+    {
+        "id": 11,
+        "subjectKey": "english_ielts",
+        "title": "What is a suitable academic substitute for the phrase 'a lot of problems' in an IELTS essay?",
+        "options": [
+            "A myriad of challenges",
+            "Many bad things",
+            "Tons of troubles",
+            "A bunch of issues"
+        ],
+        "answer": "A myriad of challenges",
+        "category": "english_ielts"
+    },
+    {
+        "id": 12,
+        "subjectKey": "english_ielts",
+        "title": "Identify the passive structure that correctly introduces an objective, general opinion in writing.",
+        "options": [
+            "It is widely believed that technology hampers face-to-face communication.",
+            "People are widely believing that technology hampers communication.",
+            "It widely believes that technology hampers communication.",
+            "Technology is widely believed to hampering communication."
+        ],
+        "answer": "It is widely believed that technology hampers face-to-face communication.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 13,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Reading, if an author describes a finding as 'spurious', they mean that the finding is...",
+        "options": [
+            "false or fake",
+            "highly accurate",
+            "very historical",
+            "easy to understand"
+        ],
+        "answer": "false or fake",
+        "category": "english_ielts"
+    },
+    {
+        "id": 14,
+        "subjectKey": "english_ielts",
+        "title": "Complete the sentence with the correct relative pronoun: 'Automation is a double-edged sword, the consequences ________ are still being debated by economists.'",
+        "options": ["of which", "with whom", "that", "where"],
+        "answer": "of which",
+        "category": "english_ielts"
+    },
+    {
+        "id": 15,
+        "subjectKey": "english_ielts",
+        "title": "Which phrase is used to introduce the conclusion paragraph in an IELTS Writing Task 2 essay?",
+        "options": [
+            "In conclusion",
+            "To finish my words",
+            "At the end of day",
+            "By the way"
+        ],
+        "answer": "In conclusion",
+        "category": "english_ielts"
+    },
+    {
+        "id": 16,
+        "subjectKey": "english_ielts",
+        "title": "If a line graph shows a pattern going up and down repeatedly, how should you describe this trend in Task 1?",
+        "options": [
+            "The figures fluctuated over the period.",
+            "The figures remained steady over the period.",
+            "The figures plunged dramatically over the period.",
+            "The figures peaked sharply over the period."
+        ],
+        "answer": "The figures fluctuated over the period.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 17,
+        "subjectKey": "english_ielts",
+        "title": "What does the academic word 'detrimental' mean when describing the effects of a habit or policy?",
+        "options": [
+            "Harmful or damaging",
+            "Beneficial and helpful",
+            "Temporary or short-term",
+            "Inexpensive or cheap"
+        ],
+        "answer": "Harmful or damaging",
+        "category": "english_ielts"
+    },
+    {
+        "id": 18,
+        "subjectKey": "english_ielts",
+        "title": "Choose the sentence that correctly utilizes a participle clause to combine two actions efficiently.",
+        "options": [
+            "Having completed the survey, the researchers analyzed the data.",
+            "Completed the survey, the researchers analyzed the data.",
+            "The researchers analyzed the data having completed the survey.",
+            "Survey was completed, the researchers analyzed data."
+        ],
+        "answer": "Having completed the survey, the researchers analyzed the data.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 19,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Speaking Part 3, which phrase helps buy you time to think while maintaining a natural, high-level vocabulary flow?",
+        "options": [
+            "That's a thought-provoking question, let me consider it.",
+            "I don't know the answer for this.",
+            "Wait a minute, please.",
+            "Repeat the question again."
+        ],
+        "answer": "That's a thought-provoking question, let me consider it.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 20,
+        "subjectKey": "english_ielts",
+        "title": "Which word represents the concept of 'the basic physical and organizational structures needed for the operation of a society'?",
+        "options": [
+            "Infrastructure",
+            "Demographics",
+            "Urbanization",
+            "Globalization"
+        ],
+        "answer": "Infrastructure",
+        "category": "english_ielts"
+    },
+    {
+        "id": 21,
+        "subjectKey": "english_ielts",
+        "title": "In advanced academic writing, certain verbs require the subjunctive mood (base form of the verb). Choose the correct option: 'It is imperative that the government ________ immediate action.'",
+        "options": ["take", "takes", "took", "has taken"],
+        "answer": "take",
+        "category": "english_ielts"
+    },
+    {
+        "id": 22,
+        "subjectKey": "english_ielts",
+        "title": "Which 'Cleft sentence' structure is correctly used to place strong emphasis on the cause of a problem in an IELTS Task 2 essay?",
+        "options": [
+            "It is the lack of education that drives high crime rates, not poverty.",
+            "What drives high crime rates it is the lack of education, not poverty.",
+            "The lack of education it is that drives high crime rates, not poverty.",
+            "It is driving high crime rates because of the lack of education."
+        ],
+        "answer": "It is the lack of education that drives high crime rates, not poverty.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 23,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Writing Task 1, if a pie chart shows that an item accounts for exactly 75% of the total, which academic fraction is best to use?",
+        "options": [
+            "A vast majority consisting of three-quarters",
+            "The minor part of three-fourths",
+            "Roughly a third of the overall total",
+            "A small fraction of three parts"
+        ],
+        "answer": "A vast majority consisting of three-quarters",
+        "category": "english_ielts"
+    },
+    {
+        "id": 24,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Reading, if the text states that an ecosystem is 'on the brink of collapse', it means the ecosystem is...",
+        "options": [
+            "extremely close to collapsing",
+            "recovering very successfully",
+            "completely safe from dangers",
+            "monitored by global scientists"
+        ],
+        "answer": "extremely close to collapsing",
+        "category": "english_ielts"
+    },
+    {
+        "id": 25,
+        "subjectKey": "english_ielts",
+        "title": "Choose the correct academic collocation that means 'to have a massive and influential effect' on something.",
+        "options": [
+            "Exert a profound impact",
+            "Make a giant result",
+            "Give a heavy influence",
+            "Do a serious output"
+        ],
+        "answer": "Exert a profound impact",
+        "category": "english_ielts"
+    },
+    {
+        "id": 26,
+        "subjectKey": "english_ielts",
+        "title": "Complete the sentence with the correct advanced adverbial phrase: 'The data indicates that carbon emissions rose steadily, ________ outperforming initial environmental forecasts.'",
+        "options": ["thereby", "whereas", "nevertheless", "nonetheless"],
+        "answer": "thereby",
+        "category": "english_ielts"
+    },
+    {
+        "id": 27,
+        "subjectKey": "english_ielts",
+        "title": "What does the advanced vocabulary word 'unprecedented' mean when describing a modern social or economic trend?",
+        "options": [
+            "Never done or known before",
+            "Very old-fashioned and ancient",
+            "Happening on a regular basis",
+            "Negative and highly controversial"
+        ],
+        "answer": "Never done or known before",
+        "category": "english_ielts"
+    },
+    {
+        "id": 28,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Writing Task 1, which structure is ideal to compare two opposing trends simultaneously within a single complex sentence?",
+        "options": [
+            "While the consumption of coal dropped significantly, that of solar energy experienced a sharp growth.",
+            "The consumption of coal dropped significantly, but solar energy was growing up too.",
+            "Coal consumption dropped down, whereas solar energy also went up in the same time.",
+            "Although coal consumption decreased, but solar energy increased rapidly instead."
+        ],
+        "answer": "While the consumption of coal dropped significantly, that of solar energy experienced a sharp growth.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 29,
+        "subjectKey": "english_ielts",
+        "title": "Identify the correct nominal clause structure functioning as the subject of the sentence.",
+        "options": [
+            "Whether governments should censor the internet remains a highly debated topic.",
+            "That governments should censor the internet it is a highly debated topic.",
+            "Should governments censor the internet is remaining a highly debated topic.",
+            "If governments should censor the internet remaining a debated topic."
+        ],
+        "answer": "Whether governments should censor the internet remains a highly debated topic.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 30,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Listening, if the receptionist says, 'The seminar has been brought forward by two days,' what does it mean?",
+        "options": [
+            "The seminar will happen two days earlier than planned.",
+            "The seminar has been delayed or postponed by two days.",
+            "The seminar will last for two extra days.",
+            "The seminar has been canceled completely."
+        ],
+        "answer": "The seminar will happen two days earlier than planned.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 31,
+        "subjectKey": "english_ielts",
+        "title": "Which of the following phrases is a formal academic alternative for the informal expression 'to deal with a problem'?",
+        "options": [
+            "To address an issue",
+            "To fight a trouble",
+            "To clear a mess",
+            "To sort out an argument"
+        ],
+        "answer": "To address an issue",
+        "category": "english_ielts"
+    },
+    {
+        "id": 32,
+        "subjectKey": "english_ielts",
+        "title": "What is the meaning of the academic adjective 'imperative' often used in problem-solution essays?",
+        "options": [
+            "Crucial or absolutely necessary",
+            "Optional or voluntary",
+            "Outdated and useless",
+            "Extremely cheap or economical"
+        ],
+        "answer": "Crucial or absolutely necessary",
+        "category": "english_ielts"
+    },
+    {
+        "id": 33,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Reading, if a writer claims that a theory has been 'refuted', it means the theory has been...",
+        "options": [
+            "proven to be false",
+            "accepted globally",
+            "discovered recently",
+            "modified slightly"
+        ],
+        "answer": "proven to be false",
+        "category": "english_ielts"
+    },
+    {
+        "id": 34,
+        "subjectKey": "english_ielts",
+        "title": "Choose the sentence that correctly uses a reduced relative clause to make the academic writing more concise.",
+        "options": [
+            "The measures implemented by the council successfully reduced urban traffic.",
+            "The measures which implemented by the council successfully reduced traffic.",
+            "The measures implementing by the council successfully reduced urban traffic.",
+            "The measures were implemented by the council successfully reduced traffic."
+        ],
+        "answer": "The measures implemented by the council successfully reduced urban traffic.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 35,
+        "subjectKey": "english_ielts",
+        "title": "Which word means 'the movement of individuals from rural areas into expanding cities' and is a frequent topic in Task 2?",
+        "options": [
+            "Urbanization",
+            "Migration",
+            "Industrialization",
+            "Congestion"
+        ],
+        "answer": "Urbanization",
+        "category": "english_ielts"
+    },
+    {
+        "id": 36,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Task 1 process diagrams, which linking sequence is the most sophisticated way to transition to the final stage?",
+        "options": [
+            "In the final stage of the process, the packaged goods are subsequently distributed.",
+            "At last step, the goods are packing and going to shops.",
+            "Finally of all, the goods distribute to markets after packing.",
+            "To end the process, the goods are then sending away."
+        ],
+        "answer": "In the final stage of the process, the packaged goods are subsequently distributed.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 37,
+        "subjectKey": "english_ielts",
+        "title": "What does the academic term 'indispensable' mean when talking about tools, resources, or skills?",
+        "options": [
+            "Absolutely essential; cannot be done without",
+            "Easily replaceable and disposable",
+            "Very expensive to maintain",
+            "Hard to learn or master"
+        ],
+        "answer": "Absolutely essential; cannot be done without",
+        "category": "english_ielts"
+    },
+    {
+        "id": 38,
+        "subjectKey": "english_ielts",
+        "title": "Choose the grammatically correct negative adverbial structure used to start a sentence with inversion.",
+        "options": [
+            "Rarely do scientists encounter such perfectly preserved specimens.",
+            "Rarely scientists encounter such perfectly preserved specimens.",
+            "Rarely do scientists encountered such perfectly preserved specimens.",
+            "Rarely scientists do encounter such perfectly preserved specimens."
+        ],
+        "answer": "Rarely do scientists encounter such perfectly preserved specimens.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 39,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Speaking Part 3, if you want to politely disagree with a general statement, which phrase sounds most academic?",
+        "options": [
+            "That might be true to some extent, however, I believe there are other factors.",
+            "No, that is completely wrong in my opinion.",
+            "I don't think so because it is not real.",
+            "You are wrong, but let me say my own point."
+        ],
+        "answer": "That might be true to some extent, however, I believe there are other factors.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 40,
+        "subjectKey": "english_ielts",
+        "title": "Which of the following verbs is the most precise synonym for 'to cause or trigger' a sudden change or reaction?",
+        "options": ["Precipitate", "Accompany", "Hinder", "Postpone"],
+        "answer": "Precipitate",
+        "category": "english_ielts"
+    },
+    {
+        "id": 41,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Academic Writing, 'hedging' is used to avoid overgeneralization. Which sentence correctly applies hedging to sound more objective?",
+        "options": [
+            "Excessive screen time tends to contribute to sedentary lifestyles among adolescents.",
+            "Excessive screen time definitely causes sedentary lifestyles among adolescents.",
+            "Every single adolescent gets a sedentary lifestyle because of excessive screen time.",
+            "Excessive screen time always results in adolescents becoming lazy."
+        ],
+        "answer": "Excessive screen time tends to contribute to sedentary lifestyles among adolescents.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 42,
+        "subjectKey": "english_ielts",
+        "title": "Choose the correct advanced linker of concession to complete this sentence: '________ the high initial costs of installing solar panels, the long-term economic benefits are undeniable.'",
+        "options": ["Notwithstanding", "Although", "Even though", "Whereas"],
+        "answer": "Notwithstanding",
+        "category": "english_ielts"
+    },
+    {
+        "id": 43,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Writing Task 1, when describing a map where an old factory was completely replaced by a new stadium, which verb is most appropriate?",
+        "options": [
+            "Superceded by",
+            "Demolished into",
+            "Expanded with",
+            "Renovated as"
+        ],
+        "answer": "Superceded by",
+        "category": "english_ielts"
+    },
+    {
+        "id": 44,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Reading, if an article mentions that a scientific discovery was 'accidental', which academic synonym is the author likely to use in the text?",
+        "options": ["Serendipitous", "Deliberate", "Calculated", "Systematic"],
+        "answer": "Serendipitous",
+        "category": "english_ielts"
+    },
+    {
+        "id": 45,
+        "subjectKey": "english_ielts",
+        "title": "Some verbs change their meaning depending on whether they are followed by a gerund or an infinitive. What does 'The researchers stopped to interview the subjects' mean?",
+        "options": [
+            "They paused their previous activity in order to conduct the interview.",
+            "They finished the process of interviewing the subjects forever.",
+            "They completely avoided interviewing the subjects.",
+            "They kept interviewing the subjects without any interruption."
+        ],
+        "answer": "They paused their previous activity in order to conduct the interview.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 46,
+        "subjectKey": "english_ielts",
+        "title": "Which phrase is the most formal way to express that something is a direct consequence of a previous action in Task 2?",
+        "options": [
+            "As a direct corollary of this,",
+            "Because of this thing happening,",
+            "And that's why it brings,",
+            "Just like this made,"
+        ],
+        "answer": "As a direct corollary of this,",
+        "category": "english_ielts"
+    },
+    {
+        "id": 47,
+        "subjectKey": "english_ielts",
+        "title": "What is the meaning of the academic word 'exacerbate' when analyzing social or economic issues?",
+        "options": [
+            "To make a problem or bad situation worse",
+            "To solve a complex crisis completely",
+            "To explain the background of a situation",
+            "To decrease the intensity of an argument"
+        ],
+        "answer": "To make a problem or bad situation worse",
+        "category": "english_ielts"
+    },
+    {
+        "id": 48,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Writing Task 1, if you want to describe a small town that sits exactly on the edge of a massive river, which prepositional collocation is correct?",
+        "options": [
+            "Situated on the banks of the river",
+            "Located inside the side of the river",
+            "Positioned over the borders of the river",
+            "Placed at the shores of the river"
+        ],
+        "answer": "Situated on the banks of the river",
+        "category": "english_ielts"
+    },
+    {
+        "id": 49,
+        "subjectKey": "english_ielts",
+        "title": "Identify the sentence that uses a complex advanced modal structure to draw a logical conclusion about a past event.",
+        "options": [
+            "The ancient civilization must have experienced severe droughts to abandon such a fertile valley.",
+            "The ancient civilization must experience severe droughts to abandon such a fertile valley.",
+            "The ancient civilization should have experienced severe droughts for abandoning a valley.",
+            "The ancient civilization might experience severe droughts because they abandoned a valley."
+        ],
+        "answer": "The ancient civilization must have experienced severe droughts to abandon such a fertile valley.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 50,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Listening, if an advisor says, 'The tuition fee is inclusive of all seminar materials,' what does it mean for the student?",
+        "options": [
+            "The materials are provided with no additional cost.",
+            "The student needs to buy the materials separately.",
+            "The materials are optional and not required.",
+            "The student will get a partial refund for materials later."
+        ],
+        "answer": "The materials are provided with no additional cost.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 51,
+        "subjectKey": "english_ielts",
+        "title": "Which of the following expressions is the most advanced way to introduce the concept of 'advantages and disadvantages' in an essay introduction?",
+        "options": [
+            "The merits and demerits of this phenomenon",
+            "The good points and bad sides of this thing",
+            "The pluses and minuses of this event",
+            "The positive things and negative issues of this topic"
+        ],
+        "answer": "The merits and demerits of this phenomenon",
+        "category": "english_ielts"
+    },
+    {
+        "id": 52,
+        "subjectKey": "english_ielts",
+        "title": "What does the academic term 'stagnant' mean when used to describe economic growth or a country's development?",
+        "options": [
+            "Showing no activity; dull and not growing",
+            "Developing at an incredibly rapid pace",
+            "Changing constantly and unpredictably",
+            "Declining to a dangerously low level"
+        ],
+        "answer": "Showing no activity; dull and not growing",
+        "category": "english_ielts"
+    },
+    {
+        "id": 53,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Reading, if a text says that a certain custom is 'deeply ingrained' in a society, it implies that the custom is...",
+        "options": [
+            "firmly established and difficult to change",
+            "recently introduced and unpopular",
+            "completely forgotten by younger generations",
+            "forbidden by the national laws"
+        ],
+        "answer": "firmly established and difficult to change",
+        "category": "english_ielts"
+    },
+    {
+        "id": 54,
+        "subjectKey": "english_ielts",
+        "title": "Choose the sentence that correctly utilizes a complex conditional clause without using the word 'if' (omission of if with inversion).",
+        "options": [
+            "Had the company invested in market research, they would have avoided bankruptcy.",
+            "Did the company invest in market research, they would avoid bankruptcy.",
+            "Have the company invested in market research, they would avoid bankruptcy.",
+            "Should the company invested in market research, they avoided bankruptcy."
+        ],
+        "answer": "Had the company invested in market research, they would have avoided bankruptcy.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 55,
+        "subjectKey": "english_ielts",
+        "title": "Which of the following words describes 'a situation in which a country or organization imports more than it exports'?",
+        "options": ["Deficit", "Surplus", "Inflation", "Revenue"],
+        "answer": "Deficit",
+        "category": "english_ielts"
+    },
+    {
+        "id": 56,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Writing Task 1, when summarizing a trend that reached its highest value before dropping, which phrase is most accurate?",
+        "options": [
+            "The percentage peaked at 45% in 2010 before declining.",
+            "The percentage did a top of 45% in 2010 then it went down.",
+            "The percentage finished its maximum at 45% in 2010 and dropped.",
+            "The percentage stood at its high point of 45% in 2010 and then decreased."
+        ],
+        "answer": "The percentage peaked at 45% in 2010 before declining.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 57,
+        "subjectKey": "english_ielts",
+        "title": "What does the formal academic word 'discrepancy' mean when comparing two sets of statistical data?",
+        "options": [
+            "A lack of compatibility or similarity between facts",
+            "A perfect correlation between two different variables",
+            "The total sum of all numbers collected",
+            "The speed at which data changes over time"
+        ],
+        "answer": "A lack of compatibility or similarity between facts",
+        "category": "english_ielts"
+    },
+    {
+        "id": 58,
+        "subjectKey": "english_ielts",
+        "title": "Choose the option that uses an appropriate advanced adverb to express that a change was 'visible and easy to notice' but not necessarily huge.",
+        "options": [
+            "The employment rate grew perceptibly over the quarter.",
+            "The employment rate grew gigantically over the quarter.",
+            "The employment rate grew shockingly over the quarter.",
+            "The employment rate grew massively over the quarter."
+        ],
+        "answer": "The employment rate grew perceptibly over the quarter.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 59,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Speaking Part 3, if you want to say that a problem affects everyone regardless of their background, which idiomatic academic phrase is best?",
+        "options": [
+            "This issue cuts across all socio-economic boundaries.",
+            "This issue goes over all rich and poor people.",
+            "This issue breaks down every single family.",
+            "This issue touches everyone's pocket directly."
+        ],
+        "answer": "This issue cuts across all socio-economic boundaries.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 60,
+        "subjectKey": "english_ielts",
+        "title": "Which word represents the concept of 'the standard of living, health, and happiness experienced by an individual or group'?",
+        "options": ["Well-being", "Demography", "Sustenance", "Affluence"],
+        "answer": "Well-being",
+        "category": "english_ielts"
+    },
+    {
+        "id": 61,
+        "subjectKey": "english_ielts",
+        "title": "In high-level academic writing, 'nominalization' (turning verbs into nouns) makes the tone more objective. Which sentence shows the best use of nominalization?",
+        "options": [
+            "The implementation of the new policy led to a significant reduction in waste.",
+            "When they implemented the new policy, they reduced waste significantly.",
+            "Implementing the new policy was good because it significantly reduced waste.",
+            "The policy was implemented and it helped to reduce waste in a significant way."
+        ],
+        "answer": "The implementation of the new policy led to a significant reduction in waste.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 62,
+        "subjectKey": "english_ielts",
+        "title": "Choose the correct advanced relative pronoun structure to complete this sentence: 'The city council introduced strict zoning laws, ________ the expansion of commercial zones was heavily restricted.'",
+        "options": [
+            "underneath which",
+            "whereby",
+            "at whose",
+            "forwarding which"
+        ],
+        "answer": "whereby",
+        "category": "english_ielts"
+    },
+    {
+        "id": 63,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Writing Task 1, if a trend increases sharply and then remains completely flat for several years, which academic phrase best describes the flat period?",
+        "options": [
+            "The figure reached a plateau and remained stable.",
+            "The figure experienced a continuous fluctuation.",
+            "The figure hit the lowest trough of the period.",
+            "The figure plummeted consistently without stopping."
+        ],
+        "answer": "The figure reached a plateau and remained stable.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 64,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Reading, if a text mentions that a claim is 'unsubstantiated', it means the claim is...",
+        "options": [
+            "not supported by any valid evidence",
+            "proven to be absolutely true and final",
+            "written by an anonymous author",
+            "extremely dangerous to the public"
+        ],
+        "answer": "not supported by any valid evidence",
+        "category": "english_ielts"
+    },
+    {
+        "id": 65,
+        "subjectKey": "english_ielts",
+        "title": "Identify the sentence that uses 'fronting' (placing an adverbial phrase at the very beginning without inversion) to improve cohesion and flow between paragraphs.",
+        "options": [
+            "Against this background of economic instability, many small businesses failed.",
+            "Many small businesses failed against this background of economic instability.",
+            "Failed many small businesses against this background of economic instability.",
+            "Economic instability background was against this, so small businesses failed."
+        ],
+        "answer": "Against this background of economic instability, many small businesses failed.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 66,
+        "subjectKey": "english_ielts",
+        "title": "Which of the following complex structures is best suited to express a strong personal stance in an IELTS Task 2 introduction?",
+        "options": [
+            "I am firmly of the opinion that the disadvantages of this trend far outweigh its benefits.",
+            "I think that the bad sides of this are more than the good sides.",
+            "My personal thinking is that negative things are bigger than positive items.",
+            "I will say that the drawbacks are heavier than the advantages of this issue."
+        ],
+        "answer": "I am firmly of the opinion that the disadvantages of this trend far outweigh its benefits.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 67,
+        "subjectKey": "english_ielts",
+        "title": "What does the academic vocabulary word 'ubiquity' mean when analyzing modern phenomena like smartphones or the internet?",
+        "options": [
+            "The state of being very common or present everywhere",
+            "The sudden collapse of an advanced industry",
+            "The high cost associated with luxury technology",
+            "The strict regulation of modern digital media"
+        ],
+        "answer": "The state of being very common or present everywhere",
+        "category": "english_ielts"
+    },
+    {
+        "id": 68,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Writing Task 1, when comparing data where one category is double the size of another, which advanced structure is grammatically correct?",
+        "options": [
+            "The proportion of households recycling plastic was twice as high as that of households recycling paper.",
+            "The proportion of households recycling plastic was two times higher than households recycling paper.",
+            " households recycling plastic was double more than households recycling paper.",
+            "Recycling plastic households were two times as much as recycling paper."
+        ],
+        "answer": "The proportion of households recycling plastic was twice as high as that of households recycling paper.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 69,
+        "subjectKey": "english_ielts",
+        "title": "Choose the sentence that correctly utilizes a complex concession clause with 'In spite of' followed by a gerund or noun phrase.",
+        "options": [
+            "In spite of facing severe budget cuts, the university managed to upgrade its research facilities.",
+            "In spite of the university faced severe budget cuts, they managed to upgrade research facilities.",
+            "In spite of severe budget cuts were faced, the university managed to upgrade facilities.",
+            "In spite of the university managed to upgrade facilities, they faced severe budget cuts."
+        ],
+        "answer": "In spite of facing severe budget cuts, the university managed to upgrade its research facilities.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 70,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Listening Section 4, if a lecturer describes a project as 'economically viable', what do they mean?",
+        "options": [
+            "The project is financially feasible and capable of working successfully.",
+            "The project is way too expensive and will cause massive debt.",
+            "The project relies entirely on voluntary charity donations.",
+            "The project has been canceled due to sudden budget shortages."
+        ],
+        "answer": "The project is financially feasible and capable of working successfully.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 71,
+        "subjectKey": "english_ielts",
+        "title": "Which of the following academic collocations is the most sophisticated way to say 'to play a critical role' in achieving a goal?",
+        "options": [
+            "To be instrumental in achieving",
+            "To be a major tool for making",
+            "To do a massive job in building",
+            "To act as a key machine for doing"
+        ],
+        "answer": "To be instrumental in achieving",
+        "category": "english_ielts"
+    },
+    {
+        "id": 72,
+        "subjectKey": "english_ielts",
+        "title": "What does the formal adjective 'counterproductive' mean when evaluating the outcome of a governmental strategy?",
+        "options": [
+            "Having the opposite of the desired effect; completely hindering progress",
+            "Increasing industrial output at an unprecedented speed",
+            "Requiring double the amount of human labor and machinery",
+            "Being highly profitable for private independent companies"
+        ],
+        "answer": "Having the opposite of the desired effect; completely hindering progress",
+        "category": "english_ielts"
+    },
+    {
+        "id": 73,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Reading, if a text states that two distinct variables have an 'inverse relationship', it implies that...",
+        "options": [
+            "as one variable increases, the other variable decreases",
+            "both variables increase simultaneously at the same exact rate",
+            "there is absolutely no logical connection between the two variables",
+            "one variable is the direct ancestor or historical cause of the other"
+        ],
+        "answer": "as one variable increases, the other variable decreases",
+        "category": "english_ielts"
+    },
+    {
+        "id": 74,
+        "subjectKey": "english_ielts",
+        "title": "Complete the sentence with the correct advanced prepositional phrase: 'Online learning offers immense flexibility; ________, it can lead to a sense of isolation among students.'",
+        "options": [
+            "by token of this",
+            "by the same token",
+            "in light of this",
+            "on the grounds of"
+        ],
+        "answer": "by the same token",
+        "category": "english_ielts"
+    },
+    {
+        "id": 75,
+        "subjectKey": "english_ielts",
+        "title": "Which academic word represents 'the process of turning a global or abstract idea into a concrete, measurable reality or entity'?",
+        "options": [
+            "Manifestation",
+            "Diversification",
+            "Stagnation",
+            "Procrastination"
+        ],
+        "answer": "Manifestation",
+        "category": "english_ielts"
+    },
+    {
+        "id": 76,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Writing Task 1, when describing a process diagram where one step must happen at the exact same time as another, which adverb is best?",
+        "options": [
+            "Simultaneously",
+            "Subsequently",
+            "Consecutively",
+            "Retrospectively"
+        ],
+        "answer": "Simultaneously",
+        "category": "english_ielts"
+    },
+    {
+        "id": 77,
+        "subjectKey": "english_ielts",
+        "title": "What does the high-level vocabulary word 'cognitive' refer to in academic texts regarding education or psychology?",
+        "options": [
+            "Relating to the mental processes of perception, memory, and thinking",
+            "Connected strictly to physical exercise and muscular strength",
+            "Associated with financial systems and international bank trades",
+            "Pertaining to ancient architectural structures and city maps"
+        ],
+        "answer": "Relating to the mental processes of perception, memory, and thinking",
+        "category": "english_ielts"
+    },
+    {
+        "id": 78,
+        "subjectKey": "english_ielts",
+        "title": "Choose the option that uses an appropriate advanced adjective to describe a change that was 'so small or minor that it had almost no effect'.",
+        "options": [
+            "The shift in consumer preferences was negligible.",
+            "The shift in consumer preferences was monumental.",
+            "The shift in consumer preferences was fundamental.",
+            "The shift in consumer preferences was drastic."
+        ],
+        "answer": "The shift in consumer preferences was negligible.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 79,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Speaking Part 3, if you want to say that traditional methods are becoming obsolete because of new technology, which phrase is most natural and high-level?",
+        "options": [
+            "Conventional practices are gradually being superseded by technological advancements.",
+            "Old ways of doing things are dying fast because computers are coming.",
+            "Traditional systems are losing their life due to fresh machines.",
+            "Historical methods are completely broken because of modern engineering tools."
+        ],
+        "answer": "Conventional practices are gradually being superseded by technological advancements.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 80,
+        "subjectKey": "english_ielts",
+        "title": "Which academic word represents 'a situation where people are forced to leave their homes or traditional lands due to conflict, environmental disasters, or urban development'?",
+        "options": [
+            "Displacement",
+            "Integration",
+            "Allocation",
+            "Assimilation"
+        ],
+        "answer": "Displacement",
+        "category": "english_ielts"
+    },
+    {
+        "id": 81,
+        "subjectKey": "english_ielts",
+        "title": "Which 'Pseudo-cleft sentence' structure is best utilized to emphasize a specific finding or result in IELTS Writing Task 1?",
+        "options": [
+            "What the data highlights is a disproportionate rise in renewable energy adoption.",
+            "That the data highlights it is a disproportionate rise in renewable energy adoption.",
+            "A disproportionate rise in renewable energy adoption is what does the data highlight.",
+            "What is highlighted by the data it is a disproportionate rise in energy."
+        ],
+        "answer": "What the data highlights is a disproportionate rise in renewable energy adoption.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 82,
+        "subjectKey": "english_ielts",
+        "title": "Choose the option that correctly uses the advanced concession linker 'albeit' to qualify an adjective within an academic context.",
+        "options": [
+            "The project was highly successful, albeit incredibly expensive to execute.",
+            "Albeit the project was successful, it was very expensive to execute.",
+            "The project was successful albeit it cost a lot of money to finish.",
+            "The project was successful, albeit was costing a large amount of money."
+        ],
+        "answer": "The project was highly successful, albeit incredibly expensive to execute.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 83,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Writing Task 1, if a line graph displays wild, unpredictable, and erratic movements up and down, which noun phrase is best to describe this behavior?",
+        "options": [
+            "The figure exhibited a high degree of volatility throughout the period.",
+            "The figure experienced a systematic plateau over the years.",
+            "The figure maintained a uniform trajectory during the decade.",
+            "The figure underwent a marginal reduction before stabilizing."
+        ],
+        "answer": "The figure exhibited a high degree of volatility throughout the period.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 84,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Reading, if an author mentions a 'paradigm shift' in a particular field of science, they mean...",
+        "options": [
+            "a fundamental change in approach or underlying assumptions",
+            "a slight financial error made during data collection",
+            "a historical disagreement between two rival researchers",
+            "a rapid acceleration in the speed of mechanical manufacturing"
+        ],
+        "answer": "a fundamental change in approach or underlying assumptions",
+        "category": "english_ielts"
+    },
+    {
+        "id": 85,
+        "subjectKey": "english_ielts",
+        "title": "Identify the grammatically correct inversion structure starting with a limiting prepositional phrase for Academic Writing Task 2.",
+        "options": [
+            "Under no circumstances should governments compromise the privacy of citizens.",
+            "Under no circumstances governments should compromise the privacy of citizens.",
+            "Under no circumstances governments compromise the privacy of citizens.",
+            "Under no circumstances should governments to compromise the privacy of citizens."
+        ],
+        "answer": "Under no circumstances should governments compromise the privacy of citizens.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 86,
+        "subjectKey": "english_ielts",
+        "title": "Complete the sentence with the correct advanced purposeful structure: 'Local councils are investing in modern public transport, ________ reducing urban traffic congestion.'",
+        "options": [
+            "with a view to",
+            "in order to",
+            "so as to",
+            "for the purpose"
+        ],
+        "answer": "with a view to",
+        "category": "english_ielts"
+    },
+    {
+        "id": 87,
+        "subjectKey": "english_ielts",
+        "title": "What does the academic word 'plausible' mean when evaluating an explanation or a hypothesis in a Reading text?",
+        "options": [
+            "Reasonable or probable; completely believable",
+            "Highly controversial and widely rejected",
+            "Outdated and no longer applicable to modern times",
+            "Strictly confidential and restricted from the public"
+        ],
+        "answer": "Reasonable or probable; completely believable",
+        "category": "english_ielts"
+    },
+    {
+        "id": 88,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Writing Task 2, which advanced transitional adverb is best used to introduce a statement that contrasts directly with the preceding one?",
+        "options": [
+            "Conversely",
+            "Furthermore",
+            "Inadvertently",
+            "Correspondingly"
+        ],
+        "answer": "Conversely",
+        "category": "english_ielts"
+    },
+    {
+        "id": 89,
+        "subjectKey": "english_ielts",
+        "title": "Choose the correct sentence that uses a complex noun-complement clause starting with 'The notion that...' to introduce a widely held belief.",
+        "options": [
+            "The notion that economic growth automatically cures poverty is increasingly being questioned.",
+            "The notion which economic growth automatically cures poverty is questioning a lot.",
+            "The notion that economic growth automatically cures poverty it is questioned.",
+            "The notion where economic growth automatically cures poverty remains questioning."
+        ],
+        "answer": "The notion that economic growth automatically cures poverty is increasingly being questioned.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 90,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Listening, if an applicant states, 'I was under the impression that the workshop was free,' it implies that...",
+        "options": [
+            "they mistakenly believed the workshop did not cost anything",
+            "they knew exactly how much the workshop cost in advance",
+            "they are refusing to attend the workshop due to prices",
+            "they have already paid for the workshop online"
+        ],
+        "answer": "they mistakenly believed the workshop did not cost anything",
+        "category": "english_ielts"
+    },
+    {
+        "id": 91,
+        "subjectKey": "english_ielts",
+        "title": "Which of the following verbs is the most precise academic synonym for 'to support or confirm a statement, theory, or finding' with data?",
+        "options": ["Corroborate", "Contradict", "Jeopardize", "Undermine"],
+        "answer": "Corroborate",
+        "category": "english_ielts"
+    },
+    {
+        "id": 92,
+        "subjectKey": "english_ielts",
+        "title": "What does the academic term 'empirical' mean when describing research, data, or evidence in a text?",
+        "options": [
+            "Based on verifiable observation or experience rather than pure theory",
+            "Derived completely from ancient historical myths and folklore",
+            "Calculated incorrectly due to malfunctioning laboratory equipment",
+            "Sponsored entirely by multinational corporate corporations"
+        ],
+        "answer": "Based on verifiable observation or experience rather than pure theory",
+        "category": "english_ielts"
+    },
+    {
+        "id": 93,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Reading, if a passage claims that a certain factor is the 'catalyst' for a social movement, it means the factor...",
+        "options": [
+            "accelerates or precipitates the development of the event",
+            "completely stops the event from happening further",
+            "is the final negative consequence of the entire event",
+            "is a hidden financial cost associated with the event"
+        ],
+        "answer": "accelerates or precipitates the development of the event",
+        "category": "english_ielts"
+    },
+    {
+        "id": 94,
+        "subjectKey": "english_ielts",
+        "title": "Choose the sentence that correctly utilizes a complex future-in-the-past structure to describe a projected trend from a historical perspective.",
+        "options": [
+            "In 2000, experts predicted that automated systems would dominate the manufacturing sector by 2020.",
+            "In 2000, experts predicted that automated systems will dominate the manufacturing sector by 2020.",
+            "In 2000, experts predicted that automated systems dominate the manufacturing sector by 2020.",
+            "In 2000, experts predicted that automated systems are going to dominate manufacturing by 2020."
+        ],
+        "answer": "In 2000, experts predicted that automated systems would dominate the manufacturing sector by 2020.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 95,
+        "subjectKey": "english_ielts",
+        "title": "Which of the following academic collocations is the most sophisticated way to describe 'the main features or points' of a map or chart in Writing Task 1?",
+        "options": [
+            "The salient features of the diagram",
+            "The main good points of the picture",
+            "The big shapes of the graphics",
+            "The noticeable parts of the chart"
+        ],
+        "answer": "The salient features of the diagram",
+        "category": "english_ielts"
+    },
+    {
+        "id": 96,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Writing Task 1 process diagrams, which grammatical aspect is ideal for describing a step that must be fully completed before another starts?",
+        "options": [
+            "Once the raw materials have been sorted, they are transferred to the conveyor belt.",
+            "Once the raw materials sort, they are transfer to the conveyor belt.",
+            "Once the raw materials are sorting, they will transfer to the conveyor belt.",
+            "Once the raw materials had been sorting, they transferred to the conveyor belt."
+        ],
+        "answer": "Once the raw materials have been sorted, they are transferred to the conveyor belt.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 97,
+        "subjectKey": "english_ielts",
+        "title": "What does the formal academic noun 'propensity' mean when describing human behavior or social trends?",
+        "options": [
+            "An inclination or natural tendency to behave in a particular way",
+            "A complete lack of interest or total apathy towards a topic",
+            "A sudden financial loss experienced by large households",
+            "The legal right to vote in local government elections"
+        ],
+        "answer": "An inclination or natural tendency to behave in a particular way",
+        "category": "english_ielts"
+    },
+    {
+        "id": 98,
+        "subjectKey": "english_ielts",
+        "title": "Choose the option that uses an appropriate advanced adverb to indicate that a change happened 'gradually and in small stages over a long period'.",
+        "options": [
+            "The literacy rate increased incrementally over the course of fifty years.",
+            "The literacy rate increased abruptly over the course of fifty years.",
+            "The literacy rate increased spontaneously over the course of fifty years.",
+            "The literacy rate increased drastically over the course of fifty years."
+        ],
+        "answer": "The literacy rate increased incrementally over the course of fifty years.",
+        "category": "english_ielts"
+    },
+    {
+        "id": 99,
+        "subjectKey": "english_ielts",
+        "title": "In IELTS Speaking Part 3, if you want to concede that an opposing view has some validity before reinforcing your own point, which phrase is best?",
+        "options": [
+            "While there is some truth to that argument, it is critical to remember that...",
+            "You are totally right about that, so my opinion is not useful anymore.",
+            "I agree with that point entirely and I have nothing else to add here.",
+            "That point is wrong, but I still want to say my own sentence instead."
+        ],
+        "answer": "While there is some truth to that argument, it is critical to remember that...",
+        "category": "english_ielts"
+    },
+    {
+        "id": 100,
+        "subjectKey": "english_ielts",
+        "title": "Which academic word represents 'the basic underlying reasons, principles, or logical basis' for a law, decision, or system?",
+        "options": ["Rationale", "Precedent", "Criterion", "Implication"],
+        "answer": "Rationale",
+        "category": "english_ielts"
+    }
+]

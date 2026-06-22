@@ -12,13 +12,11 @@ interface Question {
     category: string;
 }
 
-interface NativeLanguageQuizProps {
+interface KoreanQuizProps {
     onClose: () => void;
 }
 
-export default function NativeLanguageQuiz({
-    onClose,
-}: NativeLanguageQuizProps) {
+export default function KoreanQuiz({ onClose }: KoreanQuizProps) {
     const [questions, setQuestions] = useState<Question[]>([]);
     const [currentIdx, setCurrentIdx] = useState(0);
     const [score, setScore] = useState(0);
@@ -34,39 +32,20 @@ export default function NativeLanguageQuiz({
                 const baseUrl =
                     process.env.NEXT_PUBLIC_API_URL ||
                     "http://localhost:3001/api";
-                const targetUrl = `${baseUrl}/questions?category=native-language&limit=10`;
 
-                console.log("🚀 API so'rovi yuborilmoqda:", targetUrl);
-
-                const res = await fetch(targetUrl);
-
-                console.log("📡 Server javob statusi (status):", res.status);
-                if (!res.ok) throw new Error(`Tarmoq xatosi: ${res.status}`);
+                const res = await fetch(
+                    `${baseUrl}/questions?category=korean&limit=10`,
+                );
+                if (!res.ok) throw new Error("Tarmoq xatosi");
 
                 const result = await res.json();
-                console.log(
-                    "📦 Serverdan kelgan toliq result obyekti:",
-                    result,
-                );
-
                 const actualData = Array.isArray(result) ? result : result.data;
-                console.log(
-                    "🔍 Ajratib olingan actualData massivi:",
-                    actualData,
-                );
 
                 if (actualData && Array.isArray(actualData)) {
-                    console.log(
-                        `📊 Topilgan savollar soni: ${actualData.length} ta`,
-                    );
                     setQuestions(actualData);
-                } else {
-                    console.warn(
-                        "⚠️ Kelgan ma'lumot massiv emas yoki noto'g'ri formatda!",
-                    );
                 }
             } catch (err) {
-                console.error("❌ Savollarni olishda xatolik yuz berdi:", err);
+                console.error("Xatolik:", err);
             } finally {
                 setIsLoading(false);
             }
@@ -75,44 +54,23 @@ export default function NativeLanguageQuiz({
     }, []);
 
     useEffect(() => {
-        console.log(
-            "🔄 useEffect (savol almashishi) ishga tushdi. Savollar:",
-            questions,
-            "Index:",
-            currentIdx,
-        );
-
         if (questions && questions[currentIdx]) {
             const currentQuestion = questions[currentIdx];
-            console.log("📝 Hozirgi aktiv savol obyekti:", currentQuestion);
-
             let rawOptions: string[] = [];
             try {
                 if (typeof currentQuestion.options === "string") {
-                    console.log(
-                        "⚙️ Options string formatda ekan, JSON parse qilinmoqda...",
-                    );
                     rawOptions = JSON.parse(currentQuestion.options);
                 } else if (Array.isArray(currentQuestion.options)) {
-                    console.log("⚙️ Options tayyor massiv formatida.");
                     rawOptions = currentQuestion.options;
                 }
-                console.log(
-                    "🔹 Parse bo'lgan variantlar (rawOptions):",
-                    rawOptions,
-                );
             } catch (e) {
-                console.error("❌ Options parse qilishda xatolik:", e);
+                console.error("Options parse qilishda xatolik:", e);
                 rawOptions = [];
             }
 
             const options = [...rawOptions];
             setShuffledOptions(options.sort(() => Math.random() - 0.5));
             setSelectedAnswer(null);
-        } else {
-            console.log(
-                "ℹ️ Savollar hali yuklanmagan yoki joriy indeksda savol yo'q.",
-            );
         }
     }, [questions, currentIdx]);
 
@@ -125,8 +83,9 @@ export default function NativeLanguageQuiz({
         const correct = selected === correctAnswerText;
         setSelectedAnswer(selected);
 
-        if (correct) setScore((prev) => prev + 1);
-
+        if (correct) {
+            setScore((prev) => prev + 1);
+        }
         setTimeout(() => {
             if (currentIdx + 1 < questions.length) {
                 setCurrentIdx((prev) => prev + 1);
@@ -139,15 +98,14 @@ export default function NativeLanguageQuiz({
     if (isLoading)
         return (
             <div className="text-white text-center py-10 animate-pulse font-medium">
-                Ona tili savollari yuklanmoqda...
+                한국어 문제가 로딩 중입니다...
             </div>
         );
 
     if (!questions || questions.length === 0)
         return (
             <div className="text-white text-center py-10">
-                Ona tili faniga oid savollar topilmadi. (Console oynasini
-                tekshiring)
+                Koreys tili faniga oid savollar topilmadi.
             </div>
         );
 
@@ -160,10 +118,10 @@ export default function NativeLanguageQuiz({
                 className="text-center py-8"
             >
                 <h2 className="text-3xl font-black text-emerald-500 mb-4 uppercase tracking-tighter">
-                    NATIJA: {percent}%
+                    결과: {percent}%
                 </h2>
                 <p className="text-white mb-6">
-                    {questions.length} tadan {score} ta to'g'ri.
+                    {questions.length}개 중 {score}개 맞추셨습니다!
                 </p>
                 <button
                     onClick={onClose}
@@ -191,7 +149,7 @@ export default function NativeLanguageQuiz({
 
             <div className="flex items-center justify-between mb-6">
                 <span className="text-emerald-400 text-[10px] font-bold uppercase tracking-widest">
-                    Ona tili Imtihoni
+                    Korean Exam
                 </span>
                 <span className="text-white/40 text-xs font-mono">
                     {currentIdx + 1} / {questions.length}

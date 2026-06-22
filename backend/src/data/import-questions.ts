@@ -56,9 +56,26 @@ async function importQuestions() {
             { name: "geography-question.json", category: "geography" },
             { name: "literature-question.json", category: "literature" },
 
+            { name: "english-question.json", category: "english" },
+            { name: "english-question.json", category: "english-language" },
+
+            { name: "russian-question.json", category: "russian" },
+            { name: "russian-question.json", category: "russian-language" },
+
+            { name: "korean-question.json", category: "korean" },
+            { name: "korean-question.json", category: "korean_state_exam" },
+
             {
-                name: "native-language-question.json",
+                name: "native-languange-question.json",
                 category: "native-language",
+            },
+            {
+                name: "native-languange-question.json",
+                category: "native-languange",
+            },
+            {
+                name: "native-languange-question.json",
+                category: "mother_tongue",
             },
         ];
 
@@ -68,7 +85,9 @@ async function importQuestions() {
             const filePath = path.join(dataDir, file.name);
 
             if (fs.existsSync(filePath)) {
-                console.log(`⏳ ${file.name} yuklanmoqda...`);
+                console.log(
+                    `⏳ ${file.name} -> [${file.category}] yuklanmoqda...`,
+                );
                 const content = fs.readFileSync(filePath, "utf-8");
                 const questions = JSON.parse(content);
 

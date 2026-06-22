@@ -1,0 +1,947 @@
+[
+    {
+        "id": 1,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 조사를 고르십시오: '저는 내일 친구____ 영화를 볼 거예요.'",
+        "options": ["하고", "가", "를", "에게"],
+        "answer": "하고",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 2,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 표현을 고르십시오: '어제 비가 많이 ________ 학교에 못 갔어요.'",
+        "options": ["와서", "오면", "오고", "오지만"],
+        "answer": "와서",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 3,
+        "subjectKey": "korean_state_exam",
+        "title": "다음 밑줄 친 단어의 반대말을 고르십시오: '이 가방은 너무 <u>무겁습니다</u>.'",
+        "options": ["가볍습니다", "어렵습니다", "적습니다", "낮습니다"],
+        "answer": "가볍습니다",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 4,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 어미를 고르십시오: '한국말을 잘 ____ 매일 연습해야 합니다.'",
+        "options": ["하려면", "하니까", "하면서", "하도록"],
+        "answer": "하려면",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 5,
+        "subjectKey": "korean_state_exam",
+        "title": "불규칙 동사 문장입니다. 빈칸에 알맞은 형태를 고르십시오: '길을 잘 몰라서 지나가는 사람에게 주소를 ________.'",
+        "options": ["물어봤어요", "묻어봤어요", "물고봤어요", "물어봤습니다"],
+        "answer": "물어봤어요",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 6,
+        "subjectKey": "korean_state_exam",
+        "title": "높임말(수여동사) 표현이 올바른 문장을 고르십시오:",
+        "options": [
+            "저는 선생님께 선물을 드렸습니다.",
+            "저는 선생님에게 선물을 주었습니다.",
+            "선생님이 저에게 선물을 드렸습니다.",
+            "저는 선생님께 선물을 주셨습니다."
+        ],
+        "answer": "저는 선생님께 선물을 드렸습니다.",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 7,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 부사를 고르십시오: '숙제를 ________ 다 끝내서 마음이 가볍다.'",
+        "options": ["벌써", "아직", "별로", "가장"],
+        "answer": "벌써",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 8,
+        "subjectKey": "korean_state_exam",
+        "title": "다음 대화의 빈칸에 들어갈 말로 알맞은 것을 고르십시오: 가: '이번 주말에 같이 쇼핑 갈래요?' 나: '미안해요. 주말에는 고향에서 부모님이 ________ 바빠요.'",
+        "options": ["오시기 때문에", "오시지만", "오시려고", "오실 테니까"],
+        "answer": "오시기 때문에",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 9,
+        "subjectKey": "korean_state_exam",
+        "title": "의무나 허락을 나타내는 표현입니다. 빈칸에 알맞은 것을 고르십시오: '도서관에서는 조용히 ________ 합니다.'",
+        "options": ["해야", "하면", "하고", "해서"],
+        "answer": "해야",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 10,
+        "subjectKey": "korean_state_exam",
+        "title": "다음 중 밑줄 친 부분의 쓰임이 올바르지 않은 것을 고르십시오:",
+        "options": [
+            "저는 매운 음식을 <u>안</u> 먹어요.",
+            "어제는 아파서 학교에 <u>못</u> 갔어요.",
+            "그 책은 재미가 <u>없지</u> 않아요.",
+            "이 옷은 너무 비싸서 <u>못</u> 사요."
+        ],
+        "answer": "그 책은 재미가 <u>없지</u> 않아요.",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 11,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 어휘를 고르십시오: '감기에 걸려서 아침부터 열이 나고 목이 ________.'",
+        "options": ["아파요", "슬퍼요", "작아요", "추워요"],
+        "answer": "아파요",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 12,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 조사를 고르십시오: '백화점____ 티셔츠를 두 장 샀습니다.'",
+        "options": ["에서", "에", "으로", "에게"],
+        "answer": "에서",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 13,
+        "subjectKey": "korean_state_exam",
+        "title": "동시 행동을 나타내는 문법입니다. 빈칸에 알맞은 것을 고르십시오: '저는 보통 음악을 ________ 공부를 해요.'",
+        "options": ["들으면서", "듣거나", "들으면", "듣다가"],
+        "answer": "들으면서",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 14,
+        "subjectKey": "korean_state_exam",
+        "title": "단위명사(수량사)가 올바르게 연결된 것을 고르십시오: '커피 두 ____, 고양이 세 ____.'",
+        "options": ["잔, 마리", "명, 권", "개, 병", "장, 대"],
+        "answer": "잔, 마리",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 15,
+        "subjectKey": "korean_state_exam",
+        "title": "경험을 나타내는 문법 표현을 고르십시오: '저는 작년에 제주도에 ________ 적이 있습니다.'",
+        "options": ["간", "가 본", "가려고 한", "가던"],
+        "answer": "가 본",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 16,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 의존명사를 고르십시오: '한국에 온 ____ 6개월이 되었습니다.'",
+        "options": ["지", "적", "때", "후"],
+        "answer": "지",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 17,
+        "subjectKey": "korean_state_exam",
+        "title": "상태의 변화를 나타내는 문법입니다. 빈칸에 알맞은 것을 고르십시오: '날씨가 아침보다 더 ________.'",
+        "options": ["추워졌어요", "춥고 있어요", "추워 오다", "춥게 해요"],
+        "answer": "추워졌어요",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 18,
+        "subjectKey": "korean_state_exam",
+        "title": "다음 대화의 빈칸에 들어갈 말로 알맞은 것을 고르십시오: 가: '주말에 만나서 같이 밥 먹을까요?' 나: '네, ________.'",
+        "options": [
+            "좋아요. 같이 먹어요",
+            "안 돼요. 못 먹어요",
+            "감사합니다. 잘 먹었습니다",
+            "맛있겠어요. 축하해요"
+        ],
+        "answer": "좋아요. 같이 먹어요",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 19,
+        "subjectKey": "korean_state_exam",
+        "title": "추측을 나타내는 문법 표현입니다. 빈칸에 알맞은 것을 고르십시오: '하늘에 구름이 많은 걸 보니 곧 비가 ________ 같다.'",
+        "options": ["올 것", "오는 것", "온 것", "왔던 것"],
+        "answer": "올 것",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 20,
+        "subjectKey": "korean_state_exam",
+        "title": "다음 중 시간 관계를 나타내는 표현이 올바른 문장을 고르십시오:",
+        "options": [
+            "밥을 먹은 후에 양치를 해요.",
+            "밥을 먹기 후에 양치를 해요.",
+            "밥을 먹는 전에 양치를 해요.",
+            "밥을 먹으면서 후에 양치를 해요."
+        ],
+        "answer": "밥을 먹은 후에 양치를 해요.",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 21,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 표현을 고르십시오: '마침 내가 전화를 ________ 네가 전화를 했구나.'",
+        "options": [
+            "하려던 참이었는데",
+            "하기 전이었는데",
+            "했을 뿐이었는데",
+            "하도록 했었는데"
+        ],
+        "answer": "하려던 참이었는데",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 22,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 연결어미를 고르십시오: '이 신발은 디자인이 예쁜 ________ 가격이 너무 비싸요.'",
+        "options": ["반면에", "바람에", "덕분에", "길래"],
+        "answer": "반면에",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 23,
+        "subjectKey": "korean_state_exam",
+        "title": "두 가지 목적을 동시에 나타내는 문법입니다. 빈칸에 알맞은 것을 고르십시오: '바람도 ________ 책도 살 겸 서점에 가려고 해요.'",
+        "options": ["쐴 겸", "쐬니까", "쐬면서", "쐬려고"],
+        "answer": "쐴 겸",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 24,
+        "subjectKey": "korean_state_exam",
+        "title": "상황에 대한 추측을 나타내는 표현입니다. 빈칸에 알맞은 것을 고르십시오: '불이 다 꺼진 걸 보니 모두 ________ 모양이다.'",
+        "options": ["자는", "잘", "자던", "잤던"],
+        "answer": "자는",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 25,
+        "subjectKey": "korean_state_exam",
+        "title": "다음 대화의 빈칸에 들어갈 알맞은 간접화법 표현을 고르십시오: 가: '선생님께서 뭐라고 하셨어요?' 나: '내일까지 숙제를 반드시 ________ 하셨어요.'",
+        "options": ["내라고", "내자고", "낸다고", "내냐고"],
+        "answer": "내라고",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 26,
+        "subjectKey": "korean_state_exam",
+        "title": "제안이나 청유의 간접화법 문장입니다. 빈칸에 알맞은 것을 고르십시오: '친구가 주말에 같이 영화를 ________ 했어요.'",
+        "options": ["보자고", "보라고", "본다고", "보냐고"],
+        "answer": "보자고",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 27,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 속담을 고르십시오: '________라더니 작은 실수 하나 때문에 계획이 다 무너졌어요.'",
+        "options": [
+            "호랑이도 제 말 하면 온다",
+            "세 살 버릇 여든까지 간다",
+            "원숭이도 나무에서 떨어진다",
+            "금강산도 식후경이다"
+        ],
+        "answer": "원숭이도 나무에서 떨어진다",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 28,
+        "subjectKey": "korean_state_exam",
+        "title": "밑줄 친 부분과 의미가 가장 비슷한 문법을 고르십시오: '비가 <u>오더라도</u> 축구 시합은 계속될 것입니다.'",
+        "options": ["올지라도", "오기 때문에", "오는 바람에", "오다시피"],
+        "answer": "올지라도",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 29,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 의존명사 구성을 고르십시오: '돈이 많다고 해서 항상 행복한 ________ 아닙니다.'",
+        "options": ["것은", "경우는", "때문은", "바람은"],
+        "answer": "것은",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 30,
+        "subjectKey": "korean_state_exam",
+        "title": "원인과 결과를 강하게 연결하는 문법입니다. 빈칸에 알맞은 것을 고르십시오: '너무 서둘러 ________ 지갑을 집에 두고 나왔어요.'",
+        "options": [
+            "나오는 바람에",
+            "나오는 대로",
+            "나오다시피",
+            "나올 뿐더러"
+        ],
+        "answer": "나오는 바람에",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 31,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 관용구를 고르십시오: '그 사람은 아주 인색해서 남에게 절대 돈을 쓰지 않고 ________ 고만 있다.'",
+        "options": ["손을 쥐고", "발을 빼고", "귀를 기울이고", "눈을 감고"],
+        "answer": "손을 쥐고",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 32,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 표현을 고르십시오: '저는 그저 제 할 일을 ________ 칭찬을 받으니 부끄럽습니다.'",
+        "options": [
+            "했을 뿐인데",
+            "하도록 했는데",
+            "했으면 좋겠는데",
+            "했을 리가 없는데"
+        ],
+        "answer": "했을 뿐인데",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 33,
+        "subjectKey": "korean_state_exam",
+        "title": "조건이나 가정을 나타내는 고급 문법입니다: '아무리 힘들 ________ 끝까지 포기하지 않겠습니다.'",
+        "options": ["을지라도", "을수록", "다시피", "다시피 해서"],
+        "answer": "을지라도",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 34,
+        "subjectKey": "korean_state_exam",
+        "title": "동사 뒤에 붙어 앞 행위를 마침을 강조하는 문법입니다: '오랫동안 미뤄왔던 숙제를 드디어 다 ________ 하련다.'",
+        "options": ["해 버리니", "해 보니까", "해 주니까", "해 대니까"],
+        "answer": "해 버리니",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 35,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 부사를 고르십시오: '그 소문은 ________ 사실이 아닐 리가 없다.'",
+        "options": ["결코", "그대로", "갑자기", "드디어"],
+        "answer": "결코",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 36,
+        "subjectKey": "korean_state_exam",
+        "title": "점증적 변화를 나타내는 문법입니다. 빈칸에 알맞은 것을 고르십시오: '외국어는 공부를 ________ 더 어렵게 느껴집니다.'",
+        "options": [
+            "하면 할수록",
+            "하면 할지라도",
+            "하다시피 해서",
+            "하도록 하면서"
+        ],
+        "answer": "하면 할수록",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 37,
+        "subjectKey": "korean_state_exam",
+        "title": "어떤 사실을 당연한 원인으로 삼을 때 쓰는 문법입니다: '학생의 신분인 ________ 공부를 열심히 해야지.'",
+        "options": ["이상", "반면", "동안", "대신"],
+        "answer": "이상",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 38,
+        "subjectKey": "korean_state_exam",
+        "title": "알맞은 연결어미를 고르십시오: '그 이야기를 ________ 마치 내가 현장에 있었던 것 같았다.'",
+        "options": ["듣노라면", "듣느라고", "듣는 대신", "듣기 마련이라"],
+        "answer": "듣노라면",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 39,
+        "subjectKey": "korean_state_exam",
+        "title": "다음 중 밑줄 친 문법 표현의 쓰임이 가장 올바른 문장을 고르십시오:",
+        "options": [
+            "누구나 나이가 들면 늙기 마련이다.",
+            "열심히 공부하면 떨어지기 마련이다.",
+            "비가 오면 날씨가 맑아지기 마련이다.",
+            "밥을 많이 먹으면 배가 고프기 마련이다."
+        ],
+        "answer": "누구나 나이가 들면 늙기 마련이다.",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 40,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 속담을 고르십시오: '________라더니 생각지도 못한 사람이 도와줘서 일이 잘 해결됐다.'",
+        "options": [
+            "뜻이 있는 곳에 길이 있다",
+            "하늘이 무너져도 솟아날 구멍이 있다",
+            "백지장도 맞들면 낫다",
+            "소 잃고 외양간 고친다"
+        ],
+        "answer": "하늘이 무너져도 솟아날 구멍이 있다",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 41,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 표현을 고르십시오: '그 사람은 매일 성실하게 연습했으니 이번 시합에서 지려야 ________.'",
+        "options": [
+            "질 수가 없다",
+            "질 리가 없다",
+            "질 뿐만 아니라",
+            "질 뻔했다"
+        ],
+        "answer": "질 수가 없다",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 42,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 연결어미를 고르십시오: '이 제품은 품질이 우수할 ________ 디자인도 아주 현대적입니다.'",
+        "options": ["뿐만 아니라", "기 마련이고", "는 반면에", "는 바람에"],
+        "answer": "뿐만 아니라",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 43,
+        "subjectKey": "korean_state_exam",
+        "title": "선택의 여지가 없음을 나타내는 문법입니다. 빈칸에 알맞은 것을 고르십시오: '비행기 표가 모두 매진되어서 기차를 ________ 해요.'",
+        "options": [
+            "타고 갈 수밖에 없게",
+            "타고 가기로만",
+            "타고 가기 마련으로",
+            "타고 갈 겸해서"
+        ],
+        "answer": "타고 갈 수밖에 없게",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 44,
+        "subjectKey": "korean_state_exam",
+        "title": "두 가지 상황이 동시에 일어남을 뜻하는 문법입니다: '그 교수는 연구에 집중하는 ________ 학생들을 가르치는 일에도 열정적이다.'",
+        "options": ["한편", "덕분에", "바람에", "조차"],
+        "answer": "한편",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 45,
+        "subjectKey": "korean_state_exam",
+        "title": "조건이 유지되는 상황을 나타내는 문법입니다. 빈칸에 알맞은 것을 고르십시오: '본인의 의지가 확고________ 주변의 반대는 문제가 되지 않는다.'",
+        "options": ["한", "하도록", "하느라", "해도"],
+        "answer": "한",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 46,
+        "subjectKey": "korean_state_exam",
+        "title": "강한 감정이나 상태를 강조하는 문법입니다: '갑작스러운 사고 소식을 듣고 슬프________ 어떻게 해야 할지 몰랐다.'",
+        "options": [
+            "기 짝이 없어서",
+            "기 마련이라서",
+            "는 셈치고",
+            "다시피 해서"
+        ],
+        "answer": "기 짝이 없어서",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 47,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 표현을 고르십시오: '저는 제게 주어진 임무를 완수했을 ________ 과분한 칭찬입니다.'",
+        "options": ["따름인데", "리 만무한데", "모양인데", "셈인데"],
+        "answer": "따름인데",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 48,
+        "subjectKey": "korean_state_exam",
+        "title": "아슬아슬하게 어떤 일이 일어나지 않았음을 나타내는 문법입니다: '눈길에 신발이 미끄러져서 크게 ________.'",
+        "options": [
+            "넘어질 뻔했어요",
+            "넘어질 리가 없어요",
+            "넘어지기 마련이에요",
+            "넘어질 수밖에 없어요"
+        ],
+        "answer": "넘어질 뻔했어요",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 49,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 조사를 고르십시오: '너________ 믿었던 친구가 나를 속일 줄은 꿈에도 몰랐다.'",
+        "options": ["만은", "조차", "치고", "마저"],
+        "answer": "만은",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 50,
+        "subjectKey": "korean_state_exam",
+        "title": "행동의 직접적인 계기를 나타내는 문법입니다: '길을 가다가 맛있는 냄새가 ________ 나도 모르게 가게 안으로 들어갔다.'",
+        "options": ["나길래", "나야말로", "나고자", "나므로"],
+        "answer": "나길래",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 51,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 관용구를 고르십시오: '그 팀장은 직원들의 사소한 실수도 그냥 넘어가지 않고 늘 ________ 낸다.'",
+        "options": ["불을 켜고", "눈독을 들이고", "배를 퉁기며", "가슴을 치며"],
+        "answer": "불을 켜고",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 52,
+        "subjectKey": "korean_state_exam",
+        "title": "양보나 항변을 나타내는 고급 문법입니다: '아무리 화가 ________ 그렇게 심한 욕을 하면 안 되지요.'",
+        "options": ["기로서니", "나니까", "나다시피", "날지언정"],
+        "answer": "기로서니",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 53,
+        "subjectKey": "korean_state_exam",
+        "title": "극단적인 상황을 가정하는 문법입니다: '나라를 위해서라면 이 한 목숨을 ________ 바치겠다.'",
+        "options": ["버릴지언정", "버릴지라도", "버리는 대신", "버리는 한편"],
+        "answer": "버릴지언정",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 54,
+        "subjectKey": "korean_state_exam",
+        "title": "어떤 행동을 사실상 유도하거나 양보하는 표현입니다: '속는 ________ 한 번만 더 그 사람을 믿어 보기로 했다.'",
+        "options": ["셈치고", "바람에", "조차", "마련으로"],
+        "answer": "셈치고",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 55,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 의존명사를 고르십시오: '이 프로젝트는 기획 단계에서부터 실패할 ________ 품고 있었다.'",
+        "options": ["소지를", "바를", "나름을", "적을"],
+        "answer": "소지를",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 56,
+        "subjectKey": "korean_state_exam",
+        "title": "인과관계의 격식체 표현입니다. 빈칸에 알맞은 것을 고르십시오: '신제품 출시 지연________ 회사의 매출이 큰 타격을 입었다.'",
+        "options": ["으로 말미암아", "에 반하여", "을 비롯하여", "은 고사하고"],
+        "answer": "으로 말미암아",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 57,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 속담을 고르십시오: '________라더니, 직접 현장에 가서 눈으로 확인하기 전에는 믿지 못하겠다.'",
+        "options": [
+            "백 번 듣는 것이 한 번 보는 것보다 못하다",
+            "낮말은 새가 듣고 밤말은 쥐가 듣는다",
+            "등 밑이 어둡다",
+            "천 리 길도 한 걸음부터"
+        ],
+        "answer": "백 번 듣는 것이 한 번 보는 것보다 못하다",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 58,
+        "subjectKey": "korean_state_exam",
+        "title": "대비나 대조를 명확히 하는 문법입니다. 빈칸에 알맞은 것을 고르십시오: '형의 성격이 매우 활발한 ________ 동생은 아주 내성적이다.'",
+        "options": ["것에 반해", "는 한편", "기 마련이라", "는 바람에"],
+        "answer": "것에 반해",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 59,
+        "subjectKey": "korean_state_exam",
+        "title": "다음 중 밑줄 친 문법 표현의 쓰임이 가장 올바르지 않은 문장을 고르십시오:",
+        "options": [
+            "그 아이는 너무 똑똑해서 천재일 <u>리가 없다</u>.",
+            "아무리 찾아도 없는 걸 보니 여기에 없을 <u>리가 없다</u>.",
+            "어제 밤새 공부했으니 이번 시험을 잘 볼 <u>리가 없다</u>.",
+            "우리가 그렇게 친한데 나한테 거짓말을 했을 <u>리가 없다</u>."
+        ],
+        "answer": "우리가 그렇게 친한데 나한테 거짓말을 했을 <u>리가 없다</u>.",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 60,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 어휘를 고르십시오: '공사장의 소음이 너무 심해서 귀가 ________ 것 같았다.'",
+        "options": ["떨어질", "찢어질", "깨질", "부서질"],
+        "answer": "찢어질",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 61,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 표현을 고르십시오: '아무리 주위에서 반대를 ________ 제 꿈을 포기하지 않겠습니다.'",
+        "options": ["할망정", "하거들랑", "하는 셈 치고", "할 뿐더러"],
+        "answer": "할망정",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 62,
+        "subjectKey": "korean_state_exam",
+        "title": "가정과 조건을 나타내는 구어체 표현입니다. 빈칸에 알맞은 것을 고르십시오: '고향에 도착________ 꼭 부모님께 전화해라.'",
+        "options": ["하거들랑", "하느라면", "하노라니", "하느라고"],
+        "answer": "하거들랑",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 63,
+        "subjectKey": "korean_state_exam",
+        "title": "부정적인 행동이 자주 반복됨을 나타내는 문법입니다: '그는 덜렁거리는 성격 탓에 중요한 물건을 자주 잃어버리________.'",
+        "options": [
+            "기 일쑤이다",
+            "기 짝이 없다",
+            "기 마련이다",
+            "기 따름이다"
+        ],
+        "answer": "기 일쑤이다",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 64,
+        "subjectKey": "korean_state_exam",
+        "title": "긴 고민이나 과정의 최종 결과를 나타내는 표현입니다: '밤새 치열하게 논의를 거듭________ 좋은 해결책을 찾아냈다.'",
+        "options": ["한 끝에", "하는 한편", "하는 척하면서", "하기 무섭게"],
+        "answer": "한 끝에",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 65,
+        "subjectKey": "korean_state_exam",
+        "title": "사실상 거의 다름없음을 타협적으로 나타내는 문법입니다: '바빠서 극장에는 못 가고 집에서 영화를 보며 문화생활을 ________ 했다.'",
+        "options": ["하다시피", "하도록", "하는 한", "할지언정"],
+        "answer": "하다시피",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 66,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 사자성어(To'rt harfli maqol)를 고르십시오: '두 사람의 실력이 실로 ________ 하여 우열을 가리기가 힘들다.'",
+        "options": ["막상막하", "작심삼일", "동문서답", "다재다능"],
+        "answer": "막상막하",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 67,
+        "subjectKey": "korean_state_exam",
+        "title": "양보와 한계를 나타내는 고급 축약 표현입니다: '지금 와서 후회를 ________ 이미 버스는 떠난 뒤다.'",
+        "options": ["한대야", "하노라면", "하리만큼", "하거늘"],
+        "answer": "한대야",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 68,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 조사를 고르십시오: '너무 피곤해서 손가락 하나 움직이기________ 힘든 상황이다.'",
+        "options": ["조차", "치고", "마저", "나마"],
+        "answer": "조차",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 69,
+        "subjectKey": "korean_state_exam",
+        "title": "행동의 즉각적인 연결을 나타내는 문법입니다: '그는 집 문을 ________ 다시 밖으로 뛰어나갔다.'",
+        "options": [
+            "열기가 무섭게",
+            "열다시피 해서",
+            "열기 마련이라",
+            "열 수밖에 없어서"
+        ],
+        "answer": "열기가 무섭게",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 70,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 의존명사 구성을 고르십시오: '외국어 실력은 본인이 노력하는 ________ 달렸다.'",
+        "options": ["나름에", "바에", "셈에", "지경에"],
+        "answer": "나름에",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 71,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 관용구를 고르십시오: '영수 씨는 성격이 너무 ________ 남의 부탁을 절대 거절하지 못한다.'",
+        "options": [
+            "귀가 얇아서",
+            "발이 넓어서",
+            "낯이 두꺼워서",
+            "어깨가 무거워서"
+        ],
+        "answer": "귀가 얇아서",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 72,
+        "subjectKey": "korean_state_exam",
+        "title": "어떤 행동을 하는 척하는 위장을 나타내는 표현입니다: '민우는 방에서 공부를 ________ 컴퓨터 게임을 하고 있었다.'",
+        "options": ["하는 척하면서", "하는 바람에", "하는 한편", "하기는커녕"],
+        "answer": "하는 척하면서",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 73,
+        "subjectKey": "korean_state_exam",
+        "title": "상황의 정도가 극에 달함을 뜻하는 고급 문법입니다: '가뭄이 너무 심해 땅이 갈라져서 보기 안타까울 ________ 이었다.'",
+        "options": ["지경", "따름", "소지", "마련"],
+        "answer": "지경",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 74,
+        "subjectKey": "korean_state_exam",
+        "title": "대조와 전제의 성격을 가진 문법입니다. 빈칸에 알맞은 것을 고르십시오: '그 영화는 내용이 다소 지루한 ________ 영상미는 매우 뛰어납니다.'",
+        "options": ["대신에", "바람에", "나머지", "길래"],
+        "answer": "대신에",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 75,
+        "subjectKey": "korean_state_exam",
+        "title": "행동의 원인이 심화되어 나타난 결과를 뜻하는 표현입니다: '너무 긴장한 ________ 무대 위에서 대사를 다 잊어버렸다.'",
+        "options": ["나머지", "덕분에", "조차", "겸"],
+        "answer": "나머지",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 76,
+        "subjectKey": "korean_state_exam",
+        "title": "부정적 전제를 강조하는 연결 표현입니다. 빈칸에 알맞은 것을 고르십시오: '칭찬을 ________ 오히려 비난을 받으니 억울합니다.'",
+        "options": ["듣기는커녕", "듣는 한편", "듣는 대신에", "듣기 마련이라"],
+        "answer": "듣기는커녕",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 77,
+        "subjectKey": "korean_state_exam",
+        "title": "행동의 정도나 기준을 강조하는 문법입니다: '그의 목소리는 멀리 있는 사람에게까지 다 ________ 크게 들렸다.'",
+        "options": ["들리리만큼", "들리다시피", "들릴망정", "들릴지언정"],
+        "answer": "들리리만큼",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 78,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 조사를 고르십시오: '포기하지 않고 노력한다면 늦게________ 꿈을 이룰 수 있을 것이다.'",
+        "options": ["나마", "조차", "마저", "치고"],
+        "answer": "나마",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 79,
+        "subjectKey": "korean_state_exam",
+        "title": "다음 중 밑줄 친 문법 표현의 쓰임이 가장 올바른 문장을 고르십시오:",
+        "options": [
+            "돈을 많이 벌었을망정 마음은 항상 가난했다.",
+            "밥을 많이 먹었을망정 배가 너무 고프다.",
+            "날씨가 아주 따뜻했을망정 감기에 걸렸다.",
+            "기차를 타고 갔을망정 제시간에 도착했다."
+        ],
+        "answer": "돈을 많이 벌었을망정 마음은 항상 가난했다.",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 80,
+        "subjectKey": "korean_state_exam",
+        "title": "앞 사실에 대한 강한 반박이나 항변의 문법입니다: '자기가 먼저 잘못을 ________ 왜 나한테 화를 내는지 모르겠다.'",
+        "options": ["했거늘", "했거들랑", "했을지언정", "했을망정"],
+        "answer": "했거늘",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 81,
+        "subjectKey": "korean_state_exam",
+        "title": "말이나 글로 다 표현할 수 없을 정도로 상태가 심함을 나타내는 고급 형용사 문법입니다: '그가 이룩한 업적과 결과는 참으로 훌륭________.'",
+        "options": [
+            "하기 이를 데 없다",
+            "하기 일쑤이다",
+            "할 따름이다",
+            "할 리 만무하다"
+        ],
+        "answer": "하기 이를 데 없다",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 82,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 표현을 고르십시오: '선생님의 아낌없는 가르침에 깊이 감사________.'",
+        "options": [
+            "해 마지않습니다",
+            "할 따름입니다",
+            "할 지경입니다",
+            "하기 짝이 없습니다"
+        ],
+        "answer": "해 마지않습니다",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 83,
+        "subjectKey": "korean_state_exam",
+        "title": "어떤 행동을 하려고 마음먹고 있던 기회를 나타내는 표현입니다: '마침 외출을 하________ 친구가 찾아왔다.'",
+        "options": ["려던 차에", "는 한편에", "는 끝에", "다시피 해서"],
+        "answer": "려던 차에",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 84,
+        "subjectKey": "korean_state_exam",
+        "title": "상대방의 의견에 전적으로 동의하며 강하게 긍정하는 종결어미입니다: '가: 이번 시험은 정말 어렵겠지요? 나: 어려우________. 준비를 철저히 해야겠어요.'",
+        "options": [
+            "다마다요",
+            "ㄹ 따름이지요",
+            "기 일쑤이지요",
+            "ㄹ 뿐이지요"
+        ],
+        "answer": "다마다요",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 85,
+        "subjectKey": "korean_state_exam",
+        "title": "원인이나 이유를 나타내는 문어체 표현입니다. 빈칸에 알맞은 것을 고르십시오: '지나친 스트레스는 만병의 근원이 되________ 각별한 주의가 필요하다.'",
+        "options": ["는 고로", "는 한편", "는 셈 치고", "ㄹ지언정"],
+        "answer": "는 고로",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 86,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 사자성어를 고르십시오: '그의 주장은 앞뒤가 전혀 맞지 않는 ________에 불과하다.'",
+        "options": ["자가당착", "우왕좌왕", "유비무환", "일석이조"],
+        "answer": "자가당착",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 87,
+        "subjectKey": "korean_state_exam",
+        "title": "앞 사실을 인정하면서도 뒤에 예외적인 조건을 붙이는 고급 연결어미입니다: '돈을 많이 ________ 건강을 잃으면 아무 소용이 없다.'",
+        "options": ["벌어 본들", "벌기 마련이라", "벌다시피 해서", "벌었거늘"],
+        "answer": "벌어 본들",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 88,
+        "subjectKey": "korean_state_exam",
+        "title": "의심할 여지가 전혀 없이 불가능함을 나타내는 문법입니다: '평소에 공부를 전혀 안 했으니 이번 시험을 잘 볼 ________.'",
+        "options": ["리 만무하다", "기 일쑤이다", "는 법이다", "ㄹ 뻔했다"],
+        "answer": "리 만무하다",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 89,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 표현을 고르십시오: '자연의 법칙이란 시간이 흐르면 누구든 나이가 들________.'",
+        "options": [
+            "기 마련인 법이다",
+            "기 짝이 없는 법이다",
+            "기 일쑤인 법이다",
+            "는 한편인 법이다"
+        ],
+        "answer": "기 마련인 법이다",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 90,
+        "subjectKey": "korean_state_exam",
+        "title": "어떤 일이 일어날 가능성이 매우 희박함을 뜻하는 표현입니다: '그가 약속을 어길 ________ 없겠지만 만약을 위해 연락해 보자.'",
+        "options": ["턱이", "나름이", "지경이", "소지가"],
+        "answer": "턱이",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 91,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 관용구를 고르십시오: '민우는 이번 프로젝트의 성공을 위해 밤낮으로 ________ 일했다.'",
+        "options": [
+            "발 벗고 나서서",
+            "어깨를 으쓱이며",
+            "낯이 뜨거워지게",
+            "귀를 의심하며"
+        ],
+        "answer": "발 벗고 나서서",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 92,
+        "subjectKey": "korean_state_exam",
+        "title": "동사 뒤에 붙어 앞 행동을 계속 반복하거나 세게 함을 나타내는 문법입니다: '동생은 무슨 불만이 있는지 아침부터 투덜________.'",
+        "options": ["대고 있다", " 버리고 있다", " 치고 있다", " 주고 있다"],
+        "answer": "대고 있다",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 93,
+        "subjectKey": "korean_state_exam",
+        "title": "상황의 긴박함이나 즉각적인 변화를 나타내는 고급 표현입니다: '그는 소식을 ________ 눈물을 흘렸다.'",
+        "options": [
+            "듣기가 무섭게",
+            "듣는 한편에",
+            "듣는 셈 치고",
+            "듣는 한에"
+        ],
+        "answer": "듣기가 무섭게",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 94,
+        "subjectKey": "korean_state_exam",
+        "title": "앞 행동을 하기가 무섭게 뒤의 상태로 고정됨을 뜻하는 표현입니다: '지하철에 의자가 비자마자 그는 ________ 앉아 버렸다.'",
+        "options": ["덥석", "언뜻", "차마", "설마"],
+        "answer": "덥석",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 95,
+        "subjectKey": "korean_state_exam",
+        "title": "두 가지 대조적인 행동을 번갈아 함을 나타내는 문법입니다: '아이가 밤새 울다가 ________ 해서 부모가 잠을 못 잤다.'",
+        "options": ["자다 깨다", "자는 한편", "자다시피", "자기 일쑤라"],
+        "answer": "자다 깨다",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 96,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 부사를 고르십시오: '이 문제는 너무 복잡해서 혼자서는 ________ 해결할 수가 없다.'",
+        "options": ["도저히", "반드시", "유난히", "비로소"],
+        "answer": "도저히",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 97,
+        "subjectKey": "korean_state_exam",
+        "title": "빈칸에 들어갈 알맞은 조사 구성을 고르십시오: '시간이 지남에 ________ 기술은 점점 발전하기 마련이다.'",
+        "options": ["따라", "비하여", "관하여", "대하여"],
+        "answer": "따라",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 98,
+        "subjectKey": "korean_state_exam",
+        "title": "조건의 절대성을 강조하는 고급 연결어미입니다: '비가 ________ 않으면 내일 소풍을 갈 예정입니다.'",
+        "options": [
+            "오지만 않는다면",
+            "오기만 하더라도",
+            "오는 바람에",
+            "오다시피 하면"
+        ],
+        "answer": "오지만 않는다면",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 99,
+        "subjectKey": "korean_state_exam",
+        "title": "다음 중 밑줄 친 문법 표현의 쓰임이 가장 올바른 문장을 고르십시오:",
+        "options": [
+            "부모님의 은혜는 하늘보다 높아서 <u>지극하기 이를 데 없다</u>.",
+            "그 영화는 너무 지루해서 아주 <u>지극하기 이를 데 없다</u>.",
+            "날씨가 너무 추워서 밖에 나가기가 <u>지극하기 이를 데 없다</u>.",
+            "길이 너무 막혀서 약속 시간에 <u>지극하기 이를 데 없다</u>."
+        ],
+        "answer": "부모님의 은혜는 하늘보다 높아서 <u>지극하기 이를 데 없다</u>.",
+        "category": "korean_state_exam"
+    },
+    {
+        "id": 100,
+        "subjectKey": "korean_state_exam",
+        "title": "동사 뒤에 붙어 앞 행동을 완전히 끝내고 미련이 없음을 뜻하는 격식체 표현입니다: '모든 오해를 다 ________ 이제 마음이 편하다.'",
+        "options": ["풀고 나니", "풀기 마련이라", "푸는 한편", "풀었거늘"],
+        "answer": "풀고 나니",
+        "category": "korean_state_exam"
+    }
+]

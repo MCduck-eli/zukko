@@ -23,6 +23,8 @@ export default function ChemistryQuiz({ onClose }: ChemistryQuizProps) {
     const [shuffledOptions, setShuffledOptions] = useState<string[]>([]);
     const [isLoading, setIsLoading] = useState(true);
     const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
+    const [wrongAnswers, setWrongAnswers] = useState<any[]>([]);
+    const [isSaving, setIsSaving] = useState(false);
 
     useEffect(() => {
         const fetchQuestions = async () => {
@@ -71,6 +73,58 @@ export default function ChemistryQuiz({ onClose }: ChemistryQuizProps) {
             setSelectedAnswer(null);
         }
     }, [questions, currentIdx]);
+    const saveQuizResults = async (finalScore: number, finalWrongs: any[]) => {
+        setIsSaving(true);
+        const quizResultData = {
+            category: "chemistry",
+            score: finalScore,
+            totalQuestions: questions.length,
+            wrongAnswers: finalWrongs,
+            updatedAt: new Date().toISOString(),
+        };
+        localStorage.setItem(
+            "latest_quiz_result",
+            JSON.stringify(quizResultData),
+        );
+        let userId = "1";
+        const savedUser = localStorage.getItem("user");
+        if (savedUser) {
+            try {
+                const parsed = JSON.parse(savedUser);
+                if (parsed.id) userId = parsed.id;
+            } catch (e) {
+                console.error("User parsing error:", e);
+            }
+        }
+        try {
+            const baseUrl =
+                process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001/api";
+            const token = localStorage.getItem("access_token");
+
+            await fetch(`${baseUrl}/user-stats`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    ...(token && { Authorization: `Bearer ${token}` }),
+                },
+                body: JSON.stringify({
+                    userId,
+                    ...quizResultData,
+                }),
+            });
+            console.log(
+                "Natijalar kabinet tizimiga muvaffaqiyatli sinxronizatsiya qilindi.",
+            );
+        } catch (err) {
+            console.error(
+                "Backend'ga saqlashda xatolik (lekin localStorage'ga saqlandi):",
+                err,
+            );
+        } finally {
+            setIsSaving(false);
+            window.dispatchEvent(new Event("storage"));
+        }
+    };
 
     const q = questions[currentIdx];
     const correctAnswerText = q ? q.answer || q.correctAnswer || "" : "";
@@ -81,14 +135,30 @@ export default function ChemistryQuiz({ onClose }: ChemistryQuizProps) {
         const correct = selected === correctAnswerText;
         setSelectedAnswer(selected);
 
+        let updatedScore = score;
+        let updatedWrongs = [...wrongAnswers];
+
         if (correct) {
-            setScore((prev) => prev + 1);
+            updatedScore = score + 1;
+            setScore(updatedScore);
+        } else {
+            updatedWrongs = [
+                ...wrongAnswers,
+                {
+                    question: q.title,
+                    userAnswer: selected,
+                    correctAnswer: correctAnswerText,
+                },
+            ];
+            setWrongAnswers(updatedWrongs);
         }
+
         setTimeout(() => {
             if (currentIdx + 1 < questions.length) {
                 setCurrentIdx((prev) => prev + 1);
             } else {
                 setShowResult(true);
+                saveQuizResults(updatedScore, updatedWrongs);
             }
         }, 1000);
     };
@@ -121,9 +191,20 @@ export default function ChemistryQuiz({ onClose }: ChemistryQuizProps) {
                 <p className="text-white mb-6">
                     {questions.length} tadan {score} ta to'g'ri javob!
                 </p>
+
+                {isSaving ? (
+                    <div className="w-full py-4 text-cyan-400 text-xs uppercase tracking-widest font-bold animate-pulse text-center mb-3">
+                        ⚡ Natijalar Kabinetga sinxronizatsiya qilinmoqda...
+                    </div>
+                ) : (
+                    <div className="w-full py-2 bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-[11px] rounded-xl uppercase tracking-wider font-bold text-center mb-4">
+                        🚀 Natijalar Shaxsiy Kabinetga yuborildi!
+                    </div>
+                )}
+
                 <button
                     onClick={onClose}
-                    className="w-full py-4 bg-emerald-500 text-black font-black rounded-xl hover:bg-emerald-400 transition-colors uppercase tracking-wider"
+                    className="w-full py-4 bg-emerald-500 text-black font-black rounded-xl hover:bg-emerald-400 transition-colors uppercase tracking-wider mb-3"
                 >
                     Qayta tanlash
                 </button>

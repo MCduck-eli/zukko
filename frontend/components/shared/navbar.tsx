@@ -11,6 +11,7 @@ import {
 } from "../../i18n";
 import { useUser, useClerk } from "@clerk/nextjs";
 import AuthSpaceModal from "@/app/auth/authmodal";
+import Cabinet from "../cabinet/cabinet";
 
 export function Navbar() {
     const { i18n, t } = useTranslation();
@@ -18,6 +19,8 @@ export function Navbar() {
     const { signOut, session } = useClerk();
     const [isAuthOpen, setIsAuthOpen] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const [isCabinetOpen, setIsCabinetOpen] = useState(false);
+    const [hasNewMessage, setHasNewMessage] = useState(false);
 
     const isLocalLoggedIn = useSyncExternalStore(
         (onStoreChange) => {
@@ -32,6 +35,19 @@ export function Navbar() {
         () => Boolean(localStorage.getItem("access_token")),
         () => false,
     );
+    useEffect(() => {
+        const checkInterval = setInterval(() => {
+            const plans = localStorage.getItem("latest_quiz_result");
+            if (plans) {
+                setHasNewMessage(true);
+            }
+        }, 5000);
+        return () => clearInterval(checkInterval);
+    }, []);
+    const openCabinet = () => {
+        setIsCabinetOpen(true);
+        setHasNewMessage(false);
+    };
 
     useEffect(() => {
         const syncClerkAuth = async () => {
@@ -140,7 +156,7 @@ export function Navbar() {
                     </span>
                 </div>
 
-                <div className="hidden md:flex items-center gap-4 md:gap-8">
+                <div className="hidden md:flex items-center gap-4 md:gap-6">
                     <div className="flex items-center gap-1 bg-white/5 border border-white/10 p-1 rounded-lg backdrop-blur-md">
                         {supportedLanguages.map((lng) => (
                             <button
@@ -156,6 +172,21 @@ export function Navbar() {
                             </button>
                         ))}
                     </div>
+                    {isLoaded && isLoggedIn && (
+                        <motion.button
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
+                            onClick={() => setIsCabinetOpen(true)}
+                            className="flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-cyan-500/10 to-purple-500/10 border border-cyan-500/30 hover:border-cyan-400 text-white font-medium text-xs transition-all hover:shadow-[0_0_15px_rgba(34,211,238,0.2)] group"
+                        >
+                            <span className="group-hover:rotate-12 transition-transform inline-block">
+                                👨‍🚀
+                            </span>
+                            <span className="uppercase tracking-widest font-bold text-[10px]">
+                                Kabinet
+                            </span>
+                        </motion.button>
+                    )}
 
                     {!isLoaded ? (
                         <div className="w-24 h-9 bg-white/5 border border-white/10 rounded-full animate-pulse" />
@@ -200,6 +231,14 @@ export function Navbar() {
                 </div>
 
                 <div className="flex md:hidden items-center gap-3">
+                    {isLoaded && isLoggedIn && (
+                        <button
+                            onClick={() => setIsCabinetOpen(true)}
+                            className="p-2 bg-white/5 border border-cyan-500/30 rounded-lg text-sm"
+                        >
+                            👨‍🚀
+                        </button>
+                    )}
                     <div className="flex items-center gap-1 px-2 py-0.5 border-l border-white/10">
                         <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 animate-pulse shadow-[0_0_8px_#06b6d4]" />
                         <span className="text-[9px] text-cyan-500/80 uppercase tracking-[0.2em] font-medium">
@@ -285,6 +324,10 @@ export function Navbar() {
             <AuthSpaceModal
                 isOpen={isAuthOpen}
                 onClose={() => setIsAuthOpen(false)}
+            />
+            <Cabinet
+                isOpen={isCabinetOpen}
+                onClose={() => setIsCabinetOpen(false)}
             />
         </>
     );
