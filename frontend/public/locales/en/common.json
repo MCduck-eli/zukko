@@ -103,5 +103,38 @@
     "about_feature2_title": "Artificial Intelligence (AI) Control",
     "about_feature2_desc": "An intelligent AI proctoring system operates during the testing process. If a user makes a mistake or faces difficulties, the AI immediately monitors it and provides an individual analysis, indicating exactly which topics and sections need more study.",
     "about_feature3_title": "Next-Gen Proctoring",
-    "about_feature3_desc": "Zukko is not just a test-taking platform; it is your ultimate assistant that objectively evaluates your true level of knowledge and helps you fill in the gaps."
+    "about_feature3_desc": "Zukko is not just a test-taking platform; it is your ultimate assistant that objectively evaluates your true level of knowledge and helps you fill in the gaps.",
+    "learning_title_1": "A new stage",
+    "learning_title_2": "towards knowledge",
+    "learning_subtitle": "Expand your possibilities at every step with Zukko.",
+    "active_step": "Active stage",
+    "steps": {
+        "step1": {
+            "name": "Basic Knowledge",
+            "status": "Stage 1",
+            "features": [
+                "Strengthening foundations",
+                "Interactive lessons",
+                "Core concepts"
+            ]
+        },
+        "step2": {
+            "name": "Practical Exercises",
+            "status": "Stage 2",
+            "features": [
+                "Solving complex problems",
+                "AI error analysis",
+                "Test simulations"
+            ]
+        },
+        "step3": {
+            "name": "The Peak",
+            "status": "Stage 3",
+            "features": [
+                "Logical thinking",
+                "Excellent results",
+                "Certification prep"
+            ]
+        }
+    }
 }

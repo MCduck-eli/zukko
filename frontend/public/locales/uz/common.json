@@ -93,5 +93,38 @@
     "about_feature2_title": "Sun'iy Intellekt (AI) Nazorati",
     "about_feature2_desc": "Test jarayonida aqlli AI proktorlik tizimi ishlaydi. Agar foydalanuvchi imtihonda xatolikka yo'l qo'ysa yoki qiyinchilikka duch kelsa, sun'iy intellekt buni darhol nazorat qilib, aynan qaysi mavzu va bo'limlar ustida ko'proq ishlash kerakligini individual tahlil qilib, aytib beradi.",
     "about_feature3_title": "Next-Gen Proctoring",
-    "about_feature3_desc": "Zukko — shunchaki test topshirish platformasi emas, u sizning haqiqiy bilim darajangizni xolis baholaydigan va kamchiliklaringizni to'ldirishga yordam beradigan eng mukammal yordamchingizdir."
+    "about_feature3_desc": "Zukko — shunchaki test topshirish platformasi emas, u sizning haqiqiy bilim darajangizni xolis baholaydigan va kamchiliklaringizni to'ldirishga yordam beradigan eng mukammal yordamchingizdir.",
+    "learning_title_1": "Bilim sari",
+    "learning_title_2": "yangi bosqich",
+    "learning_subtitle": "Zukko bilan har bir qadamda o'z imkoniyatlaringizni kengaytiring.",
+    "active_step": "Faol bosqich",
+    "steps": {
+        "step1": {
+            "name": "Asosiy Bilimlar",
+            "status": "1-Bosqich",
+            "features": [
+                "Fan asoslarini mustahkamlash",
+                "Interaktiv darslar",
+                "Asosiy tushunchalar"
+            ]
+        },
+        "step2": {
+            "name": "Amaliy Mashqlar",
+            "status": "2-Bosqich",
+            "features": [
+                "Murakkab masalalar yechish",
+                "AI bilan xatolarni tahlil qilish",
+                "Test sinovlari"
+            ]
+        },
+        "step3": {
+            "name": "Yuqori cho'qqi",
+            "status": "3-Bosqich",
+            "features": [
+                "Mantiqiy fikrlash",
+                "Mukammal natija",
+                "Sertifikatsiyaga tayyorgarlik"
+            ]
+        }
+    }
 }

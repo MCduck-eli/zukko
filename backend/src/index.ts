@@ -19,10 +19,15 @@ app.use(express.json());
 app.use("/api/auth", authRoutes);
 app.use("/api", questionRoute);
 app.use("/api", aiRoute);
+
 app.use((req, res) => {
     res.status(404).send({ message: "Bunday yo'l mavjud emas (404)" });
 });
-const PORT = process.env.PORT || 3001;
-app.listen(PORT, () => {
-    console.log(`🚀 Server ${PORT}-portda muvaffaqiyatli yondi`);
-});
+
+if (process.env.NODE_ENV !== "production") {
+    const PORT = process.env.PORT || 3001;
+    app.listen(PORT, () => {
+        console.log(`🚀 Server ${PORT}-portda muvaffaqiyatli yondi`);
+    });
+}
+export default app;
