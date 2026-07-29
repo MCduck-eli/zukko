@@ -10,6 +10,7 @@
     },
     "dependencies": {
         "@google/generative-ai": "^0.24.1",
+        "@supabase/supabase-js": "^2.111.0",
         "bcrypt": "^5.1.1",
         "cors": "^2.8.6",
         "dotenv": "^17.4.2",

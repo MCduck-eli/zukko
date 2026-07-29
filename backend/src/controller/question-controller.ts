@@ -1,26 +1,36 @@
-import { Request, Response } from "express";
-import { QuestionService } from "../service/question-service.js";
+import { createClient } from "@supabase/supabase-js";
+import dotenv from "dotenv";
 
-const questionService = new QuestionService();
+dotenv.config();
 
-export const getQuestions = async (req: Request, res: Response) => {
-    try {
-        const { category, limit } = req.query;
-        const questions = await questionService.getRandomQuestions(
-            category as string,
-            limit ? parseInt(limit as string) : 10,
-        );
+const supabaseUrl = process.env.SUPABASE_URL;
+const supabaseKey =
+    process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_ANON_KEY;
 
-        res.status(200).json({
-            success: true,
-            count: questions.length,
-            data: questions,
-        });
-    } catch (error) {
-        console.error("Savollarni olishda xato:", error);
-        res.status(500).json({
-            success: false,
-            message: "Serverda xatolik yuz berdi",
-        });
+if (!supabaseUrl || !supabaseKey) {
+    throw new Error("SUPABASE_URL yoki Key muhit o'zgaruvchilarida topilmadi.");
+}
+
+const supabase = createClient(supabaseUrl, supabaseKey);
+
+export class QuestionService {
+    async getRandomQuestions(category?: string, limit: number = 10) {
+        let query = supabase.from("questions").select("*");
+
+        if (category) {
+            query = query.eq("category", category);
+        }
+
+        const { data, error } = await query;
+
+        if (error) {
+            throw new Error(error.message);
+        }
+
+        if (!data || data.length === 0) {
+            return [];
+        }
+        const shuffled = data.sort(() => 0.5 - Math.random());
+        return shuffled.slice(0, limit);
     }
-};
+}

@@ -1,5 +1,4 @@
-import pkg from "pg";
-const { Client } = pkg;
+import { createClient } from "@supabase/supabase-js";
 import * as fs from "fs";
 import * as path from "path";
 import { fileURLToPath } from "url";
@@ -10,34 +9,34 @@ dotenv.config();
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
-const isLocal =
-    !process.env.DATABASE_URL || process.env.DATABASE_URL.includes("localhost");
 
-const client = new Client({
-    connectionString:
-        process.env.DATABASE_URL ||
-        "postgresql://postgres:postgres@127.0.0.1:5432/template1",
-    ssl: isLocal ? false : { rejectUnauthorized: false },
-});
+const supabaseUrl = process.env.SUPABASE_URL;
+const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+if (!supabaseUrl || !supabaseKey) {
+    console.error(
+        "❌ SUPABASE_URL yoki SUPABASE_SERVICE_ROLE_KEY .env faylida topilmadi!",
+    );
+    process.exit(1);
+}
+
+const supabase = createClient(supabaseUrl, supabaseKey);
 
 async function importQuestions() {
     try {
-        await client.connect();
-        console.log("✅ Bazaga ulanish hosil qilindi.");
-
-        console.log("🛠️ 'questions' jadvali tekshirilmoqda/yaratilmoqda...");
-        await client.query(`
-            CREATE TABLE IF NOT EXISTS questions (
-                id SERIAL PRIMARY KEY,
-                title TEXT NOT NULL,
-                options JSONB NOT NULL,
-                answer TEXT NOT NULL,
-                category TEXT NOT NULL
-            );
-        `);
+        console.log("⚡ Supabase API'ga ulanish o'rnatilmoqda...");
 
         console.log("🗑️ Eski savollar tozalanmoqda...");
-        await client.query("DELETE FROM questions");
+        const { error: deleteError } = await supabase
+            .from("questions")
+            .delete()
+            .neq("id", 0);
+        if (deleteError) {
+            console.warn(
+                "⚠️ Tozalashda ogohlantirish (jadval bo'sh bo'lishi mumkin):",
+                deleteError.message,
+            );
+        }
 
         const dataDir = __dirname;
         const files = [
@@ -91,6 +90,8 @@ async function importQuestions() {
                 const content = fs.readFileSync(filePath, "utf-8");
                 const questions = JSON.parse(content);
 
+                const batch = [];
+
                 for (const q of questions) {
                     const title = q.title || q.question || q.text;
                     const options = q.options || q.choices || q.variants;
@@ -98,36 +99,40 @@ async function importQuestions() {
 
                     if (!title || !answer || !options) continue;
 
-                    const query = `
-                        INSERT INTO questions (title, options, answer, category) 
-                        VALUES ($1, $2, $3, $4)
-                    `;
-
-                    const optionsValue = Array.isArray(options)
-                        ? JSON.stringify(options)
-                        : options;
-
-                    await client.query(query, [
-                        title,
-                        optionsValue,
-                        answer,
-                        file.category,
-                    ]);
-                    totalInserted++;
+                    batch.push({
+                        title: title,
+                        options: options,
+                        answer: String(answer),
+                        category: file.category,
+                    });
                 }
-                console.log(`✅ ${file.category} muvaffaqiyatli yuklandi.`);
+
+                if (batch.length > 0) {
+                    const { error } = await supabase
+                        .from("questions")
+                        .insert(batch);
+                    if (error) {
+                        console.error(
+                            `❌ Xato [${file.category}]:`,
+                            error.message,
+                        );
+                    } else {
+                        totalInserted += batch.length;
+                        console.log(
+                            `✅ ${file.category} muvaffaqiyatli yuklandi.`,
+                        );
+                    }
+                }
             } else {
                 console.warn(`⚠️ Fayl topilmadi: ${filePath}`);
             }
         }
+
         console.log(
-            `\n🎉 TABRIKLAYMAN! Jami ${totalInserted} ta savol toza holda yuklandi.`,
+            `\n🎉 TABRIKLAYMAN! Jami ${totalInserted} ta savol Supabase'ga toza holda yuklandi.`,
         );
     } catch (error) {
-        console.error("❌ Xatolik yuz berdi:", error);
-    } finally {
-        await client.end();
-        console.log("🔌 Baza bilan aloqa uzildi.");
+        console.error("❌ BATAFSIL XATOLIK:", error);
     }
 }
 
