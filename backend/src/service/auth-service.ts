@@ -8,17 +8,18 @@ import nodemailer from "nodemailer";
 
 dotenv.config();
 
-const isLocal =
-    !process.env.DATABASE_URL || process.env.DATABASE_URL.includes("localhost");
-
 const pool = new Pool({
-    connectionString:
-        process.env.DATABASE_URL ||
-        "postgresql://postgres:postgres@127.0.0.1:5432/template1",
-    ssl: isLocal ? false : { rejectUnauthorized: false },
+    connectionString: process.env.DATABASE_URL,
+    ssl: {
+        rejectUnauthorized: false,
+    },
 });
 
+let isTableInitialized = false;
+
 async function createTablesIfNotExist() {
+    if (isTableInitialized) return;
+
     try {
         const createQuery = `
             CREATE TABLE IF NOT EXISTS users (
@@ -40,19 +41,20 @@ async function createTablesIfNotExist() {
         `;
         await pool.query(alterQuery);
 
+        isTableInitialized = true;
         console.log(
-            "🚀 'users' jadvali va OTP ustunlari muvaffaqiyatli tekshirildi/yaratildi!",
+            "🚀 'users' jadvali va OTP ustunlari tekshirildi/yaratildi!",
         );
     } catch (error) {
         console.error("Jadvalni sozlashda xato yuz berdi:", error);
     }
 }
-createTablesIfNotExist();
 
 const JWT_SECRET = process.env.JWT_SECRET || "Eli9391383$";
 
 export class AuthService {
     private saltRounds = 10;
+
     private getTransporter() {
         return nodemailer.createTransport({
             service: "gmail",
@@ -96,6 +98,8 @@ export class AuthService {
     }
 
     async register(data: RegisterRequest) {
+        await createTablesIfNotExist();
+
         const hashedPassword = await bcrypt.hash(
             data.password,
             this.saltRounds,
@@ -131,6 +135,8 @@ export class AuthService {
     }
 
     async verifyCode(email: string, code: string) {
+        await createTablesIfNotExist();
+
         const query = `
             SELECT * FROM users 
             WHERE email = $1 
@@ -163,6 +169,8 @@ export class AuthService {
     }
 
     async login(credentials: LoginRequest) {
+        await createTablesIfNotExist();
+
         const query = "SELECT * FROM users WHERE email = $1";
         const res = await pool.query(query, [credentials.email]);
         const user = res.rows[0];
