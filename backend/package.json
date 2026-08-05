@@ -9,6 +9,7 @@
         "build": "npx tsc"
     },
     "dependencies": {
+        "@clerk/express": "^2.1.48",
         "@google/generative-ai": "^0.24.1",
         "@supabase/supabase-js": "^2.111.0",
         "bcrypt": "^5.1.1",
@@ -18,7 +19,8 @@
         "jsonwebtoken": "^9.0.2",
         "nodemailer": "^8.0.11",
         "openai": "^6.44.0",
-        "pg": "^8.20.0"
+        "pg": "^8.20.0",
+        "svix": "^1.99.1"
     },
     "devDependencies": {
         "@types/bcrypt": "^5.0.2",

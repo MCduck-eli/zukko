@@ -4,8 +4,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { FaExclamationTriangle, FaRocket, FaKey } from "react-icons/fa";
-import { useClerk } from "@clerk/nextjs";
-import RegisterModal from "./register-modal";
+import { useSignIn, useSignUp, useClerk } from "@clerk/nextjs";
 
 export default function AuthSpaceModal({
     isOpen,
@@ -15,7 +14,9 @@ export default function AuthSpaceModal({
     onClose: () => void;
 }) {
     const { t } = useTranslation();
-    const clerk = useClerk();
+    const { setActive, client } = useClerk();
+    const { signIn } = useSignIn();
+    const { signUp } = useSignUp();
 
     const [isLogin, setIsLogin] = useState(true);
     const [isVerifying, setIsVerifying] = useState(false);
@@ -31,19 +32,29 @@ export default function AuthSpaceModal({
     });
 
     const handleGoogleAuth = async () => {
-        if (!clerk || !clerk.client || !clerk.client.signIn) return;
+        if (!signIn) return;
         setStatus("loading");
         setErrorMessage("");
 
         try {
-            await clerk.client.signIn.authenticateWithRedirect({
-                strategy: "oauth_google",
-                redirectUrl: "/sso-callback?redirect_url=/dashboard",
-                redirectUrlComplete: "/dashboard",
-            });
+            const authMethod =
+                (signIn as any).authenticateWithRedirect ||
+                (client?.signIn as any)?.authenticateWithRedirect;
+
+            if (authMethod) {
+                await authMethod({
+                    strategy: "oauth_google",
+                    redirectUrl: "/sso-callback",
+                    redirectUrlComplete: "/dashboard",
+                });
+            } else {
+                window.location.href = "/sign-in?redirect_url=/dashboard";
+            }
         } catch (err: any) {
             console.error(err);
-            setErrorMessage("Google orqali ulanib bo'lmadi");
+            setErrorMessage(
+                err.errors?.[0]?.message || "Google orqali ulanib bo'lmadi",
+            );
             setStatus("error");
             setTimeout(() => setStatus("idle"), 3000);
         }
@@ -51,96 +62,96 @@ export default function AuthSpaceModal({
 
     const handleAuth = async (e: React.FormEvent) => {
         e.preventDefault();
+        if (!signIn || !signUp) return;
         setStatus("loading");
         setErrorMessage("");
 
         try {
-            const API_URL = process.env.NEXT_PUBLIC_API_URL;
-            const endpoint = isLogin ? "/auth/login" : "/auth/register";
+            if (isLogin) {
+                const result: any = await signIn.create({
+                    identifier: formData.email,
+                    password: formData.password,
+                });
 
-            const response = await fetch(`${API_URL}${endpoint}`, {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify(formData),
-            });
+                const sessionId = result?.createdSessionId;
 
-            const result = await response.json();
-
-            if (response.ok) {
-                if (!isLogin) {
+                if (result?.status === "complete" && sessionId) {
+                    await setActive({ session: sessionId });
+                    setStatus("success");
+                    setTimeout(() => {
+                        onClose();
+                        window.location.href = "/dashboard";
+                    }, 1500);
+                } else {
                     setStatus("idle");
-                    setIsVerifying(true);
-                    return;
                 }
-
-                if (result.token) {
-                    localStorage.setItem("access_token", result.token);
-                    localStorage.setItem("user", JSON.stringify(result.user));
-                }
-
-                setStatus("success");
-                setTimeout(() => {
-                    onClose();
-                    window.location.href = "/dashboard";
-                }, 2000);
             } else {
-                if (response.status === 403 && result.status === "unverified") {
-                    setStatus("idle");
-                    setIsVerifying(true);
-                    return;
+                const nameParts = formData.fullName.trim().split(" ");
+                await signUp.create({
+                    emailAddress: formData.email,
+                    password: formData.password,
+                    firstName: nameParts[0] || "",
+                    lastName: nameParts.slice(1).join(" ") || "",
+                });
+
+                const prepareMethod =
+                    (signUp as any).prepareVerification ||
+                    (signUp as any).prepareEmailAddressVerification;
+
+                if (prepareMethod) {
+                    await prepareMethod({ strategy: "email_code" });
                 }
-                setErrorMessage(
-                    result.details || result.message || "Tizimda xatolik",
-                );
-                setStatus("error");
-                setTimeout(() => setStatus("idle"), 5000);
+
+                setStatus("idle");
+                setIsVerifying(true);
             }
         } catch (err: any) {
-            setErrorMessage("Serverga ulanib bo'lmadi: " + err.message);
+            console.error(err);
+            setErrorMessage(
+                err.errors?.[0]?.message || "Tizimda xatolik yuz berdi",
+            );
             setStatus("error");
-            setTimeout(() => setStatus("idle"), 3000);
+            setTimeout(() => setStatus("idle"), 4000);
         }
     };
 
     const handleVerify = async (e: React.FormEvent) => {
         e.preventDefault();
+        if (!signUp) return;
         setStatus("loading");
         setErrorMessage("");
 
         try {
-            const API_URL = process.env.NEXT_PUBLIC_API_URL;
-            const response = await fetch(`${API_URL}/auth/verify`, {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({
-                    email: formData.email,
+            const attemptMethod =
+                (signUp as any).attemptVerification ||
+                (signUp as any).attemptEmailAddressVerification;
+
+            let completeSignUp: any;
+            if (attemptMethod) {
+                completeSignUp = await attemptMethod({
                     code: verificationCode,
-                }),
-            });
+                    strategy: "email_code",
+                });
+            }
 
-            const result = await response.json();
+            const sessionId = completeSignUp?.createdSessionId;
 
-            if (response.ok) {
-                if (result.token) {
-                    localStorage.setItem("access_token", result.token);
-                    localStorage.setItem("user", JSON.stringify(result.user));
-                }
-
+            if (completeSignUp?.status === "complete" && sessionId) {
+                await setActive({
+                    session: sessionId,
+                });
                 setStatus("success");
                 setTimeout(() => {
                     onClose();
                     setIsVerifying(false);
                     window.location.href = "/dashboard";
-                }, 2000);
-            } else {
-                setErrorMessage(
-                    result.message || "Kod xato yoki muddati o'tgan",
-                );
-                setStatus("error");
-                setTimeout(() => setStatus("idle"), 3000);
+                }, 1500);
             }
-        } catch (err) {
-            setErrorMessage("Serverga ulanib bo'lmadi");
+        } catch (err: any) {
+            console.error(err);
+            setErrorMessage(
+                err.errors?.[0]?.message || "Kod xato yoki muddati o'tgan",
+            );
             setStatus("error");
             setTimeout(() => setStatus("idle"), 3000);
         }
@@ -227,7 +238,7 @@ export default function AuthSpaceModal({
                                         type="button"
                                         disabled={status === "loading"}
                                         onClick={handleGoogleAuth}
-                                        className="w-full py-3 mb-4 rounded-xl font-bold tracking-widest transition-all uppercase text-xs bg-white text-black hover:bg-slate-200 disabled:opacity-50 flex items-center justify-center gap-2"
+                                        className="w-full py-3 mb-4 rounded-xl font-bold tracking-widest transition-all uppercase text-xs bg-white text-black hover:bg-slate-200 disabled:opacity-50 flex items-center justify-center gap-2 cursor-pointer"
                                     >
                                         <svg
                                             className="w-4 h-4"
@@ -249,22 +260,73 @@ export default function AuthSpaceModal({
                                         <div className="flex-grow border-t border-white/5"></div>
                                     </div>
 
-                                    <RegisterModal
-                                        handleAuth={handleAuth}
-                                        isLogin={isLogin}
-                                        t={t}
-                                        formData={formData}
-                                        setFormData={setFormData}
-                                        status={status}
-                                    />
+                                    <form
+                                        onSubmit={handleAuth}
+                                        className="space-y-3"
+                                    >
+                                        {!isLogin && (
+                                            <input
+                                                type="text"
+                                                required
+                                                placeholder="ISM VA FAMILIYA"
+                                                className="w-full bg-white/5 border border-white/10 rounded-xl py-3 px-4 text-xs font-bold text-white focus:border-orange-500/50 outline-none"
+                                                value={formData.fullName}
+                                                onChange={(e) =>
+                                                    setFormData({
+                                                        ...formData,
+                                                        fullName:
+                                                            e.target.value,
+                                                    })
+                                                }
+                                            />
+                                        )}
+                                        <input
+                                            type="email"
+                                            required
+                                            placeholder="EMAIL POCHTA"
+                                            className="w-full bg-white/5 border border-white/10 rounded-xl py-3 px-4 text-xs font-bold text-white focus:border-orange-500/50 outline-none"
+                                            value={formData.email}
+                                            onChange={(e) =>
+                                                setFormData({
+                                                    ...formData,
+                                                    email: e.target.value,
+                                                })
+                                            }
+                                        />
+                                        <input
+                                            type="password"
+                                            required
+                                            placeholder="PAROL"
+                                            className="w-full bg-white/5 border border-white/10 rounded-xl py-3 px-4 text-xs font-bold text-white focus:border-orange-500/50 outline-none"
+                                            value={formData.password}
+                                            onChange={(e) =>
+                                                setFormData({
+                                                    ...formData,
+                                                    password: e.target.value,
+                                                })
+                                            }
+                                        />
+                                        <button
+                                            disabled={status === "loading"}
+                                            type="submit"
+                                            className="w-full py-3.5 rounded-xl font-bold tracking-widest transition-all uppercase text-xs bg-orange-500 text-black hover:bg-orange-400 disabled:opacity-50 cursor-pointer"
+                                        >
+                                            {status === "loading"
+                                                ? t("Kutilmoqda...")
+                                                : isLogin
+                                                  ? t("Kirish")
+                                                  : t("Ro'yxatdan o'tish")}
+                                        </button>
+                                    </form>
 
                                     <div className="mt-6 text-center">
                                         <button
+                                            type="button"
                                             onClick={() => {
                                                 setIsLogin(!isLogin);
                                                 setStatus("idle");
                                             }}
-                                            className="text-[10px] text-slate-500 uppercase tracking-widest hover:text-white transition-colors"
+                                            className="text-[10px] text-slate-500 uppercase tracking-widest hover:text-white transition-colors cursor-pointer"
                                         >
                                             {isLogin
                                                 ? "Hisobingiz yo'qmi? Ro'yxatdan o'ting"
@@ -278,8 +340,8 @@ export default function AuthSpaceModal({
                                     className="space-y-4"
                                 >
                                     <p className="text-xs text-slate-400 text-center font-light leading-relaxed mb-2">
-                                        {formData.email} pochtasiga 6 xonali
-                                        tasdiqlash kodi yuborildi.
+                                        {formData.email} pochtasiga tasdiqlash
+                                        kodi yuborildi.
                                     </p>
                                     <div className="relative">
                                         <FaKey className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-600 text-xs" />
@@ -303,7 +365,7 @@ export default function AuthSpaceModal({
                                             status === "success"
                                         }
                                         type="submit"
-                                        className="w-full py-4 rounded-xl font-bold tracking-widest transition-all uppercase text-xs bg-orange-500 text-black hover:bg-orange-400 disabled:opacity-50 disabled:cursor-not-allowed"
+                                        className="w-full py-4 rounded-xl font-bold tracking-widest transition-all uppercase text-xs bg-orange-500 text-black hover:bg-orange-400 disabled:opacity-50 cursor-pointer"
                                     >
                                         {status === "loading"
                                             ? t("Kutilmoqda...")
@@ -316,7 +378,7 @@ export default function AuthSpaceModal({
                                                 setIsVerifying(false);
                                                 setStatus("idle");
                                             }}
-                                            className="text-[10px] text-slate-500 uppercase tracking-widest hover:text-white transition-colors"
+                                            className="text-[10px] text-slate-500 uppercase tracking-widest hover:text-white transition-colors cursor-pointer"
                                         >
                                             Orqaga qaytish
                                         </button>

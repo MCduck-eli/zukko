@@ -17,24 +17,28 @@ const pool = new Pool({
 
 let isTableInitialized = false;
 
-async function createTablesIfNotExist() {
+export async function createTablesIfNotExist() {
     if (isTableInitialized) return;
 
     try {
         const createQuery = `
             CREATE TABLE IF NOT EXISTS users (
                 id SERIAL PRIMARY KEY,
+                clerk_id VARCHAR(255) UNIQUE,
                 email VARCHAR(255) UNIQUE NOT NULL,
-                password VARCHAR(255) NOT NULL,
+                password VARCHAR(255),
                 "fullName" VARCHAR(255),
                 is_verified BOOLEAN DEFAULT FALSE,
                 verification_code VARCHAR(6),
-                code_expires_at TIMESTAMP
+                code_expires_at TIMESTAMP,
+                created_at TIMESTAMP DEFAULT NOW()
             );
         `;
         await pool.query(createQuery);
 
         const alterQuery = `
+            ALTER TABLE users ADD COLUMN IF NOT EXISTS clerk_id VARCHAR(255) UNIQUE;
+            ALTER TABLE users ALTER COLUMN password DROP NOT NULL;
             ALTER TABLE users ADD COLUMN IF NOT EXISTS is_verified BOOLEAN DEFAULT FALSE;
             ALTER TABLE users ADD COLUMN IF NOT EXISTS verification_code VARCHAR(6);
             ALTER TABLE users ADD COLUMN IF NOT EXISTS code_expires_at TIMESTAMP;
@@ -43,7 +47,7 @@ async function createTablesIfNotExist() {
 
         isTableInitialized = true;
         console.log(
-            "🚀 'users' jadvali va OTP ustunlari tekshirildi/yaratildi!",
+            "🚀 'users' jadvali (Clerk qo'llab-quvvatlovi bilan) tekshirildi!",
         );
     } catch (error) {
         console.error("Jadvalni sozlashda xato yuz berdi:", error);
@@ -65,6 +69,29 @@ export class AuthService {
                     : "",
             },
         });
+    }
+    async syncClerkUser(clerkId: string, email: string, fullName?: string) {
+        await createTablesIfNotExist();
+
+        const query = `
+            INSERT INTO users (clerk_id, email, "fullName", is_verified)
+            VALUES ($1, $2, $3, TRUE)
+            ON CONFLICT (email) 
+            DO UPDATE SET clerk_id = EXCLUDED.clerk_id, "fullName" = COALESCE(EXCLUDED."fullName", users."fullName"), is_verified = TRUE
+            RETURNING id, clerk_id, email, "fullName";
+        `;
+
+        try {
+            const res = await pool.query(query, [
+                clerkId,
+                email,
+                fullName || "",
+            ]);
+            return res.rows[0];
+        } catch (error) {
+            console.error("Clerk foydalanuvchisini saqlashda xato:", error);
+            throw error;
+        }
     }
 
     async sendVerificationEmail(email: string, code: string) {
@@ -176,6 +203,14 @@ export class AuthService {
         const user = res.rows[0];
 
         if (!user) return null;
+
+        if (!user.password) {
+            return {
+                status: "error",
+                message:
+                    "Bu hisob Google orqali yaratilgan. Iltimos Google orqali kiring.",
+            };
+        }
 
         const isMatch = await bcrypt.compare(
             credentials.password,

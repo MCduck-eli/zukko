@@ -4,10 +4,12 @@ import dotenv from "dotenv";
 import authRoutes from "./routes/auth.route.js";
 import questionRoute from "./routes/question-route.js";
 import aiRoute from "./routes/ai-route.js";
+import { clerkMiddleware } from "@clerk/express";
 
 dotenv.config();
 
 const app = express();
+
 app.use(
     cors({
         origin: "*",
@@ -15,8 +17,18 @@ app.use(
         allowedHeaders: ["Content-Type", "Authorization"],
     }),
 );
-app.use(express.json());
+
 app.use("/api/auth", authRoutes);
+
+app.use(express.json());
+app.use(
+    clerkMiddleware({
+        publishableKey:
+            process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY ||
+            process.env.CLERK_PUBLISHABLE_KEY,
+    }),
+);
+
 app.use("/api", questionRoute);
 app.use("/api", aiRoute);
 
@@ -30,4 +42,5 @@ if (process.env.NODE_ENV !== "production") {
         console.log(`🚀 Server ${PORT}-portda muvaffaqiyatli yondi`);
     });
 }
+
 export default app;

@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { authService } from "../service/auth-service.js";
+import { authService, createTablesIfNotExist } from "../service/auth-service.js";
 import pkg from "pg";
 const { Pool } = pkg;
 import dotenv from "dotenv";
@@ -21,6 +21,8 @@ export const registerController = async (
 ): Promise<void> => {
     try {
         const { email } = req.body;
+
+        await createTablesIfNotExist();
 
         const checkUser = await pool.query(
             "SELECT * FROM users WHERE email = $1",

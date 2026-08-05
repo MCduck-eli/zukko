@@ -48,14 +48,30 @@ export default function Cabinet({ isOpen, onClose }: CabinetProps) {
     const [plans, setPlans] = useState<AiPlan[]>([]);
     const [isLoading, setIsLoading] = useState(false);
 
+    const getUserId = () => {
+        if (user?.id) return user.id;
+        const localUserRaw = typeof window !== "undefined" ? localStorage.getItem("user") : null;
+        if (localUserRaw) {
+            try {
+                const localUser = JSON.parse(localUserRaw);
+                return localUser.id?.toString();
+            } catch (e) {
+                console.error("User parsing error:", e);
+            }
+        }
+        return null;
+    };
+
     const fetchPlans = async () => {
-        if (!user?.id) return;
+        const userId = getUserId();
+        if (!userId) return;
+        
         setIsLoading(true);
         const baseUrl =
             process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001/api";
 
         try {
-            const res = await fetch(`${baseUrl}/ai/my-plans/${user.id}`);
+            const res = await fetch(`${baseUrl}/ai/my-plans/${userId}`);
             if (res.ok) {
                 const data = await res.json();
                 setPlans(data);
@@ -68,7 +84,7 @@ export default function Cabinet({ isOpen, onClose }: CabinetProps) {
     };
 
     useEffect(() => {
-        if (isOpen && user?.id) {
+        if (isOpen) {
             fetchPlans();
         }
     }, [isOpen, user?.id]);

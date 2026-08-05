@@ -86,6 +86,12 @@ router.post(
             );
 
             const data = await response.json();
+            
+            if (!response.ok) {
+                console.error("Groq API Error (Study Plan):", data);
+                throw new Error(data.error?.message || "Groq API Error");
+            }
+            
             const text = data.choices[0].message.content;
 
             await dbClient.query(
@@ -94,10 +100,11 @@ router.post(
             );
 
             return res.json({ message: "Reja muvaffaqiyatli saqlandi!" });
-        } catch (error) {
+        } catch (error: any) {
+            console.error("AI Study Plan xatolik:", error);
             return res
                 .status(500)
-                .json({ message: "AI xizmatida xatolik yuz berdi." });
+                .json({ message: "AI xizmatida xatolik yuz berdi: " + (error.message || "") });
         }
     },
 );
@@ -165,10 +172,17 @@ router.post("/chat", async (req, res) => {
         );
 
         const data = await response.json();
+        
+        if (!response.ok) {
+            console.error("Groq API Error:", data);
+            throw new Error(data.error?.message || "Groq API Error");
+        }
+
         res.json({ reply: data.choices[0].message.content });
-    } catch (error) {
+    } catch (error: any) {
+        console.error("AI Chat xatolik:", error);
         res.status(500).json({
-            reply: "Sistemamda kichik portlash sodir bo'ldi, qayta urinib ko'r!",
+            reply: "Sistemamda kichik portlash sodir bo'ldi. Xatolik: " + (error.message || "Noma'lum xato"),
         });
     }
 });

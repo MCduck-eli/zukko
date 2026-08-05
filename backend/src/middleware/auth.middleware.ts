@@ -8,6 +8,13 @@ export const authMiddleware = (
     res: Response,
     next: NextFunction,
 ): void => {
+    // Clerk orqali autentifikatsiya qilinganligini tekshiramiz
+    const clerkAuth = (req as any).auth;
+    if (clerkAuth && clerkAuth.userId) {
+        (req as any).user = { id: clerkAuth.userId };
+        return next();
+    }
+
     const authHeader = req.headers.authorization;
     const token = authHeader && authHeader.split(" ")[1];
 

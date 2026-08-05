@@ -24,6 +24,25 @@ export default function QuizComponent({ subjectKey, onClose }: QuizProps) {
     const [isLoading, setIsLoading] = useState(true);
     const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
     const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
+    const [wrongAnswers, setWrongAnswers] = useState<any[]>([]);
+    const [isSaving, setIsSaving] = useState(false);
+    
+    // Clerk user for fallback
+    const clerkUser = typeof window !== "undefined" && (window as any).Clerk?.user;
+
+    const getUserId = () => {
+        if (clerkUser?.id) return clerkUser.id;
+        const localUserRaw = typeof window !== "undefined" ? localStorage.getItem("user") : null;
+        if (localUserRaw) {
+            try {
+                const localUser = JSON.parse(localUserRaw);
+                return localUser.id?.toString();
+            } catch (e) {
+                console.error("User parsing error:", e);
+            }
+        }
+        return "1";
+    };
 
     useEffect(() => {
         const fetchQuestions = async () => {
@@ -58,21 +77,62 @@ export default function QuizComponent({ subjectKey, onClose }: QuizProps) {
         }
     }, [questions, currentIdx]);
 
+    const saveQuizResults = async (finalScore: number, finalWrongs: any[]) => {
+        setIsSaving(true);
+        try {
+            const userId = getUserId();
+            const baseUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001/api";
+            
+            await fetch(`${baseUrl}/ai/study-plan`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                    userId,
+                    category: subjectKey,
+                    scoreText: `${finalScore}/${questions.length}`,
+                    wrongAnswers: finalWrongs.length > 0 ? finalWrongs : [{ question: "Barchasi to'g'ri", userAnswer: "To'g'ri", correctAnswer: "To'g'ri" }],
+                }),
+            });
+        } catch (err) {
+            console.error("Error saving AI plan:", err);
+        } finally {
+            setIsSaving(false);
+        }
+    };
+
     const handleAnswer = (selected: string) => {
         if (selectedAnswer !== null) return;
 
         const correct = selected === questions[currentIdx].answer;
         setSelectedAnswer(selected);
         setIsCorrect(correct);
+        
+        let updatedScore = score;
+        let updatedWrongs = [...wrongAnswers];
 
         if (correct) {
-            setScore((prev) => prev + 1);
+            updatedScore = score + 1;
+            setScore(updatedScore);
+        } else {
+            updatedWrongs = [
+                ...wrongAnswers,
+                {
+                    question: questions[currentIdx].title,
+                    userAnswer: selected,
+                    correctAnswer: questions[currentIdx].answer,
+                }
+            ];
+            setWrongAnswers(updatedWrongs);
         }
+
         setTimeout(() => {
             if (currentIdx + 1 < questions.length) {
                 setCurrentIdx((prev) => prev + 1);
             } else {
                 setShowResult(true);
+                saveQuizResults(updatedScore, updatedWrongs);
             }
         }, 1000);
     };

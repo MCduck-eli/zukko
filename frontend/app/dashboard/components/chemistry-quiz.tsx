@@ -99,17 +99,17 @@ export default function ChemistryQuiz({ onClose }: ChemistryQuizProps) {
         try {
             const baseUrl =
                 process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001/api";
-            const token = localStorage.getItem("access_token");
 
-            await fetch(`${baseUrl}/user-stats`, {
+            await fetch(`${baseUrl}/ai/study-plan`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
-                    ...(token && { Authorization: `Bearer ${token}` }),
                 },
                 body: JSON.stringify({
                     userId,
-                    ...quizResultData,
+                    category: "chemistry",
+                    scoreText: `${finalScore}/${questions.length}`,
+                    wrongAnswers: finalWrongs.length > 0 ? finalWrongs : [{ question: "Barchasi to'g'ri", userAnswer: "To'g'ri", correctAnswer: "To'g'ri" }],
                 }),
             });
             console.log(
@@ -117,7 +117,7 @@ export default function ChemistryQuiz({ onClose }: ChemistryQuizProps) {
             );
         } catch (err) {
             console.error(
-                "Backend'ga saqlashda xatolik (lekin localStorage'ga saqlandi):",
+                "Backend'ga saqlashda xatolik:",
                 err,
             );
         } finally {

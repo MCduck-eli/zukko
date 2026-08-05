@@ -53,14 +53,20 @@ export default function CourseOrbitSection() {
         { icon: <MdOutlinePsychology />, color: "#fb923c" },
     ];
 
+    const getRand = (seed: number) => {
+        const x = Math.sin(seed) * 10000;
+        const val = x - Math.floor(x);
+        return Number(val.toFixed(4));
+    };
+
     const floatingElements = useMemo(() => {
-        return courseLogos.map((logo) => ({
+        return courseLogos.map((logo, i) => ({
             ...logo,
-            top: `${Math.random() * 70 + 15}%`,
-            left: `${Math.random() * 80 + 10}%`,
-            moveX: [0, Math.random() * 50 - 25, 0],
-            moveY: [0, Math.random() * 50 - 25, 0],
-            duration: 15 + Math.random() * 10,
+            top: `${(getRand(i) * 70 + 15).toFixed(2)}%`,
+            left: `${(getRand(i + 10) * 80 + 10).toFixed(2)}%`,
+            moveX: [0, Number((getRand(i + 20) * 50 - 25).toFixed(2)), 0],
+            moveY: [0, Number((getRand(i + 30) * 50 - 25).toFixed(2)), 0],
+            duration: Number((15 + getRand(i + 40) * 10).toFixed(2)),
         }));
     }, []);
 
@@ -71,19 +77,28 @@ export default function CourseOrbitSection() {
             className="relative min-h-[160vh] flex items-center justify-center overflow-hidden bg-[#030005]"
         >
             <motion.div style={{ y: starsY }} className="absolute inset-0 z-0">
-                {stars.map((_, i) => (
-                    <div
-                        key={i}
-                        className="absolute bg-white rounded-full"
-                        style={{
-                            width: Math.random() * 2 + 0.5 + "px",
-                            height: Math.random() * 2 + 0.5 + "px",
-                            left: Math.random() * 100 + "%",
-                            top: Math.random() * 200 + "%",
-                            opacity: Math.random() * 0.7 + 0.3,
-                        }}
-                    />
-                ))}
+                {stars.map((_, i) => {
+                    const width = (getRand(i) * 2 + 0.5).toFixed(2);
+                    const height = (getRand(i + 200) * 2 + 0.5).toFixed(2);
+                    const left = (getRand(i + 400) * 100).toFixed(2);
+                    const top = (getRand(i + 600) * 200).toFixed(2);
+                    const opacity = (getRand(i + 800) * 0.7 + 0.3).toFixed(2);
+
+                    return (
+                        <div
+                            key={i}
+                            suppressHydrationWarning
+                            className="absolute bg-white rounded-full"
+                            style={{
+                                width: `${width}px`,
+                                height: `${height}px`,
+                                left: `${left}%`,
+                                top: `${top}%`,
+                                opacity: Number(opacity),
+                            }}
+                        />
+                    );
+                })}
             </motion.div>
             <motion.div
                 style={{ y: planetY }}
@@ -96,8 +111,9 @@ export default function CourseOrbitSection() {
                 {floatingElements.map((item, i) => (
                     <motion.div
                         key={i}
+                        suppressHydrationWarning
                         className="absolute"
-                        initial={{ top: item.top, left: item.left }}
+                        style={{ top: item.top, left: item.left }}
                         animate={{
                             x: item.moveX,
                             y: item.moveY,

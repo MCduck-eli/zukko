@@ -31,6 +31,12 @@ export default function CreatorSection() {
 
     const stars = Array.from({ length: 400 });
 
+    const getRand = (seed: number) => {
+        const x = Math.sin(seed) * 10000;
+        const val = x - Math.floor(x);
+        return Number(val.toFixed(4));
+    };
+
     const socials = [
         {
             name: "Youtube",
@@ -55,19 +61,27 @@ export default function CreatorSection() {
             className="relative min-h-[160vh] flex items-center justify-center overflow-hidden bg-[#05010a]"
         >
             <motion.div style={{ y: starsY }} className="absolute inset-0 z-0">
-                {stars.map((_, i) => (
-                    <div
-                        key={i}
-                        className="absolute bg-white rounded-full"
-                        style={{
-                            width: Math.random() * 2 + 0.5 + "px",
-                            height: Math.random() * 2 + 0.5 + "px",
-                            left: Math.random() * 100 + "%",
-                            top: Math.random() * 200 + "%",
-                            opacity: Math.random() * 0.7 + 0.3,
-                        }}
-                    />
-                ))}
+                {stars.map((_, i) => {
+                    const width = (getRand(i) * 2 + 0.5).toFixed(2);
+                    const height = (getRand(i + 200) * 2 + 0.5).toFixed(2);
+                    const left = (getRand(i + 400) * 100).toFixed(2);
+                    const top = (getRand(i + 600) * 200).toFixed(2);
+                    const opacity = (getRand(i + 800) * 0.7 + 0.3).toFixed(2);
+
+                    return (
+                        <div
+                            key={i}
+                            className="absolute bg-white rounded-full"
+                            style={{
+                                width: `${width}px`,
+                                height: `${height}px`,
+                                left: `${left}%`,
+                                top: `${top}%`,
+                                opacity: Number(opacity),
+                            }}
+                        />
+                    );
+                })}
             </motion.div>
 
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_50%,rgba(124,58,237,0.1),transparent_60%)]" />
@@ -127,7 +141,8 @@ export default function CreatorSection() {
                                         <a
                                             key={i}
                                             href={s.link}
-                                            target="_blanck"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
                                             className="p-2.5 rounded-xl border border-white/10 text-white/40 bg-black/40 backdrop-blur-md hover:text-orange-400 hover:border-orange-400/50 transition-all"
                                         >
                                             {s.icon}

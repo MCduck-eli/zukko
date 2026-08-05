@@ -124,29 +124,28 @@ export default function StudyPlans({
                                             tasks.map((task, i) => (
                                                 <div
                                                     key={i}
-                                                    className="flex items-start gap-3 cursor-pointer group"
+                                                    className="flex items-start gap-4 cursor-pointer group p-3 rounded-xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.05] hover:border-cyan-500/30 transition-all mb-3"
                                                     onClick={() =>
                                                         toggleTask(p.id, task)
                                                     }
                                                 >
                                                     <div
-                                                        className={`mt-0.5 w-4 h-4 rounded border flex items-center justify-center shrink-0 transition-colors ${completedTasks[p.id]?.includes(task) ? "bg-cyan-500 border-cyan-500" : "border-white/30 group-hover:border-cyan-400"}`}
+                                                        className={`mt-0.5 w-5 h-5 rounded border flex items-center justify-center shrink-0 transition-all text-xs font-bold ${completedTasks[p.id]?.includes(task) ? "bg-cyan-500 border-cyan-500 text-black shadow-[0_0_10px_rgba(6,182,212,0.5)]" : "border-white/30 group-hover:border-cyan-400 text-transparent"}`}
                                                     >
-                                                        {completedTasks[
-                                                            p.id
-                                                        ]?.includes(task) &&
-                                                            "✔"}
+                                                        ✔
                                                     </div>
-                                                    <span
-                                                        className={`transition-all ${completedTasks[p.id]?.includes(task) ? "line-through text-white/30" : "text-white/80"}`}
+                                                    <div
+                                                        className={`transition-all flex-1 text-[13px] leading-relaxed [&>p]:m-0 [&_strong]:text-cyan-400 [&_strong]:font-bold ${completedTasks[p.id]?.includes(task) ? "line-through text-white/30 [&_strong]:text-cyan-400/30" : "text-gray-200"}`}
                                                     >
-                                                        {task
-                                                            .replace(
-                                                                /^[-*]|\d+\./,
-                                                                "",
-                                                            )
-                                                            .trim()}
-                                                    </span>
+                                                        <ReactMarkdown>
+                                                            {task
+                                                                .replace(
+                                                                    /^[-*]|\d+\./,
+                                                                    "",
+                                                                )
+                                                                .trim()}
+                                                        </ReactMarkdown>
+                                                    </div>
                                                 </div>
                                             ))
                                         ) : (

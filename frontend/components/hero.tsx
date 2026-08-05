@@ -1,19 +1,31 @@
 "use client";
 
 import { motion, useScroll, useTransform, useSpring } from "framer-motion";
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
-import { Sparkles, BrainCircuit, Rocket } from "lucide-react";
+import { Sparkles, BrainCircuit, Rocket, LayoutDashboard } from "lucide-react";
 import "../i18n";
 import AuthSpaceModal from "@/app/auth/authmodal";
 import AboutModal from "@/components/about-modal";
+import Cabinet from "@/components/cabinet/cabinet";
+import { useUser } from "@clerk/nextjs";
 
 export default function HeroSection() {
     const { t } = useTranslation();
     const containerRef = useRef(null);
     const [isAuthOpen, setIsAuthOpen] = useState(false);
     const [isAboutOpen, setIsAboutOpen] = useState(false);
+    const [isCabinetOpen, setIsCabinetOpen] = useState(false);
+    const [mounted, setMounted] = useState(false);
+
+    const { isSignedIn: isClerkSignedIn, isLoaded } = useUser();
+
+    useEffect(() => {
+        setMounted(true);
+    }, []);
+
+    const isLoggedIn = mounted && isLoaded && isClerkSignedIn;
 
     const { scrollYProgress } = useScroll({
         target: containerRef,
@@ -42,6 +54,12 @@ export default function HeroSection() {
 
     const stars = Array.from({ length: 200 });
 
+    const getRand = (seed: number) => {
+        const x = Math.sin(seed) * 10000;
+        const val = x - Math.floor(x);
+        return Number(val.toFixed(4));
+    };
+
     return (
         <div
             ref={containerRef}
@@ -56,18 +74,25 @@ export default function HeroSection() {
                 }}
                 className="absolute inset-0 z-0"
             >
-                {stars.map((_, i) => (
-                    <div
-                        key={i}
-                        className="absolute bg-white rounded-full"
-                        style={{
-                            width: Math.random() * 2 + 0.5 + "px",
-                            height: Math.random() * 2 + 0.5 + "px",
-                            left: Math.random() * 100 + "%",
-                            top: Math.random() * 200 + "%",
-                        }}
-                    />
-                ))}
+                {stars.map((_, i) => {
+                    const width = (getRand(i) * 2 + 0.5).toFixed(2);
+                    const height = (getRand(i + 200) * 2 + 0.5).toFixed(2);
+                    const left = (getRand(i + 400) * 100).toFixed(2);
+                    const top = (getRand(i + 600) * 200).toFixed(2);
+
+                    return (
+                        <div
+                            key={i}
+                            className="absolute bg-white rounded-full"
+                            style={{
+                                width: `${width}px`,
+                                height: `${height}px`,
+                                left: `${left}%`,
+                                top: `${top}%`,
+                            }}
+                        />
+                    );
+                })}
             </motion.div>
 
             <motion.div
@@ -126,15 +151,33 @@ export default function HeroSection() {
                 >
                     <Button
                         size="lg"
-                        onClick={() => setIsAuthOpen(true)}
-                        className="group bg-white text-black hover:bg-slate-200 rounded-md px-10 h-12 text-sm font-semibold transition-all w-full sm:w-auto"
+                        onClick={() => {
+                            if (isLoggedIn) {
+                                setIsCabinetOpen(true);
+                            } else {
+                                setIsAuthOpen(true);
+                            }
+                        }}
+                        className="group bg-white text-black hover:bg-slate-200 rounded-md px-10 h-12 text-sm font-semibold transition-all w-full sm:w-auto cursor-pointer"
                     >
                         <span className="flex items-center gap-2">
-                            {t("start")}
-                            <Rocket
-                                size={18}
-                                className="group-hover:-translate-y-1 transition-transform"
-                            />
+                            {isLoggedIn ? (
+                                <>
+                                    <span>Kabinet</span>
+                                    <LayoutDashboard
+                                        size={18}
+                                        className="group-hover:scale-110 transition-transform"
+                                    />
+                                </>
+                            ) : (
+                                <>
+                                    <span>{t("start")}</span>
+                                    <Rocket
+                                        size={18}
+                                        className="group-hover:-translate-y-1 transition-transform"
+                                    />
+                                </>
+                            )}
                         </span>
                     </Button>
 
@@ -164,6 +207,10 @@ export default function HeroSection() {
                 isOpen={isAboutOpen}
                 onClose={() => setIsAboutOpen(false)}
                 t={t}
+            />
+            <Cabinet
+                isOpen={isCabinetOpen}
+                onClose={() => setIsCabinetOpen(false)}
             />
         </div>
     );

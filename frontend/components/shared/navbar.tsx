@@ -3,7 +3,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { LogOut, Orbit, UserCircle2, Menu, X } from "lucide-react";
-import { useEffect, useState, useSyncExternalStore } from "react";
+import { useEffect, useState } from "react";
 import {
     defaultLanguage,
     supportedLanguages,
@@ -15,81 +15,62 @@ import Cabinet from "../cabinet/cabinet";
 
 export function Navbar() {
     const { i18n, t } = useTranslation();
-    const { isSignedIn: isClerkSignedIn, user, isLoaded } = useUser();
-    const { signOut, session } = useClerk();
+    const { isSignedIn: isClerkSignedIn, isLoaded, user } = useUser();
+    const { signOut } = useClerk();
     const [isAuthOpen, setIsAuthOpen] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [isCabinetOpen, setIsCabinetOpen] = useState(false);
     const [hasNewMessage, setHasNewMessage] = useState(false);
+    const [mounted, setMounted] = useState(false);
 
-    const isLocalLoggedIn = useSyncExternalStore(
-        (onStoreChange) => {
-            window.addEventListener("storage", onStoreChange);
-            window.addEventListener("auth-change", onStoreChange);
-
-            return () => {
-                window.removeEventListener("storage", onStoreChange);
-                window.removeEventListener("auth-change", onStoreChange);
-            };
-        },
-        () => Boolean(localStorage.getItem("access_token")),
-        () => false,
-    );
     useEffect(() => {
-        const checkInterval = setInterval(() => {
-            const plans = localStorage.getItem("latest_quiz_result");
-            if (plans) {
-                setHasNewMessage(true);
-            }
-        }, 5000);
-        return () => clearInterval(checkInterval);
+        setMounted(true);
     }, []);
+
     const openCabinet = () => {
         setIsCabinetOpen(true);
         setHasNewMessage(false);
     };
 
+    const getUserId = () => {
+        if (user?.id) return user.id;
+        const localUserRaw = typeof window !== "undefined" ? localStorage.getItem("user") : null;
+        if (localUserRaw) {
+            try {
+                const localUser = JSON.parse(localUserRaw);
+                return localUser.id?.toString();
+            } catch (e) {
+                return null;
+            }
+        }
+        return null;
+    };
+
     useEffect(() => {
-        const syncClerkAuth = async () => {
-            if (isLoaded && isClerkSignedIn && session) {
-                const localToken = localStorage.getItem("access_token");
-                if (!localToken) {
-                    try {
-                        console.log(
-                            "Sinxronizatsiya boshlandi: Clerk orqali token olinmoqda...",
-                        );
-                        const token = await session.getToken();
-                        if (token) {
-                            localStorage.setItem("access_token", token);
-                            if (user) {
-                                localStorage.setItem(
-                                    "user",
-                                    JSON.stringify({
-                                        email: user.primaryEmailAddress
-                                            ?.emailAddress,
-                                        fullName: user.fullName,
-                                        id: user.id,
-                                    }),
-                                );
-                            }
-                            console.log(
-                                "Sinxronizatsiya muvaffaqiyatli: Token va foydalanuvchi ma'lumotlari localStorage'ga yozildi.",
-                            );
-                            window.dispatchEvent(new Event("auth-change"));
-                        }
-                    } catch (err) {
-                        console.error("Clerk token sync error:", err);
+        if (!mounted) return;
+        const checkInterval = setInterval(async () => {
+            const userId = getUserId();
+            if (!userId) return;
+            try {
+                const baseUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001/api";
+                const res = await fetch(`${baseUrl}/ai/my-plans/${userId}`);
+                if (res.ok) {
+                    const data = await res.json();
+                    if (data.some((plan: any) => !plan.is_read)) {
+                        setHasNewMessage(true);
+                    } else {
+                        setHasNewMessage(false);
                     }
                 }
+            } catch (e) {
+                // Ignore network errors during polling
             }
-        };
+        }, 5000);
+        return () => clearInterval(checkInterval);
+    }, [mounted, user?.id]);
 
-        syncClerkAuth();
-    }, [isClerkSignedIn, isLoaded, session, user]);
-
-    const isLoggedIn = !isLoaded
-        ? isLocalLoggedIn
-        : isLocalLoggedIn || isClerkSignedIn;
+    // Hydration va desinxronizatsiya bo'lmasligi uchun faqat Clerk holatidan foydalaniladi
+    const isLoggedIn = mounted && isLoaded && isClerkSignedIn;
 
     useEffect(() => {
         const savedLanguage = localStorage.getItem(
@@ -124,18 +105,17 @@ export function Navbar() {
 
     const handleLogout = async () => {
         console.log("Tizimdan chiqish jarayoni boshlandi...");
+
+        // Agar biror mahalliy storage ma'lumotlari bo'lsa tozalaymiz
         localStorage.removeItem("access_token");
         localStorage.removeItem("user");
 
         try {
-            if (isClerkSignedIn) {
-                await signOut();
-            }
+            await signOut();
         } catch (err) {
             console.error("Clerk signout error:", err);
         }
 
-        window.dispatchEvent(new Event("auth-change"));
         window.location.href = "/";
     };
 
@@ -172,23 +152,29 @@ export function Navbar() {
                             </button>
                         ))}
                     </div>
-                    {isLoaded && isLoggedIn && (
+                    {isLoggedIn && (
                         <motion.button
-                            whileHover={{ scale: 1.05 }}
-                            whileTap={{ scale: 0.95 }}
-                            onClick={() => setIsCabinetOpen(true)}
-                            className="flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-cyan-500/10 to-purple-500/10 border border-cyan-500/30 hover:border-cyan-400 text-white font-medium text-xs transition-all hover:shadow-[0_0_15px_rgba(34,211,238,0.2)] group"
+                            whileHover={{ scale: 1.02 }}
+                            whileTap={{ scale: 0.98 }}
+                            onClick={openCabinet}
+                            className="relative group overflow-hidden px-5 py-2 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 transition-all"
                         >
-                            <span className="group-hover:rotate-12 transition-transform inline-block">
-                                👨‍🚀
-                            </span>
-                            <span className="uppercase tracking-widest font-bold text-[10px]">
-                                Kabinet
-                            </span>
+                            {hasNewMessage && (
+                                <span className="absolute top-0 right-0 flex h-2.5 w-2.5 -mt-1 -mr-1">
+                                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-500 opacity-75"></span>
+                                    <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-red-500"></span>
+                                </span>
+                            )}
+                            <div className="relative z-10 flex items-center gap-2">
+                                <UserCircle2 className="w-4 h-4 text-cyan-400" />
+                                <span className="text-[11px] text-white uppercase tracking-[0.2em] font-bold">
+                                    Kabinet
+                                </span>
+                            </div>
                         </motion.button>
                     )}
 
-                    {!isLoaded ? (
+                    {!isLoaded || !mounted ? (
                         <div className="w-24 h-9 bg-white/5 border border-white/10 rounded-full animate-pulse" />
                     ) : isLoggedIn ? (
                         <motion.button
@@ -231,12 +217,18 @@ export function Navbar() {
                 </div>
 
                 <div className="flex md:hidden items-center gap-3">
-                    {isLoaded && isLoggedIn && (
+                    {isLoggedIn && (
                         <button
-                            onClick={() => setIsCabinetOpen(true)}
-                            className="p-2 bg-white/5 border border-cyan-500/30 rounded-lg text-sm"
+                            onClick={openCabinet}
+                            className="relative p-2 bg-white/5 border border-white/10 rounded-lg text-sm hover:bg-white/10 transition-all"
                         >
-                            👨‍🚀
+                            {hasNewMessage && (
+                                <span className="absolute top-0 right-0 flex h-2 w-2 -mt-0.5 -mr-0.5">
+                                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-500 opacity-75"></span>
+                                    <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500"></span>
+                                </span>
+                            )}
+                            <UserCircle2 className="w-5 h-5 text-cyan-400" />
                         </button>
                     )}
                     <div className="flex items-center gap-1 px-2 py-0.5 border-l border-white/10">
@@ -292,7 +284,7 @@ export function Navbar() {
 
                         <div className="h-[1px] bg-white/5 w-full" />
 
-                        {!isLoaded ? (
+                        {!isLoaded || !mounted ? (
                             <div className="w-full h-10 bg-white/5 border border-white/10 rounded-xl animate-pulse" />
                         ) : isLoggedIn ? (
                             <button

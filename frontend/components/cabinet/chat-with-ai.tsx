@@ -80,10 +80,10 @@ export default function ChatWithAI() {
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
                         key={i}
-                        className={`text-xs p-3 rounded-xl max-w-[85%] ${
+                        className={`text-[13px] p-4 rounded-2xl max-w-[85%] leading-relaxed shadow-sm ${
                             m.role === "user"
-                                ? "bg-cyan-500/20 ml-auto text-cyan-100"
-                                : "bg-purple-900/30 mr-auto text-purple-100 border border-purple-500/20"
+                                ? "bg-orange-500 text-black font-medium ml-auto rounded-tr-sm"
+                                : "bg-white/10 text-gray-100 border border-white/10 mr-auto rounded-tl-sm backdrop-blur-md"
                         }`}
                     >
                         {m.text}
