@@ -49,7 +49,8 @@ export default function ChatWithAI() {
         setIsThinking(true);
 
         try {
-            const res = await fetch("http://localhost:3001/api/chat", {
+            const baseUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001/api";
+            const res = await fetch(`${baseUrl}/chat`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ message: input }),

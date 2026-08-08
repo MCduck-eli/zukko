@@ -18,8 +18,9 @@ export default function PhpQuiz() {
 
     useEffect(() => {
         const getPhpQuestions = async () => {
-            const targetUrl =
-                "http://localhost:3001/api/questions?category=php&limit=10";
+            const baseUrl =
+                process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001/api";
+            const targetUrl = `${baseUrl}/questions?category=php&limit=10`;
             console.log("🚀 PHP so'rov yuborilmoqda, manzil:", targetUrl);
 
             try {
