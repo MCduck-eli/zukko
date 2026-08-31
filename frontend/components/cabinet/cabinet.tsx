@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useUser } from "@clerk/nextjs";
 import StudyPlans from "./study-plans";
-import ChatWithAI from "./chat-with-ai";
 import ProgressTracker from "./progress.traker";
 
 interface AiPlan {
@@ -149,12 +148,6 @@ export default function Cabinet({ isOpen, onClose }: CabinetProps) {
                                 Rejalar
                             </TabButton>
                             <TabButton
-                                active={activeTab === "chat"}
-                                onClick={() => setActiveTab("chat")}
-                            >
-                                AI Chat
-                            </TabButton>
-                            <TabButton
                                 active={activeTab === "progress"}
                                 onClick={() => setActiveTab("progress")}
                             >
@@ -170,7 +163,6 @@ export default function Cabinet({ isOpen, onClose }: CabinetProps) {
                                     onPlanOpen={markAsRead}
                                 />
                             )}
-                            {activeTab === "chat" && <ChatWithAI />}
                             {activeTab === "progress" && (
                                 <ProgressTracker plans={plans} />
                             )}

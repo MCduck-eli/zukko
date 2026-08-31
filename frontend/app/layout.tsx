@@ -6,6 +6,7 @@ import "katex/dist/katex.min.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Suspense } from "react";
 import LayoutLoaderHandler from "@/components/shared/layout-loader-handler";
+import FloatingAIChat from "@/components/shared/floating-ai-chat";
 
 export const metadata: Metadata = {
     title: "Zukko Halikov",
@@ -36,6 +37,7 @@ export default function RootLayout({
                     <Navbar />
                     {children}
                     <GlobalSpaceFooter />
+                    <FloatingAIChat />
                 </body>
             </html>
         </ClerkProvider>

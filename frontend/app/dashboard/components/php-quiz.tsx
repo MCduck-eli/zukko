@@ -30,6 +30,8 @@ export default function PhpQuiz() {
                 console.log("📊 PHP Status matn:", response.statusText);
 
                 if (!response.ok) {
+                    const errText = await response.text();
+                    console.error("Server xatosi haqida ma'lumot:", errText);
                     throw new Error(
                         `Server xatosi: ${response.status} ${response.statusText}`,
                     );

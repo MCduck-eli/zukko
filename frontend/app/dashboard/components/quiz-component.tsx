@@ -54,7 +54,11 @@ export default function QuizComponent({ subjectKey, onClose }: QuizProps) {
                 const res = await fetch(
                     `${baseUrl}/questions?category=${subjectKey}&limit=10`,
                 );
-                if (!res.ok) throw new Error("Tarmoq xatosi");
+                if (!res.ok) {
+                    const errorText = await res.text();
+                    console.error("Backenddan 500 xato keldi:", errorText);
+                    throw new Error("Tarmoq xatosi");
+                }
                 const result = await res.json();
                 if (result && Array.isArray(result.data)) {
                     setQuestions(result.data);

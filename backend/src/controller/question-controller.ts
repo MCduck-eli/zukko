@@ -21,6 +21,7 @@ export const getQuestions = async (req: Request, res: Response) => {
         res.status(500).json({
             success: false,
             message: "Serverda xatolik yuz berdi",
+            error: error instanceof Error ? error.message : String(error)
         });
     }
 };

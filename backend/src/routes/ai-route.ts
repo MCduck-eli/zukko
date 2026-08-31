@@ -145,46 +145,105 @@ router.get(
     },
 );
 
-router.post("/chat", async (req, res) => {
-    const { message } = req.body;
-    try {
-        const response = await fetch(
-            "https://api.groq.com/openai/v1/chat/completions",
-            {
-                method: "POST",
-                headers: {
-                    Authorization: `Bearer ${process.env.GROQ_API_KEY}`,
-                    "Content-Type": "application/json",
-                },
-                body: JSON.stringify({
-                    model: "llama-3.3-70b-versatile",
-                    messages: [
-                        {
-                            role: "system",
-                            content:
-                                "Siz Zukko tizimining komandirisiz. Juda aqlli, hazilkash, optimist va o'quvchilarni ruhlantiradigan yordamchisiz.",
-                        },
-                        { role: "user", content: message },
-                    ],
-                    temperature: 0.7,
-                }),
-            },
-        );
+router.post("/chat", async (req: Request, res: Response): Promise<any> => {
+    const { message, history } = req.body;
 
-        const data = await response.json();
-        
-        if (!response.ok) {
-            console.error("Groq API Error:", data);
-            throw new Error(data.error?.message || "Groq API Error");
-        }
-
-        res.json({ reply: data.choices[0].message.content });
-    } catch (error: any) {
-        console.error("AI Chat xatolik:", error);
-        res.status(500).json({
-            reply: "Sistemamda kichik portlash sodir bo'ldi. Xatolik: " + (error.message || "Noma'lum xato"),
+    if (!message || typeof message !== "string" || !message.trim()) {
+        return res.status(400).json({
+            success: false,
+            reply: "Iltimos, xabar matnini kiriting.",
         });
     }
+
+    const apiKey = process.env.GROQ_API_KEY;
+    if (!apiKey) {
+        return res.status(500).json({
+            success: false,
+            reply: "AI xizmati vaqtincha sozlanmagan (GROQ_API_KEY topilmadi).",
+        });
+    }
+
+    const SYSTEM_PROMPT = `Sen saytdagi aqlli AI-konsultantsan. Foydalanuvchi savollariga u yozgan tilda (o'zbek yoki rus tilida) muloyim, qisqa va aniq javob ber. Foydalanuvchi ehtiyojini aniqlab, qiziqish bildirsa, telefon raqami yoki aloqa ma'lumotlarini qoldirishni taklif qil. Platformadagi barcha kurslar, testlar, yo'nalishlar va ta'lim imkoniyatlari bo'yicha maslahat ber.`;
+
+    const formattedMessages: Array<{ role: "system" | "user" | "assistant"; content: string }> = [
+        {
+            role: "system",
+            content: SYSTEM_PROMPT,
+        },
+    ];
+
+    if (Array.isArray(history) && history.length > 0) {
+        const validHistory = history
+            .slice(-10) // keep last 10 messages for context
+            .map((item) => ({
+                role: item.role === "user" ? "user" : "assistant",
+                content: String(item.content || item.text || ""),
+            }))
+            .filter((item) => item.content.trim().length > 0);
+
+        formattedMessages.push(...(validHistory as any));
+    }
+
+    // Append current user message
+    formattedMessages.push({
+        role: "user",
+        content: message.trim(),
+    });
+
+    const modelsToTry = [
+        "llama-3.3-70b-versatile",
+        "llama-3.1-8b-instant",
+        "gemma2-9b-it"
+    ];
+
+    let lastError: any = null;
+
+    for (const model of modelsToTry) {
+        try {
+            const response = await fetch(
+                "https://api.groq.com/openai/v1/chat/completions",
+                {
+                    method: "POST",
+                    headers: {
+                        Authorization: `Bearer ${apiKey}`,
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({
+                        model,
+                        messages: formattedMessages,
+                        temperature: 0.6,
+                        max_tokens: 1024,
+                    }),
+                },
+            );
+
+            const data = await response.json();
+
+            if (!response.ok) {
+                console.error(`Groq API Error (${model}):`, data);
+                lastError = data.error?.message || "API xatosi";
+                continue; // Try fallback model
+            }
+
+            const reply = data.choices?.[0]?.message?.content;
+            if (reply) {
+                return res.json({
+                    success: true,
+                    reply: reply.trim(),
+                });
+            }
+        } catch (err: any) {
+            console.error(`Error with model ${model}:`, err);
+            lastError = err.message || "Ulanish xatosi";
+        }
+    }
+
+    console.error("AI Chat barcha modellarda xatolik:", lastError);
+    return res.status(500).json({
+        success: false,
+        reply: "Hozirda AI xizmatida yuklama yuqori. Iltimos, bir ozdan so'ng qayta urinib ko'ring.",
+        error: lastError,
+    });
 });
 
 export default router;
