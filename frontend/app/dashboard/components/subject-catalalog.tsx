@@ -49,12 +49,12 @@ export default function SubjectCatalog() {
                                 onClick={handleBack}
                                 className="text-orange-500 font-bold text-[10px] uppercase hover:underline"
                             >
-                                ← Orqaga
+                                ← {t("btn_back")}
                             </button>
                         )}
                         <h2 className="text-white/40 uppercase tracking-[0.4em] text-[10px] font-black">
                             {isSubCatalog
-                                ? "Dasturlash Tillari"
+                                ? t("subject_programming_languages")
                                 : t("subject_catalog_title")}
                         </h2>
                     </div>

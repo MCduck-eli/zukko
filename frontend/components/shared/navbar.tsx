@@ -159,7 +159,7 @@ export function Navbar() {
                             <div className="relative z-10 flex items-center gap-2">
                                 <UserCircle2 className="w-4 h-4 text-cyan-400" />
                                 <span className="text-[11px] text-white uppercase tracking-[0.2em] font-bold">
-                                    Kabinet
+                                    {t("nav_cabinet")}
                                 </span>
                             </div>
                         </motion.button>
