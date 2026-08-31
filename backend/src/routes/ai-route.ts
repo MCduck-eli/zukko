@@ -1,5 +1,6 @@
 import express, { Request, Response, Router } from "express";
-import { Client } from "pg";
+import pkg from "pg";
+const { Pool } = pkg;
 import dotenv from "dotenv";
 
 dotenv.config();
@@ -8,16 +9,12 @@ const router: Router = express.Router();
 
 const isLocal =
     !process.env.DATABASE_URL || process.env.DATABASE_URL.includes("localhost");
-const dbClient = new Client({
+const dbPool = new Pool({
     connectionString:
         process.env.DATABASE_URL ||
         "postgresql://postgres:postgres@127.0.0.1:5432/template1",
     ssl: isLocal ? false : { rejectUnauthorized: false },
 });
-
-dbClient
-    .connect()
-    .catch((err) => console.error("DBga ulanishda xatolik:", err));
 
 interface WrongAnswer {
     question: string;
@@ -94,7 +91,7 @@ router.post(
             
             const text = data.choices[0].message.content;
 
-            await dbClient.query(
+            await dbPool.query(
                 "INSERT INTO ai_plans (user_id, category, score, plan, is_read) VALUES ($1, $2, $3, $4, $5)",
                 [userId, category || "Fan", scoreText, text, false],
             );
@@ -114,7 +111,7 @@ router.patch(
     async (req: Request, res: Response): Promise<any> => {
         try {
             const { id } = req.params;
-            await dbClient.query(
+            await dbPool.query(
                 "UPDATE ai_plans SET is_read = true WHERE id = $1",
                 [id],
             );
@@ -132,7 +129,7 @@ router.get(
     async (req: Request, res: Response): Promise<any> => {
         try {
             const { userId } = req.params;
-            const result = await dbClient.query(
+            const result = await dbPool.query(
                 "SELECT * FROM ai_plans WHERE user_id = $1 ORDER BY created_at DESC",
                 [userId],
             );
@@ -144,6 +141,48 @@ router.get(
         }
     },
 );
+
+let cachedGroqModels: string[] = [];
+let lastModelsFetchTime = 0;
+
+async function getActiveGroqModels(apiKey: string): Promise<string[]> {
+    if (cachedGroqModels.length > 0 && Date.now() - lastModelsFetchTime < 30 * 60 * 1000) {
+        return cachedGroqModels;
+    }
+    try {
+        const res = await fetch("https://api.groq.com/openai/v1/models", {
+            headers: { Authorization: `Bearer ${apiKey.trim()}` },
+        });
+        if (res.ok) {
+            const data = await res.json();
+            if (Array.isArray(data.data)) {
+                const chatModels = data.data
+                    .map((m: any) => m.id)
+                    .filter((id: string) => 
+                        !id.includes("whisper") && 
+                        !id.includes("guard") && 
+                        !id.includes("tts") &&
+                        !id.includes("embedding")
+                    );
+                if (chatModels.length > 0) {
+                    cachedGroqModels = chatModels;
+                    lastModelsFetchTime = Date.now();
+                    console.log("🚀 Groq'da sizning profilingiz uchun mavjud modellar:", cachedGroqModels);
+                    return cachedGroqModels;
+                }
+            }
+        }
+    } catch (e) {
+        console.error("Groq modellarini aniqlashda xatolik:", e);
+    }
+    return [
+        "llama-3.3-70b-versatile",
+        "llama-3.1-8b-instant",
+        "llama-3.2-3b-preview",
+        "llama-3.2-1b-preview",
+        "qwen-2.5-32b"
+    ];
+}
 
 router.post("/chat", async (req: Request, res: Response): Promise<any> => {
     const { message, history } = req.body;
@@ -190,12 +229,7 @@ router.post("/chat", async (req: Request, res: Response): Promise<any> => {
         content: message.trim(),
     });
 
-    const modelsToTry = [
-        "llama-3.3-70b-versatile",
-        "llama-3.1-8b-instant",
-        "mixtral-8x7b-32768",
-        "gemma2-9b-it"
-    ];
+    const modelsToTry = await getActiveGroqModels(apiKey);
 
     let lastError: any = null;
 
@@ -223,8 +257,12 @@ router.post("/chat", async (req: Request, res: Response): Promise<any> => {
             if (!response.ok) {
                 const errMsg = data.error?.message || JSON.stringify(data);
                 console.error(`Groq API Error (${model}):`, errMsg);
-                lastError = errMsg;
-                if (errMsg.toLowerCase().includes("invalid api key") || errMsg.toLowerCase().includes("invalid_api_key") || errMsg.toLowerCase().includes("unauthorized")) {
+                lastError = `${model}: ${errMsg}`;
+                if (
+                    errMsg.toLowerCase().includes("invalid api key") ||
+                    errMsg.toLowerCase().includes("invalid_api_key") ||
+                    errMsg.toLowerCase().includes("unauthorized")
+                ) {
                     return res.status(401).json({
                         success: false,
                         reply: "⚠️ **Groq API kaliti yaroqsiz yoki muddati tugagan (Invalid API Key)**.\n\nIltimos, `backend/.env` faylidagi `GROQ_API_KEY` ni yangilang ([console.groq.com/keys](https://console.groq.com/keys) orqali yangi bepul kalit olishingiz mumkin).",
@@ -243,7 +281,7 @@ router.post("/chat", async (req: Request, res: Response): Promise<any> => {
             }
         } catch (err: any) {
             console.error(`Error with model ${model}:`, err);
-            lastError = err.message || "Ulanish xatosi";
+            lastError = `${model}: ${err.message || "Ulanish xatosi"}`;
         }
     }
 

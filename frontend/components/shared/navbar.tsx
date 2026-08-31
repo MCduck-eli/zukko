@@ -47,7 +47,7 @@ export function Navbar() {
     };
 
     useEffect(() => {
-        if (!mounted) return;
+        if (!mounted || !user?.id) return;
         const checkInterval = setInterval(async () => {
             const userId = getUserId();
             if (!userId) return;
@@ -56,16 +56,15 @@ export function Navbar() {
                 const res = await fetch(`${baseUrl}/ai/my-plans/${userId}`);
                 if (res.ok) {
                     const data = await res.json();
-                    if (data.some((plan: any) => !plan.is_read)) {
-                        setHasNewMessage(true);
-                    } else {
-                        setHasNewMessage(false);
+                    if (Array.isArray(data)) {
+                        const hasUnread = data.some((plan: any) => !plan.is_read);
+                        setHasNewMessage(hasUnread);
                     }
                 }
             } catch (e) {
                 // Ignore network errors during polling
             }
-        }, 5000);
+        }, 15000);
         return () => clearInterval(checkInterval);
     }, [mounted, user?.id]);
 
@@ -76,20 +75,12 @@ export function Navbar() {
         const savedLanguage = localStorage.getItem(
             "preferred_language",
         ) as SupportedLanguage | null;
-        const browserLanguage = navigator.language.slice(
-            0,
-            2,
-        ) as SupportedLanguage;
-        const nextLanguage = supportedLanguages.includes(
-            savedLanguage as SupportedLanguage,
-        )
-            ? savedLanguage
-            : supportedLanguages.includes(browserLanguage)
-              ? browserLanguage
-              : defaultLanguage;
-
-        i18n.changeLanguage(nextLanguage || "uz");
-    }, [i18n]);
+        if (savedLanguage && supportedLanguages.includes(savedLanguage)) {
+            if (i18n.resolvedLanguage !== savedLanguage) {
+                i18n.changeLanguage(savedLanguage);
+            }
+        }
+    }, []);
 
     const toggleLanguage = (lng: string) => {
         const nextLanguage = lng as SupportedLanguage;

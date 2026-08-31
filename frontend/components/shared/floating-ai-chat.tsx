@@ -56,29 +56,34 @@ export default function FloatingAIChat() {
 
     const messagesEndRef = useRef<HTMLDivElement>(null);
     const inputRef = useRef<HTMLInputElement>(null);
+    const isSendingRef = useRef(false);
 
-    // Persist to localStorage
+    // Persist to localStorage safely
     useEffect(() => {
-        if (typeof window !== "undefined") {
+        if (typeof window !== "undefined" && messages.length > 0) {
             localStorage.setItem("zukko_floating_chat_history", JSON.stringify(messages));
             localStorage.setItem("zukko_floating_chat_time", Date.now().toString());
         }
-    }, [messages]);
+    }, [messages.length]);
 
-    // Auto scroll to bottom
+    // Auto scroll to bottom only when message count changes or thinking status changes
     useEffect(() => {
         if (isOpen) {
-            messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+            const timer = setTimeout(() => {
+                messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+            }, 50);
+            return () => clearTimeout(timer);
         }
-    }, [messages, isThinking, isOpen]);
+    }, [messages.length, isThinking, isOpen]);
 
     // Focus input on open
     useEffect(() => {
         if (isOpen) {
             setHasUnread(false);
-            setTimeout(() => {
+            const timer = setTimeout(() => {
                 inputRef.current?.focus();
             }, 300);
+            return () => clearTimeout(timer);
         }
     }, [isOpen]);
 
@@ -97,8 +102,9 @@ export default function FloatingAIChat() {
 
     const sendMessage = async (textToSend?: string) => {
         const query = (textToSend || input).trim();
-        if (!query || isThinking) return;
+        if (!query || isThinking || isSendingRef.current) return;
 
+        isSendingRef.current = true;
         const userMsg: ChatMessage = {
             id: "user-" + Date.now(),
             role: "user",
@@ -106,8 +112,7 @@ export default function FloatingAIChat() {
             timestamp: Date.now(),
         };
 
-        const updatedMessages = [...messages, userMsg];
-        setMessages(updatedMessages);
+        setMessages((prev) => [...prev, userMsg]);
         setInput("");
         setIsThinking(true);
 
@@ -115,7 +120,7 @@ export default function FloatingAIChat() {
             const baseUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001/api";
             
             // Format history for backend
-            const historyPayload = updatedMessages.slice(-8).map((m) => ({
+            const historyPayload = [...messages, userMsg].slice(-8).map((m) => ({
                 role: m.role,
                 content: m.content,
             }));
@@ -164,6 +169,7 @@ export default function FloatingAIChat() {
             ]);
         } finally {
             setIsThinking(false);
+            isSendingRef.current = false;
         }
     };
 

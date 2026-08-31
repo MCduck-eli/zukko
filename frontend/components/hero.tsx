@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useScroll, useTransform, useSpring } from "framer-motion";
-import { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect, useMemo } from "react";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import { Sparkles, BrainCircuit, Rocket, LayoutDashboard } from "lucide-react";
@@ -52,7 +52,7 @@ export default function HeroSection() {
     const planetY = useTransform(smoothProgress, [0, 1], ["0%", "150%"]);
     const planetScale = useTransform(smoothProgress, [0, 1], [1, 0.2]);
 
-    const stars = Array.from({ length: 200 });
+    const stars = useMemo(() => Array.from({ length: 150 }), []);
 
     const getRand = (seed: number) => {
         const x = Math.sin(seed) * 10000;
