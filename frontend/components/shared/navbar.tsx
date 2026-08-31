@@ -17,14 +17,13 @@ import Cabinet from "../cabinet/cabinet";
 export function Navbar() {
     const router = useRouter();
     const { i18n, t } = useTranslation();
-    const { isSignedIn: isClerkSignedIn, isLoaded, user } = useUser();
+    const { isSignedIn, user } = useUser();
     const { signOut } = useClerk();
     const [isAuthOpen, setIsAuthOpen] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [isCabinetOpen, setIsCabinetOpen] = useState(false);
     const [hasNewMessage, setHasNewMessage] = useState(false);
     const [mounted, setMounted] = useState(false);
-    const [isLoggingOut, setIsLoggingOut] = useState(false);
 
     useEffect(() => {
         setMounted(true);
@@ -71,8 +70,6 @@ export function Navbar() {
         return () => clearInterval(checkInterval);
     }, [mounted, user?.id]);
 
-    const isLoggedIn = mounted && !isLoggingOut && Boolean(isClerkSignedIn || user);
-
     useEffect(() => {
         const savedLanguage = localStorage.getItem(
             "preferred_language",
@@ -97,7 +94,6 @@ export function Navbar() {
         : defaultLanguage;
 
     const handleLogout = async () => {
-        setIsLoggingOut(true);
         localStorage.removeItem("access_token");
         localStorage.removeItem("user");
 
@@ -108,8 +104,6 @@ export function Navbar() {
             await signOut();
         } catch (err) {
             console.error("Clerk signout error:", err);
-        } finally {
-            setIsLoggingOut(false);
         }
     };
 
@@ -146,44 +140,43 @@ export function Navbar() {
                             </button>
                         ))}
                     </div>
-                    {isLoggedIn && (
-                        <motion.button
-                            whileHover={{ scale: 1.02 }}
-                            whileTap={{ scale: 0.98 }}
-                            onClick={openCabinet}
-                            className="relative group overflow-hidden px-5 py-2 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 transition-all cursor-pointer"
-                        >
-                            {hasNewMessage && (
-                                <span className="absolute top-0 right-0 flex h-2.5 w-2.5 -mt-1 -mr-1">
-                                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-500 opacity-75"></span>
-                                    <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-red-500"></span>
-                                </span>
-                            )}
-                            <div className="relative z-10 flex items-center gap-2">
-                                <UserCircle2 className="w-4 h-4 text-cyan-400" />
-                                <span className="text-[11px] text-white uppercase tracking-[0.2em] font-bold">
-                                    {t("nav_cabinet")}
-                                </span>
-                            </div>
-                        </motion.button>
-                    )}
+                    
+                    {mounted && isSignedIn ? (
+                        <>
+                            <motion.button
+                                whileHover={{ scale: 1.02 }}
+                                whileTap={{ scale: 0.98 }}
+                                onClick={openCabinet}
+                                className="relative group overflow-hidden px-5 py-2 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 transition-all cursor-pointer"
+                            >
+                                {hasNewMessage && (
+                                    <span className="absolute top-0 right-0 flex h-2.5 w-2.5 -mt-1 -mr-1">
+                                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-500 opacity-75"></span>
+                                        <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-red-500"></span>
+                                    </span>
+                                )}
+                                <div className="relative z-10 flex items-center gap-2">
+                                    <UserCircle2 className="w-4 h-4 text-cyan-400" />
+                                    <span className="text-[11px] text-white uppercase tracking-[0.2em] font-bold">
+                                        {t("nav_cabinet")}
+                                    </span>
+                                </div>
+                            </motion.button>
 
-                    {!mounted ? (
-                        <div className="w-24 h-9 bg-white/5 border border-white/10 rounded-full" />
-                    ) : isLoggedIn ? (
-                        <motion.button
-                            whileHover={{ scale: 1.05 }}
-                            whileTap={{ scale: 0.95 }}
-                            onClick={handleLogout}
-                            className="relative group overflow-hidden px-5 py-2 rounded-full border border-red-500/30 bg-red-500/5 transition-all cursor-pointer"
-                        >
-                            <div className="relative z-10 flex items-center gap-2">
-                                <LogOut className="w-4 h-4 text-red-400" />
-                                <span className="text-[11px] text-white uppercase tracking-[0.2em] font-bold">
-                                    {t("nav_logout")}
-                                </span>
-                            </div>
-                        </motion.button>
+                            <motion.button
+                                whileHover={{ scale: 1.05 }}
+                                whileTap={{ scale: 0.95 }}
+                                onClick={handleLogout}
+                                className="relative group overflow-hidden px-5 py-2 rounded-full border border-red-500/30 bg-red-500/5 transition-all cursor-pointer"
+                            >
+                                <div className="relative z-10 flex items-center gap-2">
+                                    <LogOut className="w-4 h-4 text-red-400" />
+                                    <span className="text-[11px] text-white uppercase tracking-[0.2em] font-bold">
+                                        {t("nav_logout")}
+                                    </span>
+                                </div>
+                            </motion.button>
+                        </>
                     ) : (
                         <motion.button
                             whileHover={{ scale: 1.05 }}
@@ -211,29 +204,10 @@ export function Navbar() {
                 </div>
 
                 <div className="flex md:hidden items-center gap-3">
-                    {isLoggedIn && (
-                        <button
-                            onClick={openCabinet}
-                            className="relative p-2 bg-white/5 border border-white/10 rounded-lg text-sm hover:bg-white/10 transition-all"
-                        >
-                            {hasNewMessage && (
-                                <span className="absolute top-0 right-0 flex h-2 w-2 -mt-0.5 -mr-0.5">
-                                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-500 opacity-75"></span>
-                                    <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500"></span>
-                                </span>
-                            )}
-                            <UserCircle2 className="w-5 h-5 text-cyan-400" />
-                        </button>
-                    )}
-                    <div className="flex items-center gap-1 px-2 py-0.5 border-l border-white/10">
-                        <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 animate-pulse shadow-[0_0_8px_#06b6d4]" />
-                        <span className="text-[9px] text-cyan-500/80 uppercase tracking-[0.2em] font-medium">
-                            Live
-                        </span>
-                    </div>
                     <button
                         onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                        className="p-2 text-white bg-white/5 border border-white/10 rounded-lg"
+                        className="p-2 rounded-lg bg-white/5 border border-white/10 text-white hover:bg-white/10 transition-colors"
+                        aria-label="Menu"
                     >
                         {isMobileMenuOpen ? (
                             <X className="w-5 h-5" />
@@ -278,9 +252,7 @@ export function Navbar() {
 
                         <div className="h-[1px] bg-white/5 w-full" />
 
-                        {!mounted ? (
-                            <div className="w-full h-10 bg-white/5 border border-white/10 rounded-xl" />
-                        ) : isLoggedIn ? (
+                        {mounted && isSignedIn ? (
                             <button
                                 onClick={() => {
                                     handleLogout();
