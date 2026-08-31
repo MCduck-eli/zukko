@@ -193,6 +193,7 @@ router.post("/chat", async (req: Request, res: Response): Promise<any> => {
     const modelsToTry = [
         "llama-3.3-70b-versatile",
         "llama-3.1-8b-instant",
+        "mixtral-8x7b-32768",
         "gemma2-9b-it"
     ];
 
@@ -205,7 +206,7 @@ router.post("/chat", async (req: Request, res: Response): Promise<any> => {
                 {
                     method: "POST",
                     headers: {
-                        Authorization: `Bearer ${apiKey}`,
+                        Authorization: `Bearer ${apiKey.trim()}`,
                         "Content-Type": "application/json",
                     },
                     body: JSON.stringify({
@@ -220,8 +221,16 @@ router.post("/chat", async (req: Request, res: Response): Promise<any> => {
             const data = await response.json();
 
             if (!response.ok) {
-                console.error(`Groq API Error (${model}):`, data);
-                lastError = data.error?.message || "API xatosi";
+                const errMsg = data.error?.message || JSON.stringify(data);
+                console.error(`Groq API Error (${model}):`, errMsg);
+                lastError = errMsg;
+                if (errMsg.toLowerCase().includes("invalid api key") || errMsg.toLowerCase().includes("invalid_api_key") || errMsg.toLowerCase().includes("unauthorized")) {
+                    return res.status(401).json({
+                        success: false,
+                        reply: "⚠️ **Groq API kaliti yaroqsiz yoki muddati tugagan (Invalid API Key)**.\n\nIltimos, `backend/.env` faylidagi `GROQ_API_KEY` ni yangilang ([console.groq.com/keys](https://console.groq.com/keys) orqali yangi bepul kalit olishingiz mumkin).",
+                        error: errMsg,
+                    });
+                }
                 continue; // Try fallback model
             }
 
@@ -238,10 +247,43 @@ router.post("/chat", async (req: Request, res: Response): Promise<any> => {
         }
     }
 
+    // Try Gemini if configured
+    if (process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY) {
+        try {
+            const geminiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;
+            const geminiRes = await fetch(
+                `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${geminiKey}`,
+                {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                        contents: [
+                            {
+                                parts: [
+                                    { text: SYSTEM_PROMPT + "\n\nFoydalanuvchi xabari: " + message }
+                                ]
+                            }
+                        ]
+                    })
+                }
+            );
+            const geminiData = await geminiRes.json();
+            const text = geminiData.candidates?.[0]?.content?.parts?.[0]?.text;
+            if (text) {
+                return res.json({
+                    success: true,
+                    reply: text.trim()
+                });
+            }
+        } catch (gemErr) {
+            console.error("Gemini fallback error:", gemErr);
+        }
+    }
+
     console.error("AI Chat barcha modellarda xatolik:", lastError);
     return res.status(500).json({
         success: false,
-        reply: "Hozirda AI xizmatida yuklama yuqori. Iltimos, bir ozdan so'ng qayta urinib ko'ring.",
+        reply: `⚠️ AI xizmatidan javob olishda xatolik yuz berdi: ${lastError || "Noma'lum xatolik"}. Iltimos, birozdan so'ng qayta urinib ko'ring yoki API kalitni tekshiring.`,
         error: lastError,
     });
 });

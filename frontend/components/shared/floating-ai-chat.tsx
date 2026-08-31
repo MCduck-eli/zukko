@@ -158,9 +158,7 @@ export default function FloatingAIChat() {
                 {
                     id: "ai-err-" + Date.now(),
                     role: "assistant",
-                    content: errMsg.includes("GROQ_API_KEY")
-                        ? "⚠️ AI xizmati sozlanmagan. Iltimos, administrator bilan bog'laning."
-                        : "Kechirasiz, tarmoqda xatolik yuz berdi. Iltimos, birozdan so'ng qayta urinib ko'ring.",
+                    content: errMsg || "Kechirasiz, tarmoqda xatolik yuz berdi. Iltimos, birozdan so'ng qayta urinib ko'ring.",
                     timestamp: Date.now(),
                 },
             ]);
