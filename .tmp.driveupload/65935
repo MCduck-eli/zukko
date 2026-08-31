@@ -1,0 +1,42 @@
+{
+    "name": "clear",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node dist/index.js",
+        "dev": "tsx watch src/index.ts",
+        "build": "npx tsc"
+    },
+    "dependencies": {
+        "@clerk/express": "^2.1.48",
+        "@google/generative-ai": "^0.24.1",
+        "@supabase/supabase-js": "^2.111.0",
+        "bcrypt": "^5.1.1",
+        "cors": "^2.8.6",
+        "dotenv": "^17.4.2",
+        "express": "^5.0.0",
+        "jsonwebtoken": "^9.0.2",
+        "nodemailer": "^8.0.11",
+        "openai": "^6.44.0",
+        "pg": "^8.20.0",
+        "svix": "^1.99.1"
+    },
+    "devDependencies": {
+        "@types/bcrypt": "^5.0.2",
+        "@types/cors": "^2.8.19",
+        "@types/express": "^5.0.0",
+        "@types/jsonwebtoken": "^9.0.8",
+        "@types/node": "^22.10.0",
+        "@types/nodemailer": "^8.0.1",
+        "@types/pg": "^8.20.0",
+        "tsx": "^4.21.0",
+        "typescript": "^5.4.5"
+    },
+    "directories": {
+        "test": "test"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": ""
+}

@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { useUser } from "@clerk/nextjs";
 
 interface Question {
     id: number;
@@ -16,6 +17,7 @@ interface QuizProps {
 }
 
 export default function QuizComponent({ subjectKey, onClose }: QuizProps) {
+    const { user } = useUser();
     const [questions, setQuestions] = useState<Question[]>([]);
     const [currentIdx, setCurrentIdx] = useState(0);
     const [score, setScore] = useState(0);
@@ -26,17 +28,14 @@ export default function QuizComponent({ subjectKey, onClose }: QuizProps) {
     const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
     const [wrongAnswers, setWrongAnswers] = useState<any[]>([]);
     const [isSaving, setIsSaving] = useState(false);
-    
-    // Clerk user for fallback
-    const clerkUser = typeof window !== "undefined" && (window as any).Clerk?.user;
 
     const getUserId = () => {
-        if (clerkUser?.id) return clerkUser.id;
+        if (user?.id) return user.id;
         const localUserRaw = typeof window !== "undefined" ? localStorage.getItem("user") : null;
         if (localUserRaw) {
             try {
                 const localUser = JSON.parse(localUserRaw);
-                return localUser.id?.toString();
+                return localUser.id?.toString() || "1";
             } catch (e) {
                 console.error("User parsing error:", e);
             }
@@ -99,6 +98,7 @@ export default function QuizComponent({ subjectKey, onClose }: QuizProps) {
                     wrongAnswers: finalWrongs.length > 0 ? finalWrongs : [{ question: "Barchasi to'g'ri", userAnswer: "To'g'ri", correctAnswer: "To'g'ri" }],
                 }),
             });
+            window.dispatchEvent(new Event("storage"));
         } catch (err) {
             console.error("Error saving AI plan:", err);
         } finally {
