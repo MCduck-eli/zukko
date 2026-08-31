@@ -92,38 +92,37 @@ async function getActiveGroqModels(apiKey: string): Promise<string[]> {
 
 function generateSmartStudyPlan(category: string, scoreText: string, wrongAnswers: WrongAnswer[]): string {
     const subject = (category || "Fan").toUpperCase();
-    let plan = `### 🎯 ${subject} Fani Bo'yicha Shaxsiy AI O'quv Rejasi\n\n`;
+    let plan = `### 🎯 ${subject} Fani Bo'yicha Bosqichma-Bosqich Shaxsiy O'quv Dasturi\n\n`;
     plan += `**📊 Test natijangiz:** \`${scoreText}\`\n\n`;
 
     if (wrongAnswers.length > 0) {
-        plan += `#### 🔍 Xatolar tahlili va e'tibor qaratilishi kerak bo'lgan savollar:\n\n`;
+        plan += `#### 🔍 1-BOSQICH: Xatolar Tahlili va Tushuntirish\n`;
         wrongAnswers.forEach((w, idx) => {
             plan += `**${idx + 1}. Savol:** *${w.question}*\n`;
-            plan += `- ❌ **Sizning javobingiz:** ${w.userAnswer}\n`;
+            plan += `- ❌ **Siz tanlagan javob:** ${w.userAnswer}\n`;
             plan += `- ✅ **To'g'ri javob:** \`${w.correctAnswer}\`\n\n`;
         });
 
-        plan += `---\n\n### 🗓️ 3 Kunlik Intensiv O'quv Rejasi:\n\n`;
-        plan += `#### 📌 1-KUN: Nazariy asoslar va xatolarni tahlil qilish\n`;
-        plan += `- [ ] Yuqoridagi xato qilingan ${wrongAnswers.length} ta savol bo'yicha qoidalar va asosiy tushunchalarni o'rganish.\n`;
-        plan += `- [ ] O'quv qo'llanmasidan tegishli mavzularni konspekt qilib, qiyin atamalarni eslab qolish.\n\n`;
+        plan += `#### 📖 2-BOSQICH: Nazariy Bilimlarni O'zlashtirish\n`;
+        plan += `- [ ] Xato qilingan savollardagi asosiy mavzular va formulalarni darslikdan qayta o'qish\n`;
+        plan += `- [ ] Qiyin bo'lgan atamalar va qoidalarni daftarga konspekt qilib yozib olish\n\n`;
 
-        plan += `#### ⚡ 2-KUN: Amaliy mashg'ulotlar\n`;
-        plan += `- [ ] Xato qilingan mavzular bo'yicha kamida 10-15 ta o'xshash mashq va testlarni mustaqil yechish.\n`;
-        plan += `- [ ] Har bir to'g'ri javob mantiqini tushunib, tahlil qilish.\n\n`;
+        plan += `#### ⚡ 3-BOSQICH: Amaliy Mashg'ulotlar\n`;
+        plan += `- [ ] Ushbu mavzular bo'yicha kamida 10 ta amaliy mashq va testlarni mustaqil yechish\n`;
+        plan += `- [ ] Har bir to'g'ri javobning isbotini va mantiqiy ketma-ketligini tahlil qilish\n\n`;
 
-        plan += `#### 🚀 3-KUN: Sinov va mustahkamlash\n`;
-        plan += `- [ ] Zukko platformasida ${subject} fani bo'yicha qaytadan test topshirish.\n`;
-        plan += `- [ ] Barcha savollarni to'liq to'g'ri yechib, bilimingizni 100% natijaga olib chiqish!\n`;
+        plan += `#### 🚀 4-BOSQICH: Sinov va Mustahkamlash\n`;
+        plan += `- [ ] Zukko platformasida ${subject} fani bo'yicha testni qaytadan topshirish\n`;
+        plan += `- [ ] Test natijasini 100% ga yetkazib, keyingi murakkablik darajasiga o'tish\n`;
     } else {
-        plan += `#### 🏆 A'lo natija! Barcha savollarga to'liq to'g'ri javob berdingiz.\n\n`;
-        plan += `### 🗓️ 3 Kunlik Ilg'or Rivojlanish Rejasi:\n\n`;
-        plan += `#### 📌 1-KUN: Chuqurlashtirilgan mavzular\n`;
-        plan += `- [ ] ${subject} fanining murakkab va olimpiada darajasidagi savollarini o'rganish.\n\n`;
-        plan += `#### ⚡ 2-KUN: Tezlik va mahorat\n`;
-        plan += `- [ ] Savollarni vaqtga qarab tezroq yechish ko'nikmasini shakllantirish.\n\n`;
-        plan += `#### 🚀 3-KUN: Keyingi fanga o'tish\n`;
-        plan += `- [ ] Boshqa turdosh fanlar testlarida o'z kuchingizni sinab ko'rish!`;
+        plan += `#### 🏆 1-BOSQICH: Natijani Tahlil Qilish\n`;
+        plan += `Tabriklaymiz! Siz barcha savollarga to'liq to'g'ri javob berdingiz.\n\n`;
+        plan += `#### 📖 2-BOSQICH: Chuqurlashtirilgan Mavzular\n`;
+        plan += `- [ ] ${subject} fanining murakkab va olimpiada darajasidagi qoidalarini o'rganish\n\n`;
+        plan += `#### ⚡ 3-BOSQICH: Tezlik va Mahorat\n`;
+        plan += `- [ ] Savollarni vaqtga qarab tezroq yechish ko'nikmasini shakllantirish\n\n`;
+        plan += `#### 🚀 4-BOSQICH: Keyingi Bosqich\n`;
+        plan += `- [ ] Boshqa turdosh fanlar bo'yicha o'z bilimingizni sinab ko'rish\n`;
     }
 
     return plan;
@@ -157,8 +156,8 @@ router.post(
                 .join("\n\n");
 
             const promptContent = errorsList.length > 0
-                ? `Fan: ${subjectName}\nTest natijasi: ${scoreText}\n\nFoydalanuvchi yo'l qo'ygan xatolar:\n${formattedErrors}\n\nUshbu xatolar asosida foydalanuvchiga bilimidagi bo'shliqlarni to'ldirish uchun 3 kunlik batafsil, qiziqarli va professional o'quv rejasi (tavsiyalar, o'rganilishi kerak bo'lgan mavzular va maslahatlar) tuzib bering. Javobingizni chiroyli Markdown formatida, o'zbek tilida yozing.`
-                : `Fan: ${subjectName}\nTest natijasi: ${scoreText}\n\nFoydalanuvchi barcha savollarga to'g'ri javob berdi! Unga bilimlarini yanada chuqurlashtirish va yuqori darajaga chiqish uchun 3 kunlik ilg'or tavsiyalar va o'quv rejasi tuzib bering. Markdown formatida, o'zbek tilida yozing.`;
+                ? `Fan: ${subjectName}\nTest natijasi: ${scoreText}\n\nXatolar:\n${formattedErrors}\n\nIltimos, ushbu xatolar asosida foydalanuvchiga aniq, ravshan va ketma-ket 4 ta bosqichdan iborat (1-BOSQICH: Xatolar tahlili, 2-BOSQICH: Nazariya, 3-BOSQICH: Amaliyot, 4-BOSQICH: Sinov) o'quv dasturi tuzib bering. Har bir bosqichdagi amaliy vazifalar "- [ ] vazifa matni" formatida yozilsin. Markdown formatida, o'zbek tilida yozing.`
+                : `Fan: ${subjectName}\nTest natijasi: ${scoreText}\n\nFoydalanuvchi 100% to'g'ri bajardi! Unga bilimini yanada oshirish uchun 4 bosqichli ilg'or o'quv dasturi tuzib bering. Vazifalar "- [ ] vazifa matni" formatida bo'lsin. Markdown formatida, o'zbek tilida yozing.`;
 
             let planText = "";
             const apiKey = process.env.GROQ_API_KEY;

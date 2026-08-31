@@ -28,7 +28,13 @@ export default function StudyPlans({
 
     useEffect(() => {
         const saved = localStorage.getItem("completed_tasks");
-        if (saved) setCompletedTasks(JSON.parse(saved));
+        if (saved) {
+            try {
+                setCompletedTasks(JSON.parse(saved));
+            } catch (e) {
+                console.error(e);
+            }
+        }
     }, []);
 
     const toggleTask = (planId: number, task: string) => {
@@ -43,24 +49,60 @@ export default function StudyPlans({
         });
     };
 
-    if (isLoading)
+    const extractTasks = (planText: string): string[] => {
+        const lines = planText.split("\n");
+        return lines
+            .map((line) => line.trim())
+            .filter((line) => {
+                // Ignore dividers, horizontal rules, and status markers
+                if (line.startsWith("---") || line.startsWith("___") || line.startsWith("***")) return false;
+                if (line.startsWith("- ❌") || line.startsWith("- ✅") || line.startsWith("* ❌") || line.startsWith("* ✅")) return false;
+                if (line === "-" || line === "*" || line.length < 4) return false;
+
+                // Match checklist lines or bullet action points
+                return (
+                    line.startsWith("- [ ]") ||
+                    line.startsWith("- [x]") ||
+                    line.startsWith("* [ ]") ||
+                    (line.startsWith("- ") && !line.startsWith("- **")) ||
+                    /^\d+\.\s+[A-Za-zА-Яа-яЎўҚқҒғҲҳ]/.test(line)
+                );
+            })
+            .map((line) =>
+                line
+                    .replace(/^-\s*\[[ x]\]\s*/i, "")
+                    .replace(/^[-*]\s+/, "")
+                    .replace(/^\d+\.\s+/, "")
+                    .trim(),
+            )
+            .filter((task) => task.length > 2);
+    };
+
+    if (isLoading) {
         return (
-            <div className="text-white/40 text-center animate-pulse py-10">
-                Signallar skanerlanmoqda...
+            <div className="text-white/40 text-center animate-pulse py-10 text-xs uppercase tracking-widest font-mono">
+                Rejalar yuklanmoqda...
             </div>
         );
+    }
+
+    if (plans.length === 0) {
+        return (
+            <div className="text-center py-12 px-4 rounded-2xl bg-white/[0.02] border border-white/5">
+                <p className="text-sm font-bold text-white mb-1">
+                    Hozircha o'quv rejalari yo'q
+                </p>
+                <p className="text-xs text-slate-400">
+                    Testlarni topshiring, sun'iy intellekt xatolaringiz asosida bu yerda shaxsiy bosqichma-bosqich o'quv rejasini tuzib beradi.
+                </p>
+            </div>
+        );
+    }
 
     return (
         <div className="space-y-4">
             {plans.map((p) => {
-                const lines = p.plan.split("\n");
-                const tasks = lines.filter(
-                    (line) =>
-                        line.trim().startsWith("-") ||
-                        line.trim().startsWith("*") ||
-                        /^\d+\./.test(line.trim()),
-                );
-
+                const tasks = extractTasks(p.plan);
                 const progress =
                     tasks.length > 0
                         ? Math.round(
@@ -70,91 +112,128 @@ export default function StudyPlans({
                           )
                         : 0;
 
+                const isOpened = selectedPlan?.id === p.id;
+
                 return (
                     <div
                         key={p.id}
-                        className={`w-full rounded-xl border overflow-hidden transition-all ${
+                        className={`w-full rounded-2xl border transition-all overflow-hidden ${
                             !p.is_read
-                                ? "bg-cyan-500/5 border-cyan-500/50"
-                                : "bg-white/[0.02] border-white/5"
+                                ? "bg-orange-500/5 border-orange-500/30 shadow-[0_0_20px_rgba(249,115,22,0.05)]"
+                                : "bg-white/[0.02] border-white/10 hover:border-white/20"
                         }`}
                     >
+                        {/* Header Card */}
                         <div
-                            className="p-4 cursor-pointer flex justify-between items-center hover:bg-white/[0.03]"
+                            className="p-5 cursor-pointer flex justify-between items-center hover:bg-white/[0.02] transition-colors"
                             onClick={() => {
                                 if (!p.is_read) onPlanOpen(p.id);
-                                setSelectedPlan(
-                                    selectedPlan?.id === p.id ? null : p,
-                                );
+                                setSelectedPlan(isOpened ? null : p);
                             }}
                         >
-                            <div className="flex-1">
-                                <div className="flex items-center gap-2">
-                                    <span className="font-bold text-sm text-cyan-400 uppercase tracking-wider">
-                                        📬 {p.category}
+                            <div className="flex-1 pr-4">
+                                <div className="flex items-center gap-2.5 mb-1.5">
+                                    <span className="font-bold text-sm text-white uppercase tracking-wider">
+                                        📚 {p.category}
                                     </span>
                                     {!p.is_read && (
-                                        <span className="text-[8px] font-black bg-red-500 text-white px-2 py-0.5 rounded-full animate-pulse uppercase">
+                                        <span className="text-[9px] font-black bg-orange-500 text-black px-2 py-0.5 rounded-full uppercase tracking-wider">
                                             Yangi
                                         </span>
                                     )}
+                                    {p.score && (
+                                        <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-white/10 text-orange-400 font-bold">
+                                            Natija: {p.score}
+                                        </span>
+                                    )}
                                 </div>
-                                <div className="w-full max-w-[150px] h-1.5 bg-white/10 rounded-full mt-2 overflow-hidden">
-                                    <div
-                                        className="h-full bg-cyan-500 transition-all duration-500"
-                                        style={{ width: `${progress}%` }}
-                                    />
-                                </div>
+
+                                {tasks.length > 0 && (
+                                    <div className="flex items-center gap-3 mt-2">
+                                        <div className="w-full max-w-[140px] h-1.5 bg-white/10 rounded-full overflow-hidden">
+                                            <div
+                                                className="h-full bg-gradient-to-r from-orange-500 to-amber-400 transition-all duration-500 rounded-full"
+                                                style={{ width: `${progress}%` }}
+                                            />
+                                        </div>
+                                        <span className="text-[10px] font-mono font-bold text-slate-400">
+                                            {progress}% bajarildi
+                                        </span>
+                                    </div>
+                                )}
                             </div>
-                            <span className="text-[10px] font-mono px-2 py-1 rounded bg-white/5 text-white/40 ml-2">
-                                {progress}% bajarildi
-                            </span>
+
+                            <button className="text-xs text-orange-400 font-bold px-3 py-1.5 rounded-lg bg-orange-500/10 border border-orange-500/20 hover:bg-orange-500/20 transition-all shrink-0">
+                                {isOpened ? "Yopish" : "Rejani ko'rish →"}
+                            </button>
                         </div>
 
+                        {/* Expandable Step-by-Step Plan Body */}
                         <AnimatePresence>
-                            {selectedPlan?.id === p.id && (
+                            {isOpened && (
                                 <motion.div
                                     initial={{ height: 0, opacity: 0 }}
                                     animate={{ height: "auto", opacity: 1 }}
                                     exit={{ height: 0, opacity: 0 }}
-                                    className="px-4 pb-4 border-t border-white/10"
+                                    transition={{ duration: 0.25, ease: "easeOut" }}
+                                    className="px-5 pb-6 pt-2 border-t border-white/5 bg-black/40 space-y-5"
                                 >
-                                    <div className="pt-4 text-xs text-white/80 space-y-2">
-                                        {tasks.length > 0 ? (
-                                            tasks.map((task, i) => (
-                                                <div
-                                                    key={i}
-                                                    className="flex items-start gap-4 cursor-pointer group p-3 rounded-xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.05] hover:border-cyan-500/30 transition-all mb-3"
-                                                    onClick={() =>
-                                                        toggleTask(p.id, task)
-                                                    }
-                                                >
-                                                    <div
-                                                        className={`mt-0.5 w-5 h-5 rounded border flex items-center justify-center shrink-0 transition-all text-xs font-bold ${completedTasks[p.id]?.includes(task) ? "bg-cyan-500 border-cyan-500 text-black shadow-[0_0_10px_rgba(6,182,212,0.5)]" : "border-white/30 group-hover:border-cyan-400 text-transparent"}`}
-                                                    >
-                                                        ✔
-                                                    </div>
-                                                    <div
-                                                        className={`transition-all flex-1 text-[13px] leading-relaxed [&>p]:m-0 [&_strong]:text-cyan-400 [&_strong]:font-bold ${completedTasks[p.id]?.includes(task) ? "line-through text-white/30 [&_strong]:text-cyan-400/30" : "text-gray-200"}`}
-                                                    >
-                                                        <ReactMarkdown>
-                                                            {task
-                                                                .replace(
-                                                                    /^[-*]|\d+\./,
-                                                                    "",
-                                                                )
-                                                                .trim()}
-                                                        </ReactMarkdown>
-                                                    </div>
-                                                </div>
-                                            ))
-                                        ) : (
-                                            <div className="prose prose-invert prose-xs">
-                                                <ReactMarkdown>
-                                                    {p.plan}
-                                                </ReactMarkdown>
+                                    {/* Actionable Checkpoints */}
+                                    {tasks.length > 0 && (
+                                        <div className="space-y-2 mt-3">
+                                            <h4 className="text-[11px] font-bold text-orange-400 uppercase tracking-widest flex items-center gap-1.5">
+                                                <span>✅</span>
+                                                <span>Bajarilishi kerak bo'lgan vazifalar ro'yxati:</span>
+                                            </h4>
+
+                                            <div className="space-y-2">
+                                                {tasks.map((task, idx) => {
+                                                    const isDone = completedTasks[p.id]?.includes(task);
+                                                    return (
+                                                        <div
+                                                            key={idx}
+                                                            onClick={() => toggleTask(p.id, task)}
+                                                            className={`flex items-start gap-3.5 p-3.5 rounded-xl border transition-all cursor-pointer select-none ${
+                                                                isDone
+                                                                    ? "bg-white/[0.01] border-white/5 opacity-60"
+                                                                    : "bg-white/[0.03] border-white/10 hover:border-orange-500/40 hover:bg-white/[0.06]"
+                                                            }`}
+                                                        >
+                                                            <div
+                                                                className={`mt-0.5 w-5 h-5 rounded-md border flex items-center justify-center shrink-0 text-xs font-bold transition-all ${
+                                                                    isDone
+                                                                        ? "bg-orange-500 border-orange-500 text-black shadow-[0_0_10px_rgba(249,115,22,0.4)]"
+                                                                        : "border-white/30 text-transparent"
+                                                                }`}
+                                                            >
+                                                                ✓
+                                                            </div>
+                                                            <div className="flex-1 text-[13px] leading-relaxed">
+                                                                <span
+                                                                    className={`${
+                                                                        isDone
+                                                                            ? "line-through text-slate-500"
+                                                                            : "text-slate-200 font-medium"
+                                                                    }`}
+                                                                >
+                                                                    {task}
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    );
+                                                })}
                                             </div>
-                                        )}
+                                        </div>
+                                    )}
+
+                                    {/* Full Markdown Detailed View */}
+                                    <div className="mt-4 pt-4 border-t border-white/10">
+                                        <h4 className="text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-3">
+                                            📋 Batafsil O'quv Yo'riqnomasi:
+                                        </h4>
+                                        <div className="prose prose-invert max-w-none text-xs text-slate-300 leading-relaxed space-y-2 [&_h3]:text-sm [&_h3]:font-bold [&_h3]:text-orange-400 [&_h3]:mt-4 [&_h3]:mb-2 [&_h4]:text-xs [&_h4]:font-bold [&_h4]:text-white [&_h4]:mt-3 [&_h4]:mb-1.5 [&_ul]:list-disc [&_ul]:pl-5 [&_li]:my-1 [&_strong]:text-orange-300 [&_code]:bg-white/10 [&_code]:px-1 [&_code]:py-0.5 [&_code]:rounded [&_code]:text-orange-300 [&_hr]:border-white/10">
+                                            <ReactMarkdown>{p.plan}</ReactMarkdown>
+                                        </div>
                                     </div>
                                 </motion.div>
                             )}
