@@ -81,7 +81,7 @@ export default function ChatWithAI() {
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
                         key={i}
-                        className={`text-[13px] p-4 rounded-2xl max-w-[85%] leading-relaxed shadow-sm ${
+                        className={`text-[14.5px] md:text-[15px] p-4 rounded-2xl max-w-[85%] leading-relaxed shadow-sm ${
                             m.role === "user"
                                 ? "bg-orange-500 text-black font-medium ml-auto rounded-tr-sm"
                                 : "bg-white/10 text-gray-100 border border-white/10 mr-auto rounded-tl-sm backdrop-blur-md"
@@ -91,25 +91,28 @@ export default function ChatWithAI() {
                     </motion.div>
                 ))}
                 {isThinking && (
-                    <div className="text-[10px] text-white/30 animate-pulse">
-                        Commander o'ylamoqda...
+                    <div className="text-xs text-orange-400/70 animate-pulse font-sans">
+                        Zukko AI javob tayyorlamoqda...
                     </div>
                 )}
             </div>
 
             <div className="flex gap-2">
                 <input
+                    type="text"
                     value={input}
                     onChange={(e) => setInput(e.target.value)}
                     onKeyDown={(e) => e.key === "Enter" && sendMessage()}
-                    className="flex-1 bg-white/5 border border-white/10 rounded-xl p-3 text-xs text-white placeholder:text-white/20 focus:outline-none focus:border-cyan-500"
-                    placeholder="Savol yoki hazil yozing..."
+                    placeholder="Savolingizni yozing..."
+                    disabled={isThinking}
+                    className="flex-1 bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm md:text-[14.5px] text-white focus:outline-none focus:border-orange-500/50 transition-colors"
                 />
                 <button
                     onClick={sendMessage}
-                    className="px-4 bg-gradient-to-r from-cyan-600 to-purple-600 text-white text-xs rounded-xl font-bold hover:opacity-80"
+                    disabled={isThinking}
+                    className="px-5 py-3 bg-orange-500 hover:bg-orange-600 text-black font-bold rounded-xl text-xs md:text-sm transition-colors cursor-pointer"
                 >
-                    🚀
+                    Yuborish
                 </button>
             </div>
         </div>

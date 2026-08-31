@@ -180,20 +180,20 @@ export default function StudyPlans({
                                 >
                                     {/* Actionable Checkpoints */}
                                     {tasks.length > 0 && (
-                                        <div className="space-y-2 mt-3">
-                                            <h4 className="text-[11px] font-bold text-orange-400 uppercase tracking-widest flex items-center gap-1.5">
+                                        <div className="space-y-3 mt-3">
+                                            <h4 className="text-xs md:text-sm font-bold text-orange-400 uppercase tracking-wider flex items-center gap-2">
                                                 <span>✅</span>
-                                                <span>Bajarilishi kerak bo'lgan vazifalar ro'yxati:</span>
+                                                <span>Bajarilishi kerak bo'lgan vazifalar:</span>
                                             </h4>
 
-                                            <div className="space-y-2">
+                                            <div className="space-y-2.5">
                                                 {tasks.map((task, idx) => {
                                                     const isDone = completedTasks[p.id]?.includes(task);
                                                     return (
                                                         <div
                                                             key={idx}
                                                             onClick={() => toggleTask(p.id, task)}
-                                                            className={`flex items-start gap-3.5 p-3.5 rounded-xl border transition-all cursor-pointer select-none ${
+                                                            className={`flex items-start gap-3.5 p-4 rounded-xl border transition-all cursor-pointer select-none ${
                                                                 isDone
                                                                     ? "bg-white/[0.01] border-white/5 opacity-60"
                                                                     : "bg-white/[0.03] border-white/10 hover:border-orange-500/40 hover:bg-white/[0.06]"
@@ -208,12 +208,12 @@ export default function StudyPlans({
                                                             >
                                                                 ✓
                                                             </div>
-                                                            <div className="flex-1 text-[13px] leading-relaxed">
+                                                            <div className="flex-1 text-[14px] md:text-[15px] leading-relaxed">
                                                                 <span
                                                                     className={`${
                                                                         isDone
                                                                             ? "line-through text-slate-500"
-                                                                            : "text-slate-200 font-medium"
+                                                                            : "text-slate-100 font-medium"
                                                                     }`}
                                                                 >
                                                                     {task}
@@ -227,11 +227,12 @@ export default function StudyPlans({
                                     )}
 
                                     {/* Full Markdown Detailed View */}
-                                    <div className="mt-4 pt-4 border-t border-white/10">
-                                        <h4 className="text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-3">
-                                            📋 Batafsil O'quv Yo'riqnomasi:
+                                    <div className="mt-6 pt-5 border-t border-white/10">
+                                        <h4 className="text-xs md:text-sm font-bold text-slate-300 uppercase tracking-wider mb-4 flex items-center gap-2">
+                                            <span>📋</span>
+                                            <span>Batafsil O'quv Yo'riqnomasi:</span>
                                         </h4>
-                                        <div className="prose prose-invert max-w-none text-xs text-slate-300 leading-relaxed space-y-2 [&_h3]:text-sm [&_h3]:font-bold [&_h3]:text-orange-400 [&_h3]:mt-4 [&_h3]:mb-2 [&_h4]:text-xs [&_h4]:font-bold [&_h4]:text-white [&_h4]:mt-3 [&_h4]:mb-1.5 [&_ul]:list-disc [&_ul]:pl-5 [&_li]:my-1 [&_strong]:text-orange-300 [&_code]:bg-white/10 [&_code]:px-1 [&_code]:py-0.5 [&_code]:rounded [&_code]:text-orange-300 [&_hr]:border-white/10">
+                                        <div className="prose prose-invert max-w-none text-[14px] md:text-[15px] text-slate-200 leading-relaxed space-y-3 [&_h3]:text-base md:[&_h3]:text-lg [&_h3]:font-bold [&_h3]:text-orange-400 [&_h3]:mt-5 [&_h3]:mb-2.5 [&_h4]:text-sm md:[&_h4]:text-base [&_h4]:font-bold [&_h4]:text-amber-300 [&_h4]:mt-4 [&_h4]:mb-2 [&_ul]:list-disc [&_ul]:pl-5 [&_ul]:space-y-1.5 [&_li]:my-1.5 [&_li]:leading-relaxed [&_strong]:text-white [&_strong]:font-semibold [&_code]:bg-white/10 [&_code]:px-1.5 [&_code]:py-0.5 [&_code]:rounded [&_code]:text-orange-300 [&_code]:font-mono [&_hr]:border-white/10 [&_hr]:my-4">
                                             <ReactMarkdown>{p.plan}</ReactMarkdown>
                                         </div>
                                     </div>

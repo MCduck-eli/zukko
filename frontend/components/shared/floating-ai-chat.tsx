@@ -288,22 +288,22 @@ export default function FloatingAIChat() {
 
                                     {/* Message Bubble */}
                                     <div
-                                        className={`max-w-[82%] p-3.5 rounded-2xl text-[13px] leading-relaxed shadow-sm ${
+                                        className={`max-w-[85%] p-4 rounded-2xl text-[14.5px] md:text-[15px] leading-relaxed shadow-sm ${
                                             m.role === "user"
                                                 ? "bg-gradient-to-r from-orange-500 to-amber-500 text-slate-950 font-medium rounded-br-xs shadow-[0_2px_10px_rgba(249,115,22,0.2)]"
-                                                : "bg-white/[0.06] text-gray-100 border border-white/10 rounded-bl-xs backdrop-blur-md [&_p]:m-0 [&_p+p]:mt-2 [&_strong]:text-cyan-300 [&_ul]:list-disc [&_ul]:pl-4 [&_ul]:my-2 [&_li]:my-0.5 [&_a]:text-cyan-400 [&_a]:underline"
+                                                : "bg-white/[0.07] text-gray-100 border border-white/10 rounded-bl-xs backdrop-blur-md [&_p]:m-0 [&_p+p]:mt-2 [&_strong]:text-cyan-300 [&_ul]:list-disc [&_ul]:pl-5 [&_ul]:my-2 [&_li]:my-1 [&_a]:text-cyan-400 [&_a]:underline"
                                         }`}
                                     >
                                         <ReactMarkdown>{m.content}</ReactMarkdown>
                                         <div
-                                            className={`text-[9px] mt-1.5 flex items-center gap-1 ${
-                                                m.role === "user" ? "text-slate-800 justify-end" : "text-white/30 justify-start"
+                                            className={`text-[10px] mt-2 flex items-center gap-1 ${
+                                                m.role === "user" ? "text-slate-800 justify-end" : "text-white/40 justify-start"
                                             }`}
                                         >
                                             <span>
                                                 {new Date(m.timestamp).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}
                                             </span>
-                                            {m.role === "user" && <CheckCheck className="w-3 h-3 text-slate-800" />}
+                                            {m.role === "user" && <CheckCheck className="w-3.5 h-3.5 text-slate-800" />}
                                         </div>
                                     </div>
                                 </motion.div>
@@ -314,10 +314,10 @@ export default function FloatingAIChat() {
                                 <motion.div
                                     initial={{ opacity: 0, y: 5 }}
                                     animate={{ opacity: 1, y: 0 }}
-                                    className="flex items-center gap-2 text-xs text-cyan-400/80 bg-white/[0.04] border border-cyan-500/20 px-3.5 py-2.5 rounded-2xl rounded-bl-xs w-fit"
+                                    className="flex items-center gap-2 text-xs md:text-sm text-cyan-400/90 bg-white/[0.04] border border-cyan-500/20 px-4 py-3 rounded-2xl rounded-bl-xs w-fit"
                                 >
-                                    <Bot className="w-3.5 h-3.5 animate-spin" style={{ animationDuration: "3s" }} />
-                                    <span className="text-[11px] font-medium tracking-wide">Zukko AI javob yozmoqda</span>
+                                    <Bot className="w-4 h-4 animate-spin" style={{ animationDuration: "3s" }} />
+                                    <span className="text-xs font-medium tracking-wide">Zukko AI javob yozmoqda</span>
                                     <span className="flex gap-1 items-center ml-1">
                                         <span className="w-1.5 h-1.5 bg-cyan-400 rounded-full animate-bounce" style={{ animationDelay: "0ms" }} />
                                         <span className="w-1.5 h-1.5 bg-cyan-400 rounded-full animate-bounce" style={{ animationDelay: "150ms" }} />
@@ -331,12 +331,12 @@ export default function FloatingAIChat() {
 
                         {/* QUICK PROMPT CHIPS */}
                         {messages.length <= 3 && !isThinking && (
-                            <div className="px-4 py-2 border-t border-white/5 bg-black/20 flex gap-1.5 overflow-x-auto no-scrollbar shrink-0">
+                            <div className="px-4 py-2.5 border-t border-white/5 bg-black/20 flex gap-2 overflow-x-auto no-scrollbar shrink-0">
                                 {QUICK_PROMPTS.map((prompt, idx) => (
                                     <button
                                         key={idx}
                                         onClick={() => sendMessage(prompt.text)}
-                                        className="text-[11px] whitespace-nowrap px-3 py-1 rounded-full bg-white/5 hover:bg-cyan-500/20 border border-white/10 hover:border-cyan-500/40 text-white/70 hover:text-cyan-300 transition-all cursor-pointer shrink-0"
+                                        className="text-xs whitespace-nowrap px-3.5 py-1.5 rounded-full bg-white/5 hover:bg-cyan-500/20 border border-white/10 hover:border-cyan-500/40 text-white/80 hover:text-cyan-300 transition-all cursor-pointer shrink-0"
                                     >
                                         {prompt.text}
                                     </button>
@@ -345,13 +345,13 @@ export default function FloatingAIChat() {
                         )}
 
                         {/* INPUT FOOTER */}
-                        <div className="p-3.5 bg-slate-950/90 border-t border-white/10 shrink-0">
+                        <div className="p-4 bg-slate-950/95 border-t border-white/10 shrink-0">
                             <form
                                 onSubmit={(e) => {
                                     e.preventDefault();
                                     sendMessage();
                                 }}
-                                className="flex items-center gap-2 bg-white/[0.05] border border-white/10 focus-within:border-cyan-500/60 rounded-2xl p-1.5 pl-3.5 transition-all shadow-inner"
+                                className="flex items-center gap-2 bg-white/[0.06] border border-white/10 focus-within:border-cyan-500/60 rounded-2xl p-2 pl-4 transition-all shadow-inner"
                             >
                                 <input
                                     ref={inputRef}
@@ -360,18 +360,18 @@ export default function FloatingAIChat() {
                                     onChange={(e) => setInput(e.target.value)}
                                     placeholder="Savolingizni yozing..."
                                     disabled={isThinking}
-                                    className="flex-1 bg-transparent text-[13px] text-white placeholder:text-white/30 focus:outline-none disabled:opacity-50"
+                                    className="flex-1 bg-transparent text-[14.5px] text-white placeholder:text-white/30 focus:outline-none disabled:opacity-50"
                                 />
 
                                 <button
                                     type="submit"
                                     disabled={!input.trim() || isThinking}
-                                    className="flex items-center justify-center w-9 h-9 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 font-bold transition-all disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer shadow-md shadow-cyan-500/20"
+                                    className="flex items-center justify-center w-10 h-10 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 font-bold transition-all disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer shadow-md shadow-cyan-500/20"
                                 >
-                                    <Send className="w-4 h-4 text-slate-950" />
+                                    <Send className="w-4.5 h-4.5 text-slate-950" />
                                 </button>
                             </form>
-                            <div className="flex items-center justify-between mt-2 px-1 text-[9px] text-white/30 font-medium">
+                            <div className="flex items-center justify-between mt-2 px-1 text-[10px] text-white/40 font-medium">
                                 <span>AI bilan bepul muloqot</span>
                                 <span>Enter orqali yuborish</span>
                             </div>
