@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { FaExclamationTriangle, FaRocket, FaKey } from "react-icons/fa";
 import { useSignIn, useSignUp, useClerk } from "@clerk/nextjs";
+import { useRouter } from "next/navigation";
 
 export default function AuthSpaceModal({
     isOpen,
@@ -13,6 +14,7 @@ export default function AuthSpaceModal({
     isOpen: boolean;
     onClose: () => void;
 }) {
+    const router = useRouter();
     const { t } = useTranslation();
     const { setActive, client } = useClerk();
     const { signIn } = useSignIn();
@@ -48,7 +50,7 @@ export default function AuthSpaceModal({
                     redirectUrlComplete: "/dashboard",
                 });
             } else {
-                window.location.href = "/sign-in?redirect_url=/dashboard";
+                router.push("/sign-in?redirect_url=/dashboard");
             }
         } catch (err: any) {
             console.error(err);
@@ -78,10 +80,9 @@ export default function AuthSpaceModal({
                 if (result?.status === "complete" && sessionId) {
                     await setActive({ session: sessionId });
                     setStatus("success");
-                    setTimeout(() => {
-                        onClose();
-                        window.location.href = "/dashboard";
-                    }, 1200);
+                    onClose();
+                    router.push("/dashboard");
+                    router.refresh();
                 } else {
                     setStatus("idle");
                 }
@@ -141,11 +142,10 @@ export default function AuthSpaceModal({
                     session: sessionId,
                 });
                 setStatus("success");
-                setTimeout(() => {
-                    onClose();
-                    setIsVerifying(false);
-                    window.location.href = "/dashboard";
-                }, 1200);
+                setIsVerifying(false);
+                onClose();
+                router.push("/dashboard");
+                router.refresh();
             }
         } catch (err: any) {
             console.error(err);
