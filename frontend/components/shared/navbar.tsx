@@ -10,10 +10,12 @@ import {
     type SupportedLanguage,
 } from "../../i18n";
 import { useUser, useClerk } from "@clerk/nextjs";
+import { useRouter } from "next/navigation";
 import AuthSpaceModal from "@/app/auth/authmodal";
 import Cabinet from "../cabinet/cabinet";
 
 export function Navbar() {
+    const router = useRouter();
     const { i18n, t } = useTranslation();
     const { isSignedIn: isClerkSignedIn, isLoaded, user } = useUser();
     const { signOut } = useClerk();
@@ -22,6 +24,7 @@ export function Navbar() {
     const [isCabinetOpen, setIsCabinetOpen] = useState(false);
     const [hasNewMessage, setHasNewMessage] = useState(false);
     const [mounted, setMounted] = useState(false);
+    const [isLoggingOut, setIsLoggingOut] = useState(false);
 
     useEffect(() => {
         setMounted(true);
@@ -68,8 +71,7 @@ export function Navbar() {
         return () => clearInterval(checkInterval);
     }, [mounted, user?.id]);
 
-    // Hydration va desinxronizatsiya bo'lmasligi uchun faqat Clerk holatidan foydalaniladi
-    const isLoggedIn = mounted && isLoaded && isClerkSignedIn;
+    const isLoggedIn = mounted && !isLoggingOut && Boolean(isClerkSignedIn || user);
 
     useEffect(() => {
         const savedLanguage = localStorage.getItem(
@@ -95,19 +97,20 @@ export function Navbar() {
         : defaultLanguage;
 
     const handleLogout = async () => {
-        console.log("Tizimdan chiqish jarayoni boshlandi...");
-
-        // Agar biror mahalliy storage ma'lumotlari bo'lsa tozalaymiz
+        setIsLoggingOut(true);
         localStorage.removeItem("access_token");
         localStorage.removeItem("user");
+
+        router.replace("/");
+        router.refresh();
 
         try {
             await signOut();
         } catch (err) {
             console.error("Clerk signout error:", err);
+        } finally {
+            setIsLoggingOut(false);
         }
-
-        window.location.href = "/";
     };
 
     return (
@@ -148,7 +151,7 @@ export function Navbar() {
                             whileHover={{ scale: 1.02 }}
                             whileTap={{ scale: 0.98 }}
                             onClick={openCabinet}
-                            className="relative group overflow-hidden px-5 py-2 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 transition-all"
+                            className="relative group overflow-hidden px-5 py-2 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 transition-all cursor-pointer"
                         >
                             {hasNewMessage && (
                                 <span className="absolute top-0 right-0 flex h-2.5 w-2.5 -mt-1 -mr-1">
@@ -165,14 +168,14 @@ export function Navbar() {
                         </motion.button>
                     )}
 
-                    {!isLoaded || !mounted ? (
-                        <div className="w-24 h-9 bg-white/5 border border-white/10 rounded-full animate-pulse" />
+                    {!mounted ? (
+                        <div className="w-24 h-9 bg-white/5 border border-white/10 rounded-full" />
                     ) : isLoggedIn ? (
                         <motion.button
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
                             onClick={handleLogout}
-                            className="relative group overflow-hidden px-5 py-2 rounded-full border border-red-500/30 bg-red-500/5 transition-all"
+                            className="relative group overflow-hidden px-5 py-2 rounded-full border border-red-500/30 bg-red-500/5 transition-all cursor-pointer"
                         >
                             <div className="relative z-10 flex items-center gap-2">
                                 <LogOut className="w-4 h-4 text-red-400" />
@@ -186,7 +189,7 @@ export function Navbar() {
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
                             onClick={() => setIsAuthOpen(true)}
-                            className="relative group overflow-hidden px-5 py-2 rounded-full border border-cyan-500/30 bg-cyan-500/5 transition-all"
+                            className="relative group overflow-hidden px-5 py-2 rounded-full border border-cyan-500/30 bg-cyan-500/5 transition-all cursor-pointer"
                         >
                             <div className="absolute inset-0 bg-cyan-500/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
 
@@ -275,8 +278,8 @@ export function Navbar() {
 
                         <div className="h-[1px] bg-white/5 w-full" />
 
-                        {!isLoaded || !mounted ? (
-                            <div className="w-full h-10 bg-white/5 border border-white/10 rounded-xl animate-pulse" />
+                        {!mounted ? (
+                            <div className="w-full h-10 bg-white/5 border border-white/10 rounded-xl" />
                         ) : isLoggedIn ? (
                             <button
                                 onClick={() => {
